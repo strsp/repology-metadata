@@ -1,48 +1,42 @@
 name: Repology metadata
-
 on:
   workflow_dispatch:
-
 jobs:
   main:
     runs-on: ubuntu-slim
     steps:
-    - name: Clone repository
-      uses: actions/checkout@v6
+    - name: Generate GitHub App installation token
+      id: app-token
+      uses: actions/create-github-app-token@1b10c78c7865c340bc4f6099eb2f838309f1e8c3
       with:
-        token: ${{ secrets.GITHUB_TOKEN }}
+        client-id: ${{ secrets.APP_ID }}
+        private-key: ${{ secrets.APP_PRIVATE_KEY }}
+    - name: Clone repository
+      uses: actions/checkout@v4
+      with:
+        token: ${{ steps.app-token.outputs.token }}  # was: secrets.GITHUB_TOKEN
     - name: Clone termux-packages
       run: |
         mkdir -p /tmp/repos
-        # We are doing a full clone because we are extracting the commit ids of
-        # the last commit where the patch files and build.sh were changed
         git clone --filter=blob:none \
           https://github.com/strsp/termux-ng.git \
           /tmp/repos/termux-packages
         cd /tmp/repos/termux-packages
-        # Speed up git log by significant amount
-        # See: https://stackoverflow.com/questions/35186829/how-to-improve-git-log-performance
-        #
-        # git gc further reduces the time to build the metadata on my 20-thread laptop from 1m42s to 0m12s
-        # The other optimistions are taken from the above linked stackoverflow post
-        #
-        # Although the improvements are great on my powerful laptop, the CI only has 2 cores, so this just
-        # slows it down as gc is a CPU intensive task.
-        # git gc --aggressive
         git config core.commitGraph true
         git config gc.writeCommitGraph true
         git repack -Ad --max-pack-size=1g
         git commit-graph write --changed-paths --reachable
     - name: Generate packages.json
+      env:
+        GITHUB_TOKEN: ${{ steps.app-token.outputs.token }}
+        GH_TOKEN: ${{ steps.app-token.outputs.token }}
       run: |
         export TERMUX_SCRIPTDIR=/tmp/repos/termux-packages
         bash ./generate-repology-metadata.sh /tmp/repos/termux-packages > ./packages.json
-
         if ! jq . ./packages.json > /dev/null; then
           echo "Error: invalid packages.json" > /dev/stderr
           exit 1
         fi
-
         if [ $(git diff ./packages.json | wc -l) -gt 0 ]; then
           git config --global user.name "Termux Github Actions"
           git config --global user.email "contact@termux.dev"
