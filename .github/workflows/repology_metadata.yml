@@ -12,7 +12,7 @@ jobs:
         client-id: ${{ secrets.APP_ID }}
         private-key: ${{ secrets.APP_PRIVATE_KEY }}
     - name: Clone repository
-      uses: actions/checkout@v4
+      uses: actions/checkout@v6
       with:
         token: ${{ steps.app-token.outputs.token }}  # was: secrets.GITHUB_TOKEN
     - name: Clone termux-packages
