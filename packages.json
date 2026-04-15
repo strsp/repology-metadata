@@ -5629,26 +5629,26 @@
   },
   {
     "name": "dart",
-    "version": "3.11.4",
+    "version": "3.11.5",
     "description": "Dart is a general-purpose programming language",
     "homepage": "https://dart.dev/",
     "depends": [],
-    "srcurl": "https://github.com/dart-lang/sdk/archive/refs/tags/3.11.4.tar.gz",
+    "srcurl": "https://github.com/dart-lang/sdk/archive/refs/tags/3.11.5.tar.gz",
     "maintainer": "@0x1ACA663",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/cab03053dc/packages/dart",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/cab03053dc/packages/dart/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/cab03053dc/packages/dart/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/1440aa4394/packages/dart",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/1440aa4394/packages/dart/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/1440aa4394/packages/dart/build.sh",
     "package_patch_urls": [
-      "https://github.com/strsp/termux-ng/blob/cab03053dc/packages/dart/sdk-pkg-_fe_analyzer_shared-lib-src-util-colors.dart.patch",
-      "https://github.com/strsp/termux-ng/blob/cab03053dc/packages/dart/sdk-runtime-bin-directory_linux.cc.patch",
-      "https://github.com/strsp/termux-ng/blob/cab03053dc/packages/dart/sdk-runtime-vm-os_android.cc.patch",
-      "https://github.com/strsp/termux-ng/blob/cab03053dc/packages/dart/sdk-sdk-lib-_internal-vm-bin-process_patch.dart.patch"
+      "https://github.com/strsp/termux-ng/blob/1440aa4394/packages/dart/sdk-pkg-_fe_analyzer_shared-lib-src-util-colors.dart.patch",
+      "https://github.com/strsp/termux-ng/blob/1440aa4394/packages/dart/sdk-runtime-bin-directory_linux.cc.patch",
+      "https://github.com/strsp/termux-ng/blob/1440aa4394/packages/dart/sdk-runtime-vm-os_android.cc.patch",
+      "https://github.com/strsp/termux-ng/blob/1440aa4394/packages/dart/sdk-sdk-lib-_internal-vm-bin-process_patch.dart.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/strsp/termux-ng/cab03053dc/packages/dart/sdk-pkg-_fe_analyzer_shared-lib-src-util-colors.dart.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/cab03053dc/packages/dart/sdk-runtime-bin-directory_linux.cc.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/cab03053dc/packages/dart/sdk-runtime-vm-os_android.cc.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/cab03053dc/packages/dart/sdk-sdk-lib-_internal-vm-bin-process_patch.dart.patch"
+      "https://raw.githubusercontent.com/strsp/termux-ng/1440aa4394/packages/dart/sdk-pkg-_fe_analyzer_shared-lib-src-util-colors.dart.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/1440aa4394/packages/dart/sdk-runtime-bin-directory_linux.cc.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/1440aa4394/packages/dart/sdk-runtime-vm-os_android.cc.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/1440aa4394/packages/dart/sdk-sdk-lib-_internal-vm-bin-process_patch.dart.patch"
     ],
     "auto_updated": true
   },
@@ -6102,20 +6102,20 @@
   },
   {
     "name": "diffstat",
-    "version": "1.68",
+    "version": "1.69",
     "description": "Displays a histogram of changes to a file",
     "homepage": "https://invisible-island.net/diffstat/diffstat.html",
     "depends": [],
-    "srcurl": "https://github.com/ThomasDickey/diffstat-snapshots/archive/refs/tags/v1_68.tar.gz",
+    "srcurl": "https://github.com/ThomasDickey/diffstat-snapshots/archive/refs/tags/v1_69.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/da837f93ca/packages/diffstat",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/da837f93ca/packages/diffstat/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/da837f93ca/packages/diffstat/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/b88a9a58f8/packages/diffstat",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/b88a9a58f8/packages/diffstat/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/b88a9a58f8/packages/diffstat/build.sh",
     "package_patch_urls": [
-      "https://github.com/strsp/termux-ng/blob/da837f93ca/packages/diffstat/diffstat.c.patch"
+      "https://github.com/strsp/termux-ng/blob/b88a9a58f8/packages/diffstat/diffstat.c.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/strsp/termux-ng/da837f93ca/packages/diffstat/diffstat.c.patch"
+      "https://raw.githubusercontent.com/strsp/termux-ng/b88a9a58f8/packages/diffstat/diffstat.c.patch"
     ],
     "auto_updated": true
   },
@@ -43817,29 +43817,29 @@
   },
   {
     "name": "wasmedge",
-    "version": "0.16.1",
+    "version": "0.16.2",
     "description": "A lightweight, high-performance, and extensible WebAssembly runtime",
     "homepage": "https://wasmedge.org/",
     "depends": [
       "libc++",
       "libspdlog"
     ],
-    "srcurl": "https://github.com/WasmEdge/WasmEdge/releases/download/0.16.1/WasmEdge-0.16.1-src.tar.gz",
+    "srcurl": "https://github.com/WasmEdge/WasmEdge/releases/download/0.16.2/WasmEdge-0.16.2-src.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/f84740837d/packages/wasmedge",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/f84740837d/packages/wasmedge/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/f84740837d/packages/wasmedge/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/37d61bbfc8/packages/wasmedge",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/37d61bbfc8/packages/wasmedge/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/37d61bbfc8/packages/wasmedge/build.sh",
     "package_patch_urls": [
-      "https://github.com/strsp/termux-ng/blob/f84740837d/packages/wasmedge/cmake-Helper.cmake.patch",
-      "https://github.com/strsp/termux-ng/blob/f84740837d/packages/wasmedge/fix-for-arm.patch",
-      "https://github.com/strsp/termux-ng/blob/f84740837d/packages/wasmedge/lib-loader-aot_section.cpp.patch",
-      "https://github.com/strsp/termux-ng/blob/f84740837d/packages/wasmedge/lib-system-allocator.cpp.patch"
+      "https://github.com/strsp/termux-ng/blob/37d61bbfc8/packages/wasmedge/cmake-Helper.cmake.patch",
+      "https://github.com/strsp/termux-ng/blob/37d61bbfc8/packages/wasmedge/fix-for-arm.patch",
+      "https://github.com/strsp/termux-ng/blob/37d61bbfc8/packages/wasmedge/lib-loader-aot_section.cpp.patch",
+      "https://github.com/strsp/termux-ng/blob/37d61bbfc8/packages/wasmedge/lib-system-allocator.cpp.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/strsp/termux-ng/f84740837d/packages/wasmedge/cmake-Helper.cmake.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/f84740837d/packages/wasmedge/fix-for-arm.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/f84740837d/packages/wasmedge/lib-loader-aot_section.cpp.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/f84740837d/packages/wasmedge/lib-system-allocator.cpp.patch"
+      "https://raw.githubusercontent.com/strsp/termux-ng/37d61bbfc8/packages/wasmedge/cmake-Helper.cmake.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/37d61bbfc8/packages/wasmedge/fix-for-arm.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/37d61bbfc8/packages/wasmedge/lib-loader-aot_section.cpp.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/37d61bbfc8/packages/wasmedge/lib-system-allocator.cpp.patch"
     ],
     "auto_updated": true
   },
