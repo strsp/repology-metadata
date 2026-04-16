@@ -14015,15 +14015,15 @@
   },
   {
     "name": "jfrog-cli",
-    "version": "2.99.0",
+    "version": "2.100.0",
     "description": "A CLI for JFrog products",
     "homepage": "https://jfrog.com/getcli",
     "depends": [],
-    "srcurl": "https://github.com/jfrog/jfrog-cli/archive/refs/tags/v2.99.0.tar.gz",
+    "srcurl": "https://github.com/jfrog/jfrog-cli/archive/refs/tags/v2.100.0.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/c7d2f108ff/packages/jfrog-cli",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/c7d2f108ff/packages/jfrog-cli/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/c7d2f108ff/packages/jfrog-cli/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/5feff6444f/packages/jfrog-cli",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/5feff6444f/packages/jfrog-cli/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/5feff6444f/packages/jfrog-cli/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -14738,15 +14738,15 @@
   },
   {
     "name": "kubectl",
-    "version": "1.35.3",
+    "version": "1.35.4",
     "description": "Kubernetes.io client binary",
     "homepage": "https://kubernetes.io/",
     "depends": [],
-    "srcurl": "https://dl.k8s.io/v1.35.3/kubernetes-src.tar.gz",
+    "srcurl": "https://dl.k8s.io/v1.35.4/kubernetes-src.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/850c4dbd9a/packages/kubectl",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/850c4dbd9a/packages/kubectl/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/850c4dbd9a/packages/kubectl/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/42af3f6468/packages/kubectl",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/42af3f6468/packages/kubectl/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/42af3f6468/packages/kubectl/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -14961,15 +14961,15 @@
   },
   {
     "name": "lego",
-    "version": "4.33.0",
+    "version": "4.34.0",
     "description": "Let's Encrypt/ACME client and library written in Go",
     "homepage": "https://github.com/go-acme/lego",
     "depends": [],
-    "srcurl": "https://github.com/go-acme/lego/archive/refs/tags/v4.33.0.tar.gz",
+    "srcurl": "https://github.com/go-acme/lego/archive/refs/tags/v4.34.0.tar.gz",
     "maintainer": "Izumi Sena Sora <info@unordinary.eu.org>",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/c37c229b43/packages/lego",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/c37c229b43/packages/lego/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/c37c229b43/packages/lego/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/d1693ac519/packages/lego",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/d1693ac519/packages/lego/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/d1693ac519/packages/lego/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -24967,7 +24967,7 @@
   },
   {
     "name": "lux-cli",
-    "version": "0.28.1",
+    "version": "0.28.2",
     "description": "A package manager for Lua, similar to luarocks",
     "homepage": "https://lux.lumen-labs.org",
     "depends": [
@@ -24979,11 +24979,11 @@
       "openssl",
       "xz-utils"
     ],
-    "srcurl": "https://github.com/lumen-oss/lux/archive/refs/tags/v0.28.1.tar.gz",
+    "srcurl": "https://github.com/lumen-oss/lux/archive/refs/tags/v0.28.2.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/0f2292bd7a/packages/lux-cli",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/0f2292bd7a/packages/lux-cli/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/0f2292bd7a/packages/lux-cli/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/3cc13e7e6b/packages/lux-cli",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/3cc13e7e6b/packages/lux-cli/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/3cc13e7e6b/packages/lux-cli/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -29522,24 +29522,24 @@
   },
   {
     "name": "nushell",
-    "version": "0.112.1",
+    "version": "0.112.2",
     "description": "A new type of shell operating on structured data",
     "homepage": "https://www.nushell.sh",
     "depends": [
       "openssl"
     ],
-    "srcurl": "https://github.com/nushell/nushell/archive/refs/tags/0.112.1.tar.gz",
+    "srcurl": "https://github.com/nushell/nushell/archive/refs/tags/0.112.2.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/209e044427/packages/nushell",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/209e044427/packages/nushell/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/209e044427/packages/nushell/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/f3c6c74ba8/packages/nushell",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/f3c6c74ba8/packages/nushell/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/f3c6c74ba8/packages/nushell/build.sh",
     "package_patch_urls": [
-      "https://github.com/strsp/termux-ng/blob/209e044427/packages/nushell/0001-remove-sysinfo-Users.patch",
-      "https://github.com/strsp/termux-ng/blob/209e044427/packages/nushell/0002-replace-osc-52-paste-with-termux-clipboard-get.patch"
+      "https://github.com/strsp/termux-ng/blob/f3c6c74ba8/packages/nushell/0001-remove-sysinfo-Users.patch",
+      "https://github.com/strsp/termux-ng/blob/f3c6c74ba8/packages/nushell/0002-replace-osc-52-paste-with-termux-clipboard-get.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/strsp/termux-ng/209e044427/packages/nushell/0001-remove-sysinfo-Users.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/209e044427/packages/nushell/0002-replace-osc-52-paste-with-termux-clipboard-get.patch"
+      "https://raw.githubusercontent.com/strsp/termux-ng/f3c6c74ba8/packages/nushell/0001-remove-sysinfo-Users.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/f3c6c74ba8/packages/nushell/0002-replace-osc-52-paste-with-termux-clipboard-get.patch"
     ],
     "auto_updated": true
   },
@@ -34984,15 +34984,15 @@
   },
   {
     "name": "railway-cli",
-    "version": "4.37.3",
+    "version": "4.37.4",
     "description": "This is the command line interface for Railway",
     "homepage": "https://railway.app",
     "depends": [],
-    "srcurl": "https://github.com/railwayapp/cli/archive/refs/tags/v4.37.3.tar.gz",
+    "srcurl": "https://github.com/railwayapp/cli/archive/refs/tags/v4.37.4.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/73a43cd0f6/packages/railway-cli",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/73a43cd0f6/packages/railway-cli/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/73a43cd0f6/packages/railway-cli/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/57fb26c5dd/packages/railway-cli",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/57fb26c5dd/packages/railway-cli/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/57fb26c5dd/packages/railway-cli/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -41852,22 +41852,22 @@
   },
   {
     "name": "turbopack",
-    "version": "16.2.3",
+    "version": "16.2.4",
     "description": "Rust-based incremental compilation engine and bundler for Next.js",
     "homepage": "https://nextjs.org/",
     "depends": [
       "ca-certificates"
     ],
-    "srcurl": "https://github.com/vercel/next.js/archive/refs/tags/v16.2.3.tar.gz",
+    "srcurl": "https://github.com/vercel/next.js/archive/refs/tags/v16.2.4.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/18a333918d/packages/turbopack",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/18a333918d/packages/turbopack/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/18a333918d/packages/turbopack/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/117c790c77/packages/turbopack",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/117c790c77/packages/turbopack/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/117c790c77/packages/turbopack/build.sh",
     "package_patch_urls": [
-      "https://github.com/strsp/termux-ng/blob/18a333918d/packages/turbopack/add_android_build.patch"
+      "https://github.com/strsp/termux-ng/blob/117c790c77/packages/turbopack/add_android_build.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/strsp/termux-ng/18a333918d/packages/turbopack/add_android_build.patch"
+      "https://raw.githubusercontent.com/strsp/termux-ng/117c790c77/packages/turbopack/add_android_build.patch"
     ],
     "auto_updated": true
   },
@@ -42676,22 +42676,22 @@
   },
   {
     "name": "uv",
-    "version": "0.11.6",
+    "version": "0.11.7",
     "description": "An extremely fast Python package installer and resolver, written in Rust.",
     "homepage": "https://docs.astral.sh/uv/",
     "depends": [
       "zstd"
     ],
-    "srcurl": "https://github.com/astral-sh/uv/archive/refs/tags/0.11.6.tar.gz",
+    "srcurl": "https://github.com/astral-sh/uv/archive/refs/tags/0.11.7.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/b0608d1371/packages/uv",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/b0608d1371/packages/uv/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/b0608d1371/packages/uv/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/4cee85947b/packages/uv",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/4cee85947b/packages/uv/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/4cee85947b/packages/uv/build.sh",
     "package_patch_urls": [
-      "https://github.com/strsp/termux-ng/blob/b0608d1371/packages/uv/fix-file-locks-on-android.patch"
+      "https://github.com/strsp/termux-ng/blob/4cee85947b/packages/uv/fix-file-locks-on-android.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/strsp/termux-ng/b0608d1371/packages/uv/fix-file-locks-on-android.patch"
+      "https://raw.githubusercontent.com/strsp/termux-ng/4cee85947b/packages/uv/fix-file-locks-on-android.patch"
     ],
     "auto_updated": true
   },
