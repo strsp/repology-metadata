@@ -38,8 +38,8 @@ jobs:
           exit 1
         fi
         if [ $(git diff ./packages.json | wc -l) -gt 0 ]; then
-          git config --global user.name "Termux Github Actions"
-          git config --global user.email "contact@termux.dev"
+          git config --global user.name "pkgitbot"
+          git config --global user.email "pkgitbot@users.noreply.github.com"
           git add ./packages.json
           git commit -m "Generate new metadata for Repology"
           git push
