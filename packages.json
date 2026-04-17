@@ -33700,20 +33700,20 @@
   },
   {
     "name": "pyrefly",
-    "version": "0.61.0",
+    "version": "0.61.1",
     "description": "A fast type checker and language server for Python",
     "homepage": "https://github.com/facebook/pyrefly.git",
     "depends": [],
-    "srcurl": "https://github.com/facebook/pyrefly/archive/refs/tags/0.61.0.tar.gz",
+    "srcurl": "https://github.com/facebook/pyrefly/archive/refs/tags/0.61.1.tar.gz",
     "maintainer": "@AhmadNaruto",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/53ca445383/packages/pyrefly",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/53ca445383/packages/pyrefly/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/53ca445383/packages/pyrefly/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/8644ed401b/packages/pyrefly",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/8644ed401b/packages/pyrefly/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/8644ed401b/packages/pyrefly/build.sh",
     "package_patch_urls": [
-      "https://github.com/strsp/termux-ng/blob/53ca445383/packages/pyrefly/rust-cc-do-not-concatenate-all-the-CFLAGS.diff"
+      "https://github.com/strsp/termux-ng/blob/8644ed401b/packages/pyrefly/rust-cc-do-not-concatenate-all-the-CFLAGS.diff"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/strsp/termux-ng/53ca445383/packages/pyrefly/rust-cc-do-not-concatenate-all-the-CFLAGS.diff"
+      "https://raw.githubusercontent.com/strsp/termux-ng/8644ed401b/packages/pyrefly/rust-cc-do-not-concatenate-all-the-CFLAGS.diff"
     ],
     "auto_updated": true
   },
@@ -34995,15 +34995,15 @@
   },
   {
     "name": "railway-cli",
-    "version": "4.39.0",
+    "version": "4.40.0",
     "description": "This is the command line interface for Railway",
     "homepage": "https://railway.app",
     "depends": [],
-    "srcurl": "https://github.com/railwayapp/cli/archive/refs/tags/v4.39.0.tar.gz",
+    "srcurl": "https://github.com/railwayapp/cli/archive/refs/tags/v4.40.0.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/4f6a3ec9e5/packages/railway-cli",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/4f6a3ec9e5/packages/railway-cli/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/4f6a3ec9e5/packages/railway-cli/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/d86526e753/packages/railway-cli",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/d86526e753/packages/railway-cli/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/d86526e753/packages/railway-cli/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -44449,15 +44449,15 @@
   },
   {
     "name": "wtfutil",
-    "version": "0.49.0",
+    "version": "0.49.1",
     "description": "The personal information dashboard for your terminal",
     "homepage": "https://wtfutil.com/",
     "depends": [],
     "srcurl": "git+https://github.com/wtfutil/wtf",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/51bfaaade2/packages/wtfutil",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/51bfaaade2/packages/wtfutil/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/51bfaaade2/packages/wtfutil/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/fd05638aa9/packages/wtfutil",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/fd05638aa9/packages/wtfutil/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/fd05638aa9/packages/wtfutil/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -70615,7 +70615,7 @@
   },
   {
     "name": "xrdp",
-    "version": "0.10.5",
+    "version": "0.10.6",
     "description": "An open source remote desktop protocol (RDP) server",
     "homepage": "https://github.com/neutrinolabs/xrdp",
     "depends": [
@@ -70628,24 +70628,24 @@
       "procps",
       "tigervnc"
     ],
-    "srcurl": "https://github.com/neutrinolabs/xrdp/releases/download/v0.10.5/xrdp-0.10.5.tar.gz",
+    "srcurl": "https://github.com/neutrinolabs/xrdp/releases/download/v0.10.6/xrdp-0.10.6.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/d0ad6d6927/x11-packages/xrdp",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/d0ad6d6927/x11-packages/xrdp/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/d0ad6d6927/x11-packages/xrdp/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/9bb9af4391/x11-packages/xrdp",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/9bb9af4391/x11-packages/xrdp/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/9bb9af4391/x11-packages/xrdp/build.sh",
     "package_patch_urls": [
-      "https://github.com/strsp/termux-ng/blob/d0ad6d6927/x11-packages/xrdp/dont-run-keygen.patch",
-      "https://github.com/strsp/termux-ng/blob/d0ad6d6927/x11-packages/xrdp/fix-configs.patch",
-      "https://github.com/strsp/termux-ng/blob/d0ad6d6927/x11-packages/xrdp/fix-tmpdir.patch",
-      "https://github.com/strsp/termux-ng/blob/d0ad6d6927/x11-packages/xrdp/no-getlogin_r.patch",
-      "https://github.com/strsp/termux-ng/blob/d0ad6d6927/x11-packages/xrdp/termux-dont-have-shadow.patch"
+      "https://github.com/strsp/termux-ng/blob/9bb9af4391/x11-packages/xrdp/dont-run-keygen.patch",
+      "https://github.com/strsp/termux-ng/blob/9bb9af4391/x11-packages/xrdp/fix-configs.patch",
+      "https://github.com/strsp/termux-ng/blob/9bb9af4391/x11-packages/xrdp/fix-tmpdir.patch",
+      "https://github.com/strsp/termux-ng/blob/9bb9af4391/x11-packages/xrdp/no-getlogin_r.patch",
+      "https://github.com/strsp/termux-ng/blob/9bb9af4391/x11-packages/xrdp/termux-dont-have-shadow.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/strsp/termux-ng/d0ad6d6927/x11-packages/xrdp/dont-run-keygen.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/d0ad6d6927/x11-packages/xrdp/fix-configs.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/d0ad6d6927/x11-packages/xrdp/fix-tmpdir.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/d0ad6d6927/x11-packages/xrdp/no-getlogin_r.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/d0ad6d6927/x11-packages/xrdp/termux-dont-have-shadow.patch"
+      "https://raw.githubusercontent.com/strsp/termux-ng/9bb9af4391/x11-packages/xrdp/dont-run-keygen.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/9bb9af4391/x11-packages/xrdp/fix-configs.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/9bb9af4391/x11-packages/xrdp/fix-tmpdir.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/9bb9af4391/x11-packages/xrdp/no-getlogin_r.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/9bb9af4391/x11-packages/xrdp/termux-dont-have-shadow.patch"
     ],
     "auto_updated": true
   },
