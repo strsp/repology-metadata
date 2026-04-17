@@ -13912,7 +13912,7 @@
   },
   {
     "name": "jackett",
-    "version": "0.24.1608",
+    "version": "0.24.1614",
     "description": "API Support for your favorite torrent trackers",
     "homepage": "https://github.com/jackett/jackett",
     "depends": [
@@ -13920,11 +13920,11 @@
       "dotnet-host",
       "dotnet-runtime-9.0"
     ],
-    "srcurl": "https://github.com/Jackett/Jackett/archive/refs/tags/v0.24.1608.tar.gz",
+    "srcurl": "https://github.com/Jackett/Jackett/archive/refs/tags/v0.24.1614.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/36eadd6f40/packages/jackett",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/36eadd6f40/packages/jackett/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/36eadd6f40/packages/jackett/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/c1898c6073/packages/jackett",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/c1898c6073/packages/jackett/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/c1898c6073/packages/jackett/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -28496,18 +28496,18 @@
       "tree-sitter-parsers",
       "utf8proc"
     ],
-    "srcurl": "https://github.com/neovim/neovim/archive/0e07b2a1e2.tar.gz",
+    "srcurl": "https://github.com/neovim/neovim/archive/39410ef42b.tar.gz",
     "maintainer": "Joshua Kahn <tom@termux.dev>",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/9c0d150890/packages/neovim-nightly",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/9c0d150890/packages/neovim-nightly/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/9c0d150890/packages/neovim-nightly/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/9846cfb755/packages/neovim-nightly",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/9846cfb755/packages/neovim-nightly/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/9846cfb755/packages/neovim-nightly/build.sh",
     "package_patch_urls": [
-      "https://github.com/strsp/termux-ng/blob/9c0d150890/packages/neovim-nightly/disable-checkhealth-locale-warning.patch",
-      "https://github.com/strsp/termux-ng/blob/9c0d150890/packages/neovim-nightly/src-nvim-os-stdpaths.c.patch"
+      "https://github.com/strsp/termux-ng/blob/9846cfb755/packages/neovim-nightly/disable-checkhealth-locale-warning.patch",
+      "https://github.com/strsp/termux-ng/blob/9846cfb755/packages/neovim-nightly/src-nvim-os-stdpaths.c.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/strsp/termux-ng/9c0d150890/packages/neovim-nightly/disable-checkhealth-locale-warning.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/9c0d150890/packages/neovim-nightly/src-nvim-os-stdpaths.c.patch"
+      "https://raw.githubusercontent.com/strsp/termux-ng/9846cfb755/packages/neovim-nightly/disable-checkhealth-locale-warning.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/9846cfb755/packages/neovim-nightly/src-nvim-os-stdpaths.c.patch"
     ],
     "auto_updated": true
   },
@@ -29872,7 +29872,7 @@
   },
   {
     "name": "ollama",
-    "version": "0.20.7",
+    "version": "0.21.0",
     "description": "Get up and running with large language models",
     "homepage": "https://ollama.com/",
     "depends": [
@@ -29880,26 +29880,26 @@
     ],
     "srcurl": "git+https://github.com/ollama/ollama",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/6592e6d70a/packages/ollama",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/6592e6d70a/packages/ollama/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/6592e6d70a/packages/ollama/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/0234826383/packages/ollama",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/0234826383/packages/ollama/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/0234826383/packages/ollama/build.sh",
     "package_patch_urls": [
-      "https://github.com/strsp/termux-ng/blob/6592e6d70a/packages/ollama/0001-do-not-install-runtime-deps.patch",
-      "https://github.com/strsp/termux-ng/blob/6592e6d70a/packages/ollama/0002-properly-search-libs-on-android.patch",
-      "https://github.com/strsp/termux-ng/blob/6592e6d70a/packages/ollama/0003-do-not-include-sources-for-vulkan-again.patch",
-      "https://github.com/strsp/termux-ng/blob/6592e6d70a/packages/ollama/0004-force-disable-features-on-Andoid.patch",
-      "https://github.com/strsp/termux-ng/blob/6592e6d70a/packages/ollama/0006-do-not-search-hip-memory.patch",
-      "https://github.com/strsp/termux-ng/blob/6592e6d70a/packages/ollama/0007-do-not-use-flash-attention-when-using-cpu.patch",
-      "https://github.com/strsp/termux-ng/blob/6592e6d70a/packages/ollama/0008-fix-build-with-latest-vulkan-hpp.patch"
+      "https://github.com/strsp/termux-ng/blob/0234826383/packages/ollama/0001-do-not-install-runtime-deps.patch",
+      "https://github.com/strsp/termux-ng/blob/0234826383/packages/ollama/0002-properly-search-libs-on-android.patch",
+      "https://github.com/strsp/termux-ng/blob/0234826383/packages/ollama/0003-do-not-include-sources-for-vulkan-again.patch",
+      "https://github.com/strsp/termux-ng/blob/0234826383/packages/ollama/0004-force-disable-features-on-Andoid.patch",
+      "https://github.com/strsp/termux-ng/blob/0234826383/packages/ollama/0006-do-not-search-hip-memory.patch",
+      "https://github.com/strsp/termux-ng/blob/0234826383/packages/ollama/0007-do-not-use-flash-attention-when-using-cpu.patch",
+      "https://github.com/strsp/termux-ng/blob/0234826383/packages/ollama/0008-fix-build-with-latest-vulkan-hpp.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/strsp/termux-ng/6592e6d70a/packages/ollama/0001-do-not-install-runtime-deps.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/6592e6d70a/packages/ollama/0002-properly-search-libs-on-android.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/6592e6d70a/packages/ollama/0003-do-not-include-sources-for-vulkan-again.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/6592e6d70a/packages/ollama/0004-force-disable-features-on-Andoid.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/6592e6d70a/packages/ollama/0006-do-not-search-hip-memory.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/6592e6d70a/packages/ollama/0007-do-not-use-flash-attention-when-using-cpu.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/6592e6d70a/packages/ollama/0008-fix-build-with-latest-vulkan-hpp.patch"
+      "https://raw.githubusercontent.com/strsp/termux-ng/0234826383/packages/ollama/0001-do-not-install-runtime-deps.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/0234826383/packages/ollama/0002-properly-search-libs-on-android.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/0234826383/packages/ollama/0003-do-not-include-sources-for-vulkan-again.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/0234826383/packages/ollama/0004-force-disable-features-on-Andoid.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/0234826383/packages/ollama/0006-do-not-search-hip-memory.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/0234826383/packages/ollama/0007-do-not-use-flash-attention-when-using-cpu.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/0234826383/packages/ollama/0008-fix-build-with-latest-vulkan-hpp.patch"
     ],
     "auto_updated": true
   },
@@ -34995,15 +34995,15 @@
   },
   {
     "name": "railway-cli",
-    "version": "4.38.0",
+    "version": "4.39.0",
     "description": "This is the command line interface for Railway",
     "homepage": "https://railway.app",
     "depends": [],
-    "srcurl": "https://github.com/railwayapp/cli/archive/refs/tags/v4.38.0.tar.gz",
+    "srcurl": "https://github.com/railwayapp/cli/archive/refs/tags/v4.39.0.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/8f3375495b/packages/railway-cli",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/8f3375495b/packages/railway-cli/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/8f3375495b/packages/railway-cli/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/4f6a3ec9e5/packages/railway-cli",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/4f6a3ec9e5/packages/railway-cli/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/4f6a3ec9e5/packages/railway-cli/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -44982,15 +44982,15 @@
   },
   {
     "name": "yq",
-    "version": "4.52.5",
+    "version": "4.53.2",
     "description": "A lightweight and portable command-line YAML, JSON and XML processor",
     "homepage": "https://mikefarah.gitbook.io/yq/",
     "depends": [],
-    "srcurl": "https://github.com/mikefarah/yq/archive/refs/tags/v4.52.5.tar.gz",
+    "srcurl": "https://github.com/mikefarah/yq/archive/refs/tags/v4.53.2.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/97c07be165/packages/yq",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/97c07be165/packages/yq/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/97c07be165/packages/yq/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/e2b7973fa5/packages/yq",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/e2b7973fa5/packages/yq/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/e2b7973fa5/packages/yq/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
