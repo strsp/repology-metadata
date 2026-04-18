@@ -14785,15 +14785,15 @@
   },
   {
     "name": "kubelogin",
-    "version": "1.36.0",
+    "version": "1.36.1",
     "description": "A kubectl plugin for Kubernetes OpenID Connect (OIDC) authentication",
     "homepage": "https://github.com/int128/kubelogin",
     "depends": [],
-    "srcurl": "https://github.com/int128/kubelogin/archive/refs/tags/v1.36.0.tar.gz",
+    "srcurl": "https://github.com/int128/kubelogin/archive/refs/tags/v1.36.1.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/8b5c498a23/packages/kubelogin",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/8b5c498a23/packages/kubelogin/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/8b5c498a23/packages/kubelogin/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/2f15342340/packages/kubelogin",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/2f15342340/packages/kubelogin/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/2f15342340/packages/kubelogin/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -63589,7 +63589,7 @@
   },
   {
     "name": "praat",
-    "version": "6.4.63",
+    "version": "6.4.64",
     "description": "Doing phonetics by computer",
     "homepage": "https://www.praat.org",
     "depends": [
@@ -63604,18 +63604,18 @@
       "pulseaudio",
       "zlib"
     ],
-    "srcurl": "https://github.com/praat/praat/archive/refs/tags/v6.4.63.tar.gz",
+    "srcurl": "https://github.com/praat/praat/archive/refs/tags/v6.4.64.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/40f3f7a043/x11-packages/praat",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/40f3f7a043/x11-packages/praat/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/40f3f7a043/x11-packages/praat/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/c0e1aecc3a/x11-packages/praat",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/c0e1aecc3a/x11-packages/praat/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/c0e1aecc3a/x11-packages/praat/build.sh",
     "package_patch_urls": [
-      "https://github.com/strsp/termux-ng/blob/40f3f7a043/x11-packages/praat/makefile.defs.patch",
-      "https://github.com/strsp/termux-ng/blob/40f3f7a043/x11-packages/praat/soundcard.h-path.patch"
+      "https://github.com/strsp/termux-ng/blob/c0e1aecc3a/x11-packages/praat/makefile.defs.patch",
+      "https://github.com/strsp/termux-ng/blob/c0e1aecc3a/x11-packages/praat/soundcard.h-path.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/strsp/termux-ng/40f3f7a043/x11-packages/praat/makefile.defs.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/40f3f7a043/x11-packages/praat/soundcard.h-path.patch"
+      "https://raw.githubusercontent.com/strsp/termux-ng/c0e1aecc3a/x11-packages/praat/makefile.defs.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/c0e1aecc3a/x11-packages/praat/soundcard.h-path.patch"
     ],
     "auto_updated": true
   },
