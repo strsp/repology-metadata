@@ -3796,7 +3796,7 @@
   },
   {
     "name": "ccache",
-    "version": "4.13.3",
+    "version": "4.13.4",
     "description": "Compiler cache for fast recompilation of C/C++ code",
     "homepage": "https://ccache.samba.org",
     "depends": [
@@ -3808,11 +3808,11 @@
       "zlib",
       "zstd"
     ],
-    "srcurl": "https://github.com/ccache/ccache/releases/download/v4.13.3/ccache-4.13.3.tar.xz",
+    "srcurl": "https://github.com/ccache/ccache/releases/download/v4.13.4/ccache-4.13.4.tar.xz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/e1fc1a13c0/packages/ccache",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/e1fc1a13c0/packages/ccache/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/e1fc1a13c0/packages/ccache/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/036d1c897c/packages/ccache",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/036d1c897c/packages/ccache/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/036d1c897c/packages/ccache/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -8785,7 +8785,7 @@
   },
   {
     "name": "fluidsynth",
-    "version": "2.5.3",
+    "version": "2.5.4",
     "description": "Software synthesizer based on the SoundFont 2 specifications",
     "homepage": "https://github.com/FluidSynth/fluidsynth",
     "depends": [
@@ -8796,16 +8796,16 @@
       "pulseaudio",
       "readline"
     ],
-    "srcurl": "https://github.com/FluidSynth/fluidsynth/archive/refs/tags/v2.5.3.tar.gz",
+    "srcurl": "https://github.com/FluidSynth/fluidsynth/archive/refs/tags/v2.5.4.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/cc5b3c0eb0/packages/fluidsynth",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/cc5b3c0eb0/packages/fluidsynth/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/cc5b3c0eb0/packages/fluidsynth/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/efe3c5e259/packages/fluidsynth",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/efe3c5e259/packages/fluidsynth/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/efe3c5e259/packages/fluidsynth/build.sh",
     "package_patch_urls": [
-      "https://github.com/strsp/termux-ng/blob/cc5b3c0eb0/packages/fluidsynth/0001-no-android-log.patch"
+      "https://github.com/strsp/termux-ng/blob/efe3c5e259/packages/fluidsynth/0001-no-android-log.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/strsp/termux-ng/cc5b3c0eb0/packages/fluidsynth/0001-no-android-log.patch"
+      "https://raw.githubusercontent.com/strsp/termux-ng/efe3c5e259/packages/fluidsynth/0001-no-android-log.patch"
     ],
     "auto_updated": true
   },
@@ -19566,15 +19566,15 @@
   },
   {
     "name": "libnghttp2",
-    "version": "1.68.1",
+    "version": "1.69.0",
     "description": "nghttp HTTP 2.0 library",
     "homepage": "https://nghttp2.org/",
     "depends": [],
-    "srcurl": "https://github.com/nghttp2/nghttp2/releases/download/v1.68.1/nghttp2-1.68.1.tar.xz",
+    "srcurl": "https://github.com/nghttp2/nghttp2/releases/download/v1.69.0/nghttp2-1.69.0.tar.xz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/548ea6a3fd/packages/libnghttp2",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/548ea6a3fd/packages/libnghttp2/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/548ea6a3fd/packages/libnghttp2/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/ce390b0e44/packages/libnghttp2",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/ce390b0e44/packages/libnghttp2/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/ce390b0e44/packages/libnghttp2/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -32620,17 +32620,17 @@
   },
   {
     "name": "pocketbase",
-    "version": "0.37.0",
+    "version": "0.37.1",
     "description": "An open source Go backend",
     "homepage": "https://github.com/pocketbase/pocketbase",
     "depends": [
       "resolv-conf"
     ],
-    "srcurl": "https://github.com/pocketbase/pocketbase/archive/refs/tags/v0.37.0.tar.gz",
+    "srcurl": "https://github.com/pocketbase/pocketbase/archive/refs/tags/v0.37.1.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/55ded81b82/packages/pocketbase",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/55ded81b82/packages/pocketbase/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/55ded81b82/packages/pocketbase/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/4550e2feea/packages/pocketbase",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/4550e2feea/packages/pocketbase/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/4550e2feea/packages/pocketbase/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -35157,20 +35157,20 @@
   },
   {
     "name": "rclone",
-    "version": "1.73.4",
+    "version": "1.73.5",
     "description": "rsync for cloud storage",
     "homepage": "https://rclone.org/",
     "depends": [],
-    "srcurl": "https://github.com/rclone/rclone/releases/download/v1.73.4/rclone-v1.73.4.tar.gz",
+    "srcurl": "https://github.com/rclone/rclone/releases/download/v1.73.5/rclone-v1.73.5.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/54870555f3/packages/rclone",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/54870555f3/packages/rclone/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/54870555f3/packages/rclone/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/101ad9af7c/packages/rclone",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/101ad9af7c/packages/rclone/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/101ad9af7c/packages/rclone/build.sh",
     "package_patch_urls": [
-      "https://github.com/strsp/termux-ng/blob/54870555f3/packages/rclone/autocomplete_path.patch"
+      "https://github.com/strsp/termux-ng/blob/101ad9af7c/packages/rclone/autocomplete_path.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/strsp/termux-ng/54870555f3/packages/rclone/autocomplete_path.patch"
+      "https://raw.githubusercontent.com/strsp/termux-ng/101ad9af7c/packages/rclone/autocomplete_path.patch"
     ],
     "auto_updated": true
   },
