@@ -13912,7 +13912,7 @@
   },
   {
     "name": "jackett",
-    "version": "0.24.1616",
+    "version": "0.24.1622",
     "description": "API Support for your favorite torrent trackers",
     "homepage": "https://github.com/jackett/jackett",
     "depends": [
@@ -13920,11 +13920,11 @@
       "dotnet-host",
       "dotnet-runtime-9.0"
     ],
-    "srcurl": "https://github.com/Jackett/Jackett/archive/refs/tags/v0.24.1616.tar.gz",
+    "srcurl": "https://github.com/Jackett/Jackett/archive/refs/tags/v0.24.1622.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/8b67ac6048/packages/jackett",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/8b67ac6048/packages/jackett/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/8b67ac6048/packages/jackett/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/8f6526ac63/packages/jackett",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/8f6526ac63/packages/jackett/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/8f6526ac63/packages/jackett/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -28496,18 +28496,18 @@
       "tree-sitter-parsers",
       "utf8proc"
     ],
-    "srcurl": "https://github.com/neovim/neovim/archive/062d0a74b4.tar.gz",
+    "srcurl": "https://github.com/neovim/neovim/archive/d393975b04.tar.gz",
     "maintainer": "Joshua Kahn <tom@termux.dev>",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/53d195d8f1/packages/neovim-nightly",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/53d195d8f1/packages/neovim-nightly/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/53d195d8f1/packages/neovim-nightly/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/f032114c06/packages/neovim-nightly",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/f032114c06/packages/neovim-nightly/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/f032114c06/packages/neovim-nightly/build.sh",
     "package_patch_urls": [
-      "https://github.com/strsp/termux-ng/blob/53d195d8f1/packages/neovim-nightly/disable-checkhealth-locale-warning.patch",
-      "https://github.com/strsp/termux-ng/blob/53d195d8f1/packages/neovim-nightly/src-nvim-os-stdpaths.c.patch"
+      "https://github.com/strsp/termux-ng/blob/f032114c06/packages/neovim-nightly/disable-checkhealth-locale-warning.patch",
+      "https://github.com/strsp/termux-ng/blob/f032114c06/packages/neovim-nightly/src-nvim-os-stdpaths.c.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/strsp/termux-ng/53d195d8f1/packages/neovim-nightly/disable-checkhealth-locale-warning.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/53d195d8f1/packages/neovim-nightly/src-nvim-os-stdpaths.c.patch"
+      "https://raw.githubusercontent.com/strsp/termux-ng/f032114c06/packages/neovim-nightly/disable-checkhealth-locale-warning.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/f032114c06/packages/neovim-nightly/src-nvim-os-stdpaths.c.patch"
     ],
     "auto_updated": true
   },
@@ -32620,17 +32620,17 @@
   },
   {
     "name": "pocketbase",
-    "version": "0.36.9",
+    "version": "0.37.0",
     "description": "An open source Go backend",
     "homepage": "https://github.com/pocketbase/pocketbase",
     "depends": [
       "resolv-conf"
     ],
-    "srcurl": "https://github.com/pocketbase/pocketbase/archive/refs/tags/v0.36.9.tar.gz",
+    "srcurl": "https://github.com/pocketbase/pocketbase/archive/refs/tags/v0.37.0.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/07308cc1a9/packages/pocketbase",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/07308cc1a9/packages/pocketbase/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/07308cc1a9/packages/pocketbase/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/55ded81b82/packages/pocketbase",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/55ded81b82/packages/pocketbase/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/55ded81b82/packages/pocketbase/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
