@@ -795,7 +795,7 @@
   },
   {
     "name": "ani-cli",
-    "version": "4.11",
+    "version": "4.12",
     "description": "A cli to browse and watch anime",
     "homepage": "https://github.com/pystardust/ani-cli",
     "depends": [
@@ -806,16 +806,16 @@
       "sed",
       "wget"
     ],
-    "srcurl": "https://github.com/pystardust/ani-cli/archive/refs/tags/v4.11.tar.gz",
+    "srcurl": "https://github.com/pystardust/ani-cli/archive/refs/tags/v4.12.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/964269e363/packages/ani-cli",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/964269e363/packages/ani-cli/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/964269e363/packages/ani-cli/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/07a111b13a/packages/ani-cli",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/07a111b13a/packages/ani-cli/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/07a111b13a/packages/ani-cli/build.sh",
     "package_patch_urls": [
-      "https://github.com/strsp/termux-ng/blob/964269e363/packages/ani-cli/ani-cli.patch"
+      "https://github.com/strsp/termux-ng/blob/07a111b13a/packages/ani-cli/ani-cli.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/strsp/termux-ng/964269e363/packages/ani-cli/ani-cli.patch"
+      "https://raw.githubusercontent.com/strsp/termux-ng/07a111b13a/packages/ani-cli/ani-cli.patch"
     ],
     "auto_updated": true
   },
@@ -2555,7 +2555,7 @@
   },
   {
     "name": "bitcoin",
-    "version": "30.2",
+    "version": "31.0",
     "description": "Bitcoin Core",
     "homepage": "https://bitcoincore.org/",
     "depends": [
@@ -2563,11 +2563,11 @@
       "libc++",
       "libevent"
     ],
-    "srcurl": "https://github.com/bitcoin/bitcoin/archive/refs/tags/v30.2.tar.gz",
+    "srcurl": "https://github.com/bitcoin/bitcoin/archive/refs/tags/v31.0.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/8b673ae702/packages/bitcoin",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/8b673ae702/packages/bitcoin/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/8b673ae702/packages/bitcoin/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/46ab951b5b/packages/bitcoin",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/46ab951b5b/packages/bitcoin/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/46ab951b5b/packages/bitcoin/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -36870,15 +36870,15 @@
   },
   {
     "name": "sendme",
-    "version": "0.32.0",
+    "version": "0.33.0",
     "description": "A tool to send files and directories, based on iroh",
     "homepage": "https://github.com/n0-computer/sendme",
     "depends": [],
-    "srcurl": "https://github.com/n0-computer/sendme/archive/refs/tags/v0.32.0.tar.gz",
+    "srcurl": "https://github.com/n0-computer/sendme/archive/refs/tags/v0.33.0.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/0e474df959/packages/sendme",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/0e474df959/packages/sendme/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/0e474df959/packages/sendme/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/fe3813c7fe/packages/sendme",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/fe3813c7fe/packages/sendme/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/fe3813c7fe/packages/sendme/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -37375,15 +37375,15 @@
   },
   {
     "name": "sing-box",
-    "version": "1.13.8",
+    "version": "1.13.9",
     "description": "The universal proxy platform",
     "homepage": "https://sing-box.sagernet.org",
     "depends": [],
-    "srcurl": "https://github.com/SagerNet/sing-box/archive/refs/tags/v1.13.8.tar.gz",
+    "srcurl": "https://github.com/SagerNet/sing-box/archive/refs/tags/v1.13.9.tar.gz",
     "maintainer": "kay9925@outlook.com",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/071929e1f1/packages/sing-box",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/071929e1f1/packages/sing-box/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/071929e1f1/packages/sing-box/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/4f89563a39/packages/sing-box",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/4f89563a39/packages/sing-box/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/4f89563a39/packages/sing-box/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -38669,15 +38669,15 @@
   },
   {
     "name": "storj-uplink",
-    "version": "1.151.5",
+    "version": "1.152.3",
     "description": "Storj DCS Uplink CLI",
     "homepage": "https://www.storj.io/integrations/uplink-cli",
     "depends": [],
-    "srcurl": "https://github.com/storj/storj/archive/refs/tags/v1.151.5.tar.gz",
+    "srcurl": "https://github.com/storj/storj/archive/refs/tags/v1.152.3.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/4b5de297a6/packages/storj-uplink",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/4b5de297a6/packages/storj-uplink/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/4b5de297a6/packages/storj-uplink/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/0097ab544c/packages/storj-uplink",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/0097ab544c/packages/storj-uplink/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/0097ab544c/packages/storj-uplink/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -43749,15 +43749,15 @@
   },
   {
     "name": "wakatime-cli",
-    "version": "2.5.0",
+    "version": "2.6.0",
     "description": "Command line interface used by all WakaTime text editor plugins",
     "homepage": "https://wakatime.com/plugins/",
     "depends": [],
-    "srcurl": "https://github.com/wakatime/wakatime-cli/archive/refs/tags/v2.5.0.tar.gz",
+    "srcurl": "https://github.com/wakatime/wakatime-cli/archive/refs/tags/v2.6.0.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/4bb581dac4/packages/wakatime-cli",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/4bb581dac4/packages/wakatime-cli/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/4bb581dac4/packages/wakatime-cli/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/55f6a93da4/packages/wakatime-cli",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/55f6a93da4/packages/wakatime-cli/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/55f6a93da4/packages/wakatime-cli/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -59908,17 +59908,17 @@
   },
   {
     "name": "lxqt-themes",
-    "version": "2.3.0",
+    "version": "2.4.0",
     "description": "Themes, graphics and icons for LXQt",
     "homepage": "https://lxqt.github.io",
     "depends": [
       "hicolor-icon-theme"
     ],
-    "srcurl": "https://github.com/lxqt/lxqt-themes/releases/download/2.3.0/lxqt-themes-2.3.0.tar.xz",
+    "srcurl": "https://github.com/lxqt/lxqt-themes/releases/download/2.4.0/lxqt-themes-2.4.0.tar.xz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/e18b8f1ac4/x11-packages/lxqt-themes",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/e18b8f1ac4/x11-packages/lxqt-themes/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/e18b8f1ac4/x11-packages/lxqt-themes/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/c19f3e1a46/x11-packages/lxqt-themes",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/c19f3e1a46/x11-packages/lxqt-themes/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/c19f3e1a46/x11-packages/lxqt-themes/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -60002,7 +60002,7 @@
   },
   {
     "name": "lyx",
-    "version": "2.5.0",
+    "version": "2.5.1",
     "description": "WYSIWYM (What You See Is What You Mean) Document Processor",
     "homepage": "https://www.lyx.org",
     "depends": [
@@ -60021,11 +60021,11 @@
       "texlive-bin",
       "zlib"
     ],
-    "srcurl": "https://ftp.lip6.fr/pub/lyx/stable/2.5.x/lyx-2.5.0.tar.xz",
+    "srcurl": "https://ftp.lip6.fr/pub/lyx/stable/2.5.x/lyx-2.5.1.tar.xz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/a4d033c741/x11-packages/lyx",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/a4d033c741/x11-packages/lyx/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/a4d033c741/x11-packages/lyx/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/d6e8eb940a/x11-packages/lyx",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/d6e8eb940a/x11-packages/lyx/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/d6e8eb940a/x11-packages/lyx/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -62451,7 +62451,7 @@
   },
   {
     "name": "pavucontrol-qt",
-    "version": "2.3.0",
+    "version": "2.4.0",
     "description": "Qt port of volume control of sound server PulseAudio",
     "homepage": "https://lxqt.github.io",
     "depends": [
@@ -62461,11 +62461,11 @@
       "pulseaudio-glib",
       "qt6-qtbase"
     ],
-    "srcurl": "https://github.com/lxqt/pavucontrol-qt/releases/download/2.3.0/pavucontrol-qt-2.3.0.tar.xz",
+    "srcurl": "https://github.com/lxqt/pavucontrol-qt/releases/download/2.4.0/pavucontrol-qt-2.4.0.tar.xz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/5c46b39730/x11-packages/pavucontrol-qt",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/5c46b39730/x11-packages/pavucontrol-qt/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/5c46b39730/x11-packages/pavucontrol-qt/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/85729fefc2/x11-packages/pavucontrol-qt",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/85729fefc2/x11-packages/pavucontrol-qt/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/85729fefc2/x11-packages/pavucontrol-qt/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -65302,7 +65302,7 @@
   },
   {
     "name": "qterminal",
-    "version": "2.3.0",
+    "version": "2.4.0",
     "description": "A lightweight Qt terminal emulator",
     "homepage": "https://lxqt.github.io",
     "depends": [
@@ -65312,18 +65312,18 @@
       "qt6-qtbase",
       "qtermwidget"
     ],
-    "srcurl": "https://github.com/lxqt/qterminal/releases/download/2.3.0/qterminal-2.3.0.tar.xz",
+    "srcurl": "https://github.com/lxqt/qterminal/releases/download/2.4.0/qterminal-2.4.0.tar.xz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/5a14deb5f8/x11-packages/qterminal",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/5a14deb5f8/x11-packages/qterminal/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/5a14deb5f8/x11-packages/qterminal/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/b5feb4b3b0/x11-packages/qterminal",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/b5feb4b3b0/x11-packages/qterminal/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/b5feb4b3b0/x11-packages/qterminal/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
   },
   {
     "name": "qtermwidget",
-    "version": "2.3.0",
+    "version": "2.4.0",
     "description": "A terminal emulator widget for Qt 5",
     "homepage": "https://lxqt.github.io",
     "depends": [
@@ -65331,16 +65331,16 @@
       "libx11",
       "qt6-qtbase"
     ],
-    "srcurl": "https://github.com/lxqt/qtermwidget/releases/download/2.3.0/qtermwidget-2.3.0.tar.xz",
+    "srcurl": "https://github.com/lxqt/qtermwidget/releases/download/2.4.0/qtermwidget-2.4.0.tar.xz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/cf5083f61b/x11-packages/qtermwidget",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/cf5083f61b/x11-packages/qtermwidget/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/cf5083f61b/x11-packages/qtermwidget/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/9f1ec71fac/x11-packages/qtermwidget",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/9f1ec71fac/x11-packages/qtermwidget/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/9f1ec71fac/x11-packages/qtermwidget/build.sh",
     "package_patch_urls": [
-      "https://github.com/strsp/termux-ng/blob/cf5083f61b/x11-packages/qtermwidget/utmp_android.patch"
+      "https://github.com/strsp/termux-ng/blob/9f1ec71fac/x11-packages/qtermwidget/utmp_android.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/strsp/termux-ng/cf5083f61b/x11-packages/qtermwidget/utmp_android.patch"
+      "https://raw.githubusercontent.com/strsp/termux-ng/9f1ec71fac/x11-packages/qtermwidget/utmp_android.patch"
     ],
     "auto_updated": true
   },
