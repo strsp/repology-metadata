@@ -13912,7 +13912,7 @@
   },
   {
     "name": "jackett",
-    "version": "0.24.1622",
+    "version": "0.24.1632",
     "description": "API Support for your favorite torrent trackers",
     "homepage": "https://github.com/jackett/jackett",
     "depends": [
@@ -13920,11 +13920,11 @@
       "dotnet-host",
       "dotnet-runtime-9.0"
     ],
-    "srcurl": "https://github.com/Jackett/Jackett/archive/refs/tags/v0.24.1622.tar.gz",
+    "srcurl": "https://github.com/Jackett/Jackett/archive/refs/tags/v0.24.1632.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/8f6526ac63/packages/jackett",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/8f6526ac63/packages/jackett/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/8f6526ac63/packages/jackett/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/4f05c60758/packages/jackett",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/4f05c60758/packages/jackett/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/4f05c60758/packages/jackett/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -28496,18 +28496,18 @@
       "tree-sitter-parsers",
       "utf8proc"
     ],
-    "srcurl": "https://github.com/neovim/neovim/archive/d393975b04.tar.gz",
+    "srcurl": "https://github.com/neovim/neovim/archive/61daad3bba.tar.gz",
     "maintainer": "Joshua Kahn <tom@termux.dev>",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/f032114c06/packages/neovim-nightly",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/f032114c06/packages/neovim-nightly/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/f032114c06/packages/neovim-nightly/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/bfe351ac4c/packages/neovim-nightly",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/bfe351ac4c/packages/neovim-nightly/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/bfe351ac4c/packages/neovim-nightly/build.sh",
     "package_patch_urls": [
-      "https://github.com/strsp/termux-ng/blob/f032114c06/packages/neovim-nightly/disable-checkhealth-locale-warning.patch",
-      "https://github.com/strsp/termux-ng/blob/f032114c06/packages/neovim-nightly/src-nvim-os-stdpaths.c.patch"
+      "https://github.com/strsp/termux-ng/blob/bfe351ac4c/packages/neovim-nightly/disable-checkhealth-locale-warning.patch",
+      "https://github.com/strsp/termux-ng/blob/bfe351ac4c/packages/neovim-nightly/src-nvim-os-stdpaths.c.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/strsp/termux-ng/f032114c06/packages/neovim-nightly/disable-checkhealth-locale-warning.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/f032114c06/packages/neovim-nightly/src-nvim-os-stdpaths.c.patch"
+      "https://raw.githubusercontent.com/strsp/termux-ng/bfe351ac4c/packages/neovim-nightly/disable-checkhealth-locale-warning.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/bfe351ac4c/packages/neovim-nightly/src-nvim-os-stdpaths.c.patch"
     ],
     "auto_updated": true
   },
@@ -36262,17 +36262,17 @@
   },
   {
     "name": "rust-analyzer",
-    "version": "2026-04-13",
+    "version": "2026-04-20",
     "description": "A Rust compiler front-end for IDEs",
     "homepage": "https://rust-analyzer.github.io/",
     "depends": [
       "rust-src"
     ],
-    "srcurl": "https://github.com/rust-lang/rust-analyzer/archive/refs/tags/2026-04-13.tar.gz",
+    "srcurl": "https://github.com/rust-lang/rust-analyzer/archive/refs/tags/2026-04-20.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/1b18357968/packages/rust-analyzer",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/1b18357968/packages/rust-analyzer/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/1b18357968/packages/rust-analyzer/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/964a8f21c6/packages/rust-analyzer",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/964a8f21c6/packages/rust-analyzer/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/964a8f21c6/packages/rust-analyzer/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -57637,18 +57637,18 @@
   },
   {
     "name": "libdbusmenu-lxqt",
-    "version": "0.3.0",
+    "version": "0.4.0",
     "description": "A library that provides a Qt implementation of the DBusMenu protocol",
     "homepage": "https://github.com/lxqt/libdbusmenu-lxqt",
     "depends": [
       "libc++",
       "qt6-qtbase"
     ],
-    "srcurl": "https://github.com/lxqt/libdbusmenu-lxqt/releases/download/0.3.0/libdbusmenu-lxqt-0.3.0.tar.xz",
+    "srcurl": "https://github.com/lxqt/libdbusmenu-lxqt/releases/download/0.4.0/libdbusmenu-lxqt-0.4.0.tar.xz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/47f9981565/x11-packages/libdbusmenu-lxqt",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/47f9981565/x11-packages/libdbusmenu-lxqt/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/47f9981565/x11-packages/libdbusmenu-lxqt/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/c2889078b2/x11-packages/libdbusmenu-lxqt",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/c2889078b2/x11-packages/libdbusmenu-lxqt/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/c2889078b2/x11-packages/libdbusmenu-lxqt/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -59616,17 +59616,17 @@
   },
   {
     "name": "lxqt-build-tools",
-    "version": "2.3.0",
+    "version": "2.4.0",
     "description": "Building tools required by LXQt project",
     "homepage": "https://lxqt.github.io",
     "depends": [
       "qt6-qttools"
     ],
-    "srcurl": "https://github.com/lxqt/lxqt-build-tools/releases/download/2.3.0/lxqt-build-tools-2.3.0.tar.xz",
+    "srcurl": "https://github.com/lxqt/lxqt-build-tools/releases/download/2.4.0/lxqt-build-tools-2.4.0.tar.xz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/9291ac4800/x11-packages/lxqt-build-tools",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/9291ac4800/x11-packages/lxqt-build-tools/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/9291ac4800/x11-packages/lxqt-build-tools/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/4d4170bd98/x11-packages/lxqt-build-tools",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/4d4170bd98/x11-packages/lxqt-build-tools/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/4d4170bd98/x11-packages/lxqt-build-tools/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -59689,15 +59689,15 @@
   },
   {
     "name": "lxqt-menu-data",
-    "version": "2.3.0",
+    "version": "2.4.0",
     "description": "Menu files for LXQt Panel, Configuration Center and PCManFM-Qt/libfm-qt",
     "homepage": "https://github.com/lxqt/lxqt-menu-data",
     "depends": [],
-    "srcurl": "https://github.com/lxqt/lxqt-menu-data/releases/download/2.3.0/lxqt-menu-data-2.3.0.tar.xz",
+    "srcurl": "https://github.com/lxqt/lxqt-menu-data/releases/download/2.4.0/lxqt-menu-data-2.4.0.tar.xz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/1da0af38f5/x11-packages/lxqt-menu-data",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/1da0af38f5/x11-packages/lxqt-menu-data/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/1da0af38f5/x11-packages/lxqt-menu-data/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/a7bd5b692b/x11-packages/lxqt-menu-data",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/a7bd5b692b/x11-packages/lxqt-menu-data/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/a7bd5b692b/x11-packages/lxqt-menu-data/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
