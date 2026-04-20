@@ -5924,33 +5924,33 @@
   },
   {
     "name": "delve",
-    "version": "1.26.1",
+    "version": "1.26.2",
     "description": "A debugger for the Go programming language",
     "homepage": "https://github.com/go-delve/delve",
     "depends": [
       "golang",
       "git"
     ],
-    "srcurl": "https://github.com/go-delve/delve/archive/refs/tags/v1.26.1.tar.gz",
+    "srcurl": "https://github.com/go-delve/delve/archive/refs/tags/v1.26.2.tar.gz",
     "maintainer": "Krishna kanhaiya @kcubeterm",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/dfd37874a0/packages/delve",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/dfd37874a0/packages/delve/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/dfd37874a0/packages/delve/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/9a5ff1a093/packages/delve",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/9a5ff1a093/packages/delve/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/9a5ff1a093/packages/delve/build.sh",
     "package_patch_urls": [
-      "https://github.com/strsp/termux-ng/blob/dfd37874a0/packages/delve/bininfo.go.patch",
-      "https://github.com/strsp/termux-ng/blob/dfd37874a0/packages/delve/debugger.go.patch",
-      "https://github.com/strsp/termux-ng/blob/dfd37874a0/packages/delve/debugger_unix.go.patch",
-      "https://github.com/strsp/termux-ng/blob/dfd37874a0/packages/delve/dump.go.patch",
-      "https://github.com/strsp/termux-ng/blob/dfd37874a0/packages/delve/gdbserver.go.patch",
-      "https://github.com/strsp/termux-ng/blob/dfd37874a0/packages/delve/gdbserver_conn.go.patch"
+      "https://github.com/strsp/termux-ng/blob/9a5ff1a093/packages/delve/bininfo.go.patch",
+      "https://github.com/strsp/termux-ng/blob/9a5ff1a093/packages/delve/debugger.go.patch",
+      "https://github.com/strsp/termux-ng/blob/9a5ff1a093/packages/delve/debugger_unix.go.patch",
+      "https://github.com/strsp/termux-ng/blob/9a5ff1a093/packages/delve/dump.go.patch",
+      "https://github.com/strsp/termux-ng/blob/9a5ff1a093/packages/delve/gdbserver.go.patch",
+      "https://github.com/strsp/termux-ng/blob/9a5ff1a093/packages/delve/gdbserver_conn.go.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/strsp/termux-ng/dfd37874a0/packages/delve/bininfo.go.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/dfd37874a0/packages/delve/debugger.go.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/dfd37874a0/packages/delve/debugger_unix.go.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/dfd37874a0/packages/delve/dump.go.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/dfd37874a0/packages/delve/gdbserver.go.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/dfd37874a0/packages/delve/gdbserver_conn.go.patch"
+      "https://raw.githubusercontent.com/strsp/termux-ng/9a5ff1a093/packages/delve/bininfo.go.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/9a5ff1a093/packages/delve/debugger.go.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/9a5ff1a093/packages/delve/debugger_unix.go.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/9a5ff1a093/packages/delve/dump.go.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/9a5ff1a093/packages/delve/gdbserver.go.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/9a5ff1a093/packages/delve/gdbserver_conn.go.patch"
     ],
     "auto_updated": true
   },
@@ -10091,7 +10091,7 @@
   },
   {
     "name": "git",
-    "version": "2.53.0",
+    "version": "2.54.0",
     "description": "Fast, scalable, distributed revision control system",
     "homepage": "https://git-scm.com/",
     "depends": [
@@ -10103,30 +10103,30 @@
       "pcre2",
       "zlib"
     ],
-    "srcurl": "https://mirrors.kernel.org/pub/software/scm/git/git-2.53.0.tar.xz",
+    "srcurl": "https://mirrors.kernel.org/pub/software/scm/git/git-2.54.0.tar.xz",
     "maintainer": "Joshua Kahn <tom@termux.dev>",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/f2a1bd1ae4/packages/git",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/f2a1bd1ae4/packages/git/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/f2a1bd1ae4/packages/git/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/b703d1ddd1/packages/git",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/b703d1ddd1/packages/git/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/b703d1ddd1/packages/git/build.sh",
     "package_patch_urls": [
-      "https://github.com/strsp/termux-ng/blob/f2a1bd1ae4/packages/git/compat-posix.h.patch",
-      "https://github.com/strsp/termux-ng/blob/f2a1bd1ae4/packages/git/config.c.patch",
-      "https://github.com/strsp/termux-ng/blob/f2a1bd1ae4/packages/git/config.mak.uname.patch",
-      "https://github.com/strsp/termux-ng/blob/f2a1bd1ae4/packages/git/disable-fdsan.patch",
-      "https://github.com/strsp/termux-ng/blob/f2a1bd1ae4/packages/git/disable_daemon_syslog.patch",
-      "https://github.com/strsp/termux-ng/blob/f2a1bd1ae4/packages/git/help.c.patch",
-      "https://github.com/strsp/termux-ng/blob/f2a1bd1ae4/packages/git/run-command.c.patch",
-      "https://github.com/strsp/termux-ng/blob/f2a1bd1ae4/packages/git/tempfile.c.patch"
+      "https://github.com/strsp/termux-ng/blob/b703d1ddd1/packages/git/compat-posix.h.patch",
+      "https://github.com/strsp/termux-ng/blob/b703d1ddd1/packages/git/config.c.patch",
+      "https://github.com/strsp/termux-ng/blob/b703d1ddd1/packages/git/config.mak.uname.patch",
+      "https://github.com/strsp/termux-ng/blob/b703d1ddd1/packages/git/disable-fdsan.patch",
+      "https://github.com/strsp/termux-ng/blob/b703d1ddd1/packages/git/disable_daemon_syslog.patch",
+      "https://github.com/strsp/termux-ng/blob/b703d1ddd1/packages/git/help.c.patch",
+      "https://github.com/strsp/termux-ng/blob/b703d1ddd1/packages/git/run-command.c.patch",
+      "https://github.com/strsp/termux-ng/blob/b703d1ddd1/packages/git/tempfile.c.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/strsp/termux-ng/f2a1bd1ae4/packages/git/compat-posix.h.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/f2a1bd1ae4/packages/git/config.c.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/f2a1bd1ae4/packages/git/config.mak.uname.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/f2a1bd1ae4/packages/git/disable-fdsan.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/f2a1bd1ae4/packages/git/disable_daemon_syslog.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/f2a1bd1ae4/packages/git/help.c.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/f2a1bd1ae4/packages/git/run-command.c.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/f2a1bd1ae4/packages/git/tempfile.c.patch"
+      "https://raw.githubusercontent.com/strsp/termux-ng/b703d1ddd1/packages/git/compat-posix.h.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/b703d1ddd1/packages/git/config.c.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/b703d1ddd1/packages/git/config.mak.uname.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/b703d1ddd1/packages/git/disable-fdsan.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/b703d1ddd1/packages/git/disable_daemon_syslog.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/b703d1ddd1/packages/git/help.c.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/b703d1ddd1/packages/git/run-command.c.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/b703d1ddd1/packages/git/tempfile.c.patch"
     ],
     "auto_updated": true
   },
@@ -29972,7 +29972,7 @@
   },
   {
     "name": "onnxruntime",
-    "version": "1.24.4",
+    "version": "1.25.0",
     "description": "Cross-platform, high performance ML inferencing and training accelerator",
     "homepage": "https://onnxruntime.ai/",
     "depends": [
@@ -29983,24 +29983,24 @@
     ],
     "srcurl": "git+https://github.com/microsoft/onnxruntime",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/84bfa787b7/packages/onnxruntime",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/84bfa787b7/packages/onnxruntime/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/84bfa787b7/packages/onnxruntime/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/7ae7dd419c/packages/onnxruntime",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/7ae7dd419c/packages/onnxruntime/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/7ae7dd419c/packages/onnxruntime/build.sh",
     "package_patch_urls": [
-      "https://github.com/strsp/termux-ng/blob/84bfa787b7/packages/onnxruntime/0001-use-system-abseil.patch",
-      "https://github.com/strsp/termux-ng/blob/84bfa787b7/packages/onnxruntime/0002-use-system-protobuf.patch",
-      "https://github.com/strsp/termux-ng/blob/84bfa787b7/packages/onnxruntime/0003-build-providers.patch",
-      "https://github.com/strsp/termux-ng/blob/84bfa787b7/packages/onnxruntime/0004-cmake-python-find-Development-before-Development.Module.patch",
-      "https://github.com/strsp/termux-ng/blob/84bfa787b7/packages/onnxruntime/0005-suppress-unused-variable.patch",
-      "https://github.com/strsp/termux-ng/blob/84bfa787b7/packages/onnxruntime/0006-iwyu-onnxruntime_config.h.patch"
+      "https://github.com/strsp/termux-ng/blob/7ae7dd419c/packages/onnxruntime/0001-use-system-abseil.patch",
+      "https://github.com/strsp/termux-ng/blob/7ae7dd419c/packages/onnxruntime/0002-use-system-protobuf.patch",
+      "https://github.com/strsp/termux-ng/blob/7ae7dd419c/packages/onnxruntime/0003-build-providers.patch",
+      "https://github.com/strsp/termux-ng/blob/7ae7dd419c/packages/onnxruntime/0004-cmake-python-find-Development-before-Development.Module.patch",
+      "https://github.com/strsp/termux-ng/blob/7ae7dd419c/packages/onnxruntime/0005-suppress-unused-variable.patch",
+      "https://github.com/strsp/termux-ng/blob/7ae7dd419c/packages/onnxruntime/0006-iwyu-onnxruntime_config.h.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/strsp/termux-ng/84bfa787b7/packages/onnxruntime/0001-use-system-abseil.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/84bfa787b7/packages/onnxruntime/0002-use-system-protobuf.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/84bfa787b7/packages/onnxruntime/0003-build-providers.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/84bfa787b7/packages/onnxruntime/0004-cmake-python-find-Development-before-Development.Module.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/84bfa787b7/packages/onnxruntime/0005-suppress-unused-variable.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/84bfa787b7/packages/onnxruntime/0006-iwyu-onnxruntime_config.h.patch"
+      "https://raw.githubusercontent.com/strsp/termux-ng/7ae7dd419c/packages/onnxruntime/0001-use-system-abseil.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/7ae7dd419c/packages/onnxruntime/0002-use-system-protobuf.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/7ae7dd419c/packages/onnxruntime/0003-build-providers.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/7ae7dd419c/packages/onnxruntime/0004-cmake-python-find-Development-before-Development.Module.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/7ae7dd419c/packages/onnxruntime/0005-suppress-unused-variable.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/7ae7dd419c/packages/onnxruntime/0006-iwyu-onnxruntime_config.h.patch"
     ],
     "auto_updated": true
   },
@@ -32620,17 +32620,17 @@
   },
   {
     "name": "pocketbase",
-    "version": "0.37.1",
+    "version": "0.37.2",
     "description": "An open source Go backend",
     "homepage": "https://github.com/pocketbase/pocketbase",
     "depends": [
       "resolv-conf"
     ],
-    "srcurl": "https://github.com/pocketbase/pocketbase/archive/refs/tags/v0.37.1.tar.gz",
+    "srcurl": "https://github.com/pocketbase/pocketbase/archive/refs/tags/v0.37.2.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/4550e2feea/packages/pocketbase",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/4550e2feea/packages/pocketbase/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/4550e2feea/packages/pocketbase/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/056559d856/packages/pocketbase",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/056559d856/packages/pocketbase/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/056559d856/packages/pocketbase/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -33700,20 +33700,20 @@
   },
   {
     "name": "pyrefly",
-    "version": "0.61.1",
+    "version": "0.62.0",
     "description": "A fast type checker and language server for Python",
     "homepage": "https://github.com/facebook/pyrefly.git",
     "depends": [],
-    "srcurl": "https://github.com/facebook/pyrefly/archive/refs/tags/0.61.1.tar.gz",
+    "srcurl": "https://github.com/facebook/pyrefly/archive/refs/tags/0.62.0.tar.gz",
     "maintainer": "@AhmadNaruto",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/8644ed401b/packages/pyrefly",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/8644ed401b/packages/pyrefly/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/8644ed401b/packages/pyrefly/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/913bf3f17a/packages/pyrefly",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/913bf3f17a/packages/pyrefly/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/913bf3f17a/packages/pyrefly/build.sh",
     "package_patch_urls": [
-      "https://github.com/strsp/termux-ng/blob/8644ed401b/packages/pyrefly/rust-cc-do-not-concatenate-all-the-CFLAGS.diff"
+      "https://github.com/strsp/termux-ng/blob/913bf3f17a/packages/pyrefly/rust-cc-do-not-concatenate-all-the-CFLAGS.diff"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/strsp/termux-ng/8644ed401b/packages/pyrefly/rust-cc-do-not-concatenate-all-the-CFLAGS.diff"
+      "https://raw.githubusercontent.com/strsp/termux-ng/913bf3f17a/packages/pyrefly/rust-cc-do-not-concatenate-all-the-CFLAGS.diff"
     ],
     "auto_updated": true
   },
@@ -43502,23 +43502,23 @@
   },
   {
     "name": "vulkan-extension-layer",
-    "version": "1.4.341",
+    "version": "1.4.349",
     "description": "Vulkan Extension Layer",
     "homepage": "https://github.com/KhronosGroup/Vulkan-ExtensionLayer",
     "depends": [
       "libc++",
       "vulkan-loader"
     ],
-    "srcurl": "https://github.com/KhronosGroup/Vulkan-ExtensionLayer/archive/refs/tags/v1.4.341.tar.gz",
+    "srcurl": "https://github.com/KhronosGroup/Vulkan-ExtensionLayer/archive/refs/tags/v1.4.349.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/b7ae1e3010/packages/vulkan-extension-layer",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/b7ae1e3010/packages/vulkan-extension-layer/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/b7ae1e3010/packages/vulkan-extension-layer/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/68f7aa4a74/packages/vulkan-extension-layer",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/68f7aa4a74/packages/vulkan-extension-layer/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/68f7aa4a74/packages/vulkan-extension-layer/build.sh",
     "package_patch_urls": [
-      "https://github.com/strsp/termux-ng/blob/b7ae1e3010/packages/vulkan-extension-layer/0001-no-android.patch"
+      "https://github.com/strsp/termux-ng/blob/68f7aa4a74/packages/vulkan-extension-layer/0001-no-android.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/strsp/termux-ng/b7ae1e3010/packages/vulkan-extension-layer/0001-no-android.patch"
+      "https://raw.githubusercontent.com/strsp/termux-ng/68f7aa4a74/packages/vulkan-extension-layer/0001-no-android.patch"
     ],
     "auto_updated": true
   },
@@ -43749,15 +43749,15 @@
   },
   {
     "name": "wakatime-cli",
-    "version": "2.6.0",
+    "version": "2.6.2",
     "description": "Command line interface used by all WakaTime text editor plugins",
     "homepage": "https://wakatime.com/plugins/",
     "depends": [],
-    "srcurl": "https://github.com/wakatime/wakatime-cli/archive/refs/tags/v2.6.0.tar.gz",
+    "srcurl": "https://github.com/wakatime/wakatime-cli/archive/refs/tags/v2.6.2.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/55f6a93da4/packages/wakatime-cli",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/55f6a93da4/packages/wakatime-cli/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/55f6a93da4/packages/wakatime-cli/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/69145756ba/packages/wakatime-cli",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/69145756ba/packages/wakatime-cli/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/69145756ba/packages/wakatime-cli/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -43871,20 +43871,20 @@
   },
   {
     "name": "wasmtime",
-    "version": "43.0.1",
+    "version": "44.0.0",
     "description": "A standalone runtime for WebAssembly",
     "homepage": "https://wasmtime.dev/",
     "depends": [],
     "srcurl": "git+https://github.com/bytecodealliance/wasmtime",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/2fe46ee835/packages/wasmtime",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/2fe46ee835/packages/wasmtime/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/2fe46ee835/packages/wasmtime/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/bc63e20e8f/packages/wasmtime",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/bc63e20e8f/packages/wasmtime/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/bc63e20e8f/packages/wasmtime/build.sh",
     "package_patch_urls": [
-      "https://github.com/strsp/termux-ng/blob/2fe46ee835/packages/wasmtime/listenfd-32-bit-android.diff"
+      "https://github.com/strsp/termux-ng/blob/bc63e20e8f/packages/wasmtime/listenfd-32-bit-android.diff"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/strsp/termux-ng/2fe46ee835/packages/wasmtime/listenfd-32-bit-android.diff"
+      "https://raw.githubusercontent.com/strsp/termux-ng/bc63e20e8f/packages/wasmtime/listenfd-32-bit-android.diff"
     ],
     "auto_updated": true
   },
