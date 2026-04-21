@@ -13912,7 +13912,7 @@
   },
   {
     "name": "jackett",
-    "version": "0.24.1632",
+    "version": "0.24.1641",
     "description": "API Support for your favorite torrent trackers",
     "homepage": "https://github.com/jackett/jackett",
     "depends": [
@@ -13920,11 +13920,11 @@
       "dotnet-host",
       "dotnet-runtime-9.0"
     ],
-    "srcurl": "https://github.com/Jackett/Jackett/archive/refs/tags/v0.24.1632.tar.gz",
+    "srcurl": "https://github.com/Jackett/Jackett/archive/refs/tags/v0.24.1641.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/4f05c60758/packages/jackett",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/4f05c60758/packages/jackett/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/4f05c60758/packages/jackett/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/0085a027a6/packages/jackett",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/0085a027a6/packages/jackett/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/0085a027a6/packages/jackett/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -28496,18 +28496,18 @@
       "tree-sitter-parsers",
       "utf8proc"
     ],
-    "srcurl": "https://github.com/neovim/neovim/archive/61daad3bba.tar.gz",
+    "srcurl": "https://github.com/neovim/neovim/archive/32e249dfa6.tar.gz",
     "maintainer": "Joshua Kahn <tom@termux.dev>",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/bfe351ac4c/packages/neovim-nightly",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/bfe351ac4c/packages/neovim-nightly/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/bfe351ac4c/packages/neovim-nightly/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/e424703eb2/packages/neovim-nightly",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/e424703eb2/packages/neovim-nightly/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/e424703eb2/packages/neovim-nightly/build.sh",
     "package_patch_urls": [
-      "https://github.com/strsp/termux-ng/blob/bfe351ac4c/packages/neovim-nightly/disable-checkhealth-locale-warning.patch",
-      "https://github.com/strsp/termux-ng/blob/bfe351ac4c/packages/neovim-nightly/src-nvim-os-stdpaths.c.patch"
+      "https://github.com/strsp/termux-ng/blob/e424703eb2/packages/neovim-nightly/disable-checkhealth-locale-warning.patch",
+      "https://github.com/strsp/termux-ng/blob/e424703eb2/packages/neovim-nightly/src-nvim-os-stdpaths.c.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/strsp/termux-ng/bfe351ac4c/packages/neovim-nightly/disable-checkhealth-locale-warning.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/bfe351ac4c/packages/neovim-nightly/src-nvim-os-stdpaths.c.patch"
+      "https://raw.githubusercontent.com/strsp/termux-ng/e424703eb2/packages/neovim-nightly/disable-checkhealth-locale-warning.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/e424703eb2/packages/neovim-nightly/src-nvim-os-stdpaths.c.patch"
     ],
     "auto_updated": true
   },
@@ -40558,7 +40558,7 @@
   },
   {
     "name": "tinygo",
-    "version": "0.40.1",
+    "version": "0.41.0",
     "description": "Go compiler for microcontrollers, WASM, CLI tools",
     "homepage": "https://tinygo.org",
     "depends": [
@@ -40568,14 +40568,14 @@
     ],
     "srcurl": "git+https://github.com/tinygo-org/tinygo",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/6d98b628b8/packages/tinygo",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/6d98b628b8/packages/tinygo/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/6d98b628b8/packages/tinygo/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/4e4e2fa688/packages/tinygo",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/4e4e2fa688/packages/tinygo/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/4e4e2fa688/packages/tinygo/build.sh",
     "package_patch_urls": [
-      "https://github.com/strsp/termux-ng/blob/6d98b628b8/packages/tinygo/GNUmakefile.patch"
+      "https://github.com/strsp/termux-ng/blob/4e4e2fa688/packages/tinygo/GNUmakefile.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/strsp/termux-ng/6d98b628b8/packages/tinygo/GNUmakefile.patch"
+      "https://raw.githubusercontent.com/strsp/termux-ng/4e4e2fa688/packages/tinygo/GNUmakefile.patch"
     ],
     "auto_updated": true
   },
