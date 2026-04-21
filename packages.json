@@ -14993,15 +14993,15 @@
   },
   {
     "name": "lego",
-    "version": "4.34.0",
+    "version": "4.35.0",
     "description": "Let's Encrypt/ACME client and library written in Go",
     "homepage": "https://github.com/go-acme/lego",
     "depends": [],
-    "srcurl": "https://github.com/go-acme/lego/archive/refs/tags/v4.34.0.tar.gz",
+    "srcurl": "https://github.com/go-acme/lego/archive/refs/tags/v4.35.0.tar.gz",
     "maintainer": "Izumi Sena Sora <info@unordinary.eu.org>",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/d1693ac519/packages/lego",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/d1693ac519/packages/lego/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/d1693ac519/packages/lego/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/7bde699c16/packages/lego",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/7bde699c16/packages/lego/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/7bde699c16/packages/lego/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -34995,15 +34995,15 @@
   },
   {
     "name": "railway-cli",
-    "version": "4.40.1",
+    "version": "4.40.2",
     "description": "This is the command line interface for Railway",
     "homepage": "https://railway.app",
     "depends": [],
-    "srcurl": "https://github.com/railwayapp/cli/archive/refs/tags/v4.40.1.tar.gz",
+    "srcurl": "https://github.com/railwayapp/cli/archive/refs/tags/v4.40.2.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/980504dc6c/packages/railway-cli",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/980504dc6c/packages/railway-cli/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/980504dc6c/packages/railway-cli/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/9d62a75768/packages/railway-cli",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/9d62a75768/packages/railway-cli/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/9d62a75768/packages/railway-cli/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -42110,7 +42110,7 @@
   },
   {
     "name": "ugrep",
-    "version": "7.6.0",
+    "version": "7.7.0",
     "description": "A faster, user-friendly and compatible grep replacement",
     "homepage": "https://github.com/Genivia/ugrep",
     "depends": [
@@ -42123,16 +42123,16 @@
       "zlib",
       "zstd"
     ],
-    "srcurl": "https://github.com/Genivia/ugrep/archive/refs/tags/v7.6.0.tar.gz",
+    "srcurl": "https://github.com/Genivia/ugrep/archive/refs/tags/v7.7.0.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/bc00b25292/packages/ugrep",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/bc00b25292/packages/ugrep/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/bc00b25292/packages/ugrep/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/bb07b8d6ac/packages/ugrep",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/bb07b8d6ac/packages/ugrep/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/bb07b8d6ac/packages/ugrep/build.sh",
     "package_patch_urls": [
-      "https://github.com/strsp/termux-ng/blob/bc00b25292/packages/ugrep/dependencies-fix.patch"
+      "https://github.com/strsp/termux-ng/blob/bb07b8d6ac/packages/ugrep/dependencies-fix.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/strsp/termux-ng/bc00b25292/packages/ugrep/dependencies-fix.patch"
+      "https://raw.githubusercontent.com/strsp/termux-ng/bb07b8d6ac/packages/ugrep/dependencies-fix.patch"
     ],
     "auto_updated": true
   },
@@ -46796,26 +46796,26 @@
   },
   {
     "name": "ntfs-3g",
-    "version": "2022.10.3",
+    "version": "2026.2.25",
     "description": "NTFS-3G Safe Read/Write NTFS Driver",
     "homepage": "https://github.com/tuxera/ntfs-3g",
     "depends": [
       "libfuse2"
     ],
-    "srcurl": "https://github.com/tuxera/ntfs-3g/archive/refs/tags/2022.10.3.tar.gz",
+    "srcurl": "https://github.com/tuxera/ntfs-3g/archive/refs/tags/2026.2.25.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/7ef09098b1/root-packages/ntfs-3g",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/7ef09098b1/root-packages/ntfs-3g/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/7ef09098b1/root-packages/ntfs-3g/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/d1d95e8a13/root-packages/ntfs-3g",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/d1d95e8a13/root-packages/ntfs-3g/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/d1d95e8a13/root-packages/ntfs-3g/build.sh",
     "package_patch_urls": [
-      "https://github.com/strsp/termux-ng/blob/7ef09098b1/root-packages/ntfs-3g/fix-hardcoded-path.patch",
-      "https://github.com/strsp/termux-ng/blob/7ef09098b1/root-packages/ntfs-3g/fix-symlink.patch",
-      "https://github.com/strsp/termux-ng/blob/7ef09098b1/root-packages/ntfs-3g/remove-ldconfig.patch"
+      "https://github.com/strsp/termux-ng/blob/d1d95e8a13/root-packages/ntfs-3g/fix-hardcoded-path.patch",
+      "https://github.com/strsp/termux-ng/blob/d1d95e8a13/root-packages/ntfs-3g/fix-symlink.patch",
+      "https://github.com/strsp/termux-ng/blob/d1d95e8a13/root-packages/ntfs-3g/remove-ldconfig.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/strsp/termux-ng/7ef09098b1/root-packages/ntfs-3g/fix-hardcoded-path.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/7ef09098b1/root-packages/ntfs-3g/fix-symlink.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/7ef09098b1/root-packages/ntfs-3g/remove-ldconfig.patch"
+      "https://raw.githubusercontent.com/strsp/termux-ng/d1d95e8a13/root-packages/ntfs-3g/fix-hardcoded-path.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/d1d95e8a13/root-packages/ntfs-3g/fix-symlink.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/d1d95e8a13/root-packages/ntfs-3g/remove-ldconfig.patch"
     ],
     "auto_updated": true
   },
