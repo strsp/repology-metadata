@@ -13912,7 +13912,7 @@
   },
   {
     "name": "jackett",
-    "version": "0.24.1641",
+    "version": "0.24.1649",
     "description": "API Support for your favorite torrent trackers",
     "homepage": "https://github.com/jackett/jackett",
     "depends": [
@@ -13920,11 +13920,11 @@
       "dotnet-host",
       "dotnet-runtime-9.0"
     ],
-    "srcurl": "https://github.com/Jackett/Jackett/archive/refs/tags/v0.24.1641.tar.gz",
+    "srcurl": "https://github.com/Jackett/Jackett/archive/refs/tags/v0.24.1649.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/0085a027a6/packages/jackett",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/0085a027a6/packages/jackett/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/0085a027a6/packages/jackett/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/ac3b066833/packages/jackett",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/ac3b066833/packages/jackett/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/ac3b066833/packages/jackett/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -27475,27 +27475,27 @@
   },
   {
     "name": "mruby",
-    "version": "3.4.0",
+    "version": "4.0.0",
     "description": "Lightweight implementation of the Ruby language",
     "homepage": "https://mruby.org/",
     "depends": [
       "libandroid-complex-math",
       "readline"
     ],
-    "srcurl": "https://github.com/mruby/mruby/archive/refs/tags/3.4.0.tar.gz",
+    "srcurl": "https://github.com/mruby/mruby/archive/refs/tags/4.0.0.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/ce2615f967/packages/mruby",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/ce2615f967/packages/mruby/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/ce2615f967/packages/mruby/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/7ab6b02241/packages/mruby",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/7ab6b02241/packages/mruby/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/7ab6b02241/packages/mruby/build.sh",
     "package_patch_urls": [
-      "https://github.com/strsp/termux-ng/blob/ce2615f967/packages/mruby/build_config.patch",
-      "https://github.com/strsp/termux-ng/blob/ce2615f967/packages/mruby/mrbgems-mruby-cmath-src-cmath.c.patch",
-      "https://github.com/strsp/termux-ng/blob/ce2615f967/packages/mruby/tasks-toolchains-android.rake.patch"
+      "https://github.com/strsp/termux-ng/blob/7ab6b02241/packages/mruby/build_config.patch",
+      "https://github.com/strsp/termux-ng/blob/7ab6b02241/packages/mruby/mrbgems-mruby-cmath-src-cmath.c.patch",
+      "https://github.com/strsp/termux-ng/blob/7ab6b02241/packages/mruby/tasks-toolchains-android.rake.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/strsp/termux-ng/ce2615f967/packages/mruby/build_config.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/ce2615f967/packages/mruby/mrbgems-mruby-cmath-src-cmath.c.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/ce2615f967/packages/mruby/tasks-toolchains-android.rake.patch"
+      "https://raw.githubusercontent.com/strsp/termux-ng/7ab6b02241/packages/mruby/build_config.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/7ab6b02241/packages/mruby/mrbgems-mruby-cmath-src-cmath.c.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/7ab6b02241/packages/mruby/tasks-toolchains-android.rake.patch"
     ],
     "auto_updated": true
   },
@@ -28496,18 +28496,18 @@
       "tree-sitter-parsers",
       "utf8proc"
     ],
-    "srcurl": "https://github.com/neovim/neovim/archive/32e249dfa6.tar.gz",
+    "srcurl": "https://github.com/neovim/neovim/archive/56fb9ed82d.tar.gz",
     "maintainer": "Joshua Kahn <tom@termux.dev>",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/e424703eb2/packages/neovim-nightly",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/e424703eb2/packages/neovim-nightly/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/e424703eb2/packages/neovim-nightly/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/f0d926e884/packages/neovim-nightly",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/f0d926e884/packages/neovim-nightly/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/f0d926e884/packages/neovim-nightly/build.sh",
     "package_patch_urls": [
-      "https://github.com/strsp/termux-ng/blob/e424703eb2/packages/neovim-nightly/disable-checkhealth-locale-warning.patch",
-      "https://github.com/strsp/termux-ng/blob/e424703eb2/packages/neovim-nightly/src-nvim-os-stdpaths.c.patch"
+      "https://github.com/strsp/termux-ng/blob/f0d926e884/packages/neovim-nightly/disable-checkhealth-locale-warning.patch",
+      "https://github.com/strsp/termux-ng/blob/f0d926e884/packages/neovim-nightly/src-nvim-os-stdpaths.c.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/strsp/termux-ng/e424703eb2/packages/neovim-nightly/disable-checkhealth-locale-warning.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/e424703eb2/packages/neovim-nightly/src-nvim-os-stdpaths.c.patch"
+      "https://raw.githubusercontent.com/strsp/termux-ng/f0d926e884/packages/neovim-nightly/disable-checkhealth-locale-warning.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/f0d926e884/packages/neovim-nightly/src-nvim-os-stdpaths.c.patch"
     ],
     "auto_updated": true
   },
@@ -37375,15 +37375,15 @@
   },
   {
     "name": "sing-box",
-    "version": "1.13.9",
+    "version": "1.13.10",
     "description": "The universal proxy platform",
     "homepage": "https://sing-box.sagernet.org",
     "depends": [],
-    "srcurl": "https://github.com/SagerNet/sing-box/archive/refs/tags/v1.13.9.tar.gz",
+    "srcurl": "https://github.com/SagerNet/sing-box/archive/refs/tags/v1.13.10.tar.gz",
     "maintainer": "kay9925@outlook.com",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/4f89563a39/packages/sing-box",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/4f89563a39/packages/sing-box/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/4f89563a39/packages/sing-box/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/77739f55f4/packages/sing-box",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/77739f55f4/packages/sing-box/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/77739f55f4/packages/sing-box/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -41165,15 +41165,15 @@
   },
   {
     "name": "tree-sitter-c",
-    "version": "0.24.1",
+    "version": "0.24.2",
     "description": "C grammar for tree-sitter",
     "homepage": "https://github.com/tree-sitter/tree-sitter-c",
     "depends": [],
-    "srcurl": "https://github.com/tree-sitter/tree-sitter-c/archive/refs/tags/v0.24.1.tar.gz",
+    "srcurl": "https://github.com/tree-sitter/tree-sitter-c/archive/refs/tags/v0.24.2.tar.gz",
     "maintainer": "Joshua Kahn <tom@termux.dev>",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/a5e2854a61/packages/tree-sitter-c",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/a5e2854a61/packages/tree-sitter-c/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/a5e2854a61/packages/tree-sitter-c/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/f4d9f68960/packages/tree-sitter-c",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/f4d9f68960/packages/tree-sitter-c/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/f4d9f68960/packages/tree-sitter-c/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
