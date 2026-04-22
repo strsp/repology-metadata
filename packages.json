@@ -3121,15 +3121,15 @@
   },
   {
     "name": "buf",
-    "version": "1.68.3",
+    "version": "1.68.4",
     "description": "A new way of working with Protocol Buffers",
     "homepage": "https://buf.build",
     "depends": [],
-    "srcurl": "https://github.com/bufbuild/buf/archive/refs/tags/v1.68.3.tar.gz",
+    "srcurl": "https://github.com/bufbuild/buf/archive/refs/tags/v1.68.4.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/b07cea1b0d/packages/buf",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/b07cea1b0d/packages/buf/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/b07cea1b0d/packages/buf/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/9bb917cdbd/packages/buf",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/9bb917cdbd/packages/buf/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/9bb917cdbd/packages/buf/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -8811,15 +8811,15 @@
   },
   {
     "name": "flyctl",
-    "version": "0.4.38",
+    "version": "0.4.39",
     "description": "Command line tools for fly.io services",
     "homepage": "https://fly.io",
     "depends": [],
-    "srcurl": "https://github.com/superfly/flyctl/archive/refs/tags/v0.4.38.tar.gz",
+    "srcurl": "https://github.com/superfly/flyctl/archive/refs/tags/v0.4.39.tar.gz",
     "maintainer": "Yaksh Bariya <thunder-coding@termux.dev>",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/951f568fbc/packages/flyctl",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/951f568fbc/packages/flyctl/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/951f568fbc/packages/flyctl/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/f78b8440ee/packages/flyctl",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/f78b8440ee/packages/flyctl/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/f78b8440ee/packages/flyctl/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -28445,7 +28445,7 @@
   },
   {
     "name": "neovim",
-    "version": "0.12.1",
+    "version": "0.12.2",
     "description": "Ambitious Vim-fork focused on extensibility and agility (nvim)",
     "homepage": "https://neovim.io/",
     "depends": [
@@ -28462,18 +28462,18 @@
       "tree-sitter-parsers",
       "utf8proc"
     ],
-    "srcurl": "https://github.com/neovim/neovim/archive/refs/tags/v0.12.1.tar.gz",
+    "srcurl": "https://github.com/neovim/neovim/archive/refs/tags/v0.12.2.tar.gz",
     "maintainer": "Joshua Kahn <tom@termux.dev>",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/fd828da9de/packages/neovim",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/fd828da9de/packages/neovim/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/fd828da9de/packages/neovim/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/d5ca061659/packages/neovim",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/d5ca061659/packages/neovim/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/d5ca061659/packages/neovim/build.sh",
     "package_patch_urls": [
-      "https://github.com/strsp/termux-ng/blob/fd828da9de/packages/neovim/disable-checkhealth-locale-warning.patch",
-      "https://github.com/strsp/termux-ng/blob/fd828da9de/packages/neovim/src-nvim-os-stdpaths.c.patch"
+      "https://github.com/strsp/termux-ng/blob/d5ca061659/packages/neovim/disable-checkhealth-locale-warning.patch",
+      "https://github.com/strsp/termux-ng/blob/d5ca061659/packages/neovim/src-nvim-os-stdpaths.c.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/strsp/termux-ng/fd828da9de/packages/neovim/disable-checkhealth-locale-warning.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/fd828da9de/packages/neovim/src-nvim-os-stdpaths.c.patch"
+      "https://raw.githubusercontent.com/strsp/termux-ng/d5ca061659/packages/neovim/disable-checkhealth-locale-warning.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/d5ca061659/packages/neovim/src-nvim-os-stdpaths.c.patch"
     ],
     "auto_updated": true
   },
@@ -29872,7 +29872,7 @@
   },
   {
     "name": "ollama",
-    "version": "0.21.0",
+    "version": "0.21.1",
     "description": "Get up and running with large language models",
     "homepage": "https://ollama.com/",
     "depends": [
@@ -29880,26 +29880,26 @@
     ],
     "srcurl": "git+https://github.com/ollama/ollama",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/0234826383/packages/ollama",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/0234826383/packages/ollama/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/0234826383/packages/ollama/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/124e28e022/packages/ollama",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/124e28e022/packages/ollama/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/124e28e022/packages/ollama/build.sh",
     "package_patch_urls": [
-      "https://github.com/strsp/termux-ng/blob/0234826383/packages/ollama/0001-do-not-install-runtime-deps.patch",
-      "https://github.com/strsp/termux-ng/blob/0234826383/packages/ollama/0002-properly-search-libs-on-android.patch",
-      "https://github.com/strsp/termux-ng/blob/0234826383/packages/ollama/0003-do-not-include-sources-for-vulkan-again.patch",
-      "https://github.com/strsp/termux-ng/blob/0234826383/packages/ollama/0004-force-disable-features-on-Andoid.patch",
-      "https://github.com/strsp/termux-ng/blob/0234826383/packages/ollama/0006-do-not-search-hip-memory.patch",
-      "https://github.com/strsp/termux-ng/blob/0234826383/packages/ollama/0007-do-not-use-flash-attention-when-using-cpu.patch",
-      "https://github.com/strsp/termux-ng/blob/0234826383/packages/ollama/0008-fix-build-with-latest-vulkan-hpp.patch"
+      "https://github.com/strsp/termux-ng/blob/124e28e022/packages/ollama/0001-do-not-install-runtime-deps.patch",
+      "https://github.com/strsp/termux-ng/blob/124e28e022/packages/ollama/0002-properly-search-libs-on-android.patch",
+      "https://github.com/strsp/termux-ng/blob/124e28e022/packages/ollama/0003-do-not-include-sources-for-vulkan-again.patch",
+      "https://github.com/strsp/termux-ng/blob/124e28e022/packages/ollama/0004-force-disable-features-on-Andoid.patch",
+      "https://github.com/strsp/termux-ng/blob/124e28e022/packages/ollama/0006-do-not-search-hip-memory.patch",
+      "https://github.com/strsp/termux-ng/blob/124e28e022/packages/ollama/0007-do-not-use-flash-attention-when-using-cpu.patch",
+      "https://github.com/strsp/termux-ng/blob/124e28e022/packages/ollama/0008-fix-build-with-latest-vulkan-hpp.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/strsp/termux-ng/0234826383/packages/ollama/0001-do-not-install-runtime-deps.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/0234826383/packages/ollama/0002-properly-search-libs-on-android.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/0234826383/packages/ollama/0003-do-not-include-sources-for-vulkan-again.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/0234826383/packages/ollama/0004-force-disable-features-on-Andoid.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/0234826383/packages/ollama/0006-do-not-search-hip-memory.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/0234826383/packages/ollama/0007-do-not-use-flash-attention-when-using-cpu.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/0234826383/packages/ollama/0008-fix-build-with-latest-vulkan-hpp.patch"
+      "https://raw.githubusercontent.com/strsp/termux-ng/124e28e022/packages/ollama/0001-do-not-install-runtime-deps.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/124e28e022/packages/ollama/0002-properly-search-libs-on-android.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/124e28e022/packages/ollama/0003-do-not-include-sources-for-vulkan-again.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/124e28e022/packages/ollama/0004-force-disable-features-on-Andoid.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/124e28e022/packages/ollama/0006-do-not-search-hip-memory.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/124e28e022/packages/ollama/0007-do-not-use-flash-attention-when-using-cpu.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/124e28e022/packages/ollama/0008-fix-build-with-latest-vulkan-hpp.patch"
     ],
     "auto_updated": true
   },
@@ -31783,15 +31783,15 @@
   },
   {
     "name": "pdfcpu",
-    "version": "0.11.1",
+    "version": "0.12.0",
     "description": "A PDF processor written in Go",
     "homepage": "https://pdfcpu.io",
     "depends": [],
-    "srcurl": "https://github.com/pdfcpu/pdfcpu/archive/refs/tags/v0.11.1.tar.gz",
+    "srcurl": "https://github.com/pdfcpu/pdfcpu/archive/refs/tags/v0.12.0.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/323a7680ac/packages/pdfcpu",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/323a7680ac/packages/pdfcpu/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/323a7680ac/packages/pdfcpu/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/c93e8a479a/packages/pdfcpu",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/c93e8a479a/packages/pdfcpu/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/c93e8a479a/packages/pdfcpu/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -39082,7 +39082,7 @@
   },
   {
     "name": "swi-prolog",
-    "version": "10.1.5",
+    "version": "10.1.6",
     "description": "Most popular and complete prolog implementation",
     "homepage": "https://swi-prolog.org/",
     "depends": [
@@ -39101,18 +39101,18 @@
       "unixodbc",
       "zlib"
     ],
-    "srcurl": "https://www.swi-prolog.org/download/devel/src/swipl-10.1.5.tar.gz",
+    "srcurl": "https://www.swi-prolog.org/download/devel/src/swipl-10.1.6.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/9c4251c921/packages/swi-prolog",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/9c4251c921/packages/swi-prolog/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/9c4251c921/packages/swi-prolog/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/d6e5bf625d/packages/swi-prolog",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/d6e5bf625d/packages/swi-prolog/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/d6e5bf625d/packages/swi-prolog/build.sh",
     "package_patch_urls": [
-      "https://github.com/strsp/termux-ng/blob/9c4251c921/packages/swi-prolog/continue-on-abi-check-failure.patch",
-      "https://github.com/strsp/termux-ng/blob/9c4251c921/packages/swi-prolog/disable-installation-of-some-qlfs.patch"
+      "https://github.com/strsp/termux-ng/blob/d6e5bf625d/packages/swi-prolog/continue-on-abi-check-failure.patch",
+      "https://github.com/strsp/termux-ng/blob/d6e5bf625d/packages/swi-prolog/disable-installation-of-some-qlfs.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/strsp/termux-ng/9c4251c921/packages/swi-prolog/continue-on-abi-check-failure.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/9c4251c921/packages/swi-prolog/disable-installation-of-some-qlfs.patch"
+      "https://raw.githubusercontent.com/strsp/termux-ng/d6e5bf625d/packages/swi-prolog/continue-on-abi-check-failure.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/d6e5bf625d/packages/swi-prolog/disable-installation-of-some-qlfs.patch"
     ],
     "auto_updated": true
   },
