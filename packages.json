@@ -14770,15 +14770,15 @@
   },
   {
     "name": "kubectl",
-    "version": "1.35.4",
+    "version": "1.36.0",
     "description": "Kubernetes.io client binary",
     "homepage": "https://kubernetes.io/",
     "depends": [],
-    "srcurl": "https://dl.k8s.io/v1.35.4/kubernetes-src.tar.gz",
+    "srcurl": "https://dl.k8s.io/v1.36.0/kubernetes-src.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/42af3f6468/packages/kubectl",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/42af3f6468/packages/kubectl/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/42af3f6468/packages/kubectl/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/c750331a90/packages/kubectl",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/c750331a90/packages/kubectl/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/c750331a90/packages/kubectl/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -15139,7 +15139,7 @@
   },
   {
     "name": "lfortran",
-    "version": "0.62.0",
+    "version": "0.63.0",
     "description": "A modern open-source interactive Fortran compiler",
     "homepage": "https://lfortran.org/",
     "depends": [
@@ -15150,26 +15150,26 @@
       "zlib",
       "zstd"
     ],
-    "srcurl": "https://github.com/lfortran/lfortran/releases/download/v0.62.0/lfortran-0.62.0.tar.gz",
+    "srcurl": "https://github.com/lfortran/lfortran/releases/download/v0.63.0/lfortran-0.63.0.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/6d7e2e04c6/packages/lfortran",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/6d7e2e04c6/packages/lfortran/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/6d7e2e04c6/packages/lfortran/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/3f76fd7379/packages/lfortran",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/3f76fd7379/packages/lfortran/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/3f76fd7379/packages/lfortran/build.sh",
     "package_patch_urls": [
-      "https://github.com/strsp/termux-ng/blob/6d7e2e04c6/packages/lfortran/0001-link-against-shared-zlib.patch",
-      "https://github.com/strsp/termux-ng/blob/6d7e2e04c6/packages/lfortran/0002-link-against-shared-zstd.patch",
-      "https://github.com/strsp/termux-ng/blob/6d7e2e04c6/packages/lfortran/0003-use-clang-instead-of-gcc.cpp.patch",
-      "https://github.com/strsp/termux-ng/blob/6d7e2e04c6/packages/lfortran/0004-install-lfortran-runtimes.patch",
-      "https://github.com/strsp/termux-ng/blob/6d7e2e04c6/packages/lfortran/0005-link-against-libandroid-complex-math.patch",
-      "https://github.com/strsp/termux-ng/blob/6d7e2e04c6/packages/lfortran/0006-use-prebuilt-lfortran.patch"
+      "https://github.com/strsp/termux-ng/blob/3f76fd7379/packages/lfortran/0001-link-against-shared-zlib.patch",
+      "https://github.com/strsp/termux-ng/blob/3f76fd7379/packages/lfortran/0002-link-against-shared-zstd.patch",
+      "https://github.com/strsp/termux-ng/blob/3f76fd7379/packages/lfortran/0003-use-clang-instead-of-gcc.cpp.patch",
+      "https://github.com/strsp/termux-ng/blob/3f76fd7379/packages/lfortran/0004-install-lfortran-runtimes.patch",
+      "https://github.com/strsp/termux-ng/blob/3f76fd7379/packages/lfortran/0005-link-against-libandroid-complex-math.patch",
+      "https://github.com/strsp/termux-ng/blob/3f76fd7379/packages/lfortran/0006-use-prebuilt-lfortran.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/strsp/termux-ng/6d7e2e04c6/packages/lfortran/0001-link-against-shared-zlib.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/6d7e2e04c6/packages/lfortran/0002-link-against-shared-zstd.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/6d7e2e04c6/packages/lfortran/0003-use-clang-instead-of-gcc.cpp.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/6d7e2e04c6/packages/lfortran/0004-install-lfortran-runtimes.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/6d7e2e04c6/packages/lfortran/0005-link-against-libandroid-complex-math.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/6d7e2e04c6/packages/lfortran/0006-use-prebuilt-lfortran.patch"
+      "https://raw.githubusercontent.com/strsp/termux-ng/3f76fd7379/packages/lfortran/0001-link-against-shared-zlib.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/3f76fd7379/packages/lfortran/0002-link-against-shared-zstd.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/3f76fd7379/packages/lfortran/0003-use-clang-instead-of-gcc.cpp.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/3f76fd7379/packages/lfortran/0004-install-lfortran-runtimes.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/3f76fd7379/packages/lfortran/0005-link-against-libandroid-complex-math.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/3f76fd7379/packages/lfortran/0006-use-prebuilt-lfortran.patch"
     ],
     "auto_updated": true
   },
@@ -25415,17 +25415,17 @@
   },
   {
     "name": "manpages",
-    "version": "6.17",
+    "version": "6.18",
     "description": "Man pages for linux kernel and C library interfaces",
     "homepage": "https://www.kernel.org/doc/man-pages/",
     "depends": [
       "mandoc"
     ],
-    "srcurl": "https://www.kernel.org/pub/linux/docs/man-pages/man-pages-6.17.tar.xz",
+    "srcurl": "https://www.kernel.org/pub/linux/docs/man-pages/man-pages-6.18.tar.xz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/54521d3275/packages/manpages",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/54521d3275/packages/manpages/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/54521d3275/packages/manpages/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/b1c2865f4f/packages/manpages",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/b1c2865f4f/packages/manpages/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/b1c2865f4f/packages/manpages/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -29427,7 +29427,7 @@
   },
   {
     "name": "npm",
-    "version": "11.12.1",
+    "version": "11.13.0",
     "description": "The package manager for JavaScript",
     "homepage": "https://docs.npmjs.com/cli/",
     "depends": [
@@ -29435,9 +29435,9 @@
     ],
     "srcurl": "git+https://github.com/npm/cli.git",
     "maintainer": "Yaksh Bariya <thunder-coding@termux.dev>",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/335113e929/packages/npm",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/335113e929/packages/npm/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/335113e929/packages/npm/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/e84f75ad1f/packages/npm",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/e84f75ad1f/packages/npm/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/e84f75ad1f/packages/npm/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -31421,26 +31421,26 @@
   },
   {
     "name": "parallel",
-    "version": "20260322",
+    "version": "20260422",
     "description": "GNU Parallel is a shell tool for executing jobs in parallel using one or more machines",
     "homepage": "https://www.gnu.org/software/parallel/",
     "depends": [
       "perl"
     ],
-    "srcurl": "https://mirrors.kernel.org/gnu/parallel/parallel-20260322.tar.bz2",
+    "srcurl": "https://mirrors.kernel.org/gnu/parallel/parallel-20260422.tar.bz2",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/73335ea0db/packages/parallel",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/73335ea0db/packages/parallel/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/73335ea0db/packages/parallel/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/4e523fe25a/packages/parallel",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/4e523fe25a/packages/parallel/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/4e523fe25a/packages/parallel/build.sh",
     "package_patch_urls": [
-      "https://github.com/strsp/termux-ng/blob/73335ea0db/packages/parallel/Makefile.in.patch",
-      "https://github.com/strsp/termux-ng/blob/73335ea0db/packages/parallel/parallel.patch",
-      "https://github.com/strsp/termux-ng/blob/73335ea0db/packages/parallel/sem.patch"
+      "https://github.com/strsp/termux-ng/blob/4e523fe25a/packages/parallel/Makefile.in.patch",
+      "https://github.com/strsp/termux-ng/blob/4e523fe25a/packages/parallel/parallel.patch",
+      "https://github.com/strsp/termux-ng/blob/4e523fe25a/packages/parallel/sem.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/strsp/termux-ng/73335ea0db/packages/parallel/Makefile.in.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/73335ea0db/packages/parallel/parallel.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/73335ea0db/packages/parallel/sem.patch"
+      "https://raw.githubusercontent.com/strsp/termux-ng/4e523fe25a/packages/parallel/Makefile.in.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/4e523fe25a/packages/parallel/parallel.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/4e523fe25a/packages/parallel/sem.patch"
     ],
     "auto_updated": true
   },
@@ -34894,17 +34894,17 @@
   },
   {
     "name": "rabbitmq-server",
-    "version": "4.2.5",
+    "version": "4.3.0",
     "description": "Feature rich, multi-protocol messaging and streaming broker",
     "homepage": "https://github.com/rabbitmq/rabbitmq-server",
     "depends": [
       "erlang"
     ],
-    "srcurl": "https://github.com/rabbitmq/rabbitmq-server/releases/download/v4.2.5/rabbitmq-server-generic-unix-4.2.5.tar.xz",
+    "srcurl": "https://github.com/rabbitmq/rabbitmq-server/releases/download/v4.3.0/rabbitmq-server-generic-unix-4.3.0.tar.xz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/a72ecece7a/packages/rabbitmq-server",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/a72ecece7a/packages/rabbitmq-server/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/a72ecece7a/packages/rabbitmq-server/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/4732987498/packages/rabbitmq-server",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/4732987498/packages/rabbitmq-server/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/4732987498/packages/rabbitmq-server/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -37375,15 +37375,15 @@
   },
   {
     "name": "sing-box",
-    "version": "1.13.10",
+    "version": "1.13.11",
     "description": "The universal proxy platform",
     "homepage": "https://sing-box.sagernet.org",
     "depends": [],
-    "srcurl": "https://github.com/SagerNet/sing-box/archive/refs/tags/v1.13.10.tar.gz",
+    "srcurl": "https://github.com/SagerNet/sing-box/archive/refs/tags/v1.13.11.tar.gz",
     "maintainer": "kay9925@outlook.com",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/77739f55f4/packages/sing-box",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/77739f55f4/packages/sing-box/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/77739f55f4/packages/sing-box/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/82a370583d/packages/sing-box",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/82a370583d/packages/sing-box/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/82a370583d/packages/sing-box/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -40558,7 +40558,7 @@
   },
   {
     "name": "tinygo",
-    "version": "0.41.0",
+    "version": "0.41.1",
     "description": "Go compiler for microcontrollers, WASM, CLI tools",
     "homepage": "https://tinygo.org",
     "depends": [
@@ -40568,14 +40568,14 @@
     ],
     "srcurl": "git+https://github.com/tinygo-org/tinygo",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/4e4e2fa688/packages/tinygo",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/4e4e2fa688/packages/tinygo/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/4e4e2fa688/packages/tinygo/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/aa960f1515/packages/tinygo",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/aa960f1515/packages/tinygo/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/aa960f1515/packages/tinygo/build.sh",
     "package_patch_urls": [
-      "https://github.com/strsp/termux-ng/blob/4e4e2fa688/packages/tinygo/GNUmakefile.patch"
+      "https://github.com/strsp/termux-ng/blob/aa960f1515/packages/tinygo/GNUmakefile.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/strsp/termux-ng/4e4e2fa688/packages/tinygo/GNUmakefile.patch"
+      "https://raw.githubusercontent.com/strsp/termux-ng/aa960f1515/packages/tinygo/GNUmakefile.patch"
     ],
     "auto_updated": true
   },
@@ -46850,7 +46850,7 @@
   },
   {
     "name": "openvpn",
-    "version": "2.7.1",
+    "version": "2.7.2",
     "description": "An easy-to-use, robust, and highly configurable VPN (Virtual Private Network)",
     "homepage": "https://openvpn.net",
     "depends": [
@@ -46860,20 +46860,20 @@
       "net-tools",
       "openssl"
     ],
-    "srcurl": "https://github.com/OpenVPN/openvpn/archive/refs/tags/v2.7.1.tar.gz",
+    "srcurl": "https://github.com/OpenVPN/openvpn/archive/refs/tags/v2.7.2.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/16fed7d199/root-packages/openvpn",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/16fed7d199/root-packages/openvpn/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/16fed7d199/root-packages/openvpn/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/a23f602ccb/root-packages/openvpn",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/a23f602ccb/root-packages/openvpn/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/a23f602ccb/root-packages/openvpn/build.sh",
     "package_patch_urls": [
-      "https://github.com/strsp/termux-ng/blob/16fed7d199/root-packages/openvpn/src-openvpn-console_builtin.c.patch",
-      "https://github.com/strsp/termux-ng/blob/16fed7d199/root-packages/openvpn/src-openvpn-options.c.patch",
-      "https://github.com/strsp/termux-ng/blob/16fed7d199/root-packages/openvpn/src-openvpn-tun.c.patch"
+      "https://github.com/strsp/termux-ng/blob/a23f602ccb/root-packages/openvpn/src-openvpn-console_builtin.c.patch",
+      "https://github.com/strsp/termux-ng/blob/a23f602ccb/root-packages/openvpn/src-openvpn-options.c.patch",
+      "https://github.com/strsp/termux-ng/blob/a23f602ccb/root-packages/openvpn/src-openvpn-tun.c.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/strsp/termux-ng/16fed7d199/root-packages/openvpn/src-openvpn-console_builtin.c.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/16fed7d199/root-packages/openvpn/src-openvpn-options.c.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/16fed7d199/root-packages/openvpn/src-openvpn-tun.c.patch"
+      "https://raw.githubusercontent.com/strsp/termux-ng/a23f602ccb/root-packages/openvpn/src-openvpn-console_builtin.c.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/a23f602ccb/root-packages/openvpn/src-openvpn-options.c.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/a23f602ccb/root-packages/openvpn/src-openvpn-tun.c.patch"
     ],
     "auto_updated": true
   },
