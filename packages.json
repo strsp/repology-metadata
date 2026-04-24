@@ -8766,7 +8766,7 @@
   },
   {
     "name": "flint",
-    "version": "3.4.0",
+    "version": "3.5.0",
     "description": "C library for doing number theory",
     "homepage": "http://www.flintlib.org",
     "depends": [
@@ -8774,17 +8774,13 @@
       "libgmp",
       "libmpfr"
     ],
-    "srcurl": "https://github.com/flintlib/flint/releases/download/v3.4.0/flint-3.4.0.tar.gz",
+    "srcurl": "https://github.com/flintlib/flint/releases/download/v3.5.0/flint-3.5.0.tar.xz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/0e06d3e536/packages/flint",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/0e06d3e536/packages/flint/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/0e06d3e536/packages/flint/build.sh",
-    "package_patch_urls": [
-      "https://github.com/strsp/termux-ng/blob/0e06d3e536/packages/flint/cherry-pick-32-bit-support.patch"
-    ],
-    "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/strsp/termux-ng/0e06d3e536/packages/flint/cherry-pick-32-bit-support.patch"
-    ],
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/27cfbce359/packages/flint",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/27cfbce359/packages/flint/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/27cfbce359/packages/flint/build.sh",
+    "package_patch_urls": [],
+    "package_patch_raw_urls": [],
     "auto_updated": true
   },
   {
@@ -10380,17 +10376,17 @@
   },
   {
     "name": "gleam",
-    "version": "1.15.4",
+    "version": "1.16.0",
     "description": "A friendly language for building type-safe, scalable systems!",
     "homepage": "https://gleam.run",
     "depends": [
       "erlang"
     ],
-    "srcurl": "https://github.com/gleam-lang/gleam/archive/refs/tags/v1.15.4.tar.gz",
+    "srcurl": "https://github.com/gleam-lang/gleam/archive/refs/tags/v1.16.0.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/860c2ca1af/packages/gleam",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/860c2ca1af/packages/gleam/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/860c2ca1af/packages/gleam/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/862f4e1a49/packages/gleam",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/862f4e1a49/packages/gleam/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/862f4e1a49/packages/gleam/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -12319,17 +12315,17 @@
   },
   {
     "name": "hcloud",
-    "version": "1.62.2",
+    "version": "1.63.0",
     "description": "Hetzner Cloud command line client",
     "homepage": "https://github.com/hetznercloud/cli",
     "depends": [
       "resolv-conf"
     ],
-    "srcurl": "https://github.com/hetznercloud/cli/archive/refs/tags/v1.62.2.tar.gz",
+    "srcurl": "https://github.com/hetznercloud/cli/archive/refs/tags/v1.63.0.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/24958f8a01/packages/hcloud",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/24958f8a01/packages/hcloud/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/24958f8a01/packages/hcloud/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/114b83a1ff/packages/hcloud",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/114b83a1ff/packages/hcloud/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/114b83a1ff/packages/hcloud/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -14978,15 +14974,15 @@
   },
   {
     "name": "lego",
-    "version": "4.35.1",
+    "version": "4.35.2",
     "description": "Let's Encrypt/ACME client and library written in Go",
     "homepage": "https://github.com/go-acme/lego",
     "depends": [],
-    "srcurl": "https://github.com/go-acme/lego/archive/refs/tags/v4.35.1.tar.gz",
+    "srcurl": "https://github.com/go-acme/lego/archive/refs/tags/v4.35.2.tar.gz",
     "maintainer": "Izumi Sena Sora <info@unordinary.eu.org>",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/c8eedb712d/packages/lego",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/c8eedb712d/packages/lego/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/c8eedb712d/packages/lego/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/4692a29a3b/packages/lego",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/4692a29a3b/packages/lego/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/4692a29a3b/packages/lego/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -25029,23 +25025,23 @@
   },
   {
     "name": "lychee",
-    "version": "0.24.0",
+    "version": "0.24.1",
     "description": "A fast, async, resource-friendly link checker written in Rust",
     "homepage": "https://github.com/lycheeverse/lychee",
     "depends": [
       "openssl",
       "resolv-conf"
     ],
-    "srcurl": "https://github.com/lycheeverse/lychee/archive/refs/tags/lychee-v0.24.0.tar.gz",
+    "srcurl": "https://github.com/lycheeverse/lychee/archive/refs/tags/lychee-v0.24.1.tar.gz",
     "maintainer": "Yaksh Bariya <thunder-coding@termux.dev>",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/f7717f99a7/packages/lychee",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/f7717f99a7/packages/lychee/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/f7717f99a7/packages/lychee/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/8d8f116b9e/packages/lychee",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/8d8f116b9e/packages/lychee/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/8d8f116b9e/packages/lychee/build.sh",
     "package_patch_urls": [
-      "https://github.com/strsp/termux-ng/blob/f7717f99a7/packages/lychee/trust-dns-resolver.diff"
+      "https://github.com/strsp/termux-ng/blob/8d8f116b9e/packages/lychee/trust-dns-resolver.diff"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/strsp/termux-ng/f7717f99a7/packages/lychee/trust-dns-resolver.diff"
+      "https://raw.githubusercontent.com/strsp/termux-ng/8d8f116b9e/packages/lychee/trust-dns-resolver.diff"
     ],
     "auto_updated": true
   },
@@ -36157,15 +36153,15 @@
   },
   {
     "name": "ruff",
-    "version": "0.15.11",
+    "version": "0.15.12",
     "description": "An extremely fast Python linter, written in Rust",
     "homepage": "https://github.com/charliermarsh/ruff",
     "depends": [],
-    "srcurl": "https://github.com/charliermarsh/ruff/archive/refs/tags/0.15.11.tar.gz",
+    "srcurl": "https://github.com/charliermarsh/ruff/archive/refs/tags/0.15.12.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/35d884b1b3/packages/ruff",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/35d884b1b3/packages/ruff/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/35d884b1b3/packages/ruff/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/3bec897981/packages/ruff",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/3bec897981/packages/ruff/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/3bec897981/packages/ruff/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -58292,7 +58288,7 @@
   },
   {
     "name": "libneatvnc",
-    "version": "0.9.5",
+    "version": "0.9.6",
     "description": "A liberally licensed VNC server library with a clean interface",
     "homepage": "https://github.com/any1/neatvnc",
     "depends": [
@@ -58305,22 +58301,22 @@
       "libpixman",
       "zlib"
     ],
-    "srcurl": "https://github.com/any1/neatvnc/archive/refs/tags/v0.9.5.tar.gz",
+    "srcurl": "https://github.com/any1/neatvnc/archive/refs/tags/v0.9.6.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/e9a6dffe44/x11-packages/libneatvnc",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/e9a6dffe44/x11-packages/libneatvnc/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/e9a6dffe44/x11-packages/libneatvnc/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/ec34cec5d2/x11-packages/libneatvnc",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/ec34cec5d2/x11-packages/libneatvnc/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/ec34cec5d2/x11-packages/libneatvnc/build.sh",
     "package_patch_urls": [
-      "https://github.com/strsp/termux-ng/blob/e9a6dffe44/x11-packages/libneatvnc/0001-getrandom.patch",
-      "https://github.com/strsp/termux-ng/blob/e9a6dffe44/x11-packages/libneatvnc/0002-aligned_alloc.patch",
-      "https://github.com/strsp/termux-ng/blob/e9a6dffe44/x11-packages/libneatvnc/0003-libaml1.patch",
-      "https://github.com/strsp/termux-ng/blob/e9a6dffe44/x11-packages/libneatvnc/0004-libaml1.patch"
+      "https://github.com/strsp/termux-ng/blob/ec34cec5d2/x11-packages/libneatvnc/0001-getrandom.patch",
+      "https://github.com/strsp/termux-ng/blob/ec34cec5d2/x11-packages/libneatvnc/0002-aligned_alloc.patch",
+      "https://github.com/strsp/termux-ng/blob/ec34cec5d2/x11-packages/libneatvnc/0003-libaml1.patch",
+      "https://github.com/strsp/termux-ng/blob/ec34cec5d2/x11-packages/libneatvnc/0004-libaml1.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/strsp/termux-ng/e9a6dffe44/x11-packages/libneatvnc/0001-getrandom.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/e9a6dffe44/x11-packages/libneatvnc/0002-aligned_alloc.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/e9a6dffe44/x11-packages/libneatvnc/0003-libaml1.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/e9a6dffe44/x11-packages/libneatvnc/0004-libaml1.patch"
+      "https://raw.githubusercontent.com/strsp/termux-ng/ec34cec5d2/x11-packages/libneatvnc/0001-getrandom.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/ec34cec5d2/x11-packages/libneatvnc/0002-aligned_alloc.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/ec34cec5d2/x11-packages/libneatvnc/0003-libaml1.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/ec34cec5d2/x11-packages/libneatvnc/0004-libaml1.patch"
     ],
     "auto_updated": true
   },
