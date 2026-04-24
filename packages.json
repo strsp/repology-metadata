@@ -13897,7 +13897,7 @@
   },
   {
     "name": "jackett",
-    "version": "0.24.1731",
+    "version": "0.24.1736",
     "description": "API Support for your favorite torrent trackers",
     "homepage": "https://github.com/jackett/jackett",
     "depends": [
@@ -13905,11 +13905,11 @@
       "dotnet-host",
       "dotnet-runtime-9.0"
     ],
-    "srcurl": "https://github.com/Jackett/Jackett/archive/refs/tags/v0.24.1731.tar.gz",
+    "srcurl": "https://github.com/Jackett/Jackett/archive/refs/tags/v0.24.1736.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/84b9032654/packages/jackett",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/84b9032654/packages/jackett/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/84b9032654/packages/jackett/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/adb1be4482/packages/jackett",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/adb1be4482/packages/jackett/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/adb1be4482/packages/jackett/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -26696,7 +26696,7 @@
   },
   {
     "name": "minizinc",
-    "version": "2.9.5",
+    "version": "2.9.6",
     "description": "A medium-level constraint modelling language",
     "homepage": "https://github.com/MiniZinc/libminizinc",
     "depends": [
@@ -26704,11 +26704,11 @@
       "zlib",
       "gecode"
     ],
-    "srcurl": "https://github.com/MiniZinc/libminizinc/archive/refs/tags/2.9.5.tar.gz",
+    "srcurl": "https://github.com/MiniZinc/libminizinc/archive/refs/tags/2.9.6.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/31c939746e/packages/minizinc",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/31c939746e/packages/minizinc/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/31c939746e/packages/minizinc/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/5b87969563/packages/minizinc",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/5b87969563/packages/minizinc/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/5b87969563/packages/minizinc/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -28481,18 +28481,18 @@
       "tree-sitter-parsers",
       "utf8proc"
     ],
-    "srcurl": "https://github.com/neovim/neovim/archive/a4ad469fb1.tar.gz",
+    "srcurl": "https://github.com/neovim/neovim/archive/c0e358f7e8.tar.gz",
     "maintainer": "Joshua Kahn <tom@termux.dev>",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/0d6dbaa283/packages/neovim-nightly",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/0d6dbaa283/packages/neovim-nightly/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/0d6dbaa283/packages/neovim-nightly/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/ee774daf08/packages/neovim-nightly",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/ee774daf08/packages/neovim-nightly/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/ee774daf08/packages/neovim-nightly/build.sh",
     "package_patch_urls": [
-      "https://github.com/strsp/termux-ng/blob/0d6dbaa283/packages/neovim-nightly/disable-checkhealth-locale-warning.patch",
-      "https://github.com/strsp/termux-ng/blob/0d6dbaa283/packages/neovim-nightly/src-nvim-os-stdpaths.c.patch"
+      "https://github.com/strsp/termux-ng/blob/ee774daf08/packages/neovim-nightly/disable-checkhealth-locale-warning.patch",
+      "https://github.com/strsp/termux-ng/blob/ee774daf08/packages/neovim-nightly/src-nvim-os-stdpaths.c.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/strsp/termux-ng/0d6dbaa283/packages/neovim-nightly/disable-checkhealth-locale-warning.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/0d6dbaa283/packages/neovim-nightly/src-nvim-os-stdpaths.c.patch"
+      "https://raw.githubusercontent.com/strsp/termux-ng/ee774daf08/packages/neovim-nightly/disable-checkhealth-locale-warning.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/ee774daf08/packages/neovim-nightly/src-nvim-os-stdpaths.c.patch"
     ],
     "auto_updated": true
   },
@@ -29857,7 +29857,7 @@
   },
   {
     "name": "ollama",
-    "version": "0.21.1",
+    "version": "0.21.2",
     "description": "Get up and running with large language models",
     "homepage": "https://ollama.com/",
     "depends": [
@@ -29865,26 +29865,26 @@
     ],
     "srcurl": "git+https://github.com/ollama/ollama",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/124e28e022/packages/ollama",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/124e28e022/packages/ollama/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/124e28e022/packages/ollama/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/b9e87c2c54/packages/ollama",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/b9e87c2c54/packages/ollama/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/b9e87c2c54/packages/ollama/build.sh",
     "package_patch_urls": [
-      "https://github.com/strsp/termux-ng/blob/124e28e022/packages/ollama/0001-do-not-install-runtime-deps.patch",
-      "https://github.com/strsp/termux-ng/blob/124e28e022/packages/ollama/0002-properly-search-libs-on-android.patch",
-      "https://github.com/strsp/termux-ng/blob/124e28e022/packages/ollama/0003-do-not-include-sources-for-vulkan-again.patch",
-      "https://github.com/strsp/termux-ng/blob/124e28e022/packages/ollama/0004-force-disable-features-on-Andoid.patch",
-      "https://github.com/strsp/termux-ng/blob/124e28e022/packages/ollama/0006-do-not-search-hip-memory.patch",
-      "https://github.com/strsp/termux-ng/blob/124e28e022/packages/ollama/0007-do-not-use-flash-attention-when-using-cpu.patch",
-      "https://github.com/strsp/termux-ng/blob/124e28e022/packages/ollama/0008-fix-build-with-latest-vulkan-hpp.patch"
+      "https://github.com/strsp/termux-ng/blob/b9e87c2c54/packages/ollama/0001-do-not-install-runtime-deps.patch",
+      "https://github.com/strsp/termux-ng/blob/b9e87c2c54/packages/ollama/0002-properly-search-libs-on-android.patch",
+      "https://github.com/strsp/termux-ng/blob/b9e87c2c54/packages/ollama/0003-do-not-include-sources-for-vulkan-again.patch",
+      "https://github.com/strsp/termux-ng/blob/b9e87c2c54/packages/ollama/0004-force-disable-features-on-Andoid.patch",
+      "https://github.com/strsp/termux-ng/blob/b9e87c2c54/packages/ollama/0006-do-not-search-hip-memory.patch",
+      "https://github.com/strsp/termux-ng/blob/b9e87c2c54/packages/ollama/0007-do-not-use-flash-attention-when-using-cpu.patch",
+      "https://github.com/strsp/termux-ng/blob/b9e87c2c54/packages/ollama/0008-fix-build-with-latest-vulkan-hpp.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/strsp/termux-ng/124e28e022/packages/ollama/0001-do-not-install-runtime-deps.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/124e28e022/packages/ollama/0002-properly-search-libs-on-android.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/124e28e022/packages/ollama/0003-do-not-include-sources-for-vulkan-again.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/124e28e022/packages/ollama/0004-force-disable-features-on-Andoid.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/124e28e022/packages/ollama/0006-do-not-search-hip-memory.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/124e28e022/packages/ollama/0007-do-not-use-flash-attention-when-using-cpu.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/124e28e022/packages/ollama/0008-fix-build-with-latest-vulkan-hpp.patch"
+      "https://raw.githubusercontent.com/strsp/termux-ng/b9e87c2c54/packages/ollama/0001-do-not-install-runtime-deps.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/b9e87c2c54/packages/ollama/0002-properly-search-libs-on-android.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/b9e87c2c54/packages/ollama/0003-do-not-include-sources-for-vulkan-again.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/b9e87c2c54/packages/ollama/0004-force-disable-features-on-Andoid.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/b9e87c2c54/packages/ollama/0006-do-not-search-hip-memory.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/b9e87c2c54/packages/ollama/0007-do-not-use-flash-attention-when-using-cpu.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/b9e87c2c54/packages/ollama/0008-fix-build-with-latest-vulkan-hpp.patch"
     ],
     "auto_updated": true
   },
@@ -38656,15 +38656,15 @@
   },
   {
     "name": "storj-uplink",
-    "version": "1.152.5",
+    "version": "1.152.6",
     "description": "Storj DCS Uplink CLI",
     "homepage": "https://www.storj.io/integrations/uplink-cli",
     "depends": [],
-    "srcurl": "https://github.com/storj/storj/archive/refs/tags/v1.152.5.tar.gz",
+    "srcurl": "https://github.com/storj/storj/archive/refs/tags/v1.152.6.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/79eb122056/packages/storj-uplink",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/79eb122056/packages/storj-uplink/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/79eb122056/packages/storj-uplink/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/bc8a6abc5e/packages/storj-uplink",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/bc8a6abc5e/packages/storj-uplink/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/bc8a6abc5e/packages/storj-uplink/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
