@@ -13105,16 +13105,16 @@
     ],
     "srcurl": "https://github.com/PurpleI2P/i2pd/archive/refs/tags/2.60.0.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/3b327e4039/packages/i2pd",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/3b327e4039/packages/i2pd/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/3b327e4039/packages/i2pd/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/f12f93695a/packages/i2pd",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/f12f93695a/packages/i2pd/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/f12f93695a/packages/i2pd/build.sh",
     "package_patch_urls": [
-      "https://github.com/strsp/termux-ng/blob/3b327e4039/packages/i2pd/contrib-i2pd.conf.patch",
-      "https://github.com/strsp/termux-ng/blob/3b327e4039/packages/i2pd/fix-paths.patch"
+      "https://github.com/strsp/termux-ng/blob/f12f93695a/packages/i2pd/contrib-i2pd.conf.patch",
+      "https://github.com/strsp/termux-ng/blob/f12f93695a/packages/i2pd/fix-paths.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/strsp/termux-ng/3b327e4039/packages/i2pd/contrib-i2pd.conf.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/3b327e4039/packages/i2pd/fix-paths.patch"
+      "https://raw.githubusercontent.com/strsp/termux-ng/f12f93695a/packages/i2pd/contrib-i2pd.conf.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/f12f93695a/packages/i2pd/fix-paths.patch"
     ],
     "auto_updated": true
   },
@@ -15039,9 +15039,9 @@
     ],
     "srcurl": "https://github.com/wofr06/lesspipe/archive/refs/tags/v2.25.tar.gz",
     "maintainer": "Joshua Kahn <tom@termux.dev>",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/37179562c1/packages/lesspipe",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/37179562c1/packages/lesspipe/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/37179562c1/packages/lesspipe/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/8ecc717f62/packages/lesspipe",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/8ecc717f62/packages/lesspipe/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/8ecc717f62/packages/lesspipe/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -34600,54 +34600,6 @@
     "auto_updated": false
   },
   {
-    "name": "python3.12",
-    "version": "3.12.13",
-    "description": "Python 3 programming language intended to enable clear programs",
-    "homepage": "https://python.org/",
-    "depends": [
-      "gdbm",
-      "libandroid-posix-semaphore",
-      "libandroid-support",
-      "libbz2",
-      "libcrypt",
-      "libexpat",
-      "libffi",
-      "liblzma",
-      "libsqlite",
-      "ncurses",
-      "ncurses-ui-libs",
-      "openssl",
-      "readline",
-      "zlib"
-    ],
-    "srcurl": "https://www.python.org/ftp/python/3.12.13/Python-3.12.13.tar.xz",
-    "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/eb7b4551dc/packages/python3.12",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/eb7b4551dc/packages/python3.12/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/eb7b4551dc/packages/python3.12/build.sh",
-    "package_patch_urls": [
-      "https://github.com/strsp/termux-ng/blob/eb7b4551dc/packages/python3.12/0001-fix-hardcoded-paths.patch",
-      "https://github.com/strsp/termux-ng/blob/eb7b4551dc/packages/python3.12/0002-no-setuid-servers.patch",
-      "https://github.com/strsp/termux-ng/blob/eb7b4551dc/packages/python3.12/0003-ctypes-util-use-llvm-tools.patch",
-      "https://github.com/strsp/termux-ng/blob/eb7b4551dc/packages/python3.12/0004-impl-getprotobyname.patch",
-      "https://github.com/strsp/termux-ng/blob/eb7b4551dc/packages/python3.12/0005-impl-multiprocessing.patch",
-      "https://github.com/strsp/termux-ng/blob/eb7b4551dc/packages/python3.12/0006-disable-multiarch.patch",
-      "https://github.com/strsp/termux-ng/blob/eb7b4551dc/packages/python3.12/0007-do-not-use-link.patch",
-      "https://github.com/strsp/termux-ng/blob/eb7b4551dc/packages/python3.12/debpython.patch"
-    ],
-    "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/strsp/termux-ng/eb7b4551dc/packages/python3.12/0001-fix-hardcoded-paths.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/eb7b4551dc/packages/python3.12/0002-no-setuid-servers.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/eb7b4551dc/packages/python3.12/0003-ctypes-util-use-llvm-tools.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/eb7b4551dc/packages/python3.12/0004-impl-getprotobyname.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/eb7b4551dc/packages/python3.12/0005-impl-multiprocessing.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/eb7b4551dc/packages/python3.12/0006-disable-multiarch.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/eb7b4551dc/packages/python3.12/0007-do-not-use-link.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/eb7b4551dc/packages/python3.12/debpython.patch"
-    ],
-    "auto_updated": false
-  },
-  {
     "name": "q-dns-client",
     "version": "0.19.12",
     "description": "A tiny command line DNS client with support for UDP, TCP, DoT, DoH, DoQ and ODoH",
@@ -36821,15 +36773,15 @@
   },
   {
     "name": "seanime",
-    "version": "3.6.1",
+    "version": "3.7.0",
     "description": "Self-hosted anime and manga server for sea rovers.",
     "homepage": "https://github.com/5rahim/seanime",
     "depends": [],
-    "srcurl": "https://github.com/5rahim/seanime/archive/refs/tags/v3.6.1.tar.gz",
+    "srcurl": "https://github.com/5rahim/seanime/archive/refs/tags/v3.7.0.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/c9a6230cdb/packages/seanime",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/c9a6230cdb/packages/seanime/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/c9a6230cdb/packages/seanime/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/9f8eca1dfb/packages/seanime",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/9f8eca1dfb/packages/seanime/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/9f8eca1dfb/packages/seanime/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -63643,16 +63595,16 @@
     ],
     "srcurl": "https://github.com/praat/praat/archive/refs/tags/v6.4.65.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/9984b64045/x11-packages/praat",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/9984b64045/x11-packages/praat/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/9984b64045/x11-packages/praat/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/bcc13e2f44/x11-packages/praat",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/bcc13e2f44/x11-packages/praat/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/bcc13e2f44/x11-packages/praat/build.sh",
     "package_patch_urls": [
-      "https://github.com/strsp/termux-ng/blob/9984b64045/x11-packages/praat/makefile.defs.patch",
-      "https://github.com/strsp/termux-ng/blob/9984b64045/x11-packages/praat/soundcard.h-path.patch"
+      "https://github.com/strsp/termux-ng/blob/bcc13e2f44/x11-packages/praat/makefile.defs.patch",
+      "https://github.com/strsp/termux-ng/blob/bcc13e2f44/x11-packages/praat/soundcard.h-path.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/strsp/termux-ng/9984b64045/x11-packages/praat/makefile.defs.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/9984b64045/x11-packages/praat/soundcard.h-path.patch"
+      "https://raw.githubusercontent.com/strsp/termux-ng/bcc13e2f44/x11-packages/praat/makefile.defs.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/bcc13e2f44/x11-packages/praat/soundcard.h-path.patch"
     ],
     "auto_updated": true
   },
