@@ -34600,6 +34600,58 @@
     "auto_updated": false
   },
   {
+    "name": "python3.12",
+    "version": "3.12.13",
+    "description": "Python 3 programming language intended to enable clear programs",
+    "homepage": "https://python.org/",
+    "depends": [
+      "gdbm",
+      "libandroid-posix-semaphore",
+      "libandroid-support",
+      "libbz2",
+      "libcrypt",
+      "libexpat",
+      "libffi",
+      "liblzma",
+      "libsqlite",
+      "ncurses",
+      "ncurses-ui-libs",
+      "openssl",
+      "readline",
+      "zlib"
+    ],
+    "srcurl": "https://www.python.org/ftp/python/3.12.13/Python-3.12.13.tar.xz",
+    "maintainer": "@termux",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/4b40713aca/packages/python3.12",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/4b40713aca/packages/python3.12/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/4b40713aca/packages/python3.12/build.sh",
+    "package_patch_urls": [
+      "https://github.com/strsp/termux-ng/blob/4b40713aca/packages/python3.12/0001-fix-hardcoded-paths.patch",
+      "https://github.com/strsp/termux-ng/blob/4b40713aca/packages/python3.12/0002-no-setuid-servers.patch",
+      "https://github.com/strsp/termux-ng/blob/4b40713aca/packages/python3.12/0003-ctypes-util-use-llvm-tools.patch",
+      "https://github.com/strsp/termux-ng/blob/4b40713aca/packages/python3.12/0004-impl-getprotobyname.patch",
+      "https://github.com/strsp/termux-ng/blob/4b40713aca/packages/python3.12/0005-impl-multiprocessing.patch",
+      "https://github.com/strsp/termux-ng/blob/4b40713aca/packages/python3.12/0006-disable-multiarch.patch",
+      "https://github.com/strsp/termux-ng/blob/4b40713aca/packages/python3.12/0007-do-not-use-link.patch",
+      "https://github.com/strsp/termux-ng/blob/4b40713aca/packages/python3.12/0008-fix-pkgconfig-variable-substitution.patch",
+      "https://github.com/strsp/termux-ng/blob/4b40713aca/packages/python3.12/0010-do-not-hardlink.patch",
+      "https://github.com/strsp/termux-ng/blob/4b40713aca/packages/python3.12/debpython.patch"
+    ],
+    "package_patch_raw_urls": [
+      "https://raw.githubusercontent.com/strsp/termux-ng/4b40713aca/packages/python3.12/0001-fix-hardcoded-paths.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/4b40713aca/packages/python3.12/0002-no-setuid-servers.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/4b40713aca/packages/python3.12/0003-ctypes-util-use-llvm-tools.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/4b40713aca/packages/python3.12/0004-impl-getprotobyname.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/4b40713aca/packages/python3.12/0005-impl-multiprocessing.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/4b40713aca/packages/python3.12/0006-disable-multiarch.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/4b40713aca/packages/python3.12/0007-do-not-use-link.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/4b40713aca/packages/python3.12/0008-fix-pkgconfig-variable-substitution.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/4b40713aca/packages/python3.12/0010-do-not-hardlink.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/4b40713aca/packages/python3.12/debpython.patch"
+    ],
+    "auto_updated": false
+  },
+  {
     "name": "q-dns-client",
     "version": "0.19.12",
     "description": "A tiny command line DNS client with support for UDP, TCP, DoT, DoH, DoQ and ODoH",
