@@ -492,20 +492,20 @@
   },
   {
     "name": "algernon",
-    "version": "1.17.5",
+    "version": "1.17.6",
     "description": "Small self-contained web server with Lua, Markdown, QUIC, Redis and PostgreSQL support",
     "homepage": "https://algernon.roboticoverlords.org/",
     "depends": [],
-    "srcurl": "https://github.com/xyproto/algernon/archive/refs/tags/v1.17.5.tar.gz",
+    "srcurl": "https://github.com/xyproto/algernon/archive/refs/tags/v1.17.6.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/91fad586ce/packages/algernon",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/91fad586ce/packages/algernon/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/91fad586ce/packages/algernon/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/fefee7d517/packages/algernon",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/fefee7d517/packages/algernon/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/fefee7d517/packages/algernon/build.sh",
     "package_patch_urls": [
-      "https://github.com/strsp/termux-ng/blob/91fad586ce/packages/algernon/fix-hardcoded-paths.patch"
+      "https://github.com/strsp/termux-ng/blob/fefee7d517/packages/algernon/fix-hardcoded-paths.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/strsp/termux-ng/91fad586ce/packages/algernon/fix-hardcoded-paths.patch"
+      "https://raw.githubusercontent.com/strsp/termux-ng/fefee7d517/packages/algernon/fix-hardcoded-paths.patch"
     ],
     "auto_updated": true
   },
@@ -1641,7 +1641,7 @@
   },
   {
     "name": "at-spi2-core",
-    "version": "2.60.1",
+    "version": "2.60.2",
     "description": "Assistive Technology Service Provider Interface (AT-SPI)",
     "homepage": "https://wiki.gnome.org/Accessibility",
     "depends": [
@@ -1651,11 +1651,11 @@
       "libxi",
       "libxtst"
     ],
-    "srcurl": "https://gitlab.gnome.org/GNOME/at-spi2-core/-/archive/2.60.1/at-spi2-core-2.60.1.tar.gz",
+    "srcurl": "https://gitlab.gnome.org/GNOME/at-spi2-core/-/archive/2.60.2/at-spi2-core-2.60.2.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/e97cf87ccc/packages/at-spi2-core",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/e97cf87ccc/packages/at-spi2-core/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/e97cf87ccc/packages/at-spi2-core/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/5b8558b777/packages/at-spi2-core",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/5b8558b777/packages/at-spi2-core/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/5b8558b777/packages/at-spi2-core/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -5669,15 +5669,15 @@
   },
   {
     "name": "dasel",
-    "version": "3.4.1",
+    "version": "3.8.0",
     "description": "Select, put and delete data from JSON, TOML, YAML, XML and CSV files with a single utility",
     "homepage": "https://github.com/TomWright/dasel",
     "depends": [],
-    "srcurl": "https://github.com/TomWright/dasel/archive/refs/tags/v3.4.1.tar.gz",
+    "srcurl": "https://github.com/TomWright/dasel/archive/refs/tags/v3.8.0.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/a4fd693e05/packages/dasel",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/a4fd693e05/packages/dasel/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/a4fd693e05/packages/dasel/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/5f7a78e0e1/packages/dasel",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/5f7a78e0e1/packages/dasel/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/5f7a78e0e1/packages/dasel/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -22718,7 +22718,7 @@
   },
   {
     "name": "libvigra",
-    "version": "1.12.3",
+    "version": "1.12.4",
     "description": "Computer vision library",
     "homepage": "https://ukoethe.github.io/vigra/",
     "depends": [
@@ -22731,16 +22731,16 @@
       "openexr",
       "zlib"
     ],
-    "srcurl": "https://github.com/ukoethe/vigra/archive/refs/tags/Version-1-12-3.tar.gz",
+    "srcurl": "https://github.com/ukoethe/vigra/archive/refs/tags/Version-1-12-4.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/0cff413b1a/packages/libvigra",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/0cff413b1a/packages/libvigra/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/0cff413b1a/packages/libvigra/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/71e7a305c8/packages/libvigra",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/71e7a305c8/packages/libvigra/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/71e7a305c8/packages/libvigra/build.sh",
     "package_patch_urls": [
-      "https://github.com/strsp/termux-ng/blob/0cff413b1a/packages/libvigra/src-impex-hdf5impex.cxx.patch"
+      "https://github.com/strsp/termux-ng/blob/71e7a305c8/packages/libvigra/src-impex-hdf5impex.cxx.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/strsp/termux-ng/0cff413b1a/packages/libvigra/src-impex-hdf5impex.cxx.patch"
+      "https://raw.githubusercontent.com/strsp/termux-ng/71e7a305c8/packages/libvigra/src-impex-hdf5impex.cxx.patch"
     ],
     "auto_updated": true
   },
@@ -24980,7 +24980,7 @@
   },
   {
     "name": "lux-cli",
-    "version": "0.28.4",
+    "version": "0.28.5",
     "description": "A package manager for Lua, similar to luarocks",
     "homepage": "https://lux.lumen-labs.org",
     "depends": [
@@ -24992,11 +24992,11 @@
       "openssl",
       "xz-utils"
     ],
-    "srcurl": "https://github.com/lumen-oss/lux/archive/refs/tags/v0.28.4.tar.gz",
+    "srcurl": "https://github.com/lumen-oss/lux/archive/refs/tags/v0.28.5.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/0716b1c9da/packages/lux-cli",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/0716b1c9da/packages/lux-cli/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/0716b1c9da/packages/lux-cli/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/40c19ee6c9/packages/lux-cli",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/40c19ee6c9/packages/lux-cli/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/40c19ee6c9/packages/lux-cli/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -70057,15 +70057,15 @@
   },
   {
     "name": "xorg-font-util",
-    "version": "1.4.1",
+    "version": "1.4.2",
     "description": "X.Org font utilities",
     "homepage": "https://xorg.freedesktop.org/",
     "depends": [],
-    "srcurl": "https://xorg.freedesktop.org/releases/individual/font/font-util-1.4.1.tar.xz",
+    "srcurl": "https://xorg.freedesktop.org/releases/individual/font/font-util-1.4.2.tar.xz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/a76134031f/x11-packages/xorg-font-util",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/a76134031f/x11-packages/xorg-font-util/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/a76134031f/x11-packages/xorg-font-util/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/40c8acd08f/x11-packages/xorg-font-util",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/40c8acd08f/x11-packages/xorg-font-util/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/40c8acd08f/x11-packages/xorg-font-util/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -70577,18 +70577,18 @@
   },
   {
     "name": "xorg-xrandr",
-    "version": "1.5.3",
+    "version": "1.5.4",
     "description": "Primitive command line interface to RandR extension",
     "homepage": "https://xorg.freedesktop.org/",
     "depends": [
       "libx11",
       "libxrandr"
     ],
-    "srcurl": "https://xorg.freedesktop.org/releases/individual/app/xrandr-1.5.3.tar.xz",
+    "srcurl": "https://xorg.freedesktop.org/releases/individual/app/xrandr-1.5.4.tar.xz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/d3dbd1c59f/x11-packages/xorg-xrandr",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/d3dbd1c59f/x11-packages/xorg-xrandr/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/d3dbd1c59f/x11-packages/xorg-xrandr/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/f9f3755edc/x11-packages/xorg-xrandr",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/f9f3755edc/x11-packages/xorg-xrandr/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/f9f3755edc/x11-packages/xorg-xrandr/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
