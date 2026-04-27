@@ -5423,7 +5423,7 @@
   },
   {
     "name": "cups",
-    "version": "2.4.18",
+    "version": "2.4.19",
     "description": "Common UNIX Printing System",
     "homepage": "https://www.cups.org/",
     "depends": [
@@ -5433,28 +5433,28 @@
       "libiconv",
       "zlib"
     ],
-    "srcurl": "https://github.com/OpenPrinting/cups/releases/download/v2.4.18/cups-2.4.18-source.tar.gz",
+    "srcurl": "https://github.com/OpenPrinting/cups/releases/download/v2.4.19/cups-2.4.19-source.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/4036e09316/packages/cups",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/4036e09316/packages/cups/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/4036e09316/packages/cups/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/bc53ca3660/packages/cups",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/bc53ca3660/packages/cups/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/bc53ca3660/packages/cups/build.sh",
     "package_patch_urls": [
-      "https://github.com/strsp/termux-ng/blob/4036e09316/packages/cups/cups-desktop-Makefile.patch",
-      "https://github.com/strsp/termux-ng/blob/4036e09316/packages/cups/cups-scheduler-Makefile.patch",
-      "https://github.com/strsp/termux-ng/blob/4036e09316/packages/cups/cups-thread-private.h.patch",
-      "https://github.com/strsp/termux-ng/blob/4036e09316/packages/cups/cups-thread.c.patch",
-      "https://github.com/strsp/termux-ng/blob/4036e09316/packages/cups/defconfig-fixes.patch",
-      "https://github.com/strsp/termux-ng/blob/4036e09316/packages/cups/no-sbindir.patch",
-      "https://github.com/strsp/termux-ng/blob/4036e09316/packages/cups/no-tmpdir-permission-check.patch"
+      "https://github.com/strsp/termux-ng/blob/bc53ca3660/packages/cups/cups-desktop-Makefile.patch",
+      "https://github.com/strsp/termux-ng/blob/bc53ca3660/packages/cups/cups-scheduler-Makefile.patch",
+      "https://github.com/strsp/termux-ng/blob/bc53ca3660/packages/cups/cups-thread-private.h.patch",
+      "https://github.com/strsp/termux-ng/blob/bc53ca3660/packages/cups/cups-thread.c.patch",
+      "https://github.com/strsp/termux-ng/blob/bc53ca3660/packages/cups/defconfig-fixes.patch",
+      "https://github.com/strsp/termux-ng/blob/bc53ca3660/packages/cups/no-sbindir.patch",
+      "https://github.com/strsp/termux-ng/blob/bc53ca3660/packages/cups/no-tmpdir-permission-check.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/strsp/termux-ng/4036e09316/packages/cups/cups-desktop-Makefile.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/4036e09316/packages/cups/cups-scheduler-Makefile.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/4036e09316/packages/cups/cups-thread-private.h.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/4036e09316/packages/cups/cups-thread.c.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/4036e09316/packages/cups/defconfig-fixes.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/4036e09316/packages/cups/no-sbindir.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/4036e09316/packages/cups/no-tmpdir-permission-check.patch"
+      "https://raw.githubusercontent.com/strsp/termux-ng/bc53ca3660/packages/cups/cups-desktop-Makefile.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/bc53ca3660/packages/cups/cups-scheduler-Makefile.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/bc53ca3660/packages/cups/cups-thread-private.h.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/bc53ca3660/packages/cups/cups-thread.c.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/bc53ca3660/packages/cups/defconfig-fixes.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/bc53ca3660/packages/cups/no-sbindir.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/bc53ca3660/packages/cups/no-tmpdir-permission-check.patch"
     ],
     "auto_updated": true
   },
@@ -8809,15 +8809,15 @@
   },
   {
     "name": "flyctl",
-    "version": "0.4.40",
+    "version": "0.4.41",
     "description": "Command line tools for fly.io services",
     "homepage": "https://fly.io",
     "depends": [],
-    "srcurl": "https://github.com/superfly/flyctl/archive/refs/tags/v0.4.40.tar.gz",
+    "srcurl": "https://github.com/superfly/flyctl/archive/refs/tags/v0.4.41.tar.gz",
     "maintainer": "Yaksh Bariya <thunder-coding@termux.dev>",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/b858403db6/packages/flyctl",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/b858403db6/packages/flyctl/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/b858403db6/packages/flyctl/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/accf4a7c68/packages/flyctl",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/accf4a7c68/packages/flyctl/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/accf4a7c68/packages/flyctl/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -19126,7 +19126,7 @@
   },
   {
     "name": "libminizip-ng",
-    "version": "4.2.0",
+    "version": "4.2.1",
     "description": "A zip manipulation library written in C",
     "homepage": "https://github.com/zlib-ng/minizip-ng",
     "depends": [
@@ -19136,11 +19136,11 @@
       "openssl",
       "zlib"
     ],
-    "srcurl": "https://github.com/zlib-ng/minizip-ng/archive/refs/tags/4.2.0.tar.gz",
+    "srcurl": "https://github.com/zlib-ng/minizip-ng/archive/refs/tags/4.2.1.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/54df951822/packages/libminizip-ng",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/54df951822/packages/libminizip-ng/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/54df951822/packages/libminizip-ng/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/7ea2cae89a/packages/libminizip-ng",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/7ea2cae89a/packages/libminizip-ng/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/7ea2cae89a/packages/libminizip-ng/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -27612,7 +27612,7 @@
   },
   {
     "name": "mu",
-    "version": "1.14.0",
+    "version": "1.14.1",
     "description": "Maildir indexer/searcher and Emacs client (mu4e)",
     "homepage": "https://www.djcbsoftware.nl/code/mu/",
     "depends": [
@@ -27623,20 +27623,20 @@
       "libxapian",
       "libgmime"
     ],
-    "srcurl": "https://github.com/djcb/mu/archive/refs/tags/v1.14.0.tar.gz",
+    "srcurl": "https://github.com/djcb/mu/archive/refs/tags/v1.14.1.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/fd71f98c52/packages/mu",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/fd71f98c52/packages/mu/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/fd71f98c52/packages/mu/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/e04b4d11fe/packages/mu",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/e04b4d11fe/packages/mu/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/e04b4d11fe/packages/mu/build.sh",
     "package_patch_urls": [
-      "https://github.com/strsp/termux-ng/blob/fd71f98c52/packages/mu/lib-mu-scanner.cc.patch",
-      "https://github.com/strsp/termux-ng/blob/fd71f98c52/packages/mu/mu-mu-cmd-server.cc.patch",
-      "https://github.com/strsp/termux-ng/blob/fd71f98c52/packages/mu/mu4e-dont-bytecompile-meson.patch"
+      "https://github.com/strsp/termux-ng/blob/e04b4d11fe/packages/mu/lib-mu-scanner.cc.patch",
+      "https://github.com/strsp/termux-ng/blob/e04b4d11fe/packages/mu/mu-mu-cmd-server.cc.patch",
+      "https://github.com/strsp/termux-ng/blob/e04b4d11fe/packages/mu/mu4e-dont-bytecompile-meson.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/strsp/termux-ng/fd71f98c52/packages/mu/lib-mu-scanner.cc.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/fd71f98c52/packages/mu/mu-mu-cmd-server.cc.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/fd71f98c52/packages/mu/mu4e-dont-bytecompile-meson.patch"
+      "https://raw.githubusercontent.com/strsp/termux-ng/e04b4d11fe/packages/mu/lib-mu-scanner.cc.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/e04b4d11fe/packages/mu/mu-mu-cmd-server.cc.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/e04b4d11fe/packages/mu/mu4e-dont-bytecompile-meson.patch"
     ],
     "auto_updated": true
   },
@@ -34976,15 +34976,15 @@
   },
   {
     "name": "railway-cli",
-    "version": "4.42.1",
+    "version": "4.43.0",
     "description": "This is the command line interface for Railway",
     "homepage": "https://railway.app",
     "depends": [],
-    "srcurl": "https://github.com/railwayapp/cli/archive/refs/tags/v4.42.1.tar.gz",
+    "srcurl": "https://github.com/railwayapp/cli/archive/refs/tags/v4.43.0.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/0bf0050852/packages/railway-cli",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/0bf0050852/packages/railway-cli/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/0bf0050852/packages/railway-cli/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/63666337e4/packages/railway-cli",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/63666337e4/packages/railway-cli/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/63666337e4/packages/railway-cli/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -36994,7 +36994,7 @@
   },
   {
     "name": "shaderc",
-    "version": "2026.1",
+    "version": "2026.2",
     "description": "Collection of tools, libraries, and tests for Vulkan shader compilation",
     "homepage": "https://github.com/google/shaderc",
     "depends": [
@@ -37002,11 +37002,11 @@
       "spirv-tools",
       "libc++"
     ],
-    "srcurl": "https://github.com/google/shaderc/archive/refs/tags/v2026.1.tar.gz",
+    "srcurl": "https://github.com/google/shaderc/archive/refs/tags/v2026.2.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/b9e9cc7cee/packages/shaderc",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/b9e9cc7cee/packages/shaderc/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/b9e9cc7cee/packages/shaderc/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/976f8ffcdb/packages/shaderc",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/976f8ffcdb/packages/shaderc/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/976f8ffcdb/packages/shaderc/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -43100,7 +43100,7 @@
   },
   {
     "name": "vim",
-    "version": "9.2.0350",
+    "version": "9.2.0400",
     "description": "Vi IMproved - enhanced vi editor",
     "homepage": "https://www.vim.org",
     "depends": [
@@ -43108,28 +43108,28 @@
       "libsodium",
       "ncurses"
     ],
-    "srcurl": "https://github.com/vim/vim/archive/refs/tags/v9.2.0350.tar.gz",
+    "srcurl": "https://github.com/vim/vim/archive/refs/tags/v9.2.0400.tar.gz",
     "maintainer": "Joshua Kahn <tom@termux.dev>",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/f95534a4d3/packages/vim",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/f95534a4d3/packages/vim/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/f95534a4d3/packages/vim/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/a9572c941a/packages/vim",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/a9572c941a/packages/vim/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/a9572c941a/packages/vim/build.sh",
     "package_patch_urls": [
-      "https://github.com/strsp/termux-ng/blob/f95534a4d3/packages/vim/configure-perl-ruby-tcl-cross-compiling.diff",
-      "https://github.com/strsp/termux-ng/blob/f95534a4d3/packages/vim/fix-writing-archive.patch",
-      "https://github.com/strsp/termux-ng/blob/f95534a4d3/packages/vim/option.c.patch",
-      "https://github.com/strsp/termux-ng/blob/f95534a4d3/packages/vim/revert-1fe0d1e.patch",
-      "https://github.com/strsp/termux-ng/blob/f95534a4d3/packages/vim/runtime-syntax-sh.vim.patch",
-      "https://github.com/strsp/termux-ng/blob/f95534a4d3/packages/vim/src-os_unix.h.patch",
-      "https://github.com/strsp/termux-ng/blob/f95534a4d3/packages/vim/vimtutor.patch"
+      "https://github.com/strsp/termux-ng/blob/a9572c941a/packages/vim/configure-perl-ruby-tcl-cross-compiling.diff",
+      "https://github.com/strsp/termux-ng/blob/a9572c941a/packages/vim/fix-writing-archive.patch",
+      "https://github.com/strsp/termux-ng/blob/a9572c941a/packages/vim/option.c.patch",
+      "https://github.com/strsp/termux-ng/blob/a9572c941a/packages/vim/revert-1fe0d1e.patch",
+      "https://github.com/strsp/termux-ng/blob/a9572c941a/packages/vim/runtime-syntax-sh.vim.patch",
+      "https://github.com/strsp/termux-ng/blob/a9572c941a/packages/vim/src-os_unix.h.patch",
+      "https://github.com/strsp/termux-ng/blob/a9572c941a/packages/vim/vimtutor.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/strsp/termux-ng/f95534a4d3/packages/vim/configure-perl-ruby-tcl-cross-compiling.diff",
-      "https://raw.githubusercontent.com/strsp/termux-ng/f95534a4d3/packages/vim/fix-writing-archive.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/f95534a4d3/packages/vim/option.c.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/f95534a4d3/packages/vim/revert-1fe0d1e.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/f95534a4d3/packages/vim/runtime-syntax-sh.vim.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/f95534a4d3/packages/vim/src-os_unix.h.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/f95534a4d3/packages/vim/vimtutor.patch"
+      "https://raw.githubusercontent.com/strsp/termux-ng/a9572c941a/packages/vim/configure-perl-ruby-tcl-cross-compiling.diff",
+      "https://raw.githubusercontent.com/strsp/termux-ng/a9572c941a/packages/vim/fix-writing-archive.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/a9572c941a/packages/vim/option.c.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/a9572c941a/packages/vim/revert-1fe0d1e.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/a9572c941a/packages/vim/runtime-syntax-sh.vim.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/a9572c941a/packages/vim/src-os_unix.h.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/a9572c941a/packages/vim/vimtutor.patch"
     ],
     "auto_updated": true
   },
@@ -45340,15 +45340,15 @@
   },
   {
     "name": "zk",
-    "version": "0.15.2",
+    "version": "0.15.3",
     "description": "A plain text note-taking assistant",
     "homepage": "https://zk-org.github.io/zk/",
     "depends": [],
-    "srcurl": "https://github.com/zk-org/zk/archive/refs/tags/v0.15.2.tar.gz",
+    "srcurl": "https://github.com/zk-org/zk/archive/refs/tags/v0.15.3.tar.gz",
     "maintainer": "@kirasok",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/eb76f4910f/packages/zk",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/eb76f4910f/packages/zk/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/eb76f4910f/packages/zk/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/5b18ec1c5e/packages/zk",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/5b18ec1c5e/packages/zk/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/5b18ec1c5e/packages/zk/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -46832,7 +46832,7 @@
   },
   {
     "name": "openvpn",
-    "version": "2.7.2",
+    "version": "2.7.3",
     "description": "An easy-to-use, robust, and highly configurable VPN (Virtual Private Network)",
     "homepage": "https://openvpn.net",
     "depends": [
@@ -46842,20 +46842,20 @@
       "net-tools",
       "openssl"
     ],
-    "srcurl": "https://github.com/OpenVPN/openvpn/archive/refs/tags/v2.7.2.tar.gz",
+    "srcurl": "https://github.com/OpenVPN/openvpn/archive/refs/tags/v2.7.3.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/a032364801/root-packages/openvpn",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/a032364801/root-packages/openvpn/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/a032364801/root-packages/openvpn/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/2c74b697bd/root-packages/openvpn",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/2c74b697bd/root-packages/openvpn/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/2c74b697bd/root-packages/openvpn/build.sh",
     "package_patch_urls": [
-      "https://github.com/strsp/termux-ng/blob/a032364801/root-packages/openvpn/src-openvpn-console_builtin.c.patch",
-      "https://github.com/strsp/termux-ng/blob/a032364801/root-packages/openvpn/src-openvpn-options.c.patch",
-      "https://github.com/strsp/termux-ng/blob/a032364801/root-packages/openvpn/src-openvpn-tun.c.patch"
+      "https://github.com/strsp/termux-ng/blob/2c74b697bd/root-packages/openvpn/src-openvpn-console_builtin.c.patch",
+      "https://github.com/strsp/termux-ng/blob/2c74b697bd/root-packages/openvpn/src-openvpn-options.c.patch",
+      "https://github.com/strsp/termux-ng/blob/2c74b697bd/root-packages/openvpn/src-openvpn-tun.c.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/strsp/termux-ng/a032364801/root-packages/openvpn/src-openvpn-console_builtin.c.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/a032364801/root-packages/openvpn/src-openvpn-options.c.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/a032364801/root-packages/openvpn/src-openvpn-tun.c.patch"
+      "https://raw.githubusercontent.com/strsp/termux-ng/2c74b697bd/root-packages/openvpn/src-openvpn-console_builtin.c.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/2c74b697bd/root-packages/openvpn/src-openvpn-options.c.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/2c74b697bd/root-packages/openvpn/src-openvpn-tun.c.patch"
     ],
     "auto_updated": true
   },
@@ -61779,7 +61779,7 @@
   },
   {
     "name": "nextcloud-client",
-    "version": "33.0.2",
+    "version": "33.0.3",
     "description": "Command-line client tool for Nextcloud.",
     "homepage": "https://nextcloud.com/",
     "depends": [
@@ -61798,20 +61798,20 @@
       "qt6-qtsvg",
       "qt6-qt5compat"
     ],
-    "srcurl": "https://github.com/nextcloud/desktop/archive/refs/tags/v33.0.2.tar.gz",
+    "srcurl": "https://github.com/nextcloud/desktop/archive/refs/tags/v33.0.3.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/30b7481de3/x11-packages/nextcloud-client",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/30b7481de3/x11-packages/nextcloud-client/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/30b7481de3/x11-packages/nextcloud-client/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/d896610ad2/x11-packages/nextcloud-client",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/d896610ad2/x11-packages/nextcloud-client/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/d896610ad2/x11-packages/nextcloud-client/build.sh",
     "package_patch_urls": [
-      "https://github.com/strsp/termux-ng/blob/30b7481de3/x11-packages/nextcloud-client/FindInotify.cmake.patch",
-      "https://github.com/strsp/termux-ng/blob/30b7481de3/x11-packages/nextcloud-client/ocsprofileconnector.cpp.patch",
-      "https://github.com/strsp/termux-ng/blob/30b7481de3/x11-packages/nextcloud-client/tokencredentials.cpp.patch"
+      "https://github.com/strsp/termux-ng/blob/d896610ad2/x11-packages/nextcloud-client/FindInotify.cmake.patch",
+      "https://github.com/strsp/termux-ng/blob/d896610ad2/x11-packages/nextcloud-client/ocsprofileconnector.cpp.patch",
+      "https://github.com/strsp/termux-ng/blob/d896610ad2/x11-packages/nextcloud-client/tokencredentials.cpp.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/strsp/termux-ng/30b7481de3/x11-packages/nextcloud-client/FindInotify.cmake.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/30b7481de3/x11-packages/nextcloud-client/ocsprofileconnector.cpp.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/30b7481de3/x11-packages/nextcloud-client/tokencredentials.cpp.patch"
+      "https://raw.githubusercontent.com/strsp/termux-ng/d896610ad2/x11-packages/nextcloud-client/FindInotify.cmake.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/d896610ad2/x11-packages/nextcloud-client/ocsprofileconnector.cpp.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/d896610ad2/x11-packages/nextcloud-client/tokencredentials.cpp.patch"
     ],
     "auto_updated": true
   },
@@ -70809,7 +70809,7 @@
   },
   {
     "name": "xwayland",
-    "version": "24.1.10",
+    "version": "24.1.11",
     "description": "Wayland X11 server",
     "homepage": "https://xorg.freedesktop.org/wiki/",
     "depends": [
@@ -70833,32 +70833,32 @@
       "xorg-protocol-txt",
       "xorg-xkbcomp"
     ],
-    "srcurl": "https://xorg.freedesktop.org/releases/individual/xserver/xwayland-24.1.10.tar.xz",
+    "srcurl": "https://xorg.freedesktop.org/releases/individual/xserver/xwayland-24.1.11.tar.xz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/5aeed5ecaf/x11-packages/xwayland",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/5aeed5ecaf/x11-packages/xwayland/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/5aeed5ecaf/x11-packages/xwayland/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/4c105d61ae/x11-packages/xwayland",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/4c105d61ae/x11-packages/xwayland/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/4c105d61ae/x11-packages/xwayland/build.sh",
     "package_patch_urls": [
-      "https://github.com/strsp/termux-ng/blob/5aeed5ecaf/x11-packages/xwayland/hw_xwayland_xwayland-shm.patch",
-      "https://github.com/strsp/termux-ng/blob/5aeed5ecaf/x11-packages/xwayland/stubmain.c.patch",
-      "https://github.com/strsp/termux-ng/blob/5aeed5ecaf/x11-packages/xwayland/use_ashmem.patch",
-      "https://github.com/strsp/termux-ng/blob/5aeed5ecaf/x11-packages/xwayland/xorg-server-1.20.1_Xext_xf86bigfont.c.patch",
-      "https://github.com/strsp/termux-ng/blob/5aeed5ecaf/x11-packages/xwayland/xorg-server-1.20.1_os_access.c.patch",
-      "https://github.com/strsp/termux-ng/blob/5aeed5ecaf/x11-packages/xwayland/xorg-server-1.20.1_os_backtrace.c.patch",
-      "https://github.com/strsp/termux-ng/blob/5aeed5ecaf/x11-packages/xwayland/xorg-server-1.20.1_os_osinit.c.patch",
-      "https://github.com/strsp/termux-ng/blob/5aeed5ecaf/x11-packages/xwayland/xorg-server-1.20.1_os_utils.c.patch",
-      "https://github.com/strsp/termux-ng/blob/5aeed5ecaf/x11-packages/xwayland/xorg-server-1.20.1_xkb_ddxLoad.c.patch"
+      "https://github.com/strsp/termux-ng/blob/4c105d61ae/x11-packages/xwayland/hw_xwayland_xwayland-shm.patch",
+      "https://github.com/strsp/termux-ng/blob/4c105d61ae/x11-packages/xwayland/stubmain.c.patch",
+      "https://github.com/strsp/termux-ng/blob/4c105d61ae/x11-packages/xwayland/use_ashmem.patch",
+      "https://github.com/strsp/termux-ng/blob/4c105d61ae/x11-packages/xwayland/xorg-server-1.20.1_Xext_xf86bigfont.c.patch",
+      "https://github.com/strsp/termux-ng/blob/4c105d61ae/x11-packages/xwayland/xorg-server-1.20.1_os_access.c.patch",
+      "https://github.com/strsp/termux-ng/blob/4c105d61ae/x11-packages/xwayland/xorg-server-1.20.1_os_backtrace.c.patch",
+      "https://github.com/strsp/termux-ng/blob/4c105d61ae/x11-packages/xwayland/xorg-server-1.20.1_os_osinit.c.patch",
+      "https://github.com/strsp/termux-ng/blob/4c105d61ae/x11-packages/xwayland/xorg-server-1.20.1_os_utils.c.patch",
+      "https://github.com/strsp/termux-ng/blob/4c105d61ae/x11-packages/xwayland/xorg-server-1.20.1_xkb_ddxLoad.c.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/strsp/termux-ng/5aeed5ecaf/x11-packages/xwayland/hw_xwayland_xwayland-shm.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/5aeed5ecaf/x11-packages/xwayland/stubmain.c.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/5aeed5ecaf/x11-packages/xwayland/use_ashmem.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/5aeed5ecaf/x11-packages/xwayland/xorg-server-1.20.1_Xext_xf86bigfont.c.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/5aeed5ecaf/x11-packages/xwayland/xorg-server-1.20.1_os_access.c.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/5aeed5ecaf/x11-packages/xwayland/xorg-server-1.20.1_os_backtrace.c.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/5aeed5ecaf/x11-packages/xwayland/xorg-server-1.20.1_os_osinit.c.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/5aeed5ecaf/x11-packages/xwayland/xorg-server-1.20.1_os_utils.c.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/5aeed5ecaf/x11-packages/xwayland/xorg-server-1.20.1_xkb_ddxLoad.c.patch"
+      "https://raw.githubusercontent.com/strsp/termux-ng/4c105d61ae/x11-packages/xwayland/hw_xwayland_xwayland-shm.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/4c105d61ae/x11-packages/xwayland/stubmain.c.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/4c105d61ae/x11-packages/xwayland/use_ashmem.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/4c105d61ae/x11-packages/xwayland/xorg-server-1.20.1_Xext_xf86bigfont.c.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/4c105d61ae/x11-packages/xwayland/xorg-server-1.20.1_os_access.c.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/4c105d61ae/x11-packages/xwayland/xorg-server-1.20.1_os_backtrace.c.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/4c105d61ae/x11-packages/xwayland/xorg-server-1.20.1_os_osinit.c.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/4c105d61ae/x11-packages/xwayland/xorg-server-1.20.1_os_utils.c.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/4c105d61ae/x11-packages/xwayland/xorg-server-1.20.1_xkb_ddxLoad.c.patch"
     ],
     "auto_updated": true
   },
