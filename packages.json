@@ -5975,7 +5975,7 @@
   },
   {
     "name": "deno",
-    "version": "1:2.7.13",
+    "version": "1:2.7.14",
     "description": "A modern runtime for JavaScript and TypeScript",
     "homepage": "https://deno.land/",
     "depends": [
@@ -5984,46 +5984,46 @@
       "libsqlite",
       "zlib"
     ],
-    "srcurl": "https://github.com/denoland/deno/releases/download/v2.7.13/deno_src.tar.gz",
+    "srcurl": "https://github.com/denoland/deno/releases/download/v2.7.14/deno_src.tar.gz",
     "maintainer": "@licy183",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/ce9a0aa7e3/packages/deno",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/ce9a0aa7e3/packages/deno/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/ce9a0aa7e3/packages/deno/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/988c2accb5/packages/deno",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/988c2accb5/packages/deno/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/988c2accb5/packages/deno/build.sh",
     "package_patch_urls": [
-      "https://github.com/strsp/termux-ng/blob/ce9a0aa7e3/packages/deno/0001-fix-hardcoded-paths.patch",
-      "https://github.com/strsp/termux-ng/blob/ce9a0aa7e3/packages/deno/0002-disable-upgrading-via-cli.patch",
-      "https://github.com/strsp/termux-ng/blob/ce9a0aa7e3/packages/deno/0003-use-prebuilt-snapshot.patch",
-      "https://github.com/strsp/termux-ng/blob/ce9a0aa7e3/packages/deno/0004-fix-webgpu-compilation.patch",
-      "https://github.com/strsp/termux-ng/blob/ce9a0aa7e3/packages/deno/0005-ioctl-type.patch",
-      "https://github.com/strsp/termux-ng/blob/ce9a0aa7e3/packages/deno/0006-android-errno.patch",
-      "https://github.com/strsp/termux-ng/blob/ce9a0aa7e3/packages/deno/0007-disable-unallowed-syscalls.patch",
-      "https://github.com/strsp/termux-ng/blob/ce9a0aa7e3/packages/deno/cmake-pass-cmake-policy-version-minimum.diff",
-      "https://github.com/strsp/termux-ng/blob/ce9a0aa7e3/packages/deno/deno-panic-dyn_slide.diff",
-      "https://github.com/strsp/termux-ng/blob/ce9a0aa7e3/packages/deno/deno-snapshot-build-generator.diff",
-      "https://github.com/strsp/termux-ng/blob/ce9a0aa7e3/packages/deno/rusty-v8-search-files-with-target-suffix.diff",
-      "https://github.com/strsp/termux-ng/blob/ce9a0aa7e3/packages/deno/v8-patches/0001-unset-BINDGEN_EXTRA_CLANG_ARGS-in-v8_s-bindgen.patch",
-      "https://github.com/strsp/termux-ng/blob/ce9a0aa7e3/packages/deno/v8-patches/0002-install-sysroot.patch",
-      "https://github.com/strsp/termux-ng/blob/ce9a0aa7e3/packages/deno/v8-patches/0101-reland-jumbo-scripts.patch",
-      "https://github.com/strsp/termux-ng/blob/ce9a0aa7e3/packages/deno/v8-patches/0102-reland-jumbo-cflags.patch",
-      "https://github.com/strsp/termux-ng/blob/ce9a0aa7e3/packages/deno/v8-patches/0103-reland-jumbo-for-v8.patch"
+      "https://github.com/strsp/termux-ng/blob/988c2accb5/packages/deno/0001-fix-hardcoded-paths.patch",
+      "https://github.com/strsp/termux-ng/blob/988c2accb5/packages/deno/0002-disable-upgrading-via-cli.patch",
+      "https://github.com/strsp/termux-ng/blob/988c2accb5/packages/deno/0003-use-prebuilt-snapshot.patch",
+      "https://github.com/strsp/termux-ng/blob/988c2accb5/packages/deno/0004-fix-webgpu-compilation.patch",
+      "https://github.com/strsp/termux-ng/blob/988c2accb5/packages/deno/0005-ioctl-type.patch",
+      "https://github.com/strsp/termux-ng/blob/988c2accb5/packages/deno/0006-android-errno.patch",
+      "https://github.com/strsp/termux-ng/blob/988c2accb5/packages/deno/0007-disable-unallowed-syscalls.patch",
+      "https://github.com/strsp/termux-ng/blob/988c2accb5/packages/deno/cmake-pass-cmake-policy-version-minimum.diff",
+      "https://github.com/strsp/termux-ng/blob/988c2accb5/packages/deno/deno-panic-dyn_slide.diff",
+      "https://github.com/strsp/termux-ng/blob/988c2accb5/packages/deno/deno-snapshot-build-generator.diff",
+      "https://github.com/strsp/termux-ng/blob/988c2accb5/packages/deno/rusty-v8-search-files-with-target-suffix.diff",
+      "https://github.com/strsp/termux-ng/blob/988c2accb5/packages/deno/v8-patches/0001-unset-BINDGEN_EXTRA_CLANG_ARGS-in-v8_s-bindgen.patch",
+      "https://github.com/strsp/termux-ng/blob/988c2accb5/packages/deno/v8-patches/0002-install-sysroot.patch",
+      "https://github.com/strsp/termux-ng/blob/988c2accb5/packages/deno/v8-patches/0101-reland-jumbo-scripts.patch",
+      "https://github.com/strsp/termux-ng/blob/988c2accb5/packages/deno/v8-patches/0102-reland-jumbo-cflags.patch",
+      "https://github.com/strsp/termux-ng/blob/988c2accb5/packages/deno/v8-patches/0103-reland-jumbo-for-v8.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/strsp/termux-ng/ce9a0aa7e3/packages/deno/0001-fix-hardcoded-paths.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/ce9a0aa7e3/packages/deno/0002-disable-upgrading-via-cli.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/ce9a0aa7e3/packages/deno/0003-use-prebuilt-snapshot.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/ce9a0aa7e3/packages/deno/0004-fix-webgpu-compilation.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/ce9a0aa7e3/packages/deno/0005-ioctl-type.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/ce9a0aa7e3/packages/deno/0006-android-errno.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/ce9a0aa7e3/packages/deno/0007-disable-unallowed-syscalls.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/ce9a0aa7e3/packages/deno/cmake-pass-cmake-policy-version-minimum.diff",
-      "https://raw.githubusercontent.com/strsp/termux-ng/ce9a0aa7e3/packages/deno/deno-panic-dyn_slide.diff",
-      "https://raw.githubusercontent.com/strsp/termux-ng/ce9a0aa7e3/packages/deno/deno-snapshot-build-generator.diff",
-      "https://raw.githubusercontent.com/strsp/termux-ng/ce9a0aa7e3/packages/deno/rusty-v8-search-files-with-target-suffix.diff",
-      "https://raw.githubusercontent.com/strsp/termux-ng/ce9a0aa7e3/packages/deno/v8-patches/0001-unset-BINDGEN_EXTRA_CLANG_ARGS-in-v8_s-bindgen.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/ce9a0aa7e3/packages/deno/v8-patches/0002-install-sysroot.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/ce9a0aa7e3/packages/deno/v8-patches/0101-reland-jumbo-scripts.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/ce9a0aa7e3/packages/deno/v8-patches/0102-reland-jumbo-cflags.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/ce9a0aa7e3/packages/deno/v8-patches/0103-reland-jumbo-for-v8.patch"
+      "https://raw.githubusercontent.com/strsp/termux-ng/988c2accb5/packages/deno/0001-fix-hardcoded-paths.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/988c2accb5/packages/deno/0002-disable-upgrading-via-cli.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/988c2accb5/packages/deno/0003-use-prebuilt-snapshot.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/988c2accb5/packages/deno/0004-fix-webgpu-compilation.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/988c2accb5/packages/deno/0005-ioctl-type.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/988c2accb5/packages/deno/0006-android-errno.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/988c2accb5/packages/deno/0007-disable-unallowed-syscalls.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/988c2accb5/packages/deno/cmake-pass-cmake-policy-version-minimum.diff",
+      "https://raw.githubusercontent.com/strsp/termux-ng/988c2accb5/packages/deno/deno-panic-dyn_slide.diff",
+      "https://raw.githubusercontent.com/strsp/termux-ng/988c2accb5/packages/deno/deno-snapshot-build-generator.diff",
+      "https://raw.githubusercontent.com/strsp/termux-ng/988c2accb5/packages/deno/rusty-v8-search-files-with-target-suffix.diff",
+      "https://raw.githubusercontent.com/strsp/termux-ng/988c2accb5/packages/deno/v8-patches/0001-unset-BINDGEN_EXTRA_CLANG_ARGS-in-v8_s-bindgen.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/988c2accb5/packages/deno/v8-patches/0002-install-sysroot.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/988c2accb5/packages/deno/v8-patches/0101-reland-jumbo-scripts.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/988c2accb5/packages/deno/v8-patches/0102-reland-jumbo-cflags.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/988c2accb5/packages/deno/v8-patches/0103-reland-jumbo-for-v8.patch"
     ],
     "auto_updated": true
   },
@@ -8471,18 +8471,18 @@
     ],
     "srcurl": "https://www.ffmpeg.org/releases/ffmpeg-8.1.tar.xz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/71ef1ccdb8/packages/ffmpeg",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/71ef1ccdb8/packages/ffmpeg/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/71ef1ccdb8/packages/ffmpeg/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/f3ce3c5b29/packages/ffmpeg",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/f3ce3c5b29/packages/ffmpeg/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/f3ce3c5b29/packages/ffmpeg/build.sh",
     "package_patch_urls": [
-      "https://github.com/strsp/termux-ng/blob/71ef1ccdb8/packages/ffmpeg/configure.patch",
-      "https://github.com/strsp/termux-ng/blob/71ef1ccdb8/packages/ffmpeg/libavcodec-allcodecs.c.patch",
-      "https://github.com/strsp/termux-ng/blob/71ef1ccdb8/packages/ffmpeg/libavutil-file_open.c.patch"
+      "https://github.com/strsp/termux-ng/blob/f3ce3c5b29/packages/ffmpeg/configure.patch",
+      "https://github.com/strsp/termux-ng/blob/f3ce3c5b29/packages/ffmpeg/libavcodec-allcodecs.c.patch",
+      "https://github.com/strsp/termux-ng/blob/f3ce3c5b29/packages/ffmpeg/libavutil-file_open.c.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/strsp/termux-ng/71ef1ccdb8/packages/ffmpeg/configure.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/71ef1ccdb8/packages/ffmpeg/libavcodec-allcodecs.c.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/71ef1ccdb8/packages/ffmpeg/libavutil-file_open.c.patch"
+      "https://raw.githubusercontent.com/strsp/termux-ng/f3ce3c5b29/packages/ffmpeg/configure.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/f3ce3c5b29/packages/ffmpeg/libavcodec-allcodecs.c.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/f3ce3c5b29/packages/ffmpeg/libavutil-file_open.c.patch"
     ],
     "auto_updated": false
   },
@@ -8826,15 +8826,15 @@
   },
   {
     "name": "flyctl",
-    "version": "0.4.41",
+    "version": "0.4.42",
     "description": "Command line tools for fly.io services",
     "homepage": "https://fly.io",
     "depends": [],
-    "srcurl": "https://github.com/superfly/flyctl/archive/refs/tags/v0.4.41.tar.gz",
+    "srcurl": "https://github.com/superfly/flyctl/archive/refs/tags/v0.4.42.tar.gz",
     "maintainer": "Yaksh Bariya <thunder-coding@termux.dev>",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/8e925488b9/packages/flyctl",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/8e925488b9/packages/flyctl/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/8e925488b9/packages/flyctl/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/c00eb7ec47/packages/flyctl",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/c00eb7ec47/packages/flyctl/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/c00eb7ec47/packages/flyctl/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -9667,14 +9667,14 @@
     "depends": [],
     "srcurl": "https://github.com/dundee/gdu/archive/refs/tags/v5.36.0.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/a0f21ba989/packages/gdu",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/a0f21ba989/packages/gdu/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/a0f21ba989/packages/gdu/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/e25071f0c2/packages/gdu",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/e25071f0c2/packages/gdu/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/e25071f0c2/packages/gdu/build.sh",
     "package_patch_urls": [
-      "https://github.com/strsp/termux-ng/blob/a0f21ba989/packages/gdu/Makefile.patch"
+      "https://github.com/strsp/termux-ng/blob/e25071f0c2/packages/gdu/Makefile.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/strsp/termux-ng/a0f21ba989/packages/gdu/Makefile.patch"
+      "https://raw.githubusercontent.com/strsp/termux-ng/e25071f0c2/packages/gdu/Makefile.patch"
     ],
     "auto_updated": true
   },
@@ -9951,14 +9951,14 @@
     "depends": [],
     "srcurl": "https://github.com/cli/cli/archive/refs/tags/v2.92.0.tar.gz",
     "maintainer": "Krishna kanhaiya @kcubeterm",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/3b82858599/packages/gh",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/3b82858599/packages/gh/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/3b82858599/packages/gh/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/92f8a60219/packages/gh",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/92f8a60219/packages/gh/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/92f8a60219/packages/gh/build.sh",
     "package_patch_urls": [
-      "https://github.com/strsp/termux-ng/blob/3b82858599/packages/gh/001-use-sh-for-extensions.patch"
+      "https://github.com/strsp/termux-ng/blob/92f8a60219/packages/gh/001-use-sh-for-extensions.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/strsp/termux-ng/3b82858599/packages/gh/001-use-sh-for-extensions.patch"
+      "https://raw.githubusercontent.com/strsp/termux-ng/92f8a60219/packages/gh/001-use-sh-for-extensions.patch"
     ],
     "auto_updated": true
   },
@@ -10263,9 +10263,9 @@
     "depends": [],
     "srcurl": "https://github.com/git-town/git-town/archive/refs/tags/v22.7.1.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/bd332c8bf2/packages/git-town",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/bd332c8bf2/packages/git-town/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/bd332c8bf2/packages/git-town/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/99be0bca8e/packages/git-town",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/99be0bca8e/packages/git-town/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/99be0bca8e/packages/git-town/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -11578,9 +11578,9 @@
     ],
     "srcurl": "https://services.gradle.org/distributions/gradle-9.5.0-bin.zip",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/abe07a1cfc/packages/gradle",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/abe07a1cfc/packages/gradle/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/abe07a1cfc/packages/gradle/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/af634f7255/packages/gradle",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/af634f7255/packages/gradle/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/af634f7255/packages/gradle/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -12338,9 +12338,9 @@
     ],
     "srcurl": "https://github.com/hetznercloud/cli/archive/refs/tags/v1.64.1.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/887a4d70af/packages/hcloud",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/887a4d70af/packages/hcloud/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/887a4d70af/packages/hcloud/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/4fd1dbee7c/packages/hcloud",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/4fd1dbee7c/packages/hcloud/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/4fd1dbee7c/packages/hcloud/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -12786,16 +12786,16 @@
     ],
     "srcurl": "https://github.com/htop-dev/htop/archive/refs/tags/3.5.1/htop-3.5.1.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/26d826fc73/packages/htop",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/26d826fc73/packages/htop/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/26d826fc73/packages/htop/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/e6ba369f3a/packages/htop",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/e6ba369f3a/packages/htop/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/e6ba369f3a/packages/htop/build.sh",
     "package_patch_urls": [
-      "https://github.com/strsp/termux-ng/blob/26d826fc73/packages/htop/access-procstat-file.patch",
-      "https://github.com/strsp/termux-ng/blob/26d826fc73/packages/htop/proc-stat.patch"
+      "https://github.com/strsp/termux-ng/blob/e6ba369f3a/packages/htop/access-procstat-file.patch",
+      "https://github.com/strsp/termux-ng/blob/e6ba369f3a/packages/htop/proc-stat.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/strsp/termux-ng/26d826fc73/packages/htop/access-procstat-file.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/26d826fc73/packages/htop/proc-stat.patch"
+      "https://raw.githubusercontent.com/strsp/termux-ng/e6ba369f3a/packages/htop/access-procstat-file.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/e6ba369f3a/packages/htop/proc-stat.patch"
     ],
     "auto_updated": true
   },
@@ -12908,9 +12908,9 @@
     ],
     "srcurl": "https://github.com/gohugoio/hugo/archive/refs/tags/v0.161.0.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/de8a1417de/packages/hugo",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/de8a1417de/packages/hugo/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/de8a1417de/packages/hugo/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/513f1b17eb/packages/hugo",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/513f1b17eb/packages/hugo/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/513f1b17eb/packages/hugo/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -14024,20 +14024,20 @@
     ],
     "srcurl": "https://github.com/jellyfin/jellyfin/archive/refs/tags/v10.11.5.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/71ef1ccdb8/packages/jellyfin-server",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/71ef1ccdb8/packages/jellyfin-server/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/71ef1ccdb8/packages/jellyfin-server/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/f3ce3c5b29/packages/jellyfin-server",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/f3ce3c5b29/packages/jellyfin-server/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/f3ce3c5b29/packages/jellyfin-server/build.sh",
     "package_patch_urls": [
-      "https://github.com/strsp/termux-ng/blob/71ef1ccdb8/packages/jellyfin-server/ffmpeg-cherry-pick-for-libvpx-1.16.0.patch",
-      "https://github.com/strsp/termux-ng/blob/71ef1ccdb8/packages/jellyfin-server/ffmpeg-configure.patch",
-      "https://github.com/strsp/termux-ng/blob/71ef1ccdb8/packages/jellyfin-server/ffmpeg-libavutil-file_open.c.patch",
-      "https://github.com/strsp/termux-ng/blob/71ef1ccdb8/packages/jellyfin-server/jellyfin-defaults.patch"
+      "https://github.com/strsp/termux-ng/blob/f3ce3c5b29/packages/jellyfin-server/ffmpeg-cherry-pick-for-libvpx-1.16.0.patch",
+      "https://github.com/strsp/termux-ng/blob/f3ce3c5b29/packages/jellyfin-server/ffmpeg-configure.patch",
+      "https://github.com/strsp/termux-ng/blob/f3ce3c5b29/packages/jellyfin-server/ffmpeg-libavutil-file_open.c.patch",
+      "https://github.com/strsp/termux-ng/blob/f3ce3c5b29/packages/jellyfin-server/jellyfin-defaults.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/strsp/termux-ng/71ef1ccdb8/packages/jellyfin-server/ffmpeg-cherry-pick-for-libvpx-1.16.0.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/71ef1ccdb8/packages/jellyfin-server/ffmpeg-configure.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/71ef1ccdb8/packages/jellyfin-server/ffmpeg-libavutil-file_open.c.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/71ef1ccdb8/packages/jellyfin-server/jellyfin-defaults.patch"
+      "https://raw.githubusercontent.com/strsp/termux-ng/f3ce3c5b29/packages/jellyfin-server/ffmpeg-cherry-pick-for-libvpx-1.16.0.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/f3ce3c5b29/packages/jellyfin-server/ffmpeg-configure.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/f3ce3c5b29/packages/jellyfin-server/ffmpeg-libavutil-file_open.c.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/f3ce3c5b29/packages/jellyfin-server/jellyfin-defaults.patch"
     ],
     "auto_updated": false
   },
@@ -15758,14 +15758,14 @@
     ],
     "srcurl": "https://github.com/Blosc/c-blosc2/archive/refs/tags/v3.0.0.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/47240f5555/packages/libblosc2",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/47240f5555/packages/libblosc2/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/47240f5555/packages/libblosc2/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/456abb4748/packages/libblosc2",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/456abb4748/packages/libblosc2/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/456abb4748/packages/libblosc2/build.sh",
     "package_patch_urls": [
-      "https://github.com/strsp/termux-ng/blob/47240f5555/packages/libblosc2/0001-fix-posix-memalign.patch"
+      "https://github.com/strsp/termux-ng/blob/456abb4748/packages/libblosc2/0001-fix-posix-memalign.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/strsp/termux-ng/47240f5555/packages/libblosc2/0001-fix-posix-memalign.patch"
+      "https://raw.githubusercontent.com/strsp/termux-ng/456abb4748/packages/libblosc2/0001-fix-posix-memalign.patch"
     ],
     "auto_updated": true
   },
@@ -17981,13 +17981,14 @@
       "libdav1d",
       "libde265",
       "librav1e",
+      "libx264",
       "libx265"
     ],
     "srcurl": "https://github.com/strukturag/libheif/releases/download/v1.21.2/libheif-1.21.2.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/71ef1ccdb8/packages/libheif",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/71ef1ccdb8/packages/libheif/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/71ef1ccdb8/packages/libheif/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/d28e4404a3/packages/libheif",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/d28e4404a3/packages/libheif/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/d28e4404a3/packages/libheif/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -18565,18 +18566,18 @@
   },
   {
     "name": "libkokkos",
-    "version": "5.1.0",
+    "version": "5.1.1",
     "description": "Implements a programming model in C++ for writing performance portable applications",
     "homepage": "https://github.com/kokkos",
     "depends": [
       "libandroid-execinfo",
       "libc++"
     ],
-    "srcurl": "https://github.com/kokkos/kokkos/archive/refs/tags/5.1.0.tar.gz",
+    "srcurl": "https://github.com/kokkos/kokkos/archive/refs/tags/5.1.1.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/900c6a8da4/packages/libkokkos",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/900c6a8da4/packages/libkokkos/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/900c6a8da4/packages/libkokkos/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/b324239e8d/packages/libkokkos",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/b324239e8d/packages/libkokkos/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/b324239e8d/packages/libkokkos/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -21661,14 +21662,14 @@
     ],
     "srcurl": "https://github.com/Haivision/srt/archive/refs/tags/v1.5.5.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/c8effbecd5/packages/libsrt",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/c8effbecd5/packages/libsrt/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/c8effbecd5/packages/libsrt/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/8acff31997/packages/libsrt",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/8acff31997/packages/libsrt/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/8acff31997/packages/libsrt/build.sh",
     "package_patch_urls": [
-      "https://github.com/strsp/termux-ng/blob/c8effbecd5/packages/libsrt/scripts-srt.pc.in.patch"
+      "https://github.com/strsp/termux-ng/blob/8acff31997/packages/libsrt/scripts-srt.pc.in.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/strsp/termux-ng/c8effbecd5/packages/libsrt/scripts-srt.pc.in.patch"
+      "https://raw.githubusercontent.com/strsp/termux-ng/8acff31997/packages/libsrt/scripts-srt.pc.in.patch"
     ],
     "auto_updated": true
   },
@@ -23276,16 +23277,16 @@
     ],
     "srcurl": "https://bitbucket.org/multicoreware/x265_git/downloads/x265_4.2.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/3b3eca3b82/packages/libx265",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/3b3eca3b82/packages/libx265/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/3b3eca3b82/packages/libx265/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/0d5328a5e4/packages/libx265",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/0d5328a5e4/packages/libx265/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/0d5328a5e4/packages/libx265/build.sh",
     "package_patch_urls": [
-      "https://github.com/strsp/termux-ng/blob/3b3eca3b82/packages/libx265/source-CMakeLists.txt.patch",
-      "https://github.com/strsp/termux-ng/blob/3b3eca3b82/packages/libx265/source-common-primitives.cpp.patch"
+      "https://github.com/strsp/termux-ng/blob/0d5328a5e4/packages/libx265/source-CMakeLists.txt.patch",
+      "https://github.com/strsp/termux-ng/blob/0d5328a5e4/packages/libx265/source-common-primitives.cpp.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/strsp/termux-ng/3b3eca3b82/packages/libx265/source-CMakeLists.txt.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/3b3eca3b82/packages/libx265/source-common-primitives.cpp.patch"
+      "https://raw.githubusercontent.com/strsp/termux-ng/0d5328a5e4/packages/libx265/source-CMakeLists.txt.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/0d5328a5e4/packages/libx265/source-common-primitives.cpp.patch"
     ],
     "auto_updated": true
   },
@@ -28490,16 +28491,16 @@
     ],
     "srcurl": "https://github.com/neovim/neovim/archive/72bc6c5801.tar.gz",
     "maintainer": "Joshua Kahn <tom@termux.dev>",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/e0b649aca7/packages/neovim-nightly",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/e0b649aca7/packages/neovim-nightly/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/e0b649aca7/packages/neovim-nightly/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/8ff250f3d0/packages/neovim-nightly",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/8ff250f3d0/packages/neovim-nightly/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/8ff250f3d0/packages/neovim-nightly/build.sh",
     "package_patch_urls": [
-      "https://github.com/strsp/termux-ng/blob/e0b649aca7/packages/neovim-nightly/disable-checkhealth-locale-warning.patch",
-      "https://github.com/strsp/termux-ng/blob/e0b649aca7/packages/neovim-nightly/src-nvim-os-stdpaths.c.patch"
+      "https://github.com/strsp/termux-ng/blob/8ff250f3d0/packages/neovim-nightly/disable-checkhealth-locale-warning.patch",
+      "https://github.com/strsp/termux-ng/blob/8ff250f3d0/packages/neovim-nightly/src-nvim-os-stdpaths.c.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/strsp/termux-ng/e0b649aca7/packages/neovim-nightly/disable-checkhealth-locale-warning.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/e0b649aca7/packages/neovim-nightly/src-nvim-os-stdpaths.c.patch"
+      "https://raw.githubusercontent.com/strsp/termux-ng/8ff250f3d0/packages/neovim-nightly/disable-checkhealth-locale-warning.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/8ff250f3d0/packages/neovim-nightly/src-nvim-os-stdpaths.c.patch"
     ],
     "auto_updated": true
   },
@@ -29864,7 +29865,7 @@
   },
   {
     "name": "ollama",
-    "version": "0.21.2",
+    "version": "0.22.0",
     "description": "Get up and running with large language models",
     "homepage": "https://ollama.com/",
     "depends": [
@@ -29872,26 +29873,26 @@
     ],
     "srcurl": "git+https://github.com/ollama/ollama",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/143c06a120/packages/ollama",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/143c06a120/packages/ollama/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/143c06a120/packages/ollama/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/93b16e4167/packages/ollama",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/93b16e4167/packages/ollama/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/93b16e4167/packages/ollama/build.sh",
     "package_patch_urls": [
-      "https://github.com/strsp/termux-ng/blob/143c06a120/packages/ollama/0001-do-not-install-runtime-deps.patch",
-      "https://github.com/strsp/termux-ng/blob/143c06a120/packages/ollama/0002-properly-search-libs-on-android.patch",
-      "https://github.com/strsp/termux-ng/blob/143c06a120/packages/ollama/0003-do-not-include-sources-for-vulkan-again.patch",
-      "https://github.com/strsp/termux-ng/blob/143c06a120/packages/ollama/0004-force-disable-features-on-Andoid.patch",
-      "https://github.com/strsp/termux-ng/blob/143c06a120/packages/ollama/0006-do-not-search-hip-memory.patch",
-      "https://github.com/strsp/termux-ng/blob/143c06a120/packages/ollama/0007-do-not-use-flash-attention-when-using-cpu.patch",
-      "https://github.com/strsp/termux-ng/blob/143c06a120/packages/ollama/0008-fix-build-with-latest-vulkan-hpp.patch"
+      "https://github.com/strsp/termux-ng/blob/93b16e4167/packages/ollama/0001-do-not-install-runtime-deps.patch",
+      "https://github.com/strsp/termux-ng/blob/93b16e4167/packages/ollama/0002-properly-search-libs-on-android.patch",
+      "https://github.com/strsp/termux-ng/blob/93b16e4167/packages/ollama/0003-do-not-include-sources-for-vulkan-again.patch",
+      "https://github.com/strsp/termux-ng/blob/93b16e4167/packages/ollama/0004-force-disable-features-on-Andoid.patch",
+      "https://github.com/strsp/termux-ng/blob/93b16e4167/packages/ollama/0006-do-not-search-hip-memory.patch",
+      "https://github.com/strsp/termux-ng/blob/93b16e4167/packages/ollama/0007-do-not-use-flash-attention-when-using-cpu.patch",
+      "https://github.com/strsp/termux-ng/blob/93b16e4167/packages/ollama/0008-fix-build-with-latest-vulkan-hpp.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/strsp/termux-ng/143c06a120/packages/ollama/0001-do-not-install-runtime-deps.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/143c06a120/packages/ollama/0002-properly-search-libs-on-android.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/143c06a120/packages/ollama/0003-do-not-include-sources-for-vulkan-again.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/143c06a120/packages/ollama/0004-force-disable-features-on-Andoid.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/143c06a120/packages/ollama/0006-do-not-search-hip-memory.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/143c06a120/packages/ollama/0007-do-not-use-flash-attention-when-using-cpu.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/143c06a120/packages/ollama/0008-fix-build-with-latest-vulkan-hpp.patch"
+      "https://raw.githubusercontent.com/strsp/termux-ng/93b16e4167/packages/ollama/0001-do-not-install-runtime-deps.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/93b16e4167/packages/ollama/0002-properly-search-libs-on-android.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/93b16e4167/packages/ollama/0003-do-not-include-sources-for-vulkan-again.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/93b16e4167/packages/ollama/0004-force-disable-features-on-Andoid.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/93b16e4167/packages/ollama/0006-do-not-search-hip-memory.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/93b16e4167/packages/ollama/0007-do-not-use-flash-attention-when-using-cpu.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/93b16e4167/packages/ollama/0008-fix-build-with-latest-vulkan-hpp.patch"
     ],
     "auto_updated": true
   },
@@ -33474,18 +33475,18 @@
     ],
     "srcurl": "https://download.pureftpd.org/pub/pure-ftpd/releases/pure-ftpd-1.0.54.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/702da69953/packages/pure-ftpd",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/702da69953/packages/pure-ftpd/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/702da69953/packages/pure-ftpd/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/04f351cc21/packages/pure-ftpd",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/04f351cc21/packages/pure-ftpd/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/04f351cc21/packages/pure-ftpd/build.sh",
     "package_patch_urls": [
-      "https://github.com/strsp/termux-ng/blob/702da69953/packages/pure-ftpd/pure-pwconvert.c.patch",
-      "https://github.com/strsp/termux-ng/blob/702da69953/packages/pure-ftpd/src-ftpd.h.patch",
-      "https://github.com/strsp/termux-ng/blob/702da69953/packages/pure-ftpd/src-ftpd_p.h.patch"
+      "https://github.com/strsp/termux-ng/blob/04f351cc21/packages/pure-ftpd/pure-pwconvert.c.patch",
+      "https://github.com/strsp/termux-ng/blob/04f351cc21/packages/pure-ftpd/src-ftpd.h.patch",
+      "https://github.com/strsp/termux-ng/blob/04f351cc21/packages/pure-ftpd/src-ftpd_p.h.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/strsp/termux-ng/702da69953/packages/pure-ftpd/pure-pwconvert.c.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/702da69953/packages/pure-ftpd/src-ftpd.h.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/702da69953/packages/pure-ftpd/src-ftpd_p.h.patch"
+      "https://raw.githubusercontent.com/strsp/termux-ng/04f351cc21/packages/pure-ftpd/pure-pwconvert.c.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/04f351cc21/packages/pure-ftpd/src-ftpd.h.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/04f351cc21/packages/pure-ftpd/src-ftpd_p.h.patch"
     ],
     "auto_updated": true
   },
@@ -35427,24 +35428,24 @@
     ],
     "srcurl": "https://download.redis.io/releases/redis-8.6.2.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/e4a6d6b06c/packages/redis",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/e4a6d6b06c/packages/redis/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/e4a6d6b06c/packages/redis/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/7a8c4ae73b/packages/redis",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/7a8c4ae73b/packages/redis/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/7a8c4ae73b/packages/redis/build.sh",
     "package_patch_urls": [
-      "https://github.com/strsp/termux-ng/blob/e4a6d6b06c/packages/redis/fix-deps-lua.patch",
-      "https://github.com/strsp/termux-ng/blob/e4a6d6b06c/packages/redis/pthread_cancel.patch",
-      "https://github.com/strsp/termux-ng/blob/e4a6d6b06c/packages/redis/redis.conf.patch",
-      "https://github.com/strsp/termux-ng/blob/e4a6d6b06c/packages/redis/setproctitle.patch",
-      "https://github.com/strsp/termux-ng/blob/e4a6d6b06c/packages/redis/src-server.h.patch",
-      "https://github.com/strsp/termux-ng/blob/e4a6d6b06c/packages/redis/tests-modules-Makefile.patch"
+      "https://github.com/strsp/termux-ng/blob/7a8c4ae73b/packages/redis/fix-deps-lua.patch",
+      "https://github.com/strsp/termux-ng/blob/7a8c4ae73b/packages/redis/pthread_cancel.patch",
+      "https://github.com/strsp/termux-ng/blob/7a8c4ae73b/packages/redis/redis.conf.patch",
+      "https://github.com/strsp/termux-ng/blob/7a8c4ae73b/packages/redis/setproctitle.patch",
+      "https://github.com/strsp/termux-ng/blob/7a8c4ae73b/packages/redis/src-server.h.patch",
+      "https://github.com/strsp/termux-ng/blob/7a8c4ae73b/packages/redis/tests-modules-Makefile.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/strsp/termux-ng/e4a6d6b06c/packages/redis/fix-deps-lua.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/e4a6d6b06c/packages/redis/pthread_cancel.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/e4a6d6b06c/packages/redis/redis.conf.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/e4a6d6b06c/packages/redis/setproctitle.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/e4a6d6b06c/packages/redis/src-server.h.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/e4a6d6b06c/packages/redis/tests-modules-Makefile.patch"
+      "https://raw.githubusercontent.com/strsp/termux-ng/7a8c4ae73b/packages/redis/fix-deps-lua.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/7a8c4ae73b/packages/redis/pthread_cancel.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/7a8c4ae73b/packages/redis/redis.conf.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/7a8c4ae73b/packages/redis/setproctitle.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/7a8c4ae73b/packages/redis/src-server.h.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/7a8c4ae73b/packages/redis/tests-modules-Makefile.patch"
     ],
     "auto_updated": true
   },
@@ -36021,16 +36022,16 @@
     ],
     "srcurl": "https://rsync.samba.org/ftp/rsync/src/rsync-3.4.2.tar.gz",
     "maintainer": "Joshua Kahn <tom@termux.dev>",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/e1f1d32590/packages/rsync",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/e1f1d32590/packages/rsync/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/e1f1d32590/packages/rsync/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/7b07af93c3/packages/rsync",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/7b07af93c3/packages/rsync/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/7b07af93c3/packages/rsync/build.sh",
     "package_patch_urls": [
-      "https://github.com/strsp/termux-ng/blob/e1f1d32590/packages/rsync/rsync-3.1.3_lib_getpass.c.patch",
-      "https://github.com/strsp/termux-ng/blob/e1f1d32590/packages/rsync/rsync.h.patch"
+      "https://github.com/strsp/termux-ng/blob/7b07af93c3/packages/rsync/rsync-3.1.3_lib_getpass.c.patch",
+      "https://github.com/strsp/termux-ng/blob/7b07af93c3/packages/rsync/rsync.h.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/strsp/termux-ng/e1f1d32590/packages/rsync/rsync-3.1.3_lib_getpass.c.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/e1f1d32590/packages/rsync/rsync.h.patch"
+      "https://raw.githubusercontent.com/strsp/termux-ng/7b07af93c3/packages/rsync/rsync-3.1.3_lib_getpass.c.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/7b07af93c3/packages/rsync/rsync.h.patch"
     ],
     "auto_updated": true
   },
@@ -38121,9 +38122,9 @@
     ],
     "srcurl": "https://github.com/sqlcipher/sqlcipher/archive/refs/tags/v4.15.0.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/278cf96f49/packages/sqlcipher",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/278cf96f49/packages/sqlcipher/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/278cf96f49/packages/sqlcipher/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/659bdfaa06/packages/sqlcipher",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/659bdfaa06/packages/sqlcipher/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/659bdfaa06/packages/sqlcipher/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -43378,36 +43379,36 @@
     ],
     "srcurl": "https://download.videolan.org/pub/videolan/vlc/3.0.23/vlc-3.0.23.tar.xz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/71ef1ccdb8/packages/vlc",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/71ef1ccdb8/packages/vlc/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/71ef1ccdb8/packages/vlc/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/f3ce3c5b29/packages/vlc",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/f3ce3c5b29/packages/vlc/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/f3ce3c5b29/packages/vlc/build.sh",
     "package_patch_urls": [
-      "https://github.com/strsp/termux-ng/blob/71ef1ccdb8/packages/vlc/configure.ac.patch",
-      "https://github.com/strsp/termux-ng/blob/71ef1ccdb8/packages/vlc/disable-fdsan.patch",
-      "https://github.com/strsp/termux-ng/blob/71ef1ccdb8/packages/vlc/modules-audio_output-Makefile.am.patch",
-      "https://github.com/strsp/termux-ng/blob/71ef1ccdb8/packages/vlc/modules-codec-Makefile.am.patch",
-      "https://github.com/strsp/termux-ng/blob/71ef1ccdb8/packages/vlc/modules-keystore-Makefile.am.patch",
-      "https://github.com/strsp/termux-ng/blob/71ef1ccdb8/packages/vlc/modules-keystore-file_crypt.h.patch",
-      "https://github.com/strsp/termux-ng/blob/71ef1ccdb8/packages/vlc/modules-video_output-Makefile.am.patch",
-      "https://github.com/strsp/termux-ng/blob/71ef1ccdb8/packages/vlc/modules-video_output-xcb-x11.c.patch",
-      "https://github.com/strsp/termux-ng/blob/71ef1ccdb8/packages/vlc/src-Makefile.am.patch",
-      "https://github.com/strsp/termux-ng/blob/71ef1ccdb8/packages/vlc/src-network-getaddrinfo.c.patch",
-      "https://github.com/strsp/termux-ng/blob/71ef1ccdb8/packages/vlc/src-posix-filesystem.c.patch",
-      "https://github.com/strsp/termux-ng/blob/71ef1ccdb8/packages/vlc/xcb-priority.patch"
+      "https://github.com/strsp/termux-ng/blob/f3ce3c5b29/packages/vlc/configure.ac.patch",
+      "https://github.com/strsp/termux-ng/blob/f3ce3c5b29/packages/vlc/disable-fdsan.patch",
+      "https://github.com/strsp/termux-ng/blob/f3ce3c5b29/packages/vlc/modules-audio_output-Makefile.am.patch",
+      "https://github.com/strsp/termux-ng/blob/f3ce3c5b29/packages/vlc/modules-codec-Makefile.am.patch",
+      "https://github.com/strsp/termux-ng/blob/f3ce3c5b29/packages/vlc/modules-keystore-Makefile.am.patch",
+      "https://github.com/strsp/termux-ng/blob/f3ce3c5b29/packages/vlc/modules-keystore-file_crypt.h.patch",
+      "https://github.com/strsp/termux-ng/blob/f3ce3c5b29/packages/vlc/modules-video_output-Makefile.am.patch",
+      "https://github.com/strsp/termux-ng/blob/f3ce3c5b29/packages/vlc/modules-video_output-xcb-x11.c.patch",
+      "https://github.com/strsp/termux-ng/blob/f3ce3c5b29/packages/vlc/src-Makefile.am.patch",
+      "https://github.com/strsp/termux-ng/blob/f3ce3c5b29/packages/vlc/src-network-getaddrinfo.c.patch",
+      "https://github.com/strsp/termux-ng/blob/f3ce3c5b29/packages/vlc/src-posix-filesystem.c.patch",
+      "https://github.com/strsp/termux-ng/blob/f3ce3c5b29/packages/vlc/xcb-priority.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/strsp/termux-ng/71ef1ccdb8/packages/vlc/configure.ac.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/71ef1ccdb8/packages/vlc/disable-fdsan.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/71ef1ccdb8/packages/vlc/modules-audio_output-Makefile.am.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/71ef1ccdb8/packages/vlc/modules-codec-Makefile.am.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/71ef1ccdb8/packages/vlc/modules-keystore-Makefile.am.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/71ef1ccdb8/packages/vlc/modules-keystore-file_crypt.h.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/71ef1ccdb8/packages/vlc/modules-video_output-Makefile.am.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/71ef1ccdb8/packages/vlc/modules-video_output-xcb-x11.c.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/71ef1ccdb8/packages/vlc/src-Makefile.am.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/71ef1ccdb8/packages/vlc/src-network-getaddrinfo.c.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/71ef1ccdb8/packages/vlc/src-posix-filesystem.c.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/71ef1ccdb8/packages/vlc/xcb-priority.patch"
+      "https://raw.githubusercontent.com/strsp/termux-ng/f3ce3c5b29/packages/vlc/configure.ac.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/f3ce3c5b29/packages/vlc/disable-fdsan.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/f3ce3c5b29/packages/vlc/modules-audio_output-Makefile.am.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/f3ce3c5b29/packages/vlc/modules-codec-Makefile.am.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/f3ce3c5b29/packages/vlc/modules-keystore-Makefile.am.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/f3ce3c5b29/packages/vlc/modules-keystore-file_crypt.h.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/f3ce3c5b29/packages/vlc/modules-video_output-Makefile.am.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/f3ce3c5b29/packages/vlc/modules-video_output-xcb-x11.c.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/f3ce3c5b29/packages/vlc/src-Makefile.am.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/f3ce3c5b29/packages/vlc/src-network-getaddrinfo.c.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/f3ce3c5b29/packages/vlc/src-posix-filesystem.c.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/f3ce3c5b29/packages/vlc/xcb-priority.patch"
     ],
     "auto_updated": true
   },
@@ -43467,9 +43468,9 @@
     ],
     "srcurl": "https://github.com/directvt/vtm/archive/refs/tags/v2026.04.28.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/775740c41d/packages/vtm",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/775740c41d/packages/vtm/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/775740c41d/packages/vtm/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/c5ae1584b3/packages/vtm",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/c5ae1584b3/packages/vtm/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/c5ae1584b3/packages/vtm/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -43789,14 +43790,14 @@
     "depends": [],
     "srcurl": "git+https://github.com/WebAssembly/wasi-sdk",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/28a48847c5/packages/wasi-libc",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/28a48847c5/packages/wasi-libc/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/28a48847c5/packages/wasi-libc/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/d2d0c55f96/packages/wasi-libc",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/d2d0c55f96/packages/wasi-libc/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/d2d0c55f96/packages/wasi-libc/build.sh",
     "package_patch_urls": [
-      "https://github.com/strsp/termux-ng/blob/28a48847c5/packages/wasi-libc/0001-move-clang-resource-dir.diff"
+      "https://github.com/strsp/termux-ng/blob/d2d0c55f96/packages/wasi-libc/0001-move-clang-resource-dir.diff"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/strsp/termux-ng/28a48847c5/packages/wasi-libc/0001-move-clang-resource-dir.diff"
+      "https://raw.githubusercontent.com/strsp/termux-ng/d2d0c55f96/packages/wasi-libc/0001-move-clang-resource-dir.diff"
     ],
     "auto_updated": true
   },
@@ -46588,14 +46589,14 @@
     ],
     "srcurl": "https://mirrors.kernel.org/sourceware/lvm2/releases/LVM2.2.03.40.tgz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/7032779f46/root-packages/lvm2",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/7032779f46/root-packages/lvm2/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/7032779f46/root-packages/lvm2/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/aa2ff9bba0/root-packages/lvm2",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/aa2ff9bba0/root-packages/lvm2/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/aa2ff9bba0/root-packages/lvm2/build.sh",
     "package_patch_urls": [
-      "https://github.com/strsp/termux-ng/blob/7032779f46/root-packages/lvm2/fix-stack.patch"
+      "https://github.com/strsp/termux-ng/blob/aa2ff9bba0/root-packages/lvm2/fix-stack.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/strsp/termux-ng/7032779f46/root-packages/lvm2/fix-stack.patch"
+      "https://raw.githubusercontent.com/strsp/termux-ng/aa2ff9bba0/root-packages/lvm2/fix-stack.patch"
     ],
     "auto_updated": true
   },
@@ -51527,74 +51528,74 @@
     ],
     "srcurl": "https://archive.mozilla.org/pub/firefox/releases/150.0.1/source/firefox-150.0.1.source.tar.xz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/38cee5555d/x11-packages/firefox",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/38cee5555d/x11-packages/firefox/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/38cee5555d/x11-packages/firefox/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/4a16832fa9/x11-packages/firefox",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/4a16832fa9/x11-packages/firefox/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/4a16832fa9/x11-packages/firefox/build.sh",
     "package_patch_urls": [
-      "https://github.com/strsp/termux-ng/blob/38cee5555d/x11-packages/firefox/0001-configure-treat-termux-as-linux.patch",
-      "https://github.com/strsp/termux-ng/blob/38cee5555d/x11-packages/firefox/0002-configure-fix-arm-options.patch",
-      "https://github.com/strsp/termux-ng/blob/38cee5555d/x11-packages/firefox/0003-configure-fix-rustflags.patch",
-      "https://github.com/strsp/termux-ng/blob/38cee5555d/x11-packages/firefox/0004-configure-do-not-check-libstdcxx-headers.patch",
-      "https://github.com/strsp/termux-ng/blob/38cee5555d/x11-packages/firefox/0005-configure-do-not-append-sysroot.patch",
-      "https://github.com/strsp/termux-ng/blob/38cee5555d/x11-packages/firefox/0006-configure-do-not-enable-alsa.patch",
-      "https://github.com/strsp/termux-ng/blob/38cee5555d/x11-packages/firefox/0007-fix-link-with-libcxx-18.patch",
-      "https://github.com/strsp/termux-ng/blob/38cee5555d/x11-packages/firefox/0008-fix-marcos.patch",
-      "https://github.com/strsp/termux-ng/blob/38cee5555d/x11-packages/firefox/0009-impl-posix-shmem.patch",
-      "https://github.com/strsp/termux-ng/blob/38cee5555d/x11-packages/firefox/0010-do-not-check-time_t-for-system-libevent.patch",
-      "https://github.com/strsp/termux-ng/blob/38cee5555d/x11-packages/firefox/0011-use-UnderrunHandlerNoop.patch",
-      "https://github.com/strsp/termux-ng/blob/38cee5555d/x11-packages/firefox/0012-do-not-use-adaptive-mutex.patch",
-      "https://github.com/strsp/termux-ng/blob/38cee5555d/x11-packages/firefox/0013-fix-rust-compile.patch",
-      "https://github.com/strsp/termux-ng/blob/38cee5555d/x11-packages/firefox/0014-unset-thread-priority-scheduling-macro.patch",
-      "https://github.com/strsp/termux-ng/blob/38cee5555d/x11-packages/firefox/0015-skia-termux.patch",
-      "https://github.com/strsp/termux-ng/blob/38cee5555d/x11-packages/firefox/0016-protobuf-no-android-log.patch",
-      "https://github.com/strsp/termux-ng/blob/38cee5555d/x11-packages/firefox/0017-fix-include-dir-for-cpufeatures.patch",
-      "https://github.com/strsp/termux-ng/blob/38cee5555d/x11-packages/firefox/0018-fix-sigbus.patch",
-      "https://github.com/strsp/termux-ng/blob/38cee5555d/x11-packages/firefox/0019-do-not-call-get-pci-status.patch",
-      "https://github.com/strsp/termux-ng/blob/38cee5555d/x11-packages/firefox/0020-fix-missing-include-for-zlib-module.patch",
-      "https://github.com/strsp/termux-ng/blob/38cee5555d/x11-packages/firefox/0021-configure-no-pack-relative-relocs.patch",
-      "https://github.com/strsp/termux-ng/blob/38cee5555d/x11-packages/firefox/0022-check-if-dlpi_name-is-nullptr-before-using.patch",
-      "https://github.com/strsp/termux-ng/blob/38cee5555d/x11-packages/firefox/0023-fix-missing-include-for-macro-MOZ_TRY-in-TimeZone.cpp.patch",
-      "https://github.com/strsp/termux-ng/blob/38cee5555d/x11-packages/firefox/0024-disable-native-https-dns-resolve.patch",
-      "https://github.com/strsp/termux-ng/blob/38cee5555d/x11-packages/firefox/0025-webextensions.storage.sync.kinto-true.patch",
-      "https://github.com/strsp/termux-ng/blob/38cee5555d/x11-packages/firefox/0026-fix-popup-white-borders.patch",
-      "https://github.com/strsp/termux-ng/blob/38cee5555d/x11-packages/firefox/0027-fix-tagged-pointer.patch",
-      "https://github.com/strsp/termux-ng/blob/38cee5555d/x11-packages/firefox/0028-prepend-prefix-to-nsXREDirProvider-absolute-paths.patch",
-      "https://github.com/strsp/termux-ng/blob/38cee5555d/x11-packages/firefox/0029-rust-cc-do-not-concatenates-all-the-CFLAGS.patch",
-      "https://github.com/strsp/termux-ng/blob/38cee5555d/x11-packages/firefox/0030-fix-sigbus-2.patch",
-      "https://github.com/strsp/termux-ng/blob/38cee5555d/x11-packages/firefox/0031-tagged-pointer-2.patch"
+      "https://github.com/strsp/termux-ng/blob/4a16832fa9/x11-packages/firefox/0001-configure-treat-termux-as-linux.patch",
+      "https://github.com/strsp/termux-ng/blob/4a16832fa9/x11-packages/firefox/0002-configure-fix-arm-options.patch",
+      "https://github.com/strsp/termux-ng/blob/4a16832fa9/x11-packages/firefox/0003-configure-fix-rustflags.patch",
+      "https://github.com/strsp/termux-ng/blob/4a16832fa9/x11-packages/firefox/0004-configure-do-not-check-libstdcxx-headers.patch",
+      "https://github.com/strsp/termux-ng/blob/4a16832fa9/x11-packages/firefox/0005-configure-do-not-append-sysroot.patch",
+      "https://github.com/strsp/termux-ng/blob/4a16832fa9/x11-packages/firefox/0006-configure-do-not-enable-alsa.patch",
+      "https://github.com/strsp/termux-ng/blob/4a16832fa9/x11-packages/firefox/0007-fix-link-with-libcxx-18.patch",
+      "https://github.com/strsp/termux-ng/blob/4a16832fa9/x11-packages/firefox/0008-fix-marcos.patch",
+      "https://github.com/strsp/termux-ng/blob/4a16832fa9/x11-packages/firefox/0009-impl-posix-shmem.patch",
+      "https://github.com/strsp/termux-ng/blob/4a16832fa9/x11-packages/firefox/0010-do-not-check-time_t-for-system-libevent.patch",
+      "https://github.com/strsp/termux-ng/blob/4a16832fa9/x11-packages/firefox/0011-use-UnderrunHandlerNoop.patch",
+      "https://github.com/strsp/termux-ng/blob/4a16832fa9/x11-packages/firefox/0012-do-not-use-adaptive-mutex.patch",
+      "https://github.com/strsp/termux-ng/blob/4a16832fa9/x11-packages/firefox/0013-fix-rust-compile.patch",
+      "https://github.com/strsp/termux-ng/blob/4a16832fa9/x11-packages/firefox/0014-unset-thread-priority-scheduling-macro.patch",
+      "https://github.com/strsp/termux-ng/blob/4a16832fa9/x11-packages/firefox/0015-skia-termux.patch",
+      "https://github.com/strsp/termux-ng/blob/4a16832fa9/x11-packages/firefox/0016-protobuf-no-android-log.patch",
+      "https://github.com/strsp/termux-ng/blob/4a16832fa9/x11-packages/firefox/0017-fix-include-dir-for-cpufeatures.patch",
+      "https://github.com/strsp/termux-ng/blob/4a16832fa9/x11-packages/firefox/0018-fix-sigbus.patch",
+      "https://github.com/strsp/termux-ng/blob/4a16832fa9/x11-packages/firefox/0019-do-not-call-get-pci-status.patch",
+      "https://github.com/strsp/termux-ng/blob/4a16832fa9/x11-packages/firefox/0020-fix-missing-include-for-zlib-module.patch",
+      "https://github.com/strsp/termux-ng/blob/4a16832fa9/x11-packages/firefox/0021-configure-no-pack-relative-relocs.patch",
+      "https://github.com/strsp/termux-ng/blob/4a16832fa9/x11-packages/firefox/0022-check-if-dlpi_name-is-nullptr-before-using.patch",
+      "https://github.com/strsp/termux-ng/blob/4a16832fa9/x11-packages/firefox/0023-fix-missing-include-for-macro-MOZ_TRY-in-TimeZone.cpp.patch",
+      "https://github.com/strsp/termux-ng/blob/4a16832fa9/x11-packages/firefox/0024-disable-native-https-dns-resolve.patch",
+      "https://github.com/strsp/termux-ng/blob/4a16832fa9/x11-packages/firefox/0025-webextensions.storage.sync.kinto-true.patch",
+      "https://github.com/strsp/termux-ng/blob/4a16832fa9/x11-packages/firefox/0026-fix-popup-white-borders.patch",
+      "https://github.com/strsp/termux-ng/blob/4a16832fa9/x11-packages/firefox/0027-fix-tagged-pointer.patch",
+      "https://github.com/strsp/termux-ng/blob/4a16832fa9/x11-packages/firefox/0028-prepend-prefix-to-nsXREDirProvider-absolute-paths.patch",
+      "https://github.com/strsp/termux-ng/blob/4a16832fa9/x11-packages/firefox/0029-rust-cc-do-not-concatenates-all-the-CFLAGS.patch",
+      "https://github.com/strsp/termux-ng/blob/4a16832fa9/x11-packages/firefox/0030-fix-sigbus-2.patch",
+      "https://github.com/strsp/termux-ng/blob/4a16832fa9/x11-packages/firefox/0031-tagged-pointer-2.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/strsp/termux-ng/38cee5555d/x11-packages/firefox/0001-configure-treat-termux-as-linux.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/38cee5555d/x11-packages/firefox/0002-configure-fix-arm-options.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/38cee5555d/x11-packages/firefox/0003-configure-fix-rustflags.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/38cee5555d/x11-packages/firefox/0004-configure-do-not-check-libstdcxx-headers.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/38cee5555d/x11-packages/firefox/0005-configure-do-not-append-sysroot.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/38cee5555d/x11-packages/firefox/0006-configure-do-not-enable-alsa.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/38cee5555d/x11-packages/firefox/0007-fix-link-with-libcxx-18.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/38cee5555d/x11-packages/firefox/0008-fix-marcos.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/38cee5555d/x11-packages/firefox/0009-impl-posix-shmem.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/38cee5555d/x11-packages/firefox/0010-do-not-check-time_t-for-system-libevent.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/38cee5555d/x11-packages/firefox/0011-use-UnderrunHandlerNoop.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/38cee5555d/x11-packages/firefox/0012-do-not-use-adaptive-mutex.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/38cee5555d/x11-packages/firefox/0013-fix-rust-compile.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/38cee5555d/x11-packages/firefox/0014-unset-thread-priority-scheduling-macro.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/38cee5555d/x11-packages/firefox/0015-skia-termux.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/38cee5555d/x11-packages/firefox/0016-protobuf-no-android-log.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/38cee5555d/x11-packages/firefox/0017-fix-include-dir-for-cpufeatures.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/38cee5555d/x11-packages/firefox/0018-fix-sigbus.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/38cee5555d/x11-packages/firefox/0019-do-not-call-get-pci-status.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/38cee5555d/x11-packages/firefox/0020-fix-missing-include-for-zlib-module.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/38cee5555d/x11-packages/firefox/0021-configure-no-pack-relative-relocs.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/38cee5555d/x11-packages/firefox/0022-check-if-dlpi_name-is-nullptr-before-using.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/38cee5555d/x11-packages/firefox/0023-fix-missing-include-for-macro-MOZ_TRY-in-TimeZone.cpp.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/38cee5555d/x11-packages/firefox/0024-disable-native-https-dns-resolve.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/38cee5555d/x11-packages/firefox/0025-webextensions.storage.sync.kinto-true.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/38cee5555d/x11-packages/firefox/0026-fix-popup-white-borders.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/38cee5555d/x11-packages/firefox/0027-fix-tagged-pointer.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/38cee5555d/x11-packages/firefox/0028-prepend-prefix-to-nsXREDirProvider-absolute-paths.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/38cee5555d/x11-packages/firefox/0029-rust-cc-do-not-concatenates-all-the-CFLAGS.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/38cee5555d/x11-packages/firefox/0030-fix-sigbus-2.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/38cee5555d/x11-packages/firefox/0031-tagged-pointer-2.patch"
+      "https://raw.githubusercontent.com/strsp/termux-ng/4a16832fa9/x11-packages/firefox/0001-configure-treat-termux-as-linux.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/4a16832fa9/x11-packages/firefox/0002-configure-fix-arm-options.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/4a16832fa9/x11-packages/firefox/0003-configure-fix-rustflags.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/4a16832fa9/x11-packages/firefox/0004-configure-do-not-check-libstdcxx-headers.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/4a16832fa9/x11-packages/firefox/0005-configure-do-not-append-sysroot.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/4a16832fa9/x11-packages/firefox/0006-configure-do-not-enable-alsa.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/4a16832fa9/x11-packages/firefox/0007-fix-link-with-libcxx-18.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/4a16832fa9/x11-packages/firefox/0008-fix-marcos.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/4a16832fa9/x11-packages/firefox/0009-impl-posix-shmem.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/4a16832fa9/x11-packages/firefox/0010-do-not-check-time_t-for-system-libevent.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/4a16832fa9/x11-packages/firefox/0011-use-UnderrunHandlerNoop.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/4a16832fa9/x11-packages/firefox/0012-do-not-use-adaptive-mutex.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/4a16832fa9/x11-packages/firefox/0013-fix-rust-compile.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/4a16832fa9/x11-packages/firefox/0014-unset-thread-priority-scheduling-macro.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/4a16832fa9/x11-packages/firefox/0015-skia-termux.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/4a16832fa9/x11-packages/firefox/0016-protobuf-no-android-log.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/4a16832fa9/x11-packages/firefox/0017-fix-include-dir-for-cpufeatures.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/4a16832fa9/x11-packages/firefox/0018-fix-sigbus.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/4a16832fa9/x11-packages/firefox/0019-do-not-call-get-pci-status.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/4a16832fa9/x11-packages/firefox/0020-fix-missing-include-for-zlib-module.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/4a16832fa9/x11-packages/firefox/0021-configure-no-pack-relative-relocs.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/4a16832fa9/x11-packages/firefox/0022-check-if-dlpi_name-is-nullptr-before-using.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/4a16832fa9/x11-packages/firefox/0023-fix-missing-include-for-macro-MOZ_TRY-in-TimeZone.cpp.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/4a16832fa9/x11-packages/firefox/0024-disable-native-https-dns-resolve.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/4a16832fa9/x11-packages/firefox/0025-webextensions.storage.sync.kinto-true.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/4a16832fa9/x11-packages/firefox/0026-fix-popup-white-borders.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/4a16832fa9/x11-packages/firefox/0027-fix-tagged-pointer.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/4a16832fa9/x11-packages/firefox/0028-prepend-prefix-to-nsXREDirProvider-absolute-paths.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/4a16832fa9/x11-packages/firefox/0029-rust-cc-do-not-concatenates-all-the-CFLAGS.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/4a16832fa9/x11-packages/firefox/0030-fix-sigbus-2.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/4a16832fa9/x11-packages/firefox/0031-tagged-pointer-2.patch"
     ],
     "auto_updated": true
   },
@@ -53782,20 +53783,20 @@
     ],
     "srcurl": "https://github.com/HandBrake/HandBrake/releases/download/1.11.1/HandBrake-1.11.1-source.tar.bz2",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/71ef1ccdb8/x11-packages/handbrake",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/71ef1ccdb8/x11-packages/handbrake/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/71ef1ccdb8/x11-packages/handbrake/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/f3ce3c5b29/x11-packages/handbrake",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/f3ce3c5b29/x11-packages/handbrake/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/f3ce3c5b29/x11-packages/handbrake/build.sh",
     "package_patch_urls": [
-      "https://github.com/strsp/termux-ng/blob/71ef1ccdb8/x11-packages/handbrake/do-not-use-contribs.patch",
-      "https://github.com/strsp/termux-ng/blob/71ef1ccdb8/x11-packages/handbrake/remove-ambient-viewing-support.patch",
-      "https://github.com/strsp/termux-ng/blob/71ef1ccdb8/x11-packages/handbrake/remove-embedded-downloaded-copies-of-various-librari.patch",
-      "https://github.com/strsp/termux-ng/blob/71ef1ccdb8/x11-packages/handbrake/revert-dolby-vision-rpu.patch"
+      "https://github.com/strsp/termux-ng/blob/f3ce3c5b29/x11-packages/handbrake/do-not-use-contribs.patch",
+      "https://github.com/strsp/termux-ng/blob/f3ce3c5b29/x11-packages/handbrake/remove-ambient-viewing-support.patch",
+      "https://github.com/strsp/termux-ng/blob/f3ce3c5b29/x11-packages/handbrake/remove-embedded-downloaded-copies-of-various-librari.patch",
+      "https://github.com/strsp/termux-ng/blob/f3ce3c5b29/x11-packages/handbrake/revert-dolby-vision-rpu.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/strsp/termux-ng/71ef1ccdb8/x11-packages/handbrake/do-not-use-contribs.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/71ef1ccdb8/x11-packages/handbrake/remove-ambient-viewing-support.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/71ef1ccdb8/x11-packages/handbrake/remove-embedded-downloaded-copies-of-various-librari.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/71ef1ccdb8/x11-packages/handbrake/revert-dolby-vision-rpu.patch"
+      "https://raw.githubusercontent.com/strsp/termux-ng/f3ce3c5b29/x11-packages/handbrake/do-not-use-contribs.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/f3ce3c5b29/x11-packages/handbrake/remove-ambient-viewing-support.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/f3ce3c5b29/x11-packages/handbrake/remove-embedded-downloaded-copies-of-various-librari.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/f3ce3c5b29/x11-packages/handbrake/revert-dolby-vision-rpu.patch"
     ],
     "auto_updated": true
   },
@@ -58330,7 +58331,7 @@
   },
   {
     "name": "libneatvnc",
-    "version": "0.9.6",
+    "version": "1.0.0",
     "description": "A liberally licensed VNC server library with a clean interface",
     "homepage": "https://github.com/any1/neatvnc",
     "depends": [
@@ -58343,22 +58344,18 @@
       "libpixman",
       "zlib"
     ],
-    "srcurl": "https://github.com/any1/neatvnc/archive/refs/tags/v0.9.6.tar.gz",
+    "srcurl": "https://github.com/any1/neatvnc/archive/refs/tags/v1.0.0.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/ba2581dff1/x11-packages/libneatvnc",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/ba2581dff1/x11-packages/libneatvnc/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/ba2581dff1/x11-packages/libneatvnc/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/24e2945d56/x11-packages/libneatvnc",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/24e2945d56/x11-packages/libneatvnc/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/24e2945d56/x11-packages/libneatvnc/build.sh",
     "package_patch_urls": [
-      "https://github.com/strsp/termux-ng/blob/ba2581dff1/x11-packages/libneatvnc/0001-getrandom.patch",
-      "https://github.com/strsp/termux-ng/blob/ba2581dff1/x11-packages/libneatvnc/0002-aligned_alloc.patch",
-      "https://github.com/strsp/termux-ng/blob/ba2581dff1/x11-packages/libneatvnc/0003-libaml1.patch",
-      "https://github.com/strsp/termux-ng/blob/ba2581dff1/x11-packages/libneatvnc/0004-libaml1.patch"
+      "https://github.com/strsp/termux-ng/blob/24e2945d56/x11-packages/libneatvnc/0001-getrandom.patch",
+      "https://github.com/strsp/termux-ng/blob/24e2945d56/x11-packages/libneatvnc/0002-aligned_alloc.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/strsp/termux-ng/ba2581dff1/x11-packages/libneatvnc/0001-getrandom.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/ba2581dff1/x11-packages/libneatvnc/0002-aligned_alloc.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/ba2581dff1/x11-packages/libneatvnc/0003-libaml1.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/ba2581dff1/x11-packages/libneatvnc/0004-libaml1.patch"
+      "https://raw.githubusercontent.com/strsp/termux-ng/24e2945d56/x11-packages/libneatvnc/0001-getrandom.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/24e2945d56/x11-packages/libneatvnc/0002-aligned_alloc.patch"
     ],
     "auto_updated": true
   },
@@ -67809,42 +67806,42 @@
     ],
     "srcurl": "https://download.videolan.org/pub/videolan/vlc/3.0.23/vlc-3.0.23.tar.xz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/71ef1ccdb8/x11-packages/vlc-qt",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/71ef1ccdb8/x11-packages/vlc-qt/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/71ef1ccdb8/x11-packages/vlc-qt/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/f3ce3c5b29/x11-packages/vlc-qt",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/f3ce3c5b29/x11-packages/vlc-qt/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/f3ce3c5b29/x11-packages/vlc-qt/build.sh",
     "package_patch_urls": [
-      "https://github.com/strsp/termux-ng/blob/71ef1ccdb8/x11-packages/vlc-qt/configure.ac.patch",
-      "https://github.com/strsp/termux-ng/blob/71ef1ccdb8/x11-packages/vlc-qt/disable-fdsan.patch",
-      "https://github.com/strsp/termux-ng/blob/71ef1ccdb8/x11-packages/vlc-qt/modules-audio_output-Makefile.am.patch",
-      "https://github.com/strsp/termux-ng/blob/71ef1ccdb8/x11-packages/vlc-qt/modules-codec-Makefile.am.patch",
-      "https://github.com/strsp/termux-ng/blob/71ef1ccdb8/x11-packages/vlc-qt/modules-keystore-Makefile.am.patch",
-      "https://github.com/strsp/termux-ng/blob/71ef1ccdb8/x11-packages/vlc-qt/modules-keystore-file_crypt.h.patch",
-      "https://github.com/strsp/termux-ng/blob/71ef1ccdb8/x11-packages/vlc-qt/modules-video_output-Makefile.am.patch",
-      "https://github.com/strsp/termux-ng/blob/71ef1ccdb8/x11-packages/vlc-qt/modules-video_output-xcb-x11.c.patch",
-      "https://github.com/strsp/termux-ng/blob/71ef1ccdb8/x11-packages/vlc-qt/src-Makefile.am.patch",
-      "https://github.com/strsp/termux-ng/blob/71ef1ccdb8/x11-packages/vlc-qt/src-network-getaddrinfo.c.patch",
-      "https://github.com/strsp/termux-ng/blob/71ef1ccdb8/x11-packages/vlc-qt/src-posix-filesystem.c.patch",
-      "https://github.com/strsp/termux-ng/blob/71ef1ccdb8/x11-packages/vlc-qt/xcb-priority.patch"
+      "https://github.com/strsp/termux-ng/blob/f3ce3c5b29/x11-packages/vlc-qt/configure.ac.patch",
+      "https://github.com/strsp/termux-ng/blob/f3ce3c5b29/x11-packages/vlc-qt/disable-fdsan.patch",
+      "https://github.com/strsp/termux-ng/blob/f3ce3c5b29/x11-packages/vlc-qt/modules-audio_output-Makefile.am.patch",
+      "https://github.com/strsp/termux-ng/blob/f3ce3c5b29/x11-packages/vlc-qt/modules-codec-Makefile.am.patch",
+      "https://github.com/strsp/termux-ng/blob/f3ce3c5b29/x11-packages/vlc-qt/modules-keystore-Makefile.am.patch",
+      "https://github.com/strsp/termux-ng/blob/f3ce3c5b29/x11-packages/vlc-qt/modules-keystore-file_crypt.h.patch",
+      "https://github.com/strsp/termux-ng/blob/f3ce3c5b29/x11-packages/vlc-qt/modules-video_output-Makefile.am.patch",
+      "https://github.com/strsp/termux-ng/blob/f3ce3c5b29/x11-packages/vlc-qt/modules-video_output-xcb-x11.c.patch",
+      "https://github.com/strsp/termux-ng/blob/f3ce3c5b29/x11-packages/vlc-qt/src-Makefile.am.patch",
+      "https://github.com/strsp/termux-ng/blob/f3ce3c5b29/x11-packages/vlc-qt/src-network-getaddrinfo.c.patch",
+      "https://github.com/strsp/termux-ng/blob/f3ce3c5b29/x11-packages/vlc-qt/src-posix-filesystem.c.patch",
+      "https://github.com/strsp/termux-ng/blob/f3ce3c5b29/x11-packages/vlc-qt/xcb-priority.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/strsp/termux-ng/71ef1ccdb8/x11-packages/vlc-qt/configure.ac.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/71ef1ccdb8/x11-packages/vlc-qt/disable-fdsan.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/71ef1ccdb8/x11-packages/vlc-qt/modules-audio_output-Makefile.am.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/71ef1ccdb8/x11-packages/vlc-qt/modules-codec-Makefile.am.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/71ef1ccdb8/x11-packages/vlc-qt/modules-keystore-Makefile.am.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/71ef1ccdb8/x11-packages/vlc-qt/modules-keystore-file_crypt.h.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/71ef1ccdb8/x11-packages/vlc-qt/modules-video_output-Makefile.am.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/71ef1ccdb8/x11-packages/vlc-qt/modules-video_output-xcb-x11.c.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/71ef1ccdb8/x11-packages/vlc-qt/src-Makefile.am.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/71ef1ccdb8/x11-packages/vlc-qt/src-network-getaddrinfo.c.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/71ef1ccdb8/x11-packages/vlc-qt/src-posix-filesystem.c.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/71ef1ccdb8/x11-packages/vlc-qt/xcb-priority.patch"
+      "https://raw.githubusercontent.com/strsp/termux-ng/f3ce3c5b29/x11-packages/vlc-qt/configure.ac.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/f3ce3c5b29/x11-packages/vlc-qt/disable-fdsan.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/f3ce3c5b29/x11-packages/vlc-qt/modules-audio_output-Makefile.am.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/f3ce3c5b29/x11-packages/vlc-qt/modules-codec-Makefile.am.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/f3ce3c5b29/x11-packages/vlc-qt/modules-keystore-Makefile.am.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/f3ce3c5b29/x11-packages/vlc-qt/modules-keystore-file_crypt.h.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/f3ce3c5b29/x11-packages/vlc-qt/modules-video_output-Makefile.am.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/f3ce3c5b29/x11-packages/vlc-qt/modules-video_output-xcb-x11.c.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/f3ce3c5b29/x11-packages/vlc-qt/src-Makefile.am.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/f3ce3c5b29/x11-packages/vlc-qt/src-network-getaddrinfo.c.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/f3ce3c5b29/x11-packages/vlc-qt/src-posix-filesystem.c.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/f3ce3c5b29/x11-packages/vlc-qt/xcb-priority.patch"
     ],
     "auto_updated": true
   },
   {
     "name": "wayvnc",
-    "version": "0.9.1",
+    "version": "0.10.0",
     "description": "A VNC server for wlroots based Wayland compositors",
     "homepage": "https://github.com/any1/wayvnc",
     "depends": [
@@ -67856,24 +67853,20 @@
       "libwayland",
       "libxkbcommon"
     ],
-    "srcurl": "https://github.com/any1/wayvnc/archive/refs/tags/v0.9.1.tar.gz",
+    "srcurl": "https://github.com/any1/wayvnc/archive/refs/tags/v0.10.0.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/ccea61f126/x11-packages/wayvnc",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/ccea61f126/x11-packages/wayvnc/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/ccea61f126/x11-packages/wayvnc/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/44a0b3ffac/x11-packages/wayvnc",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/44a0b3ffac/x11-packages/wayvnc/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/44a0b3ffac/x11-packages/wayvnc/build.sh",
     "package_patch_urls": [
-      "https://github.com/strsp/termux-ng/blob/ccea61f126/x11-packages/wayvnc/0001-memfd_create.patch",
-      "https://github.com/strsp/termux-ng/blob/ccea61f126/x11-packages/wayvnc/0002-libaml1.patch",
-      "https://github.com/strsp/termux-ng/blob/ccea61f126/x11-packages/wayvnc/0003-libaml1.patch",
-      "https://github.com/strsp/termux-ng/blob/ccea61f126/x11-packages/wayvnc/meson.build.patch",
-      "https://github.com/strsp/termux-ng/blob/ccea61f126/x11-packages/wayvnc/src-util.c.patch"
+      "https://github.com/strsp/termux-ng/blob/44a0b3ffac/x11-packages/wayvnc/0001-memfd_create.patch",
+      "https://github.com/strsp/termux-ng/blob/44a0b3ffac/x11-packages/wayvnc/meson.build.patch",
+      "https://github.com/strsp/termux-ng/blob/44a0b3ffac/x11-packages/wayvnc/src-util.c.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/strsp/termux-ng/ccea61f126/x11-packages/wayvnc/0001-memfd_create.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/ccea61f126/x11-packages/wayvnc/0002-libaml1.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/ccea61f126/x11-packages/wayvnc/0003-libaml1.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/ccea61f126/x11-packages/wayvnc/meson.build.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/ccea61f126/x11-packages/wayvnc/src-util.c.patch"
+      "https://raw.githubusercontent.com/strsp/termux-ng/44a0b3ffac/x11-packages/wayvnc/0001-memfd_create.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/44a0b3ffac/x11-packages/wayvnc/meson.build.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/44a0b3ffac/x11-packages/wayvnc/src-util.c.patch"
     ],
     "auto_updated": true
   },
