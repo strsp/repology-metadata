@@ -978,9 +978,9 @@
     ],
     "srcurl": "https://github.com/EFForg/apkeep/archive/refs/tags/1.0.0.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/a6910a24a1/packages/apkeep",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/a6910a24a1/packages/apkeep/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/a6910a24a1/packages/apkeep/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/91ae2fc140/packages/apkeep",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/91ae2fc140/packages/apkeep/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/91ae2fc140/packages/apkeep/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -2001,16 +2001,16 @@
     ],
     "srcurl": "https://github.com/aws/aws-cli/archive/refs/tags/2.34.39.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/57730355d6/packages/awscli",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/57730355d6/packages/awscli/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/57730355d6/packages/awscli/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/9d27254c56/packages/awscli",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/9d27254c56/packages/awscli/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/9d27254c56/packages/awscli/build.sh",
     "package_patch_urls": [
-      "https://github.com/strsp/termux-ng/blob/57730355d6/packages/awscli/remove-ios-support.patch",
-      "https://github.com/strsp/termux-ng/blob/57730355d6/packages/awscli/remove-no-build-isolation.patch"
+      "https://github.com/strsp/termux-ng/blob/9d27254c56/packages/awscli/remove-ios-support.patch",
+      "https://github.com/strsp/termux-ng/blob/9d27254c56/packages/awscli/remove-no-build-isolation.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/strsp/termux-ng/57730355d6/packages/awscli/remove-ios-support.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/57730355d6/packages/awscli/remove-no-build-isolation.patch"
+      "https://raw.githubusercontent.com/strsp/termux-ng/9d27254c56/packages/awscli/remove-ios-support.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/9d27254c56/packages/awscli/remove-no-build-isolation.patch"
     ],
     "auto_updated": true
   },
@@ -3125,9 +3125,9 @@
     "depends": [],
     "srcurl": "https://github.com/bufbuild/buf/archive/refs/tags/v1.69.0.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/d2a1aa601e/packages/buf",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/d2a1aa601e/packages/buf/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/d2a1aa601e/packages/buf/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/8527e334e6/packages/buf",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/8527e334e6/packages/buf/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/8527e334e6/packages/buf/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -4018,9 +4018,9 @@
     ],
     "srcurl": "https://github.com/hpjansson/chafa/releases/download/1.18.2/chafa-1.18.2.tar.xz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/8b96a5f954/packages/chafa",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/8b96a5f954/packages/chafa/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/8b96a5f954/packages/chafa/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/acb7c3bb61/packages/chafa",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/acb7c3bb61/packages/chafa/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/acb7c3bb61/packages/chafa/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -7681,24 +7681,24 @@
     ],
     "srcurl": "git+https://github.com/emscripten-core/emscripten",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/04f7a24227/packages/emscripten",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/04f7a24227/packages/emscripten/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/04f7a24227/packages/emscripten/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/55479929fb/packages/emscripten",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/55479929fb/packages/emscripten/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/55479929fb/packages/emscripten/build.sh",
     "package_patch_urls": [
-      "https://github.com/strsp/termux-ng/blob/04f7a24227/packages/emscripten/llvm-project-clang-lib-Driver-ToolChain.cpp.diff",
-      "https://github.com/strsp/termux-ng/blob/04f7a24227/packages/emscripten/llvm-project-clang-lib-Driver-ToolChains-Linux.cpp.diff",
-      "https://github.com/strsp/termux-ng/blob/04f7a24227/packages/emscripten/llvm-project-compiler-rt-CMakeLists.txt.diff",
-      "https://github.com/strsp/termux-ng/blob/04f7a24227/packages/emscripten/llvm-project-compiler-rt-lib-builtins-CMakeLists.txt.diff",
-      "https://github.com/strsp/termux-ng/blob/04f7a24227/packages/emscripten/llvm-project-libunwind-CMakeLists.txt.diff",
-      "https://github.com/strsp/termux-ng/blob/04f7a24227/packages/emscripten/llvm-project-llvm-tools-llvm-rtdyld-llvm-rtdyld.cpp.diff"
+      "https://github.com/strsp/termux-ng/blob/55479929fb/packages/emscripten/llvm-project-clang-lib-Driver-ToolChain.cpp.diff",
+      "https://github.com/strsp/termux-ng/blob/55479929fb/packages/emscripten/llvm-project-clang-lib-Driver-ToolChains-Linux.cpp.diff",
+      "https://github.com/strsp/termux-ng/blob/55479929fb/packages/emscripten/llvm-project-compiler-rt-CMakeLists.txt.diff",
+      "https://github.com/strsp/termux-ng/blob/55479929fb/packages/emscripten/llvm-project-compiler-rt-lib-builtins-CMakeLists.txt.diff",
+      "https://github.com/strsp/termux-ng/blob/55479929fb/packages/emscripten/llvm-project-libunwind-CMakeLists.txt.diff",
+      "https://github.com/strsp/termux-ng/blob/55479929fb/packages/emscripten/llvm-project-llvm-tools-llvm-rtdyld-llvm-rtdyld.cpp.diff"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/strsp/termux-ng/04f7a24227/packages/emscripten/llvm-project-clang-lib-Driver-ToolChain.cpp.diff",
-      "https://raw.githubusercontent.com/strsp/termux-ng/04f7a24227/packages/emscripten/llvm-project-clang-lib-Driver-ToolChains-Linux.cpp.diff",
-      "https://raw.githubusercontent.com/strsp/termux-ng/04f7a24227/packages/emscripten/llvm-project-compiler-rt-CMakeLists.txt.diff",
-      "https://raw.githubusercontent.com/strsp/termux-ng/04f7a24227/packages/emscripten/llvm-project-compiler-rt-lib-builtins-CMakeLists.txt.diff",
-      "https://raw.githubusercontent.com/strsp/termux-ng/04f7a24227/packages/emscripten/llvm-project-libunwind-CMakeLists.txt.diff",
-      "https://raw.githubusercontent.com/strsp/termux-ng/04f7a24227/packages/emscripten/llvm-project-llvm-tools-llvm-rtdyld-llvm-rtdyld.cpp.diff"
+      "https://raw.githubusercontent.com/strsp/termux-ng/55479929fb/packages/emscripten/llvm-project-clang-lib-Driver-ToolChain.cpp.diff",
+      "https://raw.githubusercontent.com/strsp/termux-ng/55479929fb/packages/emscripten/llvm-project-clang-lib-Driver-ToolChains-Linux.cpp.diff",
+      "https://raw.githubusercontent.com/strsp/termux-ng/55479929fb/packages/emscripten/llvm-project-compiler-rt-CMakeLists.txt.diff",
+      "https://raw.githubusercontent.com/strsp/termux-ng/55479929fb/packages/emscripten/llvm-project-compiler-rt-lib-builtins-CMakeLists.txt.diff",
+      "https://raw.githubusercontent.com/strsp/termux-ng/55479929fb/packages/emscripten/llvm-project-libunwind-CMakeLists.txt.diff",
+      "https://raw.githubusercontent.com/strsp/termux-ng/55479929fb/packages/emscripten/llvm-project-llvm-tools-llvm-rtdyld-llvm-rtdyld.cpp.diff"
     ],
     "auto_updated": true
   },
@@ -8865,9 +8865,9 @@
     "depends": [],
     "srcurl": "https://github.com/superfly/flyctl/archive/refs/tags/v0.4.43.tar.gz",
     "maintainer": "Yaksh Bariya <thunder-coding@termux.dev>",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/114d3fc033/packages/flyctl",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/114d3fc033/packages/flyctl/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/114d3fc033/packages/flyctl/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/a736b5e31a/packages/flyctl",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/a736b5e31a/packages/flyctl/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/a736b5e31a/packages/flyctl/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -9700,14 +9700,14 @@
     "depends": [],
     "srcurl": "https://github.com/dundee/gdu/archive/refs/tags/v5.36.1.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/b8f9645feb/packages/gdu",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/b8f9645feb/packages/gdu/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/b8f9645feb/packages/gdu/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/694ab82571/packages/gdu",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/694ab82571/packages/gdu/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/694ab82571/packages/gdu/build.sh",
     "package_patch_urls": [
-      "https://github.com/strsp/termux-ng/blob/b8f9645feb/packages/gdu/Makefile.patch"
+      "https://github.com/strsp/termux-ng/blob/694ab82571/packages/gdu/Makefile.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/strsp/termux-ng/b8f9645feb/packages/gdu/Makefile.patch"
+      "https://raw.githubusercontent.com/strsp/termux-ng/694ab82571/packages/gdu/Makefile.patch"
     ],
     "auto_updated": true
   },
@@ -10296,9 +10296,9 @@
     "depends": [],
     "srcurl": "https://github.com/git-town/git-town/archive/refs/tags/v22.7.1.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/a056cf5299/packages/git-town",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/a056cf5299/packages/git-town/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/a056cf5299/packages/git-town/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/a02881d33d/packages/git-town",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/a02881d33d/packages/git-town/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/a02881d33d/packages/git-town/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -15812,7 +15812,7 @@
   },
   {
     "name": "libblosc2",
-    "version": "3.0.0",
+    "version": "3.0.1",
     "description": "A blocking, shuffling and loss-less compression library",
     "homepage": "https://www.blosc.org",
     "depends": [
@@ -15820,16 +15820,16 @@
       "zlib",
       "zstd"
     ],
-    "srcurl": "https://github.com/Blosc/c-blosc2/archive/refs/tags/v3.0.0.tar.gz",
+    "srcurl": "https://github.com/Blosc/c-blosc2/archive/refs/tags/v3.0.1.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/456abb4748/packages/libblosc2",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/456abb4748/packages/libblosc2/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/456abb4748/packages/libblosc2/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/0130789099/packages/libblosc2",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/0130789099/packages/libblosc2/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/0130789099/packages/libblosc2/build.sh",
     "package_patch_urls": [
-      "https://github.com/strsp/termux-ng/blob/456abb4748/packages/libblosc2/0001-fix-posix-memalign.patch"
+      "https://github.com/strsp/termux-ng/blob/0130789099/packages/libblosc2/0001-fix-posix-memalign.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/strsp/termux-ng/456abb4748/packages/libblosc2/0001-fix-posix-memalign.patch"
+      "https://raw.githubusercontent.com/strsp/termux-ng/0130789099/packages/libblosc2/0001-fix-posix-memalign.patch"
     ],
     "auto_updated": true
   },
@@ -26411,7 +26411,7 @@
   },
   {
     "name": "mesa",
-    "version": "26.0.5",
+    "version": "26.0.6",
     "description": "An open-source implementation of the OpenGL specification",
     "homepage": "https://www.mesa3d.org",
     "depends": [
@@ -26431,56 +26431,56 @@
       "zlib",
       "zstd"
     ],
-    "srcurl": "https://archive.mesa3d.org/mesa-26.0.5.tar.xz",
+    "srcurl": "https://archive.mesa3d.org/mesa-26.0.6.tar.xz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/25abf8e693/packages/mesa",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/25abf8e693/packages/mesa/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/25abf8e693/packages/mesa/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/cc8bf9d492/packages/mesa",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/cc8bf9d492/packages/mesa/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/cc8bf9d492/packages/mesa/build.sh",
     "package_patch_urls": [
-      "https://github.com/strsp/termux-ng/blob/25abf8e693/packages/mesa/0000-disable-android-detection.patch",
-      "https://github.com/strsp/termux-ng/blob/25abf8e693/packages/mesa/0001-disable-multithreading-for-llvmpipe.patch",
-      "https://github.com/strsp/termux-ng/blob/25abf8e693/packages/mesa/0002-fix-for-getprogname.patch",
-      "https://github.com/strsp/termux-ng/blob/25abf8e693/packages/mesa/0003-fix-for-anon-file.patch",
-      "https://github.com/strsp/termux-ng/blob/25abf8e693/packages/mesa/0004-do-not-check-xlocale.patch",
-      "https://github.com/strsp/termux-ng/blob/25abf8e693/packages/mesa/0005-virgl-socket-path.patch",
-      "https://github.com/strsp/termux-ng/blob/25abf8e693/packages/mesa/0006-wsi-no-pthread_cancel.patch",
-      "https://github.com/strsp/termux-ng/blob/25abf8e693/packages/mesa/0007-use-mtx_t-operations-in-turnip.patch",
-      "https://github.com/strsp/termux-ng/blob/25abf8e693/packages/mesa/0008-workaround-fortify-check.patch",
-      "https://github.com/strsp/termux-ng/blob/25abf8e693/packages/mesa/0009-disable-resource_create_front-for-vtest.patch",
-      "https://github.com/strsp/termux-ng/blob/25abf8e693/packages/mesa/0011-lld-undefined-version.diff",
-      "https://github.com/strsp/termux-ng/blob/25abf8e693/packages/mesa/0012-always-use-software-for-swrast.patch",
-      "https://github.com/strsp/termux-ng/blob/25abf8e693/packages/mesa/0013-detect-sve-sve2-support.patch",
-      "https://github.com/strsp/termux-ng/blob/25abf8e693/packages/mesa/0014-replace-turnip-wait_timestamp_safe-assert.patch",
-      "https://github.com/strsp/termux-ng/blob/25abf8e693/packages/mesa/0015-define-reallocarray.patch",
-      "https://github.com/strsp/termux-ng/blob/25abf8e693/packages/mesa/0016-unofficial_support_adreno_710_720.patch",
-      "https://github.com/strsp/termux-ng/blob/25abf8e693/packages/mesa/0017-preserve-egl-support-in-zink.patch",
-      "https://github.com/strsp/termux-ng/blob/25abf8e693/packages/mesa/0018-disable-general-layout-in-zink-for-turnip.patch",
-      "https://github.com/strsp/termux-ng/blob/25abf8e693/packages/mesa/0019-UBWC_5-and-UBWC_6-support.patch",
-      "https://github.com/strsp/termux-ng/blob/25abf8e693/packages/mesa/0020-unofficial-support-adreno-830.patch",
-      "https://github.com/strsp/termux-ng/blob/25abf8e693/packages/mesa/0021-unofficial-support-adreno-810-825-829.patch"
+      "https://github.com/strsp/termux-ng/blob/cc8bf9d492/packages/mesa/0000-disable-android-detection.patch",
+      "https://github.com/strsp/termux-ng/blob/cc8bf9d492/packages/mesa/0001-disable-multithreading-for-llvmpipe.patch",
+      "https://github.com/strsp/termux-ng/blob/cc8bf9d492/packages/mesa/0002-fix-for-getprogname.patch",
+      "https://github.com/strsp/termux-ng/blob/cc8bf9d492/packages/mesa/0003-fix-for-anon-file.patch",
+      "https://github.com/strsp/termux-ng/blob/cc8bf9d492/packages/mesa/0004-do-not-check-xlocale.patch",
+      "https://github.com/strsp/termux-ng/blob/cc8bf9d492/packages/mesa/0005-virgl-socket-path.patch",
+      "https://github.com/strsp/termux-ng/blob/cc8bf9d492/packages/mesa/0006-wsi-no-pthread_cancel.patch",
+      "https://github.com/strsp/termux-ng/blob/cc8bf9d492/packages/mesa/0007-use-mtx_t-operations-in-turnip.patch",
+      "https://github.com/strsp/termux-ng/blob/cc8bf9d492/packages/mesa/0008-workaround-fortify-check.patch",
+      "https://github.com/strsp/termux-ng/blob/cc8bf9d492/packages/mesa/0009-disable-resource_create_front-for-vtest.patch",
+      "https://github.com/strsp/termux-ng/blob/cc8bf9d492/packages/mesa/0011-lld-undefined-version.diff",
+      "https://github.com/strsp/termux-ng/blob/cc8bf9d492/packages/mesa/0012-always-use-software-for-swrast.patch",
+      "https://github.com/strsp/termux-ng/blob/cc8bf9d492/packages/mesa/0013-detect-sve-sve2-support.patch",
+      "https://github.com/strsp/termux-ng/blob/cc8bf9d492/packages/mesa/0014-replace-turnip-wait_timestamp_safe-assert.patch",
+      "https://github.com/strsp/termux-ng/blob/cc8bf9d492/packages/mesa/0015-define-reallocarray.patch",
+      "https://github.com/strsp/termux-ng/blob/cc8bf9d492/packages/mesa/0016-unofficial_support_adreno_710_720.patch",
+      "https://github.com/strsp/termux-ng/blob/cc8bf9d492/packages/mesa/0017-preserve-egl-support-in-zink.patch",
+      "https://github.com/strsp/termux-ng/blob/cc8bf9d492/packages/mesa/0018-disable-general-layout-in-zink-for-turnip.patch",
+      "https://github.com/strsp/termux-ng/blob/cc8bf9d492/packages/mesa/0019-UBWC_5-and-UBWC_6-support.patch",
+      "https://github.com/strsp/termux-ng/blob/cc8bf9d492/packages/mesa/0020-unofficial-support-adreno-830.patch",
+      "https://github.com/strsp/termux-ng/blob/cc8bf9d492/packages/mesa/0021-unofficial-support-adreno-810-825-829.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/strsp/termux-ng/25abf8e693/packages/mesa/0000-disable-android-detection.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/25abf8e693/packages/mesa/0001-disable-multithreading-for-llvmpipe.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/25abf8e693/packages/mesa/0002-fix-for-getprogname.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/25abf8e693/packages/mesa/0003-fix-for-anon-file.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/25abf8e693/packages/mesa/0004-do-not-check-xlocale.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/25abf8e693/packages/mesa/0005-virgl-socket-path.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/25abf8e693/packages/mesa/0006-wsi-no-pthread_cancel.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/25abf8e693/packages/mesa/0007-use-mtx_t-operations-in-turnip.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/25abf8e693/packages/mesa/0008-workaround-fortify-check.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/25abf8e693/packages/mesa/0009-disable-resource_create_front-for-vtest.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/25abf8e693/packages/mesa/0011-lld-undefined-version.diff",
-      "https://raw.githubusercontent.com/strsp/termux-ng/25abf8e693/packages/mesa/0012-always-use-software-for-swrast.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/25abf8e693/packages/mesa/0013-detect-sve-sve2-support.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/25abf8e693/packages/mesa/0014-replace-turnip-wait_timestamp_safe-assert.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/25abf8e693/packages/mesa/0015-define-reallocarray.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/25abf8e693/packages/mesa/0016-unofficial_support_adreno_710_720.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/25abf8e693/packages/mesa/0017-preserve-egl-support-in-zink.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/25abf8e693/packages/mesa/0018-disable-general-layout-in-zink-for-turnip.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/25abf8e693/packages/mesa/0019-UBWC_5-and-UBWC_6-support.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/25abf8e693/packages/mesa/0020-unofficial-support-adreno-830.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/25abf8e693/packages/mesa/0021-unofficial-support-adreno-810-825-829.patch"
+      "https://raw.githubusercontent.com/strsp/termux-ng/cc8bf9d492/packages/mesa/0000-disable-android-detection.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/cc8bf9d492/packages/mesa/0001-disable-multithreading-for-llvmpipe.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/cc8bf9d492/packages/mesa/0002-fix-for-getprogname.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/cc8bf9d492/packages/mesa/0003-fix-for-anon-file.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/cc8bf9d492/packages/mesa/0004-do-not-check-xlocale.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/cc8bf9d492/packages/mesa/0005-virgl-socket-path.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/cc8bf9d492/packages/mesa/0006-wsi-no-pthread_cancel.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/cc8bf9d492/packages/mesa/0007-use-mtx_t-operations-in-turnip.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/cc8bf9d492/packages/mesa/0008-workaround-fortify-check.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/cc8bf9d492/packages/mesa/0009-disable-resource_create_front-for-vtest.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/cc8bf9d492/packages/mesa/0011-lld-undefined-version.diff",
+      "https://raw.githubusercontent.com/strsp/termux-ng/cc8bf9d492/packages/mesa/0012-always-use-software-for-swrast.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/cc8bf9d492/packages/mesa/0013-detect-sve-sve2-support.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/cc8bf9d492/packages/mesa/0014-replace-turnip-wait_timestamp_safe-assert.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/cc8bf9d492/packages/mesa/0015-define-reallocarray.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/cc8bf9d492/packages/mesa/0016-unofficial_support_adreno_710_720.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/cc8bf9d492/packages/mesa/0017-preserve-egl-support-in-zink.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/cc8bf9d492/packages/mesa/0018-disable-general-layout-in-zink-for-turnip.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/cc8bf9d492/packages/mesa/0019-UBWC_5-and-UBWC_6-support.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/cc8bf9d492/packages/mesa/0020-unofficial-support-adreno-830.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/cc8bf9d492/packages/mesa/0021-unofficial-support-adreno-810-825-829.patch"
     ],
     "auto_updated": true
   },
@@ -26766,7 +26766,7 @@
   },
   {
     "name": "minizinc",
-    "version": "2.9.6",
+    "version": "2.9.7",
     "description": "A medium-level constraint modelling language",
     "homepage": "https://github.com/MiniZinc/libminizinc",
     "depends": [
@@ -26774,11 +26774,11 @@
       "zlib",
       "gecode"
     ],
-    "srcurl": "https://github.com/MiniZinc/libminizinc/archive/refs/tags/2.9.6.tar.gz",
+    "srcurl": "https://github.com/MiniZinc/libminizinc/archive/refs/tags/2.9.7.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/22c7103ea5/packages/minizinc",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/22c7103ea5/packages/minizinc/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/22c7103ea5/packages/minizinc/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/3fe430e9b6/packages/minizinc",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/3fe430e9b6/packages/minizinc/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/3fe430e9b6/packages/minizinc/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -28551,18 +28551,18 @@
       "tree-sitter-parsers",
       "utf8proc"
     ],
-    "srcurl": "https://github.com/neovim/neovim/archive/0697c24601.tar.gz",
+    "srcurl": "https://github.com/neovim/neovim/archive/1e06e95662.tar.gz",
     "maintainer": "Joshua Kahn <tom@termux.dev>",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/75f5c5ccd1/packages/neovim-nightly",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/75f5c5ccd1/packages/neovim-nightly/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/75f5c5ccd1/packages/neovim-nightly/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/c5c7b92d59/packages/neovim-nightly",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/c5c7b92d59/packages/neovim-nightly/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/c5c7b92d59/packages/neovim-nightly/build.sh",
     "package_patch_urls": [
-      "https://github.com/strsp/termux-ng/blob/75f5c5ccd1/packages/neovim-nightly/disable-checkhealth-locale-warning.patch",
-      "https://github.com/strsp/termux-ng/blob/75f5c5ccd1/packages/neovim-nightly/src-nvim-os-stdpaths.c.patch"
+      "https://github.com/strsp/termux-ng/blob/c5c7b92d59/packages/neovim-nightly/disable-checkhealth-locale-warning.patch",
+      "https://github.com/strsp/termux-ng/blob/c5c7b92d59/packages/neovim-nightly/src-nvim-os-stdpaths.c.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/strsp/termux-ng/75f5c5ccd1/packages/neovim-nightly/disable-checkhealth-locale-warning.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/75f5c5ccd1/packages/neovim-nightly/src-nvim-os-stdpaths.c.patch"
+      "https://raw.githubusercontent.com/strsp/termux-ng/c5c7b92d59/packages/neovim-nightly/disable-checkhealth-locale-warning.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/c5c7b92d59/packages/neovim-nightly/src-nvim-os-stdpaths.c.patch"
     ],
     "auto_updated": true
   },
@@ -35486,24 +35486,24 @@
     ],
     "srcurl": "https://download.redis.io/releases/redis-8.6.2.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/c261cf684f/packages/redis",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/c261cf684f/packages/redis/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/c261cf684f/packages/redis/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/9a4ce03b16/packages/redis",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/9a4ce03b16/packages/redis/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/9a4ce03b16/packages/redis/build.sh",
     "package_patch_urls": [
-      "https://github.com/strsp/termux-ng/blob/c261cf684f/packages/redis/fix-deps-lua.patch",
-      "https://github.com/strsp/termux-ng/blob/c261cf684f/packages/redis/pthread_cancel.patch",
-      "https://github.com/strsp/termux-ng/blob/c261cf684f/packages/redis/redis.conf.patch",
-      "https://github.com/strsp/termux-ng/blob/c261cf684f/packages/redis/setproctitle.patch",
-      "https://github.com/strsp/termux-ng/blob/c261cf684f/packages/redis/src-server.h.patch",
-      "https://github.com/strsp/termux-ng/blob/c261cf684f/packages/redis/tests-modules-Makefile.patch"
+      "https://github.com/strsp/termux-ng/blob/9a4ce03b16/packages/redis/fix-deps-lua.patch",
+      "https://github.com/strsp/termux-ng/blob/9a4ce03b16/packages/redis/pthread_cancel.patch",
+      "https://github.com/strsp/termux-ng/blob/9a4ce03b16/packages/redis/redis.conf.patch",
+      "https://github.com/strsp/termux-ng/blob/9a4ce03b16/packages/redis/setproctitle.patch",
+      "https://github.com/strsp/termux-ng/blob/9a4ce03b16/packages/redis/src-server.h.patch",
+      "https://github.com/strsp/termux-ng/blob/9a4ce03b16/packages/redis/tests-modules-Makefile.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/strsp/termux-ng/c261cf684f/packages/redis/fix-deps-lua.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/c261cf684f/packages/redis/pthread_cancel.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/c261cf684f/packages/redis/redis.conf.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/c261cf684f/packages/redis/setproctitle.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/c261cf684f/packages/redis/src-server.h.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/c261cf684f/packages/redis/tests-modules-Makefile.patch"
+      "https://raw.githubusercontent.com/strsp/termux-ng/9a4ce03b16/packages/redis/fix-deps-lua.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/9a4ce03b16/packages/redis/pthread_cancel.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/9a4ce03b16/packages/redis/redis.conf.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/9a4ce03b16/packages/redis/setproctitle.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/9a4ce03b16/packages/redis/src-server.h.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/9a4ce03b16/packages/redis/tests-modules-Makefile.patch"
     ],
     "auto_updated": true
   },
@@ -43846,14 +43846,14 @@
     "depends": [],
     "srcurl": "git+https://github.com/WebAssembly/wasi-sdk",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/7698e59ab5/packages/wasi-libc",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/7698e59ab5/packages/wasi-libc/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/7698e59ab5/packages/wasi-libc/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/001a539084/packages/wasi-libc",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/001a539084/packages/wasi-libc/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/001a539084/packages/wasi-libc/build.sh",
     "package_patch_urls": [
-      "https://github.com/strsp/termux-ng/blob/7698e59ab5/packages/wasi-libc/0001-move-clang-resource-dir.diff"
+      "https://github.com/strsp/termux-ng/blob/001a539084/packages/wasi-libc/0001-move-clang-resource-dir.diff"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/strsp/termux-ng/7698e59ab5/packages/wasi-libc/0001-move-clang-resource-dir.diff"
+      "https://raw.githubusercontent.com/strsp/termux-ng/001a539084/packages/wasi-libc/0001-move-clang-resource-dir.diff"
     ],
     "auto_updated": true
   },
@@ -47237,22 +47237,22 @@
     ],
     "srcurl": "https://www.wireshark.org/download/src/all-versions/wireshark-4.6.5.tar.xz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/b7463aebb1/root-packages/tshark",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/b7463aebb1/root-packages/tshark/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/b7463aebb1/root-packages/tshark/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/9799a0ab8a/root-packages/tshark",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/9799a0ab8a/root-packages/tshark/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/9799a0ab8a/root-packages/tshark/build.sh",
     "package_patch_urls": [
-      "https://github.com/strsp/termux-ng/blob/b7463aebb1/root-packages/tshark/FindDOXYGEN.cmake.patch",
-      "https://github.com/strsp/termux-ng/blob/b7463aebb1/root-packages/tshark/caputils-ws80211.c.patch",
-      "https://github.com/strsp/termux-ng/blob/b7463aebb1/root-packages/tshark/cmake-modules-UseLemon.cmake.patch",
-      "https://github.com/strsp/termux-ng/blob/b7463aebb1/root-packages/tshark/paths.patch",
-      "https://github.com/strsp/termux-ng/blob/b7463aebb1/root-packages/tshark/ws_pipe.c.patch"
+      "https://github.com/strsp/termux-ng/blob/9799a0ab8a/root-packages/tshark/FindDOXYGEN.cmake.patch",
+      "https://github.com/strsp/termux-ng/blob/9799a0ab8a/root-packages/tshark/caputils-ws80211.c.patch",
+      "https://github.com/strsp/termux-ng/blob/9799a0ab8a/root-packages/tshark/cmake-modules-UseLemon.cmake.patch",
+      "https://github.com/strsp/termux-ng/blob/9799a0ab8a/root-packages/tshark/paths.patch",
+      "https://github.com/strsp/termux-ng/blob/9799a0ab8a/root-packages/tshark/ws_pipe.c.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/strsp/termux-ng/b7463aebb1/root-packages/tshark/FindDOXYGEN.cmake.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/b7463aebb1/root-packages/tshark/caputils-ws80211.c.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/b7463aebb1/root-packages/tshark/cmake-modules-UseLemon.cmake.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/b7463aebb1/root-packages/tshark/paths.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/b7463aebb1/root-packages/tshark/ws_pipe.c.patch"
+      "https://raw.githubusercontent.com/strsp/termux-ng/9799a0ab8a/root-packages/tshark/FindDOXYGEN.cmake.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/9799a0ab8a/root-packages/tshark/caputils-ws80211.c.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/9799a0ab8a/root-packages/tshark/cmake-modules-UseLemon.cmake.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/9799a0ab8a/root-packages/tshark/paths.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/9799a0ab8a/root-packages/tshark/ws_pipe.c.patch"
     ],
     "auto_updated": true
   },
@@ -53115,7 +53115,7 @@
   },
   {
     "name": "goffice",
-    "version": "0.10.60",
+    "version": "0.10.61",
     "description": "A GLib/GTK+ set of document-centric objects and utilities",
     "homepage": "https://gitlab.gnome.org/GNOME/goffice/",
     "depends": [
@@ -53131,11 +53131,11 @@
       "pango",
       "zlib"
     ],
-    "srcurl": "https://download.gnome.org/sources/goffice/0.10/goffice-0.10.60.tar.xz",
+    "srcurl": "https://download.gnome.org/sources/goffice/0.10/goffice-0.10.61.tar.xz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/06c1101866/x11-packages/goffice",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/06c1101866/x11-packages/goffice/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/06c1101866/x11-packages/goffice/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/24ee14f19b/x11-packages/goffice",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/24ee14f19b/x11-packages/goffice/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/24ee14f19b/x11-packages/goffice/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -65457,16 +65457,16 @@
     ],
     "srcurl": "https://github.com/frankosterfeld/qtkeychain/archive/refs/tags/0.16.0.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/792bd5eb49/x11-packages/qtkeychain",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/792bd5eb49/x11-packages/qtkeychain/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/792bd5eb49/x11-packages/qtkeychain/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/5bc972e268/x11-packages/qtkeychain",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/5bc972e268/x11-packages/qtkeychain/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/5bc972e268/x11-packages/qtkeychain/build.sh",
     "package_patch_urls": [
-      "https://github.com/strsp/termux-ng/blob/792bd5eb49/x11-packages/qtkeychain/CMakeLists.txt.patch",
-      "https://github.com/strsp/termux-ng/blob/792bd5eb49/x11-packages/qtkeychain/ECMGeneratePriFile.cmake.patch"
+      "https://github.com/strsp/termux-ng/blob/5bc972e268/x11-packages/qtkeychain/CMakeLists.txt.patch",
+      "https://github.com/strsp/termux-ng/blob/5bc972e268/x11-packages/qtkeychain/ECMGeneratePriFile.cmake.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/strsp/termux-ng/792bd5eb49/x11-packages/qtkeychain/CMakeLists.txt.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/792bd5eb49/x11-packages/qtkeychain/ECMGeneratePriFile.cmake.patch"
+      "https://raw.githubusercontent.com/strsp/termux-ng/5bc972e268/x11-packages/qtkeychain/CMakeLists.txt.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/5bc972e268/x11-packages/qtkeychain/ECMGeneratePriFile.cmake.patch"
     ],
     "auto_updated": true
   },
