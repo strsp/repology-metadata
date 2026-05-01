@@ -1558,23 +1558,23 @@
   },
   {
     "name": "assimp",
-    "version": "6.0.4",
+    "version": "6.0.5",
     "description": "Library to import various well-known 3D model formats in an uniform manner",
     "homepage": "https://assimp.sourceforge.net/index.html",
     "depends": [
       "libc++",
       "zlib"
     ],
-    "srcurl": "https://github.com/assimp/assimp/archive/refs/tags/v6.0.4.tar.gz",
+    "srcurl": "https://github.com/assimp/assimp/archive/refs/tags/v6.0.5.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/0d8058c274/packages/assimp",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/0d8058c274/packages/assimp/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/0d8058c274/packages/assimp/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/8773f4aa22/packages/assimp",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/8773f4aa22/packages/assimp/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/8773f4aa22/packages/assimp/build.sh",
     "package_patch_urls": [
-      "https://github.com/strsp/termux-ng/blob/0d8058c274/packages/assimp/fix-unused-return-value-werr.patch"
+      "https://github.com/strsp/termux-ng/blob/8773f4aa22/packages/assimp/fix-unused-return-value-werr.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/strsp/termux-ng/0d8058c274/packages/assimp/fix-unused-return-value-werr.patch"
+      "https://raw.githubusercontent.com/strsp/termux-ng/8773f4aa22/packages/assimp/fix-unused-return-value-werr.patch"
     ],
     "auto_updated": true
   },
@@ -4493,7 +4493,7 @@
   },
   {
     "name": "clvk",
-    "version": "0.0.20260417.111654",
+    "version": "0.0.20260429.095507",
     "description": "Experimental implementation of OpenCL on Vulkan",
     "homepage": "https://github.com/kpet/clvk",
     "depends": [
@@ -4502,26 +4502,26 @@
     ],
     "srcurl": "git+https://github.com/kpet/clvk",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/a9618492cf/packages/clvk",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/a9618492cf/packages/clvk/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/a9618492cf/packages/clvk/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/1f8d2e2d42/packages/clvk",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/1f8d2e2d42/packages/clvk/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/1f8d2e2d42/packages/clvk/build.sh",
     "package_patch_urls": [
-      "https://github.com/strsp/termux-ng/blob/a9618492cf/packages/clvk/0001-Do-not-use-__builtin_elementwise_maximumnum-for-clc_.patch.beforehostbuild",
-      "https://github.com/strsp/termux-ng/blob/a9618492cf/packages/clvk/0002-Do-not-use-__builtin_elementwise_minimumnum-for-clc_.patch.beforehostbuild",
-      "https://github.com/strsp/termux-ng/blob/a9618492cf/packages/clvk/0003-Do-not-use-__scoped_atomic_fetch_udec_uinc.patch.beforehostbuild",
-      "https://github.com/strsp/termux-ng/blob/a9618492cf/packages/clvk/0004-Do-not-use-__builtin_elementwise_abs-for-__clc_abs.patch.beforehostbuild",
-      "https://github.com/strsp/termux-ng/blob/a9618492cf/packages/clvk/0005-Do-not-use-__builtin_elementwise_ctlz-cttz-for-clc_c.patch.beforehostbuild",
-      "https://github.com/strsp/termux-ng/blob/a9618492cf/packages/clvk/0006-Do-not-use-__builtin_elementwise_fshr-for-sincos-hel.patch.beforehostbuild",
-      "https://github.com/strsp/termux-ng/blob/a9618492cf/packages/clvk/0007-Do-not-build-clc_work_.patch.beforehostbuild"
+      "https://github.com/strsp/termux-ng/blob/1f8d2e2d42/packages/clvk/0001-Do-not-use-__builtin_elementwise_maximumnum-for-clc_.patch.beforehostbuild",
+      "https://github.com/strsp/termux-ng/blob/1f8d2e2d42/packages/clvk/0002-Do-not-use-__builtin_elementwise_minimumnum-for-clc_.patch.beforehostbuild",
+      "https://github.com/strsp/termux-ng/blob/1f8d2e2d42/packages/clvk/0003-Do-not-use-__scoped_atomic_fetch_udec_uinc.patch.beforehostbuild",
+      "https://github.com/strsp/termux-ng/blob/1f8d2e2d42/packages/clvk/0004-Do-not-use-__builtin_elementwise_abs-for-__clc_abs.patch.beforehostbuild",
+      "https://github.com/strsp/termux-ng/blob/1f8d2e2d42/packages/clvk/0005-Do-not-use-__builtin_elementwise_ctlz-cttz-for-clc_c.patch.beforehostbuild",
+      "https://github.com/strsp/termux-ng/blob/1f8d2e2d42/packages/clvk/0006-Do-not-use-__builtin_elementwise_fshr-for-sincos-hel.patch.beforehostbuild",
+      "https://github.com/strsp/termux-ng/blob/1f8d2e2d42/packages/clvk/0007-Do-not-build-clc_work_.patch.beforehostbuild"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/strsp/termux-ng/a9618492cf/packages/clvk/0001-Do-not-use-__builtin_elementwise_maximumnum-for-clc_.patch.beforehostbuild",
-      "https://raw.githubusercontent.com/strsp/termux-ng/a9618492cf/packages/clvk/0002-Do-not-use-__builtin_elementwise_minimumnum-for-clc_.patch.beforehostbuild",
-      "https://raw.githubusercontent.com/strsp/termux-ng/a9618492cf/packages/clvk/0003-Do-not-use-__scoped_atomic_fetch_udec_uinc.patch.beforehostbuild",
-      "https://raw.githubusercontent.com/strsp/termux-ng/a9618492cf/packages/clvk/0004-Do-not-use-__builtin_elementwise_abs-for-__clc_abs.patch.beforehostbuild",
-      "https://raw.githubusercontent.com/strsp/termux-ng/a9618492cf/packages/clvk/0005-Do-not-use-__builtin_elementwise_ctlz-cttz-for-clc_c.patch.beforehostbuild",
-      "https://raw.githubusercontent.com/strsp/termux-ng/a9618492cf/packages/clvk/0006-Do-not-use-__builtin_elementwise_fshr-for-sincos-hel.patch.beforehostbuild",
-      "https://raw.githubusercontent.com/strsp/termux-ng/a9618492cf/packages/clvk/0007-Do-not-build-clc_work_.patch.beforehostbuild"
+      "https://raw.githubusercontent.com/strsp/termux-ng/1f8d2e2d42/packages/clvk/0001-Do-not-use-__builtin_elementwise_maximumnum-for-clc_.patch.beforehostbuild",
+      "https://raw.githubusercontent.com/strsp/termux-ng/1f8d2e2d42/packages/clvk/0002-Do-not-use-__builtin_elementwise_minimumnum-for-clc_.patch.beforehostbuild",
+      "https://raw.githubusercontent.com/strsp/termux-ng/1f8d2e2d42/packages/clvk/0003-Do-not-use-__scoped_atomic_fetch_udec_uinc.patch.beforehostbuild",
+      "https://raw.githubusercontent.com/strsp/termux-ng/1f8d2e2d42/packages/clvk/0004-Do-not-use-__builtin_elementwise_abs-for-__clc_abs.patch.beforehostbuild",
+      "https://raw.githubusercontent.com/strsp/termux-ng/1f8d2e2d42/packages/clvk/0005-Do-not-use-__builtin_elementwise_ctlz-cttz-for-clc_c.patch.beforehostbuild",
+      "https://raw.githubusercontent.com/strsp/termux-ng/1f8d2e2d42/packages/clvk/0006-Do-not-use-__builtin_elementwise_fshr-for-sincos-hel.patch.beforehostbuild",
+      "https://raw.githubusercontent.com/strsp/termux-ng/1f8d2e2d42/packages/clvk/0007-Do-not-build-clc_work_.patch.beforehostbuild"
     ],
     "auto_updated": true
   },
@@ -6169,17 +6169,17 @@
   },
   {
     "name": "difftastic",
-    "version": "0.68.0",
+    "version": "0.69.0",
     "description": "difft: A structural diff that understands syntax",
     "homepage": "https://github.com/Wilfred/difftastic",
     "depends": [
       "libc++"
     ],
-    "srcurl": "https://github.com/Wilfred/difftastic/archive/refs/tags/0.68.0.tar.gz",
+    "srcurl": "https://github.com/Wilfred/difftastic/archive/refs/tags/0.69.0.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/3cb12ec71e/packages/difftastic",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/3cb12ec71e/packages/difftastic/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/3cb12ec71e/packages/difftastic/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/d0af018b85/packages/difftastic",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/d0af018b85/packages/difftastic/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/d0af018b85/packages/difftastic/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -8859,15 +8859,15 @@
   },
   {
     "name": "flyctl",
-    "version": "0.4.44",
+    "version": "0.4.45",
     "description": "Command line tools for fly.io services",
     "homepage": "https://fly.io",
     "depends": [],
-    "srcurl": "https://github.com/superfly/flyctl/archive/refs/tags/v0.4.44.tar.gz",
+    "srcurl": "https://github.com/superfly/flyctl/archive/refs/tags/v0.4.45.tar.gz",
     "maintainer": "Yaksh Bariya <thunder-coding@termux.dev>",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/9dcc1b1135/packages/flyctl",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/9dcc1b1135/packages/flyctl/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/9dcc1b1135/packages/flyctl/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/1d1df9894c/packages/flyctl",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/1d1df9894c/packages/flyctl/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/1d1df9894c/packages/flyctl/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -18809,15 +18809,15 @@
   },
   {
     "name": "liblo",
-    "version": "0.34",
+    "version": "0.35",
     "description": "A lightweight library that provides an easy to use implementation of the OSC protocol",
     "homepage": "https://liblo.sourceforge.net/",
     "depends": [],
-    "srcurl": "https://github.com/radarsat1/liblo/archive/refs/tags/0.34.tar.gz",
+    "srcurl": "https://github.com/radarsat1/liblo/archive/refs/tags/0.35.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/45b84d0cba/packages/liblo",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/45b84d0cba/packages/liblo/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/45b84d0cba/packages/liblo/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/d848ec07aa/packages/liblo",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/d848ec07aa/packages/liblo/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/d848ec07aa/packages/liblo/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -29927,7 +29927,7 @@
   },
   {
     "name": "ollama",
-    "version": "0.22.0",
+    "version": "0.22.1",
     "description": "Get up and running with large language models",
     "homepage": "https://ollama.com/",
     "depends": [
@@ -29935,26 +29935,26 @@
     ],
     "srcurl": "git+https://github.com/ollama/ollama",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/93b16e4167/packages/ollama",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/93b16e4167/packages/ollama/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/93b16e4167/packages/ollama/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/435751dbff/packages/ollama",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/435751dbff/packages/ollama/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/435751dbff/packages/ollama/build.sh",
     "package_patch_urls": [
-      "https://github.com/strsp/termux-ng/blob/93b16e4167/packages/ollama/0001-do-not-install-runtime-deps.patch",
-      "https://github.com/strsp/termux-ng/blob/93b16e4167/packages/ollama/0002-properly-search-libs-on-android.patch",
-      "https://github.com/strsp/termux-ng/blob/93b16e4167/packages/ollama/0003-do-not-include-sources-for-vulkan-again.patch",
-      "https://github.com/strsp/termux-ng/blob/93b16e4167/packages/ollama/0004-force-disable-features-on-Andoid.patch",
-      "https://github.com/strsp/termux-ng/blob/93b16e4167/packages/ollama/0006-do-not-search-hip-memory.patch",
-      "https://github.com/strsp/termux-ng/blob/93b16e4167/packages/ollama/0007-do-not-use-flash-attention-when-using-cpu.patch",
-      "https://github.com/strsp/termux-ng/blob/93b16e4167/packages/ollama/0008-fix-build-with-latest-vulkan-hpp.patch"
+      "https://github.com/strsp/termux-ng/blob/435751dbff/packages/ollama/0001-do-not-install-runtime-deps.patch",
+      "https://github.com/strsp/termux-ng/blob/435751dbff/packages/ollama/0002-properly-search-libs-on-android.patch",
+      "https://github.com/strsp/termux-ng/blob/435751dbff/packages/ollama/0003-do-not-include-sources-for-vulkan-again.patch",
+      "https://github.com/strsp/termux-ng/blob/435751dbff/packages/ollama/0004-force-disable-features-on-Andoid.patch",
+      "https://github.com/strsp/termux-ng/blob/435751dbff/packages/ollama/0006-do-not-search-hip-memory.patch",
+      "https://github.com/strsp/termux-ng/blob/435751dbff/packages/ollama/0007-do-not-use-flash-attention-when-using-cpu.patch",
+      "https://github.com/strsp/termux-ng/blob/435751dbff/packages/ollama/0008-fix-build-with-latest-vulkan-hpp.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/strsp/termux-ng/93b16e4167/packages/ollama/0001-do-not-install-runtime-deps.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/93b16e4167/packages/ollama/0002-properly-search-libs-on-android.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/93b16e4167/packages/ollama/0003-do-not-include-sources-for-vulkan-again.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/93b16e4167/packages/ollama/0004-force-disable-features-on-Andoid.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/93b16e4167/packages/ollama/0006-do-not-search-hip-memory.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/93b16e4167/packages/ollama/0007-do-not-use-flash-attention-when-using-cpu.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/93b16e4167/packages/ollama/0008-fix-build-with-latest-vulkan-hpp.patch"
+      "https://raw.githubusercontent.com/strsp/termux-ng/435751dbff/packages/ollama/0001-do-not-install-runtime-deps.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/435751dbff/packages/ollama/0002-properly-search-libs-on-android.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/435751dbff/packages/ollama/0003-do-not-include-sources-for-vulkan-again.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/435751dbff/packages/ollama/0004-force-disable-features-on-Andoid.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/435751dbff/packages/ollama/0006-do-not-search-hip-memory.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/435751dbff/packages/ollama/0007-do-not-use-flash-attention-when-using-cpu.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/435751dbff/packages/ollama/0008-fix-build-with-latest-vulkan-hpp.patch"
     ],
     "auto_updated": true
   },
@@ -38132,18 +38132,18 @@
   },
   {
     "name": "spirv-llvm-translator",
-    "version": "21.1.6",
+    "version": "21.1.7",
     "description": "SPIR-V LLVM Translator",
     "homepage": "https://github.com/KhronosGroup/SPIRV-LLVM-Translator",
     "depends": [
       "libc++",
       "libllvm"
     ],
-    "srcurl": "https://github.com/KhronosGroup/SPIRV-LLVM-Translator/archive/refs/tags/v21.1.6.tar.gz",
+    "srcurl": "https://github.com/KhronosGroup/SPIRV-LLVM-Translator/archive/refs/tags/v21.1.7.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/b50a223a56/packages/spirv-llvm-translator",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/b50a223a56/packages/spirv-llvm-translator/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/b50a223a56/packages/spirv-llvm-translator/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/5fda6c3177/packages/spirv-llvm-translator",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/5fda6c3177/packages/spirv-llvm-translator/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/5fda6c3177/packages/spirv-llvm-translator/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -39709,20 +39709,20 @@
   },
   {
     "name": "teleport-tsh",
-    "version": "18.7.2",
+    "version": "18.7.6",
     "description": "Secure Access for Developers that doesn't get in the way",
     "homepage": "https://github.com/gravitational/teleport",
     "depends": [],
-    "srcurl": "https://github.com/gravitational/teleport/archive/refs/tags/v18.7.2.tar.gz",
+    "srcurl": "https://github.com/gravitational/teleport/archive/refs/tags/v18.7.6.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/8a83ff509f/packages/teleport-tsh",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/8a83ff509f/packages/teleport-tsh/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/8a83ff509f/packages/teleport-tsh/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/627016bf19/packages/teleport-tsh",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/627016bf19/packages/teleport-tsh/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/627016bf19/packages/teleport-tsh/build.sh",
     "package_patch_urls": [
-      "https://github.com/strsp/termux-ng/blob/8a83ff509f/packages/teleport-tsh/metadata_linux.go.patch"
+      "https://github.com/strsp/termux-ng/blob/627016bf19/packages/teleport-tsh/metadata_linux.go.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/strsp/termux-ng/8a83ff509f/packages/teleport-tsh/metadata_linux.go.patch"
+      "https://raw.githubusercontent.com/strsp/termux-ng/627016bf19/packages/teleport-tsh/metadata_linux.go.patch"
     ],
     "auto_updated": true
   },
@@ -43572,15 +43572,15 @@
   },
   {
     "name": "vulkan-headers",
-    "version": "1.4.349",
+    "version": "1.4.350",
     "description": "Vulkan Header files and API registry",
     "homepage": "https://github.com/KhronosGroup/Vulkan-Headers",
     "depends": [],
-    "srcurl": "https://github.com/KhronosGroup/Vulkan-Headers/archive/refs/tags/v1.4.349.tar.gz",
+    "srcurl": "https://github.com/KhronosGroup/Vulkan-Headers/archive/refs/tags/v1.4.350.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/9070448fe3/packages/vulkan-headers",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/9070448fe3/packages/vulkan-headers/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/9070448fe3/packages/vulkan-headers/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/db8baa8d96/packages/vulkan-headers",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/db8baa8d96/packages/vulkan-headers/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/db8baa8d96/packages/vulkan-headers/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -43919,20 +43919,20 @@
   },
   {
     "name": "wasmtime",
-    "version": "44.0.0",
+    "version": "44.0.1",
     "description": "A standalone runtime for WebAssembly",
     "homepage": "https://wasmtime.dev/",
     "depends": [],
     "srcurl": "git+https://github.com/bytecodealliance/wasmtime",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/f309d01037/packages/wasmtime",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/f309d01037/packages/wasmtime/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/f309d01037/packages/wasmtime/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/14463d7472/packages/wasmtime",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/14463d7472/packages/wasmtime/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/14463d7472/packages/wasmtime/build.sh",
     "package_patch_urls": [
-      "https://github.com/strsp/termux-ng/blob/f309d01037/packages/wasmtime/listenfd-32-bit-android.diff"
+      "https://github.com/strsp/termux-ng/blob/14463d7472/packages/wasmtime/listenfd-32-bit-android.diff"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/strsp/termux-ng/f309d01037/packages/wasmtime/listenfd-32-bit-android.diff"
+      "https://raw.githubusercontent.com/strsp/termux-ng/14463d7472/packages/wasmtime/listenfd-32-bit-android.diff"
     ],
     "auto_updated": true
   },
@@ -44075,15 +44075,15 @@
   },
   {
     "name": "webtunnel",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "description": "Pluggable Transport based on HTTP Upgrade(HTTPT)",
     "homepage": "https://torproject.org/",
     "depends": [],
-    "srcurl": "https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/webtunnel/-/archive/v0.0.3/webtunnel-v0.0.3.tar.bz2",
+    "srcurl": "https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/webtunnel/-/archive/v0.0.4/webtunnel-v0.0.4.tar.bz2",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/3563d51656/packages/webtunnel",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/3563d51656/packages/webtunnel/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/3563d51656/packages/webtunnel/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/eaec3649a7/packages/webtunnel",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/eaec3649a7/packages/webtunnel/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/eaec3649a7/packages/webtunnel/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -46904,7 +46904,7 @@
   },
   {
     "name": "openvpn",
-    "version": "2.7.3",
+    "version": "2.7.4",
     "description": "An easy-to-use, robust, and highly configurable VPN (Virtual Private Network)",
     "homepage": "https://openvpn.net",
     "depends": [
@@ -46914,20 +46914,20 @@
       "net-tools",
       "openssl"
     ],
-    "srcurl": "https://github.com/OpenVPN/openvpn/archive/refs/tags/v2.7.3.tar.gz",
+    "srcurl": "https://github.com/OpenVPN/openvpn/archive/refs/tags/v2.7.4.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/87fd5f1655/root-packages/openvpn",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/87fd5f1655/root-packages/openvpn/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/87fd5f1655/root-packages/openvpn/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/31900859c7/root-packages/openvpn",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/31900859c7/root-packages/openvpn/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/31900859c7/root-packages/openvpn/build.sh",
     "package_patch_urls": [
-      "https://github.com/strsp/termux-ng/blob/87fd5f1655/root-packages/openvpn/src-openvpn-console_builtin.c.patch",
-      "https://github.com/strsp/termux-ng/blob/87fd5f1655/root-packages/openvpn/src-openvpn-options.c.patch",
-      "https://github.com/strsp/termux-ng/blob/87fd5f1655/root-packages/openvpn/src-openvpn-tun.c.patch"
+      "https://github.com/strsp/termux-ng/blob/31900859c7/root-packages/openvpn/src-openvpn-console_builtin.c.patch",
+      "https://github.com/strsp/termux-ng/blob/31900859c7/root-packages/openvpn/src-openvpn-options.c.patch",
+      "https://github.com/strsp/termux-ng/blob/31900859c7/root-packages/openvpn/src-openvpn-tun.c.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/strsp/termux-ng/87fd5f1655/root-packages/openvpn/src-openvpn-console_builtin.c.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/87fd5f1655/root-packages/openvpn/src-openvpn-options.c.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/87fd5f1655/root-packages/openvpn/src-openvpn-tun.c.patch"
+      "https://raw.githubusercontent.com/strsp/termux-ng/31900859c7/root-packages/openvpn/src-openvpn-console_builtin.c.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/31900859c7/root-packages/openvpn/src-openvpn-options.c.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/31900859c7/root-packages/openvpn/src-openvpn-tun.c.patch"
     ],
     "auto_updated": true
   },
@@ -66378,7 +66378,7 @@
   },
   {
     "name": "shotcut",
-    "version": "26.2.26",
+    "version": "26.4.30",
     "description": "Cross-platform Qt based Video Editor",
     "homepage": "https://shotcut.org/",
     "depends": [
@@ -66400,16 +66400,16 @@
       "qt6-qtwebsockets",
       "sdl2"
     ],
-    "srcurl": "https://github.com/mltframework/shotcut/archive/refs/tags/v26.2.26.tar.gz",
+    "srcurl": "https://github.com/mltframework/shotcut/archive/refs/tags/v26.4.30.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/4086462139/x11-packages/shotcut",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/4086462139/x11-packages/shotcut/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/4086462139/x11-packages/shotcut/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/5dfde25012/x11-packages/shotcut",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/5dfde25012/x11-packages/shotcut/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/5dfde25012/x11-packages/shotcut/build.sh",
     "package_patch_urls": [
-      "https://github.com/strsp/termux-ng/blob/4086462139/x11-packages/shotcut/0001-lib-name.patch"
+      "https://github.com/strsp/termux-ng/blob/5dfde25012/x11-packages/shotcut/0001-lib-name.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/strsp/termux-ng/4086462139/x11-packages/shotcut/0001-lib-name.patch"
+      "https://raw.githubusercontent.com/strsp/termux-ng/5dfde25012/x11-packages/shotcut/0001-lib-name.patch"
     ],
     "auto_updated": true
   },
