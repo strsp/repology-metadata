@@ -1991,7 +1991,7 @@
   },
   {
     "name": "awscli",
-    "version": "2.34.39",
+    "version": "2.34.40",
     "description": "Universal Command Line Interface for Amazon Web Services",
     "homepage": "https://aws.amazon.com/cli",
     "depends": [
@@ -1999,18 +1999,18 @@
       "libandroid-support",
       "mandoc"
     ],
-    "srcurl": "https://github.com/aws/aws-cli/archive/refs/tags/2.34.39.tar.gz",
+    "srcurl": "https://github.com/aws/aws-cli/archive/refs/tags/2.34.40.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/9d27254c56/packages/awscli",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/9d27254c56/packages/awscli/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/9d27254c56/packages/awscli/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/336fecb85a/packages/awscli",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/336fecb85a/packages/awscli/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/336fecb85a/packages/awscli/build.sh",
     "package_patch_urls": [
-      "https://github.com/strsp/termux-ng/blob/9d27254c56/packages/awscli/remove-ios-support.patch",
-      "https://github.com/strsp/termux-ng/blob/9d27254c56/packages/awscli/remove-no-build-isolation.patch"
+      "https://github.com/strsp/termux-ng/blob/336fecb85a/packages/awscli/remove-ios-support.patch",
+      "https://github.com/strsp/termux-ng/blob/336fecb85a/packages/awscli/remove-no-build-isolation.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/strsp/termux-ng/9d27254c56/packages/awscli/remove-ios-support.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/9d27254c56/packages/awscli/remove-no-build-isolation.patch"
+      "https://raw.githubusercontent.com/strsp/termux-ng/336fecb85a/packages/awscli/remove-ios-support.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/336fecb85a/packages/awscli/remove-no-build-isolation.patch"
     ],
     "auto_updated": true
   },
@@ -5702,15 +5702,15 @@
   },
   {
     "name": "dasel",
-    "version": "3.8.0",
+    "version": "3.8.1",
     "description": "Select, put and delete data from JSON, TOML, YAML, XML and CSV files with a single utility",
     "homepage": "https://github.com/TomWright/dasel",
     "depends": [],
-    "srcurl": "https://github.com/TomWright/dasel/archive/refs/tags/v3.8.0.tar.gz",
+    "srcurl": "https://github.com/TomWright/dasel/archive/refs/tags/v3.8.1.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/6889cef297/packages/dasel",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/6889cef297/packages/dasel/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/6889cef297/packages/dasel/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/25dc0f3990/packages/dasel",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/25dc0f3990/packages/dasel/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/25dc0f3990/packages/dasel/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -8859,15 +8859,15 @@
   },
   {
     "name": "flyctl",
-    "version": "0.4.43",
+    "version": "0.4.44",
     "description": "Command line tools for fly.io services",
     "homepage": "https://fly.io",
     "depends": [],
-    "srcurl": "https://github.com/superfly/flyctl/archive/refs/tags/v0.4.43.tar.gz",
+    "srcurl": "https://github.com/superfly/flyctl/archive/refs/tags/v0.4.44.tar.gz",
     "maintainer": "Yaksh Bariya <thunder-coding@termux.dev>",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/a736b5e31a/packages/flyctl",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/a736b5e31a/packages/flyctl/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/a736b5e31a/packages/flyctl/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/9dcc1b1135/packages/flyctl",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/9dcc1b1135/packages/flyctl/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/9dcc1b1135/packages/flyctl/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -12245,7 +12245,7 @@
   },
   {
     "name": "haproxy",
-    "version": "3.3.7",
+    "version": "3.3.8",
     "description": "The Reliable, High Performance TCP/HTTP Load Balancer",
     "homepage": "https://www.haproxy.org/",
     "depends": [
@@ -12254,16 +12254,16 @@
       "pcre2",
       "zlib"
     ],
-    "srcurl": "https://www.haproxy.org/download/3.3/src/haproxy-3.3.7.tar.gz",
+    "srcurl": "https://www.haproxy.org/download/3.3/src/haproxy-3.3.8.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/7ae2a52665/packages/haproxy",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/7ae2a52665/packages/haproxy/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/7ae2a52665/packages/haproxy/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/3d5c706fbc/packages/haproxy",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/3d5c706fbc/packages/haproxy/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/3d5c706fbc/packages/haproxy/build.sh",
     "package_patch_urls": [
-      "https://github.com/strsp/termux-ng/blob/7ae2a52665/packages/haproxy/Makefile.patch"
+      "https://github.com/strsp/termux-ng/blob/3d5c706fbc/packages/haproxy/Makefile.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/strsp/termux-ng/7ae2a52665/packages/haproxy/Makefile.patch"
+      "https://raw.githubusercontent.com/strsp/termux-ng/3d5c706fbc/packages/haproxy/Makefile.patch"
     ],
     "auto_updated": true
   },
@@ -13941,7 +13941,7 @@
   },
   {
     "name": "jackett",
-    "version": "0.24.1731",
+    "version": "0.24.1806",
     "description": "API Support for your favorite torrent trackers",
     "homepage": "https://github.com/jackett/jackett",
     "depends": [
@@ -13949,11 +13949,11 @@
       "dotnet-host",
       "dotnet-runtime-9.0"
     ],
-    "srcurl": "https://github.com/Jackett/Jackett/archive/refs/tags/v0.24.1731.tar.gz",
+    "srcurl": "https://github.com/Jackett/Jackett/archive/refs/tags/v0.24.1806.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/53e28a1c0a/packages/jackett",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/53e28a1c0a/packages/jackett/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/53e28a1c0a/packages/jackett/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/e950c73cc5/packages/jackett",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/e950c73cc5/packages/jackett/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/e950c73cc5/packages/jackett/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -17871,7 +17871,7 @@
   },
   {
     "name": "libgsf",
-    "version": "1.14.56",
+    "version": "1.14.57",
     "description": "The G Structured File Library",
     "homepage": "https://gitlab.gnome.org/GNOME/libgsf",
     "depends": [
@@ -17880,18 +17880,18 @@
       "libxml2",
       "zlib"
     ],
-    "srcurl": "https://download.gnome.org/sources/libgsf/1.14/libgsf-1.14.56.tar.xz",
+    "srcurl": "https://download.gnome.org/sources/libgsf/1.14/libgsf-1.14.57.tar.xz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/ba18f6d0b6/packages/libgsf",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/ba18f6d0b6/packages/libgsf/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/ba18f6d0b6/packages/libgsf/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/b25aa01323/packages/libgsf",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/b25aa01323/packages/libgsf/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/b25aa01323/packages/libgsf/build.sh",
     "package_patch_urls": [
-      "https://github.com/strsp/termux-ng/blob/ba18f6d0b6/packages/libgsf/configure.patch",
-      "https://github.com/strsp/termux-ng/blob/ba18f6d0b6/packages/libgsf/libxml2.patch"
+      "https://github.com/strsp/termux-ng/blob/b25aa01323/packages/libgsf/configure.patch",
+      "https://github.com/strsp/termux-ng/blob/b25aa01323/packages/libgsf/libxml2.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/strsp/termux-ng/ba18f6d0b6/packages/libgsf/configure.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/ba18f6d0b6/packages/libgsf/libxml2.patch"
+      "https://raw.githubusercontent.com/strsp/termux-ng/b25aa01323/packages/libgsf/configure.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/b25aa01323/packages/libgsf/libxml2.patch"
     ],
     "auto_updated": true
   },
@@ -26264,20 +26264,20 @@
   },
   {
     "name": "mediamtx",
-    "version": "1.18.0",
+    "version": "1.18.1",
     "description": "Ready-to-use SRT / WebRTC / RTSP / RTMP / LL-HLS media server and media proxy",
     "homepage": "https://github.com/bluenviron/mediamtx",
     "depends": [],
-    "srcurl": "https://github.com/bluenviron/mediamtx/archive/refs/tags/v1.18.0.tar.gz",
+    "srcurl": "https://github.com/bluenviron/mediamtx/archive/refs/tags/v1.18.1.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/5963713ea2/packages/mediamtx",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/5963713ea2/packages/mediamtx/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/5963713ea2/packages/mediamtx/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/2052db12e6/packages/mediamtx",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/2052db12e6/packages/mediamtx/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/2052db12e6/packages/mediamtx/build.sh",
     "package_patch_urls": [
-      "https://github.com/strsp/termux-ng/blob/5963713ea2/packages/mediamtx/internal-core-core.go.patch"
+      "https://github.com/strsp/termux-ng/blob/2052db12e6/packages/mediamtx/internal-core-core.go.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/strsp/termux-ng/5963713ea2/packages/mediamtx/internal-core-core.go.patch"
+      "https://raw.githubusercontent.com/strsp/termux-ng/2052db12e6/packages/mediamtx/internal-core-core.go.patch"
     ],
     "auto_updated": true
   },
@@ -30960,7 +30960,7 @@
   },
   {
     "name": "openxr",
-    "version": "1.1.58",
+    "version": "1.1.59",
     "description": "Open standard that provides a common set of APIs for developing XR applications",
     "homepage": "https://www.khronos.org/openxr/",
     "depends": [
@@ -30972,16 +30972,16 @@
       "libxxf86vm",
       "opengl"
     ],
-    "srcurl": "https://github.com/KhronosGroup/OpenXR-SDK-Source/releases/download/release-1.1.58/OpenXR-SDK-Source-release-1.1.58.tar.gz",
+    "srcurl": "https://github.com/KhronosGroup/OpenXR-SDK-Source/releases/download/release-1.1.59/OpenXR-SDK-Source-release-1.1.59.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/1636173bc8/packages/openxr",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/1636173bc8/packages/openxr/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/1636173bc8/packages/openxr/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/8d75164f37/packages/openxr",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/8d75164f37/packages/openxr/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/8d75164f37/packages/openxr/build.sh",
     "package_patch_urls": [
-      "https://github.com/strsp/termux-ng/blob/1636173bc8/packages/openxr/no-glslc.patch"
+      "https://github.com/strsp/termux-ng/blob/8d75164f37/packages/openxr/no-glslc.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/strsp/termux-ng/1636173bc8/packages/openxr/no-glslc.patch"
+      "https://raw.githubusercontent.com/strsp/termux-ng/8d75164f37/packages/openxr/no-glslc.patch"
     ],
     "auto_updated": true
   },
@@ -38538,22 +38538,22 @@
   },
   {
     "name": "starship",
-    "version": "1.25.0",
+    "version": "1.25.1",
     "description": "A minimal, blazing fast, and extremely customizable prompt for any shell",
     "homepage": "https://starship.rs",
     "depends": [],
-    "srcurl": "https://github.com/starship/starship/archive/refs/tags/v1.25.0.tar.gz",
+    "srcurl": "https://github.com/starship/starship/archive/refs/tags/v1.25.1.tar.gz",
     "maintainer": "Joshua Kahn <tom@termux.dev>",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/8fcca9e6fd/packages/starship",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/8fcca9e6fd/packages/starship/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/8fcca9e6fd/packages/starship/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/d68a7c184f/packages/starship",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/d68a7c184f/packages/starship/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/d68a7c184f/packages/starship/build.sh",
     "package_patch_urls": [
-      "https://github.com/strsp/termux-ng/blob/8fcca9e6fd/packages/starship/0001-Cargo.toml.patch",
-      "https://github.com/strsp/termux-ng/blob/8fcca9e6fd/packages/starship/systemstat-android-is-linux.diff"
+      "https://github.com/strsp/termux-ng/blob/d68a7c184f/packages/starship/0001-Cargo.toml.patch",
+      "https://github.com/strsp/termux-ng/blob/d68a7c184f/packages/starship/systemstat-android-is-linux.diff"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/strsp/termux-ng/8fcca9e6fd/packages/starship/0001-Cargo.toml.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/8fcca9e6fd/packages/starship/systemstat-android-is-linux.diff"
+      "https://raw.githubusercontent.com/strsp/termux-ng/d68a7c184f/packages/starship/0001-Cargo.toml.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/d68a7c184f/packages/starship/systemstat-android-is-linux.diff"
     ],
     "auto_updated": true
   },
@@ -43797,15 +43797,15 @@
   },
   {
     "name": "wakatime-cli",
-    "version": "2.9.1",
+    "version": "2.9.3",
     "description": "Command line interface used by all WakaTime text editor plugins",
     "homepage": "https://wakatime.com/plugins/",
     "depends": [],
-    "srcurl": "https://github.com/wakatime/wakatime-cli/archive/refs/tags/v2.9.1.tar.gz",
+    "srcurl": "https://github.com/wakatime/wakatime-cli/archive/refs/tags/v2.9.3.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/e36d62f506/packages/wakatime-cli",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/e36d62f506/packages/wakatime-cli/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/e36d62f506/packages/wakatime-cli/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/6cf9db958e/packages/wakatime-cli",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/6cf9db958e/packages/wakatime-cli/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/6cf9db958e/packages/wakatime-cli/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -65788,7 +65788,7 @@
   },
   {
     "name": "ruffle",
-    "version": "0.0.1-nightly-2026-04-06",
+    "version": "0.0.1-nightly-2026-05-01",
     "description": "A Flash Player emulator written in Rust",
     "homepage": "https://ruffle.rs/",
     "depends": [
@@ -65798,28 +65798,28 @@
       "gtk3",
       "openh264"
     ],
-    "srcurl": "https://github.com/ruffle-rs/ruffle/archive/refs/tags/nightly-2026-04-06.tar.gz",
+    "srcurl": "https://github.com/ruffle-rs/ruffle/archive/refs/tags/nightly-2026-05-01.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/eed01c295b/x11-packages/ruffle",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/eed01c295b/x11-packages/ruffle/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/eed01c295b/x11-packages/ruffle/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/31d042ce70/x11-packages/ruffle",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/31d042ce70/x11-packages/ruffle/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/31d042ce70/x11-packages/ruffle/build.sh",
     "package_patch_urls": [
-      "https://github.com/strsp/termux-ng/blob/eed01c295b/x11-packages/ruffle/0001-openh264-2.6.0.patch",
-      "https://github.com/strsp/termux-ng/blob/eed01c295b/x11-packages/ruffle/0002-openh264.patch",
-      "https://github.com/strsp/termux-ng/blob/eed01c295b/x11-packages/ruffle/0003-fontconfig-no-dlopen.patch",
-      "https://github.com/strsp/termux-ng/blob/eed01c295b/x11-packages/ruffle/fontdb-load-fonts.diff",
-      "https://github.com/strsp/termux-ng/blob/eed01c295b/x11-packages/ruffle/smithay-client-toolkit-no-shm.diff",
-      "https://github.com/strsp/termux-ng/blob/eed01c295b/x11-packages/ruffle/wayland-cursor-no-shm.diff",
-      "https://github.com/strsp/termux-ng/blob/eed01c295b/x11-packages/ruffle/wgpu-hal-no-khr-display.diff"
+      "https://github.com/strsp/termux-ng/blob/31d042ce70/x11-packages/ruffle/0001-openh264-2.6.0.patch",
+      "https://github.com/strsp/termux-ng/blob/31d042ce70/x11-packages/ruffle/0002-openh264.patch",
+      "https://github.com/strsp/termux-ng/blob/31d042ce70/x11-packages/ruffle/0003-fontconfig-no-dlopen.patch",
+      "https://github.com/strsp/termux-ng/blob/31d042ce70/x11-packages/ruffle/fontdb-load-fonts.diff",
+      "https://github.com/strsp/termux-ng/blob/31d042ce70/x11-packages/ruffle/smithay-client-toolkit-no-shm.diff",
+      "https://github.com/strsp/termux-ng/blob/31d042ce70/x11-packages/ruffle/wayland-cursor-no-shm.diff",
+      "https://github.com/strsp/termux-ng/blob/31d042ce70/x11-packages/ruffle/wgpu-hal-no-khr-display.diff"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/strsp/termux-ng/eed01c295b/x11-packages/ruffle/0001-openh264-2.6.0.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/eed01c295b/x11-packages/ruffle/0002-openh264.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/eed01c295b/x11-packages/ruffle/0003-fontconfig-no-dlopen.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/eed01c295b/x11-packages/ruffle/fontdb-load-fonts.diff",
-      "https://raw.githubusercontent.com/strsp/termux-ng/eed01c295b/x11-packages/ruffle/smithay-client-toolkit-no-shm.diff",
-      "https://raw.githubusercontent.com/strsp/termux-ng/eed01c295b/x11-packages/ruffle/wayland-cursor-no-shm.diff",
-      "https://raw.githubusercontent.com/strsp/termux-ng/eed01c295b/x11-packages/ruffle/wgpu-hal-no-khr-display.diff"
+      "https://raw.githubusercontent.com/strsp/termux-ng/31d042ce70/x11-packages/ruffle/0001-openh264-2.6.0.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/31d042ce70/x11-packages/ruffle/0002-openh264.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/31d042ce70/x11-packages/ruffle/0003-fontconfig-no-dlopen.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/31d042ce70/x11-packages/ruffle/fontdb-load-fonts.diff",
+      "https://raw.githubusercontent.com/strsp/termux-ng/31d042ce70/x11-packages/ruffle/smithay-client-toolkit-no-shm.diff",
+      "https://raw.githubusercontent.com/strsp/termux-ng/31d042ce70/x11-packages/ruffle/wayland-cursor-no-shm.diff",
+      "https://raw.githubusercontent.com/strsp/termux-ng/31d042ce70/x11-packages/ruffle/wgpu-hal-no-khr-display.diff"
     ],
     "auto_updated": true
   },
