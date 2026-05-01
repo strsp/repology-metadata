@@ -13941,7 +13941,7 @@
   },
   {
     "name": "jackett",
-    "version": "0.24.1806",
+    "version": "0.24.1807",
     "description": "API Support for your favorite torrent trackers",
     "homepage": "https://github.com/jackett/jackett",
     "depends": [
@@ -13949,11 +13949,11 @@
       "dotnet-host",
       "dotnet-runtime-9.0"
     ],
-    "srcurl": "https://github.com/Jackett/Jackett/archive/refs/tags/v0.24.1806.tar.gz",
+    "srcurl": "https://github.com/Jackett/Jackett/archive/refs/tags/v0.24.1807.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/e950c73cc5/packages/jackett",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/e950c73cc5/packages/jackett/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/e950c73cc5/packages/jackett/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/b06b78bd35/packages/jackett",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/b06b78bd35/packages/jackett/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/b06b78bd35/packages/jackett/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -17871,7 +17871,7 @@
   },
   {
     "name": "libgsf",
-    "version": "1.14.57",
+    "version": "1.14.58",
     "description": "The G Structured File Library",
     "homepage": "https://gitlab.gnome.org/GNOME/libgsf",
     "depends": [
@@ -17880,18 +17880,18 @@
       "libxml2",
       "zlib"
     ],
-    "srcurl": "https://download.gnome.org/sources/libgsf/1.14/libgsf-1.14.57.tar.xz",
+    "srcurl": "https://download.gnome.org/sources/libgsf/1.14/libgsf-1.14.58.tar.xz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/b25aa01323/packages/libgsf",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/b25aa01323/packages/libgsf/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/b25aa01323/packages/libgsf/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/30e6c8bd74/packages/libgsf",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/30e6c8bd74/packages/libgsf/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/30e6c8bd74/packages/libgsf/build.sh",
     "package_patch_urls": [
-      "https://github.com/strsp/termux-ng/blob/b25aa01323/packages/libgsf/configure.patch",
-      "https://github.com/strsp/termux-ng/blob/b25aa01323/packages/libgsf/libxml2.patch"
+      "https://github.com/strsp/termux-ng/blob/30e6c8bd74/packages/libgsf/configure.patch",
+      "https://github.com/strsp/termux-ng/blob/30e6c8bd74/packages/libgsf/libxml2.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/strsp/termux-ng/b25aa01323/packages/libgsf/configure.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/b25aa01323/packages/libgsf/libxml2.patch"
+      "https://raw.githubusercontent.com/strsp/termux-ng/30e6c8bd74/packages/libgsf/configure.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/30e6c8bd74/packages/libgsf/libxml2.patch"
     ],
     "auto_updated": true
   },
@@ -25685,15 +25685,15 @@
   },
   {
     "name": "matterircd",
-    "version": "0.28.0",
+    "version": "0.29.0",
     "description": "Connect to your mattermost or slack using your IRC-client of choice",
     "homepage": "https://github.com/42wim/matterircd",
     "depends": [],
-    "srcurl": "https://github.com/42wim/matterircd/archive/refs/tags/v0.28.0.tar.gz",
+    "srcurl": "https://github.com/42wim/matterircd/archive/refs/tags/v0.29.0.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/8194f008a2/packages/matterircd",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/8194f008a2/packages/matterircd/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/8194f008a2/packages/matterircd/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/887af805f3/packages/matterircd",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/887af805f3/packages/matterircd/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/887af805f3/packages/matterircd/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -28551,18 +28551,18 @@
       "tree-sitter-parsers",
       "utf8proc"
     ],
-    "srcurl": "https://github.com/neovim/neovim/archive/1e06e95662.tar.gz",
+    "srcurl": "https://github.com/neovim/neovim/archive/858cd3d106.tar.gz",
     "maintainer": "Joshua Kahn <tom@termux.dev>",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/7b2c6e2c3d/packages/neovim-nightly",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/7b2c6e2c3d/packages/neovim-nightly/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/7b2c6e2c3d/packages/neovim-nightly/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/da03f3bb93/packages/neovim-nightly",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/da03f3bb93/packages/neovim-nightly/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/da03f3bb93/packages/neovim-nightly/build.sh",
     "package_patch_urls": [
-      "https://github.com/strsp/termux-ng/blob/7b2c6e2c3d/packages/neovim-nightly/disable-checkhealth-locale-warning.patch",
-      "https://github.com/strsp/termux-ng/blob/7b2c6e2c3d/packages/neovim-nightly/src-nvim-os-stdpaths.c.patch"
+      "https://github.com/strsp/termux-ng/blob/da03f3bb93/packages/neovim-nightly/disable-checkhealth-locale-warning.patch",
+      "https://github.com/strsp/termux-ng/blob/da03f3bb93/packages/neovim-nightly/src-nvim-os-stdpaths.c.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/strsp/termux-ng/7b2c6e2c3d/packages/neovim-nightly/disable-checkhealth-locale-warning.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/7b2c6e2c3d/packages/neovim-nightly/src-nvim-os-stdpaths.c.patch"
+      "https://raw.githubusercontent.com/strsp/termux-ng/da03f3bb93/packages/neovim-nightly/disable-checkhealth-locale-warning.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/da03f3bb93/packages/neovim-nightly/src-nvim-os-stdpaths.c.patch"
     ],
     "auto_updated": true
   },
@@ -43634,28 +43634,28 @@
   },
   {
     "name": "vulkan-loader",
-    "version": "1.4.349",
+    "version": "1.4.350",
     "description": "Vulkan Loader",
     "homepage": "https://github.com/KhronosGroup/Vulkan-Loader",
     "depends": [],
-    "srcurl": "https://github.com/KhronosGroup/Vulkan-Loader/archive/refs/tags/v1.4.349.tar.gz",
+    "srcurl": "https://github.com/KhronosGroup/Vulkan-Loader/archive/refs/tags/v1.4.350.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/b80155c556/packages/vulkan-loader-generic",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/b80155c556/packages/vulkan-loader-generic/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/b80155c556/packages/vulkan-loader-generic/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/560a75a69a/packages/vulkan-loader-generic",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/560a75a69a/packages/vulkan-loader-generic/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/560a75a69a/packages/vulkan-loader-generic/build.sh",
     "package_patch_urls": [
-      "https://github.com/strsp/termux-ng/blob/b80155c556/packages/vulkan-loader-generic/0001-fix-hardcoded-pathes.patch",
-      "https://github.com/strsp/termux-ng/blob/b80155c556/packages/vulkan-loader-generic/0002-properly-enable-extensions.patch"
+      "https://github.com/strsp/termux-ng/blob/560a75a69a/packages/vulkan-loader-generic/0001-fix-hardcoded-pathes.patch",
+      "https://github.com/strsp/termux-ng/blob/560a75a69a/packages/vulkan-loader-generic/0002-properly-enable-extensions.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/strsp/termux-ng/b80155c556/packages/vulkan-loader-generic/0001-fix-hardcoded-pathes.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/b80155c556/packages/vulkan-loader-generic/0002-properly-enable-extensions.patch"
+      "https://raw.githubusercontent.com/strsp/termux-ng/560a75a69a/packages/vulkan-loader-generic/0001-fix-hardcoded-pathes.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/560a75a69a/packages/vulkan-loader-generic/0002-properly-enable-extensions.patch"
     ],
     "auto_updated": true
   },
   {
     "name": "vulkan-tools",
-    "version": "1.4.349",
+    "version": "1.4.350",
     "description": "Vulkan Tools and Utilities",
     "homepage": "https://github.com/KhronosGroup/Vulkan-Tools",
     "depends": [
@@ -43665,39 +43665,39 @@
       "libxcb",
       "vulkan-loader"
     ],
-    "srcurl": "https://github.com/KhronosGroup/Vulkan-Tools/archive/refs/tags/v1.4.349.tar.gz",
+    "srcurl": "https://github.com/KhronosGroup/Vulkan-Tools/archive/refs/tags/v1.4.350.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/4637be1da5/packages/vulkan-tools",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/4637be1da5/packages/vulkan-tools/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/4637be1da5/packages/vulkan-tools/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/b9f71a1fc0/packages/vulkan-tools",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/b9f71a1fc0/packages/vulkan-tools/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/b9f71a1fc0/packages/vulkan-tools/build.sh",
     "package_patch_urls": [
-      "https://github.com/strsp/termux-ng/blob/4637be1da5/packages/vulkan-tools/0001-no-android.patch",
-      "https://github.com/strsp/termux-ng/blob/4637be1da5/packages/vulkan-tools/0002-do-not-search-KHR_display-automatically-on-Termux.patch",
-      "https://github.com/strsp/termux-ng/blob/4637be1da5/packages/vulkan-tools/0003-revert-vk-khr-display.patch"
+      "https://github.com/strsp/termux-ng/blob/b9f71a1fc0/packages/vulkan-tools/0001-no-android.patch",
+      "https://github.com/strsp/termux-ng/blob/b9f71a1fc0/packages/vulkan-tools/0002-do-not-search-KHR_display-automatically-on-Termux.patch",
+      "https://github.com/strsp/termux-ng/blob/b9f71a1fc0/packages/vulkan-tools/0003-revert-vk-khr-display.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/strsp/termux-ng/4637be1da5/packages/vulkan-tools/0001-no-android.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/4637be1da5/packages/vulkan-tools/0002-do-not-search-KHR_display-automatically-on-Termux.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/4637be1da5/packages/vulkan-tools/0003-revert-vk-khr-display.patch"
+      "https://raw.githubusercontent.com/strsp/termux-ng/b9f71a1fc0/packages/vulkan-tools/0001-no-android.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/b9f71a1fc0/packages/vulkan-tools/0002-do-not-search-KHR_display-automatically-on-Termux.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/b9f71a1fc0/packages/vulkan-tools/0003-revert-vk-khr-display.patch"
     ],
     "auto_updated": true
   },
   {
     "name": "vulkan-utility-libraries",
-    "version": "1.4.349",
+    "version": "1.4.350",
     "description": "Utility Libraries for Vulkan",
     "homepage": "https://github.com/KhronosGroup/Vulkan-Utility-Libraries",
     "depends": [],
-    "srcurl": "https://github.com/KhronosGroup/Vulkan-Utility-Libraries/archive/refs/tags/v1.4.349.tar.gz",
+    "srcurl": "https://github.com/KhronosGroup/Vulkan-Utility-Libraries/archive/refs/tags/v1.4.350.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/017a6eb76a/packages/vulkan-utility-libraries",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/017a6eb76a/packages/vulkan-utility-libraries/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/017a6eb76a/packages/vulkan-utility-libraries/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/e5d17f24e9/packages/vulkan-utility-libraries",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/e5d17f24e9/packages/vulkan-utility-libraries/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/e5d17f24e9/packages/vulkan-utility-libraries/build.sh",
     "package_patch_urls": [
-      "https://github.com/strsp/termux-ng/blob/017a6eb76a/packages/vulkan-utility-libraries/0001-do-not-build-for-android.patch"
+      "https://github.com/strsp/termux-ng/blob/e5d17f24e9/packages/vulkan-utility-libraries/0001-do-not-build-for-android.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/strsp/termux-ng/017a6eb76a/packages/vulkan-utility-libraries/0001-do-not-build-for-android.patch"
+      "https://raw.githubusercontent.com/strsp/termux-ng/e5d17f24e9/packages/vulkan-utility-libraries/0001-do-not-build-for-android.patch"
     ],
     "auto_updated": true
   },
