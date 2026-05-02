@@ -2515,15 +2515,15 @@
   },
   {
     "name": "biome2",
-    "version": "2.4.13",
+    "version": "2.4.14",
     "description": "A toolchain for web projects, aimed to provide functionalities to maintain them. Biome offers formatter and linter, usable via CLI and LSP",
     "homepage": "https://biomejs.dev/",
     "depends": [],
-    "srcurl": "https://github.com/biomejs/biome/archive/refs/tags/@biomejs/biome@2.4.13.tar.gz",
+    "srcurl": "https://github.com/biomejs/biome/archive/refs/tags/@biomejs/biome@2.4.14.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/bdef49fc6f/packages/biome2",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/bdef49fc6f/packages/biome2/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/bdef49fc6f/packages/biome2/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/1c7baaac07/packages/biome2",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/1c7baaac07/packages/biome2/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/1c7baaac07/packages/biome2/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -7726,7 +7726,7 @@
   },
   {
     "name": "enchant",
-    "version": "2.8.15",
+    "version": "2.8.16",
     "description": "Wraps a number of different spelling libraries and programs with a consistent interface",
     "homepage": "https://rrthomas.github.io/enchant/",
     "depends": [
@@ -7735,11 +7735,11 @@
       "hunspell",
       "libc++"
     ],
-    "srcurl": "https://github.com/rrthomas/enchant/releases/download/v2.8.15/enchant-2.8.15.tar.gz",
+    "srcurl": "https://github.com/rrthomas/enchant/releases/download/v2.8.16/enchant-2.8.16.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/614b65d263/packages/enchant",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/614b65d263/packages/enchant/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/614b65d263/packages/enchant/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/45056eca55/packages/enchant",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/45056eca55/packages/enchant/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/45056eca55/packages/enchant/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -10606,24 +10606,24 @@
   },
   {
     "name": "glslang",
-    "version": "16.2.0",
+    "version": "16.3.0",
     "description": "OpenGL and OpenGL ES shader front end and validator",
     "homepage": "https://github.com/KhronosGroup/glslang",
     "depends": [
       "libc++"
     ],
-    "srcurl": "https://github.com/KhronosGroup/glslang/archive/refs/tags/16.2.0.tar.gz",
+    "srcurl": "https://github.com/KhronosGroup/glslang/archive/refs/tags/16.3.0.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/e4705e844b/packages/glslang",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/e4705e844b/packages/glslang/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/e4705e844b/packages/glslang/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/d2d0ec7938/packages/glslang",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/d2d0ec7938/packages/glslang/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/d2d0ec7938/packages/glslang/build.sh",
     "package_patch_urls": [
-      "https://github.com/strsp/termux-ng/blob/e4705e844b/packages/glslang/CMakeLists.txt.patch",
-      "https://github.com/strsp/termux-ng/blob/e4705e844b/packages/glslang/revert-only-install-public-headers.patch"
+      "https://github.com/strsp/termux-ng/blob/d2d0ec7938/packages/glslang/CMakeLists.txt.patch",
+      "https://github.com/strsp/termux-ng/blob/d2d0ec7938/packages/glslang/revert-only-install-public-headers.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/strsp/termux-ng/e4705e844b/packages/glslang/CMakeLists.txt.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/e4705e844b/packages/glslang/revert-only-install-public-headers.patch"
+      "https://raw.githubusercontent.com/strsp/termux-ng/d2d0ec7938/packages/glslang/CMakeLists.txt.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/d2d0ec7938/packages/glslang/revert-only-install-public-headers.patch"
     ],
     "auto_updated": true
   },
@@ -36435,7 +36435,7 @@
   },
   {
     "name": "sabnzbd",
-    "version": "5.0.0",
+    "version": "5.0.1",
     "description": "Fully automated Usenet Binary Downloader",
     "homepage": "https://sabnzbd.org/",
     "depends": [
@@ -36448,18 +36448,18 @@
       "p7zip",
       "unzip"
     ],
-    "srcurl": "https://github.com/sabnzbd/sabnzbd/releases/download/5.0.0/SABnzbd-5.0.0-src.tar.gz",
+    "srcurl": "https://github.com/sabnzbd/sabnzbd/releases/download/5.0.1/SABnzbd-5.0.1-src.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/8e5b1b9907/packages/sabnzbd",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/8e5b1b9907/packages/sabnzbd/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/8e5b1b9907/packages/sabnzbd/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/83ea2c8ed1/packages/sabnzbd",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/83ea2c8ed1/packages/sabnzbd/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/83ea2c8ed1/packages/sabnzbd/build.sh",
     "package_patch_urls": [
-      "https://github.com/strsp/termux-ng/blob/8e5b1b9907/packages/sabnzbd/prog_dir.patch",
-      "https://github.com/strsp/termux-ng/blob/8e5b1b9907/packages/sabnzbd/webbrowser.patch"
+      "https://github.com/strsp/termux-ng/blob/83ea2c8ed1/packages/sabnzbd/prog_dir.patch",
+      "https://github.com/strsp/termux-ng/blob/83ea2c8ed1/packages/sabnzbd/webbrowser.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/strsp/termux-ng/8e5b1b9907/packages/sabnzbd/prog_dir.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/8e5b1b9907/packages/sabnzbd/webbrowser.patch"
+      "https://raw.githubusercontent.com/strsp/termux-ng/83ea2c8ed1/packages/sabnzbd/prog_dir.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/83ea2c8ed1/packages/sabnzbd/webbrowser.patch"
     ],
     "auto_updated": true
   },
@@ -43851,15 +43851,15 @@
   },
   {
     "name": "wakatime-cli",
-    "version": "2.9.3",
+    "version": "2.11.0",
     "description": "Command line interface used by all WakaTime text editor plugins",
     "homepage": "https://wakatime.com/plugins/",
     "depends": [],
-    "srcurl": "https://github.com/wakatime/wakatime-cli/archive/refs/tags/v2.9.3.tar.gz",
+    "srcurl": "https://github.com/wakatime/wakatime-cli/archive/refs/tags/v2.11.0.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/6cf9db958e/packages/wakatime-cli",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/6cf9db958e/packages/wakatime-cli/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/6cf9db958e/packages/wakatime-cli/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/4c860e61d2/packages/wakatime-cli",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/4c860e61d2/packages/wakatime-cli/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/4c860e61d2/packages/wakatime-cli/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -66271,7 +66271,7 @@
   },
   {
     "name": "sdl3",
-    "version": "3.4.6",
+    "version": "3.4.8",
     "description": "Simple DirectMedia Layer 3",
     "homepage": "https://www.libsdl.org",
     "depends": [
@@ -66289,18 +66289,18 @@
       "libxss",
       "pulseaudio"
     ],
-    "srcurl": "https://github.com/libsdl-org/SDL/releases/download/release-3.4.6/SDL3-3.4.6.tar.gz",
+    "srcurl": "https://github.com/libsdl-org/SDL/releases/download/release-3.4.8/SDL3-3.4.8.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/b7744ef058/x11-packages/sdl3",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/b7744ef058/x11-packages/sdl3/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/b7744ef058/x11-packages/sdl3/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/96adb939e4/x11-packages/sdl3",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/96adb939e4/x11-packages/sdl3/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/96adb939e4/x11-packages/sdl3/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
   },
   {
     "name": "sdl3-image",
-    "version": "3.4.2",
+    "version": "3.4.4",
     "description": "A simple library to load images of various formats as SDL surfaces (version 3)",
     "homepage": "https://github.com/libsdl-org/SDL_image",
     "depends": [
@@ -66312,11 +66312,11 @@
       "libwebp",
       "sdl3"
     ],
-    "srcurl": "https://github.com/libsdl-org/SDL_image/releases/download/release-3.4.2/SDL3_image-3.4.2.tar.gz",
+    "srcurl": "https://github.com/libsdl-org/SDL_image/releases/download/release-3.4.4/SDL3_image-3.4.4.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/e70959a2e6/x11-packages/sdl3-image",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/e70959a2e6/x11-packages/sdl3-image/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/e70959a2e6/x11-packages/sdl3-image/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/39fc3aaaac/x11-packages/sdl3-image",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/39fc3aaaac/x11-packages/sdl3-image/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/39fc3aaaac/x11-packages/sdl3-image/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
