@@ -32677,17 +32677,17 @@
   },
   {
     "name": "pocketbase",
-    "version": "0.37.4",
+    "version": "0.37.5",
     "description": "An open source Go backend",
     "homepage": "https://github.com/pocketbase/pocketbase",
     "depends": [
       "resolv-conf"
     ],
-    "srcurl": "https://github.com/pocketbase/pocketbase/archive/refs/tags/v0.37.4.tar.gz",
+    "srcurl": "https://github.com/pocketbase/pocketbase/archive/refs/tags/v0.37.5.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/5dfbaaecd1/packages/pocketbase",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/5dfbaaecd1/packages/pocketbase/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/5dfbaaecd1/packages/pocketbase/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/a3df343278/packages/pocketbase",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/a3df343278/packages/pocketbase/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/a3df343278/packages/pocketbase/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
