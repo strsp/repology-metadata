@@ -41950,17 +41950,21 @@
   },
   {
     "name": "turbo",
-    "version": "2.9.6",
+    "version": "2.9.7",
     "description": "High-performance build system for JS/TS",
     "homepage": "https://turbo.build/",
     "depends": [],
-    "srcurl": "https://github.com/vercel/turbo/archive/refs/tags/v2.9.6.tar.gz",
+    "srcurl": "https://github.com/vercel/turbo/archive/refs/tags/v2.9.7.tar.gz",
     "maintainer": "@xingguangcuican6666",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/5f7f1aa152/packages/turbo",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/5f7f1aa152/packages/turbo/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/5f7f1aa152/packages/turbo/build.sh",
-    "package_patch_urls": [],
-    "package_patch_raw_urls": [],
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/6b012de9bd/packages/turbo",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/6b012de9bd/packages/turbo/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/6b012de9bd/packages/turbo/build.sh",
+    "package_patch_urls": [
+      "https://github.com/strsp/termux-ng/blob/6b012de9bd/packages/turbo/no-getdtablesize.patch"
+    ],
+    "package_patch_raw_urls": [
+      "https://raw.githubusercontent.com/strsp/termux-ng/6b012de9bd/packages/turbo/no-getdtablesize.patch"
+    ],
     "auto_updated": true
   },
   {
@@ -43851,15 +43855,15 @@
   },
   {
     "name": "wakatime-cli",
-    "version": "2.11.0",
+    "version": "2.11.2",
     "description": "Command line interface used by all WakaTime text editor plugins",
     "homepage": "https://wakatime.com/plugins/",
     "depends": [],
-    "srcurl": "https://github.com/wakatime/wakatime-cli/archive/refs/tags/v2.11.0.tar.gz",
+    "srcurl": "https://github.com/wakatime/wakatime-cli/archive/refs/tags/v2.11.2.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/4c860e61d2/packages/wakatime-cli",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/4c860e61d2/packages/wakatime-cli/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/4c860e61d2/packages/wakatime-cli/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/776ba380a7/packages/wakatime-cli",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/776ba380a7/packages/wakatime-cli/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/776ba380a7/packages/wakatime-cli/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -45936,32 +45940,32 @@
   },
   {
     "name": "btop",
-    "version": "1.4.6",
+    "version": "1.4.7",
     "description": "Resource monitor that shows usage and stats for processor, memory, disks, network and processes.",
     "homepage": "https://github.com/aristocratos/btop",
     "depends": [],
-    "srcurl": "https://github.com/aristocratos/btop/archive/refs/tags/v1.4.6.tar.gz",
+    "srcurl": "https://github.com/aristocratos/btop/archive/refs/tags/v1.4.7.tar.gz",
     "maintainer": "@tstein <me@tedstein.net>",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/219895a612/root-packages/btop",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/219895a612/root-packages/btop/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/219895a612/root-packages/btop/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/5762c9e54f/root-packages/btop",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/5762c9e54f/root-packages/btop/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/5762c9e54f/root-packages/btop/build.sh",
     "package_patch_urls": [
-      "https://github.com/strsp/termux-ng/blob/219895a612/root-packages/btop/CMakeLists.txt.patch",
-      "https://github.com/strsp/termux-ng/blob/219895a612/root-packages/btop/disable-default-use-fstab.patch",
-      "https://github.com/strsp/termux-ng/blob/219895a612/root-packages/btop/disable-pthread.patch",
-      "https://github.com/strsp/termux-ng/blob/219895a612/root-packages/btop/exit-early-when-unprivileged.patch",
-      "https://github.com/strsp/termux-ng/blob/219895a612/root-packages/btop/filter-duplicate-disks.patch",
-      "https://github.com/strsp/termux-ng/blob/219895a612/root-packages/btop/getloadavg.patch",
-      "https://github.com/strsp/termux-ng/blob/219895a612/root-packages/btop/improve-cpu-sensor-guessing.patch"
+      "https://github.com/strsp/termux-ng/blob/5762c9e54f/root-packages/btop/CMakeLists.txt.patch",
+      "https://github.com/strsp/termux-ng/blob/5762c9e54f/root-packages/btop/disable-default-use-fstab.patch",
+      "https://github.com/strsp/termux-ng/blob/5762c9e54f/root-packages/btop/disable-pthread.patch",
+      "https://github.com/strsp/termux-ng/blob/5762c9e54f/root-packages/btop/exit-early-when-unprivileged.patch",
+      "https://github.com/strsp/termux-ng/blob/5762c9e54f/root-packages/btop/filter-duplicate-disks.patch",
+      "https://github.com/strsp/termux-ng/blob/5762c9e54f/root-packages/btop/getloadavg.patch",
+      "https://github.com/strsp/termux-ng/blob/5762c9e54f/root-packages/btop/improve-cpu-sensor-guessing.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/strsp/termux-ng/219895a612/root-packages/btop/CMakeLists.txt.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/219895a612/root-packages/btop/disable-default-use-fstab.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/219895a612/root-packages/btop/disable-pthread.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/219895a612/root-packages/btop/exit-early-when-unprivileged.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/219895a612/root-packages/btop/filter-duplicate-disks.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/219895a612/root-packages/btop/getloadavg.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/219895a612/root-packages/btop/improve-cpu-sensor-guessing.patch"
+      "https://raw.githubusercontent.com/strsp/termux-ng/5762c9e54f/root-packages/btop/CMakeLists.txt.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/5762c9e54f/root-packages/btop/disable-default-use-fstab.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/5762c9e54f/root-packages/btop/disable-pthread.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/5762c9e54f/root-packages/btop/exit-early-when-unprivileged.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/5762c9e54f/root-packages/btop/filter-duplicate-disks.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/5762c9e54f/root-packages/btop/getloadavg.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/5762c9e54f/root-packages/btop/improve-cpu-sensor-guessing.patch"
     ],
     "auto_updated": true
   },
@@ -51442,6 +51446,26 @@
     "auto_updated": true
   },
   {
+    "name": "fcitx5-unikey",
+    "version": "5.1.10",
+    "description": "Unikey engine support for Fcitx5",
+    "homepage": "https://github.com/fcitx/fcitx5-unikey",
+    "depends": [
+      "fcitx5",
+      "fcitx5-qt",
+      "libc++",
+      "qt6-qtbase"
+    ],
+    "srcurl": "https://github.com/fcitx/fcitx5-unikey/archive/refs/tags/5.1.10.tar.gz",
+    "maintainer": "@termux",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/76d6e69d5d/x11-packages/fcitx5-unikey",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/76d6e69d5d/x11-packages/fcitx5-unikey/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/76d6e69d5d/x11-packages/fcitx5-unikey/build.sh",
+    "package_patch_urls": [],
+    "package_patch_raw_urls": [],
+    "auto_updated": true
+  },
+  {
     "name": "feathernotes",
     "version": "1.4.0",
     "description": "Lightweight Qt Notes-Manager for Linux",
@@ -53064,7 +53088,7 @@
   },
   {
     "name": "gnumeric",
-    "version": "1.12.60",
+    "version": "1.12.61",
     "description": "The GNOME spreadsheet",
     "homepage": "http://www.gnumeric.org/",
     "depends": [
@@ -53079,24 +53103,24 @@
       "pango",
       "zlib"
     ],
-    "srcurl": "https://download.gnome.org/sources/gnumeric/1.12/gnumeric-1.12.60.tar.xz",
+    "srcurl": "https://download.gnome.org/sources/gnumeric/1.12/gnumeric-1.12.61.tar.xz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/7f00b93f51/x11-packages/gnumeric",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/7f00b93f51/x11-packages/gnumeric/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/7f00b93f51/x11-packages/gnumeric/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/10f1012f72/x11-packages/gnumeric",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/10f1012f72/x11-packages/gnumeric/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/10f1012f72/x11-packages/gnumeric/build.sh",
     "package_patch_urls": [
-      "https://github.com/strsp/termux-ng/blob/7f00b93f51/x11-packages/gnumeric/configure.patch",
-      "https://github.com/strsp/termux-ng/blob/7f00b93f51/x11-packages/gnumeric/doc-Makefile.in.patch",
-      "https://github.com/strsp/termux-ng/blob/7f00b93f51/x11-packages/gnumeric/introspection-Makefile.in.patch",
-      "https://github.com/strsp/termux-ng/blob/7f00b93f51/x11-packages/gnumeric/plugins-python-loader-Makefile.in.diff",
-      "https://github.com/strsp/termux-ng/blob/7f00b93f51/x11-packages/gnumeric/src-sstest.c.patch"
+      "https://github.com/strsp/termux-ng/blob/10f1012f72/x11-packages/gnumeric/configure.patch",
+      "https://github.com/strsp/termux-ng/blob/10f1012f72/x11-packages/gnumeric/doc-Makefile.in.patch",
+      "https://github.com/strsp/termux-ng/blob/10f1012f72/x11-packages/gnumeric/introspection-Makefile.in.patch",
+      "https://github.com/strsp/termux-ng/blob/10f1012f72/x11-packages/gnumeric/plugins-python-loader-Makefile.in.diff",
+      "https://github.com/strsp/termux-ng/blob/10f1012f72/x11-packages/gnumeric/src-sstest.c.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/strsp/termux-ng/7f00b93f51/x11-packages/gnumeric/configure.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/7f00b93f51/x11-packages/gnumeric/doc-Makefile.in.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/7f00b93f51/x11-packages/gnumeric/introspection-Makefile.in.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/7f00b93f51/x11-packages/gnumeric/plugins-python-loader-Makefile.in.diff",
-      "https://raw.githubusercontent.com/strsp/termux-ng/7f00b93f51/x11-packages/gnumeric/src-sstest.c.patch"
+      "https://raw.githubusercontent.com/strsp/termux-ng/10f1012f72/x11-packages/gnumeric/configure.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/10f1012f72/x11-packages/gnumeric/doc-Makefile.in.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/10f1012f72/x11-packages/gnumeric/introspection-Makefile.in.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/10f1012f72/x11-packages/gnumeric/plugins-python-loader-Makefile.in.diff",
+      "https://raw.githubusercontent.com/strsp/termux-ng/10f1012f72/x11-packages/gnumeric/src-sstest.c.patch"
     ],
     "auto_updated": true
   },
@@ -54509,6 +54533,7 @@
       "kcalc",
       "kdeconnect",
       "kdenlive",
+      "kdialog",
       "kget",
       "kig",
       "konsole",
@@ -54521,9 +54546,9 @@
       "okular"
     ],
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/0d3f9fb5cf/x11-packages/kde-applications",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/0d3f9fb5cf/x11-packages/kde-applications/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/0d3f9fb5cf/x11-packages/kde-applications/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/a7c88cd90d/x11-packages/kde-applications",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/a7c88cd90d/x11-packages/kde-applications/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/a7c88cd90d/x11-packages/kde-applications/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": false
@@ -54797,6 +54822,35 @@
     "package_sources_url": "https://github.com/strsp/termux-ng/tree/cf287adaaf/x11-packages/kdiagram",
     "package_recipe_url": "https://github.com/strsp/termux-ng/blob/cf287adaaf/x11-packages/kdiagram/build.sh",
     "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/cf287adaaf/x11-packages/kdiagram/build.sh",
+    "package_patch_urls": [],
+    "package_patch_raw_urls": [],
+    "auto_updated": true
+  },
+  {
+    "name": "kdialog",
+    "version": "26.04.0",
+    "description": "A utility for displaying dialog boxes from shell scripts",
+    "homepage": "https://invent.kde.org/utilities/kdialog",
+    "depends": [
+      "kf6-kconfig",
+      "kf6-kcoreaddons",
+      "kf6-kdbusaddons",
+      "kf6-kguiaddons",
+      "kf6-ki18n",
+      "kf6-kiconthemes",
+      "kf6-kio",
+      "kf6-ktextwidgets",
+      "kf6-kwidgetsaddons",
+      "kf6-kwindowsystem",
+      "libc++",
+      "libx11",
+      "qt6-qtbase"
+    ],
+    "srcurl": "https://download.kde.org/stable/release-service/26.04.0/src/kdialog-26.04.0.tar.xz",
+    "maintainer": "@termux",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/38f4d7565e/x11-packages/kdialog",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/38f4d7565e/x11-packages/kdialog/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/38f4d7565e/x11-packages/kdialog/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -65750,7 +65804,7 @@
   },
   {
     "name": "rnote",
-    "version": "0.14.1",
+    "version": "0.14.2",
     "description": "An infinite canvas vector-based drawing application for handwritten notes",
     "homepage": "https://github.com/flxzt/rnote",
     "depends": [
@@ -65767,20 +65821,20 @@
       "pango",
       "poppler"
     ],
-    "srcurl": "https://github.com/flxzt/rnote/archive/refs/tags/v0.14.1.tar.gz",
+    "srcurl": "https://github.com/flxzt/rnote/archive/refs/tags/v0.14.2.tar.gz",
     "maintainer": "@EDLLT",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/529d2a3657/x11-packages/rnote",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/529d2a3657/x11-packages/rnote/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/529d2a3657/x11-packages/rnote/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/469ac41507/x11-packages/rnote",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/469ac41507/x11-packages/rnote/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/469ac41507/x11-packages/rnote/build.sh",
     "package_patch_urls": [
-      "https://github.com/strsp/termux-ng/blob/529d2a3657/x11-packages/rnote/disable-cargo-command-meson.build.patch",
-      "https://github.com/strsp/termux-ng/blob/529d2a3657/x11-packages/rnote/fix-compile-gresource.patch",
-      "https://github.com/strsp/termux-ng/blob/529d2a3657/x11-packages/rnote/no-debug-Cargo.toml.patch"
+      "https://github.com/strsp/termux-ng/blob/469ac41507/x11-packages/rnote/disable-cargo-command-meson.build.patch",
+      "https://github.com/strsp/termux-ng/blob/469ac41507/x11-packages/rnote/fix-compile-gresource.patch",
+      "https://github.com/strsp/termux-ng/blob/469ac41507/x11-packages/rnote/no-debug-Cargo.toml.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/strsp/termux-ng/529d2a3657/x11-packages/rnote/disable-cargo-command-meson.build.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/529d2a3657/x11-packages/rnote/fix-compile-gresource.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/529d2a3657/x11-packages/rnote/no-debug-Cargo.toml.patch"
+      "https://raw.githubusercontent.com/strsp/termux-ng/469ac41507/x11-packages/rnote/disable-cargo-command-meson.build.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/469ac41507/x11-packages/rnote/fix-compile-gresource.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/469ac41507/x11-packages/rnote/no-debug-Cargo.toml.patch"
     ],
     "auto_updated": true
   },
@@ -66169,7 +66223,7 @@
   },
   {
     "name": "sdl2-image",
-    "version": "2.8.10",
+    "version": "2.8.12",
     "description": "A simple library to load images of various formats as SDL surfaces (version 2)",
     "homepage": "https://github.com/libsdl-org/SDL_image",
     "depends": [
@@ -66181,11 +66235,11 @@
       "libwebp",
       "sdl2"
     ],
-    "srcurl": "https://github.com/libsdl-org/SDL_image/releases/download/release-2.8.10/SDL2_image-2.8.10.tar.gz",
+    "srcurl": "https://github.com/libsdl-org/SDL_image/releases/download/release-2.8.12/SDL2_image-2.8.12.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/47081717bc/x11-packages/sdl2-image",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/47081717bc/x11-packages/sdl2-image/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/47081717bc/x11-packages/sdl2-image/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/a1089f9302/x11-packages/sdl2-image",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/a1089f9302/x11-packages/sdl2-image/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/a1089f9302/x11-packages/sdl2-image/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": false
@@ -67069,11 +67123,11 @@
     "depends": [
       "xkeyboard-config"
     ],
-    "srcurl": "https://github.com/termux/termux-x11/archive/efb2d97a46adf1657bacf395c38166a648260066.tar.gz",
+    "srcurl": "https://github.com/termux/termux-x11/archive/25c8dbc3e8cbf08c9dd233b29adbe1e3a1df52f4.tar.gz",
     "maintainer": "Twaik Yont @twaik",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/cf8b81ac10/x11-packages/termux-x11-nightly",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/cf8b81ac10/x11-packages/termux-x11-nightly/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/cf8b81ac10/x11-packages/termux-x11-nightly/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/afac15a47f/x11-packages/termux-x11-nightly",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/afac15a47f/x11-packages/termux-x11-nightly/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/afac15a47f/x11-packages/termux-x11-nightly/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": false
