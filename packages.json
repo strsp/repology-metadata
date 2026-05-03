@@ -1976,15 +1976,15 @@
   },
   {
     "name": "await",
-    "version": "2.4.0",
+    "version": "2.5.0",
     "description": "Runs list of commands in parallel and waits for their termination",
     "homepage": "https://github.com/slavaGanzin/await",
     "depends": [],
-    "srcurl": "https://github.com/slavaGanzin/await/archive/refs/tags/2.4.0.tar.gz",
+    "srcurl": "https://github.com/slavaGanzin/await/archive/refs/tags/2.5.0.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/75fb94680c/packages/await",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/75fb94680c/packages/await/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/75fb94680c/packages/await/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/ab6dd4df09/packages/await",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/ab6dd4df09/packages/await/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/ab6dd4df09/packages/await/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -8293,17 +8293,17 @@
   },
   {
     "name": "fdkaac",
-    "version": "1.0.6",
+    "version": "1.0.7",
     "description": "command line encoder frontend for libfdk-aac",
     "homepage": "https://github.com/nu774/fdkaac",
     "depends": [
       "libfdk-aac"
     ],
-    "srcurl": "https://github.com/nu774/fdkaac/archive/refs/tags/v1.0.6.tar.gz",
+    "srcurl": "https://github.com/nu774/fdkaac/archive/refs/tags/v1.0.7.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/9947b26f75/packages/fdkaac",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/9947b26f75/packages/fdkaac/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/9947b26f75/packages/fdkaac/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/9884cfca45/packages/fdkaac",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/9884cfca45/packages/fdkaac/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/9884cfca45/packages/fdkaac/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -64098,7 +64098,7 @@
   },
   {
     "name": "qbittorrent",
-    "version": "5.1.4",
+    "version": "5.2.0",
     "description": "A Qt6 based BitTorrent client",
     "homepage": "https://www.qbittorrent.org/",
     "depends": [
@@ -64108,16 +64108,16 @@
       "qt6-qtbase",
       "zlib"
     ],
-    "srcurl": "https://github.com/qbittorrent/qBittorrent/archive/refs/tags/release-5.1.4.tar.gz",
+    "srcurl": "https://github.com/qbittorrent/qBittorrent/archive/refs/tags/release-5.2.0.tar.gz",
     "maintainer": "Joshua Kahn <tom@termux.dev>",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/f2a1bd1ae4/x11-packages/qbittorrent",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/f2a1bd1ae4/x11-packages/qbittorrent/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/f2a1bd1ae4/x11-packages/qbittorrent/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/bd4774d317/x11-packages/qbittorrent",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/bd4774d317/x11-packages/qbittorrent/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/bd4774d317/x11-packages/qbittorrent/build.sh",
     "package_patch_urls": [
-      "https://github.com/strsp/termux-ng/blob/f2a1bd1ae4/x11-packages/qbittorrent/0001-getrandom.patch"
+      "https://github.com/strsp/termux-ng/blob/bd4774d317/x11-packages/qbittorrent/0001-getrandom.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/strsp/termux-ng/f2a1bd1ae4/x11-packages/qbittorrent/0001-getrandom.patch"
+      "https://raw.githubusercontent.com/strsp/termux-ng/bd4774d317/x11-packages/qbittorrent/0001-getrandom.patch"
     ],
     "auto_updated": true
   },
