@@ -25054,7 +25054,7 @@
   },
   {
     "name": "lux-cli",
-    "version": "0.28.6",
+    "version": "0.28.7",
     "description": "A package manager for Lua, similar to luarocks",
     "homepage": "https://lux.lumen-labs.org",
     "depends": [
@@ -25066,11 +25066,11 @@
       "openssl",
       "xz-utils"
     ],
-    "srcurl": "https://github.com/lumen-oss/lux/archive/refs/tags/v0.28.6.tar.gz",
+    "srcurl": "https://github.com/lumen-oss/lux/archive/refs/tags/v0.28.7.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/817f406d5d/packages/lux-cli",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/817f406d5d/packages/lux-cli/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/817f406d5d/packages/lux-cli/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/000c78c897/packages/lux-cli",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/000c78c897/packages/lux-cli/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/000c78c897/packages/lux-cli/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -36369,17 +36369,17 @@
   },
   {
     "name": "rust-analyzer",
-    "version": "2026-04-27",
+    "version": "2026-05-04",
     "description": "A Rust compiler front-end for IDEs",
     "homepage": "https://rust-analyzer.github.io/",
     "depends": [
       "rust-src"
     ],
-    "srcurl": "https://github.com/rust-lang/rust-analyzer/archive/refs/tags/2026-04-27.tar.gz",
+    "srcurl": "https://github.com/rust-lang/rust-analyzer/archive/refs/tags/2026-05-04.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/2e969a1213/packages/rust-analyzer",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/2e969a1213/packages/rust-analyzer/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/2e969a1213/packages/rust-analyzer/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/50a768f8b4/packages/rust-analyzer",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/50a768f8b4/packages/rust-analyzer/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/50a768f8b4/packages/rust-analyzer/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -62275,7 +62275,7 @@
   },
   {
     "name": "openimageio",
-    "version": "3.1.12.0",
+    "version": "3.1.13.1",
     "description": "A library for reading and writing images, including classes, utilities, and applications",
     "homepage": "http://www.openimageio.org/",
     "depends": [
@@ -62307,20 +62307,20 @@
       "python",
       "qt6-qtbase"
     ],
-    "srcurl": "https://github.com/OpenImageIO/oiio/archive/refs/tags/v3.1.12.0.tar.gz",
+    "srcurl": "https://github.com/OpenImageIO/oiio/archive/refs/tags/v3.1.13.1.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/6156602cb5/x11-packages/openimageio",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/6156602cb5/x11-packages/openimageio/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/6156602cb5/x11-packages/openimageio/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/c691105de4/x11-packages/openimageio",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/c691105de4/x11-packages/openimageio/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/c691105de4/x11-packages/openimageio/build.sh",
     "package_patch_urls": [
-      "https://github.com/strsp/termux-ng/blob/6156602cb5/x11-packages/openimageio/fix-cmake-error.patch",
-      "https://github.com/strsp/termux-ng/blob/6156602cb5/x11-packages/openimageio/prefix.patch",
-      "https://github.com/strsp/termux-ng/blob/6156602cb5/x11-packages/openimageio/python.patch"
+      "https://github.com/strsp/termux-ng/blob/c691105de4/x11-packages/openimageio/fix-cmake-error.patch",
+      "https://github.com/strsp/termux-ng/blob/c691105de4/x11-packages/openimageio/prefix.patch",
+      "https://github.com/strsp/termux-ng/blob/c691105de4/x11-packages/openimageio/python.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/strsp/termux-ng/6156602cb5/x11-packages/openimageio/fix-cmake-error.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/6156602cb5/x11-packages/openimageio/prefix.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/6156602cb5/x11-packages/openimageio/python.patch"
+      "https://raw.githubusercontent.com/strsp/termux-ng/c691105de4/x11-packages/openimageio/fix-cmake-error.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/c691105de4/x11-packages/openimageio/prefix.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/c691105de4/x11-packages/openimageio/python.patch"
     ],
     "auto_updated": true
   },
