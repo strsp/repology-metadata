@@ -1976,15 +1976,15 @@
   },
   {
     "name": "await",
-    "version": "2.5.0",
+    "version": "2.6.0",
     "description": "Runs list of commands in parallel and waits for their termination",
     "homepage": "https://github.com/slavaGanzin/await",
     "depends": [],
-    "srcurl": "https://github.com/slavaGanzin/await/archive/refs/tags/2.5.0.tar.gz",
+    "srcurl": "https://github.com/slavaGanzin/await/archive/refs/tags/2.6.0.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/ab6dd4df09/packages/await",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/ab6dd4df09/packages/await/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/ab6dd4df09/packages/await/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/71b4516512/packages/await",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/71b4516512/packages/await/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/71b4516512/packages/await/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -15812,7 +15812,7 @@
   },
   {
     "name": "libblosc2",
-    "version": "3.0.1",
+    "version": "3.0.2",
     "description": "A blocking, shuffling and loss-less compression library",
     "homepage": "https://www.blosc.org",
     "depends": [
@@ -15820,16 +15820,16 @@
       "zlib",
       "zstd"
     ],
-    "srcurl": "https://github.com/Blosc/c-blosc2/archive/refs/tags/v3.0.1.tar.gz",
+    "srcurl": "https://github.com/Blosc/c-blosc2/archive/refs/tags/v3.0.2.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/2eb1cbd167/packages/libblosc2",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/2eb1cbd167/packages/libblosc2/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/2eb1cbd167/packages/libblosc2/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/852b5e0fac/packages/libblosc2",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/852b5e0fac/packages/libblosc2/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/852b5e0fac/packages/libblosc2/build.sh",
     "package_patch_urls": [
-      "https://github.com/strsp/termux-ng/blob/2eb1cbd167/packages/libblosc2/0001-fix-posix-memalign.patch"
+      "https://github.com/strsp/termux-ng/blob/852b5e0fac/packages/libblosc2/0001-fix-posix-memalign.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/strsp/termux-ng/2eb1cbd167/packages/libblosc2/0001-fix-posix-memalign.patch"
+      "https://raw.githubusercontent.com/strsp/termux-ng/852b5e0fac/packages/libblosc2/0001-fix-posix-memalign.patch"
     ],
     "auto_updated": true
   },
@@ -28462,7 +28462,7 @@
   },
   {
     "name": "neomutt",
-    "version": "20260406",
+    "version": "20260504",
     "description": "A version of mutt with added features",
     "homepage": "https://neomutt.org/",
     "depends": [
@@ -28477,24 +28477,24 @@
       "zlib",
       "zstd"
     ],
-    "srcurl": "https://github.com/neomutt/neomutt/archive/20260406.tar.gz",
+    "srcurl": "https://github.com/neomutt/neomutt/archive/20260504.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/a634d0d6cb/packages/neomutt",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/a634d0d6cb/packages/neomutt/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/a634d0d6cb/packages/neomutt/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/45ad8eabe8/packages/neomutt",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/45ad8eabe8/packages/neomutt/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/45ad8eabe8/packages/neomutt/build.sh",
     "package_patch_urls": [
-      "https://github.com/strsp/termux-ng/blob/a634d0d6cb/packages/neomutt/autosetup-config.guess.patch",
-      "https://github.com/strsp/termux-ng/blob/a634d0d6cb/packages/neomutt/file.c.patch",
-      "https://github.com/strsp/termux-ng/blob/a634d0d6cb/packages/neomutt/jimsh0.c.patch",
-      "https://github.com/strsp/termux-ng/blob/a634d0d6cb/packages/neomutt/muttlib.c.patch",
-      "https://github.com/strsp/termux-ng/blob/a634d0d6cb/packages/neomutt/smime_keys.patch"
+      "https://github.com/strsp/termux-ng/blob/45ad8eabe8/packages/neomutt/autosetup-config.guess.patch",
+      "https://github.com/strsp/termux-ng/blob/45ad8eabe8/packages/neomutt/file.c.patch",
+      "https://github.com/strsp/termux-ng/blob/45ad8eabe8/packages/neomutt/jimsh0.c.patch",
+      "https://github.com/strsp/termux-ng/blob/45ad8eabe8/packages/neomutt/muttlib.c.patch",
+      "https://github.com/strsp/termux-ng/blob/45ad8eabe8/packages/neomutt/smime_keys.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/strsp/termux-ng/a634d0d6cb/packages/neomutt/autosetup-config.guess.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/a634d0d6cb/packages/neomutt/file.c.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/a634d0d6cb/packages/neomutt/jimsh0.c.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/a634d0d6cb/packages/neomutt/muttlib.c.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/a634d0d6cb/packages/neomutt/smime_keys.patch"
+      "https://raw.githubusercontent.com/strsp/termux-ng/45ad8eabe8/packages/neomutt/autosetup-config.guess.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/45ad8eabe8/packages/neomutt/file.c.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/45ad8eabe8/packages/neomutt/jimsh0.c.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/45ad8eabe8/packages/neomutt/muttlib.c.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/45ad8eabe8/packages/neomutt/smime_keys.patch"
     ],
     "auto_updated": true
   },
@@ -45470,15 +45470,15 @@
   },
   {
     "name": "zk",
-    "version": "0.15.3",
+    "version": "0.15.4",
     "description": "A plain text note-taking assistant",
     "homepage": "https://zk-org.github.io/zk/",
     "depends": [],
-    "srcurl": "https://github.com/zk-org/zk/archive/refs/tags/v0.15.3.tar.gz",
+    "srcurl": "https://github.com/zk-org/zk/archive/refs/tags/v0.15.4.tar.gz",
     "maintainer": "@kirasok",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/5689f36bc3/packages/zk",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/5689f36bc3/packages/zk/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/5689f36bc3/packages/zk/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/96ce89463c/packages/zk",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/96ce89463c/packages/zk/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/96ce89463c/packages/zk/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -65873,7 +65873,7 @@
   },
   {
     "name": "roxterm",
-    "version": "3.18.1",
+    "version": "3.18.2",
     "description": "ROXTerm is a terminal emulator based on the VTE library",
     "homepage": "https://github.com/realh/roxterm",
     "depends": [
@@ -65885,11 +65885,11 @@
       "libvte",
       "pango"
     ],
-    "srcurl": "https://github.com/realh/roxterm/archive/refs/tags/3.18.1.tar.gz",
+    "srcurl": "https://github.com/realh/roxterm/archive/refs/tags/3.18.2.tar.gz",
     "maintainer": "@Yisus7u7",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/dcc294f131/x11-packages/roxterm",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/dcc294f131/x11-packages/roxterm/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/dcc294f131/x11-packages/roxterm/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/f8fe68fa38/x11-packages/roxterm",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/f8fe68fa38/x11-packages/roxterm/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/f8fe68fa38/x11-packages/roxterm/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
