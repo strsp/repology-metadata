@@ -1991,7 +1991,7 @@
   },
   {
     "name": "awscli",
-    "version": "2.34.42",
+    "version": "2.34.43",
     "description": "Universal Command Line Interface for Amazon Web Services",
     "homepage": "https://aws.amazon.com/cli",
     "depends": [
@@ -1999,18 +1999,18 @@
       "libandroid-support",
       "mandoc"
     ],
-    "srcurl": "https://github.com/aws/aws-cli/archive/refs/tags/2.34.42.tar.gz",
+    "srcurl": "https://github.com/aws/aws-cli/archive/refs/tags/2.34.43.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/a50749adb4/packages/awscli",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/a50749adb4/packages/awscli/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/a50749adb4/packages/awscli/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/834a8d1f69/packages/awscli",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/834a8d1f69/packages/awscli/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/834a8d1f69/packages/awscli/build.sh",
     "package_patch_urls": [
-      "https://github.com/strsp/termux-ng/blob/a50749adb4/packages/awscli/remove-ios-support.patch",
-      "https://github.com/strsp/termux-ng/blob/a50749adb4/packages/awscli/remove-no-build-isolation.patch"
+      "https://github.com/strsp/termux-ng/blob/834a8d1f69/packages/awscli/remove-ios-support.patch",
+      "https://github.com/strsp/termux-ng/blob/834a8d1f69/packages/awscli/remove-no-build-isolation.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/strsp/termux-ng/a50749adb4/packages/awscli/remove-ios-support.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/a50749adb4/packages/awscli/remove-no-build-isolation.patch"
+      "https://raw.githubusercontent.com/strsp/termux-ng/834a8d1f69/packages/awscli/remove-ios-support.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/834a8d1f69/packages/awscli/remove-no-build-isolation.patch"
     ],
     "auto_updated": true
   },
@@ -7956,17 +7956,17 @@
   },
   {
     "name": "exiftool",
-    "version": "13.57",
+    "version": "13.58",
     "description": "Utility for reading, writing and editing meta information in a wide variety of files.",
     "homepage": "https://exiftool.org/",
     "depends": [
       "perl"
     ],
-    "srcurl": "https://exiftool.org/Image-ExifTool-13.57.tar.gz",
+    "srcurl": "https://exiftool.org/Image-ExifTool-13.58.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/7afea5e44b/packages/exiftool",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/7afea5e44b/packages/exiftool/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/7afea5e44b/packages/exiftool/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/7fc9cb0b75/packages/exiftool",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/7fc9cb0b75/packages/exiftool/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/7fc9cb0b75/packages/exiftool/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -8859,15 +8859,15 @@
   },
   {
     "name": "flyctl",
-    "version": "0.4.46",
+    "version": "0.4.47",
     "description": "Command line tools for fly.io services",
     "homepage": "https://fly.io",
     "depends": [],
-    "srcurl": "https://github.com/superfly/flyctl/archive/refs/tags/v0.4.46.tar.gz",
+    "srcurl": "https://github.com/superfly/flyctl/archive/refs/tags/v0.4.47.tar.gz",
     "maintainer": "Yaksh Bariya <thunder-coding@termux.dev>",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/7b5edc0992/packages/flyctl",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/7b5edc0992/packages/flyctl/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/7b5edc0992/packages/flyctl/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/7322d78745/packages/flyctl",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/7322d78745/packages/flyctl/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/7322d78745/packages/flyctl/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -9056,18 +9056,18 @@
   },
   {
     "name": "frei0r-plugins",
-    "version": "3.1.1",
+    "version": "3.1.3",
     "description": "Minimalistic plugin API for video effects",
     "homepage": "https://www.dyne.org/software/frei0r/",
     "depends": [
       "libc++",
       "libcairo"
     ],
-    "srcurl": "https://github.com/dyne/frei0r/archive/refs/tags/v3.1.1.tar.gz",
+    "srcurl": "https://github.com/dyne/frei0r/archive/refs/tags/v3.1.3.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/3f1c0b4c66/packages/frei0r-plugins",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/3f1c0b4c66/packages/frei0r-plugins/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/3f1c0b4c66/packages/frei0r-plugins/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/ebec8292ef/packages/frei0r-plugins",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/ebec8292ef/packages/frei0r-plugins/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/ebec8292ef/packages/frei0r-plugins/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -21694,24 +21694,24 @@
   },
   {
     "name": "libsqlite",
-    "version": "3.53.0",
+    "version": "3.53.1",
     "description": "Library implementing a self-contained and transactional SQL database engine",
     "homepage": "https://www.sqlite.org",
     "depends": [
       "zlib"
     ],
-    "srcurl": "https://www.sqlite.org/2026/sqlite-src-3530000.zip",
+    "srcurl": "https://www.sqlite.org/2026/sqlite-src-3530100.zip",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/17f15e98ea/packages/libsqlite",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/17f15e98ea/packages/libsqlite/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/17f15e98ea/packages/libsqlite/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/6179c5fe9c/packages/libsqlite",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/6179c5fe9c/packages/libsqlite/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/6179c5fe9c/packages/libsqlite/build.sh",
     "package_patch_urls": [
-      "https://github.com/strsp/termux-ng/blob/17f15e98ea/packages/libsqlite/src-os_unix.c.patch",
-      "https://github.com/strsp/termux-ng/blob/17f15e98ea/packages/libsqlite/src-tclsqlite.patch"
+      "https://github.com/strsp/termux-ng/blob/6179c5fe9c/packages/libsqlite/src-os_unix.c.patch",
+      "https://github.com/strsp/termux-ng/blob/6179c5fe9c/packages/libsqlite/src-tclsqlite.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/strsp/termux-ng/17f15e98ea/packages/libsqlite/src-os_unix.c.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/17f15e98ea/packages/libsqlite/src-tclsqlite.patch"
+      "https://raw.githubusercontent.com/strsp/termux-ng/6179c5fe9c/packages/libsqlite/src-os_unix.c.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/6179c5fe9c/packages/libsqlite/src-tclsqlite.patch"
     ],
     "auto_updated": true
   },
@@ -25054,7 +25054,7 @@
   },
   {
     "name": "lux-cli",
-    "version": "0.28.7",
+    "version": "0.28.8",
     "description": "A package manager for Lua, similar to luarocks",
     "homepage": "https://lux.lumen-labs.org",
     "depends": [
@@ -25066,11 +25066,11 @@
       "openssl",
       "xz-utils"
     ],
-    "srcurl": "https://github.com/lumen-oss/lux/archive/refs/tags/v0.28.7.tar.gz",
+    "srcurl": "https://github.com/lumen-oss/lux/archive/refs/tags/v0.28.8.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/000c78c897/packages/lux-cli",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/000c78c897/packages/lux-cli/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/000c78c897/packages/lux-cli/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/c45020d288/packages/lux-cli",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/c45020d288/packages/lux-cli/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/c45020d288/packages/lux-cli/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -31221,15 +31221,15 @@
   },
   {
     "name": "oxlint",
-    "version": "1.62.0",
+    "version": "1.63.0",
     "description": "Oxc JavaScript linter",
     "homepage": "https://oxc.rs/",
     "depends": [],
-    "srcurl": "https://github.com/oxc-project/oxc/archive/refs/tags/oxlint_v1.62.0.tar.gz",
+    "srcurl": "https://github.com/oxc-project/oxc/archive/refs/tags/oxlint_v1.63.0.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/41d10c665c/packages/oxlint",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/41d10c665c/packages/oxlint/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/41d10c665c/packages/oxlint/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/24f85c7270/packages/oxlint",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/24f85c7270/packages/oxlint/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/24f85c7270/packages/oxlint/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -33847,18 +33847,18 @@
   },
   {
     "name": "python-apsw",
-    "version": "3.53.0.0",
+    "version": "3.53.1.0",
     "description": "Another Python SQLite Wrapper",
     "homepage": "https://rogerbinns.github.io/apsw/",
     "depends": [
       "libsqlite",
       "python"
     ],
-    "srcurl": "https://github.com/rogerbinns/apsw/releases/download/3.53.0.0/apsw-3.53.0.0.tar.gz",
+    "srcurl": "https://github.com/rogerbinns/apsw/releases/download/3.53.1.0/apsw-3.53.1.0.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/4f785a9d02/packages/python-apsw",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/4f785a9d02/packages/python-apsw/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/4f785a9d02/packages/python-apsw/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/57f24c22d8/packages/python-apsw",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/57f24c22d8/packages/python-apsw/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/57f24c22d8/packages/python-apsw/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -35104,15 +35104,15 @@
   },
   {
     "name": "railway-cli",
-    "version": "4.45.0",
+    "version": "4.47.0",
     "description": "This is the command line interface for Railway",
     "homepage": "https://railway.app",
     "depends": [],
-    "srcurl": "https://github.com/railwayapp/cli/archive/refs/tags/v4.45.0.tar.gz",
+    "srcurl": "https://github.com/railwayapp/cli/archive/refs/tags/v4.47.0.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/240c465533/packages/railway-cli",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/240c465533/packages/railway-cli/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/240c465533/packages/railway-cli/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/008f93870d/packages/railway-cli",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/008f93870d/packages/railway-cli/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/008f93870d/packages/railway-cli/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -35531,33 +35531,33 @@
   },
   {
     "name": "redis",
-    "version": "1:8.6.2",
+    "version": "1:8.6.3",
     "description": "In-memory data structure store used as a database, cache and message broker",
     "homepage": "https://redis.io/",
     "depends": [
       "libandroid-execinfo",
       "libandroid-glob"
     ],
-    "srcurl": "https://download.redis.io/releases/redis-8.6.2.tar.gz",
+    "srcurl": "https://download.redis.io/releases/redis-8.6.3.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/e7fdbd9320/packages/redis",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/e7fdbd9320/packages/redis/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/e7fdbd9320/packages/redis/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/ad6ecf02d7/packages/redis",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/ad6ecf02d7/packages/redis/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/ad6ecf02d7/packages/redis/build.sh",
     "package_patch_urls": [
-      "https://github.com/strsp/termux-ng/blob/e7fdbd9320/packages/redis/fix-deps-lua.patch",
-      "https://github.com/strsp/termux-ng/blob/e7fdbd9320/packages/redis/pthread_cancel.patch",
-      "https://github.com/strsp/termux-ng/blob/e7fdbd9320/packages/redis/redis.conf.patch",
-      "https://github.com/strsp/termux-ng/blob/e7fdbd9320/packages/redis/setproctitle.patch",
-      "https://github.com/strsp/termux-ng/blob/e7fdbd9320/packages/redis/src-server.h.patch",
-      "https://github.com/strsp/termux-ng/blob/e7fdbd9320/packages/redis/tests-modules-Makefile.patch"
+      "https://github.com/strsp/termux-ng/blob/ad6ecf02d7/packages/redis/fix-deps-lua.patch",
+      "https://github.com/strsp/termux-ng/blob/ad6ecf02d7/packages/redis/pthread_cancel.patch",
+      "https://github.com/strsp/termux-ng/blob/ad6ecf02d7/packages/redis/redis.conf.patch",
+      "https://github.com/strsp/termux-ng/blob/ad6ecf02d7/packages/redis/setproctitle.patch",
+      "https://github.com/strsp/termux-ng/blob/ad6ecf02d7/packages/redis/src-server.h.patch",
+      "https://github.com/strsp/termux-ng/blob/ad6ecf02d7/packages/redis/tests-modules-Makefile.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/strsp/termux-ng/e7fdbd9320/packages/redis/fix-deps-lua.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/e7fdbd9320/packages/redis/pthread_cancel.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/e7fdbd9320/packages/redis/redis.conf.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/e7fdbd9320/packages/redis/setproctitle.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/e7fdbd9320/packages/redis/src-server.h.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/e7fdbd9320/packages/redis/tests-modules-Makefile.patch"
+      "https://raw.githubusercontent.com/strsp/termux-ng/ad6ecf02d7/packages/redis/fix-deps-lua.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/ad6ecf02d7/packages/redis/pthread_cancel.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/ad6ecf02d7/packages/redis/redis.conf.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/ad6ecf02d7/packages/redis/setproctitle.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/ad6ecf02d7/packages/redis/src-server.h.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/ad6ecf02d7/packages/redis/tests-modules-Makefile.patch"
     ],
     "auto_updated": true
   },
@@ -38778,15 +38778,15 @@
   },
   {
     "name": "storj-uplink",
-    "version": "1.152.7",
+    "version": "1.153.2",
     "description": "Storj DCS Uplink CLI",
     "homepage": "https://www.storj.io/integrations/uplink-cli",
     "depends": [],
-    "srcurl": "https://github.com/storj/storj/archive/refs/tags/v1.152.7.tar.gz",
+    "srcurl": "https://github.com/storj/storj/archive/refs/tags/v1.153.2.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/6574b2dad6/packages/storj-uplink",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/6574b2dad6/packages/storj-uplink/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/6574b2dad6/packages/storj-uplink/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/79680dfbb3/packages/storj-uplink",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/79680dfbb3/packages/storj-uplink/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/79680dfbb3/packages/storj-uplink/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -43855,15 +43855,15 @@
   },
   {
     "name": "wakatime-cli",
-    "version": "2.12.1",
+    "version": "2.13.0",
     "description": "Command line interface used by all WakaTime text editor plugins",
     "homepage": "https://wakatime.com/plugins/",
     "depends": [],
-    "srcurl": "https://github.com/wakatime/wakatime-cli/archive/refs/tags/v2.12.1.tar.gz",
+    "srcurl": "https://github.com/wakatime/wakatime-cli/archive/refs/tags/v2.13.0.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/af99aeb413/packages/wakatime-cli",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/af99aeb413/packages/wakatime-cli/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/af99aeb413/packages/wakatime-cli/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/0ca7405a2b/packages/wakatime-cli",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/0ca7405a2b/packages/wakatime-cli/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/0ca7405a2b/packages/wakatime-cli/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
