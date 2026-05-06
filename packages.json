@@ -6355,7 +6355,7 @@
   },
   {
     "name": "djvulibre",
-    "version": "3.5.29",
+    "version": "3.5.30",
     "description": "Suite to create, manipulate and view DjVu ('déjà vu') documents",
     "homepage": "https://djvu.sourceforge.net/",
     "depends": [
@@ -6363,11 +6363,11 @@
       "libjpeg-turbo",
       "libtiff"
     ],
-    "srcurl": "http://downloads.sourceforge.net/djvu/djvulibre-3.5.29.tar.gz",
+    "srcurl": "http://downloads.sourceforge.net/djvu/djvulibre-3.5.30.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/c70edff6de/packages/djvulibre",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/c70edff6de/packages/djvulibre/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/c70edff6de/packages/djvulibre/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/79dd002b8a/packages/djvulibre",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/79dd002b8a/packages/djvulibre/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/79dd002b8a/packages/djvulibre/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -28944,7 +28944,7 @@
   },
   {
     "name": "ngspice",
-    "version": "45.2",
+    "version": "46",
     "description": "A mixed-level/mixed-signal circuit simulator",
     "homepage": "https://ngspice.sourceforge.net/",
     "depends": [
@@ -28953,32 +28953,32 @@
       "ncurses",
       "readline"
     ],
-    "srcurl": "https://github.com/imr/ngspice/archive/refs/tags/ngspice-45.2.tar.gz",
+    "srcurl": "https://github.com/imr/ngspice/archive/refs/tags/ngspice-46.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/a2ef08b857/packages/ngspice",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/a2ef08b857/packages/ngspice/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/a2ef08b857/packages/ngspice/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/f7d47297c8/packages/ngspice",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/f7d47297c8/packages/ngspice/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/f7d47297c8/packages/ngspice/build.sh",
     "package_patch_urls": [
-      "https://github.com/strsp/termux-ng/blob/a2ef08b857/packages/ngspice/pthread_cancel.patch",
-      "https://github.com/strsp/termux-ng/blob/a2ef08b857/packages/ngspice/src-frontend-com_shell.c.patch",
-      "https://github.com/strsp/termux-ng/blob/a2ef08b857/packages/ngspice/src-frontend-inp.c.patch",
-      "https://github.com/strsp/termux-ng/blob/a2ef08b857/packages/ngspice/src-frontend-parser-complete.c.patch",
-      "https://github.com/strsp/termux-ng/blob/a2ef08b857/packages/ngspice/src-frontend-plotting-gnuplot.c.patch",
-      "https://github.com/strsp/termux-ng/blob/a2ef08b857/packages/ngspice/src-include-ngspice-defines.h.patch",
-      "https://github.com/strsp/termux-ng/blob/a2ef08b857/packages/ngspice/src-include-ngspice-ipctiein.h.patch",
-      "https://github.com/strsp/termux-ng/blob/a2ef08b857/packages/ngspice/src-tclspice.c.patch",
-      "https://github.com/strsp/termux-ng/blob/a2ef08b857/packages/ngspice/src-xspice-icm-makedefs.in.patch"
+      "https://github.com/strsp/termux-ng/blob/f7d47297c8/packages/ngspice/pthread_cancel.patch",
+      "https://github.com/strsp/termux-ng/blob/f7d47297c8/packages/ngspice/src-frontend-com_shell.c.patch",
+      "https://github.com/strsp/termux-ng/blob/f7d47297c8/packages/ngspice/src-frontend-inp.c.patch",
+      "https://github.com/strsp/termux-ng/blob/f7d47297c8/packages/ngspice/src-frontend-parser-complete.c.patch",
+      "https://github.com/strsp/termux-ng/blob/f7d47297c8/packages/ngspice/src-frontend-plotting-gnuplot.c.patch",
+      "https://github.com/strsp/termux-ng/blob/f7d47297c8/packages/ngspice/src-include-ngspice-defines.h.patch",
+      "https://github.com/strsp/termux-ng/blob/f7d47297c8/packages/ngspice/src-include-ngspice-ipctiein.h.patch",
+      "https://github.com/strsp/termux-ng/blob/f7d47297c8/packages/ngspice/src-tclspice.c.patch",
+      "https://github.com/strsp/termux-ng/blob/f7d47297c8/packages/ngspice/src-xspice-icm-makedefs.in.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/strsp/termux-ng/a2ef08b857/packages/ngspice/pthread_cancel.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/a2ef08b857/packages/ngspice/src-frontend-com_shell.c.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/a2ef08b857/packages/ngspice/src-frontend-inp.c.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/a2ef08b857/packages/ngspice/src-frontend-parser-complete.c.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/a2ef08b857/packages/ngspice/src-frontend-plotting-gnuplot.c.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/a2ef08b857/packages/ngspice/src-include-ngspice-defines.h.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/a2ef08b857/packages/ngspice/src-include-ngspice-ipctiein.h.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/a2ef08b857/packages/ngspice/src-tclspice.c.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/a2ef08b857/packages/ngspice/src-xspice-icm-makedefs.in.patch"
+      "https://raw.githubusercontent.com/strsp/termux-ng/f7d47297c8/packages/ngspice/pthread_cancel.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/f7d47297c8/packages/ngspice/src-frontend-com_shell.c.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/f7d47297c8/packages/ngspice/src-frontend-inp.c.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/f7d47297c8/packages/ngspice/src-frontend-parser-complete.c.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/f7d47297c8/packages/ngspice/src-frontend-plotting-gnuplot.c.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/f7d47297c8/packages/ngspice/src-include-ngspice-defines.h.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/f7d47297c8/packages/ngspice/src-include-ngspice-ipctiein.h.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/f7d47297c8/packages/ngspice/src-tclspice.c.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/f7d47297c8/packages/ngspice/src-xspice-icm-makedefs.in.patch"
     ],
     "auto_updated": true
   },
@@ -29927,7 +29927,7 @@
   },
   {
     "name": "ollama",
-    "version": "0.23.0",
+    "version": "0.23.1",
     "description": "Get up and running with large language models",
     "homepage": "https://ollama.com/",
     "depends": [
@@ -29935,26 +29935,26 @@
     ],
     "srcurl": "git+https://github.com/ollama/ollama",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/b1822ddeac/packages/ollama",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/b1822ddeac/packages/ollama/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/b1822ddeac/packages/ollama/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/a782c4e88d/packages/ollama",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/a782c4e88d/packages/ollama/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/a782c4e88d/packages/ollama/build.sh",
     "package_patch_urls": [
-      "https://github.com/strsp/termux-ng/blob/b1822ddeac/packages/ollama/0001-do-not-install-runtime-deps.patch",
-      "https://github.com/strsp/termux-ng/blob/b1822ddeac/packages/ollama/0002-properly-search-libs-on-android.patch",
-      "https://github.com/strsp/termux-ng/blob/b1822ddeac/packages/ollama/0003-do-not-include-sources-for-vulkan-again.patch",
-      "https://github.com/strsp/termux-ng/blob/b1822ddeac/packages/ollama/0004-force-disable-features-on-Andoid.patch",
-      "https://github.com/strsp/termux-ng/blob/b1822ddeac/packages/ollama/0006-do-not-search-hip-memory.patch",
-      "https://github.com/strsp/termux-ng/blob/b1822ddeac/packages/ollama/0007-do-not-use-flash-attention-when-using-cpu.patch",
-      "https://github.com/strsp/termux-ng/blob/b1822ddeac/packages/ollama/0008-fix-build-with-latest-vulkan-hpp.patch"
+      "https://github.com/strsp/termux-ng/blob/a782c4e88d/packages/ollama/0001-do-not-install-runtime-deps.patch",
+      "https://github.com/strsp/termux-ng/blob/a782c4e88d/packages/ollama/0002-properly-search-libs-on-android.patch",
+      "https://github.com/strsp/termux-ng/blob/a782c4e88d/packages/ollama/0003-do-not-include-sources-for-vulkan-again.patch",
+      "https://github.com/strsp/termux-ng/blob/a782c4e88d/packages/ollama/0004-force-disable-features-on-Andoid.patch",
+      "https://github.com/strsp/termux-ng/blob/a782c4e88d/packages/ollama/0006-do-not-search-hip-memory.patch",
+      "https://github.com/strsp/termux-ng/blob/a782c4e88d/packages/ollama/0007-do-not-use-flash-attention-when-using-cpu.patch",
+      "https://github.com/strsp/termux-ng/blob/a782c4e88d/packages/ollama/0008-fix-build-with-latest-vulkan-hpp.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/strsp/termux-ng/b1822ddeac/packages/ollama/0001-do-not-install-runtime-deps.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/b1822ddeac/packages/ollama/0002-properly-search-libs-on-android.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/b1822ddeac/packages/ollama/0003-do-not-include-sources-for-vulkan-again.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/b1822ddeac/packages/ollama/0004-force-disable-features-on-Andoid.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/b1822ddeac/packages/ollama/0006-do-not-search-hip-memory.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/b1822ddeac/packages/ollama/0007-do-not-use-flash-attention-when-using-cpu.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/b1822ddeac/packages/ollama/0008-fix-build-with-latest-vulkan-hpp.patch"
+      "https://raw.githubusercontent.com/strsp/termux-ng/a782c4e88d/packages/ollama/0001-do-not-install-runtime-deps.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/a782c4e88d/packages/ollama/0002-properly-search-libs-on-android.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/a782c4e88d/packages/ollama/0003-do-not-include-sources-for-vulkan-again.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/a782c4e88d/packages/ollama/0004-force-disable-features-on-Andoid.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/a782c4e88d/packages/ollama/0006-do-not-search-hip-memory.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/a782c4e88d/packages/ollama/0007-do-not-use-flash-attention-when-using-cpu.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/a782c4e88d/packages/ollama/0008-fix-build-with-latest-vulkan-hpp.patch"
     ],
     "auto_updated": true
   },
