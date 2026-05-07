@@ -54511,7 +54511,7 @@
   },
   {
     "name": "kate",
-    "version": "26.04.0",
+    "version": "26.04.1",
     "description": "KDE Advanced Text Editor",
     "homepage": "https://apps.kde.org/kate/",
     "depends": [
@@ -54546,18 +54546,18 @@
       "rust",
       "texlab"
     ],
-    "srcurl": "https://download.kde.org/stable/release-service/26.04.0/src/kate-26.04.0.tar.xz",
+    "srcurl": "https://download.kde.org/stable/release-service/26.04.1/src/kate-26.04.1.tar.xz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/f5d9b74a53/x11-packages/kate",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/f5d9b74a53/x11-packages/kate/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/f5d9b74a53/x11-packages/kate/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/96a793d1c1/x11-packages/kate",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/96a793d1c1/x11-packages/kate/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/96a793d1c1/x11-packages/kate/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
   },
   {
     "name": "kcalc",
-    "version": "26.04.0",
+    "version": "26.04.1",
     "description": "Scientific Calculator by KDE",
     "homepage": "https://apps.kde.org/kcalc/",
     "depends": [
@@ -54577,11 +54577,11 @@
       "libmpfr",
       "qt6-qtbase"
     ],
-    "srcurl": "https://download.kde.org/stable/release-service/26.04.0/src/kcalc-26.04.0.tar.xz",
+    "srcurl": "https://download.kde.org/stable/release-service/26.04.1/src/kcalc-26.04.1.tar.xz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/13db4cfded/x11-packages/kcalc",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/13db4cfded/x11-packages/kcalc/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/13db4cfded/x11-packages/kcalc/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/17a39e3a65/x11-packages/kcalc",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/17a39e3a65/x11-packages/kcalc/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/17a39e3a65/x11-packages/kcalc/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -54813,7 +54813,7 @@
   },
   {
     "name": "kdenlive",
-    "version": "26.04.0",
+    "version": "26.04.1",
     "description": "A non-linear video editor for Linux using the MLT video framework",
     "homepage": "https://apps.kde.org/kdenlive/",
     "depends": [
@@ -54855,11 +54855,11 @@
       "qt6-qtsvg",
       "shared-mime-info"
     ],
-    "srcurl": "https://download.kde.org/stable/release-service/26.04.0/src/kdenlive-26.04.0.tar.xz",
+    "srcurl": "https://download.kde.org/stable/release-service/26.04.1/src/kdenlive-26.04.1.tar.xz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/a2980361b6/x11-packages/kdenlive",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/a2980361b6/x11-packages/kdenlive/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/a2980361b6/x11-packages/kdenlive/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/a1568c1677/x11-packages/kdenlive",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/a1568c1677/x11-packages/kdenlive/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/a1568c1677/x11-packages/kdenlive/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -54938,7 +54938,7 @@
   },
   {
     "name": "kdialog",
-    "version": "26.04.0",
+    "version": "26.04.1",
     "description": "A utility for displaying dialog boxes from shell scripts",
     "homepage": "https://invent.kde.org/utilities/kdialog",
     "depends": [
@@ -54956,11 +54956,11 @@
       "libx11",
       "qt6-qtbase"
     ],
-    "srcurl": "https://download.kde.org/stable/release-service/26.04.0/src/kdialog-26.04.0.tar.xz",
+    "srcurl": "https://download.kde.org/stable/release-service/26.04.1/src/kdialog-26.04.1.tar.xz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/fcd4386250/x11-packages/kdialog",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/fcd4386250/x11-packages/kdialog/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/fcd4386250/x11-packages/kdialog/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/b588106624/x11-packages/kdialog",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/b588106624/x11-packages/kdialog/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/b588106624/x11-packages/kdialog/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -54985,7 +54985,7 @@
   },
   {
     "name": "keditbookmarks",
-    "version": "26.04.0",
+    "version": "26.04.1",
     "description": "Bookmark Organizer and Editor",
     "homepage": "https://invent.kde.org/utilities/keditbookmarks",
     "depends": [
@@ -55006,11 +55006,11 @@
       "libc++",
       "qt6-qtbase"
     ],
-    "srcurl": "https://download.kde.org/stable/release-service/26.04.0/src/keditbookmarks-26.04.0.tar.xz",
+    "srcurl": "https://download.kde.org/stable/release-service/26.04.1/src/keditbookmarks-26.04.1.tar.xz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/651c716c40/x11-packages/keditbookmarks",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/651c716c40/x11-packages/keditbookmarks/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/651c716c40/x11-packages/keditbookmarks/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/fa4092b04a/x11-packages/keditbookmarks",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/fa4092b04a/x11-packages/keditbookmarks/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/fa4092b04a/x11-packages/keditbookmarks/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -56584,7 +56584,7 @@
   },
   {
     "name": "kget",
-    "version": "26.04.0",
+    "version": "26.04.1",
     "description": "Download Manager by KDE",
     "homepage": "https://apps.kde.org/kget/",
     "depends": [
@@ -56612,11 +56612,11 @@
       "qgpgme",
       "qt6-qtbase"
     ],
-    "srcurl": "https://download.kde.org/stable/release-service/26.04.0/src/kget-26.04.0.tar.xz",
+    "srcurl": "https://download.kde.org/stable/release-service/26.04.1/src/kget-26.04.1.tar.xz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/f035bf88c3/x11-packages/kget",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/f035bf88c3/x11-packages/kget/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/f035bf88c3/x11-packages/kget/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/ab76ca40dc/x11-packages/kget",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/ab76ca40dc/x11-packages/kget/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/ab76ca40dc/x11-packages/kget/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -58430,7 +58430,7 @@
   },
   {
     "name": "libktorrent",
-    "version": "26.04.0",
+    "version": "26.04.1",
     "description": "A BitTorrent protocol implementation",
     "homepage": "https://invent.kde.org/network/libktorrent",
     "depends": [
@@ -58444,16 +58444,16 @@
       "openssl",
       "qt6-qtbase"
     ],
-    "srcurl": "https://download.kde.org/stable/release-service/26.04.0/src/libktorrent-26.04.0.tar.xz",
+    "srcurl": "https://download.kde.org/stable/release-service/26.04.1/src/libktorrent-26.04.1.tar.xz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/336cda23ad/x11-packages/libktorrent",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/336cda23ad/x11-packages/libktorrent/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/336cda23ad/x11-packages/libktorrent/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/7ed15adcbf/x11-packages/libktorrent",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/7ed15adcbf/x11-packages/libktorrent/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/7ed15adcbf/x11-packages/libktorrent/build.sh",
     "package_patch_urls": [
-      "https://github.com/strsp/termux-ng/blob/336cda23ad/x11-packages/libktorrent/fix-32-bit-builds.patch"
+      "https://github.com/strsp/termux-ng/blob/7ed15adcbf/x11-packages/libktorrent/fix-32-bit-builds.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/strsp/termux-ng/336cda23ad/x11-packages/libktorrent/fix-32-bit-builds.patch"
+      "https://raw.githubusercontent.com/strsp/termux-ng/7ed15adcbf/x11-packages/libktorrent/fix-32-bit-builds.patch"
     ],
     "auto_updated": true
   },
