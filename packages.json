@@ -56681,7 +56681,7 @@
   },
   {
     "name": "kig",
-    "version": "26.04.0",
+    "version": "26.04.1",
     "description": "Interactive Geometry",
     "homepage": "https://invent.kde.org/education/kig",
     "depends": [
@@ -56703,11 +56703,11 @@
       "qt6-qtbase",
       "qt6-qtsvg"
     ],
-    "srcurl": "https://download.kde.org/stable/release-service/26.04.0/src/kig-26.04.0.tar.xz",
+    "srcurl": "https://download.kde.org/stable/release-service/26.04.1/src/kig-26.04.1.tar.xz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/958db69582/x11-packages/kig",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/958db69582/x11-packages/kig/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/958db69582/x11-packages/kig/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/7e823e366c/x11-packages/kig",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/7e823e366c/x11-packages/kig/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/7e823e366c/x11-packages/kig/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -56780,7 +56780,7 @@
   },
   {
     "name": "kio-extras",
-    "version": "26.04.0",
+    "version": "26.04.1",
     "description": "Additional components to increase the functionality of KIO",
     "homepage": "https://invent.kde.org/network/kio-extras",
     "depends": [
@@ -56815,11 +56815,11 @@
       "qt6-qtsvg",
       "ripgrep-all"
     ],
-    "srcurl": "https://download.kde.org/stable/release-service/26.04.0/src/kio-extras-26.04.0.tar.xz",
+    "srcurl": "https://download.kde.org/stable/release-service/26.04.1/src/kio-extras-26.04.1.tar.xz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/c225edfbd1/x11-packages/kio-extras",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/c225edfbd1/x11-packages/kio-extras/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/c225edfbd1/x11-packages/kio-extras/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/3419d4d48f/x11-packages/kio-extras",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/3419d4d48f/x11-packages/kio-extras/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/3419d4d48f/x11-packages/kio-extras/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -56992,7 +56992,7 @@
   },
   {
     "name": "konqueror",
-    "version": "26.04.0",
+    "version": "26.04.1",
     "description": "KDE File Manager & Web Browser",
     "homepage": "https://apps.kde.org/konqueror/",
     "depends": [
@@ -57028,18 +57028,18 @@
       "qt6-qtwebengine",
       "zlib"
     ],
-    "srcurl": "https://download.kde.org/stable/release-service/26.04.0/src/konqueror-26.04.0.tar.xz",
+    "srcurl": "https://download.kde.org/stable/release-service/26.04.1/src/konqueror-26.04.1.tar.xz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/0d0aa9188e/x11-packages/konqueror",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/0d0aa9188e/x11-packages/konqueror/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/0d0aa9188e/x11-packages/konqueror/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/54dea1f3f9/x11-packages/konqueror",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/54dea1f3f9/x11-packages/konqueror/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/54dea1f3f9/x11-packages/konqueror/build.sh",
     "package_patch_urls": [
-      "https://github.com/strsp/termux-ng/blob/0d0aa9188e/x11-packages/konqueror/add-printsupport.patch",
-      "https://github.com/strsp/termux-ng/blob/0d0aa9188e/x11-packages/konqueror/disable-shellcmdplugin.patch"
+      "https://github.com/strsp/termux-ng/blob/54dea1f3f9/x11-packages/konqueror/add-printsupport.patch",
+      "https://github.com/strsp/termux-ng/blob/54dea1f3f9/x11-packages/konqueror/disable-shellcmdplugin.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/strsp/termux-ng/0d0aa9188e/x11-packages/konqueror/add-printsupport.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/0d0aa9188e/x11-packages/konqueror/disable-shellcmdplugin.patch"
+      "https://raw.githubusercontent.com/strsp/termux-ng/54dea1f3f9/x11-packages/konqueror/add-printsupport.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/54dea1f3f9/x11-packages/konqueror/disable-shellcmdplugin.patch"
     ],
     "auto_updated": true
   },
@@ -57083,7 +57083,7 @@
   },
   {
     "name": "konversation",
-    "version": "26.04.0",
+    "version": "26.04.1",
     "description": "A user-friendly and fully-featured IRC client",
     "homepage": "https://apps.kde.org/konversation/",
     "depends": [
@@ -57122,11 +57122,11 @@
       "qt6-qtmultimedia",
       "qt6-qttools"
     ],
-    "srcurl": "https://download.kde.org/stable/release-service/26.04.0/src/konversation-26.04.0.tar.xz",
+    "srcurl": "https://download.kde.org/stable/release-service/26.04.1/src/konversation-26.04.1.tar.xz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/d2d88a016c/x11-packages/konversation",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/d2d88a016c/x11-packages/konversation/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/d2d88a016c/x11-packages/konversation/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/e255d6e5fa/x11-packages/konversation",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/e255d6e5fa/x11-packages/konversation/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/e255d6e5fa/x11-packages/konversation/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -57186,7 +57186,7 @@
   },
   {
     "name": "krdc",
-    "version": "26.04.0",
+    "version": "26.04.1",
     "description": "Remote Desktop Client by KDE",
     "homepage": "https://apps.kde.org/krdc/",
     "depends": [
@@ -57212,22 +57212,22 @@
       "qt6-qtbase",
       "qtkeychain"
     ],
-    "srcurl": "https://download.kde.org/stable/release-service/26.04.0/src/krdc-26.04.0.tar.xz",
+    "srcurl": "https://download.kde.org/stable/release-service/26.04.1/src/krdc-26.04.1.tar.xz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/1b17c32321/x11-packages/krdc",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/1b17c32321/x11-packages/krdc/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/1b17c32321/x11-packages/krdc/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/10139d8712/x11-packages/krdc",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/10139d8712/x11-packages/krdc/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/10139d8712/x11-packages/krdc/build.sh",
     "package_patch_urls": [
-      "https://github.com/strsp/termux-ng/blob/1b17c32321/x11-packages/krdc/disable-update-mime-types.patch"
+      "https://github.com/strsp/termux-ng/blob/10139d8712/x11-packages/krdc/disable-update-mime-types.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/strsp/termux-ng/1b17c32321/x11-packages/krdc/disable-update-mime-types.patch"
+      "https://raw.githubusercontent.com/strsp/termux-ng/10139d8712/x11-packages/krdc/disable-update-mime-types.patch"
     ],
     "auto_updated": true
   },
   {
     "name": "krfb",
-    "version": "26.04.0",
+    "version": "26.04.1",
     "description": "Desktop Sharing",
     "homepage": "https://apps.kde.org/krfb/",
     "depends": [
@@ -57255,11 +57255,11 @@
       "qt6-qtbase",
       "xcb-util-image"
     ],
-    "srcurl": "https://download.kde.org/stable/release-service/26.04.0/src/krfb-26.04.0.tar.xz",
+    "srcurl": "https://download.kde.org/stable/release-service/26.04.1/src/krfb-26.04.1.tar.xz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/21baec93d6/x11-packages/krfb",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/21baec93d6/x11-packages/krfb/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/21baec93d6/x11-packages/krfb/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/f8a7b2df31/x11-packages/krfb",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/f8a7b2df31/x11-packages/krfb/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/f8a7b2df31/x11-packages/krfb/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -57334,7 +57334,7 @@
   },
   {
     "name": "ktorrent",
-    "version": "26.04.0",
+    "version": "26.04.1",
     "description": "A powerful BitTorrent client for KDE",
     "homepage": "https://invent.kde.org/network/ktorrent",
     "depends": [
@@ -57366,11 +57366,11 @@
       "qt6-qtbase",
       "qt6-qtwebengine"
     ],
-    "srcurl": "https://download.kde.org/stable/release-service/26.04.0/src/ktorrent-26.04.0.tar.xz",
+    "srcurl": "https://download.kde.org/stable/release-service/26.04.1/src/ktorrent-26.04.1.tar.xz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/cb0a22e7c7/x11-packages/ktorrent",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/cb0a22e7c7/x11-packages/ktorrent/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/cb0a22e7c7/x11-packages/ktorrent/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/852a72f100/x11-packages/ktorrent",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/852a72f100/x11-packages/ktorrent/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/852a72f100/x11-packages/ktorrent/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -57424,7 +57424,7 @@
   },
   {
     "name": "kwalletmanager",
-    "version": "26.04.0",
+    "version": "26.04.1",
     "description": "Wallet management tool",
     "homepage": "https://invent.kde.org/utilities/kwalletmanager",
     "depends": [
@@ -57448,11 +57448,11 @@
       "libc++",
       "qt6-qtbase"
     ],
-    "srcurl": "https://download.kde.org/stable/release-service/26.04.0/src/kwalletmanager-26.04.0.tar.xz",
+    "srcurl": "https://download.kde.org/stable/release-service/26.04.1/src/kwalletmanager-26.04.1.tar.xz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/145763c996/x11-packages/kwalletmanager",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/145763c996/x11-packages/kwalletmanager/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/145763c996/x11-packages/kwalletmanager/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/c7f1f0a191/x11-packages/kwalletmanager",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/c7f1f0a191/x11-packages/kwalletmanager/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/c7f1f0a191/x11-packages/kwalletmanager/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
