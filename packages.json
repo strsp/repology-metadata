@@ -1991,7 +1991,7 @@
   },
   {
     "name": "awscli",
-    "version": "2.34.44",
+    "version": "2.34.45",
     "description": "Universal Command Line Interface for Amazon Web Services",
     "homepage": "https://aws.amazon.com/cli",
     "depends": [
@@ -1999,18 +1999,18 @@
       "libandroid-support",
       "mandoc"
     ],
-    "srcurl": "https://github.com/aws/aws-cli/archive/refs/tags/2.34.44.tar.gz",
+    "srcurl": "https://github.com/aws/aws-cli/archive/refs/tags/2.34.45.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/d9de5af71a/packages/awscli",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/d9de5af71a/packages/awscli/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/d9de5af71a/packages/awscli/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/82a6853168/packages/awscli",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/82a6853168/packages/awscli/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/82a6853168/packages/awscli/build.sh",
     "package_patch_urls": [
-      "https://github.com/strsp/termux-ng/blob/d9de5af71a/packages/awscli/remove-ios-support.patch",
-      "https://github.com/strsp/termux-ng/blob/d9de5af71a/packages/awscli/remove-no-build-isolation.patch"
+      "https://github.com/strsp/termux-ng/blob/82a6853168/packages/awscli/remove-ios-support.patch",
+      "https://github.com/strsp/termux-ng/blob/82a6853168/packages/awscli/remove-no-build-isolation.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/strsp/termux-ng/d9de5af71a/packages/awscli/remove-ios-support.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/d9de5af71a/packages/awscli/remove-no-build-isolation.patch"
+      "https://raw.githubusercontent.com/strsp/termux-ng/82a6853168/packages/awscli/remove-ios-support.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/82a6853168/packages/awscli/remove-no-build-isolation.patch"
     ],
     "auto_updated": true
   },
@@ -6481,15 +6481,15 @@
   },
   {
     "name": "dnscontrol",
-    "version": "4.36.1",
+    "version": "4.37.0",
     "description": "Infrastructure as code for DNS!",
     "homepage": "https://github.com/StackExchange/dnscontrol",
     "depends": [],
-    "srcurl": "https://github.com/StackExchange/dnscontrol/archive/refs/tags/v4.36.1.tar.gz",
+    "srcurl": "https://github.com/StackExchange/dnscontrol/archive/refs/tags/v4.37.0.tar.gz",
     "maintainer": "Izumi Sena Sora <info@unordinary.eu.org>",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/d20a0284b7/packages/dnscontrol",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/d20a0284b7/packages/dnscontrol/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/d20a0284b7/packages/dnscontrol/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/94dc614b21/packages/dnscontrol",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/94dc614b21/packages/dnscontrol/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/94dc614b21/packages/dnscontrol/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -8701,7 +8701,7 @@
   },
   {
     "name": "fish",
-    "version": "4.7.0",
+    "version": "4.7.1",
     "description": "The user-friendly command line shell",
     "homepage": "https://fishshell.com/",
     "depends": [
@@ -8713,30 +8713,30 @@
       "ncurses-utils",
       "pcre2"
     ],
-    "srcurl": "https://github.com/fish-shell/fish-shell/releases/download/4.7.0/fish-4.7.0.tar.xz",
+    "srcurl": "https://github.com/fish-shell/fish-shell/releases/download/4.7.1/fish-4.7.1.tar.xz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/c129d5708b/packages/fish",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/c129d5708b/packages/fish/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/c129d5708b/packages/fish/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/06dbeeca5b/packages/fish",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/06dbeeca5b/packages/fish/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/06dbeeca5b/packages/fish/build.sh",
     "package_patch_urls": [
-      "https://github.com/strsp/termux-ng/blob/c129d5708b/packages/fish/0001-share-tools-create_manpage_completions.py.patch",
-      "https://github.com/strsp/termux-ng/blob/c129d5708b/packages/fish/0002-force-d_ino-and-st_mode-types-on-32-bit-android.patch",
-      "https://github.com/strsp/termux-ng/blob/c129d5708b/packages/fish/0003-revert-5081966.patch",
-      "https://github.com/strsp/termux-ng/blob/c129d5708b/packages/fish/0004-partial-revert-d68f8bd.patch",
-      "https://github.com/strsp/termux-ng/blob/c129d5708b/packages/fish/0005-revert-70bd49f.patch",
-      "https://github.com/strsp/termux-ng/blob/c129d5708b/packages/fish/0006-revert-174130f.patch",
-      "https://github.com/strsp/termux-ng/blob/c129d5708b/packages/fish/0007-revert-c1f3d93.patch",
-      "https://github.com/strsp/termux-ng/blob/c129d5708b/packages/fish/0008-share-functions-__fish_print_pacman_repos.fish.patch"
+      "https://github.com/strsp/termux-ng/blob/06dbeeca5b/packages/fish/0001-share-tools-create_manpage_completions.py.patch",
+      "https://github.com/strsp/termux-ng/blob/06dbeeca5b/packages/fish/0002-force-d_ino-and-st_mode-types-on-32-bit-android.patch",
+      "https://github.com/strsp/termux-ng/blob/06dbeeca5b/packages/fish/0003-revert-5081966.patch",
+      "https://github.com/strsp/termux-ng/blob/06dbeeca5b/packages/fish/0004-partial-revert-d68f8bd.patch",
+      "https://github.com/strsp/termux-ng/blob/06dbeeca5b/packages/fish/0005-revert-70bd49f.patch",
+      "https://github.com/strsp/termux-ng/blob/06dbeeca5b/packages/fish/0006-revert-174130f.patch",
+      "https://github.com/strsp/termux-ng/blob/06dbeeca5b/packages/fish/0007-revert-c1f3d93.patch",
+      "https://github.com/strsp/termux-ng/blob/06dbeeca5b/packages/fish/0008-share-functions-__fish_print_pacman_repos.fish.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/strsp/termux-ng/c129d5708b/packages/fish/0001-share-tools-create_manpage_completions.py.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/c129d5708b/packages/fish/0002-force-d_ino-and-st_mode-types-on-32-bit-android.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/c129d5708b/packages/fish/0003-revert-5081966.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/c129d5708b/packages/fish/0004-partial-revert-d68f8bd.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/c129d5708b/packages/fish/0005-revert-70bd49f.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/c129d5708b/packages/fish/0006-revert-174130f.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/c129d5708b/packages/fish/0007-revert-c1f3d93.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/c129d5708b/packages/fish/0008-share-functions-__fish_print_pacman_repos.fish.patch"
+      "https://raw.githubusercontent.com/strsp/termux-ng/06dbeeca5b/packages/fish/0001-share-tools-create_manpage_completions.py.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/06dbeeca5b/packages/fish/0002-force-d_ino-and-st_mode-types-on-32-bit-android.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/06dbeeca5b/packages/fish/0003-revert-5081966.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/06dbeeca5b/packages/fish/0004-partial-revert-d68f8bd.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/06dbeeca5b/packages/fish/0005-revert-70bd49f.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/06dbeeca5b/packages/fish/0006-revert-174130f.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/06dbeeca5b/packages/fish/0007-revert-c1f3d93.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/06dbeeca5b/packages/fish/0008-share-functions-__fish_print_pacman_repos.fish.patch"
     ],
     "auto_updated": true
   },
@@ -8859,15 +8859,15 @@
   },
   {
     "name": "flyctl",
-    "version": "0.4.48",
+    "version": "0.4.49",
     "description": "Command line tools for fly.io services",
     "homepage": "https://fly.io",
     "depends": [],
-    "srcurl": "https://github.com/superfly/flyctl/archive/refs/tags/v0.4.48.tar.gz",
+    "srcurl": "https://github.com/superfly/flyctl/archive/refs/tags/v0.4.49.tar.gz",
     "maintainer": "Yaksh Bariya <thunder-coding@termux.dev>",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/1376e67086/packages/flyctl",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/1376e67086/packages/flyctl/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/1376e67086/packages/flyctl/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/872a825cfe/packages/flyctl",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/872a825cfe/packages/flyctl/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/872a825cfe/packages/flyctl/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -18650,17 +18650,17 @@
   },
   {
     "name": "libksba",
-    "version": "1.6.8",
+    "version": "1.7.0",
     "description": "Library for using X.509 certificates and CMS (Cryptographic Message Syntax) easily accessible",
     "homepage": "https://gnupg.org/related_software/libksba/",
     "depends": [
       "libgpg-error"
     ],
-    "srcurl": "https://www.gnupg.org/ftp/gcrypt/libksba/libksba-1.6.8.tar.bz2",
+    "srcurl": "https://www.gnupg.org/ftp/gcrypt/libksba/libksba-1.7.0.tar.bz2",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/cdbdf4e6ea/packages/libksba",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/cdbdf4e6ea/packages/libksba/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/cdbdf4e6ea/packages/libksba/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/ca4c79b44f/packages/libksba",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/ca4c79b44f/packages/libksba/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/ca4c79b44f/packages/libksba/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -32694,17 +32694,17 @@
   },
   {
     "name": "pocketbase",
-    "version": "0.37.5",
+    "version": "0.38.0",
     "description": "An open source Go backend",
     "homepage": "https://github.com/pocketbase/pocketbase",
     "depends": [
       "resolv-conf"
     ],
-    "srcurl": "https://github.com/pocketbase/pocketbase/archive/refs/tags/v0.37.5.tar.gz",
+    "srcurl": "https://github.com/pocketbase/pocketbase/archive/refs/tags/v0.38.0.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/038dcfba56/packages/pocketbase",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/038dcfba56/packages/pocketbase/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/038dcfba56/packages/pocketbase/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/3826009c07/packages/pocketbase",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/3826009c07/packages/pocketbase/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/3826009c07/packages/pocketbase/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -35121,15 +35121,15 @@
   },
   {
     "name": "railway-cli",
-    "version": "4.51.0",
+    "version": "4.51.2",
     "description": "This is the command line interface for Railway",
     "homepage": "https://railway.app",
     "depends": [],
-    "srcurl": "https://github.com/railwayapp/cli/archive/refs/tags/v4.51.0.tar.gz",
+    "srcurl": "https://github.com/railwayapp/cli/archive/refs/tags/v4.51.2.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/4317514286/packages/railway-cli",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/4317514286/packages/railway-cli/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/4317514286/packages/railway-cli/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/611009e42d/packages/railway-cli",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/611009e42d/packages/railway-cli/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/611009e42d/packages/railway-cli/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -43308,7 +43308,7 @@
   },
   {
     "name": "vim",
-    "version": "9.2.0400",
+    "version": "9.2.0450",
     "description": "Vi IMproved - enhanced vi editor",
     "homepage": "https://www.vim.org",
     "depends": [
@@ -43316,28 +43316,28 @@
       "libsodium",
       "ncurses"
     ],
-    "srcurl": "https://github.com/vim/vim/archive/refs/tags/v9.2.0400.tar.gz",
+    "srcurl": "https://github.com/vim/vim/archive/refs/tags/v9.2.0450.tar.gz",
     "maintainer": "Joshua Kahn <tom@termux.dev>",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/91e4b769c7/packages/vim",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/91e4b769c7/packages/vim/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/91e4b769c7/packages/vim/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/0bf0bd597d/packages/vim",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/0bf0bd597d/packages/vim/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/0bf0bd597d/packages/vim/build.sh",
     "package_patch_urls": [
-      "https://github.com/strsp/termux-ng/blob/91e4b769c7/packages/vim/configure-perl-ruby-tcl-cross-compiling.diff",
-      "https://github.com/strsp/termux-ng/blob/91e4b769c7/packages/vim/fix-writing-archive.patch",
-      "https://github.com/strsp/termux-ng/blob/91e4b769c7/packages/vim/option.c.patch",
-      "https://github.com/strsp/termux-ng/blob/91e4b769c7/packages/vim/revert-1fe0d1e.patch",
-      "https://github.com/strsp/termux-ng/blob/91e4b769c7/packages/vim/runtime-syntax-sh.vim.patch",
-      "https://github.com/strsp/termux-ng/blob/91e4b769c7/packages/vim/src-os_unix.h.patch",
-      "https://github.com/strsp/termux-ng/blob/91e4b769c7/packages/vim/vimtutor.patch"
+      "https://github.com/strsp/termux-ng/blob/0bf0bd597d/packages/vim/configure-perl-ruby-tcl-cross-compiling.diff",
+      "https://github.com/strsp/termux-ng/blob/0bf0bd597d/packages/vim/fix-writing-archive.patch",
+      "https://github.com/strsp/termux-ng/blob/0bf0bd597d/packages/vim/option.c.patch",
+      "https://github.com/strsp/termux-ng/blob/0bf0bd597d/packages/vim/revert-1fe0d1e.patch",
+      "https://github.com/strsp/termux-ng/blob/0bf0bd597d/packages/vim/runtime-syntax-sh.vim.patch",
+      "https://github.com/strsp/termux-ng/blob/0bf0bd597d/packages/vim/src-os_unix.h.patch",
+      "https://github.com/strsp/termux-ng/blob/0bf0bd597d/packages/vim/vimtutor.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/strsp/termux-ng/91e4b769c7/packages/vim/configure-perl-ruby-tcl-cross-compiling.diff",
-      "https://raw.githubusercontent.com/strsp/termux-ng/91e4b769c7/packages/vim/fix-writing-archive.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/91e4b769c7/packages/vim/option.c.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/91e4b769c7/packages/vim/revert-1fe0d1e.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/91e4b769c7/packages/vim/runtime-syntax-sh.vim.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/91e4b769c7/packages/vim/src-os_unix.h.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/91e4b769c7/packages/vim/vimtutor.patch"
+      "https://raw.githubusercontent.com/strsp/termux-ng/0bf0bd597d/packages/vim/configure-perl-ruby-tcl-cross-compiling.diff",
+      "https://raw.githubusercontent.com/strsp/termux-ng/0bf0bd597d/packages/vim/fix-writing-archive.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/0bf0bd597d/packages/vim/option.c.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/0bf0bd597d/packages/vim/revert-1fe0d1e.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/0bf0bd597d/packages/vim/runtime-syntax-sh.vim.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/0bf0bd597d/packages/vim/src-os_unix.h.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/0bf0bd597d/packages/vim/vimtutor.patch"
     ],
     "auto_updated": true
   },
@@ -43916,17 +43916,17 @@
   },
   {
     "name": "wabt",
-    "version": "1.0.40",
+    "version": "1.0.41",
     "description": "The WebAssembly Binary Toolkit",
     "homepage": "https://github.com/WebAssembly/wabt",
     "depends": [
       "libc++"
     ],
-    "srcurl": "https://github.com/WebAssembly/wabt/releases/download/1.0.40/wabt-1.0.40.tar.xz",
+    "srcurl": "https://github.com/WebAssembly/wabt/releases/download/1.0.41/wabt-1.0.41.tar.xz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/ed0b13bff0/packages/wabt",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/ed0b13bff0/packages/wabt/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/ed0b13bff0/packages/wabt/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/b9f7cd3940/packages/wabt",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/b9f7cd3940/packages/wabt/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/b9f7cd3940/packages/wabt/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -47830,7 +47830,7 @@
   },
   {
     "name": "alligator",
-    "version": "26.04.0",
+    "version": "26.04.1",
     "description": "Alligator is a convergent, cross-platform feed reader, supporting standard RSS/Atom feeds",
     "homepage": "https://apps.kde.org/alligator/",
     "depends": [
@@ -47846,11 +47846,11 @@
       "qt6-qtbase",
       "qt6-qtdeclarative"
     ],
-    "srcurl": "https://download.kde.org/stable/release-service/26.04.0/src/alligator-26.04.0.tar.xz",
+    "srcurl": "https://download.kde.org/stable/release-service/26.04.1/src/alligator-26.04.1.tar.xz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/e695cab32a/x11-packages/alligator",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/e695cab32a/x11-packages/alligator/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/e695cab32a/x11-packages/alligator/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/ea2bf699ec/x11-packages/alligator",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/ea2bf699ec/x11-packages/alligator/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/ea2bf699ec/x11-packages/alligator/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -47889,7 +47889,7 @@
   },
   {
     "name": "angelfish",
-    "version": "26.04.0",
+    "version": "26.04.1",
     "description": "Web browser for Plasma Mobile",
     "homepage": "https://apps.kde.org/angelfish",
     "depends": [
@@ -47912,11 +47912,11 @@
       "qt6-qtdeclarative",
       "qt6-qtwebengine"
     ],
-    "srcurl": "https://download.kde.org/stable/release-service/26.04.0/src/angelfish-26.04.0.tar.xz",
+    "srcurl": "https://download.kde.org/stable/release-service/26.04.1/src/angelfish-26.04.1.tar.xz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/36bffa1bdf/x11-packages/angelfish",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/36bffa1bdf/x11-packages/angelfish/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/36bffa1bdf/x11-packages/angelfish/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/9a4d3ce9df/x11-packages/angelfish",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/9a4d3ce9df/x11-packages/angelfish/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/9a4d3ce9df/x11-packages/angelfish/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -48342,7 +48342,7 @@
   },
   {
     "name": "audiotube",
-    "version": "26.04.0",
+    "version": "26.04.1",
     "description": "AudioTube can search YouTube Music, list albums and artists, play automatically generated playlists, albums and allows to put your own playlist together",
     "homepage": "https://apps.kde.org/audiotube/",
     "depends": [
@@ -48369,11 +48369,11 @@
       "qt6-qtsvg",
       "python-yt-dlp"
     ],
-    "srcurl": "https://download.kde.org/stable/release-service/26.04.0/src/audiotube-26.04.0.tar.xz",
+    "srcurl": "https://download.kde.org/stable/release-service/26.04.1/src/audiotube-26.04.1.tar.xz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/644349dc62/x11-packages/audiotube",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/644349dc62/x11-packages/audiotube/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/644349dc62/x11-packages/audiotube/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/8da6763ffd/x11-packages/audiotube",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/8da6763ffd/x11-packages/audiotube/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/8da6763ffd/x11-packages/audiotube/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -48865,7 +48865,7 @@
   },
   {
     "name": "calligra",
-    "version": "26.04.0",
+    "version": "26.04.1",
     "description": "Office and graphic art suite by KDE",
     "homepage": "https://calligra.org/",
     "depends": [
@@ -48929,18 +48929,18 @@
       "shared-mime-info",
       "zlib"
     ],
-    "srcurl": "https://download.kde.org/stable/release-service/26.04.0/src/calligra-26.04.0.tar.xz",
+    "srcurl": "https://download.kde.org/stable/release-service/26.04.1/src/calligra-26.04.1.tar.xz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/96ac425754/x11-packages/calligra",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/96ac425754/x11-packages/calligra/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/96ac425754/x11-packages/calligra/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/3f7cd584ea/x11-packages/calligra",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/3f7cd584ea/x11-packages/calligra/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/3f7cd584ea/x11-packages/calligra/build.sh",
     "package_patch_urls": [
-      "https://github.com/strsp/termux-ng/blob/96ac425754/x11-packages/calligra/disable-update-mime-types.patch",
-      "https://github.com/strsp/termux-ng/blob/96ac425754/x11-packages/calligra/prepend-prefix-to-tmp-paths.patch"
+      "https://github.com/strsp/termux-ng/blob/3f7cd584ea/x11-packages/calligra/disable-update-mime-types.patch",
+      "https://github.com/strsp/termux-ng/blob/3f7cd584ea/x11-packages/calligra/prepend-prefix-to-tmp-paths.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/strsp/termux-ng/96ac425754/x11-packages/calligra/disable-update-mime-types.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/96ac425754/x11-packages/calligra/prepend-prefix-to-tmp-paths.patch"
+      "https://raw.githubusercontent.com/strsp/termux-ng/3f7cd584ea/x11-packages/calligra/disable-update-mime-types.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/3f7cd584ea/x11-packages/calligra/prepend-prefix-to-tmp-paths.patch"
     ],
     "auto_updated": true
   },
@@ -50897,7 +50897,7 @@
   },
   {
     "name": "elisa",
-    "version": "26.04.0",
+    "version": "26.04.1",
     "description": "A simple music player developed by KDE",
     "homepage": "https://apps.kde.org/elisa/",
     "depends": [
@@ -50922,11 +50922,11 @@
       "qt6-qtmultimedia",
       "vlc-qt"
     ],
-    "srcurl": "https://download.kde.org/stable/release-service/26.04.0/src/elisa-26.04.0.tar.xz",
+    "srcurl": "https://download.kde.org/stable/release-service/26.04.1/src/elisa-26.04.1.tar.xz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/4d1a69a5cd/x11-packages/elisa",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/4d1a69a5cd/x11-packages/elisa/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/4d1a69a5cd/x11-packages/elisa/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/2255994a1d/x11-packages/elisa",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/2255994a1d/x11-packages/elisa/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/2255994a1d/x11-packages/elisa/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -52573,7 +52573,7 @@
   },
   {
     "name": "ghostwriter",
-    "version": "26.04.0",
+    "version": "26.04.1",
     "description": "Text editor for Markdown",
     "homepage": "https://ghostwriter.kde.org/",
     "depends": [
@@ -52588,11 +52588,11 @@
       "qt6-qtbase",
       "qt6-qtpositioning"
     ],
-    "srcurl": "https://download.kde.org/stable/release-service/26.04.0/src/ghostwriter-26.04.0.tar.xz",
+    "srcurl": "https://download.kde.org/stable/release-service/26.04.1/src/ghostwriter-26.04.1.tar.xz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/e3860486ad/x11-packages/ghostwriter",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/e3860486ad/x11-packages/ghostwriter/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/e3860486ad/x11-packages/ghostwriter/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/616c6d7774/x11-packages/ghostwriter",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/616c6d7774/x11-packages/ghostwriter/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/616c6d7774/x11-packages/ghostwriter/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -54724,7 +54724,7 @@
   },
   {
     "name": "kdeconnect",
-    "version": "26.04.0",
+    "version": "26.04.1",
     "description": "Adds communication between KDE and your smartphone",
     "homepage": "https://invent.kde.org/network/kdeconnect-kde",
     "depends": [
@@ -54764,11 +54764,11 @@
       "libc++",
       "libwayland"
     ],
-    "srcurl": "https://download.kde.org/stable/release-service/26.04.0/src/kdeconnect-kde-26.04.0.tar.xz",
+    "srcurl": "https://download.kde.org/stable/release-service/26.04.1/src/kdeconnect-kde-26.04.1.tar.xz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/dbd69974d8/x11-packages/kdeconnect",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/dbd69974d8/x11-packages/kdeconnect/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/dbd69974d8/x11-packages/kdeconnect/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/bf06017a52/x11-packages/kdeconnect",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/bf06017a52/x11-packages/kdeconnect/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/bf06017a52/x11-packages/kdeconnect/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -57377,7 +57377,7 @@
   },
   {
     "name": "kunifiedpush",
-    "version": "26.04.0",
+    "version": "26.04.1",
     "description": "UnifiedPush client components",
     "homepage": "https://invent.kde.org/libraries/kunifiedpush",
     "depends": [
@@ -57392,11 +57392,11 @@
       "qt6-qtdeclarative",
       "qt6-qtwebsockets"
     ],
-    "srcurl": "https://download.kde.org/stable/release-service/26.04.0/src/kunifiedpush-26.04.0.tar.xz",
+    "srcurl": "https://download.kde.org/stable/release-service/26.04.1/src/kunifiedpush-26.04.1.tar.xz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/8c0d5f6ab6/x11-packages/kunifiedpush",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/8c0d5f6ab6/x11-packages/kunifiedpush/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/8c0d5f6ab6/x11-packages/kunifiedpush/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/92c203a6b9/x11-packages/kunifiedpush",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/92c203a6b9/x11-packages/kunifiedpush/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/92c203a6b9/x11-packages/kunifiedpush/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -58350,18 +58350,18 @@
   },
   {
     "name": "libkexiv2",
-    "version": "26.04.0",
+    "version": "26.04.1",
     "description": "A kde library to manipulate pictures metadata",
     "homepage": "https://invent.kde.org/graphics/libkexiv2",
     "depends": [
       "exiv2",
       "libc++"
     ],
-    "srcurl": "https://download.kde.org/stable/release-service/26.04.0/src/libkexiv2-26.04.0.tar.xz",
+    "srcurl": "https://download.kde.org/stable/release-service/26.04.1/src/libkexiv2-26.04.1.tar.xz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/0cd28a46c5/x11-packages/libkexiv2",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/0cd28a46c5/x11-packages/libkexiv2/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/0cd28a46c5/x11-packages/libkexiv2/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/58acb90b9b/x11-packages/libkexiv2",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/58acb90b9b/x11-packages/libkexiv2/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/58acb90b9b/x11-packages/libkexiv2/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
