@@ -4046,15 +4046,15 @@
   },
   {
     "name": "chezmoi",
-    "version": "2.70.2",
+    "version": "2.70.3",
     "description": "Manage your dotfiles across multiple machines",
     "homepage": "https://chezmoi.io",
     "depends": [],
-    "srcurl": "https://github.com/twpayne/chezmoi/archive/refs/tags/v2.70.2.tar.gz",
+    "srcurl": "https://github.com/twpayne/chezmoi/archive/refs/tags/v2.70.3.tar.gz",
     "maintainer": "Henrik Grimler @Grimler91",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/d6d4b9226d/packages/chezmoi",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/d6d4b9226d/packages/chezmoi/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/d6d4b9226d/packages/chezmoi/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/99ef59eeac/packages/chezmoi",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/99ef59eeac/packages/chezmoi/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/99ef59eeac/packages/chezmoi/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -29926,7 +29926,7 @@
   },
   {
     "name": "ollama",
-    "version": "0.23.1",
+    "version": "0.23.2",
     "description": "Get up and running with large language models",
     "homepage": "https://ollama.com/",
     "depends": [
@@ -29934,26 +29934,26 @@
     ],
     "srcurl": "git+https://github.com/ollama/ollama",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/c90109c49c/packages/ollama",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/c90109c49c/packages/ollama/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/c90109c49c/packages/ollama/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/ee37f03d6d/packages/ollama",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/ee37f03d6d/packages/ollama/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/ee37f03d6d/packages/ollama/build.sh",
     "package_patch_urls": [
-      "https://github.com/strsp/termux-ng/blob/c90109c49c/packages/ollama/0001-do-not-install-runtime-deps.patch",
-      "https://github.com/strsp/termux-ng/blob/c90109c49c/packages/ollama/0002-properly-search-libs-on-android.patch",
-      "https://github.com/strsp/termux-ng/blob/c90109c49c/packages/ollama/0003-do-not-include-sources-for-vulkan-again.patch",
-      "https://github.com/strsp/termux-ng/blob/c90109c49c/packages/ollama/0004-force-disable-features-on-Andoid.patch",
-      "https://github.com/strsp/termux-ng/blob/c90109c49c/packages/ollama/0006-do-not-search-hip-memory.patch",
-      "https://github.com/strsp/termux-ng/blob/c90109c49c/packages/ollama/0007-do-not-use-flash-attention-when-using-cpu.patch",
-      "https://github.com/strsp/termux-ng/blob/c90109c49c/packages/ollama/0008-fix-build-with-latest-vulkan-hpp.patch"
+      "https://github.com/strsp/termux-ng/blob/ee37f03d6d/packages/ollama/0001-do-not-install-runtime-deps.patch",
+      "https://github.com/strsp/termux-ng/blob/ee37f03d6d/packages/ollama/0002-properly-search-libs-on-android.patch",
+      "https://github.com/strsp/termux-ng/blob/ee37f03d6d/packages/ollama/0003-do-not-include-sources-for-vulkan-again.patch",
+      "https://github.com/strsp/termux-ng/blob/ee37f03d6d/packages/ollama/0004-force-disable-features-on-Andoid.patch",
+      "https://github.com/strsp/termux-ng/blob/ee37f03d6d/packages/ollama/0006-do-not-search-hip-memory.patch",
+      "https://github.com/strsp/termux-ng/blob/ee37f03d6d/packages/ollama/0007-do-not-use-flash-attention-when-using-cpu.patch",
+      "https://github.com/strsp/termux-ng/blob/ee37f03d6d/packages/ollama/0008-fix-build-with-latest-vulkan-hpp.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/strsp/termux-ng/c90109c49c/packages/ollama/0001-do-not-install-runtime-deps.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/c90109c49c/packages/ollama/0002-properly-search-libs-on-android.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/c90109c49c/packages/ollama/0003-do-not-include-sources-for-vulkan-again.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/c90109c49c/packages/ollama/0004-force-disable-features-on-Andoid.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/c90109c49c/packages/ollama/0006-do-not-search-hip-memory.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/c90109c49c/packages/ollama/0007-do-not-use-flash-attention-when-using-cpu.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/c90109c49c/packages/ollama/0008-fix-build-with-latest-vulkan-hpp.patch"
+      "https://raw.githubusercontent.com/strsp/termux-ng/ee37f03d6d/packages/ollama/0001-do-not-install-runtime-deps.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/ee37f03d6d/packages/ollama/0002-properly-search-libs-on-android.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/ee37f03d6d/packages/ollama/0003-do-not-include-sources-for-vulkan-again.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/ee37f03d6d/packages/ollama/0004-force-disable-features-on-Andoid.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/ee37f03d6d/packages/ollama/0006-do-not-search-hip-memory.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/ee37f03d6d/packages/ollama/0007-do-not-use-flash-attention-when-using-cpu.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/ee37f03d6d/packages/ollama/0008-fix-build-with-latest-vulkan-hpp.patch"
     ],
     "auto_updated": true
   },
@@ -35121,15 +35121,15 @@
   },
   {
     "name": "railway-cli",
-    "version": "4.51.2",
+    "version": "4.54.0",
     "description": "This is the command line interface for Railway",
     "homepage": "https://railway.app",
     "depends": [],
-    "srcurl": "https://github.com/railwayapp/cli/archive/refs/tags/v4.51.2.tar.gz",
+    "srcurl": "https://github.com/railwayapp/cli/archive/refs/tags/v4.54.0.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/611009e42d/packages/railway-cli",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/611009e42d/packages/railway-cli/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/611009e42d/packages/railway-cli/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/57a31f5923/packages/railway-cli",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/57a31f5923/packages/railway-cli/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/57a31f5923/packages/railway-cli/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -41081,7 +41081,7 @@
   },
   {
     "name": "tor",
-    "version": "0.4.9.7",
+    "version": "0.4.9.8",
     "description": "The Onion Router anonymizing overlay network",
     "homepage": "https://www.torproject.org",
     "depends": [
@@ -41091,20 +41091,20 @@
       "resolv-conf",
       "zlib"
     ],
-    "srcurl": "https://www.torproject.org/dist/tor-0.4.9.7.tar.gz",
+    "srcurl": "https://www.torproject.org/dist/tor-0.4.9.8.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/ef2e8fb9e0/packages/tor",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/ef2e8fb9e0/packages/tor/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/ef2e8fb9e0/packages/tor/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/c7a634d92f/packages/tor",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/c7a634d92f/packages/tor/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/c7a634d92f/packages/tor/build.sh",
     "package_patch_urls": [
-      "https://github.com/strsp/termux-ng/blob/ef2e8fb9e0/packages/tor/remove-adbism.patch",
-      "https://github.com/strsp/termux-ng/blob/ef2e8fb9e0/packages/tor/src-app-main-main.c.patch",
-      "https://github.com/strsp/termux-ng/blob/ef2e8fb9e0/packages/tor/src-feature-relay-dns.c.patch"
+      "https://github.com/strsp/termux-ng/blob/c7a634d92f/packages/tor/remove-adbism.patch",
+      "https://github.com/strsp/termux-ng/blob/c7a634d92f/packages/tor/src-app-main-main.c.patch",
+      "https://github.com/strsp/termux-ng/blob/c7a634d92f/packages/tor/src-feature-relay-dns.c.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/strsp/termux-ng/ef2e8fb9e0/packages/tor/remove-adbism.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/ef2e8fb9e0/packages/tor/src-app-main-main.c.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/ef2e8fb9e0/packages/tor/src-feature-relay-dns.c.patch"
+      "https://raw.githubusercontent.com/strsp/termux-ng/c7a634d92f/packages/tor/remove-adbism.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/c7a634d92f/packages/tor/src-app-main-main.c.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/c7a634d92f/packages/tor/src-feature-relay-dns.c.patch"
     ],
     "auto_updated": true
   },
@@ -43708,15 +43708,15 @@
   },
   {
     "name": "vulkan-headers",
-    "version": "1.4.350",
+    "version": "1.4.351",
     "description": "Vulkan Header files and API registry",
     "homepage": "https://github.com/KhronosGroup/Vulkan-Headers",
     "depends": [],
-    "srcurl": "https://github.com/KhronosGroup/Vulkan-Headers/archive/refs/tags/v1.4.350.tar.gz",
+    "srcurl": "https://github.com/KhronosGroup/Vulkan-Headers/archive/refs/tags/v1.4.351.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/393d19117b/packages/vulkan-headers",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/393d19117b/packages/vulkan-headers/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/393d19117b/packages/vulkan-headers/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/8faca823c6/packages/vulkan-headers",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/8faca823c6/packages/vulkan-headers/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/8faca823c6/packages/vulkan-headers/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -43770,22 +43770,22 @@
   },
   {
     "name": "vulkan-loader",
-    "version": "1.4.350",
+    "version": "1.4.351",
     "description": "Vulkan Loader",
     "homepage": "https://github.com/KhronosGroup/Vulkan-Loader",
     "depends": [],
-    "srcurl": "https://github.com/KhronosGroup/Vulkan-Loader/archive/refs/tags/v1.4.350.tar.gz",
+    "srcurl": "https://github.com/KhronosGroup/Vulkan-Loader/archive/refs/tags/v1.4.351.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/55cc104bf2/packages/vulkan-loader-generic",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/55cc104bf2/packages/vulkan-loader-generic/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/55cc104bf2/packages/vulkan-loader-generic/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/22184287aa/packages/vulkan-loader-generic",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/22184287aa/packages/vulkan-loader-generic/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/22184287aa/packages/vulkan-loader-generic/build.sh",
     "package_patch_urls": [
-      "https://github.com/strsp/termux-ng/blob/55cc104bf2/packages/vulkan-loader-generic/0001-fix-hardcoded-pathes.patch",
-      "https://github.com/strsp/termux-ng/blob/55cc104bf2/packages/vulkan-loader-generic/0002-properly-enable-extensions.patch"
+      "https://github.com/strsp/termux-ng/blob/22184287aa/packages/vulkan-loader-generic/0001-fix-hardcoded-pathes.patch",
+      "https://github.com/strsp/termux-ng/blob/22184287aa/packages/vulkan-loader-generic/0002-properly-enable-extensions.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/strsp/termux-ng/55cc104bf2/packages/vulkan-loader-generic/0001-fix-hardcoded-pathes.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/55cc104bf2/packages/vulkan-loader-generic/0002-properly-enable-extensions.patch"
+      "https://raw.githubusercontent.com/strsp/termux-ng/22184287aa/packages/vulkan-loader-generic/0001-fix-hardcoded-pathes.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/22184287aa/packages/vulkan-loader-generic/0002-properly-enable-extensions.patch"
     ],
     "auto_updated": true
   },
@@ -43820,20 +43820,20 @@
   },
   {
     "name": "vulkan-utility-libraries",
-    "version": "1.4.350",
+    "version": "1.4.351",
     "description": "Utility Libraries for Vulkan",
     "homepage": "https://github.com/KhronosGroup/Vulkan-Utility-Libraries",
     "depends": [],
-    "srcurl": "https://github.com/KhronosGroup/Vulkan-Utility-Libraries/archive/refs/tags/v1.4.350.tar.gz",
+    "srcurl": "https://github.com/KhronosGroup/Vulkan-Utility-Libraries/archive/refs/tags/v1.4.351.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/9964bafcf8/packages/vulkan-utility-libraries",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/9964bafcf8/packages/vulkan-utility-libraries/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/9964bafcf8/packages/vulkan-utility-libraries/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/839396339b/packages/vulkan-utility-libraries",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/839396339b/packages/vulkan-utility-libraries/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/839396339b/packages/vulkan-utility-libraries/build.sh",
     "package_patch_urls": [
-      "https://github.com/strsp/termux-ng/blob/9964bafcf8/packages/vulkan-utility-libraries/0001-do-not-build-for-android.patch"
+      "https://github.com/strsp/termux-ng/blob/839396339b/packages/vulkan-utility-libraries/0001-do-not-build-for-android.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/strsp/termux-ng/9964bafcf8/packages/vulkan-utility-libraries/0001-do-not-build-for-android.patch"
+      "https://raw.githubusercontent.com/strsp/termux-ng/839396339b/packages/vulkan-utility-libraries/0001-do-not-build-for-android.patch"
     ],
     "auto_updated": true
   },
@@ -45597,7 +45597,7 @@
   },
   {
     "name": "znc",
-    "version": "1.10.1",
+    "version": "1.10.2",
     "description": "An advanced IRC bouncer",
     "homepage": "https://znc.in/",
     "depends": [
@@ -45607,16 +45607,16 @@
       "openssl",
       "zlib"
     ],
-    "srcurl": "https://znc.in/releases/archive/znc-1.10.1.tar.gz",
+    "srcurl": "https://znc.in/releases/archive/znc-1.10.2.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/76c9b5956d/packages/znc",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/76c9b5956d/packages/znc/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/76c9b5956d/packages/znc/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/9c63cfdd65/packages/znc",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/9c63cfdd65/packages/znc/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/9c63cfdd65/packages/znc/build.sh",
     "package_patch_urls": [
-      "https://github.com/strsp/termux-ng/blob/76c9b5956d/packages/znc/src-main.cpp.patch"
+      "https://github.com/strsp/termux-ng/blob/9c63cfdd65/packages/znc/src-main.cpp.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/strsp/termux-ng/76c9b5956d/packages/znc/src-main.cpp.patch"
+      "https://raw.githubusercontent.com/strsp/termux-ng/9c63cfdd65/packages/znc/src-main.cpp.patch"
     ],
     "auto_updated": true
   },
@@ -51619,7 +51619,7 @@
   },
   {
     "name": "feh",
-    "version": "3.12.1",
+    "version": "3.12.2",
     "description": "Fast and light imlib2-based image viewer",
     "homepage": "https://feh.finalrewind.org/",
     "depends": [
@@ -51630,28 +51630,28 @@
       "libx11",
       "libxinerama"
     ],
-    "srcurl": "https://feh.finalrewind.org/feh-3.12.1.tar.bz2",
+    "srcurl": "https://feh.finalrewind.org/feh-3.12.2.tar.bz2",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/908a5558d4/x11-packages/feh",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/908a5558d4/x11-packages/feh/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/908a5558d4/x11-packages/feh/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/76e44900b1/x11-packages/feh",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/76e44900b1/x11-packages/feh/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/76e44900b1/x11-packages/feh/build.sh",
     "package_patch_urls": [
-      "https://github.com/strsp/termux-ng/blob/908a5558d4/x11-packages/feh/feh-3.0_src_Makefile.patch",
-      "https://github.com/strsp/termux-ng/blob/908a5558d4/x11-packages/feh/feh-3.0_src_events.c.patch",
-      "https://github.com/strsp/termux-ng/blob/908a5558d4/x11-packages/feh/feh-3.0_src_filelist.c.patch",
-      "https://github.com/strsp/termux-ng/blob/908a5558d4/x11-packages/feh/feh-3.0_src_imlib.c.patch",
-      "https://github.com/strsp/termux-ng/blob/908a5558d4/x11-packages/feh/feh-3.0_src_keyevents.c.patch",
-      "https://github.com/strsp/termux-ng/blob/908a5558d4/x11-packages/feh/feh-3.0_src_options.c.patch",
-      "https://github.com/strsp/termux-ng/blob/908a5558d4/x11-packages/feh/feh-3.0_src_slideshow.c.patch"
+      "https://github.com/strsp/termux-ng/blob/76e44900b1/x11-packages/feh/feh-3.0_src_Makefile.patch",
+      "https://github.com/strsp/termux-ng/blob/76e44900b1/x11-packages/feh/feh-3.0_src_events.c.patch",
+      "https://github.com/strsp/termux-ng/blob/76e44900b1/x11-packages/feh/feh-3.0_src_filelist.c.patch",
+      "https://github.com/strsp/termux-ng/blob/76e44900b1/x11-packages/feh/feh-3.0_src_imlib.c.patch",
+      "https://github.com/strsp/termux-ng/blob/76e44900b1/x11-packages/feh/feh-3.0_src_keyevents.c.patch",
+      "https://github.com/strsp/termux-ng/blob/76e44900b1/x11-packages/feh/feh-3.0_src_options.c.patch",
+      "https://github.com/strsp/termux-ng/blob/76e44900b1/x11-packages/feh/feh-3.0_src_slideshow.c.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/strsp/termux-ng/908a5558d4/x11-packages/feh/feh-3.0_src_Makefile.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/908a5558d4/x11-packages/feh/feh-3.0_src_events.c.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/908a5558d4/x11-packages/feh/feh-3.0_src_filelist.c.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/908a5558d4/x11-packages/feh/feh-3.0_src_imlib.c.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/908a5558d4/x11-packages/feh/feh-3.0_src_keyevents.c.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/908a5558d4/x11-packages/feh/feh-3.0_src_options.c.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/908a5558d4/x11-packages/feh/feh-3.0_src_slideshow.c.patch"
+      "https://raw.githubusercontent.com/strsp/termux-ng/76e44900b1/x11-packages/feh/feh-3.0_src_Makefile.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/76e44900b1/x11-packages/feh/feh-3.0_src_events.c.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/76e44900b1/x11-packages/feh/feh-3.0_src_filelist.c.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/76e44900b1/x11-packages/feh/feh-3.0_src_imlib.c.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/76e44900b1/x11-packages/feh/feh-3.0_src_keyevents.c.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/76e44900b1/x11-packages/feh/feh-3.0_src_options.c.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/76e44900b1/x11-packages/feh/feh-3.0_src_slideshow.c.patch"
     ],
     "auto_updated": true
   },
@@ -67101,7 +67101,7 @@
   },
   {
     "name": "telegram-desktop",
-    "version": "6.7.8",
+    "version": "6.8.0",
     "description": "Telegram Desktop Client",
     "homepage": "https://desktop.telegram.org/",
     "depends": [
@@ -67139,28 +67139,28 @@
       "xxhash",
       "zlib"
     ],
-    "srcurl": "https://github.com/telegramdesktop/tdesktop/releases/download/v6.7.8/tdesktop-6.7.8-full.tar.gz",
+    "srcurl": "https://github.com/telegramdesktop/tdesktop/releases/download/v6.8.0/tdesktop-6.8.0-full.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/5a7e705209/x11-packages/telegram-desktop",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/5a7e705209/x11-packages/telegram-desktop/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/5a7e705209/x11-packages/telegram-desktop/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/a300e0913b/x11-packages/telegram-desktop",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/a300e0913b/x11-packages/telegram-desktop/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/a300e0913b/x11-packages/telegram-desktop/build.sh",
     "package_patch_urls": [
-      "https://github.com/strsp/termux-ng/blob/5a7e705209/x11-packages/telegram-desktop/0001-use-prebuilt-cppgir.patch",
-      "https://github.com/strsp/termux-ng/blob/5a7e705209/x11-packages/telegram-desktop/0002-webrtc-clang20.patch",
-      "https://github.com/strsp/termux-ng/blob/5a7e705209/x11-packages/telegram-desktop/0003-cppgir-namespace.patch",
-      "https://github.com/strsp/termux-ng/blob/5a7e705209/x11-packages/telegram-desktop/0004-libtd-no-android.patch",
-      "https://github.com/strsp/termux-ng/blob/5a7e705209/x11-packages/telegram-desktop/0005-libtg_owt-absl-20250814.patch",
-      "https://github.com/strsp/termux-ng/blob/5a7e705209/x11-packages/telegram-desktop/0006-gir-version.patch",
-      "https://github.com/strsp/termux-ng/blob/5a7e705209/x11-packages/telegram-desktop/0007-minizip-include.patch"
+      "https://github.com/strsp/termux-ng/blob/a300e0913b/x11-packages/telegram-desktop/0001-use-prebuilt-cppgir.patch",
+      "https://github.com/strsp/termux-ng/blob/a300e0913b/x11-packages/telegram-desktop/0002-webrtc-clang20.patch",
+      "https://github.com/strsp/termux-ng/blob/a300e0913b/x11-packages/telegram-desktop/0003-cppgir-namespace.patch",
+      "https://github.com/strsp/termux-ng/blob/a300e0913b/x11-packages/telegram-desktop/0004-libtd-no-android.patch",
+      "https://github.com/strsp/termux-ng/blob/a300e0913b/x11-packages/telegram-desktop/0005-libtg_owt-absl-20250814.patch",
+      "https://github.com/strsp/termux-ng/blob/a300e0913b/x11-packages/telegram-desktop/0006-gir-version.patch",
+      "https://github.com/strsp/termux-ng/blob/a300e0913b/x11-packages/telegram-desktop/0007-minizip-include.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/strsp/termux-ng/5a7e705209/x11-packages/telegram-desktop/0001-use-prebuilt-cppgir.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/5a7e705209/x11-packages/telegram-desktop/0002-webrtc-clang20.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/5a7e705209/x11-packages/telegram-desktop/0003-cppgir-namespace.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/5a7e705209/x11-packages/telegram-desktop/0004-libtd-no-android.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/5a7e705209/x11-packages/telegram-desktop/0005-libtg_owt-absl-20250814.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/5a7e705209/x11-packages/telegram-desktop/0006-gir-version.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/5a7e705209/x11-packages/telegram-desktop/0007-minizip-include.patch"
+      "https://raw.githubusercontent.com/strsp/termux-ng/a300e0913b/x11-packages/telegram-desktop/0001-use-prebuilt-cppgir.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/a300e0913b/x11-packages/telegram-desktop/0002-webrtc-clang20.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/a300e0913b/x11-packages/telegram-desktop/0003-cppgir-namespace.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/a300e0913b/x11-packages/telegram-desktop/0004-libtd-no-android.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/a300e0913b/x11-packages/telegram-desktop/0005-libtg_owt-absl-20250814.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/a300e0913b/x11-packages/telegram-desktop/0006-gir-version.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/a300e0913b/x11-packages/telegram-desktop/0007-minizip-include.patch"
     ],
     "auto_updated": true
   },
