@@ -6481,15 +6481,15 @@
   },
   {
     "name": "dnscontrol",
-    "version": "4.37.0",
+    "version": "4.37.1",
     "description": "Infrastructure as code for DNS!",
     "homepage": "https://github.com/StackExchange/dnscontrol",
     "depends": [],
-    "srcurl": "https://github.com/StackExchange/dnscontrol/archive/refs/tags/v4.37.0.tar.gz",
+    "srcurl": "https://github.com/StackExchange/dnscontrol/archive/refs/tags/v4.37.1.tar.gz",
     "maintainer": "Izumi Sena Sora <info@unordinary.eu.org>",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/94dc614b21/packages/dnscontrol",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/94dc614b21/packages/dnscontrol/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/94dc614b21/packages/dnscontrol/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/e28c7ba45c/packages/dnscontrol",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/e28c7ba45c/packages/dnscontrol/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/e28c7ba45c/packages/dnscontrol/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -33772,20 +33772,20 @@
   },
   {
     "name": "pyrefly",
-    "version": "0.64.0",
+    "version": "0.64.1",
     "description": "A fast type checker and language server for Python",
     "homepage": "https://github.com/facebook/pyrefly.git",
     "depends": [],
-    "srcurl": "https://github.com/facebook/pyrefly/archive/refs/tags/0.64.0.tar.gz",
+    "srcurl": "https://github.com/facebook/pyrefly/archive/refs/tags/0.64.1.tar.gz",
     "maintainer": "@AhmadNaruto",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/cfbb1157f3/packages/pyrefly",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/cfbb1157f3/packages/pyrefly/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/cfbb1157f3/packages/pyrefly/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/ba96b4768d/packages/pyrefly",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/ba96b4768d/packages/pyrefly/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/ba96b4768d/packages/pyrefly/build.sh",
     "package_patch_urls": [
-      "https://github.com/strsp/termux-ng/blob/cfbb1157f3/packages/pyrefly/rust-cc-do-not-concatenate-all-the-CFLAGS.diff"
+      "https://github.com/strsp/termux-ng/blob/ba96b4768d/packages/pyrefly/rust-cc-do-not-concatenate-all-the-CFLAGS.diff"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/strsp/termux-ng/cfbb1157f3/packages/pyrefly/rust-cc-do-not-concatenate-all-the-CFLAGS.diff"
+      "https://raw.githubusercontent.com/strsp/termux-ng/ba96b4768d/packages/pyrefly/rust-cc-do-not-concatenate-all-the-CFLAGS.diff"
     ],
     "auto_updated": true
   },
@@ -43791,7 +43791,7 @@
   },
   {
     "name": "vulkan-tools",
-    "version": "1.4.350",
+    "version": "1.4.351",
     "description": "Vulkan Tools and Utilities",
     "homepage": "https://github.com/KhronosGroup/Vulkan-Tools",
     "depends": [
@@ -43801,20 +43801,20 @@
       "libxcb",
       "vulkan-loader"
     ],
-    "srcurl": "https://github.com/KhronosGroup/Vulkan-Tools/archive/refs/tags/v1.4.350.tar.gz",
+    "srcurl": "https://github.com/KhronosGroup/Vulkan-Tools/archive/refs/tags/v1.4.351.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/071bda097c/packages/vulkan-tools",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/071bda097c/packages/vulkan-tools/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/071bda097c/packages/vulkan-tools/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/31a146266c/packages/vulkan-tools",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/31a146266c/packages/vulkan-tools/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/31a146266c/packages/vulkan-tools/build.sh",
     "package_patch_urls": [
-      "https://github.com/strsp/termux-ng/blob/071bda097c/packages/vulkan-tools/0001-no-android.patch",
-      "https://github.com/strsp/termux-ng/blob/071bda097c/packages/vulkan-tools/0002-do-not-search-KHR_display-automatically-on-Termux.patch",
-      "https://github.com/strsp/termux-ng/blob/071bda097c/packages/vulkan-tools/0003-revert-vk-khr-display.patch"
+      "https://github.com/strsp/termux-ng/blob/31a146266c/packages/vulkan-tools/0001-no-android.patch",
+      "https://github.com/strsp/termux-ng/blob/31a146266c/packages/vulkan-tools/0002-do-not-search-KHR_display-automatically-on-Termux.patch",
+      "https://github.com/strsp/termux-ng/blob/31a146266c/packages/vulkan-tools/0003-revert-vk-khr-display.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/strsp/termux-ng/071bda097c/packages/vulkan-tools/0001-no-android.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/071bda097c/packages/vulkan-tools/0002-do-not-search-KHR_display-automatically-on-Termux.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/071bda097c/packages/vulkan-tools/0003-revert-vk-khr-display.patch"
+      "https://raw.githubusercontent.com/strsp/termux-ng/31a146266c/packages/vulkan-tools/0001-no-android.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/31a146266c/packages/vulkan-tools/0002-do-not-search-KHR_display-automatically-on-Termux.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/31a146266c/packages/vulkan-tools/0003-revert-vk-khr-display.patch"
     ],
     "auto_updated": true
   },
@@ -67101,7 +67101,7 @@
   },
   {
     "name": "telegram-desktop",
-    "version": "6.8.0",
+    "version": "6.8.1",
     "description": "Telegram Desktop Client",
     "homepage": "https://desktop.telegram.org/",
     "depends": [
@@ -67139,28 +67139,28 @@
       "xxhash",
       "zlib"
     ],
-    "srcurl": "https://github.com/telegramdesktop/tdesktop/releases/download/v6.8.0/tdesktop-6.8.0-full.tar.gz",
+    "srcurl": "https://github.com/telegramdesktop/tdesktop/releases/download/v6.8.1/tdesktop-6.8.1-full.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/a300e0913b/x11-packages/telegram-desktop",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/a300e0913b/x11-packages/telegram-desktop/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/a300e0913b/x11-packages/telegram-desktop/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/85acd8e6a9/x11-packages/telegram-desktop",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/85acd8e6a9/x11-packages/telegram-desktop/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/85acd8e6a9/x11-packages/telegram-desktop/build.sh",
     "package_patch_urls": [
-      "https://github.com/strsp/termux-ng/blob/a300e0913b/x11-packages/telegram-desktop/0001-use-prebuilt-cppgir.patch",
-      "https://github.com/strsp/termux-ng/blob/a300e0913b/x11-packages/telegram-desktop/0002-webrtc-clang20.patch",
-      "https://github.com/strsp/termux-ng/blob/a300e0913b/x11-packages/telegram-desktop/0003-cppgir-namespace.patch",
-      "https://github.com/strsp/termux-ng/blob/a300e0913b/x11-packages/telegram-desktop/0004-libtd-no-android.patch",
-      "https://github.com/strsp/termux-ng/blob/a300e0913b/x11-packages/telegram-desktop/0005-libtg_owt-absl-20250814.patch",
-      "https://github.com/strsp/termux-ng/blob/a300e0913b/x11-packages/telegram-desktop/0006-gir-version.patch",
-      "https://github.com/strsp/termux-ng/blob/a300e0913b/x11-packages/telegram-desktop/0007-minizip-include.patch"
+      "https://github.com/strsp/termux-ng/blob/85acd8e6a9/x11-packages/telegram-desktop/0001-use-prebuilt-cppgir.patch",
+      "https://github.com/strsp/termux-ng/blob/85acd8e6a9/x11-packages/telegram-desktop/0002-webrtc-clang20.patch",
+      "https://github.com/strsp/termux-ng/blob/85acd8e6a9/x11-packages/telegram-desktop/0003-cppgir-namespace.patch",
+      "https://github.com/strsp/termux-ng/blob/85acd8e6a9/x11-packages/telegram-desktop/0004-libtd-no-android.patch",
+      "https://github.com/strsp/termux-ng/blob/85acd8e6a9/x11-packages/telegram-desktop/0005-libtg_owt-absl-20250814.patch",
+      "https://github.com/strsp/termux-ng/blob/85acd8e6a9/x11-packages/telegram-desktop/0006-gir-version.patch",
+      "https://github.com/strsp/termux-ng/blob/85acd8e6a9/x11-packages/telegram-desktop/0007-minizip-include.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/strsp/termux-ng/a300e0913b/x11-packages/telegram-desktop/0001-use-prebuilt-cppgir.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/a300e0913b/x11-packages/telegram-desktop/0002-webrtc-clang20.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/a300e0913b/x11-packages/telegram-desktop/0003-cppgir-namespace.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/a300e0913b/x11-packages/telegram-desktop/0004-libtd-no-android.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/a300e0913b/x11-packages/telegram-desktop/0005-libtg_owt-absl-20250814.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/a300e0913b/x11-packages/telegram-desktop/0006-gir-version.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/a300e0913b/x11-packages/telegram-desktop/0007-minizip-include.patch"
+      "https://raw.githubusercontent.com/strsp/termux-ng/85acd8e6a9/x11-packages/telegram-desktop/0001-use-prebuilt-cppgir.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/85acd8e6a9/x11-packages/telegram-desktop/0002-webrtc-clang20.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/85acd8e6a9/x11-packages/telegram-desktop/0003-cppgir-namespace.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/85acd8e6a9/x11-packages/telegram-desktop/0004-libtd-no-android.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/85acd8e6a9/x11-packages/telegram-desktop/0005-libtg_owt-absl-20250814.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/85acd8e6a9/x11-packages/telegram-desktop/0006-gir-version.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/85acd8e6a9/x11-packages/telegram-desktop/0007-minizip-include.patch"
     ],
     "auto_updated": true
   },
