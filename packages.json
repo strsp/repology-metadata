@@ -7657,15 +7657,15 @@
   },
   {
     "name": "emmylua-ls",
-    "version": "0.22.0",
+    "version": "0.23.0",
     "description": "Emmy Lua Language Server coded in Rust",
     "homepage": "https://github.com/EmmyLuaLs/emmylua-analyzer-rust",
     "depends": [],
-    "srcurl": "https://github.com/EmmyLuaLs/emmylua-analyzer-rust/archive/refs/tags/0.22.0.tar.gz",
+    "srcurl": "https://github.com/EmmyLuaLs/emmylua-analyzer-rust/archive/refs/tags/0.23.0.tar.gz",
     "maintainer": "Steven Xu @stevenxxiu",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/3c8e412cc9/packages/emmylua-ls",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/3c8e412cc9/packages/emmylua-ls/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/3c8e412cc9/packages/emmylua-ls/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/23e0ebe010/packages/emmylua-ls",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/23e0ebe010/packages/emmylua-ls/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/23e0ebe010/packages/emmylua-ls/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -23911,7 +23911,7 @@
   },
   {
     "name": "libzim",
-    "version": "9.6.0",
+    "version": "9.7.0",
     "description": "The ZIM library is the reference implementation for the ZIM file format.",
     "homepage": "https://openzim.org",
     "depends": [
@@ -23921,11 +23921,11 @@
       "libxapian",
       "zstd"
     ],
-    "srcurl": "https://github.com/openzim/libzim/archive/refs/tags/9.6.0.tar.gz",
+    "srcurl": "https://github.com/openzim/libzim/archive/refs/tags/9.7.0.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/16afc94a84/packages/libzim",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/16afc94a84/packages/libzim/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/16afc94a84/packages/libzim/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/bc056bd281/packages/libzim",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/bc056bd281/packages/libzim/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/bc056bd281/packages/libzim/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -67273,7 +67273,7 @@
   },
   {
     "name": "texstudio",
-    "version": "4.9.3",
+    "version": "4.9.4",
     "description": "A fully featured LaTeX editor",
     "homepage": "https://www.texstudio.org/",
     "depends": [
@@ -67289,11 +67289,11 @@
       "texstudio-data",
       "zlib"
     ],
-    "srcurl": "https://github.com/texstudio-org/texstudio/archive/refs/tags/4.9.3.tar.gz",
+    "srcurl": "https://github.com/texstudio-org/texstudio/archive/refs/tags/4.9.4.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/2202bdef2d/x11-packages/texstudio",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/2202bdef2d/x11-packages/texstudio/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/2202bdef2d/x11-packages/texstudio/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/73cc115735/x11-packages/texstudio",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/73cc115735/x11-packages/texstudio/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/73cc115735/x11-packages/texstudio/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
