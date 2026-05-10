@@ -14416,20 +14416,20 @@
   },
   {
     "name": "just",
-    "version": "1.50.0",
+    "version": "1.51.0",
     "description": "A handy way to save and run project-specific commands",
     "homepage": "https://just.systems",
     "depends": [],
-    "srcurl": "https://github.com/casey/just/archive/refs/tags/1.50.0.tar.gz",
+    "srcurl": "https://github.com/casey/just/archive/refs/tags/1.51.0.tar.gz",
     "maintainer": "@flipee",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/20e6ae6197/packages/just",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/20e6ae6197/packages/just/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/20e6ae6197/packages/just/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/3d849d8c00/packages/just",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/3d849d8c00/packages/just/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/3d849d8c00/packages/just/build.sh",
     "package_patch_urls": [
-      "https://github.com/strsp/termux-ng/blob/20e6ae6197/packages/just/termux_shebang.patch"
+      "https://github.com/strsp/termux-ng/blob/3d849d8c00/packages/just/termux_shebang.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/strsp/termux-ng/20e6ae6197/packages/just/termux_shebang.patch"
+      "https://raw.githubusercontent.com/strsp/termux-ng/3d849d8c00/packages/just/termux_shebang.patch"
     ],
     "auto_updated": true
   },
