@@ -3428,25 +3428,25 @@
   },
   {
     "name": "calc",
-    "version": "2.16.1.2",
+    "version": "2.16.1.3",
     "description": "Arbitrary precision console calculator",
     "homepage": "http://www.isthe.com/chongo/tech/comp/calc/",
     "depends": [
       "ncurses",
       "readline"
     ],
-    "srcurl": "https://github.com/lcn2/calc/releases/download/v2.16.1.2/calc-2.16.1.2.tar.bz2",
+    "srcurl": "https://github.com/lcn2/calc/releases/download/v2.16.1.3/calc-2.16.1.3.tar.bz2",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/85967f8b93/packages/calc",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/85967f8b93/packages/calc/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/85967f8b93/packages/calc/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/19b96732ce/packages/calc",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/19b96732ce/packages/calc/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/19b96732ce/packages/calc/build.sh",
     "package_patch_urls": [
-      "https://github.com/strsp/termux-ng/blob/85967f8b93/packages/calc/Makefile.config.patch",
-      "https://github.com/strsp/termux-ng/blob/85967f8b93/packages/calc/Makefile.target.patch"
+      "https://github.com/strsp/termux-ng/blob/19b96732ce/packages/calc/Makefile.config.patch",
+      "https://github.com/strsp/termux-ng/blob/19b96732ce/packages/calc/Makefile.target.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/strsp/termux-ng/85967f8b93/packages/calc/Makefile.config.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/85967f8b93/packages/calc/Makefile.target.patch"
+      "https://raw.githubusercontent.com/strsp/termux-ng/19b96732ce/packages/calc/Makefile.config.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/19b96732ce/packages/calc/Makefile.target.patch"
     ],
     "auto_updated": true
   },
@@ -13943,7 +13943,7 @@
   },
   {
     "name": "jackett",
-    "version": "0.24.1807",
+    "version": "0.24.1841",
     "description": "API Support for your favorite torrent trackers",
     "homepage": "https://github.com/jackett/jackett",
     "depends": [
@@ -13951,11 +13951,11 @@
       "dotnet-host",
       "dotnet-runtime-9.0"
     ],
-    "srcurl": "https://github.com/Jackett/Jackett/archive/refs/tags/v0.24.1807.tar.gz",
+    "srcurl": "https://github.com/Jackett/Jackett/archive/refs/tags/v0.24.1841.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/0cafb0614e/packages/jackett",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/0cafb0614e/packages/jackett/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/0cafb0614e/packages/jackett/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/f253c6d6f4/packages/jackett",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/f253c6d6f4/packages/jackett/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/f253c6d6f4/packages/jackett/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -17176,15 +17176,15 @@
   },
   {
     "name": "libexpat",
-    "version": "2.8.0",
+    "version": "2.8.1",
     "description": "XML parsing C library",
     "homepage": "https://libexpat.github.io/",
     "depends": [],
-    "srcurl": "https://github.com/libexpat/libexpat/releases/download/R_2_8_0/expat-2.8.0.tar.bz2",
+    "srcurl": "https://github.com/libexpat/libexpat/releases/download/R_2_8_1/expat-2.8.1.tar.xz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/db9381cf8a/packages/libexpat",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/db9381cf8a/packages/libexpat/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/db9381cf8a/packages/libexpat/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/39e4bace25/packages/libexpat",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/39e4bace25/packages/libexpat/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/39e4bace25/packages/libexpat/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -18580,7 +18580,7 @@
   },
   {
     "name": "libkiwix",
-    "version": "14.2.0",
+    "version": "14.2.1",
     "description": "A library that contains a lot of things used by other kiwix programs",
     "homepage": "https://github.com/kiwix/libkiwix",
     "depends": [
@@ -18593,16 +18593,16 @@
       "libzim",
       "zlib"
     ],
-    "srcurl": "https://github.com/kiwix/libkiwix/archive/refs/tags/14.2.0.tar.gz",
+    "srcurl": "https://github.com/kiwix/libkiwix/archive/refs/tags/14.2.1.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/dfb98dc769/packages/libkiwix",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/dfb98dc769/packages/libkiwix/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/dfb98dc769/packages/libkiwix/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/158054d246/packages/libkiwix",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/158054d246/packages/libkiwix/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/158054d246/packages/libkiwix/build.sh",
     "package_patch_urls": [
-      "https://github.com/strsp/termux-ng/blob/dfb98dc769/packages/libkiwix/src-tools-pathTools.cpp.patch"
+      "https://github.com/strsp/termux-ng/blob/158054d246/packages/libkiwix/src-tools-pathTools.cpp.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/strsp/termux-ng/dfb98dc769/packages/libkiwix/src-tools-pathTools.cpp.patch"
+      "https://raw.githubusercontent.com/strsp/termux-ng/158054d246/packages/libkiwix/src-tools-pathTools.cpp.patch"
     ],
     "auto_updated": true
   },
@@ -27057,20 +27057,20 @@
   },
   {
     "name": "moor",
-    "version": "2.13.0",
+    "version": "2.13.1",
     "description": "A pager designed to just do the right thing without any configuration",
     "homepage": "https://github.com/walles/moor",
     "depends": [],
-    "srcurl": "https://github.com/walles/moor/archive/refs/tags/v2.13.0.tar.gz",
+    "srcurl": "https://github.com/walles/moor/archive/refs/tags/v2.13.1.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/9359164b32/packages/moor",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/9359164b32/packages/moor/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/9359164b32/packages/moor/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/bb4d84b3e2/packages/moor",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/bb4d84b3e2/packages/moor/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/bb4d84b3e2/packages/moor/build.sh",
     "package_patch_urls": [
-      "https://github.com/strsp/termux-ng/blob/9359164b32/packages/moor/default-editor.patch"
+      "https://github.com/strsp/termux-ng/blob/bb4d84b3e2/packages/moor/default-editor.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/strsp/termux-ng/9359164b32/packages/moor/default-editor.patch"
+      "https://raw.githubusercontent.com/strsp/termux-ng/bb4d84b3e2/packages/moor/default-editor.patch"
     ],
     "auto_updated": true
   },
@@ -35121,15 +35121,15 @@
   },
   {
     "name": "railway-cli",
-    "version": "4.57.2",
+    "version": "4.57.3",
     "description": "This is the command line interface for Railway",
     "homepage": "https://railway.app",
     "depends": [],
-    "srcurl": "https://github.com/railwayapp/cli/archive/refs/tags/v4.57.2.tar.gz",
+    "srcurl": "https://github.com/railwayapp/cli/archive/refs/tags/v4.57.3.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/2979739c65/packages/railway-cli",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/2979739c65/packages/railway-cli/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/2979739c65/packages/railway-cli/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/a0bc2714c2/packages/railway-cli",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/a0bc2714c2/packages/railway-cli/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/a0bc2714c2/packages/railway-cli/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -36386,17 +36386,17 @@
   },
   {
     "name": "rust-analyzer",
-    "version": "2026-05-04",
+    "version": "2026-05-11",
     "description": "A Rust compiler front-end for IDEs",
     "homepage": "https://rust-analyzer.github.io/",
     "depends": [
       "rust-src"
     ],
-    "srcurl": "https://github.com/rust-lang/rust-analyzer/archive/refs/tags/2026-05-04.tar.gz",
+    "srcurl": "https://github.com/rust-lang/rust-analyzer/archive/refs/tags/2026-05-11.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/53c6583d90/packages/rust-analyzer",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/53c6583d90/packages/rust-analyzer/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/53c6583d90/packages/rust-analyzer/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/4cc5a4722e/packages/rust-analyzer",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/4cc5a4722e/packages/rust-analyzer/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/4cc5a4722e/packages/rust-analyzer/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -39258,7 +39258,7 @@
   },
   {
     "name": "swi-prolog",
-    "version": "10.1.6",
+    "version": "10.1.7",
     "description": "Most popular and complete prolog implementation",
     "homepage": "https://swi-prolog.org/",
     "depends": [
@@ -39277,18 +39277,18 @@
       "unixodbc",
       "zlib"
     ],
-    "srcurl": "https://www.swi-prolog.org/download/devel/src/swipl-10.1.6.tar.gz",
+    "srcurl": "https://www.swi-prolog.org/download/devel/src/swipl-10.1.7.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/e2f3617c68/packages/swi-prolog",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/e2f3617c68/packages/swi-prolog/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/e2f3617c68/packages/swi-prolog/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/7adbb99b52/packages/swi-prolog",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/7adbb99b52/packages/swi-prolog/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/7adbb99b52/packages/swi-prolog/build.sh",
     "package_patch_urls": [
-      "https://github.com/strsp/termux-ng/blob/e2f3617c68/packages/swi-prolog/continue-on-abi-check-failure.patch",
-      "https://github.com/strsp/termux-ng/blob/e2f3617c68/packages/swi-prolog/disable-installation-of-some-qlfs.patch"
+      "https://github.com/strsp/termux-ng/blob/7adbb99b52/packages/swi-prolog/continue-on-abi-check-failure.patch",
+      "https://github.com/strsp/termux-ng/blob/7adbb99b52/packages/swi-prolog/disable-installation-of-some-qlfs.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/strsp/termux-ng/e2f3617c68/packages/swi-prolog/continue-on-abi-check-failure.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/e2f3617c68/packages/swi-prolog/disable-installation-of-some-qlfs.patch"
+      "https://raw.githubusercontent.com/strsp/termux-ng/7adbb99b52/packages/swi-prolog/continue-on-abi-check-failure.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/7adbb99b52/packages/swi-prolog/disable-installation-of-some-qlfs.patch"
     ],
     "auto_updated": true
   },
@@ -39502,7 +39502,7 @@
   },
   {
     "name": "taglib",
-    "version": "2.2.1",
+    "version": "2.3",
     "description": "A Library for reading and editing the meta-data of several popular audio formats.",
     "homepage": "http://taglib.github.io/",
     "depends": [
@@ -39510,22 +39510,22 @@
       "zlib",
       "utf8cpp"
     ],
-    "srcurl": "https://github.com/taglib/taglib/archive/refs/tags/v2.2.1.tar.gz",
+    "srcurl": "https://github.com/taglib/taglib/archive/refs/tags/v2.3.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/b752500075/packages/taglib",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/b752500075/packages/taglib/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/b752500075/packages/taglib/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/4bfa5b99fd/packages/taglib",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/4bfa5b99fd/packages/taglib/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/4bfa5b99fd/packages/taglib/build.sh",
     "package_patch_urls": [
-      "https://github.com/strsp/termux-ng/blob/b752500075/packages/taglib/bindings-c-taglib_c.pc.cmake.patch",
-      "https://github.com/strsp/termux-ng/blob/b752500075/packages/taglib/taglib-config.cmake.patch",
-      "https://github.com/strsp/termux-ng/blob/b752500075/packages/taglib/taglib-tag.h.patch",
-      "https://github.com/strsp/termux-ng/blob/b752500075/packages/taglib/taglib.pc.cmake.patch"
+      "https://github.com/strsp/termux-ng/blob/4bfa5b99fd/packages/taglib/bindings-c-taglib_c.pc.cmake.patch",
+      "https://github.com/strsp/termux-ng/blob/4bfa5b99fd/packages/taglib/taglib-config.cmake.patch",
+      "https://github.com/strsp/termux-ng/blob/4bfa5b99fd/packages/taglib/taglib-tag.h.patch",
+      "https://github.com/strsp/termux-ng/blob/4bfa5b99fd/packages/taglib/taglib.pc.cmake.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/strsp/termux-ng/b752500075/packages/taglib/bindings-c-taglib_c.pc.cmake.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/b752500075/packages/taglib/taglib-config.cmake.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/b752500075/packages/taglib/taglib-tag.h.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/b752500075/packages/taglib/taglib.pc.cmake.patch"
+      "https://raw.githubusercontent.com/strsp/termux-ng/4bfa5b99fd/packages/taglib/bindings-c-taglib_c.pc.cmake.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/4bfa5b99fd/packages/taglib/taglib-config.cmake.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/4bfa5b99fd/packages/taglib/taglib-tag.h.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/4bfa5b99fd/packages/taglib/taglib.pc.cmake.patch"
     ],
     "auto_updated": true
   },
