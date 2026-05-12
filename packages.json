@@ -492,20 +492,20 @@
   },
   {
     "name": "algernon",
-    "version": "1.17.6",
+    "version": "1.17.7",
     "description": "Small self-contained web server with Lua, Markdown, QUIC, Redis and PostgreSQL support",
     "homepage": "https://algernon.roboticoverlords.org/",
     "depends": [],
-    "srcurl": "https://github.com/xyproto/algernon/archive/refs/tags/v1.17.6.tar.gz",
+    "srcurl": "https://github.com/xyproto/algernon/archive/refs/tags/v1.17.7.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/031e63cf70/packages/algernon",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/031e63cf70/packages/algernon/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/031e63cf70/packages/algernon/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/499982d3b4/packages/algernon",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/499982d3b4/packages/algernon/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/499982d3b4/packages/algernon/build.sh",
     "package_patch_urls": [
-      "https://github.com/strsp/termux-ng/blob/031e63cf70/packages/algernon/fix-hardcoded-paths.patch"
+      "https://github.com/strsp/termux-ng/blob/499982d3b4/packages/algernon/fix-hardcoded-paths.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/strsp/termux-ng/031e63cf70/packages/algernon/fix-hardcoded-paths.patch"
+      "https://raw.githubusercontent.com/strsp/termux-ng/499982d3b4/packages/algernon/fix-hardcoded-paths.patch"
     ],
     "auto_updated": true
   },
@@ -3413,15 +3413,15 @@
   },
   {
     "name": "caddy",
-    "version": "2.11.2",
+    "version": "2.11.3",
     "description": "Fast, cross-platform HTTP/2 web server",
     "homepage": "https://caddyserver.com/",
     "depends": [],
-    "srcurl": "https://github.com/caddyserver/caddy/archive/refs/tags/v2.11.2.tar.gz",
+    "srcurl": "https://github.com/caddyserver/caddy/archive/refs/tags/v2.11.3.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/fa80883a25/packages/caddy",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/fa80883a25/packages/caddy/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/fa80883a25/packages/caddy/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/906fe2bb7a/packages/caddy",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/906fe2bb7a/packages/caddy/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/906fe2bb7a/packages/caddy/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -13341,7 +13341,7 @@
   },
   {
     "name": "imagemagick",
-    "version": "7.1.2.21",
+    "version": "7.1.2.22",
     "description": "Suite to create, edit, compose, or convert images in a variety of formats",
     "homepage": "https://www.imagemagick.org/",
     "depends": [
@@ -13382,11 +13382,11 @@
       "pango",
       "zlib"
     ],
-    "srcurl": "https://imagemagick.org/archive/releases/ImageMagick-7.1.2-21.tar.xz",
+    "srcurl": "https://imagemagick.org/archive/releases/ImageMagick-7.1.2-22.tar.xz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/6c274a1635/packages/imagemagick",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/6c274a1635/packages/imagemagick/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/6c274a1635/packages/imagemagick/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/97ec5526de/packages/imagemagick",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/97ec5526de/packages/imagemagick/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/97ec5526de/packages/imagemagick/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -38244,15 +38244,15 @@
   },
   {
     "name": "spirv-headers",
-    "version": "1.4.341.0",
+    "version": "1.4.350.0",
     "description": "SPIR-V Headers",
     "homepage": "https://github.com/KhronosGroup/SPIRV-Headers",
     "depends": [],
-    "srcurl": "https://github.com/KhronosGroup/SPIRV-Headers/archive/refs/tags/vulkan-sdk-1.4.341.0.tar.gz",
+    "srcurl": "https://github.com/KhronosGroup/SPIRV-Headers/archive/refs/tags/vulkan-sdk-1.4.350.0.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/8b36fdec41/packages/spirv-headers",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/8b36fdec41/packages/spirv-headers/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/8b36fdec41/packages/spirv-headers/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/7da5f8a2cf/packages/spirv-headers",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/7da5f8a2cf/packages/spirv-headers/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/7da5f8a2cf/packages/spirv-headers/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -62232,17 +62232,17 @@
   },
   {
     "name": "ocean-sound-theme",
-    "version": "6.6.4",
+    "version": "6.6.5",
     "description": "Ocean Sound Theme for Plasma",
     "homepage": "https://invent.kde.org/plasma/ocean-sound-theme",
     "depends": [
       "libc++"
     ],
-    "srcurl": "https://download.kde.org/stable/plasma/6.6.4/ocean-sound-theme-6.6.4.tar.xz",
+    "srcurl": "https://download.kde.org/stable/plasma/6.6.5/ocean-sound-theme-6.6.5.tar.xz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/18238bd515/x11-packages/ocean-sound-theme",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/18238bd515/x11-packages/ocean-sound-theme/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/18238bd515/x11-packages/ocean-sound-theme/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/976c04bedd/x11-packages/ocean-sound-theme",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/976c04bedd/x11-packages/ocean-sound-theme/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/976c04bedd/x11-packages/ocean-sound-theme/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -62701,7 +62701,7 @@
   },
   {
     "name": "oxygen",
-    "version": "6.6.4",
+    "version": "6.6.5",
     "description": "KDE Oxygen style",
     "homepage": "https://invent.kde.org/plasma/oxygen",
     "depends": [
@@ -62722,11 +62722,11 @@
       "qt6-qtbase",
       "qt6-qtdeclarative"
     ],
-    "srcurl": "https://download.kde.org/stable/plasma/6.6.4/oxygen-6.6.4.tar.xz",
+    "srcurl": "https://download.kde.org/stable/plasma/6.6.5/oxygen-6.6.5.tar.xz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/bb4f4d7413/x11-packages/oxygen",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/bb4f4d7413/x11-packages/oxygen/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/bb4f4d7413/x11-packages/oxygen/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/31839f8429/x11-packages/oxygen",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/31839f8429/x11-packages/oxygen/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/31839f8429/x11-packages/oxygen/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -62750,17 +62750,17 @@
   },
   {
     "name": "oxygen-sounds",
-    "version": "6.6.4",
+    "version": "6.6.5",
     "description": "The Oxygen Sound Theme by KDE",
     "homepage": "https://invent.kde.org/plasma/oxygen-sounds",
     "depends": [
       "libc++"
     ],
-    "srcurl": "https://download.kde.org/stable/plasma/6.6.4/oxygen-sounds-6.6.4.tar.xz",
+    "srcurl": "https://download.kde.org/stable/plasma/6.6.5/oxygen-sounds-6.6.5.tar.xz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/51a5f8a229/x11-packages/oxygen-sounds",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/51a5f8a229/x11-packages/oxygen-sounds/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/51a5f8a229/x11-packages/oxygen-sounds/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/57ab3ca8e4/x11-packages/oxygen-sounds",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/57ab3ca8e4/x11-packages/oxygen-sounds/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/57ab3ca8e4/x11-packages/oxygen-sounds/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -63217,7 +63217,7 @@
   },
   {
     "name": "plasma-activities-stats",
-    "version": "6.6.4",
+    "version": "6.6.5",
     "description": "Provides usage data for KDE activities",
     "homepage": "https://invent.kde.org/plasma/plasma-activities-stats",
     "depends": [
@@ -63226,11 +63226,11 @@
       "plasma-activities",
       "qt6-qttools"
     ],
-    "srcurl": "https://download.kde.org/stable/plasma/6.6.4/plasma-activities-stats-6.6.4.tar.xz",
+    "srcurl": "https://download.kde.org/stable/plasma/6.6.5/plasma-activities-stats-6.6.5.tar.xz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/b599ee5c7a/x11-packages/plasma-activities-stats",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/b599ee5c7a/x11-packages/plasma-activities-stats/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/b599ee5c7a/x11-packages/plasma-activities-stats/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/0195a3bceb/x11-packages/plasma-activities-stats",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/0195a3bceb/x11-packages/plasma-activities-stats/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/0195a3bceb/x11-packages/plasma-activities-stats/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -63355,7 +63355,7 @@
   },
   {
     "name": "plasma-integration",
-    "version": "6.6.4",
+    "version": "6.6.5",
     "description": "Qt Platform Theme integration plugins for the Plasma workspaces",
     "homepage": "https://invent.kde.org/plasma/plasma-integration",
     "depends": [
@@ -63382,16 +63382,16 @@
       "qt6-qtbase",
       "qt6-qtdeclarative"
     ],
-    "srcurl": "https://download.kde.org/stable/plasma/6.6.4/plasma-integration-6.6.4.tar.xz",
+    "srcurl": "https://download.kde.org/stable/plasma/6.6.5/plasma-integration-6.6.5.tar.xz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/b934bde092/x11-packages/plasma-integration",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/b934bde092/x11-packages/plasma-integration/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/b934bde092/x11-packages/plasma-integration/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/d13380d62d/x11-packages/plasma-integration",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/d13380d62d/x11-packages/plasma-integration/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/d13380d62d/x11-packages/plasma-integration/build.sh",
     "package_patch_urls": [
-      "https://github.com/strsp/termux-ng/blob/b934bde092/x11-packages/plasma-integration/force-qt6-software-renderer.patch"
+      "https://github.com/strsp/termux-ng/blob/d13380d62d/x11-packages/plasma-integration/force-qt6-software-renderer.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/strsp/termux-ng/b934bde092/x11-packages/plasma-integration/force-qt6-software-renderer.patch"
+      "https://raw.githubusercontent.com/strsp/termux-ng/d13380d62d/x11-packages/plasma-integration/force-qt6-software-renderer.patch"
     ],
     "auto_updated": true
   },
@@ -63712,7 +63712,7 @@
   },
   {
     "name": "plasma5support",
-    "version": "6.6.4",
+    "version": "6.6.5",
     "description": "Porting aid to migrate from KDE Platform 5 to KDE Frameworks 6",
     "homepage": "https://invent.kde.org/plasma/plasma5support",
     "depends": [
@@ -63734,11 +63734,11 @@
       "qt6-qtbase",
       "qt6-qtdeclarative"
     ],
-    "srcurl": "https://download.kde.org/stable/plasma/6.6.4/plasma5support-6.6.4.tar.xz",
+    "srcurl": "https://download.kde.org/stable/plasma/6.6.5/plasma5support-6.6.5.tar.xz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/ad1975b9d0/x11-packages/plasma5support",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/ad1975b9d0/x11-packages/plasma5support/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/ad1975b9d0/x11-packages/plasma5support/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/4dbe229a3c/x11-packages/plasma5support",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/4dbe229a3c/x11-packages/plasma5support/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/4dbe229a3c/x11-packages/plasma5support/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -64506,7 +64506,7 @@
   },
   {
     "name": "qqc2-breeze-style",
-    "version": "6.6.4",
+    "version": "6.6.5",
     "description": "Applications useful for Plasma development",
     "homepage": "https://invent.kde.org/plasma/qqc2-breeze-style",
     "depends": [
@@ -64519,11 +64519,11 @@
       "qt6-qtbase",
       "qt6-qtdeclarative"
     ],
-    "srcurl": "https://download.kde.org/stable/plasma/6.6.4/qqc2-breeze-style-6.6.4.tar.xz",
+    "srcurl": "https://download.kde.org/stable/plasma/6.6.5/qqc2-breeze-style-6.6.5.tar.xz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/9f41099716/x11-packages/qqc2-breeze-style",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/9f41099716/x11-packages/qqc2-breeze-style/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/9f41099716/x11-packages/qqc2-breeze-style/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/18497dfb02/x11-packages/qqc2-breeze-style",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/18497dfb02/x11-packages/qqc2-breeze-style/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/18497dfb02/x11-packages/qqc2-breeze-style/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
