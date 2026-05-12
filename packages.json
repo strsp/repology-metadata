@@ -11962,7 +11962,7 @@
   },
   {
     "name": "gst-libav",
-    "version": "1.28.2",
+    "version": "1.28.3",
     "description": "GStreamer Libav plug-in contains one plugin with a set of elements using the Libav library code",
     "homepage": "https://gstreamer.freedesktop.org/modules/gst-libav.html",
     "depends": [
@@ -11971,18 +11971,18 @@
       "gst-plugins-base",
       "gstreamer"
     ],
-    "srcurl": "https://gstreamer.freedesktop.org/src/gst-libav/gst-libav-1.28.2.tar.xz",
+    "srcurl": "https://gstreamer.freedesktop.org/src/gst-libav/gst-libav-1.28.3.tar.xz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/ce39540c6e/packages/gst-libav",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/ce39540c6e/packages/gst-libav/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/ce39540c6e/packages/gst-libav/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/3c5898483f/packages/gst-libav",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/3c5898483f/packages/gst-libav/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/3c5898483f/packages/gst-libav/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
   },
   {
     "name": "gst-plugins-bad",
-    "version": "1.28.2",
+    "version": "1.28.3",
     "description": "GStreamer Bad Plug-ins",
     "homepage": "https://gstreamer.freedesktop.org/",
     "depends": [
@@ -12008,18 +12008,18 @@
       "openssl",
       "pango"
     ],
-    "srcurl": "https://gstreamer.freedesktop.org/src/gst-plugins-bad/gst-plugins-bad-1.28.2.tar.xz",
+    "srcurl": "https://gstreamer.freedesktop.org/src/gst-plugins-bad/gst-plugins-bad-1.28.3.tar.xz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/1ad936889a/packages/gst-plugins-bad",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/1ad936889a/packages/gst-plugins-bad/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/1ad936889a/packages/gst-plugins-bad/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/c6413ecf85/packages/gst-plugins-bad",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/c6413ecf85/packages/gst-plugins-bad/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/c6413ecf85/packages/gst-plugins-bad/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
   },
   {
     "name": "gst-plugins-base",
-    "version": "1.28.2",
+    "version": "1.28.3",
     "description": "GStreamer base plug-ins",
     "homepage": "https://gstreamer.freedesktop.org/",
     "depends": [
@@ -12040,22 +12040,22 @@
       "libxv",
       "zlib"
     ],
-    "srcurl": "https://gstreamer.freedesktop.org/src/gst-plugins-base/gst-plugins-base-1.28.2.tar.xz",
+    "srcurl": "https://gstreamer.freedesktop.org/src/gst-plugins-base/gst-plugins-base-1.28.3.tar.xz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/9a3a2bfa43/packages/gst-plugins-base",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/9a3a2bfa43/packages/gst-plugins-base/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/9a3a2bfa43/packages/gst-plugins-base/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/d81c3f2192/packages/gst-plugins-base",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/d81c3f2192/packages/gst-plugins-base/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/d81c3f2192/packages/gst-plugins-base/build.sh",
     "package_patch_urls": [
-      "https://github.com/strsp/termux-ng/blob/9a3a2bfa43/packages/gst-plugins-base/partially-revert-10411.patch"
+      "https://github.com/strsp/termux-ng/blob/d81c3f2192/packages/gst-plugins-base/partially-revert-10411.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/strsp/termux-ng/9a3a2bfa43/packages/gst-plugins-base/partially-revert-10411.patch"
+      "https://raw.githubusercontent.com/strsp/termux-ng/d81c3f2192/packages/gst-plugins-base/partially-revert-10411.patch"
     ],
     "auto_updated": true
   },
   {
     "name": "gst-plugins-good",
-    "version": "1.28.2",
+    "version": "1.28.3",
     "description": "GStreamer Good Plug-ins",
     "homepage": "https://gstreamer.freedesktop.org/",
     "depends": [
@@ -12079,40 +12079,40 @@
       "pulseaudio",
       "zlib"
     ],
-    "srcurl": "https://gstreamer.freedesktop.org/src/gst-plugins-good/gst-plugins-good-1.28.2.tar.xz",
+    "srcurl": "https://gstreamer.freedesktop.org/src/gst-plugins-good/gst-plugins-good-1.28.3.tar.xz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/d33568d36c/packages/gst-plugins-good",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/d33568d36c/packages/gst-plugins-good/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/d33568d36c/packages/gst-plugins-good/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/2da5541d8e/packages/gst-plugins-good",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/2da5541d8e/packages/gst-plugins-good/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/2da5541d8e/packages/gst-plugins-good/build.sh",
     "package_patch_urls": [
-      "https://github.com/strsp/termux-ng/blob/d33568d36c/packages/gst-plugins-good/autoplug_libcaca.patch"
+      "https://github.com/strsp/termux-ng/blob/2da5541d8e/packages/gst-plugins-good/autoplug_libcaca.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/strsp/termux-ng/d33568d36c/packages/gst-plugins-good/autoplug_libcaca.patch"
+      "https://raw.githubusercontent.com/strsp/termux-ng/2da5541d8e/packages/gst-plugins-good/autoplug_libcaca.patch"
     ],
     "auto_updated": true
   },
   {
     "name": "gst-plugins-ugly",
-    "version": "1.28.2",
+    "version": "1.28.3",
     "description": "GStreamer Ugly Plug-ins",
     "homepage": "https://gstreamer.freedesktop.org/",
     "depends": [
       "glib",
       "gst-plugins-base"
     ],
-    "srcurl": "https://gstreamer.freedesktop.org/src/gst-plugins-ugly/gst-plugins-ugly-1.28.2.tar.xz",
+    "srcurl": "https://gstreamer.freedesktop.org/src/gst-plugins-ugly/gst-plugins-ugly-1.28.3.tar.xz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/7206d061a0/packages/gst-plugins-ugly",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/7206d061a0/packages/gst-plugins-ugly/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/7206d061a0/packages/gst-plugins-ugly/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/55e240bfe8/packages/gst-plugins-ugly",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/55e240bfe8/packages/gst-plugins-ugly/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/55e240bfe8/packages/gst-plugins-ugly/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
   },
   {
     "name": "gst-python",
-    "version": "1.28.2",
+    "version": "1.28.3",
     "description": "Python bindings for GStreamer",
     "homepage": "https://gstreamer.freedesktop.org/",
     "depends": [
@@ -12122,32 +12122,32 @@
       "pygobject",
       "python"
     ],
-    "srcurl": "https://gstreamer.freedesktop.org/src/gst-python/gst-python-1.28.2.tar.xz",
+    "srcurl": "https://gstreamer.freedesktop.org/src/gst-python/gst-python-1.28.3.tar.xz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/a9f18a70cb/packages/gst-python",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/a9f18a70cb/packages/gst-python/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/a9f18a70cb/packages/gst-python/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/361c6752d0/packages/gst-python",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/361c6752d0/packages/gst-python/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/361c6752d0/packages/gst-python/build.sh",
     "package_patch_urls": [
-      "https://github.com/strsp/termux-ng/blob/a9f18a70cb/packages/gst-python/gi-overrides-meson.build.patch"
+      "https://github.com/strsp/termux-ng/blob/361c6752d0/packages/gst-python/gi-overrides-meson.build.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/strsp/termux-ng/a9f18a70cb/packages/gst-python/gi-overrides-meson.build.patch"
+      "https://raw.githubusercontent.com/strsp/termux-ng/361c6752d0/packages/gst-python/gi-overrides-meson.build.patch"
     ],
     "auto_updated": true
   },
   {
     "name": "gstreamer",
-    "version": "1.28.2",
+    "version": "1.28.3",
     "description": "Open source multimedia framework",
     "homepage": "https://gstreamer.freedesktop.org/",
     "depends": [
       "glib"
     ],
-    "srcurl": "https://gstreamer.freedesktop.org/src/gstreamer/gstreamer-1.28.2.tar.xz",
+    "srcurl": "https://gstreamer.freedesktop.org/src/gstreamer/gstreamer-1.28.3.tar.xz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/ced0057a3f/packages/gstreamer",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/ced0057a3f/packages/gstreamer/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/ced0057a3f/packages/gstreamer/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/6b4f039455/packages/gstreamer",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/6b4f039455/packages/gstreamer/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/6b4f039455/packages/gstreamer/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -19136,7 +19136,7 @@
   },
   {
     "name": "libmediainfo",
-    "version": "26.01",
+    "version": "26.05",
     "description": "Library for reading information from media files",
     "homepage": "https://mediaarea.net/en/MediaInfo",
     "depends": [
@@ -19145,11 +19145,11 @@
       "libzen",
       "zlib"
     ],
-    "srcurl": "https://github.com/MediaArea/MediaInfoLib/archive/refs/tags/v26.01.tar.gz",
+    "srcurl": "https://github.com/MediaArea/MediaInfoLib/archive/refs/tags/v26.05.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/a2633e4993/packages/libmediainfo",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/a2633e4993/packages/libmediainfo/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/a2633e4993/packages/libmediainfo/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/967dbca3e3/packages/libmediainfo",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/967dbca3e3/packages/libmediainfo/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/967dbca3e3/packages/libmediainfo/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -26267,7 +26267,7 @@
   },
   {
     "name": "mediainfo",
-    "version": "26.01",
+    "version": "26.05",
     "description": "Command-line utility for reading information from media files",
     "homepage": "https://mediaarea.net/en/MediaInfo",
     "depends": [
@@ -26276,11 +26276,11 @@
       "libmediainfo",
       "libzen"
     ],
-    "srcurl": "https://github.com/MediaArea/MediaInfo/archive/refs/tags/v26.01.tar.gz",
+    "srcurl": "https://github.com/MediaArea/MediaInfo/archive/refs/tags/v26.05.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/63d973ade7/packages/mediainfo",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/63d973ade7/packages/mediainfo/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/63d973ade7/packages/mediainfo/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/5b7d98201d/packages/mediainfo",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/5b7d98201d/packages/mediainfo/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/5b7d98201d/packages/mediainfo/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -30140,26 +30140,26 @@
   },
   {
     "name": "openal-soft",
-    "version": "1.25.1",
+    "version": "1.25.2",
     "description": "Software implementation of the OpenAL API",
     "homepage": "https://openal-soft.org/",
     "depends": [
       "libc++"
     ],
-    "srcurl": "https://github.com/kcat/openal-soft/archive/refs/tags/1.25.1.tar.gz",
+    "srcurl": "https://github.com/kcat/openal-soft/archive/refs/tags/1.25.2.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/07cdb99d0a/packages/openal-soft",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/07cdb99d0a/packages/openal-soft/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/07cdb99d0a/packages/openal-soft/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/3f74d3fa74/packages/openal-soft",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/3f74d3fa74/packages/openal-soft/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/3f74d3fa74/packages/openal-soft/build.sh",
     "package_patch_urls": [
-      "https://github.com/strsp/termux-ng/blob/07cdb99d0a/packages/openal-soft/alc-alconfig.cpp.patch",
-      "https://github.com/strsp/termux-ng/blob/07cdb99d0a/packages/openal-soft/core-helpers.cpp.patch",
-      "https://github.com/strsp/termux-ng/blob/07cdb99d0a/packages/openal-soft/utils-alsoft-config-mainwindow.cpp.patch"
+      "https://github.com/strsp/termux-ng/blob/3f74d3fa74/packages/openal-soft/alc-alconfig.cpp.patch",
+      "https://github.com/strsp/termux-ng/blob/3f74d3fa74/packages/openal-soft/core-helpers.cpp.patch",
+      "https://github.com/strsp/termux-ng/blob/3f74d3fa74/packages/openal-soft/utils-alsoft-config-mainwindow.cpp.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/strsp/termux-ng/07cdb99d0a/packages/openal-soft/alc-alconfig.cpp.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/07cdb99d0a/packages/openal-soft/core-helpers.cpp.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/07cdb99d0a/packages/openal-soft/utils-alsoft-config-mainwindow.cpp.patch"
+      "https://raw.githubusercontent.com/strsp/termux-ng/3f74d3fa74/packages/openal-soft/alc-alconfig.cpp.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/3f74d3fa74/packages/openal-soft/core-helpers.cpp.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/3f74d3fa74/packages/openal-soft/utils-alsoft-config-mainwindow.cpp.patch"
     ],
     "auto_updated": true
   },
@@ -38298,18 +38298,18 @@
   },
   {
     "name": "sqlcipher",
-    "version": "4.15.0",
+    "version": "4.16.0",
     "description": "SQLCipher is an SQLite extension that provides 256 bit AES encryption of database files",
     "homepage": "https://github.com/sqlcipher/sqlcipher",
     "depends": [
       "libedit",
       "openssl"
     ],
-    "srcurl": "https://github.com/sqlcipher/sqlcipher/archive/refs/tags/v4.15.0.tar.gz",
+    "srcurl": "https://github.com/sqlcipher/sqlcipher/archive/refs/tags/v4.16.0.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/659bdfaa06/packages/sqlcipher",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/659bdfaa06/packages/sqlcipher/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/659bdfaa06/packages/sqlcipher/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/ce5d8399f3/packages/sqlcipher",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/ce5d8399f3/packages/sqlcipher/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/ce5d8399f3/packages/sqlcipher/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -45136,7 +45136,7 @@
   },
   {
     "name": "yosys",
-    "version": "0.64",
+    "version": "0.65",
     "description": "A framework for RTL synthesis tools",
     "homepage": "https://yosyshq.net/yosys/",
     "depends": [
@@ -45153,20 +45153,20 @@
     ],
     "srcurl": "git+https://github.com/YosysHQ/yosys",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/7bc98692b9/packages/yosys",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/7bc98692b9/packages/yosys/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/7bc98692b9/packages/yosys/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/16429c7227/packages/yosys",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/16429c7227/packages/yosys/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/16429c7227/packages/yosys/build.sh",
     "package_patch_urls": [
-      "https://github.com/strsp/termux-ng/blob/7bc98692b9/packages/yosys/Makefile.patch",
-      "https://github.com/strsp/termux-ng/blob/7bc98692b9/packages/yosys/fix-32bit.patch",
-      "https://github.com/strsp/termux-ng/blob/7bc98692b9/packages/yosys/kernel-io.cc.patch",
-      "https://github.com/strsp/termux-ng/blob/7bc98692b9/packages/yosys/techlibs-easic-synth_easic.cc.patch"
+      "https://github.com/strsp/termux-ng/blob/16429c7227/packages/yosys/Makefile.patch",
+      "https://github.com/strsp/termux-ng/blob/16429c7227/packages/yosys/fix-32bit.patch",
+      "https://github.com/strsp/termux-ng/blob/16429c7227/packages/yosys/kernel-io.cc.patch",
+      "https://github.com/strsp/termux-ng/blob/16429c7227/packages/yosys/techlibs-easic-synth_easic.cc.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/strsp/termux-ng/7bc98692b9/packages/yosys/Makefile.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/7bc98692b9/packages/yosys/fix-32bit.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/7bc98692b9/packages/yosys/kernel-io.cc.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/7bc98692b9/packages/yosys/techlibs-easic-synth_easic.cc.patch"
+      "https://raw.githubusercontent.com/strsp/termux-ng/16429c7227/packages/yosys/Makefile.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/16429c7227/packages/yosys/fix-32bit.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/16429c7227/packages/yosys/kernel-io.cc.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/16429c7227/packages/yosys/techlibs-easic-synth_easic.cc.patch"
     ],
     "auto_updated": true
   },
@@ -48401,7 +48401,7 @@
   },
   {
     "name": "aurorae",
-    "version": "6.6.4",
+    "version": "6.6.5",
     "description": "A themeable window decoration for KWin",
     "homepage": "https://invent.kde.org/plasma/aurorae",
     "depends": [
@@ -48420,11 +48420,11 @@
       "qt6-qtbase",
       "qt6-qtdeclarative"
     ],
-    "srcurl": "https://download.kde.org/stable/plasma/6.6.4/aurorae-6.6.4.tar.xz",
+    "srcurl": "https://download.kde.org/stable/plasma/6.6.5/aurorae-6.6.5.tar.xz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/797ba0e73c/x11-packages/aurorae",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/797ba0e73c/x11-packages/aurorae/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/797ba0e73c/x11-packages/aurorae/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/93badf1c03/x11-packages/aurorae",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/93badf1c03/x11-packages/aurorae/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/93badf1c03/x11-packages/aurorae/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -48679,7 +48679,7 @@
   },
   {
     "name": "breeze",
-    "version": "6.6.4",
+    "version": "6.6.5",
     "description": "Artwork, styles and assets for the Breeze visual style for the Plasma Desktop",
     "homepage": "https://invent.kde.org/plasma/breeze",
     "depends": [
@@ -48699,28 +48699,28 @@
       "qt6-qtdeclarative",
       "qt6-qtsvg"
     ],
-    "srcurl": "https://download.kde.org/stable/plasma/6.6.4/breeze-6.6.4.tar.xz",
+    "srcurl": "https://download.kde.org/stable/plasma/6.6.5/breeze-6.6.5.tar.xz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/f35731dac1/x11-packages/breeze",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/f35731dac1/x11-packages/breeze/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/f35731dac1/x11-packages/breeze/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/9046905ed8/x11-packages/breeze",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/9046905ed8/x11-packages/breeze/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/9046905ed8/x11-packages/breeze/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
   },
   {
     "name": "breeze-gtk",
-    "version": "6.6.4",
+    "version": "6.6.5",
     "description": "Breeze widget theme for GTK 2 and 3",
     "homepage": "https://invent.kde.org/plasma/breeze-gtk",
     "depends": [
       "libc++"
     ],
-    "srcurl": "https://download.kde.org/stable/plasma/6.6.4/breeze-gtk-6.6.4.tar.xz",
+    "srcurl": "https://download.kde.org/stable/plasma/6.6.5/breeze-gtk-6.6.5.tar.xz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/5bb8975e23/x11-packages/breeze-gtk",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/5bb8975e23/x11-packages/breeze-gtk/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/5bb8975e23/x11-packages/breeze-gtk/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/0a04dcfcb7/x11-packages/breeze-gtk",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/0a04dcfcb7/x11-packages/breeze-gtk/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/0a04dcfcb7/x11-packages/breeze-gtk/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -54824,7 +54824,7 @@
   },
   {
     "name": "kdecoration",
-    "version": "6.6.4",
+    "version": "6.6.5",
     "description": "Plugin-based library to create window decorations",
     "homepage": "https://invent.kde.org/plasma/kdecoration",
     "depends": [
@@ -54832,11 +54832,11 @@
       "libc++",
       "qt6-qtbase"
     ],
-    "srcurl": "https://download.kde.org/stable/plasma/6.6.4/kdecoration-6.6.4.tar.xz",
+    "srcurl": "https://download.kde.org/stable/plasma/6.6.5/kdecoration-6.6.5.tar.xz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/38a9f5e6dd/x11-packages/kdecoration",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/38a9f5e6dd/x11-packages/kdecoration/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/38a9f5e6dd/x11-packages/kdecoration/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/653349c8fd/x11-packages/kdecoration",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/653349c8fd/x11-packages/kdecoration/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/653349c8fd/x11-packages/kdecoration/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
