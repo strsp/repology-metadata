@@ -6772,40 +6772,40 @@
   },
   {
     "name": "dotnet10.0",
-    "version": "10.0.7",
+    "version": "10.0.8",
     "description": ".NET 10.0",
     "homepage": "https://dotnet.microsoft.com/en-us/",
     "depends": [],
     "srcurl": "git+https://github.com/dotnet/dotnet",
     "maintainer": "@truboxl",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/9d31a9034b/packages/dotnet10.0",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/9d31a9034b/packages/dotnet10.0/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/9d31a9034b/packages/dotnet10.0/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/1c133cf2c1/packages/dotnet10.0",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/1c133cf2c1/packages/dotnet10.0/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/1c133cf2c1/packages/dotnet10.0/build.sh",
     "package_patch_urls": [
-      "https://github.com/strsp/termux-ng/blob/9d31a9034b/packages/dotnet10.0/0001-build-all-libs.patch",
-      "https://github.com/strsp/termux-ng/blob/9d31a9034b/packages/dotnet10.0/0002-define-memfd_create.patch",
-      "https://github.com/strsp/termux-ng/blob/9d31a9034b/packages/dotnet10.0/0003-runtime-src-native-libs-System.IO.Compression.Native.patch",
-      "https://github.com/strsp/termux-ng/blob/9d31a9034b/packages/dotnet10.0/0004-disable-lttng-fatal-error.patch",
-      "https://github.com/strsp/termux-ng/blob/9d31a9034b/packages/dotnet10.0/0005-runtime-src-native-libs-System.Security.Cryptography.Native-opensslshim.c.patch",
-      "https://github.com/strsp/termux-ng/blob/9d31a9034b/packages/dotnet10.0/0006-runtime-eng-common-cross-toolchain.cmake.patch",
-      "https://github.com/strsp/termux-ng/blob/9d31a9034b/packages/dotnet10.0/0007-set-TargetsLinuxBionic-from-TargetRid.patch",
-      "https://github.com/strsp/termux-ng/blob/9d31a9034b/packages/dotnet10.0/0008-add-prebuilt-baseline-for-mono-llvm.patch",
-      "https://github.com/strsp/termux-ng/blob/9d31a9034b/packages/dotnet10.0/0010-revert-stop-setting-separate-properties-BUNDLE_PROP-HOSTPOLICY_EMBEDDED-PINVOKE_OVERRIDE.patch",
-      "https://github.com/strsp/termux-ng/blob/9d31a9034b/packages/dotnet10.0/0011-fix-paths.patch",
-      "https://github.com/strsp/termux-ng/blob/9d31a9034b/packages/dotnet10.0/0012-runtime-fix-runpath-issues.patch"
+      "https://github.com/strsp/termux-ng/blob/1c133cf2c1/packages/dotnet10.0/0001-build-all-libs.patch",
+      "https://github.com/strsp/termux-ng/blob/1c133cf2c1/packages/dotnet10.0/0002-define-memfd_create.patch",
+      "https://github.com/strsp/termux-ng/blob/1c133cf2c1/packages/dotnet10.0/0003-runtime-src-native-libs-System.IO.Compression.Native.patch",
+      "https://github.com/strsp/termux-ng/blob/1c133cf2c1/packages/dotnet10.0/0004-disable-lttng-fatal-error.patch",
+      "https://github.com/strsp/termux-ng/blob/1c133cf2c1/packages/dotnet10.0/0005-runtime-src-native-libs-System.Security.Cryptography.Native-opensslshim.c.patch",
+      "https://github.com/strsp/termux-ng/blob/1c133cf2c1/packages/dotnet10.0/0006-runtime-eng-common-cross-toolchain.cmake.patch",
+      "https://github.com/strsp/termux-ng/blob/1c133cf2c1/packages/dotnet10.0/0007-set-TargetsLinuxBionic-from-TargetRid.patch",
+      "https://github.com/strsp/termux-ng/blob/1c133cf2c1/packages/dotnet10.0/0008-add-prebuilt-baseline-for-mono-llvm.patch",
+      "https://github.com/strsp/termux-ng/blob/1c133cf2c1/packages/dotnet10.0/0010-revert-stop-setting-separate-properties-BUNDLE_PROP-HOSTPOLICY_EMBEDDED-PINVOKE_OVERRIDE.patch",
+      "https://github.com/strsp/termux-ng/blob/1c133cf2c1/packages/dotnet10.0/0011-fix-paths.patch",
+      "https://github.com/strsp/termux-ng/blob/1c133cf2c1/packages/dotnet10.0/0012-runtime-fix-runpath-issues.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/strsp/termux-ng/9d31a9034b/packages/dotnet10.0/0001-build-all-libs.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/9d31a9034b/packages/dotnet10.0/0002-define-memfd_create.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/9d31a9034b/packages/dotnet10.0/0003-runtime-src-native-libs-System.IO.Compression.Native.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/9d31a9034b/packages/dotnet10.0/0004-disable-lttng-fatal-error.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/9d31a9034b/packages/dotnet10.0/0005-runtime-src-native-libs-System.Security.Cryptography.Native-opensslshim.c.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/9d31a9034b/packages/dotnet10.0/0006-runtime-eng-common-cross-toolchain.cmake.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/9d31a9034b/packages/dotnet10.0/0007-set-TargetsLinuxBionic-from-TargetRid.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/9d31a9034b/packages/dotnet10.0/0008-add-prebuilt-baseline-for-mono-llvm.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/9d31a9034b/packages/dotnet10.0/0010-revert-stop-setting-separate-properties-BUNDLE_PROP-HOSTPOLICY_EMBEDDED-PINVOKE_OVERRIDE.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/9d31a9034b/packages/dotnet10.0/0011-fix-paths.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/9d31a9034b/packages/dotnet10.0/0012-runtime-fix-runpath-issues.patch"
+      "https://raw.githubusercontent.com/strsp/termux-ng/1c133cf2c1/packages/dotnet10.0/0001-build-all-libs.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/1c133cf2c1/packages/dotnet10.0/0002-define-memfd_create.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/1c133cf2c1/packages/dotnet10.0/0003-runtime-src-native-libs-System.IO.Compression.Native.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/1c133cf2c1/packages/dotnet10.0/0004-disable-lttng-fatal-error.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/1c133cf2c1/packages/dotnet10.0/0005-runtime-src-native-libs-System.Security.Cryptography.Native-opensslshim.c.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/1c133cf2c1/packages/dotnet10.0/0006-runtime-eng-common-cross-toolchain.cmake.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/1c133cf2c1/packages/dotnet10.0/0007-set-TargetsLinuxBionic-from-TargetRid.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/1c133cf2c1/packages/dotnet10.0/0008-add-prebuilt-baseline-for-mono-llvm.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/1c133cf2c1/packages/dotnet10.0/0010-revert-stop-setting-separate-properties-BUNDLE_PROP-HOSTPOLICY_EMBEDDED-PINVOKE_OVERRIDE.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/1c133cf2c1/packages/dotnet10.0/0011-fix-paths.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/1c133cf2c1/packages/dotnet10.0/0012-runtime-fix-runpath-issues.patch"
     ],
     "auto_updated": true
   },
@@ -8853,15 +8853,15 @@
   },
   {
     "name": "flyctl",
-    "version": "0.4.50",
+    "version": "0.4.51",
     "description": "Command line tools for fly.io services",
     "homepage": "https://fly.io",
     "depends": [],
-    "srcurl": "https://github.com/superfly/flyctl/archive/refs/tags/v0.4.50.tar.gz",
+    "srcurl": "https://github.com/superfly/flyctl/archive/refs/tags/v0.4.51.tar.gz",
     "maintainer": "Yaksh Bariya <thunder-coding@termux.dev>",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/efc93f605c/packages/flyctl",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/efc93f605c/packages/flyctl/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/efc93f605c/packages/flyctl/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/3df05b7a31/packages/flyctl",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/3df05b7a31/packages/flyctl/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/3df05b7a31/packages/flyctl/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -10436,15 +10436,15 @@
   },
   {
     "name": "glab-cli",
-    "version": "1.95.0",
+    "version": "1.96.0",
     "description": "A GitLab CLI tool bringing GitLab to your command line",
     "homepage": "https://gitlab.com/gitlab-org/cli",
     "depends": [],
-    "srcurl": "https://gitlab.com/gitlab-org/cli/-/archive/v1.95.0/cli-1.95.0.tar.bz2",
+    "srcurl": "https://gitlab.com/gitlab-org/cli/-/archive/v1.96.0/cli-1.96.0.tar.bz2",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/60e17448a7/packages/glab-cli",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/60e17448a7/packages/glab-cli/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/60e17448a7/packages/glab-cli/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/ebfcecf530/packages/glab-cli",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/ebfcecf530/packages/glab-cli/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/ebfcecf530/packages/glab-cli/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -11630,17 +11630,17 @@
   },
   {
     "name": "gradle",
-    "version": "1:9.5.0",
+    "version": "1:9.5.1",
     "description": "Powerful build system for the JVM",
     "homepage": "https://gradle.org/",
     "depends": [
       "openjdk-21"
     ],
-    "srcurl": "https://services.gradle.org/distributions/gradle-9.5.0-bin.zip",
+    "srcurl": "https://services.gradle.org/distributions/gradle-9.5.1-bin.zip",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/af634f7255/packages/gradle",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/af634f7255/packages/gradle/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/af634f7255/packages/gradle/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/c27d7c450b/packages/gradle",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/c27d7c450b/packages/gradle/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/c27d7c450b/packages/gradle/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -35142,15 +35142,15 @@
   },
   {
     "name": "railway-cli",
-    "version": "4.57.5",
+    "version": "4.58.0",
     "description": "This is the command line interface for Railway",
     "homepage": "https://railway.app",
     "depends": [],
-    "srcurl": "https://github.com/railwayapp/cli/archive/refs/tags/v4.57.5.tar.gz",
+    "srcurl": "https://github.com/railwayapp/cli/archive/refs/tags/v4.58.0.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/bcca1d7a22/packages/railway-cli",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/bcca1d7a22/packages/railway-cli/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/bcca1d7a22/packages/railway-cli/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/3c5282ee7a/packages/railway-cli",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/3c5282ee7a/packages/railway-cli/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/3c5282ee7a/packages/railway-cli/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -38277,22 +38277,22 @@
   },
   {
     "name": "spirv-tools",
-    "version": "1.4.341.0",
+    "version": "1.4.350.0",
     "description": "SPIR-V Tools",
     "homepage": "https://github.com/KhronosGroup/SPIRV-Tools",
     "depends": [
       "libc++"
     ],
-    "srcurl": "https://github.com/KhronosGroup/SPIRV-Tools/archive/refs/tags/vulkan-sdk-1.4.341.0.tar.gz",
+    "srcurl": "https://github.com/KhronosGroup/SPIRV-Tools/archive/refs/tags/vulkan-sdk-1.4.350.0.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/b81612acdb/packages/spirv-tools",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/b81612acdb/packages/spirv-tools/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/b81612acdb/packages/spirv-tools/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/34a5a0aafc/packages/spirv-tools",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/34a5a0aafc/packages/spirv-tools/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/34a5a0aafc/packages/spirv-tools/build.sh",
     "package_patch_urls": [
-      "https://github.com/strsp/termux-ng/blob/b81612acdb/packages/spirv-tools/CMakeLists.txt.patch"
+      "https://github.com/strsp/termux-ng/blob/34a5a0aafc/packages/spirv-tools/CMakeLists.txt.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/strsp/termux-ng/b81612acdb/packages/spirv-tools/CMakeLists.txt.patch"
+      "https://raw.githubusercontent.com/strsp/termux-ng/34a5a0aafc/packages/spirv-tools/CMakeLists.txt.patch"
     ],
     "auto_updated": true
   },
@@ -39851,20 +39851,20 @@
   },
   {
     "name": "teleport-tsh",
-    "version": "18.7.6",
+    "version": "18.8.0",
     "description": "Secure Access for Developers that doesn't get in the way",
     "homepage": "https://github.com/gravitational/teleport",
     "depends": [],
-    "srcurl": "https://github.com/gravitational/teleport/archive/refs/tags/v18.7.6.tar.gz",
+    "srcurl": "https://github.com/gravitational/teleport/archive/refs/tags/v18.8.0.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/834ddfd695/packages/teleport-tsh",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/834ddfd695/packages/teleport-tsh/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/834ddfd695/packages/teleport-tsh/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/dbee54f572/packages/teleport-tsh",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/dbee54f572/packages/teleport-tsh/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/dbee54f572/packages/teleport-tsh/build.sh",
     "package_patch_urls": [
-      "https://github.com/strsp/termux-ng/blob/834ddfd695/packages/teleport-tsh/metadata_linux.go.patch"
+      "https://github.com/strsp/termux-ng/blob/dbee54f572/packages/teleport-tsh/metadata_linux.go.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/strsp/termux-ng/834ddfd695/packages/teleport-tsh/metadata_linux.go.patch"
+      "https://raw.githubusercontent.com/strsp/termux-ng/dbee54f572/packages/teleport-tsh/metadata_linux.go.patch"
     ],
     "auto_updated": true
   },
@@ -42896,17 +42896,17 @@
   },
   {
     "name": "uv",
-    "version": "0.11.13",
+    "version": "0.11.14",
     "description": "An extremely fast Python package installer and resolver, written in Rust.",
     "homepage": "https://docs.astral.sh/uv/",
     "depends": [
       "zstd"
     ],
-    "srcurl": "https://github.com/astral-sh/uv/archive/refs/tags/0.11.13.tar.gz",
+    "srcurl": "https://github.com/astral-sh/uv/archive/refs/tags/0.11.14.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/5aa301bfd6/packages/uv",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/5aa301bfd6/packages/uv/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/5aa301bfd6/packages/uv/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/440ce2817a/packages/uv",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/440ce2817a/packages/uv/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/440ce2817a/packages/uv/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -54915,7 +54915,7 @@
   },
   {
     "name": "kdeplasma-addons",
-    "version": "6.6.4",
+    "version": "6.6.5",
     "description": "All kind of addons to improve your Plasma experience",
     "homepage": "https://invent.kde.org/plasma/kdeplasma-addons",
     "depends": [
@@ -54953,16 +54953,16 @@
       "qt6-qtbase",
       "qt6-qtdeclarative"
     ],
-    "srcurl": "https://download.kde.org/stable/plasma/6.6.4/kdeplasma-addons-6.6.4.tar.xz",
+    "srcurl": "https://download.kde.org/stable/plasma/6.6.5/kdeplasma-addons-6.6.5.tar.xz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/b4425b674c/x11-packages/kdeplasma-addons",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/b4425b674c/x11-packages/kdeplasma-addons/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/b4425b674c/x11-packages/kdeplasma-addons/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/0b6fb50b5d/x11-packages/kdeplasma-addons",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/0b6fb50b5d/x11-packages/kdeplasma-addons/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/0b6fb50b5d/x11-packages/kdeplasma-addons/build.sh",
     "package_patch_urls": [
-      "https://github.com/strsp/termux-ng/blob/b4425b674c/x11-packages/kdeplasma-addons/fix-undefined-behavior-improper-use-of-qnetworkinformation.patch"
+      "https://github.com/strsp/termux-ng/blob/0b6fb50b5d/x11-packages/kdeplasma-addons/fix-undefined-behavior-improper-use-of-qnetworkinformation.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/strsp/termux-ng/b4425b674c/x11-packages/kdeplasma-addons/fix-undefined-behavior-improper-use-of-qnetworkinformation.patch"
+      "https://raw.githubusercontent.com/strsp/termux-ng/0b6fb50b5d/x11-packages/kdeplasma-addons/fix-undefined-behavior-improper-use-of-qnetworkinformation.patch"
     ],
     "auto_updated": true
   },
@@ -57315,7 +57315,7 @@
   },
   {
     "name": "kscreen",
-    "version": "6.6.4",
+    "version": "6.6.5",
     "description": "KDE's screen management software",
     "homepage": "https://invent.kde.org/plasma/kscreen",
     "depends": [
@@ -57342,11 +57342,11 @@
       "qt6-qtdeclarative",
       "qt6-qtsensors"
     ],
-    "srcurl": "https://download.kde.org/stable/plasma/6.6.4/kscreen-6.6.4.tar.xz",
+    "srcurl": "https://download.kde.org/stable/plasma/6.6.5/kscreen-6.6.5.tar.xz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/3a110a7516/x11-packages/kscreen",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/3a110a7516/x11-packages/kscreen/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/3a110a7516/x11-packages/kscreen/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/f3dba205fe/x11-packages/kscreen",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/f3dba205fe/x11-packages/kscreen/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/f3dba205fe/x11-packages/kscreen/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -67042,7 +67042,7 @@
   },
   {
     "name": "systemsettings",
-    "version": "6.6.4",
+    "version": "6.6.5",
     "description": "KDE system manager for hardware, software, and workspaces",
     "homepage": "https://invent.kde.org/plasma/systemsettings",
     "depends": [
@@ -67070,11 +67070,11 @@
       "qt6-qtbase",
       "qt6-qtdeclarative"
     ],
-    "srcurl": "https://download.kde.org/stable/plasma/6.6.4/systemsettings-6.6.4.tar.xz",
+    "srcurl": "https://download.kde.org/stable/plasma/6.6.5/systemsettings-6.6.5.tar.xz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/1cc86d8687/x11-packages/systemsettings",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/1cc86d8687/x11-packages/systemsettings/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/1cc86d8687/x11-packages/systemsettings/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/3ccb947c30/x11-packages/systemsettings",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/3ccb947c30/x11-packages/systemsettings/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/3ccb947c30/x11-packages/systemsettings/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
