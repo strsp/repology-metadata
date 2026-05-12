@@ -51756,7 +51756,7 @@
   },
   {
     "name": "firefox",
-    "version": "150.0.2",
+    "version": "150.0.3",
     "description": "Mozilla Firefox web browser",
     "homepage": "https://www.mozilla.org/firefox",
     "depends": [
@@ -51793,76 +51793,76 @@
       "pulseaudio",
       "zlib"
     ],
-    "srcurl": "https://archive.mozilla.org/pub/firefox/releases/150.0.2/source/firefox-150.0.2.source.tar.xz",
+    "srcurl": "https://archive.mozilla.org/pub/firefox/releases/150.0.3/source/firefox-150.0.3.source.tar.xz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/2469765421/x11-packages/firefox",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/2469765421/x11-packages/firefox/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/2469765421/x11-packages/firefox/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/057d650166/x11-packages/firefox",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/057d650166/x11-packages/firefox/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/057d650166/x11-packages/firefox/build.sh",
     "package_patch_urls": [
-      "https://github.com/strsp/termux-ng/blob/2469765421/x11-packages/firefox/0001-configure-treat-termux-as-linux.patch",
-      "https://github.com/strsp/termux-ng/blob/2469765421/x11-packages/firefox/0002-configure-fix-arm-options.patch",
-      "https://github.com/strsp/termux-ng/blob/2469765421/x11-packages/firefox/0003-configure-fix-rustflags.patch",
-      "https://github.com/strsp/termux-ng/blob/2469765421/x11-packages/firefox/0004-configure-do-not-check-libstdcxx-headers.patch",
-      "https://github.com/strsp/termux-ng/blob/2469765421/x11-packages/firefox/0005-configure-do-not-append-sysroot.patch",
-      "https://github.com/strsp/termux-ng/blob/2469765421/x11-packages/firefox/0006-configure-do-not-enable-alsa.patch",
-      "https://github.com/strsp/termux-ng/blob/2469765421/x11-packages/firefox/0007-fix-link-with-libcxx-18.patch",
-      "https://github.com/strsp/termux-ng/blob/2469765421/x11-packages/firefox/0008-fix-marcos.patch",
-      "https://github.com/strsp/termux-ng/blob/2469765421/x11-packages/firefox/0009-impl-posix-shmem.patch",
-      "https://github.com/strsp/termux-ng/blob/2469765421/x11-packages/firefox/0010-do-not-check-time_t-for-system-libevent.patch",
-      "https://github.com/strsp/termux-ng/blob/2469765421/x11-packages/firefox/0011-use-UnderrunHandlerNoop.patch",
-      "https://github.com/strsp/termux-ng/blob/2469765421/x11-packages/firefox/0012-do-not-use-adaptive-mutex.patch",
-      "https://github.com/strsp/termux-ng/blob/2469765421/x11-packages/firefox/0013-fix-rust-compile.patch",
-      "https://github.com/strsp/termux-ng/blob/2469765421/x11-packages/firefox/0014-unset-thread-priority-scheduling-macro.patch",
-      "https://github.com/strsp/termux-ng/blob/2469765421/x11-packages/firefox/0015-skia-termux.patch",
-      "https://github.com/strsp/termux-ng/blob/2469765421/x11-packages/firefox/0016-protobuf-no-android-log.patch",
-      "https://github.com/strsp/termux-ng/blob/2469765421/x11-packages/firefox/0017-fix-include-dir-for-cpufeatures.patch",
-      "https://github.com/strsp/termux-ng/blob/2469765421/x11-packages/firefox/0018-fix-sigbus.patch",
-      "https://github.com/strsp/termux-ng/blob/2469765421/x11-packages/firefox/0019-do-not-call-get-pci-status.patch",
-      "https://github.com/strsp/termux-ng/blob/2469765421/x11-packages/firefox/0020-fix-missing-include-for-zlib-module.patch",
-      "https://github.com/strsp/termux-ng/blob/2469765421/x11-packages/firefox/0021-configure-no-pack-relative-relocs.patch",
-      "https://github.com/strsp/termux-ng/blob/2469765421/x11-packages/firefox/0022-check-if-dlpi_name-is-nullptr-before-using.patch",
-      "https://github.com/strsp/termux-ng/blob/2469765421/x11-packages/firefox/0023-fix-missing-include-for-macro-MOZ_TRY-in-TimeZone.cpp.patch",
-      "https://github.com/strsp/termux-ng/blob/2469765421/x11-packages/firefox/0024-disable-native-https-dns-resolve.patch",
-      "https://github.com/strsp/termux-ng/blob/2469765421/x11-packages/firefox/0025-webextensions.storage.sync.kinto-true.patch",
-      "https://github.com/strsp/termux-ng/blob/2469765421/x11-packages/firefox/0026-fix-popup-white-borders.patch",
-      "https://github.com/strsp/termux-ng/blob/2469765421/x11-packages/firefox/0027-fix-tagged-pointer.patch",
-      "https://github.com/strsp/termux-ng/blob/2469765421/x11-packages/firefox/0028-prepend-prefix-to-nsXREDirProvider-absolute-paths.patch",
-      "https://github.com/strsp/termux-ng/blob/2469765421/x11-packages/firefox/0029-rust-cc-do-not-concatenates-all-the-CFLAGS.patch",
-      "https://github.com/strsp/termux-ng/blob/2469765421/x11-packages/firefox/0030-fix-sigbus-2.patch",
-      "https://github.com/strsp/termux-ng/blob/2469765421/x11-packages/firefox/0031-tagged-pointer-2.patch"
+      "https://github.com/strsp/termux-ng/blob/057d650166/x11-packages/firefox/0001-configure-treat-termux-as-linux.patch",
+      "https://github.com/strsp/termux-ng/blob/057d650166/x11-packages/firefox/0002-configure-fix-arm-options.patch",
+      "https://github.com/strsp/termux-ng/blob/057d650166/x11-packages/firefox/0003-configure-fix-rustflags.patch",
+      "https://github.com/strsp/termux-ng/blob/057d650166/x11-packages/firefox/0004-configure-do-not-check-libstdcxx-headers.patch",
+      "https://github.com/strsp/termux-ng/blob/057d650166/x11-packages/firefox/0005-configure-do-not-append-sysroot.patch",
+      "https://github.com/strsp/termux-ng/blob/057d650166/x11-packages/firefox/0006-configure-do-not-enable-alsa.patch",
+      "https://github.com/strsp/termux-ng/blob/057d650166/x11-packages/firefox/0007-fix-link-with-libcxx-18.patch",
+      "https://github.com/strsp/termux-ng/blob/057d650166/x11-packages/firefox/0008-fix-marcos.patch",
+      "https://github.com/strsp/termux-ng/blob/057d650166/x11-packages/firefox/0009-impl-posix-shmem.patch",
+      "https://github.com/strsp/termux-ng/blob/057d650166/x11-packages/firefox/0010-do-not-check-time_t-for-system-libevent.patch",
+      "https://github.com/strsp/termux-ng/blob/057d650166/x11-packages/firefox/0011-use-UnderrunHandlerNoop.patch",
+      "https://github.com/strsp/termux-ng/blob/057d650166/x11-packages/firefox/0012-do-not-use-adaptive-mutex.patch",
+      "https://github.com/strsp/termux-ng/blob/057d650166/x11-packages/firefox/0013-fix-rust-compile.patch",
+      "https://github.com/strsp/termux-ng/blob/057d650166/x11-packages/firefox/0014-unset-thread-priority-scheduling-macro.patch",
+      "https://github.com/strsp/termux-ng/blob/057d650166/x11-packages/firefox/0015-skia-termux.patch",
+      "https://github.com/strsp/termux-ng/blob/057d650166/x11-packages/firefox/0016-protobuf-no-android-log.patch",
+      "https://github.com/strsp/termux-ng/blob/057d650166/x11-packages/firefox/0017-fix-include-dir-for-cpufeatures.patch",
+      "https://github.com/strsp/termux-ng/blob/057d650166/x11-packages/firefox/0018-fix-sigbus.patch",
+      "https://github.com/strsp/termux-ng/blob/057d650166/x11-packages/firefox/0019-do-not-call-get-pci-status.patch",
+      "https://github.com/strsp/termux-ng/blob/057d650166/x11-packages/firefox/0020-fix-missing-include-for-zlib-module.patch",
+      "https://github.com/strsp/termux-ng/blob/057d650166/x11-packages/firefox/0021-configure-no-pack-relative-relocs.patch",
+      "https://github.com/strsp/termux-ng/blob/057d650166/x11-packages/firefox/0022-check-if-dlpi_name-is-nullptr-before-using.patch",
+      "https://github.com/strsp/termux-ng/blob/057d650166/x11-packages/firefox/0023-fix-missing-include-for-macro-MOZ_TRY-in-TimeZone.cpp.patch",
+      "https://github.com/strsp/termux-ng/blob/057d650166/x11-packages/firefox/0024-disable-native-https-dns-resolve.patch",
+      "https://github.com/strsp/termux-ng/blob/057d650166/x11-packages/firefox/0025-webextensions.storage.sync.kinto-true.patch",
+      "https://github.com/strsp/termux-ng/blob/057d650166/x11-packages/firefox/0026-fix-popup-white-borders.patch",
+      "https://github.com/strsp/termux-ng/blob/057d650166/x11-packages/firefox/0027-fix-tagged-pointer.patch",
+      "https://github.com/strsp/termux-ng/blob/057d650166/x11-packages/firefox/0028-prepend-prefix-to-nsXREDirProvider-absolute-paths.patch",
+      "https://github.com/strsp/termux-ng/blob/057d650166/x11-packages/firefox/0029-rust-cc-do-not-concatenates-all-the-CFLAGS.patch",
+      "https://github.com/strsp/termux-ng/blob/057d650166/x11-packages/firefox/0030-fix-sigbus-2.patch",
+      "https://github.com/strsp/termux-ng/blob/057d650166/x11-packages/firefox/0031-tagged-pointer-2.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/strsp/termux-ng/2469765421/x11-packages/firefox/0001-configure-treat-termux-as-linux.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/2469765421/x11-packages/firefox/0002-configure-fix-arm-options.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/2469765421/x11-packages/firefox/0003-configure-fix-rustflags.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/2469765421/x11-packages/firefox/0004-configure-do-not-check-libstdcxx-headers.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/2469765421/x11-packages/firefox/0005-configure-do-not-append-sysroot.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/2469765421/x11-packages/firefox/0006-configure-do-not-enable-alsa.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/2469765421/x11-packages/firefox/0007-fix-link-with-libcxx-18.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/2469765421/x11-packages/firefox/0008-fix-marcos.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/2469765421/x11-packages/firefox/0009-impl-posix-shmem.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/2469765421/x11-packages/firefox/0010-do-not-check-time_t-for-system-libevent.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/2469765421/x11-packages/firefox/0011-use-UnderrunHandlerNoop.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/2469765421/x11-packages/firefox/0012-do-not-use-adaptive-mutex.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/2469765421/x11-packages/firefox/0013-fix-rust-compile.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/2469765421/x11-packages/firefox/0014-unset-thread-priority-scheduling-macro.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/2469765421/x11-packages/firefox/0015-skia-termux.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/2469765421/x11-packages/firefox/0016-protobuf-no-android-log.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/2469765421/x11-packages/firefox/0017-fix-include-dir-for-cpufeatures.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/2469765421/x11-packages/firefox/0018-fix-sigbus.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/2469765421/x11-packages/firefox/0019-do-not-call-get-pci-status.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/2469765421/x11-packages/firefox/0020-fix-missing-include-for-zlib-module.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/2469765421/x11-packages/firefox/0021-configure-no-pack-relative-relocs.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/2469765421/x11-packages/firefox/0022-check-if-dlpi_name-is-nullptr-before-using.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/2469765421/x11-packages/firefox/0023-fix-missing-include-for-macro-MOZ_TRY-in-TimeZone.cpp.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/2469765421/x11-packages/firefox/0024-disable-native-https-dns-resolve.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/2469765421/x11-packages/firefox/0025-webextensions.storage.sync.kinto-true.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/2469765421/x11-packages/firefox/0026-fix-popup-white-borders.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/2469765421/x11-packages/firefox/0027-fix-tagged-pointer.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/2469765421/x11-packages/firefox/0028-prepend-prefix-to-nsXREDirProvider-absolute-paths.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/2469765421/x11-packages/firefox/0029-rust-cc-do-not-concatenates-all-the-CFLAGS.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/2469765421/x11-packages/firefox/0030-fix-sigbus-2.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/2469765421/x11-packages/firefox/0031-tagged-pointer-2.patch"
+      "https://raw.githubusercontent.com/strsp/termux-ng/057d650166/x11-packages/firefox/0001-configure-treat-termux-as-linux.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/057d650166/x11-packages/firefox/0002-configure-fix-arm-options.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/057d650166/x11-packages/firefox/0003-configure-fix-rustflags.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/057d650166/x11-packages/firefox/0004-configure-do-not-check-libstdcxx-headers.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/057d650166/x11-packages/firefox/0005-configure-do-not-append-sysroot.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/057d650166/x11-packages/firefox/0006-configure-do-not-enable-alsa.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/057d650166/x11-packages/firefox/0007-fix-link-with-libcxx-18.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/057d650166/x11-packages/firefox/0008-fix-marcos.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/057d650166/x11-packages/firefox/0009-impl-posix-shmem.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/057d650166/x11-packages/firefox/0010-do-not-check-time_t-for-system-libevent.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/057d650166/x11-packages/firefox/0011-use-UnderrunHandlerNoop.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/057d650166/x11-packages/firefox/0012-do-not-use-adaptive-mutex.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/057d650166/x11-packages/firefox/0013-fix-rust-compile.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/057d650166/x11-packages/firefox/0014-unset-thread-priority-scheduling-macro.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/057d650166/x11-packages/firefox/0015-skia-termux.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/057d650166/x11-packages/firefox/0016-protobuf-no-android-log.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/057d650166/x11-packages/firefox/0017-fix-include-dir-for-cpufeatures.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/057d650166/x11-packages/firefox/0018-fix-sigbus.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/057d650166/x11-packages/firefox/0019-do-not-call-get-pci-status.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/057d650166/x11-packages/firefox/0020-fix-missing-include-for-zlib-module.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/057d650166/x11-packages/firefox/0021-configure-no-pack-relative-relocs.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/057d650166/x11-packages/firefox/0022-check-if-dlpi_name-is-nullptr-before-using.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/057d650166/x11-packages/firefox/0023-fix-missing-include-for-macro-MOZ_TRY-in-TimeZone.cpp.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/057d650166/x11-packages/firefox/0024-disable-native-https-dns-resolve.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/057d650166/x11-packages/firefox/0025-webextensions.storage.sync.kinto-true.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/057d650166/x11-packages/firefox/0026-fix-popup-white-borders.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/057d650166/x11-packages/firefox/0027-fix-tagged-pointer.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/057d650166/x11-packages/firefox/0028-prepend-prefix-to-nsXREDirProvider-absolute-paths.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/057d650166/x11-packages/firefox/0029-rust-cc-do-not-concatenates-all-the-CFLAGS.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/057d650166/x11-packages/firefox/0030-fix-sigbus-2.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/057d650166/x11-packages/firefox/0031-tagged-pointer-2.patch"
     ],
     "auto_updated": true
   },
@@ -54534,7 +54534,7 @@
   },
   {
     "name": "kactivitymanagerd",
-    "version": "6.6.4",
+    "version": "6.6.5",
     "description": "System service to manage user activities and track the usage patterns",
     "homepage": "https://invent.kde.org/plasma/kactivitymanagerd",
     "depends": [
@@ -54549,11 +54549,11 @@
       "libc++",
       "qt6-qtbase"
     ],
-    "srcurl": "https://download.kde.org/stable/plasma/6.6.4/kactivitymanagerd-6.6.4.tar.xz",
+    "srcurl": "https://download.kde.org/stable/plasma/6.6.5/kactivitymanagerd-6.6.5.tar.xz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/fc29fc28ee/x11-packages/kactivitymanagerd",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/fc29fc28ee/x11-packages/kactivitymanagerd/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/fc29fc28ee/x11-packages/kactivitymanagerd/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/e2507dea42/x11-packages/kactivitymanagerd",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/e2507dea42/x11-packages/kactivitymanagerd/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/e2507dea42/x11-packages/kactivitymanagerd/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -54714,7 +54714,7 @@
   },
   {
     "name": "kde-cli-tools",
-    "version": "6.6.4",
+    "version": "6.6.5",
     "description": "Tools based on KDE Frameworks to better interact with the system",
     "homepage": "https://invent.kde.org/plasma/kde-cli-tools",
     "depends": [
@@ -54733,18 +54733,18 @@
       "qt6-qtbase",
       "qt6-qtsvg"
     ],
-    "srcurl": "https://download.kde.org/stable/plasma/6.6.4/kde-cli-tools-6.6.4.tar.xz",
+    "srcurl": "https://download.kde.org/stable/plasma/6.6.5/kde-cli-tools-6.6.5.tar.xz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/35df12f3b5/x11-packages/kde-cli-tools",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/35df12f3b5/x11-packages/kde-cli-tools/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/35df12f3b5/x11-packages/kde-cli-tools/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/7fb86ffa2f/x11-packages/kde-cli-tools",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/7fb86ffa2f/x11-packages/kde-cli-tools/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/7fb86ffa2f/x11-packages/kde-cli-tools/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
   },
   {
     "name": "kde-gtk-config",
-    "version": "6.6.4",
+    "version": "6.6.5",
     "description": "Syncs KDE settings to GTK applications",
     "homepage": "https://invent.kde.org/plasma/kde-gtk-config",
     "depends": [
@@ -54762,11 +54762,11 @@
       "qt6-qtsvg",
       "xsettingsd"
     ],
-    "srcurl": "https://download.kde.org/stable/plasma/6.6.4/kde-gtk-config-6.6.4.tar.xz",
+    "srcurl": "https://download.kde.org/stable/plasma/6.6.5/kde-gtk-config-6.6.5.tar.xz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/f49069921d/x11-packages/kde-gtk-config",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/f49069921d/x11-packages/kde-gtk-config/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/f49069921d/x11-packages/kde-gtk-config/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/077a1796cc/x11-packages/kde-gtk-config",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/077a1796cc/x11-packages/kde-gtk-config/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/077a1796cc/x11-packages/kde-gtk-config/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -56672,7 +56672,7 @@
   },
   {
     "name": "kglobalacceld",
-    "version": "6.6.4",
+    "version": "6.6.5",
     "description": "Daemon providing Global Keyboard Shortcut (Accelerator) functionality",
     "homepage": "https://invent.kde.org/plasma/kglobalacceld",
     "depends": [
@@ -56691,11 +56691,11 @@
       "qt6-qtbase",
       "xcb-util-keysyms"
     ],
-    "srcurl": "https://download.kde.org/stable/plasma/6.6.4/kglobalacceld-6.6.4.tar.xz",
+    "srcurl": "https://download.kde.org/stable/plasma/6.6.5/kglobalacceld-6.6.5.tar.xz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/227ae70bc1/x11-packages/kglobalacceld",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/227ae70bc1/x11-packages/kglobalacceld/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/227ae70bc1/x11-packages/kglobalacceld/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/f0a9d5460d/x11-packages/kglobalacceld",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/f0a9d5460d/x11-packages/kglobalacceld/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/f0a9d5460d/x11-packages/kglobalacceld/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -56784,7 +56784,7 @@
   },
   {
     "name": "kinfocenter",
-    "version": "6.6.4",
+    "version": "6.6.5",
     "description": "A utility that provides information about a computer system",
     "homepage": "https://invent.kde.org/plasma/kinfocenter",
     "depends": [
@@ -56814,16 +56814,16 @@
       "vulkan-tools",
       "xorg-xdpyinfo"
     ],
-    "srcurl": "https://download.kde.org/stable/plasma/6.6.4/kinfocenter-6.6.4.tar.xz",
+    "srcurl": "https://download.kde.org/stable/plasma/6.6.5/kinfocenter-6.6.5.tar.xz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/ebffcfc10e/x11-packages/kinfocenter",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/ebffcfc10e/x11-packages/kinfocenter/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/ebffcfc10e/x11-packages/kinfocenter/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/b5ffa64189/x11-packages/kinfocenter",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/b5ffa64189/x11-packages/kinfocenter/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/b5ffa64189/x11-packages/kinfocenter/build.sh",
     "package_patch_urls": [
-      "https://github.com/strsp/termux-ng/blob/ebffcfc10e/x11-packages/kinfocenter/cmake-disable-udev.patch"
+      "https://github.com/strsp/termux-ng/blob/b5ffa64189/x11-packages/kinfocenter/cmake-disable-udev.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/strsp/termux-ng/ebffcfc10e/x11-packages/kinfocenter/cmake-disable-udev.patch"
+      "https://raw.githubusercontent.com/strsp/termux-ng/b5ffa64189/x11-packages/kinfocenter/cmake-disable-udev.patch"
     ],
     "auto_updated": true
   },
@@ -56950,7 +56950,7 @@
   },
   {
     "name": "kmenuedit",
-    "version": "6.6.4",
+    "version": "6.6.5",
     "description": "KDE menu editor",
     "homepage": "https://invent.kde.org/plasma/kmenuedit",
     "depends": [
@@ -56973,18 +56973,18 @@
       "libc++",
       "qt6-qtbase"
     ],
-    "srcurl": "https://download.kde.org/stable/plasma/6.6.4/kmenuedit-6.6.4.tar.xz",
+    "srcurl": "https://download.kde.org/stable/plasma/6.6.5/kmenuedit-6.6.5.tar.xz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/afa2278180/x11-packages/kmenuedit",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/afa2278180/x11-packages/kmenuedit/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/afa2278180/x11-packages/kmenuedit/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/a9ad7fb3f3/x11-packages/kmenuedit",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/a9ad7fb3f3/x11-packages/kmenuedit/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/a9ad7fb3f3/x11-packages/kmenuedit/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
   },
   {
     "name": "knighttime",
-    "version": "6.6.4",
+    "version": "6.6.5",
     "description": "KDE Helper for scheduling the dark-light cycle",
     "homepage": "https://invent.kde.org/plasma/knighttime",
     "depends": [
@@ -56996,11 +56996,11 @@
       "qt6-qtbase",
       "qt6-qtpositioning"
     ],
-    "srcurl": "https://download.kde.org/stable/plasma/6.6.4/knighttime-6.6.4.tar.xz",
+    "srcurl": "https://download.kde.org/stable/plasma/6.6.5/knighttime-6.6.5.tar.xz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/5b9d58349d/x11-packages/knighttime",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/5b9d58349d/x11-packages/knighttime/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/5b9d58349d/x11-packages/knighttime/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/54b42eee52/x11-packages/knighttime",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/54b42eee52/x11-packages/knighttime/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/54b42eee52/x11-packages/knighttime/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -57182,7 +57182,7 @@
   },
   {
     "name": "kpipewire",
-    "version": "6.6.4",
+    "version": "6.6.5",
     "description": "Components relating to pipewire use in Plasma",
     "homepage": "https://invent.kde.org/plasma/kpipewire",
     "depends": [
@@ -57198,16 +57198,16 @@
       "qt6-qtbase",
       "qt6-qtdeclarative"
     ],
-    "srcurl": "https://download.kde.org/stable/plasma/6.6.4/kpipewire-6.6.4.tar.xz",
+    "srcurl": "https://download.kde.org/stable/plasma/6.6.5/kpipewire-6.6.5.tar.xz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/84694eee85/x11-packages/kpipewire",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/84694eee85/x11-packages/kpipewire/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/84694eee85/x11-packages/kpipewire/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/24d70221f8/x11-packages/kpipewire",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/24d70221f8/x11-packages/kpipewire/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/24d70221f8/x11-packages/kpipewire/build.sh",
     "package_patch_urls": [
-      "https://github.com/strsp/termux-ng/blob/84694eee85/x11-packages/kpipewire/silence-pipewire.patch"
+      "https://github.com/strsp/termux-ng/blob/24d70221f8/x11-packages/kpipewire/silence-pipewire.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/strsp/termux-ng/84694eee85/x11-packages/kpipewire/silence-pipewire.patch"
+      "https://raw.githubusercontent.com/strsp/termux-ng/24d70221f8/x11-packages/kpipewire/silence-pipewire.patch"
     ],
     "auto_updated": true
   },
@@ -57353,7 +57353,7 @@
   },
   {
     "name": "ksystemstats",
-    "version": "6.6.4",
+    "version": "6.6.5",
     "description": "A plugin based system monitoring daemon",
     "homepage": "https://invent.kde.org/plasma/ksystemstats",
     "depends": [
@@ -57366,18 +57366,18 @@
       "libksysguard",
       "qt6-qtbase"
     ],
-    "srcurl": "https://download.kde.org/stable/plasma/6.6.4/ksystemstats-6.6.4.tar.xz",
+    "srcurl": "https://download.kde.org/stable/plasma/6.6.5/ksystemstats-6.6.5.tar.xz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/66118b018b/x11-packages/ksystemstats",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/66118b018b/x11-packages/ksystemstats/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/66118b018b/x11-packages/ksystemstats/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/b46749d22c/x11-packages/ksystemstats",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/b46749d22c/x11-packages/ksystemstats/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/b46749d22c/x11-packages/ksystemstats/build.sh",
     "package_patch_urls": [
-      "https://github.com/strsp/termux-ng/blob/66118b018b/x11-packages/ksystemstats/disable-sensors.patch",
-      "https://github.com/strsp/termux-ng/blob/66118b018b/x11-packages/ksystemstats/getloadavg.patch"
+      "https://github.com/strsp/termux-ng/blob/b46749d22c/x11-packages/ksystemstats/disable-sensors.patch",
+      "https://github.com/strsp/termux-ng/blob/b46749d22c/x11-packages/ksystemstats/getloadavg.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/strsp/termux-ng/66118b018b/x11-packages/ksystemstats/disable-sensors.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/66118b018b/x11-packages/ksystemstats/getloadavg.patch"
+      "https://raw.githubusercontent.com/strsp/termux-ng/b46749d22c/x11-packages/ksystemstats/disable-sensors.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/b46749d22c/x11-packages/ksystemstats/getloadavg.patch"
     ],
     "auto_updated": true
   },
@@ -57554,7 +57554,7 @@
   },
   {
     "name": "kwayland",
-    "version": "6.6.4",
+    "version": "6.6.5",
     "description": "Qt-style Client and Server library wrapper for Wayland libraries",
     "homepage": "https://invent.kde.org/plasma/kwayland",
     "depends": [
@@ -57563,11 +57563,11 @@
       "qt6-qtbase",
       "qt6-qtwayland"
     ],
-    "srcurl": "https://download.kde.org/stable/plasma/6.6.4/kwayland-6.6.4.tar.xz",
+    "srcurl": "https://download.kde.org/stable/plasma/6.6.5/kwayland-6.6.5.tar.xz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/5d5c1541d1/x11-packages/kwayland",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/5d5c1541d1/x11-packages/kwayland/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/5d5c1541d1/x11-packages/kwayland/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/6b9e144266/x11-packages/kwayland",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/6b9e144266/x11-packages/kwayland/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/6b9e144266/x11-packages/kwayland/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -57623,7 +57623,7 @@
   },
   {
     "name": "kwin-x11",
-    "version": "6.6.4",
+    "version": "6.6.5",
     "description": "An easy to use, but flexible, X Window Manager",
     "homepage": "https://invent.kde.org/plasma/kwin-x11",
     "depends": [
@@ -57679,22 +57679,22 @@
       "xcb-util-keysyms",
       "xcb-util-wm"
     ],
-    "srcurl": "https://download.kde.org/stable/plasma/6.6.4/kwin-x11-6.6.4.tar.xz",
+    "srcurl": "https://download.kde.org/stable/plasma/6.6.5/kwin-x11-6.6.5.tar.xz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/30edaadb1f/x11-packages/kwin-x11",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/30edaadb1f/x11-packages/kwin-x11/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/30edaadb1f/x11-packages/kwin-x11/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/dcb1333f22/x11-packages/kwin-x11",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/dcb1333f22/x11-packages/kwin-x11/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/dcb1333f22/x11-packages/kwin-x11/build.sh",
     "package_patch_urls": [
-      "https://github.com/strsp/termux-ng/blob/30edaadb1f/x11-packages/kwin-x11/add-qtdbus.patch",
-      "https://github.com/strsp/termux-ng/blob/30edaadb1f/x11-packages/kwin-x11/disable-compositor.patch",
-      "https://github.com/strsp/termux-ng/blob/30edaadb1f/x11-packages/kwin-x11/disable-udev.patch",
-      "https://github.com/strsp/termux-ng/blob/30edaadb1f/x11-packages/kwin-x11/kwin-force-egl.patch"
+      "https://github.com/strsp/termux-ng/blob/dcb1333f22/x11-packages/kwin-x11/add-qtdbus.patch",
+      "https://github.com/strsp/termux-ng/blob/dcb1333f22/x11-packages/kwin-x11/disable-compositor.patch",
+      "https://github.com/strsp/termux-ng/blob/dcb1333f22/x11-packages/kwin-x11/disable-udev.patch",
+      "https://github.com/strsp/termux-ng/blob/dcb1333f22/x11-packages/kwin-x11/kwin-force-egl.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/strsp/termux-ng/30edaadb1f/x11-packages/kwin-x11/add-qtdbus.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/30edaadb1f/x11-packages/kwin-x11/disable-compositor.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/30edaadb1f/x11-packages/kwin-x11/disable-udev.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/30edaadb1f/x11-packages/kwin-x11/kwin-force-egl.patch"
+      "https://raw.githubusercontent.com/strsp/termux-ng/dcb1333f22/x11-packages/kwin-x11/add-qtdbus.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/dcb1333f22/x11-packages/kwin-x11/disable-compositor.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/dcb1333f22/x11-packages/kwin-x11/disable-udev.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/dcb1333f22/x11-packages/kwin-x11/kwin-force-egl.patch"
     ],
     "auto_updated": true
   },
@@ -57750,7 +57750,7 @@
   },
   {
     "name": "layer-shell-qt",
-    "version": "6.6.4",
+    "version": "6.6.5",
     "description": "Qt component to allow applications to make use of the Wayland wl-layer-shell protocol",
     "homepage": "https://invent.kde.org/plasma/layer-shell-qt",
     "depends": [
@@ -57759,11 +57759,11 @@
       "qt6-qtdeclarative",
       "libwayland"
     ],
-    "srcurl": "https://download.kde.org/stable/plasma/6.6.4/layer-shell-qt-6.6.4.tar.xz",
+    "srcurl": "https://download.kde.org/stable/plasma/6.6.5/layer-shell-qt-6.6.5.tar.xz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/eaa9cef14d/x11-packages/layer-shell-qt",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/eaa9cef14d/x11-packages/layer-shell-qt/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/eaa9cef14d/x11-packages/layer-shell-qt/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/9d0610c653/x11-packages/layer-shell-qt",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/9d0610c653/x11-packages/layer-shell-qt/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/9d0610c653/x11-packages/layer-shell-qt/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -58417,7 +58417,7 @@
   },
   {
     "name": "libkscreen",
-    "version": "6.6.4",
+    "version": "6.6.5",
     "description": "KDE screen management software",
     "homepage": "https://invent.kde.org/plasma/libkscreen",
     "depends": [
@@ -58427,18 +58427,18 @@
       "qt6-qtbase",
       "qt6-qtwayland"
     ],
-    "srcurl": "https://download.kde.org/stable/plasma/6.6.4/libkscreen-6.6.4.tar.xz",
+    "srcurl": "https://download.kde.org/stable/plasma/6.6.5/libkscreen-6.6.5.tar.xz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/3407636a47/x11-packages/libkscreen",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/3407636a47/x11-packages/libkscreen/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/3407636a47/x11-packages/libkscreen/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/9fb365fd97/x11-packages/libkscreen",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/9fb365fd97/x11-packages/libkscreen/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/9fb365fd97/x11-packages/libkscreen/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
   },
   {
     "name": "libksysguard",
-    "version": "6.6.4",
+    "version": "6.6.5",
     "description": "KSysGuard library provides API to read and manage processes running on the system",
     "homepage": "https://invent.kde.org/plasma/libksysguard",
     "depends": [
@@ -58462,18 +58462,18 @@
       "qt6-qtbase",
       "qt6-qtdeclarative"
     ],
-    "srcurl": "https://download.kde.org/stable/plasma/6.6.4/libksysguard-6.6.4.tar.xz",
+    "srcurl": "https://download.kde.org/stable/plasma/6.6.5/libksysguard-6.6.5.tar.xz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/d7e5501a28/x11-packages/libksysguard",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/d7e5501a28/x11-packages/libksysguard/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/d7e5501a28/x11-packages/libksysguard/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/23b3746da9/x11-packages/libksysguard",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/23b3746da9/x11-packages/libksysguard/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/23b3746da9/x11-packages/libksysguard/build.sh",
     "package_patch_urls": [
-      "https://github.com/strsp/termux-ng/blob/d7e5501a28/x11-packages/libksysguard/disable-gpu-plugin.patch",
-      "https://github.com/strsp/termux-ng/blob/d7e5501a28/x11-packages/libksysguard/disable-sensors.patch"
+      "https://github.com/strsp/termux-ng/blob/23b3746da9/x11-packages/libksysguard/disable-gpu-plugin.patch",
+      "https://github.com/strsp/termux-ng/blob/23b3746da9/x11-packages/libksysguard/disable-sensors.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/strsp/termux-ng/d7e5501a28/x11-packages/libksysguard/disable-gpu-plugin.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/d7e5501a28/x11-packages/libksysguard/disable-sensors.patch"
+      "https://raw.githubusercontent.com/strsp/termux-ng/23b3746da9/x11-packages/libksysguard/disable-gpu-plugin.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/23b3746da9/x11-packages/libksysguard/disable-sensors.patch"
     ],
     "auto_updated": true
   },
@@ -58746,7 +58746,7 @@
   },
   {
     "name": "libplasma",
-    "version": "6.6.4",
+    "version": "6.6.5",
     "description": "Plasma library and runtime components",
     "homepage": "https://invent.kde.org/plasma/libplasma",
     "depends": [
@@ -58775,11 +58775,11 @@
       "qt6-qtdeclarative",
       "qt6-qtwayland"
     ],
-    "srcurl": "https://download.kde.org/stable/plasma/6.6.4/libplasma-6.6.4.tar.xz",
+    "srcurl": "https://download.kde.org/stable/plasma/6.6.5/libplasma-6.6.5.tar.xz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/3a2742eec8/x11-packages/libplasma",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/3a2742eec8/x11-packages/libplasma/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/3a2742eec8/x11-packages/libplasma/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/9ae2ee26b4/x11-packages/libplasma",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/9ae2ee26b4/x11-packages/libplasma/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/9ae2ee26b4/x11-packages/libplasma/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -61223,7 +61223,7 @@
   },
   {
     "name": "milou",
-    "version": "6.6.4",
+    "version": "6.6.5",
     "description": "A dedicated search application built on top of Baloo",
     "homepage": "https://invent.kde.org/plasma/milou",
     "depends": [
@@ -61235,11 +61235,11 @@
       "qt6-qtbase",
       "qt6-qtdeclarative"
     ],
-    "srcurl": "https://download.kde.org/stable/plasma/6.6.4/milou-6.6.4.tar.xz",
+    "srcurl": "https://download.kde.org/stable/plasma/6.6.5/milou-6.6.5.tar.xz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/f795bf38fb/x11-packages/milou",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/f795bf38fb/x11-packages/milou/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/f795bf38fb/x11-packages/milou/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/fb6c150ea9/x11-packages/milou",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/fb6c150ea9/x11-packages/milou/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/fb6c150ea9/x11-packages/milou/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -63196,7 +63196,7 @@
   },
   {
     "name": "plasma-activities",
-    "version": "6.6.4",
+    "version": "6.6.5",
     "description": "Core components for KDE's Activities",
     "homepage": "https://invent.kde.org/plasma/plasma-activities",
     "depends": [
@@ -63206,11 +63206,11 @@
       "qt6-qtbase",
       "qt6-qtdeclarative"
     ],
-    "srcurl": "https://download.kde.org/stable/plasma/6.6.4/plasma-activities-6.6.4.tar.xz",
+    "srcurl": "https://download.kde.org/stable/plasma/6.6.5/plasma-activities-6.6.5.tar.xz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/6dc00619a4/x11-packages/plasma-activities",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/6dc00619a4/x11-packages/plasma-activities/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/6dc00619a4/x11-packages/plasma-activities/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/d1a1dec41b/x11-packages/plasma-activities",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/d1a1dec41b/x11-packages/plasma-activities/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/d1a1dec41b/x11-packages/plasma-activities/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
