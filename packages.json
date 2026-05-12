@@ -67150,7 +67150,7 @@
   },
   {
     "name": "telegram-desktop",
-    "version": "6.8.1",
+    "version": "6.8.2",
     "description": "Telegram Desktop Client",
     "homepage": "https://desktop.telegram.org/",
     "depends": [
@@ -67188,28 +67188,28 @@
       "xxhash",
       "zlib"
     ],
-    "srcurl": "https://github.com/telegramdesktop/tdesktop/releases/download/v6.8.1/tdesktop-6.8.1-full.tar.gz",
+    "srcurl": "https://github.com/telegramdesktop/tdesktop/releases/download/v6.8.2/tdesktop-6.8.2-full.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/85acd8e6a9/x11-packages/telegram-desktop",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/85acd8e6a9/x11-packages/telegram-desktop/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/85acd8e6a9/x11-packages/telegram-desktop/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/fc0cfeab13/x11-packages/telegram-desktop",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/fc0cfeab13/x11-packages/telegram-desktop/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/fc0cfeab13/x11-packages/telegram-desktop/build.sh",
     "package_patch_urls": [
-      "https://github.com/strsp/termux-ng/blob/85acd8e6a9/x11-packages/telegram-desktop/0001-use-prebuilt-cppgir.patch",
-      "https://github.com/strsp/termux-ng/blob/85acd8e6a9/x11-packages/telegram-desktop/0002-webrtc-clang20.patch",
-      "https://github.com/strsp/termux-ng/blob/85acd8e6a9/x11-packages/telegram-desktop/0003-cppgir-namespace.patch",
-      "https://github.com/strsp/termux-ng/blob/85acd8e6a9/x11-packages/telegram-desktop/0004-libtd-no-android.patch",
-      "https://github.com/strsp/termux-ng/blob/85acd8e6a9/x11-packages/telegram-desktop/0005-libtg_owt-absl-20250814.patch",
-      "https://github.com/strsp/termux-ng/blob/85acd8e6a9/x11-packages/telegram-desktop/0006-gir-version.patch",
-      "https://github.com/strsp/termux-ng/blob/85acd8e6a9/x11-packages/telegram-desktop/0007-minizip-include.patch"
+      "https://github.com/strsp/termux-ng/blob/fc0cfeab13/x11-packages/telegram-desktop/0001-use-prebuilt-cppgir.patch",
+      "https://github.com/strsp/termux-ng/blob/fc0cfeab13/x11-packages/telegram-desktop/0002-webrtc-clang20.patch",
+      "https://github.com/strsp/termux-ng/blob/fc0cfeab13/x11-packages/telegram-desktop/0003-cppgir-namespace.patch",
+      "https://github.com/strsp/termux-ng/blob/fc0cfeab13/x11-packages/telegram-desktop/0004-libtd-no-android.patch",
+      "https://github.com/strsp/termux-ng/blob/fc0cfeab13/x11-packages/telegram-desktop/0005-libtg_owt-absl-20250814.patch",
+      "https://github.com/strsp/termux-ng/blob/fc0cfeab13/x11-packages/telegram-desktop/0006-gir-version.patch",
+      "https://github.com/strsp/termux-ng/blob/fc0cfeab13/x11-packages/telegram-desktop/0007-minizip-include.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/strsp/termux-ng/85acd8e6a9/x11-packages/telegram-desktop/0001-use-prebuilt-cppgir.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/85acd8e6a9/x11-packages/telegram-desktop/0002-webrtc-clang20.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/85acd8e6a9/x11-packages/telegram-desktop/0003-cppgir-namespace.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/85acd8e6a9/x11-packages/telegram-desktop/0004-libtd-no-android.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/85acd8e6a9/x11-packages/telegram-desktop/0005-libtg_owt-absl-20250814.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/85acd8e6a9/x11-packages/telegram-desktop/0006-gir-version.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/85acd8e6a9/x11-packages/telegram-desktop/0007-minizip-include.patch"
+      "https://raw.githubusercontent.com/strsp/termux-ng/fc0cfeab13/x11-packages/telegram-desktop/0001-use-prebuilt-cppgir.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/fc0cfeab13/x11-packages/telegram-desktop/0002-webrtc-clang20.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/fc0cfeab13/x11-packages/telegram-desktop/0003-cppgir-namespace.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/fc0cfeab13/x11-packages/telegram-desktop/0004-libtd-no-android.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/fc0cfeab13/x11-packages/telegram-desktop/0005-libtg_owt-absl-20250814.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/fc0cfeab13/x11-packages/telegram-desktop/0006-gir-version.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/fc0cfeab13/x11-packages/telegram-desktop/0007-minizip-include.patch"
     ],
     "auto_updated": true
   },
