@@ -4845,7 +4845,7 @@
   },
   {
     "name": "composer",
-    "version": "2.9.7",
+    "version": "2.9.8",
     "description": "Dependency Manager for PHP",
     "homepage": "https://getcomposer.org/",
     "depends": [
@@ -4853,14 +4853,14 @@
     ],
     "srcurl": "git+https://github.com/composer/composer",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/21e5d0d889/packages/composer",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/21e5d0d889/packages/composer/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/21e5d0d889/packages/composer/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/68458e875f/packages/composer",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/68458e875f/packages/composer/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/68458e875f/packages/composer/build.sh",
     "package_patch_urls": [
-      "https://github.com/strsp/termux-ng/blob/21e5d0d889/packages/composer/fix-shebang.patch"
+      "https://github.com/strsp/termux-ng/blob/68458e875f/packages/composer/fix-shebang.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/strsp/termux-ng/21e5d0d889/packages/composer/fix-shebang.patch"
+      "https://raw.githubusercontent.com/strsp/termux-ng/68458e875f/packages/composer/fix-shebang.patch"
     ],
     "auto_updated": true
   },
@@ -13968,7 +13968,7 @@
   },
   {
     "name": "jackett",
-    "version": "0.24.1846",
+    "version": "0.24.1849",
     "description": "API Support for your favorite torrent trackers",
     "homepage": "https://github.com/jackett/jackett",
     "depends": [
@@ -13976,11 +13976,11 @@
       "dotnet-host",
       "dotnet-runtime-9.0"
     ],
-    "srcurl": "https://github.com/Jackett/Jackett/archive/refs/tags/v0.24.1846.tar.gz",
+    "srcurl": "https://github.com/Jackett/Jackett/archive/refs/tags/v0.24.1849.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/7038a69c0a/packages/jackett",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/7038a69c0a/packages/jackett/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/7038a69c0a/packages/jackett/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/e098ae09a4/packages/jackett",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/e098ae09a4/packages/jackett/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/e098ae09a4/packages/jackett/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -45414,22 +45414,22 @@
   },
   {
     "name": "zellij",
-    "version": "0.44.2",
+    "version": "0.44.3",
     "description": "A terminal workspace with batteries included",
     "homepage": "https://zellij.dev/",
     "depends": [],
-    "srcurl": "https://github.com/zellij-org/zellij/archive/refs/tags/v0.44.2.tar.gz",
+    "srcurl": "https://github.com/zellij-org/zellij/archive/refs/tags/v0.44.3.tar.gz",
     "maintainer": "Jonathan Lei <me@xjonathan.dev>",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/55fb382bb0/packages/zellij",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/55fb382bb0/packages/zellij/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/55fb382bb0/packages/zellij/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/1e9164b264/packages/zellij",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/1e9164b264/packages/zellij/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/1e9164b264/packages/zellij/build.sh",
     "package_patch_urls": [
-      "https://github.com/strsp/termux-ng/blob/55fb382bb0/packages/zellij/0001-curl-sys-0.4.78-curl-8.11.0.patch",
-      "https://github.com/strsp/termux-ng/blob/55fb382bb0/packages/zellij/prefix.patch"
+      "https://github.com/strsp/termux-ng/blob/1e9164b264/packages/zellij/0001-curl-sys-0.4.78-curl-8.11.0.patch",
+      "https://github.com/strsp/termux-ng/blob/1e9164b264/packages/zellij/prefix.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/strsp/termux-ng/55fb382bb0/packages/zellij/0001-curl-sys-0.4.78-curl-8.11.0.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/55fb382bb0/packages/zellij/prefix.patch"
+      "https://raw.githubusercontent.com/strsp/termux-ng/1e9164b264/packages/zellij/0001-curl-sys-0.4.78-curl-8.11.0.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/1e9164b264/packages/zellij/prefix.patch"
     ],
     "auto_updated": true
   },
