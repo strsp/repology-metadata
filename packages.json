@@ -1991,7 +1991,7 @@
   },
   {
     "name": "awscli",
-    "version": "2.34.45",
+    "version": "2.34.46",
     "description": "Universal Command Line Interface for Amazon Web Services",
     "homepage": "https://aws.amazon.com/cli",
     "depends": [
@@ -1999,18 +1999,18 @@
       "libandroid-support",
       "mandoc"
     ],
-    "srcurl": "https://github.com/aws/aws-cli/archive/refs/tags/2.34.45.tar.gz",
+    "srcurl": "https://github.com/aws/aws-cli/archive/refs/tags/2.34.46.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/82a6853168/packages/awscli",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/82a6853168/packages/awscli/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/82a6853168/packages/awscli/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/d06edd0aee/packages/awscli",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/d06edd0aee/packages/awscli/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/d06edd0aee/packages/awscli/build.sh",
     "package_patch_urls": [
-      "https://github.com/strsp/termux-ng/blob/82a6853168/packages/awscli/remove-ios-support.patch",
-      "https://github.com/strsp/termux-ng/blob/82a6853168/packages/awscli/remove-no-build-isolation.patch"
+      "https://github.com/strsp/termux-ng/blob/d06edd0aee/packages/awscli/remove-ios-support.patch",
+      "https://github.com/strsp/termux-ng/blob/d06edd0aee/packages/awscli/remove-no-build-isolation.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/strsp/termux-ng/82a6853168/packages/awscli/remove-ios-support.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/82a6853168/packages/awscli/remove-no-build-isolation.patch"
+      "https://raw.githubusercontent.com/strsp/termux-ng/d06edd0aee/packages/awscli/remove-ios-support.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/d06edd0aee/packages/awscli/remove-no-build-isolation.patch"
     ],
     "auto_updated": true
   },
@@ -5702,15 +5702,15 @@
   },
   {
     "name": "dasel",
-    "version": "3.8.1",
+    "version": "3.10.1",
     "description": "Select, put and delete data from JSON, TOML, YAML, XML and CSV files with a single utility",
     "homepage": "https://github.com/TomWright/dasel",
     "depends": [],
-    "srcurl": "https://github.com/TomWright/dasel/archive/refs/tags/v3.8.1.tar.gz",
+    "srcurl": "https://github.com/TomWright/dasel/archive/refs/tags/v3.10.1.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/4c9c43b05b/packages/dasel",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/4c9c43b05b/packages/dasel/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/4c9c43b05b/packages/dasel/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/601da18985/packages/dasel",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/601da18985/packages/dasel/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/601da18985/packages/dasel/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -43954,15 +43954,15 @@
   },
   {
     "name": "wakatime-cli",
-    "version": "2.13.1",
+    "version": "2.13.2",
     "description": "Command line interface used by all WakaTime text editor plugins",
     "homepage": "https://wakatime.com/plugins/",
     "depends": [],
-    "srcurl": "https://github.com/wakatime/wakatime-cli/archive/refs/tags/v2.13.1.tar.gz",
+    "srcurl": "https://github.com/wakatime/wakatime-cli/archive/refs/tags/v2.13.2.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/700346fcf3/packages/wakatime-cli",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/700346fcf3/packages/wakatime-cli/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/700346fcf3/packages/wakatime-cli/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/4e9bee6045/packages/wakatime-cli",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/4e9bee6045/packages/wakatime-cli/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/4e9bee6045/packages/wakatime-cli/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
