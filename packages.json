@@ -1741,15 +1741,15 @@
   },
   {
     "name": "atuin",
-    "version": "18.16.0",
+    "version": "18.16.1",
     "description": "Magical shell history",
     "homepage": "https://atuin.sh/",
     "depends": [],
-    "srcurl": "https://github.com/atuinsh/atuin/archive/refs/tags/v18.16.0.tar.gz",
+    "srcurl": "https://github.com/atuinsh/atuin/archive/refs/tags/v18.16.1.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/c3259574b4/packages/atuin",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/c3259574b4/packages/atuin/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/c3259574b4/packages/atuin/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/d794eb8978/packages/atuin",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/d794eb8978/packages/atuin/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/d794eb8978/packages/atuin/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -10436,15 +10436,15 @@
   },
   {
     "name": "glab-cli",
-    "version": "1.96.0",
+    "version": "1.97.0",
     "description": "A GitLab CLI tool bringing GitLab to your command line",
     "homepage": "https://gitlab.com/gitlab-org/cli",
     "depends": [],
-    "srcurl": "https://gitlab.com/gitlab-org/cli/-/archive/v1.96.0/cli-1.96.0.tar.bz2",
+    "srcurl": "https://gitlab.com/gitlab-org/cli/-/archive/v1.97.0/cli-1.97.0.tar.bz2",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/ebfcecf530/packages/glab-cli",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/ebfcecf530/packages/glab-cli/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/ebfcecf530/packages/glab-cli/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/4916e4ae46/packages/glab-cli",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/4916e4ae46/packages/glab-cli/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/4916e4ae46/packages/glab-cli/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -29947,7 +29947,7 @@
   },
   {
     "name": "ollama",
-    "version": "0.23.2",
+    "version": "0.23.3",
     "description": "Get up and running with large language models",
     "homepage": "https://ollama.com/",
     "depends": [
@@ -29955,26 +29955,26 @@
     ],
     "srcurl": "git+https://github.com/ollama/ollama",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/ee37f03d6d/packages/ollama",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/ee37f03d6d/packages/ollama/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/ee37f03d6d/packages/ollama/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/20b341fc80/packages/ollama",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/20b341fc80/packages/ollama/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/20b341fc80/packages/ollama/build.sh",
     "package_patch_urls": [
-      "https://github.com/strsp/termux-ng/blob/ee37f03d6d/packages/ollama/0001-do-not-install-runtime-deps.patch",
-      "https://github.com/strsp/termux-ng/blob/ee37f03d6d/packages/ollama/0002-properly-search-libs-on-android.patch",
-      "https://github.com/strsp/termux-ng/blob/ee37f03d6d/packages/ollama/0003-do-not-include-sources-for-vulkan-again.patch",
-      "https://github.com/strsp/termux-ng/blob/ee37f03d6d/packages/ollama/0004-force-disable-features-on-Andoid.patch",
-      "https://github.com/strsp/termux-ng/blob/ee37f03d6d/packages/ollama/0006-do-not-search-hip-memory.patch",
-      "https://github.com/strsp/termux-ng/blob/ee37f03d6d/packages/ollama/0007-do-not-use-flash-attention-when-using-cpu.patch",
-      "https://github.com/strsp/termux-ng/blob/ee37f03d6d/packages/ollama/0008-fix-build-with-latest-vulkan-hpp.patch"
+      "https://github.com/strsp/termux-ng/blob/20b341fc80/packages/ollama/0001-do-not-install-runtime-deps.patch",
+      "https://github.com/strsp/termux-ng/blob/20b341fc80/packages/ollama/0002-properly-search-libs-on-android.patch",
+      "https://github.com/strsp/termux-ng/blob/20b341fc80/packages/ollama/0003-do-not-include-sources-for-vulkan-again.patch",
+      "https://github.com/strsp/termux-ng/blob/20b341fc80/packages/ollama/0004-force-disable-features-on-Andoid.patch",
+      "https://github.com/strsp/termux-ng/blob/20b341fc80/packages/ollama/0006-do-not-search-hip-memory.patch",
+      "https://github.com/strsp/termux-ng/blob/20b341fc80/packages/ollama/0007-do-not-use-flash-attention-when-using-cpu.patch",
+      "https://github.com/strsp/termux-ng/blob/20b341fc80/packages/ollama/0008-fix-build-with-latest-vulkan-hpp.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/strsp/termux-ng/ee37f03d6d/packages/ollama/0001-do-not-install-runtime-deps.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/ee37f03d6d/packages/ollama/0002-properly-search-libs-on-android.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/ee37f03d6d/packages/ollama/0003-do-not-include-sources-for-vulkan-again.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/ee37f03d6d/packages/ollama/0004-force-disable-features-on-Andoid.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/ee37f03d6d/packages/ollama/0006-do-not-search-hip-memory.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/ee37f03d6d/packages/ollama/0007-do-not-use-flash-attention-when-using-cpu.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/ee37f03d6d/packages/ollama/0008-fix-build-with-latest-vulkan-hpp.patch"
+      "https://raw.githubusercontent.com/strsp/termux-ng/20b341fc80/packages/ollama/0001-do-not-install-runtime-deps.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/20b341fc80/packages/ollama/0002-properly-search-libs-on-android.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/20b341fc80/packages/ollama/0003-do-not-include-sources-for-vulkan-again.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/20b341fc80/packages/ollama/0004-force-disable-features-on-Andoid.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/20b341fc80/packages/ollama/0006-do-not-search-hip-memory.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/20b341fc80/packages/ollama/0007-do-not-use-flash-attention-when-using-cpu.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/20b341fc80/packages/ollama/0008-fix-build-with-latest-vulkan-hpp.patch"
     ],
     "auto_updated": true
   },
@@ -63268,7 +63268,7 @@
   },
   {
     "name": "plasma-desktop",
-    "version": "6.6.4",
+    "version": "6.6.5",
     "description": "KDE Plasma Desktop",
     "homepage": "https://invent.kde.org/plasma/plasma-desktop",
     "depends": [
@@ -63334,22 +63334,22 @@
       "sdl2",
       "xcb-util-keysyms"
     ],
-    "srcurl": "https://download.kde.org/stable/plasma/6.6.4/plasma-desktop-6.6.4.tar.xz",
+    "srcurl": "https://download.kde.org/stable/plasma/6.6.5/plasma-desktop-6.6.5.tar.xz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/673e02e474/x11-packages/plasma-desktop",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/673e02e474/x11-packages/plasma-desktop/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/673e02e474/x11-packages/plasma-desktop/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/b47560404f/x11-packages/plasma-desktop",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/b47560404f/x11-packages/plasma-desktop/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/b47560404f/x11-packages/plasma-desktop/build.sh",
     "package_patch_urls": [
-      "https://github.com/strsp/termux-ng/blob/673e02e474/x11-packages/plasma-desktop/cmake-disable-libwacom.patch",
-      "https://github.com/strsp/termux-ng/blob/673e02e474/x11-packages/plasma-desktop/cmake-disable-problematic-kcms.patch",
-      "https://github.com/strsp/termux-ng/blob/673e02e474/x11-packages/plasma-desktop/cmake-disable-udev.patch",
-      "https://github.com/strsp/termux-ng/blob/673e02e474/x11-packages/plasma-desktop/use-kwin-x11-dbus-interface.patch"
+      "https://github.com/strsp/termux-ng/blob/b47560404f/x11-packages/plasma-desktop/cmake-disable-libwacom.patch",
+      "https://github.com/strsp/termux-ng/blob/b47560404f/x11-packages/plasma-desktop/cmake-disable-problematic-kcms.patch",
+      "https://github.com/strsp/termux-ng/blob/b47560404f/x11-packages/plasma-desktop/cmake-disable-udev.patch",
+      "https://github.com/strsp/termux-ng/blob/b47560404f/x11-packages/plasma-desktop/use-kwin-x11-dbus-interface.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/strsp/termux-ng/673e02e474/x11-packages/plasma-desktop/cmake-disable-libwacom.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/673e02e474/x11-packages/plasma-desktop/cmake-disable-problematic-kcms.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/673e02e474/x11-packages/plasma-desktop/cmake-disable-udev.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/673e02e474/x11-packages/plasma-desktop/use-kwin-x11-dbus-interface.patch"
+      "https://raw.githubusercontent.com/strsp/termux-ng/b47560404f/x11-packages/plasma-desktop/cmake-disable-libwacom.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/b47560404f/x11-packages/plasma-desktop/cmake-disable-problematic-kcms.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/b47560404f/x11-packages/plasma-desktop/cmake-disable-udev.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/b47560404f/x11-packages/plasma-desktop/use-kwin-x11-dbus-interface.patch"
     ],
     "auto_updated": true
   },
@@ -63437,7 +63437,7 @@
   },
   {
     "name": "plasma-sdk",
-    "version": "6.6.4",
+    "version": "6.6.5",
     "description": "Applications useful for Plasma development",
     "homepage": "https://invent.kde.org/plasma/plasma-sdk",
     "depends": [
@@ -63467,18 +63467,18 @@
       "qt6-qtbase",
       "qt6-qtdeclarative"
     ],
-    "srcurl": "https://download.kde.org/stable/plasma/6.6.4/plasma-sdk-6.6.4.tar.xz",
+    "srcurl": "https://download.kde.org/stable/plasma/6.6.5/plasma-sdk-6.6.5.tar.xz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/297074eeb0/x11-packages/plasma-sdk",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/297074eeb0/x11-packages/plasma-sdk/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/297074eeb0/x11-packages/plasma-sdk/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/148ba63dac/x11-packages/plasma-sdk",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/148ba63dac/x11-packages/plasma-sdk/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/148ba63dac/x11-packages/plasma-sdk/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
   },
   {
     "name": "plasma-systemmonitor",
-    "version": "6.6.4",
+    "version": "6.6.5",
     "description": "An interface for monitoring system sensors, process information and other system resources",
     "homepage": "https://invent.kde.org/plasma/plasma-systemmonitor",
     "depends": [
@@ -63504,11 +63504,11 @@
       "qt6-qtbase",
       "qt6-qtdeclarative"
     ],
-    "srcurl": "https://download.kde.org/stable/plasma/6.6.4/plasma-systemmonitor-6.6.4.tar.xz",
+    "srcurl": "https://download.kde.org/stable/plasma/6.6.5/plasma-systemmonitor-6.6.5.tar.xz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/9c0e92860d/x11-packages/plasma-systemmonitor",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/9c0e92860d/x11-packages/plasma-systemmonitor/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/9c0e92860d/x11-packages/plasma-systemmonitor/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/cbe58e5955/x11-packages/plasma-systemmonitor",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/cbe58e5955/x11-packages/plasma-systemmonitor/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/cbe58e5955/x11-packages/plasma-systemmonitor/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -63530,7 +63530,7 @@
   },
   {
     "name": "plasma-welcome",
-    "version": "6.6.4",
+    "version": "6.6.5",
     "description": "A friendly onboarding wizard for Plasma",
     "homepage": "https://invent.kde.org/plasma/plasma-welcome",
     "depends": [
@@ -63555,16 +63555,16 @@
       "qt6-qtbase",
       "qt6-qtdeclarative"
     ],
-    "srcurl": "https://download.kde.org/stable/plasma/6.6.4/plasma-welcome-6.6.4.tar.xz",
+    "srcurl": "https://download.kde.org/stable/plasma/6.6.5/plasma-welcome-6.6.5.tar.xz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/f519025ed4/x11-packages/plasma-welcome",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/f519025ed4/x11-packages/plasma-welcome/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/f519025ed4/x11-packages/plasma-welcome/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/2e3db57cfe/x11-packages/plasma-welcome",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/2e3db57cfe/x11-packages/plasma-welcome/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/2e3db57cfe/x11-packages/plasma-welcome/build.sh",
     "package_patch_urls": [
-      "https://github.com/strsp/termux-ng/blob/f519025ed4/x11-packages/plasma-welcome/disable-network-page.patch"
+      "https://github.com/strsp/termux-ng/blob/2e3db57cfe/x11-packages/plasma-welcome/disable-network-page.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/strsp/termux-ng/f519025ed4/x11-packages/plasma-welcome/disable-network-page.patch"
+      "https://raw.githubusercontent.com/strsp/termux-ng/2e3db57cfe/x11-packages/plasma-welcome/disable-network-page.patch"
     ],
     "auto_updated": true
   },
@@ -63695,17 +63695,17 @@
   },
   {
     "name": "plasma-workspace-wallpapers",
-    "version": "6.6.4",
+    "version": "6.6.5",
     "description": "Additional wallpapers for the Plasma Workspace",
     "homepage": "https://invent.kde.org/plasma/plasma-workspace-wallpapers",
     "depends": [
       "libc++"
     ],
-    "srcurl": "https://download.kde.org/stable/plasma/6.6.4/plasma-workspace-wallpapers-6.6.4.tar.xz",
+    "srcurl": "https://download.kde.org/stable/plasma/6.6.5/plasma-workspace-wallpapers-6.6.5.tar.xz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/7195926adf/x11-packages/plasma-workspace-wallpapers",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/7195926adf/x11-packages/plasma-workspace-wallpapers/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/7195926adf/x11-packages/plasma-workspace-wallpapers/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/ed27629045/x11-packages/plasma-workspace-wallpapers",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/ed27629045/x11-packages/plasma-workspace-wallpapers/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/ed27629045/x11-packages/plasma-workspace-wallpapers/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -63928,7 +63928,7 @@
   },
   {
     "name": "powerdevil",
-    "version": "6.6.4",
+    "version": "6.6.5",
     "description": "Manages the power consumption settings of a Plasma Shell",
     "homepage": "https://invent.kde.org/plasma/powerdevil",
     "depends": [
@@ -63959,22 +63959,22 @@
       "kf6-solid",
       "libwayland"
     ],
-    "srcurl": "https://download.kde.org/stable/plasma/6.6.4/powerdevil-6.6.4.tar.xz",
+    "srcurl": "https://download.kde.org/stable/plasma/6.6.5/powerdevil-6.6.5.tar.xz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/ed9b3dcbb0/x11-packages/powerdevil",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/ed9b3dcbb0/x11-packages/powerdevil/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/ed9b3dcbb0/x11-packages/powerdevil/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/07af8aab2c/x11-packages/powerdevil",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/07af8aab2c/x11-packages/powerdevil/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/07af8aab2c/x11-packages/powerdevil/build.sh",
     "package_patch_urls": [
-      "https://github.com/strsp/termux-ng/blob/ed9b3dcbb0/x11-packages/powerdevil/disable-udev.patch",
-      "https://github.com/strsp/termux-ng/blob/ed9b3dcbb0/x11-packages/powerdevil/fix-time-t-narrowing.patch",
-      "https://github.com/strsp/termux-ng/blob/ed9b3dcbb0/x11-packages/powerdevil/termux-backlight.patch",
-      "https://github.com/strsp/termux-ng/blob/ed9b3dcbb0/x11-packages/powerdevil/use-session-bus.patch"
+      "https://github.com/strsp/termux-ng/blob/07af8aab2c/x11-packages/powerdevil/disable-udev.patch",
+      "https://github.com/strsp/termux-ng/blob/07af8aab2c/x11-packages/powerdevil/fix-time-t-narrowing.patch",
+      "https://github.com/strsp/termux-ng/blob/07af8aab2c/x11-packages/powerdevil/termux-backlight.patch",
+      "https://github.com/strsp/termux-ng/blob/07af8aab2c/x11-packages/powerdevil/use-session-bus.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/strsp/termux-ng/ed9b3dcbb0/x11-packages/powerdevil/disable-udev.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/ed9b3dcbb0/x11-packages/powerdevil/fix-time-t-narrowing.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/ed9b3dcbb0/x11-packages/powerdevil/termux-backlight.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/ed9b3dcbb0/x11-packages/powerdevil/use-session-bus.patch"
+      "https://raw.githubusercontent.com/strsp/termux-ng/07af8aab2c/x11-packages/powerdevil/disable-udev.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/07af8aab2c/x11-packages/powerdevil/fix-time-t-narrowing.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/07af8aab2c/x11-packages/powerdevil/termux-backlight.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/07af8aab2c/x11-packages/powerdevil/use-session-bus.patch"
     ],
     "auto_updated": true
   },
@@ -64012,7 +64012,7 @@
   },
   {
     "name": "print-manager",
-    "version": "6.6.4",
+    "version": "6.6.5",
     "description": " A tool for managing print jobs and printers",
     "homepage": "https://invent.kde.org/plasma/print-manager",
     "depends": [
@@ -64033,16 +64033,16 @@
       "qt6-qtbase",
       "qt6-qtdeclarative"
     ],
-    "srcurl": "https://download.kde.org/stable/plasma/6.6.4/print-manager-6.6.4.tar.xz",
+    "srcurl": "https://download.kde.org/stable/plasma/6.6.5/print-manager-6.6.5.tar.xz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/467a6a1333/x11-packages/print-manager",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/467a6a1333/x11-packages/print-manager/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/467a6a1333/x11-packages/print-manager/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/7002114e11/x11-packages/print-manager",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/7002114e11/x11-packages/print-manager/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/7002114e11/x11-packages/print-manager/build.sh",
     "package_patch_urls": [
-      "https://github.com/strsp/termux-ng/blob/467a6a1333/x11-packages/print-manager/use-8631-port.patch"
+      "https://github.com/strsp/termux-ng/blob/7002114e11/x11-packages/print-manager/use-8631-port.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/strsp/termux-ng/467a6a1333/x11-packages/print-manager/use-8631-port.patch"
+      "https://raw.githubusercontent.com/strsp/termux-ng/7002114e11/x11-packages/print-manager/use-8631-port.patch"
     ],
     "auto_updated": true
   },
@@ -66741,7 +66741,7 @@
   },
   {
     "name": "spectacle",
-    "version": "6.6.4",
+    "version": "6.6.5",
     "description": "KDE screenshot capture utility",
     "homepage": "https://apps.kde.org/spectacle/",
     "depends": [
@@ -66779,11 +66779,11 @@
       "xcb-util-cursor",
       "xcb-util-image"
     ],
-    "srcurl": "https://download.kde.org/stable/plasma/6.6.4/spectacle-6.6.4.tar.xz",
+    "srcurl": "https://download.kde.org/stable/plasma/6.6.5/spectacle-6.6.5.tar.xz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/afbf2ee436/x11-packages/spectacle",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/afbf2ee436/x11-packages/spectacle/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/afbf2ee436/x11-packages/spectacle/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/b98a9f6401/x11-packages/spectacle",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/b98a9f6401/x11-packages/spectacle/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/b98a9f6401/x11-packages/spectacle/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -69258,7 +69258,7 @@
   },
   {
     "name": "xdg-desktop-portal-kde",
-    "version": "6.6.4",
+    "version": "6.6.5",
     "description": "A backend implementation for xdg-desktop-portal that is using Qt/KDE",
     "homepage": "https://invent.kde.org/plasma/xdg-desktop-portal-kde",
     "depends": [
@@ -69287,11 +69287,11 @@
       "qt6-qtdeclarative",
       "xdg-desktop-portal"
     ],
-    "srcurl": "https://download.kde.org/stable/plasma/6.6.4/xdg-desktop-portal-kde-6.6.4.tar.xz",
+    "srcurl": "https://download.kde.org/stable/plasma/6.6.5/xdg-desktop-portal-kde-6.6.5.tar.xz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/6b0517a653/x11-packages/xdg-desktop-portal-kde",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/6b0517a653/x11-packages/xdg-desktop-portal-kde/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/6b0517a653/x11-packages/xdg-desktop-portal-kde/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/467e163a35/x11-packages/xdg-desktop-portal-kde",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/467e163a35/x11-packages/xdg-desktop-portal-kde/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/467e163a35/x11-packages/xdg-desktop-portal-kde/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
