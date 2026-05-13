@@ -63237,7 +63237,7 @@
   },
   {
     "name": "plasma-browser-integration",
-    "version": "6.6.4",
+    "version": "6.6.5",
     "description": "Components necessary to integrate browsers into the Plasma Desktop",
     "homepage": "https://invent.kde.org/plasma/plasma-browser-integration",
     "depends": [
@@ -63257,11 +63257,11 @@
       "plasma-workspace",
       "qt6-qtbase"
     ],
-    "srcurl": "https://download.kde.org/stable/plasma/6.6.4/plasma-browser-integration-6.6.4.tar.xz",
+    "srcurl": "https://download.kde.org/stable/plasma/6.6.5/plasma-browser-integration-6.6.5.tar.xz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/bcc609aa8d/x11-packages/plasma-browser-integration",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/bcc609aa8d/x11-packages/plasma-browser-integration/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/bcc609aa8d/x11-packages/plasma-browser-integration/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/9ede8fc648/x11-packages/plasma-browser-integration",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/9ede8fc648/x11-packages/plasma-browser-integration/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/9ede8fc648/x11-packages/plasma-browser-integration/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -63397,7 +63397,7 @@
   },
   {
     "name": "plasma-pa",
-    "version": "6.6.4",
+    "version": "6.6.5",
     "description": "Plasma applet for audio volume management using PulseAudio",
     "homepage": "https://invent.kde.org/plasma/plasma-pa",
     "depends": [
@@ -63422,16 +63422,16 @@
       "qt6-qtbase",
       "qt6-qtdeclarative"
     ],
-    "srcurl": "https://download.kde.org/stable/plasma/6.6.4/plasma-pa-6.6.4.tar.xz",
+    "srcurl": "https://download.kde.org/stable/plasma/6.6.5/plasma-pa-6.6.5.tar.xz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/f251b62186/x11-packages/plasma-pa",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/f251b62186/x11-packages/plasma-pa/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/f251b62186/x11-packages/plasma-pa/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/f1d367d6e1/x11-packages/plasma-pa",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/f1d367d6e1/x11-packages/plasma-pa/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/f1d367d6e1/x11-packages/plasma-pa/build.sh",
     "package_patch_urls": [
-      "https://github.com/strsp/termux-ng/blob/f251b62186/x11-packages/plasma-pa/enable-virtual-devices-by-default.patch"
+      "https://github.com/strsp/termux-ng/blob/f1d367d6e1/x11-packages/plasma-pa/enable-virtual-devices-by-default.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/strsp/termux-ng/f251b62186/x11-packages/plasma-pa/enable-virtual-devices-by-default.patch"
+      "https://raw.githubusercontent.com/strsp/termux-ng/f1d367d6e1/x11-packages/plasma-pa/enable-virtual-devices-by-default.patch"
     ],
     "auto_updated": true
   },
@@ -63570,7 +63570,7 @@
   },
   {
     "name": "plasma-workspace",
-    "version": "6.6.4",
+    "version": "6.6.5",
     "description": "KDE Plasma Workspace",
     "homepage": "https://invent.kde.org/plasma/plasma-workspace",
     "depends": [
@@ -63662,34 +63662,34 @@
       "xorg-xrdb",
       "zlib"
     ],
-    "srcurl": "https://download.kde.org/stable/plasma/6.6.4/plasma-workspace-6.6.4.tar.xz",
+    "srcurl": "https://download.kde.org/stable/plasma/6.6.5/plasma-workspace-6.6.5.tar.xz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/d4689ff313/x11-packages/plasma-workspace",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/d4689ff313/x11-packages/plasma-workspace/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/d4689ff313/x11-packages/plasma-workspace/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/34f133ece7/x11-packages/plasma-workspace",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/34f133ece7/x11-packages/plasma-workspace/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/34f133ece7/x11-packages/plasma-workspace/build.sh",
     "package_patch_urls": [
-      "https://github.com/strsp/termux-ng/blob/d4689ff313/x11-packages/plasma-workspace/cmake-disable-kscreenlocker.patch",
-      "https://github.com/strsp/termux-ng/blob/d4689ff313/x11-packages/plasma-workspace/cmake-disable-udev.patch",
-      "https://github.com/strsp/termux-ng/blob/d4689ff313/x11-packages/plasma-workspace/cpp-disable-kscreenlocker-2.patch",
-      "https://github.com/strsp/termux-ng/blob/d4689ff313/x11-packages/plasma-workspace/cpp-disable-kscreenlocker-3.patch",
-      "https://github.com/strsp/termux-ng/blob/d4689ff313/x11-packages/plasma-workspace/cpp-disable-kscreenlocker-4.patch",
-      "https://github.com/strsp/termux-ng/blob/d4689ff313/x11-packages/plasma-workspace/cpp-disable-kscreenlocker.patch",
-      "https://github.com/strsp/termux-ng/blob/d4689ff313/x11-packages/plasma-workspace/cpp-disable-polkit.patch",
-      "https://github.com/strsp/termux-ng/blob/d4689ff313/x11-packages/plasma-workspace/crypt.patch",
-      "https://github.com/strsp/termux-ng/blob/d4689ff313/x11-packages/plasma-workspace/partial-revert-a71a52be.patch",
-      "https://github.com/strsp/termux-ng/blob/d4689ff313/x11-packages/plasma-workspace/startplasma.patch"
+      "https://github.com/strsp/termux-ng/blob/34f133ece7/x11-packages/plasma-workspace/cmake-disable-kscreenlocker.patch",
+      "https://github.com/strsp/termux-ng/blob/34f133ece7/x11-packages/plasma-workspace/cmake-disable-udev.patch",
+      "https://github.com/strsp/termux-ng/blob/34f133ece7/x11-packages/plasma-workspace/cpp-disable-kscreenlocker-2.patch",
+      "https://github.com/strsp/termux-ng/blob/34f133ece7/x11-packages/plasma-workspace/cpp-disable-kscreenlocker-3.patch",
+      "https://github.com/strsp/termux-ng/blob/34f133ece7/x11-packages/plasma-workspace/cpp-disable-kscreenlocker-4.patch",
+      "https://github.com/strsp/termux-ng/blob/34f133ece7/x11-packages/plasma-workspace/cpp-disable-kscreenlocker.patch",
+      "https://github.com/strsp/termux-ng/blob/34f133ece7/x11-packages/plasma-workspace/cpp-disable-polkit.patch",
+      "https://github.com/strsp/termux-ng/blob/34f133ece7/x11-packages/plasma-workspace/crypt.patch",
+      "https://github.com/strsp/termux-ng/blob/34f133ece7/x11-packages/plasma-workspace/partial-revert-a71a52be.patch",
+      "https://github.com/strsp/termux-ng/blob/34f133ece7/x11-packages/plasma-workspace/startplasma.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/strsp/termux-ng/d4689ff313/x11-packages/plasma-workspace/cmake-disable-kscreenlocker.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/d4689ff313/x11-packages/plasma-workspace/cmake-disable-udev.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/d4689ff313/x11-packages/plasma-workspace/cpp-disable-kscreenlocker-2.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/d4689ff313/x11-packages/plasma-workspace/cpp-disable-kscreenlocker-3.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/d4689ff313/x11-packages/plasma-workspace/cpp-disable-kscreenlocker-4.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/d4689ff313/x11-packages/plasma-workspace/cpp-disable-kscreenlocker.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/d4689ff313/x11-packages/plasma-workspace/cpp-disable-polkit.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/d4689ff313/x11-packages/plasma-workspace/crypt.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/d4689ff313/x11-packages/plasma-workspace/partial-revert-a71a52be.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/d4689ff313/x11-packages/plasma-workspace/startplasma.patch"
+      "https://raw.githubusercontent.com/strsp/termux-ng/34f133ece7/x11-packages/plasma-workspace/cmake-disable-kscreenlocker.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/34f133ece7/x11-packages/plasma-workspace/cmake-disable-udev.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/34f133ece7/x11-packages/plasma-workspace/cpp-disable-kscreenlocker-2.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/34f133ece7/x11-packages/plasma-workspace/cpp-disable-kscreenlocker-3.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/34f133ece7/x11-packages/plasma-workspace/cpp-disable-kscreenlocker-4.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/34f133ece7/x11-packages/plasma-workspace/cpp-disable-kscreenlocker.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/34f133ece7/x11-packages/plasma-workspace/cpp-disable-polkit.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/34f133ece7/x11-packages/plasma-workspace/crypt.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/34f133ece7/x11-packages/plasma-workspace/partial-revert-a71a52be.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/34f133ece7/x11-packages/plasma-workspace/startplasma.patch"
     ],
     "auto_updated": true
   },
