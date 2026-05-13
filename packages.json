@@ -33793,20 +33793,20 @@
   },
   {
     "name": "pyrefly",
-    "version": "0.64.1",
+    "version": "1.0.0",
     "description": "A fast type checker and language server for Python",
     "homepage": "https://github.com/facebook/pyrefly.git",
     "depends": [],
-    "srcurl": "https://github.com/facebook/pyrefly/archive/refs/tags/0.64.1.tar.gz",
+    "srcurl": "https://github.com/facebook/pyrefly/archive/refs/tags/1.0.0.tar.gz",
     "maintainer": "@AhmadNaruto",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/ba96b4768d/packages/pyrefly",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/ba96b4768d/packages/pyrefly/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/ba96b4768d/packages/pyrefly/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/d1549257dd/packages/pyrefly",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/d1549257dd/packages/pyrefly/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/d1549257dd/packages/pyrefly/build.sh",
     "package_patch_urls": [
-      "https://github.com/strsp/termux-ng/blob/ba96b4768d/packages/pyrefly/rust-cc-do-not-concatenate-all-the-CFLAGS.diff"
+      "https://github.com/strsp/termux-ng/blob/d1549257dd/packages/pyrefly/rust-cc-do-not-concatenate-all-the-CFLAGS.diff"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/strsp/termux-ng/ba96b4768d/packages/pyrefly/rust-cc-do-not-concatenate-all-the-CFLAGS.diff"
+      "https://raw.githubusercontent.com/strsp/termux-ng/d1549257dd/packages/pyrefly/rust-cc-do-not-concatenate-all-the-CFLAGS.diff"
     ],
     "auto_updated": true
   },
