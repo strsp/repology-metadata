@@ -2986,22 +2986,22 @@
   },
   {
     "name": "broot",
-    "version": "1.56.3",
+    "version": "1.56.4",
     "description": "A better way to navigate directories",
     "homepage": "https://github.com/Canop/broot",
     "depends": [
       "libgit2"
     ],
-    "srcurl": "https://github.com/Canop/broot/archive/refs/tags/v1.56.3.tar.gz",
+    "srcurl": "https://github.com/Canop/broot/archive/refs/tags/v1.56.4.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/ed52421cce/packages/broot",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/ed52421cce/packages/broot/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/ed52421cce/packages/broot/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/117f6fc3ed/packages/broot",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/117f6fc3ed/packages/broot/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/117f6fc3ed/packages/broot/build.sh",
     "package_patch_urls": [
-      "https://github.com/strsp/termux-ng/blob/ed52421cce/packages/broot/disable_trash.patch"
+      "https://github.com/strsp/termux-ng/blob/117f6fc3ed/packages/broot/disable_trash.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/strsp/termux-ng/ed52421cce/packages/broot/disable_trash.patch"
+      "https://raw.githubusercontent.com/strsp/termux-ng/117f6fc3ed/packages/broot/disable_trash.patch"
     ],
     "auto_updated": true
   },
@@ -9099,30 +9099,30 @@
   },
   {
     "name": "fresh-editor",
-    "version": "0.3.5",
+    "version": "0.3.6",
     "description": "Text editor for your terminal: easy, powerful and fast",
     "homepage": "https://getfresh.dev/",
     "depends": [],
-    "srcurl": "https://github.com/sinelaw/fresh/releases/download/v0.3.5/fresh-editor-0.3.5-source.tar.gz",
+    "srcurl": "https://github.com/sinelaw/fresh/releases/download/v0.3.6/fresh-editor-0.3.6-source.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/f1345fd95d/packages/fresh-editor",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/f1345fd95d/packages/fresh-editor/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/f1345fd95d/packages/fresh-editor/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/33d502ae7d/packages/fresh-editor",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/33d502ae7d/packages/fresh-editor/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/33d502ae7d/packages/fresh-editor/build.sh",
     "package_patch_urls": [
-      "https://github.com/strsp/termux-ng/blob/f1345fd95d/packages/fresh-editor/enable-rquickjs-bindgen.patch",
-      "https://github.com/strsp/termux-ng/blob/f1345fd95d/packages/fresh-editor/no-AT_EACCESS.patch",
-      "https://github.com/strsp/termux-ng/blob/f1345fd95d/packages/fresh-editor/rust-cc-do-not-concatenate-all-the-CFLAGS.diff",
-      "https://github.com/strsp/termux-ng/blob/f1345fd95d/packages/fresh-editor/smithay-client-toolkit-no-shm.diff",
-      "https://github.com/strsp/termux-ng/blob/f1345fd95d/packages/fresh-editor/trash-rs-implement-get_mount_points-android.diff",
-      "https://github.com/strsp/termux-ng/blob/f1345fd95d/packages/fresh-editor/wayland-cursor-no-shm.diff"
+      "https://github.com/strsp/termux-ng/blob/33d502ae7d/packages/fresh-editor/enable-rquickjs-bindgen.patch",
+      "https://github.com/strsp/termux-ng/blob/33d502ae7d/packages/fresh-editor/no-AT_EACCESS.patch",
+      "https://github.com/strsp/termux-ng/blob/33d502ae7d/packages/fresh-editor/rust-cc-do-not-concatenate-all-the-CFLAGS.diff",
+      "https://github.com/strsp/termux-ng/blob/33d502ae7d/packages/fresh-editor/smithay-client-toolkit-no-shm.diff",
+      "https://github.com/strsp/termux-ng/blob/33d502ae7d/packages/fresh-editor/trash-rs-implement-get_mount_points-android.diff",
+      "https://github.com/strsp/termux-ng/blob/33d502ae7d/packages/fresh-editor/wayland-cursor-no-shm.diff"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/strsp/termux-ng/f1345fd95d/packages/fresh-editor/enable-rquickjs-bindgen.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/f1345fd95d/packages/fresh-editor/no-AT_EACCESS.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/f1345fd95d/packages/fresh-editor/rust-cc-do-not-concatenate-all-the-CFLAGS.diff",
-      "https://raw.githubusercontent.com/strsp/termux-ng/f1345fd95d/packages/fresh-editor/smithay-client-toolkit-no-shm.diff",
-      "https://raw.githubusercontent.com/strsp/termux-ng/f1345fd95d/packages/fresh-editor/trash-rs-implement-get_mount_points-android.diff",
-      "https://raw.githubusercontent.com/strsp/termux-ng/f1345fd95d/packages/fresh-editor/wayland-cursor-no-shm.diff"
+      "https://raw.githubusercontent.com/strsp/termux-ng/33d502ae7d/packages/fresh-editor/enable-rquickjs-bindgen.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/33d502ae7d/packages/fresh-editor/no-AT_EACCESS.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/33d502ae7d/packages/fresh-editor/rust-cc-do-not-concatenate-all-the-CFLAGS.diff",
+      "https://raw.githubusercontent.com/strsp/termux-ng/33d502ae7d/packages/fresh-editor/smithay-client-toolkit-no-shm.diff",
+      "https://raw.githubusercontent.com/strsp/termux-ng/33d502ae7d/packages/fresh-editor/trash-rs-implement-get_mount_points-android.diff",
+      "https://raw.githubusercontent.com/strsp/termux-ng/33d502ae7d/packages/fresh-editor/wayland-cursor-no-shm.diff"
     ],
     "auto_updated": true
   },
@@ -13968,7 +13968,7 @@
   },
   {
     "name": "jackett",
-    "version": "0.24.1849",
+    "version": "0.24.1859",
     "description": "API Support for your favorite torrent trackers",
     "homepage": "https://github.com/jackett/jackett",
     "depends": [
@@ -13976,11 +13976,11 @@
       "dotnet-host",
       "dotnet-runtime-9.0"
     ],
-    "srcurl": "https://github.com/Jackett/Jackett/archive/refs/tags/v0.24.1849.tar.gz",
+    "srcurl": "https://github.com/Jackett/Jackett/archive/refs/tags/v0.24.1859.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/e098ae09a4/packages/jackett",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/e098ae09a4/packages/jackett/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/e098ae09a4/packages/jackett/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/2560038ac9/packages/jackett",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/2560038ac9/packages/jackett/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/2560038ac9/packages/jackett/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -25077,7 +25077,7 @@
   },
   {
     "name": "lux-cli",
-    "version": "0.29.0",
+    "version": "0.29.1",
     "description": "A package manager for Lua, similar to luarocks",
     "homepage": "https://lux.lumen-labs.org",
     "depends": [
@@ -25089,11 +25089,11 @@
       "openssl",
       "xz-utils"
     ],
-    "srcurl": "https://github.com/lumen-oss/lux/archive/refs/tags/v0.29.0.tar.gz",
+    "srcurl": "https://github.com/lumen-oss/lux/archive/refs/tags/v0.29.1.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/8b527d4e25/packages/lux-cli",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/8b527d4e25/packages/lux-cli/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/8b527d4e25/packages/lux-cli/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/0be5653e3b/packages/lux-cli",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/0be5653e3b/packages/lux-cli/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/0be5653e3b/packages/lux-cli/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
