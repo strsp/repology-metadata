@@ -9280,7 +9280,7 @@
   },
   {
     "name": "fzf",
-    "version": "0.72.0",
+    "version": "0.73.0",
     "description": "Command-line fuzzy finder",
     "homepage": "https://junegunn.github.io/fzf/",
     "depends": [
@@ -9288,16 +9288,16 @@
       "findutils",
       "ncurses-utils"
     ],
-    "srcurl": "https://github.com/junegunn/fzf/archive/refs/tags/v0.72.0.tar.gz",
+    "srcurl": "https://github.com/junegunn/fzf/archive/refs/tags/v0.73.0.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/9caa2e4a85/packages/fzf",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/9caa2e4a85/packages/fzf/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/9caa2e4a85/packages/fzf/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/a92f409c43/packages/fzf",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/a92f409c43/packages/fzf/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/a92f409c43/packages/fzf/build.sh",
     "package_patch_urls": [
-      "https://github.com/strsp/termux-ng/blob/9caa2e4a85/packages/fzf/bin-fzf-tmux.patch"
+      "https://github.com/strsp/termux-ng/blob/a92f409c43/packages/fzf/bin-fzf-tmux.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/strsp/termux-ng/9caa2e4a85/packages/fzf/bin-fzf-tmux.patch"
+      "https://raw.githubusercontent.com/strsp/termux-ng/a92f409c43/packages/fzf/bin-fzf-tmux.patch"
     ],
     "auto_updated": true
   },
@@ -11744,7 +11744,7 @@
   },
   {
     "name": "graphviz",
-    "version": "14.1.5",
+    "version": "15.0.0",
     "description": "Rich set of graph drawing tools",
     "homepage": "https://www.graphviz.org/",
     "depends": [
@@ -11765,18 +11765,18 @@
       "pango",
       "zlib"
     ],
-    "srcurl": "https://gitlab.com/graphviz/graphviz/-/archive/14.1.5/graphviz-14.1.5.tar.gz",
+    "srcurl": "https://gitlab.com/graphviz/graphviz/-/archive/15.0.0/graphviz-15.0.0.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/99a286f18b/packages/graphviz",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/99a286f18b/packages/graphviz/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/99a286f18b/packages/graphviz/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/62a9ac2f9d/packages/graphviz",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/62a9ac2f9d/packages/graphviz/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/62a9ac2f9d/packages/graphviz/build.sh",
     "package_patch_urls": [
-      "https://github.com/strsp/termux-ng/blob/99a286f18b/packages/graphviz/dl_iterate_phdr.patch",
-      "https://github.com/strsp/termux-ng/blob/99a286f18b/packages/graphviz/lib-gvc-gvconfig.c.patch"
+      "https://github.com/strsp/termux-ng/blob/62a9ac2f9d/packages/graphviz/dl_iterate_phdr.patch",
+      "https://github.com/strsp/termux-ng/blob/62a9ac2f9d/packages/graphviz/lib-gvc-gvconfig.c.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/strsp/termux-ng/99a286f18b/packages/graphviz/dl_iterate_phdr.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/99a286f18b/packages/graphviz/lib-gvc-gvconfig.c.patch"
+      "https://raw.githubusercontent.com/strsp/termux-ng/62a9ac2f9d/packages/graphviz/dl_iterate_phdr.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/62a9ac2f9d/packages/graphviz/lib-gvc-gvconfig.c.patch"
     ],
     "auto_updated": true
   },
@@ -22397,7 +22397,7 @@
   },
   {
     "name": "libtsduck",
-    "version": "3.43.4549",
+    "version": "3.44.4676",
     "description": "An extensible toolkit for MPEG transport streams",
     "homepage": "https://tsduck.io/",
     "depends": [
@@ -22406,38 +22406,38 @@
       "libcurl",
       "libedit"
     ],
-    "srcurl": "https://github.com/tsduck/tsduck/archive/refs/tags/v3.43-4549.tar.gz",
+    "srcurl": "https://github.com/tsduck/tsduck/archive/refs/tags/v3.44-4676.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/8acb573e7a/packages/libtsduck",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/8acb573e7a/packages/libtsduck/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/8acb573e7a/packages/libtsduck/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/d22e19eaa1/packages/libtsduck",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/d22e19eaa1/packages/libtsduck/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/d22e19eaa1/packages/libtsduck/build.sh",
     "package_patch_urls": [
-      "https://github.com/strsp/termux-ng/blob/8acb573e7a/packages/libtsduck/rename-tsp-to-tsp-tsduck.patch.beforehostbuild",
-      "https://github.com/strsp/termux-ng/blob/8acb573e7a/packages/libtsduck/scripts-make-config.sh.patch",
-      "https://github.com/strsp/termux-ng/blob/8acb573e7a/packages/libtsduck/scripts-make-config.sh.patch.beforehostbuild",
-      "https://github.com/strsp/termux-ng/blob/8acb573e7a/packages/libtsduck/src-libtscore-Makefile.patch",
-      "https://github.com/strsp/termux-ng/blob/8acb573e7a/packages/libtsduck/src-libtscore-config-tscore.pc.patch",
-      "https://github.com/strsp/termux-ng/blob/8acb573e7a/packages/libtsduck/src-libtscore-system-tsForkPipe.cpp.patch",
-      "https://github.com/strsp/termux-ng/blob/8acb573e7a/packages/libtsduck/src-libtscore-system-tsSysUtils.h.patch",
-      "https://github.com/strsp/termux-ng/blob/8acb573e7a/packages/libtsduck/src-libtsduck-Makefile.patch",
-      "https://github.com/strsp/termux-ng/blob/8acb573e7a/packages/libtsduck/src-libtsduck-config-tsduck.pc.patch",
-      "https://github.com/strsp/termux-ng/blob/8acb573e7a/packages/libtsduck/src-libtsduck-python-Makefile.patch",
-      "https://github.com/strsp/termux-ng/blob/8acb573e7a/packages/libtsduck/src-tsplugins-Makefile.patch",
-      "https://github.com/strsp/termux-ng/blob/8acb573e7a/packages/libtsduck/src-tstools-Makefile.patch"
+      "https://github.com/strsp/termux-ng/blob/d22e19eaa1/packages/libtsduck/rename-tsp-to-tsp-tsduck.patch.beforehostbuild",
+      "https://github.com/strsp/termux-ng/blob/d22e19eaa1/packages/libtsduck/scripts-make-config.sh.patch",
+      "https://github.com/strsp/termux-ng/blob/d22e19eaa1/packages/libtsduck/scripts-make-config.sh.patch.beforehostbuild",
+      "https://github.com/strsp/termux-ng/blob/d22e19eaa1/packages/libtsduck/src-libtscore-Makefile.patch",
+      "https://github.com/strsp/termux-ng/blob/d22e19eaa1/packages/libtsduck/src-libtscore-config-tscore.pc.patch",
+      "https://github.com/strsp/termux-ng/blob/d22e19eaa1/packages/libtsduck/src-libtscore-system-tsForkPipe.cpp.patch",
+      "https://github.com/strsp/termux-ng/blob/d22e19eaa1/packages/libtsduck/src-libtscore-system-tsSysUtils.h.patch",
+      "https://github.com/strsp/termux-ng/blob/d22e19eaa1/packages/libtsduck/src-libtsduck-Makefile.patch",
+      "https://github.com/strsp/termux-ng/blob/d22e19eaa1/packages/libtsduck/src-libtsduck-config-tsduck.pc.patch",
+      "https://github.com/strsp/termux-ng/blob/d22e19eaa1/packages/libtsduck/src-libtsduck-python-Makefile.patch",
+      "https://github.com/strsp/termux-ng/blob/d22e19eaa1/packages/libtsduck/src-tsplugins-Makefile.patch",
+      "https://github.com/strsp/termux-ng/blob/d22e19eaa1/packages/libtsduck/src-tstools-Makefile.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/strsp/termux-ng/8acb573e7a/packages/libtsduck/rename-tsp-to-tsp-tsduck.patch.beforehostbuild",
-      "https://raw.githubusercontent.com/strsp/termux-ng/8acb573e7a/packages/libtsduck/scripts-make-config.sh.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/8acb573e7a/packages/libtsduck/scripts-make-config.sh.patch.beforehostbuild",
-      "https://raw.githubusercontent.com/strsp/termux-ng/8acb573e7a/packages/libtsduck/src-libtscore-Makefile.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/8acb573e7a/packages/libtsduck/src-libtscore-config-tscore.pc.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/8acb573e7a/packages/libtsduck/src-libtscore-system-tsForkPipe.cpp.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/8acb573e7a/packages/libtsduck/src-libtscore-system-tsSysUtils.h.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/8acb573e7a/packages/libtsduck/src-libtsduck-Makefile.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/8acb573e7a/packages/libtsduck/src-libtsduck-config-tsduck.pc.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/8acb573e7a/packages/libtsduck/src-libtsduck-python-Makefile.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/8acb573e7a/packages/libtsduck/src-tsplugins-Makefile.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/8acb573e7a/packages/libtsduck/src-tstools-Makefile.patch"
+      "https://raw.githubusercontent.com/strsp/termux-ng/d22e19eaa1/packages/libtsduck/rename-tsp-to-tsp-tsduck.patch.beforehostbuild",
+      "https://raw.githubusercontent.com/strsp/termux-ng/d22e19eaa1/packages/libtsduck/scripts-make-config.sh.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/d22e19eaa1/packages/libtsduck/scripts-make-config.sh.patch.beforehostbuild",
+      "https://raw.githubusercontent.com/strsp/termux-ng/d22e19eaa1/packages/libtsduck/src-libtscore-Makefile.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/d22e19eaa1/packages/libtsduck/src-libtscore-config-tscore.pc.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/d22e19eaa1/packages/libtsduck/src-libtscore-system-tsForkPipe.cpp.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/d22e19eaa1/packages/libtsduck/src-libtscore-system-tsSysUtils.h.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/d22e19eaa1/packages/libtsduck/src-libtsduck-Makefile.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/d22e19eaa1/packages/libtsduck/src-libtsduck-config-tsduck.pc.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/d22e19eaa1/packages/libtsduck/src-libtsduck-python-Makefile.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/d22e19eaa1/packages/libtsduck/src-tsplugins-Makefile.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/d22e19eaa1/packages/libtsduck/src-tstools-Makefile.patch"
     ],
     "auto_updated": true
   },
@@ -28315,18 +28315,18 @@
   },
   {
     "name": "ncspot",
-    "version": "1.3.3",
+    "version": "1.3.4",
     "description": "An ncurses Spotify client written in Rust",
     "homepage": "https://github.com/hrkfdn/ncspot",
     "depends": [
       "dbus",
       "pulseaudio"
     ],
-    "srcurl": "https://github.com/hrkfdn/ncspot/archive/refs/tags/v1.3.3.tar.gz",
+    "srcurl": "https://github.com/hrkfdn/ncspot/archive/refs/tags/v1.3.4.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/6adba8ad70/packages/ncspot",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/6adba8ad70/packages/ncspot/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/6adba8ad70/packages/ncspot/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/219960851e/packages/ncspot",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/219960851e/packages/ncspot/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/219960851e/packages/ncspot/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -29592,24 +29592,24 @@
   },
   {
     "name": "nushell",
-    "version": "0.112.2",
+    "version": "0.113.0",
     "description": "A new type of shell operating on structured data",
     "homepage": "https://www.nushell.sh",
     "depends": [
       "openssl"
     ],
-    "srcurl": "https://github.com/nushell/nushell/archive/refs/tags/0.112.2.tar.gz",
+    "srcurl": "https://github.com/nushell/nushell/archive/refs/tags/0.113.0.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/4974d74b44/packages/nushell",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/4974d74b44/packages/nushell/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/4974d74b44/packages/nushell/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/2831e6756f/packages/nushell",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/2831e6756f/packages/nushell/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/2831e6756f/packages/nushell/build.sh",
     "package_patch_urls": [
-      "https://github.com/strsp/termux-ng/blob/4974d74b44/packages/nushell/0001-remove-sysinfo-Users.patch",
-      "https://github.com/strsp/termux-ng/blob/4974d74b44/packages/nushell/0002-replace-osc-52-paste-with-termux-clipboard-get.patch"
+      "https://github.com/strsp/termux-ng/blob/2831e6756f/packages/nushell/0001-remove-sysinfo-Users.patch",
+      "https://github.com/strsp/termux-ng/blob/2831e6756f/packages/nushell/0002-replace-osc-52-paste-with-termux-clipboard-get.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/strsp/termux-ng/4974d74b44/packages/nushell/0001-remove-sysinfo-Users.patch",
-      "https://raw.githubusercontent.com/strsp/termux-ng/4974d74b44/packages/nushell/0002-replace-osc-52-paste-with-termux-clipboard-get.patch"
+      "https://raw.githubusercontent.com/strsp/termux-ng/2831e6756f/packages/nushell/0001-remove-sysinfo-Users.patch",
+      "https://raw.githubusercontent.com/strsp/termux-ng/2831e6756f/packages/nushell/0002-replace-osc-52-paste-with-termux-clipboard-get.patch"
     ],
     "auto_updated": true
   },
@@ -30968,7 +30968,7 @@
   },
   {
     "name": "openxr",
-    "version": "1.1.59",
+    "version": "1.1.60",
     "description": "Open standard that provides a common set of APIs for developing XR applications",
     "homepage": "https://www.khronos.org/openxr/",
     "depends": [
@@ -30980,16 +30980,16 @@
       "libxxf86vm",
       "opengl"
     ],
-    "srcurl": "https://github.com/KhronosGroup/OpenXR-SDK-Source/releases/download/release-1.1.59/OpenXR-SDK-Source-release-1.1.59.tar.gz",
+    "srcurl": "https://github.com/KhronosGroup/OpenXR-SDK-Source/releases/download/release-1.1.60/OpenXR-SDK-Source-release-1.1.60.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/1fb723bf91/packages/openxr",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/1fb723bf91/packages/openxr/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/1fb723bf91/packages/openxr/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/57e728dec3/packages/openxr",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/57e728dec3/packages/openxr/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/57e728dec3/packages/openxr/build.sh",
     "package_patch_urls": [
-      "https://github.com/strsp/termux-ng/blob/1fb723bf91/packages/openxr/no-glslc.patch"
+      "https://github.com/strsp/termux-ng/blob/57e728dec3/packages/openxr/no-glslc.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/strsp/termux-ng/1fb723bf91/packages/openxr/no-glslc.patch"
+      "https://raw.githubusercontent.com/strsp/termux-ng/57e728dec3/packages/openxr/no-glslc.patch"
     ],
     "auto_updated": true
   },
@@ -31086,15 +31086,15 @@
   },
   {
     "name": "orbiton",
-    "version": "2.74.2",
+    "version": "2.74.3",
     "description": "Small, fast and limited text editor",
     "homepage": "https://roboticoverlords.org/orbiton/",
     "depends": [],
-    "srcurl": "https://github.com/xyproto/orbiton/archive/refs/tags/v2.74.2.tar.gz",
+    "srcurl": "https://github.com/xyproto/orbiton/archive/refs/tags/v2.74.3.tar.gz",
     "maintainer": "Alexander F. Rødseth <xyproto@archlinux.org>",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/0edac33bb2/packages/orbiton",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/0edac33bb2/packages/orbiton/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/0edac33bb2/packages/orbiton/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/a3e8043c88/packages/orbiton",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/a3e8043c88/packages/orbiton/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/a3e8043c88/packages/orbiton/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -33299,18 +33299,18 @@
   },
   {
     "name": "proot-distro",
-    "version": "5.0.2",
+    "version": "5.1.0",
     "description": "Termux official utility for managing proot'ed Linux distributions",
     "homepage": "https://github.com/termux/proot-distro",
     "depends": [
       "proot",
       "python"
     ],
-    "srcurl": "https://github.com/termux/proot-distro/archive/refs/tags/v5.0.2.tar.gz",
+    "srcurl": "https://github.com/termux/proot-distro/archive/refs/tags/v5.1.0.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/1a28dbbbc7/packages/proot-distro",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/1a28dbbbc7/packages/proot-distro/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/1a28dbbbc7/packages/proot-distro/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/278a785079/packages/proot-distro",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/278a785079/packages/proot-distro/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/278a785079/packages/proot-distro/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -35279,20 +35279,20 @@
   },
   {
     "name": "rclone",
-    "version": "1.74.1",
+    "version": "1.74.2",
     "description": "rsync for cloud storage",
     "homepage": "https://rclone.org/",
     "depends": [],
-    "srcurl": "https://github.com/rclone/rclone/releases/download/v1.74.1/rclone-v1.74.1.tar.gz",
+    "srcurl": "https://github.com/rclone/rclone/releases/download/v1.74.2/rclone-v1.74.2.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/c977b20a6c/packages/rclone",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/c977b20a6c/packages/rclone/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/c977b20a6c/packages/rclone/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/f1286734c9/packages/rclone",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/f1286734c9/packages/rclone/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/f1286734c9/packages/rclone/build.sh",
     "package_patch_urls": [
-      "https://github.com/strsp/termux-ng/blob/c977b20a6c/packages/rclone/autocomplete_path.patch"
+      "https://github.com/strsp/termux-ng/blob/f1286734c9/packages/rclone/autocomplete_path.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/strsp/termux-ng/c977b20a6c/packages/rclone/autocomplete_path.patch"
+      "https://raw.githubusercontent.com/strsp/termux-ng/f1286734c9/packages/rclone/autocomplete_path.patch"
     ],
     "auto_updated": true
   },
@@ -39715,15 +39715,15 @@
   },
   {
     "name": "tdl",
-    "version": "0.20.2",
+    "version": "0.20.3",
     "description": "Telegram downloader/tools written in Golang",
     "homepage": "https://docs.iyear.me/tdl/",
     "depends": [],
-    "srcurl": "https://github.com/iyear/tdl/archive/refs/tags/v0.20.2.tar.gz",
+    "srcurl": "https://github.com/iyear/tdl/archive/refs/tags/v0.20.3.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/335aeea479/packages/tdl",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/335aeea479/packages/tdl/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/335aeea479/packages/tdl/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/d48266bfe2/packages/tdl",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/d48266bfe2/packages/tdl/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/d48266bfe2/packages/tdl/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -39826,20 +39826,20 @@
   },
   {
     "name": "teleport-tsh",
-    "version": "18.8.1",
+    "version": "18.8.2",
     "description": "Secure Access for Developers that doesn't get in the way",
     "homepage": "https://github.com/gravitational/teleport",
     "depends": [],
-    "srcurl": "https://github.com/gravitational/teleport/archive/refs/tags/v18.8.1.tar.gz",
+    "srcurl": "https://github.com/gravitational/teleport/archive/refs/tags/v18.8.2.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/00ec5164f1/packages/teleport-tsh",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/00ec5164f1/packages/teleport-tsh/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/00ec5164f1/packages/teleport-tsh/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/1d71ba957c/packages/teleport-tsh",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/1d71ba957c/packages/teleport-tsh/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/1d71ba957c/packages/teleport-tsh/build.sh",
     "package_patch_urls": [
-      "https://github.com/strsp/termux-ng/blob/00ec5164f1/packages/teleport-tsh/metadata_linux.go.patch"
+      "https://github.com/strsp/termux-ng/blob/1d71ba957c/packages/teleport-tsh/metadata_linux.go.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/strsp/termux-ng/00ec5164f1/packages/teleport-tsh/metadata_linux.go.patch"
+      "https://raw.githubusercontent.com/strsp/termux-ng/1d71ba957c/packages/teleport-tsh/metadata_linux.go.patch"
     ],
     "auto_updated": true
   },
@@ -42138,20 +42138,20 @@
   },
   {
     "name": "ty",
-    "version": "0.0.38",
+    "version": "0.0.39",
     "description": "An extremely fast Python type checker and language server, written in Rust",
     "homepage": "https://github.com/astral-sh/ty",
     "depends": [],
-    "srcurl": "https://github.com/astral-sh/ty/releases/download/0.0.38/source.tar.gz",
+    "srcurl": "https://github.com/astral-sh/ty/releases/download/0.0.39/source.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/38e1156cbc/packages/ty",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/38e1156cbc/packages/ty/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/38e1156cbc/packages/ty/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/92a03a4617/packages/ty",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/92a03a4617/packages/ty/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/92a03a4617/packages/ty/build.sh",
     "package_patch_urls": [
-      "https://github.com/strsp/termux-ng/blob/38e1156cbc/packages/ty/rust-cc-do-not-concatenate-all-the-CFLAGS.diff"
+      "https://github.com/strsp/termux-ng/blob/92a03a4617/packages/ty/rust-cc-do-not-concatenate-all-the-CFLAGS.diff"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/strsp/termux-ng/38e1156cbc/packages/ty/rust-cc-do-not-concatenate-all-the-CFLAGS.diff"
+      "https://raw.githubusercontent.com/strsp/termux-ng/92a03a4617/packages/ty/rust-cc-do-not-concatenate-all-the-CFLAGS.diff"
     ],
     "auto_updated": true
   },
@@ -49271,7 +49271,7 @@
   },
   {
     "name": "cherrytree",
-    "version": "1.6.3",
+    "version": "1.7.0",
     "description": "A hierarchical note taking application",
     "homepage": "https://www.giuspen.net/cherrytree/",
     "depends": [
@@ -49297,16 +49297,16 @@
       "libxml2",
       "pango"
     ],
-    "srcurl": "https://github.com/giuspen/cherrytree/archive/refs/tags/v1.6.3.tar.gz",
+    "srcurl": "https://github.com/giuspen/cherrytree/archive/refs/tags/v1.7.0.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/c00eafc39c/x11-packages/cherrytree",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/c00eafc39c/x11-packages/cherrytree/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/c00eafc39c/x11-packages/cherrytree/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/5f5f2baad3/x11-packages/cherrytree",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/5f5f2baad3/x11-packages/cherrytree/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/5f5f2baad3/x11-packages/cherrytree/build.sh",
     "package_patch_urls": [
-      "https://github.com/strsp/termux-ng/blob/c00eafc39c/x11-packages/cherrytree/src-ct-ct_const.h.patch"
+      "https://github.com/strsp/termux-ng/blob/5f5f2baad3/x11-packages/cherrytree/src-ct-ct_const.h.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/strsp/termux-ng/c00eafc39c/x11-packages/cherrytree/src-ct-ct_const.h.patch"
+      "https://raw.githubusercontent.com/strsp/termux-ng/5f5f2baad3/x11-packages/cherrytree/src-ct-ct_const.h.patch"
     ],
     "auto_updated": true
   },
@@ -61986,18 +61986,18 @@
   },
   {
     "name": "ncspot-mpris",
-    "version": "1.3.3",
+    "version": "1.3.4",
     "description": "An ncurses Spotify client written in Rust (with MPRIS support)",
     "homepage": "https://github.com/hrkfdn/ncspot",
     "depends": [
       "dbus",
       "pulseaudio"
     ],
-    "srcurl": "https://github.com/hrkfdn/ncspot/archive/refs/tags/v1.3.3.tar.gz",
+    "srcurl": "https://github.com/hrkfdn/ncspot/archive/refs/tags/v1.3.4.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/strsp/termux-ng/tree/920ad56c15/x11-packages/ncspot-mpris",
-    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/920ad56c15/x11-packages/ncspot-mpris/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/920ad56c15/x11-packages/ncspot-mpris/build.sh",
+    "package_sources_url": "https://github.com/strsp/termux-ng/tree/b5e9c58dc5/x11-packages/ncspot-mpris",
+    "package_recipe_url": "https://github.com/strsp/termux-ng/blob/b5e9c58dc5/x11-packages/ncspot-mpris/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/strsp/termux-ng/b5e9c58dc5/x11-packages/ncspot-mpris/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
