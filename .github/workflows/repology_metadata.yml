@@ -21,7 +21,7 @@ jobs:
       run: |
         mkdir -p /tmp/repos
         git clone --filter=blob:none \
-          https://github.com/strsp/termux-ng.git \
+          https://github.com/zrsx/termux-ng.git \
           /tmp/repos/termux-packages
         cd /tmp/repos/termux-packages
         git config core.commitGraph true
