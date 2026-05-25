@@ -4454,20 +4454,20 @@
   },
   {
     "name": "cloudflared",
-    "version": "2026.5.0",
+    "version": "2026.5.1",
     "description": "A tunneling daemon that proxies traffic from the Cloudflare network to your origins",
     "homepage": "https://github.com/cloudflare/cloudflared",
     "depends": [],
-    "srcurl": "https://github.com/cloudflare/cloudflared/archive/refs/tags/2026.5.0.tar.gz",
+    "srcurl": "https://github.com/cloudflare/cloudflared/archive/refs/tags/2026.5.1.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/bd91c58854/packages/cloudflared",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/bd91c58854/packages/cloudflared/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/bd91c58854/packages/cloudflared/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/6250649eb8/packages/cloudflared",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/6250649eb8/packages/cloudflared/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/6250649eb8/packages/cloudflared/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/bd91c58854/packages/cloudflared/0001-disable-install-service.patch"
+      "https://github.com/zrsx/termux-ng/blob/6250649eb8/packages/cloudflared/0001-disable-install-service.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/bd91c58854/packages/cloudflared/0001-disable-install-service.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/6250649eb8/packages/cloudflared/0001-disable-install-service.patch"
     ],
     "auto_updated": true
   },
@@ -35117,15 +35117,15 @@
   },
   {
     "name": "railway-cli",
-    "version": "4.61.1",
+    "version": "4.62.0",
     "description": "This is the command line interface for Railway",
     "homepage": "https://railway.app",
     "depends": [],
-    "srcurl": "https://github.com/railwayapp/cli/archive/refs/tags/v4.61.1.tar.gz",
+    "srcurl": "https://github.com/railwayapp/cli/archive/refs/tags/v4.62.0.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/2532b0d656/packages/railway-cli",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/2532b0d656/packages/railway-cli/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/2532b0d656/packages/railway-cli/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/09dbdb1fc6/packages/railway-cli",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/09dbdb1fc6/packages/railway-cli/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/09dbdb1fc6/packages/railway-cli/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -64272,7 +64272,7 @@
   },
   {
     "name": "qalculate-gtk",
-    "version": "5.10.0",
+    "version": "5.11.0",
     "description": "A multi-purpose cross-platform desktop calculator",
     "homepage": "https://qalculate.github.io/",
     "depends": [
@@ -64284,11 +64284,11 @@
       "pango",
       "qalc"
     ],
-    "srcurl": "https://github.com/Qalculate/qalculate-gtk/releases/download/v5.10.0/qalculate-gtk-5.10.0.tar.gz",
+    "srcurl": "https://github.com/Qalculate/qalculate-gtk/releases/download/v5.11.0/qalculate-gtk-5.11.0.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/4de3675564/x11-packages/qalculate-gtk",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/4de3675564/x11-packages/qalculate-gtk/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/4de3675564/x11-packages/qalculate-gtk/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/85bb32067b/x11-packages/qalculate-gtk",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/85bb32067b/x11-packages/qalculate-gtk/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/85bb32067b/x11-packages/qalculate-gtk/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
