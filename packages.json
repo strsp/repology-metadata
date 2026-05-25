@@ -9280,7 +9280,7 @@
   },
   {
     "name": "fzf",
-    "version": "0.73.0",
+    "version": "0.73.1",
     "description": "Command-line fuzzy finder",
     "homepage": "https://junegunn.github.io/fzf/",
     "depends": [
@@ -9288,16 +9288,16 @@
       "findutils",
       "ncurses-utils"
     ],
-    "srcurl": "https://github.com/junegunn/fzf/archive/refs/tags/v0.73.0.tar.gz",
+    "srcurl": "https://github.com/junegunn/fzf/archive/refs/tags/v0.73.1.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/a92f409c43/packages/fzf",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/a92f409c43/packages/fzf/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/a92f409c43/packages/fzf/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/933a699776/packages/fzf",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/933a699776/packages/fzf/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/933a699776/packages/fzf/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/a92f409c43/packages/fzf/bin-fzf-tmux.patch"
+      "https://github.com/zrsx/termux-ng/blob/933a699776/packages/fzf/bin-fzf-tmux.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/a92f409c43/packages/fzf/bin-fzf-tmux.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/933a699776/packages/fzf/bin-fzf-tmux.patch"
     ],
     "auto_updated": true
   },
@@ -13970,7 +13970,7 @@
   },
   {
     "name": "jackett",
-    "version": "0.24.1926",
+    "version": "0.24.1947",
     "description": "API Support for your favorite torrent trackers",
     "homepage": "https://github.com/jackett/jackett",
     "depends": [
@@ -13978,11 +13978,11 @@
       "dotnet-host",
       "dotnet-runtime-9.0"
     ],
-    "srcurl": "https://github.com/Jackett/Jackett/archive/refs/tags/v0.24.1926.tar.gz",
+    "srcurl": "https://github.com/Jackett/Jackett/archive/refs/tags/v0.24.1947.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/e682fdb720/packages/jackett",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/e682fdb720/packages/jackett/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/e682fdb720/packages/jackett/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/08d27a74cd/packages/jackett",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/08d27a74cd/packages/jackett/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/08d27a74cd/packages/jackett/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -36382,17 +36382,17 @@
   },
   {
     "name": "rust-analyzer",
-    "version": "2026-05-18",
+    "version": "2026-05-25",
     "description": "A Rust compiler front-end for IDEs",
     "homepage": "https://rust-analyzer.github.io/",
     "depends": [
       "rust-src"
     ],
-    "srcurl": "https://github.com/rust-lang/rust-analyzer/archive/refs/tags/2026-05-18.tar.gz",
+    "srcurl": "https://github.com/rust-lang/rust-analyzer/archive/refs/tags/2026-05-25.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/2b5479962a/packages/rust-analyzer",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/2b5479962a/packages/rust-analyzer/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/2b5479962a/packages/rust-analyzer/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/3f78c4300c/packages/rust-analyzer",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/3f78c4300c/packages/rust-analyzer/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/3f78c4300c/packages/rust-analyzer/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -59326,7 +59326,7 @@
   },
   {
     "name": "libxfce4windowing",
-    "version": "4.20.5",
+    "version": "4.20.6",
     "description": "Windowing concept abstraction library for X11 and Wayland",
     "homepage": "https://docs.xfce.org/xfce/libxfce4windowing/start",
     "depends": [
@@ -59344,16 +59344,16 @@
       "pango",
       "zlib"
     ],
-    "srcurl": "https://archive.xfce.org/src/xfce/libxfce4windowing/4.20/libxfce4windowing-4.20.5.tar.bz2",
+    "srcurl": "https://archive.xfce.org/src/xfce/libxfce4windowing/4.20/libxfce4windowing-4.20.6.tar.bz2",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/a42ff552c7/x11-packages/libxfce4windowing",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/a42ff552c7/x11-packages/libxfce4windowing/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/a42ff552c7/x11-packages/libxfce4windowing/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/7cf4f8e680/x11-packages/libxfce4windowing",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/7cf4f8e680/x11-packages/libxfce4windowing/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/7cf4f8e680/x11-packages/libxfce4windowing/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/a42ff552c7/x11-packages/libxfce4windowing/0001-workaround-xfce-dev-tools.patch"
+      "https://github.com/zrsx/termux-ng/blob/7cf4f8e680/x11-packages/libxfce4windowing/0001-workaround-xfce-dev-tools.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/a42ff552c7/x11-packages/libxfce4windowing/0001-workaround-xfce-dev-tools.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/7cf4f8e680/x11-packages/libxfce4windowing/0001-workaround-xfce-dev-tools.patch"
     ],
     "auto_updated": true
   },
