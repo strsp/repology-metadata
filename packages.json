@@ -8851,15 +8851,15 @@
   },
   {
     "name": "flyctl",
-    "version": "0.4.54",
+    "version": "0.4.55",
     "description": "Command line tools for fly.io services",
     "homepage": "https://fly.io",
     "depends": [],
-    "srcurl": "https://github.com/superfly/flyctl/archive/refs/tags/v0.4.54.tar.gz",
+    "srcurl": "https://github.com/superfly/flyctl/archive/refs/tags/v0.4.55.tar.gz",
     "maintainer": "Yaksh Bariya <thunder-coding@termux.dev>",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/a54c4bedec/packages/flyctl",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/a54c4bedec/packages/flyctl/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/a54c4bedec/packages/flyctl/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/5f5721d8be/packages/flyctl",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/5f5721d8be/packages/flyctl/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/5f5721d8be/packages/flyctl/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -15841,7 +15841,7 @@
   },
   {
     "name": "libblosc2",
-    "version": "3.0.3",
+    "version": "3.1.0",
     "description": "A blocking, shuffling and loss-less compression library",
     "homepage": "https://www.blosc.org",
     "depends": [
@@ -15849,16 +15849,16 @@
       "zlib",
       "zstd"
     ],
-    "srcurl": "https://github.com/Blosc/c-blosc2/archive/refs/tags/v3.0.3.tar.gz",
+    "srcurl": "https://github.com/Blosc/c-blosc2/archive/refs/tags/v3.1.0.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/b3596839d2/packages/libblosc2",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/b3596839d2/packages/libblosc2/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/b3596839d2/packages/libblosc2/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/763034f3a5/packages/libblosc2",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/763034f3a5/packages/libblosc2/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/763034f3a5/packages/libblosc2/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/b3596839d2/packages/libblosc2/0001-fix-posix-memalign.patch"
+      "https://github.com/zrsx/termux-ng/blob/763034f3a5/packages/libblosc2/0001-fix-posix-memalign.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/b3596839d2/packages/libblosc2/0001-fix-posix-memalign.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/763034f3a5/packages/libblosc2/0001-fix-posix-memalign.patch"
     ],
     "auto_updated": true
   },
@@ -30709,15 +30709,15 @@
   },
   {
     "name": "openlist",
-    "version": "4.2.1",
+    "version": "4.2.2",
     "description": "A file list program that supports multiple storage",
     "homepage": "https://oplist.org/",
     "depends": [],
-    "srcurl": "https://github.com/OpenListTeam/OpenList/archive/refs/tags/v4.2.1.tar.gz",
+    "srcurl": "https://github.com/OpenListTeam/OpenList/archive/refs/tags/v4.2.2.tar.gz",
     "maintainer": "2096779623 <admin@utermux.dev>",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/b5bae79074/packages/openlist",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/b5bae79074/packages/openlist/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/b5bae79074/packages/openlist/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/d1644b4f46/packages/openlist",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/d1644b4f46/packages/openlist/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/d1644b4f46/packages/openlist/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -46910,15 +46910,15 @@
   },
   {
     "name": "nexttrace",
-    "version": "1.6.5",
+    "version": "1.7.0~beta.1",
     "description": "An open source visual routing tool that pursues light weight",
     "homepage": "https://github.com/nxtrace/Ntrace-V1",
     "depends": [],
-    "srcurl": "https://github.com/nxtrace/Ntrace-V1/archive/refs/tags/v1.6.5.tar.gz",
+    "srcurl": "https://github.com/nxtrace/Ntrace-V1/archive/refs/tags/v1.7.0-beta.1.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/2d8fb6c075/root-packages/nexttrace",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/2d8fb6c075/root-packages/nexttrace/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/2d8fb6c075/root-packages/nexttrace/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/9cdffd8df7/root-packages/nexttrace",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/9cdffd8df7/root-packages/nexttrace/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/9cdffd8df7/root-packages/nexttrace/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
