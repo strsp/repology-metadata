@@ -64323,7 +64323,7 @@
   },
   {
     "name": "qbittorrent",
-    "version": "5.2.0",
+    "version": "5.2.1",
     "description": "A Qt6 based BitTorrent client",
     "homepage": "https://www.qbittorrent.org/",
     "depends": [
@@ -64333,16 +64333,16 @@
       "qt6-qtbase",
       "zlib"
     ],
-    "srcurl": "https://github.com/qbittorrent/qBittorrent/archive/refs/tags/release-5.2.0.tar.gz",
+    "srcurl": "https://github.com/qbittorrent/qBittorrent/archive/refs/tags/release-5.2.1.tar.gz",
     "maintainer": "Joshua Kahn <tom@termux.dev>",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/d4613f8766/x11-packages/qbittorrent",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/d4613f8766/x11-packages/qbittorrent/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/d4613f8766/x11-packages/qbittorrent/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/70dc31b2f3/x11-packages/qbittorrent",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/70dc31b2f3/x11-packages/qbittorrent/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/70dc31b2f3/x11-packages/qbittorrent/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/d4613f8766/x11-packages/qbittorrent/0001-getrandom.patch"
+      "https://github.com/zrsx/termux-ng/blob/70dc31b2f3/x11-packages/qbittorrent/0001-getrandom.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/d4613f8766/x11-packages/qbittorrent/0001-getrandom.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/70dc31b2f3/x11-packages/qbittorrent/0001-getrandom.patch"
     ],
     "auto_updated": true
   },
