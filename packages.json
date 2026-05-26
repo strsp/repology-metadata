@@ -1989,7 +1989,7 @@
   },
   {
     "name": "awscli",
-    "version": "2.34.53",
+    "version": "2.34.54",
     "description": "Universal Command Line Interface for Amazon Web Services",
     "homepage": "https://aws.amazon.com/cli",
     "depends": [
@@ -1997,18 +1997,18 @@
       "libandroid-support",
       "mandoc"
     ],
-    "srcurl": "https://github.com/aws/aws-cli/archive/refs/tags/2.34.53.tar.gz",
+    "srcurl": "https://github.com/aws/aws-cli/archive/refs/tags/2.34.54.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/9c7bc73b5e/packages/awscli",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/9c7bc73b5e/packages/awscli/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/9c7bc73b5e/packages/awscli/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/d090c56613/packages/awscli",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/d090c56613/packages/awscli/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/d090c56613/packages/awscli/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/9c7bc73b5e/packages/awscli/remove-ios-support.patch",
-      "https://github.com/zrsx/termux-ng/blob/9c7bc73b5e/packages/awscli/remove-no-build-isolation.patch"
+      "https://github.com/zrsx/termux-ng/blob/d090c56613/packages/awscli/remove-ios-support.patch",
+      "https://github.com/zrsx/termux-ng/blob/d090c56613/packages/awscli/remove-no-build-isolation.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/9c7bc73b5e/packages/awscli/remove-ios-support.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/9c7bc73b5e/packages/awscli/remove-no-build-isolation.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/d090c56613/packages/awscli/remove-ios-support.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/d090c56613/packages/awscli/remove-no-build-isolation.patch"
     ],
     "auto_updated": true
   },
@@ -3241,23 +3241,23 @@
   },
   {
     "name": "byobu",
-    "version": "6.15",
+    "version": "6.16",
     "description": "Byobu is a GPLv3 open source text-based window manager and terminal multiplexer",
     "homepage": "https://www.byobu.org/",
     "depends": [
       "gawk",
       "tmux"
     ],
-    "srcurl": "https://github.com/dustinkirkland/byobu/archive/refs/tags/6.15.tar.gz",
+    "srcurl": "https://github.com/dustinkirkland/byobu/archive/refs/tags/6.16.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/e7d00bfcae/packages/byobu",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/e7d00bfcae/packages/byobu/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/e7d00bfcae/packages/byobu/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/fd67cf7984/packages/byobu",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/fd67cf7984/packages/byobu/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/fd67cf7984/packages/byobu/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/e7d00bfcae/packages/byobu/usr-bin-byobu.in.patch"
+      "https://github.com/zrsx/termux-ng/blob/fd67cf7984/packages/byobu/usr-bin-byobu.in.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/e7d00bfcae/packages/byobu/usr-bin-byobu.in.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/fd67cf7984/packages/byobu/usr-bin-byobu.in.patch"
     ],
     "auto_updated": true
   },
@@ -8851,15 +8851,15 @@
   },
   {
     "name": "flyctl",
-    "version": "0.4.55",
+    "version": "0.4.56",
     "description": "Command line tools for fly.io services",
     "homepage": "https://fly.io",
     "depends": [],
-    "srcurl": "https://github.com/superfly/flyctl/archive/refs/tags/v0.4.55.tar.gz",
+    "srcurl": "https://github.com/superfly/flyctl/archive/refs/tags/v0.4.56.tar.gz",
     "maintainer": "Yaksh Bariya <thunder-coding@termux.dev>",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/5f5721d8be/packages/flyctl",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/5f5721d8be/packages/flyctl/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/5f5721d8be/packages/flyctl/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/a37d6a5b5f/packages/flyctl",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/a37d6a5b5f/packages/flyctl/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/a37d6a5b5f/packages/flyctl/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -13343,7 +13343,7 @@
   },
   {
     "name": "imagemagick",
-    "version": "7.1.2.23",
+    "version": "7.1.2.24",
     "description": "Suite to create, edit, compose, or convert images in a variety of formats",
     "homepage": "https://www.imagemagick.org/",
     "depends": [
@@ -13384,11 +13384,11 @@
       "pango",
       "zlib"
     ],
-    "srcurl": "https://imagemagick.org/archive/releases/ImageMagick-7.1.2-23.tar.xz",
+    "srcurl": "https://imagemagick.org/archive/releases/ImageMagick-7.1.2-24.tar.xz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/ed708e4087/packages/imagemagick",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/ed708e4087/packages/imagemagick/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/ed708e4087/packages/imagemagick/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/250cd1ec9a/packages/imagemagick",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/250cd1ec9a/packages/imagemagick/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/250cd1ec9a/packages/imagemagick/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -25060,7 +25060,7 @@
   },
   {
     "name": "lux-cli",
-    "version": "0.30.0",
+    "version": "0.30.1",
     "description": "A package manager for Lua, similar to luarocks",
     "homepage": "https://lux.lumen-labs.org",
     "depends": [
@@ -25072,11 +25072,11 @@
       "openssl",
       "xz-utils"
     ],
-    "srcurl": "https://github.com/lumen-oss/lux/archive/refs/tags/v0.30.0.tar.gz",
+    "srcurl": "https://github.com/lumen-oss/lux/archive/refs/tags/v0.30.1.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/37f71fa289/packages/lux-cli",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/37f71fa289/packages/lux-cli/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/37f71fa289/packages/lux-cli/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/4a0aceb61f/packages/lux-cli",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/4a0aceb61f/packages/lux-cli/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/4a0aceb61f/packages/lux-cli/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -35117,15 +35117,15 @@
   },
   {
     "name": "railway-cli",
-    "version": "4.62.0",
+    "version": "4.64.0",
     "description": "This is the command line interface for Railway",
     "homepage": "https://railway.app",
     "depends": [],
-    "srcurl": "https://github.com/railwayapp/cli/archive/refs/tags/v4.62.0.tar.gz",
+    "srcurl": "https://github.com/railwayapp/cli/archive/refs/tags/v4.64.0.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/09dbdb1fc6/packages/railway-cli",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/09dbdb1fc6/packages/railway-cli/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/09dbdb1fc6/packages/railway-cli/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/90212c18c5/packages/railway-cli",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/90212c18c5/packages/railway-cli/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/90212c18c5/packages/railway-cli/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -43923,15 +43923,15 @@
   },
   {
     "name": "wakatime-cli",
-    "version": "2.14.7",
+    "version": "2.14.8",
     "description": "Command line interface used by all WakaTime text editor plugins",
     "homepage": "https://wakatime.com/plugins/",
     "depends": [],
-    "srcurl": "https://github.com/wakatime/wakatime-cli/archive/refs/tags/v2.14.7.tar.gz",
+    "srcurl": "https://github.com/wakatime/wakatime-cli/archive/refs/tags/v2.14.8.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/be4bc70e25/packages/wakatime-cli",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/be4bc70e25/packages/wakatime-cli/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/be4bc70e25/packages/wakatime-cli/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/ec0e574bd9/packages/wakatime-cli",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/ec0e574bd9/packages/wakatime-cli/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/ec0e574bd9/packages/wakatime-cli/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
