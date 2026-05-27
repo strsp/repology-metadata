@@ -7048,15 +7048,15 @@
   },
   {
     "name": "dtc",
-    "version": "1.7.2",
+    "version": "1.8.0",
     "description": "Device Tree Compiler",
     "homepage": "https://git.kernel.org/pub/scm/utils/dtc/dtc",
     "depends": [],
-    "srcurl": "https://git.kernel.org/pub/scm/utils/dtc/dtc.git/snapshot/dtc-1.7.2.tar.gz",
+    "srcurl": "https://git.kernel.org/pub/scm/utils/dtc/dtc.git/snapshot/dtc-1.8.0.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/a27e813fd7/packages/dtc",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/a27e813fd7/packages/dtc/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/a27e813fd7/packages/dtc/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/beb89c727e/packages/dtc",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/beb89c727e/packages/dtc/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/beb89c727e/packages/dtc/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -14960,15 +14960,15 @@
   },
   {
     "name": "lazygit",
-    "version": "0.61.1",
+    "version": "0.62.0",
     "description": "Simple terminal UI for git commands",
     "homepage": "https://github.com/jesseduffield/lazygit",
     "depends": [],
-    "srcurl": "https://github.com/jesseduffield/lazygit/archive/refs/tags/v0.61.1.tar.gz",
+    "srcurl": "https://github.com/jesseduffield/lazygit/archive/refs/tags/v0.62.0.tar.gz",
     "maintainer": "Krishna kanhaiya @kcubeterm",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/cebb9e3ea0/packages/lazygit",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/cebb9e3ea0/packages/lazygit/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/cebb9e3ea0/packages/lazygit/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/47ecd2ef80/packages/lazygit",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/47ecd2ef80/packages/lazygit/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/47ecd2ef80/packages/lazygit/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -15772,7 +15772,7 @@
   },
   {
     "name": "libavif",
-    "version": "1.4.1",
+    "version": "1.4.2",
     "description": "Library for encoding and decoding .avif files",
     "homepage": "https://github.com/AOMediaCodec/libavif",
     "depends": [
@@ -15785,11 +15785,11 @@
       "librav1e",
       "svt-av1"
     ],
-    "srcurl": "https://github.com/AOMediaCodec/libavif/archive/refs/tags/v1.4.1.tar.gz",
+    "srcurl": "https://github.com/AOMediaCodec/libavif/archive/refs/tags/v1.4.2.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/14213adaee/packages/libavif",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/14213adaee/packages/libavif/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/14213adaee/packages/libavif/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/15256be71e/packages/libavif",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/15256be71e/packages/libavif/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/15256be71e/packages/libavif/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -62630,7 +62630,7 @@
   },
   {
     "name": "orca",
-    "version": "50.1.2",
+    "version": "50.2",
     "description": "A free, open source, flexible, and extensible screen reader",
     "homepage": "https://orca.gnome.org/",
     "depends": [
@@ -62649,16 +62649,16 @@
       "speechd",
       "xorg-xkbcomp"
     ],
-    "srcurl": "https://download.gnome.org/sources/orca/50/orca-50.1.2.tar.xz",
+    "srcurl": "https://download.gnome.org/sources/orca/50/orca-50.2.tar.xz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/a48c4c2078/x11-packages/orca",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/a48c4c2078/x11-packages/orca/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/a48c4c2078/x11-packages/orca/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/7c79fb3dc4/x11-packages/orca",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/7c79fb3dc4/x11-packages/orca/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/7c79fb3dc4/x11-packages/orca/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/a48c4c2078/x11-packages/orca/meson.build.patch"
+      "https://github.com/zrsx/termux-ng/blob/7c79fb3dc4/x11-packages/orca/meson.build.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/a48c4c2078/x11-packages/orca/meson.build.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/7c79fb3dc4/x11-packages/orca/meson.build.patch"
     ],
     "auto_updated": true
   },
