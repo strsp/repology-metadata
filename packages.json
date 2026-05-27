@@ -2513,15 +2513,15 @@
   },
   {
     "name": "biome2",
-    "version": "2.4.15",
+    "version": "2.4.16",
     "description": "A toolchain for web projects, aimed to provide functionalities to maintain them. Biome offers formatter and linter, usable via CLI and LSP",
     "homepage": "https://biomejs.dev/",
     "depends": [],
-    "srcurl": "https://github.com/biomejs/biome/archive/refs/tags/@biomejs/biome@2.4.15.tar.gz",
+    "srcurl": "https://github.com/biomejs/biome/archive/refs/tags/@biomejs/biome@2.4.16.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/0599bc8cf0/packages/biome2",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/0599bc8cf0/packages/biome2/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/0599bc8cf0/packages/biome2/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/6876fa63e8/packages/biome2",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/6876fa63e8/packages/biome2/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/6876fa63e8/packages/biome2/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -4454,20 +4454,20 @@
   },
   {
     "name": "cloudflared",
-    "version": "2026.5.1",
+    "version": "2026.5.2",
     "description": "A tunneling daemon that proxies traffic from the Cloudflare network to your origins",
     "homepage": "https://github.com/cloudflare/cloudflared",
     "depends": [],
-    "srcurl": "https://github.com/cloudflare/cloudflared/archive/refs/tags/2026.5.1.tar.gz",
+    "srcurl": "https://github.com/cloudflare/cloudflared/archive/refs/tags/2026.5.2.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/6250649eb8/packages/cloudflared",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/6250649eb8/packages/cloudflared/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/6250649eb8/packages/cloudflared/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/7fdc81ecae/packages/cloudflared",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/7fdc81ecae/packages/cloudflared/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/7fdc81ecae/packages/cloudflared/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/6250649eb8/packages/cloudflared/0001-disable-install-service.patch"
+      "https://github.com/zrsx/termux-ng/blob/7fdc81ecae/packages/cloudflared/0001-disable-install-service.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/6250649eb8/packages/cloudflared/0001-disable-install-service.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/7fdc81ecae/packages/cloudflared/0001-disable-install-service.patch"
     ],
     "auto_updated": true
   },
@@ -20303,24 +20303,24 @@
   },
   {
     "name": "libpcsclite",
-    "version": "2.4.1",
+    "version": "2.5.0",
     "description": "Middleware to access a smart card using SCard API (PC/SC).",
     "homepage": "https://pcsclite.apdu.fr/",
     "depends": [
       "python"
     ],
-    "srcurl": "https://github.com/LudovicRousseau/PCSC/archive/refs/tags/2.4.1.tar.gz",
+    "srcurl": "https://github.com/LudovicRousseau/PCSC/archive/refs/tags/2.5.0.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/2156a315f5/packages/libpcsclite",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/2156a315f5/packages/libpcsclite/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/2156a315f5/packages/libpcsclite/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/a5f595e80d/packages/libpcsclite",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/a5f595e80d/packages/libpcsclite/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/a5f595e80d/packages/libpcsclite/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/2156a315f5/packages/libpcsclite/no-issetugid.patch",
-      "https://github.com/zrsx/termux-ng/blob/2156a315f5/packages/libpcsclite/pthread-kill.patch"
+      "https://github.com/zrsx/termux-ng/blob/a5f595e80d/packages/libpcsclite/no-issetugid.patch",
+      "https://github.com/zrsx/termux-ng/blob/a5f595e80d/packages/libpcsclite/pthread-kill.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/2156a315f5/packages/libpcsclite/no-issetugid.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/2156a315f5/packages/libpcsclite/pthread-kill.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/a5f595e80d/packages/libpcsclite/no-issetugid.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/a5f595e80d/packages/libpcsclite/pthread-kill.patch"
     ],
     "auto_updated": true
   },
@@ -46592,23 +46592,23 @@
   },
   {
     "name": "libccid",
-    "version": "1.7.1",
+    "version": "1.8.0",
     "description": "A generic USB CCID (Chip/Smart Card Interface Devices) driver and ICCD (Integrated Circuit(s) Card Devices).",
     "homepage": "https://ccid.apdu.fr/",
     "depends": [
       "libusb",
       "pcscd"
     ],
-    "srcurl": "https://github.com/LudovicRousseau/CCID/archive/refs/tags/1.7.1.tar.gz",
+    "srcurl": "https://github.com/LudovicRousseau/CCID/archive/refs/tags/1.8.0.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/e723a726f6/root-packages/libccid",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/e723a726f6/root-packages/libccid/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/e723a726f6/root-packages/libccid/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/3d21a46d44/root-packages/libccid",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/3d21a46d44/root-packages/libccid/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/3d21a46d44/root-packages/libccid/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/e723a726f6/root-packages/libccid/issetugid.patch"
+      "https://github.com/zrsx/termux-ng/blob/3d21a46d44/root-packages/libccid/issetugid.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/e723a726f6/root-packages/libccid/issetugid.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/3d21a46d44/root-packages/libccid/issetugid.patch"
     ],
     "auto_updated": true
   },
@@ -60376,7 +60376,7 @@
   },
   {
     "name": "mangohud",
-    "version": "0.8.3",
+    "version": "0.8.4",
     "description": "A Vulkan overlay layer for monitoring FPS, temperatures, CPU/GPU load and more",
     "homepage": "https://github.com/flightlessmango/MangoHud/",
     "depends": [
@@ -60384,20 +60384,20 @@
       "libx11",
       "libxkbcommon"
     ],
-    "srcurl": "https://github.com/flightlessmango/MangoHud/releases/download/v0.8.3/MangoHud-v0.8.3-Source.tar.xz",
+    "srcurl": "https://github.com/flightlessmango/MangoHud/releases/download/v0.8.4/MangoHud-v0.8.4-Source.tar.xz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/5dbfc6ffe6/x11-packages/mangohud",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/5dbfc6ffe6/x11-packages/mangohud/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/5dbfc6ffe6/x11-packages/mangohud/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/3383a97157/x11-packages/mangohud",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/3383a97157/x11-packages/mangohud/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/3383a97157/x11-packages/mangohud/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/5dbfc6ffe6/x11-packages/mangohud/meson.build.patch",
-      "https://github.com/zrsx/termux-ng/blob/5dbfc6ffe6/x11-packages/mangohud/src-hud_elements.h.patch",
-      "https://github.com/zrsx/termux-ng/blob/5dbfc6ffe6/x11-packages/mangohud/src-overlay.cpp.patch"
+      "https://github.com/zrsx/termux-ng/blob/3383a97157/x11-packages/mangohud/meson.build.patch",
+      "https://github.com/zrsx/termux-ng/blob/3383a97157/x11-packages/mangohud/src-hud_elements.h.patch",
+      "https://github.com/zrsx/termux-ng/blob/3383a97157/x11-packages/mangohud/src-overlay.cpp.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/5dbfc6ffe6/x11-packages/mangohud/meson.build.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/5dbfc6ffe6/x11-packages/mangohud/src-hud_elements.h.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/5dbfc6ffe6/x11-packages/mangohud/src-overlay.cpp.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/3383a97157/x11-packages/mangohud/meson.build.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/3383a97157/x11-packages/mangohud/src-hud_elements.h.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/3383a97157/x11-packages/mangohud/src-overlay.cpp.patch"
     ],
     "auto_updated": true
   },
