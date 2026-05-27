@@ -6479,15 +6479,15 @@
   },
   {
     "name": "dnscontrol",
-    "version": "4.39.0",
+    "version": "4.40.0",
     "description": "Infrastructure as code for DNS!",
     "homepage": "https://github.com/StackExchange/dnscontrol",
     "depends": [],
-    "srcurl": "https://github.com/StackExchange/dnscontrol/archive/refs/tags/v4.39.0.tar.gz",
+    "srcurl": "https://github.com/StackExchange/dnscontrol/archive/refs/tags/v4.40.0.tar.gz",
     "maintainer": "Izumi Sena Sora <info@unordinary.eu.org>",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/7c019410c8/packages/dnscontrol",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/7c019410c8/packages/dnscontrol/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/7c019410c8/packages/dnscontrol/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/e629993c71/packages/dnscontrol",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/e629993c71/packages/dnscontrol/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/e629993c71/packages/dnscontrol/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -8851,15 +8851,15 @@
   },
   {
     "name": "flyctl",
-    "version": "0.4.56",
+    "version": "0.4.57",
     "description": "Command line tools for fly.io services",
     "homepage": "https://fly.io",
     "depends": [],
-    "srcurl": "https://github.com/superfly/flyctl/archive/refs/tags/v0.4.56.tar.gz",
+    "srcurl": "https://github.com/superfly/flyctl/archive/refs/tags/v0.4.57.tar.gz",
     "maintainer": "Yaksh Bariya <thunder-coding@termux.dev>",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/a37d6a5b5f/packages/flyctl",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/a37d6a5b5f/packages/flyctl/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/a37d6a5b5f/packages/flyctl/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/3c7274a17e/packages/flyctl",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/3c7274a17e/packages/flyctl/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/3c7274a17e/packages/flyctl/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -10007,20 +10007,20 @@
   },
   {
     "name": "gh",
-    "version": "2.92.0",
+    "version": "2.93.0",
     "description": "GitHub’s official command line tool",
     "homepage": "https://cli.github.com/",
     "depends": [],
-    "srcurl": "https://github.com/cli/cli/archive/refs/tags/v2.92.0.tar.gz",
+    "srcurl": "https://github.com/cli/cli/archive/refs/tags/v2.93.0.tar.gz",
     "maintainer": "Krishna kanhaiya @kcubeterm",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/92f8a60219/packages/gh",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/92f8a60219/packages/gh/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/92f8a60219/packages/gh/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/01f02e169b/packages/gh",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/01f02e169b/packages/gh/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/01f02e169b/packages/gh/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/92f8a60219/packages/gh/001-use-sh-for-extensions.patch"
+      "https://github.com/zrsx/termux-ng/blob/01f02e169b/packages/gh/001-use-sh-for-extensions.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/92f8a60219/packages/gh/001-use-sh-for-extensions.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/01f02e169b/packages/gh/001-use-sh-for-extensions.patch"
     ],
     "auto_updated": true
   },
@@ -10438,15 +10438,15 @@
   },
   {
     "name": "glab-cli",
-    "version": "1.99.0",
+    "version": "1.100.0",
     "description": "A GitLab CLI tool bringing GitLab to your command line",
     "homepage": "https://gitlab.com/gitlab-org/cli",
     "depends": [],
-    "srcurl": "https://gitlab.com/gitlab-org/cli/-/archive/v1.99.0/cli-1.99.0.tar.bz2",
+    "srcurl": "https://gitlab.com/gitlab-org/cli/-/archive/v1.100.0/cli-1.100.0.tar.bz2",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/3206e62dfb/packages/glab-cli",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/3206e62dfb/packages/glab-cli/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/3206e62dfb/packages/glab-cli/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/bc16aa7ff9/packages/glab-cli",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/bc16aa7ff9/packages/glab-cli/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/bc16aa7ff9/packages/glab-cli/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -15120,18 +15120,18 @@
   },
   {
     "name": "less",
-    "version": "692",
+    "version": "702",
     "description": "Terminal pager program used to view the contents of a text file one screen at a time",
     "homepage": "https://www.greenwoodsoftware.com/less/",
     "depends": [
       "ncurses",
       "pcre2"
     ],
-    "srcurl": "https://www.greenwoodsoftware.com/less/less-692.tar.gz",
+    "srcurl": "https://www.greenwoodsoftware.com/less/less-702.tar.gz",
     "maintainer": "Joshua Kahn <tom@termux.dev>",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/5f4f499c05/packages/less",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/5f4f499c05/packages/less/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/5f4f499c05/packages/less/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/01d7151d19/packages/less",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/01d7151d19/packages/less/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/01d7151d19/packages/less/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -24455,7 +24455,7 @@
   },
   {
     "name": "loksh",
-    "version": "7.8",
+    "version": "7.9",
     "description": "A Linux port of OpenBSD's ksh",
     "homepage": "https://github.com/dimkr/loksh",
     "depends": [
@@ -24463,24 +24463,24 @@
     ],
     "srcurl": "git+https://github.com/dimkr/loksh",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/277fc6d57c/packages/loksh",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/277fc6d57c/packages/loksh/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/277fc6d57c/packages/loksh/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/5c69093fdf/packages/loksh",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/5c69093fdf/packages/loksh/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/5c69093fdf/packages/loksh/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/277fc6d57c/packages/loksh/clock_monotonic.patch",
-      "https://github.com/zrsx/termux-ng/blob/277fc6d57c/packages/loksh/fix-hardcoded-paths.patch",
-      "https://github.com/zrsx/termux-ng/blob/277fc6d57c/packages/loksh/meson.build.patch",
-      "https://github.com/zrsx/termux-ng/blob/277fc6d57c/packages/loksh/misc.c.patch",
-      "https://github.com/zrsx/termux-ng/blob/277fc6d57c/packages/loksh/no-cs_path.patch",
-      "https://github.com/zrsx/termux-ng/blob/277fc6d57c/packages/loksh/time.patch"
+      "https://github.com/zrsx/termux-ng/blob/5c69093fdf/packages/loksh/clock_monotonic.patch",
+      "https://github.com/zrsx/termux-ng/blob/5c69093fdf/packages/loksh/fix-hardcoded-paths.patch",
+      "https://github.com/zrsx/termux-ng/blob/5c69093fdf/packages/loksh/meson.build.patch",
+      "https://github.com/zrsx/termux-ng/blob/5c69093fdf/packages/loksh/misc.c.patch",
+      "https://github.com/zrsx/termux-ng/blob/5c69093fdf/packages/loksh/no-cs_path.patch",
+      "https://github.com/zrsx/termux-ng/blob/5c69093fdf/packages/loksh/time.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/277fc6d57c/packages/loksh/clock_monotonic.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/277fc6d57c/packages/loksh/fix-hardcoded-paths.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/277fc6d57c/packages/loksh/meson.build.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/277fc6d57c/packages/loksh/misc.c.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/277fc6d57c/packages/loksh/no-cs_path.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/277fc6d57c/packages/loksh/time.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/5c69093fdf/packages/loksh/clock_monotonic.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/5c69093fdf/packages/loksh/fix-hardcoded-paths.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/5c69093fdf/packages/loksh/meson.build.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/5c69093fdf/packages/loksh/misc.c.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/5c69093fdf/packages/loksh/no-cs_path.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/5c69093fdf/packages/loksh/time.patch"
     ],
     "auto_updated": true
   },
@@ -27061,20 +27061,20 @@
   },
   {
     "name": "moor",
-    "version": "2.13.2",
+    "version": "2.13.3",
     "description": "A pager designed to just do the right thing without any configuration",
     "homepage": "https://github.com/walles/moor",
     "depends": [],
-    "srcurl": "https://github.com/walles/moor/archive/refs/tags/v2.13.2.tar.gz",
+    "srcurl": "https://github.com/walles/moor/archive/refs/tags/v2.13.3.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/829d0e6ebe/packages/moor",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/829d0e6ebe/packages/moor/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/829d0e6ebe/packages/moor/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/fc76478fd5/packages/moor",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/fc76478fd5/packages/moor/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/fc76478fd5/packages/moor/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/829d0e6ebe/packages/moor/default-editor.patch"
+      "https://github.com/zrsx/termux-ng/blob/fc76478fd5/packages/moor/default-editor.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/829d0e6ebe/packages/moor/default-editor.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/fc76478fd5/packages/moor/default-editor.patch"
     ],
     "auto_updated": true
   },
@@ -42138,20 +42138,20 @@
   },
   {
     "name": "ty",
-    "version": "0.0.39",
+    "version": "0.0.40",
     "description": "An extremely fast Python type checker and language server, written in Rust",
     "homepage": "https://github.com/astral-sh/ty",
     "depends": [],
-    "srcurl": "https://github.com/astral-sh/ty/releases/download/0.0.39/source.tar.gz",
+    "srcurl": "https://github.com/astral-sh/ty/releases/download/0.0.40/source.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/92a03a4617/packages/ty",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/92a03a4617/packages/ty/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/92a03a4617/packages/ty/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/fc63bb2cf7/packages/ty",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/fc63bb2cf7/packages/ty/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/fc63bb2cf7/packages/ty/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/92a03a4617/packages/ty/rust-cc-do-not-concatenate-all-the-CFLAGS.diff"
+      "https://github.com/zrsx/termux-ng/blob/fc63bb2cf7/packages/ty/rust-cc-do-not-concatenate-all-the-CFLAGS.diff"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/92a03a4617/packages/ty/rust-cc-do-not-concatenate-all-the-CFLAGS.diff"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/fc63bb2cf7/packages/ty/rust-cc-do-not-concatenate-all-the-CFLAGS.diff"
     ],
     "auto_updated": true
   },
