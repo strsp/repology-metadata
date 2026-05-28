@@ -3493,15 +3493,15 @@
   },
   {
     "name": "capstone",
-    "version": "5.0.8",
+    "version": "5.0.9",
     "description": "Lightweight multi-platform, multi-architecture disassembly framework",
     "homepage": "https://www.capstone-engine.org/",
     "depends": [],
-    "srcurl": "https://github.com/capstone-engine/capstone/archive/refs/tags/5.0.8.tar.gz",
+    "srcurl": "https://github.com/capstone-engine/capstone/archive/refs/tags/5.0.9.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/5366303fac/packages/capstone",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/5366303fac/packages/capstone/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/5366303fac/packages/capstone/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/aae52475f0/packages/capstone",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/aae52475f0/packages/capstone/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/aae52475f0/packages/capstone/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -4843,7 +4843,7 @@
   },
   {
     "name": "composer",
-    "version": "2.9.8",
+    "version": "2.10.0",
     "description": "Dependency Manager for PHP",
     "homepage": "https://getcomposer.org/",
     "depends": [
@@ -4851,14 +4851,14 @@
     ],
     "srcurl": "git+https://github.com/composer/composer",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/68458e875f/packages/composer",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/68458e875f/packages/composer/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/68458e875f/packages/composer/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/839b5e5dfd/packages/composer",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/839b5e5dfd/packages/composer/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/839b5e5dfd/packages/composer/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/68458e875f/packages/composer/fix-shebang.patch"
+      "https://github.com/zrsx/termux-ng/blob/839b5e5dfd/packages/composer/fix-shebang.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/68458e875f/packages/composer/fix-shebang.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/839b5e5dfd/packages/composer/fix-shebang.patch"
     ],
     "auto_updated": true
   },
@@ -32703,17 +32703,17 @@
   },
   {
     "name": "pocketbase",
-    "version": "0.38.2",
+    "version": "0.39.0",
     "description": "An open source Go backend",
     "homepage": "https://github.com/pocketbase/pocketbase",
     "depends": [
       "resolv-conf"
     ],
-    "srcurl": "https://github.com/pocketbase/pocketbase/archive/refs/tags/v0.38.2.tar.gz",
+    "srcurl": "https://github.com/pocketbase/pocketbase/archive/refs/tags/v0.39.0.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/b95bf2ba0b/packages/pocketbase",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/b95bf2ba0b/packages/pocketbase/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/b95bf2ba0b/packages/pocketbase/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/2a39585b56/packages/pocketbase",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/2a39585b56/packages/pocketbase/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/2a39585b56/packages/pocketbase/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -36292,15 +36292,15 @@
   },
   {
     "name": "ruff",
-    "version": "0.15.14",
+    "version": "0.15.15",
     "description": "An extremely fast Python linter, written in Rust",
     "homepage": "https://github.com/charliermarsh/ruff",
     "depends": [],
-    "srcurl": "https://github.com/charliermarsh/ruff/archive/refs/tags/0.15.14.tar.gz",
+    "srcurl": "https://github.com/charliermarsh/ruff/archive/refs/tags/0.15.15.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/7e58a64c5a/packages/ruff",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/7e58a64c5a/packages/ruff/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/7e58a64c5a/packages/ruff/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/9b1df90b33/packages/ruff",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/9b1df90b33/packages/ruff/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/9b1df90b33/packages/ruff/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -39254,7 +39254,7 @@
   },
   {
     "name": "swi-prolog",
-    "version": "10.1.7",
+    "version": "10.1.8",
     "description": "Most popular and complete prolog implementation",
     "homepage": "https://swi-prolog.org/",
     "depends": [
@@ -39273,18 +39273,18 @@
       "unixodbc",
       "zlib"
     ],
-    "srcurl": "https://www.swi-prolog.org/download/devel/src/swipl-10.1.7.tar.gz",
+    "srcurl": "https://www.swi-prolog.org/download/devel/src/swipl-10.1.8.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/7adbb99b52/packages/swi-prolog",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/7adbb99b52/packages/swi-prolog/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/7adbb99b52/packages/swi-prolog/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/03067a24e9/packages/swi-prolog",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/03067a24e9/packages/swi-prolog/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/03067a24e9/packages/swi-prolog/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/7adbb99b52/packages/swi-prolog/continue-on-abi-check-failure.patch",
-      "https://github.com/zrsx/termux-ng/blob/7adbb99b52/packages/swi-prolog/disable-installation-of-some-qlfs.patch"
+      "https://github.com/zrsx/termux-ng/blob/03067a24e9/packages/swi-prolog/continue-on-abi-check-failure.patch",
+      "https://github.com/zrsx/termux-ng/blob/03067a24e9/packages/swi-prolog/disable-installation-of-some-qlfs.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/7adbb99b52/packages/swi-prolog/continue-on-abi-check-failure.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/7adbb99b52/packages/swi-prolog/disable-installation-of-some-qlfs.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/03067a24e9/packages/swi-prolog/continue-on-abi-check-failure.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/03067a24e9/packages/swi-prolog/disable-installation-of-some-qlfs.patch"
     ],
     "auto_updated": true
   },
