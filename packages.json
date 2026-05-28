@@ -9101,30 +9101,30 @@
   },
   {
     "name": "fresh-editor",
-    "version": "0.3.9",
+    "version": "0.3.10",
     "description": "Text editor for your terminal: easy, powerful and fast",
     "homepage": "https://getfresh.dev/",
     "depends": [],
-    "srcurl": "https://github.com/sinelaw/fresh/releases/download/v0.3.9/fresh-editor-0.3.9-source.tar.gz",
+    "srcurl": "https://github.com/sinelaw/fresh/releases/download/v0.3.10/fresh-editor-0.3.10-source.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/50ac0488d5/packages/fresh-editor",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/50ac0488d5/packages/fresh-editor/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/50ac0488d5/packages/fresh-editor/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/8e5ab89022/packages/fresh-editor",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/8e5ab89022/packages/fresh-editor/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/8e5ab89022/packages/fresh-editor/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/50ac0488d5/packages/fresh-editor/enable-rquickjs-bindgen.patch",
-      "https://github.com/zrsx/termux-ng/blob/50ac0488d5/packages/fresh-editor/no-AT_EACCESS.patch",
-      "https://github.com/zrsx/termux-ng/blob/50ac0488d5/packages/fresh-editor/rust-cc-do-not-concatenate-all-the-CFLAGS.diff",
-      "https://github.com/zrsx/termux-ng/blob/50ac0488d5/packages/fresh-editor/smithay-client-toolkit-no-shm.diff",
-      "https://github.com/zrsx/termux-ng/blob/50ac0488d5/packages/fresh-editor/trash-rs-implement-get_mount_points-android.diff",
-      "https://github.com/zrsx/termux-ng/blob/50ac0488d5/packages/fresh-editor/wayland-cursor-no-shm.diff"
+      "https://github.com/zrsx/termux-ng/blob/8e5ab89022/packages/fresh-editor/enable-rquickjs-bindgen.patch",
+      "https://github.com/zrsx/termux-ng/blob/8e5ab89022/packages/fresh-editor/no-AT_EACCESS.patch",
+      "https://github.com/zrsx/termux-ng/blob/8e5ab89022/packages/fresh-editor/rust-cc-do-not-concatenate-all-the-CFLAGS.diff",
+      "https://github.com/zrsx/termux-ng/blob/8e5ab89022/packages/fresh-editor/smithay-client-toolkit-no-shm.diff",
+      "https://github.com/zrsx/termux-ng/blob/8e5ab89022/packages/fresh-editor/trash-rs-implement-get_mount_points-android.diff",
+      "https://github.com/zrsx/termux-ng/blob/8e5ab89022/packages/fresh-editor/wayland-cursor-no-shm.diff"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/50ac0488d5/packages/fresh-editor/enable-rquickjs-bindgen.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/50ac0488d5/packages/fresh-editor/no-AT_EACCESS.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/50ac0488d5/packages/fresh-editor/rust-cc-do-not-concatenate-all-the-CFLAGS.diff",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/50ac0488d5/packages/fresh-editor/smithay-client-toolkit-no-shm.diff",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/50ac0488d5/packages/fresh-editor/trash-rs-implement-get_mount_points-android.diff",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/50ac0488d5/packages/fresh-editor/wayland-cursor-no-shm.diff"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/8e5ab89022/packages/fresh-editor/enable-rquickjs-bindgen.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/8e5ab89022/packages/fresh-editor/no-AT_EACCESS.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/8e5ab89022/packages/fresh-editor/rust-cc-do-not-concatenate-all-the-CFLAGS.diff",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/8e5ab89022/packages/fresh-editor/smithay-client-toolkit-no-shm.diff",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/8e5ab89022/packages/fresh-editor/trash-rs-implement-get_mount_points-android.diff",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/8e5ab89022/packages/fresh-editor/wayland-cursor-no-shm.diff"
     ],
     "auto_updated": true
   },
@@ -12962,17 +12962,17 @@
   },
   {
     "name": "hugo",
-    "version": "0.162.0",
+    "version": "0.162.1",
     "description": "A fast and flexible static site generator",
     "homepage": "https://gohugo.io/",
     "depends": [
       "libc++"
     ],
-    "srcurl": "https://github.com/gohugoio/hugo/archive/refs/tags/v0.162.0.tar.gz",
+    "srcurl": "https://github.com/gohugoio/hugo/archive/refs/tags/v0.162.1.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/8827dd78de/packages/hugo",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/8827dd78de/packages/hugo/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/8827dd78de/packages/hugo/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/9cf77027e7/packages/hugo",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/9cf77027e7/packages/hugo/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/9cf77027e7/packages/hugo/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -14960,15 +14960,15 @@
   },
   {
     "name": "lazygit",
-    "version": "0.62.0",
+    "version": "0.62.1",
     "description": "Simple terminal UI for git commands",
     "homepage": "https://github.com/jesseduffield/lazygit",
     "depends": [],
-    "srcurl": "https://github.com/jesseduffield/lazygit/archive/refs/tags/v0.62.0.tar.gz",
+    "srcurl": "https://github.com/jesseduffield/lazygit/archive/refs/tags/v0.62.1.tar.gz",
     "maintainer": "Krishna kanhaiya @kcubeterm",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/47ecd2ef80/packages/lazygit",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/47ecd2ef80/packages/lazygit/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/47ecd2ef80/packages/lazygit/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/acd1c29015/packages/lazygit",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/acd1c29015/packages/lazygit/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/acd1c29015/packages/lazygit/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -25060,7 +25060,7 @@
   },
   {
     "name": "lux-cli",
-    "version": "0.30.2",
+    "version": "0.30.3",
     "description": "A package manager for Lua, similar to luarocks",
     "homepage": "https://lux.lumen-labs.org",
     "depends": [
@@ -25072,11 +25072,11 @@
       "openssl",
       "xz-utils"
     ],
-    "srcurl": "https://github.com/lumen-oss/lux/archive/refs/tags/v0.30.2.tar.gz",
+    "srcurl": "https://github.com/lumen-oss/lux/archive/refs/tags/v0.30.3.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/199693f1f8/packages/lux-cli",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/199693f1f8/packages/lux-cli/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/199693f1f8/packages/lux-cli/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/92e66aac76/packages/lux-cli",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/92e66aac76/packages/lux-cli/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/92e66aac76/packages/lux-cli/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -42110,7 +42110,7 @@
   },
   {
     "name": "txikijs",
-    "version": "1:26.4.0",
+    "version": "1:26.5.0",
     "description": "A small and powerful JavaScript runtime",
     "homepage": "https://github.com/saghul/txiki.js",
     "depends": [
@@ -42121,18 +42121,18 @@
     ],
     "srcurl": "git+https://github.com/saghul/txiki.js",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/e8daea4c55/packages/txikijs",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/e8daea4c55/packages/txikijs/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/e8daea4c55/packages/txikijs/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/3dbec27243/packages/txikijs",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/3dbec27243/packages/txikijs/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/3dbec27243/packages/txikijs/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/e8daea4c55/packages/txikijs/deps-libuv-src-unix-core.c.patch",
-      "https://github.com/zrsx/termux-ng/blob/e8daea4c55/packages/txikijs/deps-quickjs-quickjs.c.patch",
-      "https://github.com/zrsx/termux-ng/blob/e8daea4c55/packages/txikijs/deps-wamr-core-shared-platform-linux-platform_internal.h.patch"
+      "https://github.com/zrsx/termux-ng/blob/3dbec27243/packages/txikijs/deps-libuv-src-unix-core.c.patch",
+      "https://github.com/zrsx/termux-ng/blob/3dbec27243/packages/txikijs/deps-quickjs-quickjs.c.patch",
+      "https://github.com/zrsx/termux-ng/blob/3dbec27243/packages/txikijs/deps-wamr-core-shared-platform-linux-platform_internal.h.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/e8daea4c55/packages/txikijs/deps-libuv-src-unix-core.c.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/e8daea4c55/packages/txikijs/deps-quickjs-quickjs.c.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/e8daea4c55/packages/txikijs/deps-wamr-core-shared-platform-linux-platform_internal.h.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/3dbec27243/packages/txikijs/deps-libuv-src-unix-core.c.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/3dbec27243/packages/txikijs/deps-quickjs-quickjs.c.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/3dbec27243/packages/txikijs/deps-wamr-core-shared-platform-linux-platform_internal.h.patch"
     ],
     "auto_updated": true
   },
@@ -43304,7 +43304,7 @@
   },
   {
     "name": "vim",
-    "version": "9.2.0500",
+    "version": "9.2.0550",
     "description": "Vi IMproved - enhanced vi editor",
     "homepage": "https://www.vim.org",
     "depends": [
@@ -43312,28 +43312,28 @@
       "libsodium",
       "ncurses"
     ],
-    "srcurl": "https://github.com/vim/vim/archive/refs/tags/v9.2.0500.tar.gz",
+    "srcurl": "https://github.com/vim/vim/archive/refs/tags/v9.2.0550.tar.gz",
     "maintainer": "Joshua Kahn <tom@termux.dev>",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/a6707f79ed/packages/vim",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/a6707f79ed/packages/vim/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/a6707f79ed/packages/vim/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/247c30ee72/packages/vim",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/247c30ee72/packages/vim/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/247c30ee72/packages/vim/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/a6707f79ed/packages/vim/configure-perl-ruby-tcl-cross-compiling.diff",
-      "https://github.com/zrsx/termux-ng/blob/a6707f79ed/packages/vim/fix-writing-archive.patch",
-      "https://github.com/zrsx/termux-ng/blob/a6707f79ed/packages/vim/option.c.patch",
-      "https://github.com/zrsx/termux-ng/blob/a6707f79ed/packages/vim/revert-1fe0d1e.patch",
-      "https://github.com/zrsx/termux-ng/blob/a6707f79ed/packages/vim/runtime-syntax-sh.vim.patch",
-      "https://github.com/zrsx/termux-ng/blob/a6707f79ed/packages/vim/src-os_unix.h.patch",
-      "https://github.com/zrsx/termux-ng/blob/a6707f79ed/packages/vim/vimtutor.patch"
+      "https://github.com/zrsx/termux-ng/blob/247c30ee72/packages/vim/configure-perl-ruby-tcl-cross-compiling.diff",
+      "https://github.com/zrsx/termux-ng/blob/247c30ee72/packages/vim/fix-writing-archive.patch",
+      "https://github.com/zrsx/termux-ng/blob/247c30ee72/packages/vim/option.c.patch",
+      "https://github.com/zrsx/termux-ng/blob/247c30ee72/packages/vim/revert-1fe0d1e.patch",
+      "https://github.com/zrsx/termux-ng/blob/247c30ee72/packages/vim/runtime-syntax-sh.vim.patch",
+      "https://github.com/zrsx/termux-ng/blob/247c30ee72/packages/vim/src-os_unix.h.patch",
+      "https://github.com/zrsx/termux-ng/blob/247c30ee72/packages/vim/vimtutor.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/a6707f79ed/packages/vim/configure-perl-ruby-tcl-cross-compiling.diff",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/a6707f79ed/packages/vim/fix-writing-archive.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/a6707f79ed/packages/vim/option.c.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/a6707f79ed/packages/vim/revert-1fe0d1e.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/a6707f79ed/packages/vim/runtime-syntax-sh.vim.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/a6707f79ed/packages/vim/src-os_unix.h.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/a6707f79ed/packages/vim/vimtutor.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/247c30ee72/packages/vim/configure-perl-ruby-tcl-cross-compiling.diff",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/247c30ee72/packages/vim/fix-writing-archive.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/247c30ee72/packages/vim/option.c.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/247c30ee72/packages/vim/revert-1fe0d1e.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/247c30ee72/packages/vim/runtime-syntax-sh.vim.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/247c30ee72/packages/vim/src-os_unix.h.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/247c30ee72/packages/vim/vimtutor.patch"
     ],
     "auto_updated": true
   },
@@ -68124,7 +68124,7 @@
   },
   {
     "name": "vim-gtk",
-    "version": "9.2.0500",
+    "version": "9.2.0550",
     "description": "Vi IMproved - enhanced vi editor",
     "homepage": "https://www.vim.org",
     "depends": [
@@ -68142,28 +68142,28 @@
       "ncurses",
       "pango"
     ],
-    "srcurl": "https://github.com/vim/vim/archive/refs/tags/v9.2.0500.tar.gz",
+    "srcurl": "https://github.com/vim/vim/archive/refs/tags/v9.2.0550.tar.gz",
     "maintainer": "Joshua Kahn <tom@termux.dev>",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/11b03eff3a/x11-packages/vim-gtk",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/11b03eff3a/x11-packages/vim-gtk/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/11b03eff3a/x11-packages/vim-gtk/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/b831f18905/x11-packages/vim-gtk",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/b831f18905/x11-packages/vim-gtk/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/b831f18905/x11-packages/vim-gtk/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/11b03eff3a/x11-packages/vim-gtk/configure-perl-ruby-tcl-cross-compiling.diff",
-      "https://github.com/zrsx/termux-ng/blob/11b03eff3a/x11-packages/vim-gtk/fix-writing-archive.patch",
-      "https://github.com/zrsx/termux-ng/blob/11b03eff3a/x11-packages/vim-gtk/option.c.patch",
-      "https://github.com/zrsx/termux-ng/blob/11b03eff3a/x11-packages/vim-gtk/revert-1fe0d1e.patch",
-      "https://github.com/zrsx/termux-ng/blob/11b03eff3a/x11-packages/vim-gtk/runtime-syntax-sh.vim.patch",
-      "https://github.com/zrsx/termux-ng/blob/11b03eff3a/x11-packages/vim-gtk/src-os_unix.h.patch",
-      "https://github.com/zrsx/termux-ng/blob/11b03eff3a/x11-packages/vim-gtk/vimtutor.patch"
+      "https://github.com/zrsx/termux-ng/blob/b831f18905/x11-packages/vim-gtk/configure-perl-ruby-tcl-cross-compiling.diff",
+      "https://github.com/zrsx/termux-ng/blob/b831f18905/x11-packages/vim-gtk/fix-writing-archive.patch",
+      "https://github.com/zrsx/termux-ng/blob/b831f18905/x11-packages/vim-gtk/option.c.patch",
+      "https://github.com/zrsx/termux-ng/blob/b831f18905/x11-packages/vim-gtk/revert-1fe0d1e.patch",
+      "https://github.com/zrsx/termux-ng/blob/b831f18905/x11-packages/vim-gtk/runtime-syntax-sh.vim.patch",
+      "https://github.com/zrsx/termux-ng/blob/b831f18905/x11-packages/vim-gtk/src-os_unix.h.patch",
+      "https://github.com/zrsx/termux-ng/blob/b831f18905/x11-packages/vim-gtk/vimtutor.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/11b03eff3a/x11-packages/vim-gtk/configure-perl-ruby-tcl-cross-compiling.diff",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/11b03eff3a/x11-packages/vim-gtk/fix-writing-archive.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/11b03eff3a/x11-packages/vim-gtk/option.c.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/11b03eff3a/x11-packages/vim-gtk/revert-1fe0d1e.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/11b03eff3a/x11-packages/vim-gtk/runtime-syntax-sh.vim.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/11b03eff3a/x11-packages/vim-gtk/src-os_unix.h.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/11b03eff3a/x11-packages/vim-gtk/vimtutor.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/b831f18905/x11-packages/vim-gtk/configure-perl-ruby-tcl-cross-compiling.diff",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/b831f18905/x11-packages/vim-gtk/fix-writing-archive.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/b831f18905/x11-packages/vim-gtk/option.c.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/b831f18905/x11-packages/vim-gtk/revert-1fe0d1e.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/b831f18905/x11-packages/vim-gtk/runtime-syntax-sh.vim.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/b831f18905/x11-packages/vim-gtk/src-os_unix.h.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/b831f18905/x11-packages/vim-gtk/vimtutor.patch"
     ],
     "auto_updated": true
   },
