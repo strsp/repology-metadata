@@ -1989,7 +1989,7 @@
   },
   {
     "name": "awscli",
-    "version": "2.34.55",
+    "version": "2.34.56",
     "description": "Universal Command Line Interface for Amazon Web Services",
     "homepage": "https://aws.amazon.com/cli",
     "depends": [
@@ -1997,18 +1997,18 @@
       "libandroid-support",
       "mandoc"
     ],
-    "srcurl": "https://github.com/aws/aws-cli/archive/refs/tags/2.34.55.tar.gz",
+    "srcurl": "https://github.com/aws/aws-cli/archive/refs/tags/2.34.56.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/3d85be2a01/packages/awscli",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/3d85be2a01/packages/awscli/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/3d85be2a01/packages/awscli/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/3d19d27073/packages/awscli",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/3d19d27073/packages/awscli/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/3d19d27073/packages/awscli/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/3d85be2a01/packages/awscli/remove-ios-support.patch",
-      "https://github.com/zrsx/termux-ng/blob/3d85be2a01/packages/awscli/remove-no-build-isolation.patch"
+      "https://github.com/zrsx/termux-ng/blob/3d19d27073/packages/awscli/remove-ios-support.patch",
+      "https://github.com/zrsx/termux-ng/blob/3d19d27073/packages/awscli/remove-no-build-isolation.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/3d85be2a01/packages/awscli/remove-ios-support.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/3d85be2a01/packages/awscli/remove-no-build-isolation.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/3d19d27073/packages/awscli/remove-ios-support.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/3d19d27073/packages/awscli/remove-no-build-isolation.patch"
     ],
     "auto_updated": true
   },
