@@ -3508,15 +3508,15 @@
   },
   {
     "name": "carapace",
-    "version": "1.6.6",
+    "version": "1.7.0",
     "description": "Multi-shell multi-command argument completer",
     "homepage": "https://carapace.sh/",
     "depends": [],
-    "srcurl": "https://github.com/carapace-sh/carapace-bin/archive/refs/tags/v1.6.6.tar.gz",
+    "srcurl": "https://github.com/carapace-sh/carapace-bin/archive/refs/tags/v1.7.0.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/9d46333345/packages/carapace",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/9d46333345/packages/carapace/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/9d46333345/packages/carapace/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/4cf826011c/packages/carapace",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/4cf826011c/packages/carapace/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/4cf826011c/packages/carapace/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -16818,15 +16818,15 @@
   },
   {
     "name": "libdrm",
-    "version": "2.4.133",
+    "version": "2.4.134",
     "description": "Userspace interface to kernel DRM services",
     "homepage": "https://dri.freedesktop.org/wiki/",
     "depends": [],
-    "srcurl": "https://dri.freedesktop.org/libdrm/libdrm-2.4.133.tar.xz",
+    "srcurl": "https://dri.freedesktop.org/libdrm/libdrm-2.4.134.tar.xz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/4478fbf79d/packages/libdrm",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/4478fbf79d/packages/libdrm/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/4478fbf79d/packages/libdrm/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/263b10132b/packages/libdrm",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/263b10132b/packages/libdrm/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/263b10132b/packages/libdrm/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -17823,7 +17823,7 @@
   },
   {
     "name": "libgrpc",
-    "version": "1.80.0",
+    "version": "1.81.0",
     "description": "High performance, open source, general RPC framework that puts mobile and HTTP/2 first",
     "homepage": "https://grpc.io/",
     "depends": [
@@ -17839,20 +17839,20 @@
     ],
     "srcurl": "git+https://github.com/grpc/grpc",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/12bbbd98ba/packages/libgrpc",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/12bbbd98ba/packages/libgrpc/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/12bbbd98ba/packages/libgrpc/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/495551038f/packages/libgrpc",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/495551038f/packages/libgrpc/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/495551038f/packages/libgrpc/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/12bbbd98ba/packages/libgrpc/CMakeLists.txt.patch",
-      "https://github.com/zrsx/termux-ng/blob/12bbbd98ba/packages/libgrpc/src-core-credentials-transport-tls-load_system_roots_supported.cc.patch",
-      "https://github.com/zrsx/termux-ng/blob/12bbbd98ba/packages/libgrpc/src-core-credentials-transport-tls-ssl_utils.cc.patch",
-      "https://github.com/zrsx/termux-ng/blob/12bbbd98ba/packages/libgrpc/src-core-lib-gpr-tmpfile_posix.cc.patch"
+      "https://github.com/zrsx/termux-ng/blob/495551038f/packages/libgrpc/CMakeLists.txt.patch",
+      "https://github.com/zrsx/termux-ng/blob/495551038f/packages/libgrpc/src-core-credentials-transport-tls-load_system_roots_supported.cc.patch",
+      "https://github.com/zrsx/termux-ng/blob/495551038f/packages/libgrpc/src-core-credentials-transport-tls-ssl_utils.cc.patch",
+      "https://github.com/zrsx/termux-ng/blob/495551038f/packages/libgrpc/src-core-lib-gpr-tmpfile_posix.cc.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/12bbbd98ba/packages/libgrpc/CMakeLists.txt.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/12bbbd98ba/packages/libgrpc/src-core-credentials-transport-tls-load_system_roots_supported.cc.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/12bbbd98ba/packages/libgrpc/src-core-credentials-transport-tls-ssl_utils.cc.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/12bbbd98ba/packages/libgrpc/src-core-lib-gpr-tmpfile_posix.cc.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/495551038f/packages/libgrpc/CMakeLists.txt.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/495551038f/packages/libgrpc/src-core-credentials-transport-tls-load_system_roots_supported.cc.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/495551038f/packages/libgrpc/src-core-credentials-transport-tls-ssl_utils.cc.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/495551038f/packages/libgrpc/src-core-lib-gpr-tmpfile_posix.cc.patch"
     ],
     "auto_updated": true
   },
@@ -34023,7 +34023,7 @@
   },
   {
     "name": "python-grpcio",
-    "version": "1.80.0",
+    "version": "1.81.0",
     "description": "High performance, open source, general RPC framework that puts mobile and HTTP/2 first",
     "homepage": "https://grpc.io/",
     "depends": [
@@ -34039,20 +34039,20 @@
     ],
     "srcurl": "git+https://github.com/grpc/grpc",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/9ed5b658c1/packages/python-grpcio",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/9ed5b658c1/packages/python-grpcio/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/9ed5b658c1/packages/python-grpcio/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/3573741f12/packages/python-grpcio",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/3573741f12/packages/python-grpcio/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/3573741f12/packages/python-grpcio/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/9ed5b658c1/packages/python-grpcio/setup.py.patch",
-      "https://github.com/zrsx/termux-ng/blob/9ed5b658c1/packages/python-grpcio/src-core-credentials-transport-tls-load_system_roots_supported.cc.patch",
-      "https://github.com/zrsx/termux-ng/blob/9ed5b658c1/packages/python-grpcio/src-core-credentials-transport-tls-ssl_utils.cc.patch",
-      "https://github.com/zrsx/termux-ng/blob/9ed5b658c1/packages/python-grpcio/src-core-lib-gpr-tmpfile_posix.cc.patch"
+      "https://github.com/zrsx/termux-ng/blob/3573741f12/packages/python-grpcio/setup.py.patch",
+      "https://github.com/zrsx/termux-ng/blob/3573741f12/packages/python-grpcio/src-core-credentials-transport-tls-load_system_roots_supported.cc.patch",
+      "https://github.com/zrsx/termux-ng/blob/3573741f12/packages/python-grpcio/src-core-credentials-transport-tls-ssl_utils.cc.patch",
+      "https://github.com/zrsx/termux-ng/blob/3573741f12/packages/python-grpcio/src-core-lib-gpr-tmpfile_posix.cc.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/9ed5b658c1/packages/python-grpcio/setup.py.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/9ed5b658c1/packages/python-grpcio/src-core-credentials-transport-tls-load_system_roots_supported.cc.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/9ed5b658c1/packages/python-grpcio/src-core-credentials-transport-tls-ssl_utils.cc.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/9ed5b658c1/packages/python-grpcio/src-core-lib-gpr-tmpfile_posix.cc.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/3573741f12/packages/python-grpcio/setup.py.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/3573741f12/packages/python-grpcio/src-core-credentials-transport-tls-load_system_roots_supported.cc.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/3573741f12/packages/python-grpcio/src-core-credentials-transport-tls-ssl_utils.cc.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/3573741f12/packages/python-grpcio/src-core-lib-gpr-tmpfile_posix.cc.patch"
     ],
     "auto_updated": true
   },
@@ -46910,15 +46910,15 @@
   },
   {
     "name": "nexttrace",
-    "version": "1.7.0~beta.1",
+    "version": "1.7.0",
     "description": "An open source visual routing tool that pursues light weight",
     "homepage": "https://github.com/nxtrace/Ntrace-V1",
     "depends": [],
-    "srcurl": "https://github.com/nxtrace/Ntrace-V1/archive/refs/tags/v1.7.0-beta.1.tar.gz",
+    "srcurl": "https://github.com/nxtrace/Ntrace-V1/archive/refs/tags/v1.7.0.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/9cdffd8df7/root-packages/nexttrace",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/9cdffd8df7/root-packages/nexttrace/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/9cdffd8df7/root-packages/nexttrace/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/ca291f5a66/root-packages/nexttrace",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/ca291f5a66/root-packages/nexttrace/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/ca291f5a66/root-packages/nexttrace/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -51893,7 +51893,7 @@
   },
   {
     "name": "flacon",
-    "version": "12.0.0",
+    "version": "13.0.1",
     "description": "Extracts individual tracks from one big audio file and saves them as separate audio files",
     "homepage": "https://flacon.github.io/",
     "depends": [
@@ -51902,18 +51902,18 @@
       "qt6-qtbase",
       "taglib"
     ],
-    "srcurl": "https://github.com/flacon/flacon/archive/refs/tags/v12.0.0.tar.gz",
+    "srcurl": "https://github.com/flacon/flacon/archive/refs/tags/v13.0.1.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/91fad586ce/x11-packages/flacon",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/91fad586ce/x11-packages/flacon/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/91fad586ce/x11-packages/flacon/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/cc7d054d68/x11-packages/flacon",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/cc7d054d68/x11-packages/flacon/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/cc7d054d68/x11-packages/flacon/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/91fad586ce/x11-packages/flacon/gui-controls.cpp.patch",
-      "https://github.com/zrsx/termux-ng/blob/91fad586ce/x11-packages/flacon/gui-mainwindow.cpp.patch"
+      "https://github.com/zrsx/termux-ng/blob/cc7d054d68/x11-packages/flacon/gui-controls.cpp.patch",
+      "https://github.com/zrsx/termux-ng/blob/cc7d054d68/x11-packages/flacon/gui-mainwindow.cpp.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/91fad586ce/x11-packages/flacon/gui-controls.cpp.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/91fad586ce/x11-packages/flacon/gui-mainwindow.cpp.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/cc7d054d68/x11-packages/flacon/gui-controls.cpp.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/cc7d054d68/x11-packages/flacon/gui-mainwindow.cpp.patch"
     ],
     "auto_updated": true
   },
