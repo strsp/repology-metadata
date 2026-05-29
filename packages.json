@@ -32224,17 +32224,17 @@
   },
   {
     "name": "php-zephir-parser",
-    "version": "2.0.1",
+    "version": "2.0.2",
     "description": "The Zephir Parser delivered as a C extension for the PHP language",
     "homepage": "https://github.com/phalcon/php-zephir-parser",
     "depends": [
       "php"
     ],
-    "srcurl": "https://github.com/zephir-lang/php-zephir-parser/archive/refs/tags/v2.0.1.tar.gz",
+    "srcurl": "https://github.com/zephir-lang/php-zephir-parser/archive/refs/tags/v2.0.2.tar.gz",
     "maintainer": "ian4hu <hu2008yinxiang@163.com>",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/17298c545a/packages/php-zephir-parser",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/17298c545a/packages/php-zephir-parser/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/17298c545a/packages/php-zephir-parser/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/712aa4d810/packages/php-zephir-parser",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/712aa4d810/packages/php-zephir-parser/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/712aa4d810/packages/php-zephir-parser/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
