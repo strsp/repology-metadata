@@ -9212,22 +9212,22 @@
   },
   {
     "name": "fselect",
-    "version": "0.10.0",
+    "version": "0.10.1",
     "description": "Find files with SQL-like queries",
     "homepage": "https://fselect.rocks/",
     "depends": [
       "zlib"
     ],
-    "srcurl": "https://github.com/jhspetersson/fselect/archive/refs/tags/0.10.0.tar.gz",
+    "srcurl": "https://github.com/jhspetersson/fselect/archive/refs/tags/0.10.1.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/9a9d0d9a0b/packages/fselect",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/9a9d0d9a0b/packages/fselect/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/9a9d0d9a0b/packages/fselect/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/a7dbcfc94e/packages/fselect",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/a7dbcfc94e/packages/fselect/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/a7dbcfc94e/packages/fselect/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/9a9d0d9a0b/packages/fselect/libmimalloc-sys-tls.diff"
+      "https://github.com/zrsx/termux-ng/blob/a7dbcfc94e/packages/fselect/libmimalloc-sys-tls.diff"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/9a9d0d9a0b/packages/fselect/libmimalloc-sys-tls.diff"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/a7dbcfc94e/packages/fselect/libmimalloc-sys-tls.diff"
     ],
     "auto_updated": true
   },
@@ -13970,7 +13970,7 @@
   },
   {
     "name": "jackett",
-    "version": "0.24.1970",
+    "version": "0.24.1974",
     "description": "API Support for your favorite torrent trackers",
     "homepage": "https://github.com/jackett/jackett",
     "depends": [
@@ -13978,11 +13978,11 @@
       "dotnet-host",
       "dotnet-runtime-9.0"
     ],
-    "srcurl": "https://github.com/Jackett/Jackett/archive/refs/tags/v0.24.1970.tar.gz",
+    "srcurl": "https://github.com/Jackett/Jackett/archive/refs/tags/v0.24.1974.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/8ed5bcb9d6/packages/jackett",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/8ed5bcb9d6/packages/jackett/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/8ed5bcb9d6/packages/jackett/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/8e0a8d36c8/packages/jackett",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/8e0a8d36c8/packages/jackett/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/8e0a8d36c8/packages/jackett/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -14874,15 +14874,15 @@
   },
   {
     "name": "kubelogin",
-    "version": "1.36.1",
+    "version": "1.36.2",
     "description": "A kubectl plugin for Kubernetes OpenID Connect (OIDC) authentication",
     "homepage": "https://github.com/int128/kubelogin",
     "depends": [],
-    "srcurl": "https://github.com/int128/kubelogin/archive/refs/tags/v1.36.1.tar.gz",
+    "srcurl": "https://github.com/int128/kubelogin/archive/refs/tags/v1.36.2.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/60edd359d7/packages/kubelogin",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/60edd359d7/packages/kubelogin/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/60edd359d7/packages/kubelogin/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/7418c225df/packages/kubelogin",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/7418c225df/packages/kubelogin/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/7418c225df/packages/kubelogin/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
