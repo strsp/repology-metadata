@@ -15082,15 +15082,15 @@
   },
   {
     "name": "lego",
-    "version": "5.1.0",
+    "version": "5.2.0",
     "description": "Let's Encrypt/ACME client and library written in Go",
     "homepage": "https://github.com/go-acme/lego",
     "depends": [],
-    "srcurl": "https://github.com/go-acme/lego/archive/refs/tags/v5.1.0.tar.gz",
+    "srcurl": "https://github.com/go-acme/lego/archive/refs/tags/v5.2.0.tar.gz",
     "maintainer": "Izumi Sena Sora <info@unordinary.eu.org>",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/5d31e02ca4/packages/lego",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/5d31e02ca4/packages/lego/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/5d31e02ca4/packages/lego/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/374bf048f5/packages/lego",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/374bf048f5/packages/lego/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/374bf048f5/packages/lego/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -26677,20 +26677,20 @@
   },
   {
     "name": "miniflux",
-    "version": "2.3.0",
+    "version": "2.3.1",
     "description": "A minimalist and opinionated feed reader",
     "homepage": "https://miniflux.app/",
     "depends": [],
-    "srcurl": "https://github.com/miniflux/v2/archive/refs/tags/2.3.0.tar.gz",
+    "srcurl": "https://github.com/miniflux/v2/archive/refs/tags/2.3.1.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/0bfbaeb33d/packages/miniflux",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/0bfbaeb33d/packages/miniflux/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/0bfbaeb33d/packages/miniflux/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/874d934801/packages/miniflux",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/874d934801/packages/miniflux/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/874d934801/packages/miniflux/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/0bfbaeb33d/packages/miniflux/Makefile.patch"
+      "https://github.com/zrsx/termux-ng/blob/874d934801/packages/miniflux/Makefile.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/0bfbaeb33d/packages/miniflux/Makefile.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/874d934801/packages/miniflux/Makefile.patch"
     ],
     "auto_updated": true
   },
@@ -29592,24 +29592,24 @@
   },
   {
     "name": "nushell",
-    "version": "0.113.0",
+    "version": "0.113.1",
     "description": "A new type of shell operating on structured data",
     "homepage": "https://www.nushell.sh",
     "depends": [
       "openssl"
     ],
-    "srcurl": "https://github.com/nushell/nushell/archive/refs/tags/0.113.0.tar.gz",
+    "srcurl": "https://github.com/nushell/nushell/archive/refs/tags/0.113.1.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/2831e6756f/packages/nushell",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/2831e6756f/packages/nushell/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/2831e6756f/packages/nushell/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/1c17742602/packages/nushell",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/1c17742602/packages/nushell/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/1c17742602/packages/nushell/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/2831e6756f/packages/nushell/0001-remove-sysinfo-Users.patch",
-      "https://github.com/zrsx/termux-ng/blob/2831e6756f/packages/nushell/0002-replace-osc-52-paste-with-termux-clipboard-get.patch"
+      "https://github.com/zrsx/termux-ng/blob/1c17742602/packages/nushell/0001-remove-sysinfo-Users.patch",
+      "https://github.com/zrsx/termux-ng/blob/1c17742602/packages/nushell/0002-replace-osc-52-paste-with-termux-clipboard-get.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/2831e6756f/packages/nushell/0001-remove-sysinfo-Users.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/2831e6756f/packages/nushell/0002-replace-osc-52-paste-with-termux-clipboard-get.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/1c17742602/packages/nushell/0001-remove-sysinfo-Users.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/1c17742602/packages/nushell/0002-replace-osc-52-paste-with-termux-clipboard-get.patch"
     ],
     "auto_updated": true
   },
@@ -33299,18 +33299,18 @@
   },
   {
     "name": "proot-distro",
-    "version": "5.1.1",
+    "version": "5.1.2",
     "description": "Termux official utility for managing proot'ed Linux distributions",
     "homepage": "https://github.com/termux/proot-distro",
     "depends": [
       "proot",
       "python"
     ],
-    "srcurl": "https://github.com/termux/proot-distro/archive/refs/tags/v5.1.1.tar.gz",
+    "srcurl": "https://github.com/termux/proot-distro/archive/refs/tags/v5.1.2.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/8c3754920c/packages/proot-distro",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/8c3754920c/packages/proot-distro/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/8c3754920c/packages/proot-distro/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/8be16b3ae2/packages/proot-distro",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/8be16b3ae2/packages/proot-distro/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/8be16b3ae2/packages/proot-distro/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -47170,7 +47170,7 @@
   },
   {
     "name": "sshfs",
-    "version": "3.7.5",
+    "version": "3.7.6",
     "description": "FUSE client based on the SSH File Transfer Protocol",
     "homepage": "https://github.com/libfuse/sshfs",
     "depends": [
@@ -47178,18 +47178,18 @@
       "glib",
       "openssh"
     ],
-    "srcurl": "https://github.com/libfuse/sshfs/archive/refs/tags/sshfs-3.7.5.tar.gz",
+    "srcurl": "https://github.com/libfuse/sshfs/archive/refs/tags/sshfs-3.7.6.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/5c534c1344/root-packages/sshfs",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/5c534c1344/root-packages/sshfs/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/5c534c1344/root-packages/sshfs/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/77cc3d1587/root-packages/sshfs",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/77cc3d1587/root-packages/sshfs/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/77cc3d1587/root-packages/sshfs/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/5c534c1344/root-packages/sshfs/line-max.patch",
-      "https://github.com/zrsx/termux-ng/blob/5c534c1344/root-packages/sshfs/sftp_path.patch"
+      "https://github.com/zrsx/termux-ng/blob/77cc3d1587/root-packages/sshfs/line-max.patch",
+      "https://github.com/zrsx/termux-ng/blob/77cc3d1587/root-packages/sshfs/sftp_path.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/5c534c1344/root-packages/sshfs/line-max.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/5c534c1344/root-packages/sshfs/sftp_path.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/77cc3d1587/root-packages/sshfs/line-max.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/77cc3d1587/root-packages/sshfs/sftp_path.patch"
     ],
     "auto_updated": true
   },
