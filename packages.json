@@ -37114,20 +37114,20 @@
   },
   {
     "name": "sftpgo",
-    "version": "2.7.1",
+    "version": "2.7.3",
     "description": "Full-featured and highly configurable SFTP, HTTP/S, FTP/S and WebDAV server",
     "homepage": "https://sftpgo.com/",
     "depends": [],
-    "srcurl": "https://github.com/drakkan/sftpgo/releases/download/v2.7.1/sftpgo_v2.7.1_src_with_deps.tar.xz",
+    "srcurl": "https://github.com/drakkan/sftpgo/releases/download/v2.7.3/sftpgo_v2.7.3_src_with_deps.tar.xz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/8e48f675e8/packages/sftpgo",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/8e48f675e8/packages/sftpgo/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/8e48f675e8/packages/sftpgo/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/1034d07b0f/packages/sftpgo",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/1034d07b0f/packages/sftpgo/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/1034d07b0f/packages/sftpgo/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/8e48f675e8/packages/sftpgo/0001-conf.patch"
+      "https://github.com/zrsx/termux-ng/blob/1034d07b0f/packages/sftpgo/0001-conf.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/8e48f675e8/packages/sftpgo/0001-conf.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/1034d07b0f/packages/sftpgo/0001-conf.patch"
     ],
     "auto_updated": true
   },
