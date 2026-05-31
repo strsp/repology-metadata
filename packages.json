@@ -19661,17 +19661,17 @@
   },
   {
     "name": "libngtcp2",
-    "version": "1.22.1",
+    "version": "1.23.0",
     "description": "Implementation of IETF QUIC protocol",
     "homepage": "https://github.com/ngtcp2/ngtcp2",
     "depends": [
       "openssl"
     ],
-    "srcurl": "https://github.com/ngtcp2/ngtcp2/releases/download/v1.22.1/ngtcp2-1.22.1.tar.gz",
+    "srcurl": "https://github.com/ngtcp2/ngtcp2/releases/download/v1.23.0/ngtcp2-1.23.0.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/410fc08f50/packages/libngtcp2",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/410fc08f50/packages/libngtcp2/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/410fc08f50/packages/libngtcp2/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/deb30c2325/packages/libngtcp2",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/deb30c2325/packages/libngtcp2/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/deb30c2325/packages/libngtcp2/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -43257,31 +43257,31 @@
   },
   {
     "name": "vifm",
-    "version": "0.14.3",
+    "version": "0.14.4",
     "description": "File manager with vi like keybindings",
     "homepage": "https://vifm.info/",
     "depends": [
       "ncurses",
       "file"
     ],
-    "srcurl": "https://github.com/vifm/vifm/archive/refs/tags/v0.14.3.tar.gz",
+    "srcurl": "https://github.com/vifm/vifm/archive/refs/tags/v0.14.4.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/91fad586ce/packages/vifm",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/91fad586ce/packages/vifm/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/91fad586ce/packages/vifm/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/885bc64cc5/packages/vifm",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/885bc64cc5/packages/vifm/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/885bc64cc5/packages/vifm/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/91fad586ce/packages/vifm/cmd_completion.c.patch",
-      "https://github.com/zrsx/termux-ng/blob/91fad586ce/packages/vifm/configure.ac.patch",
-      "https://github.com/zrsx/termux-ng/blob/91fad586ce/packages/vifm/src-registers.c.patch",
-      "https://github.com/zrsx/termux-ng/blob/91fad586ce/packages/vifm/src-utils-path.c.patch",
-      "https://github.com/zrsx/termux-ng/blob/91fad586ce/packages/vifm/src-utils-shmem_nix.c.patch"
+      "https://github.com/zrsx/termux-ng/blob/885bc64cc5/packages/vifm/cmd_completion.c.patch",
+      "https://github.com/zrsx/termux-ng/blob/885bc64cc5/packages/vifm/configure.ac.patch",
+      "https://github.com/zrsx/termux-ng/blob/885bc64cc5/packages/vifm/src-registers.c.patch",
+      "https://github.com/zrsx/termux-ng/blob/885bc64cc5/packages/vifm/src-utils-path.c.patch",
+      "https://github.com/zrsx/termux-ng/blob/885bc64cc5/packages/vifm/src-utils-shmem_nix.c.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/91fad586ce/packages/vifm/cmd_completion.c.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/91fad586ce/packages/vifm/configure.ac.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/91fad586ce/packages/vifm/src-registers.c.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/91fad586ce/packages/vifm/src-utils-path.c.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/91fad586ce/packages/vifm/src-utils-shmem_nix.c.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/885bc64cc5/packages/vifm/cmd_completion.c.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/885bc64cc5/packages/vifm/configure.ac.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/885bc64cc5/packages/vifm/src-registers.c.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/885bc64cc5/packages/vifm/src-utils-path.c.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/885bc64cc5/packages/vifm/src-utils-shmem_nix.c.patch"
     ],
     "auto_updated": true
   },
@@ -43923,15 +43923,15 @@
   },
   {
     "name": "wakatime-cli",
-    "version": "2.14.12",
+    "version": "2.15.0",
     "description": "Command line interface used by all WakaTime text editor plugins",
     "homepage": "https://wakatime.com/plugins/",
     "depends": [],
-    "srcurl": "https://github.com/wakatime/wakatime-cli/archive/refs/tags/v2.14.12.tar.gz",
+    "srcurl": "https://github.com/wakatime/wakatime-cli/archive/refs/tags/v2.15.0.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/4f24764f90/packages/wakatime-cli",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/4f24764f90/packages/wakatime-cli/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/4f24764f90/packages/wakatime-cli/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/9281e523fb/packages/wakatime-cli",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/9281e523fb/packages/wakatime-cli/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/9281e523fb/packages/wakatime-cli/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
