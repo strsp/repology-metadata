@@ -15082,15 +15082,15 @@
   },
   {
     "name": "lego",
-    "version": "5.2.0",
+    "version": "5.2.1",
     "description": "Let's Encrypt/ACME client and library written in Go",
     "homepage": "https://github.com/go-acme/lego",
     "depends": [],
-    "srcurl": "https://github.com/go-acme/lego/archive/refs/tags/v5.2.0.tar.gz",
+    "srcurl": "https://github.com/go-acme/lego/archive/refs/tags/v5.2.1.tar.gz",
     "maintainer": "Izumi Sena Sora <info@unordinary.eu.org>",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/374bf048f5/packages/lego",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/374bf048f5/packages/lego/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/374bf048f5/packages/lego/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/aa7da49f89/packages/lego",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/aa7da49f89/packages/lego/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/aa7da49f89/packages/lego/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -25060,7 +25060,7 @@
   },
   {
     "name": "lux-cli",
-    "version": "0.30.3",
+    "version": "0.30.4",
     "description": "A package manager for Lua, similar to luarocks",
     "homepage": "https://lux.lumen-labs.org",
     "depends": [
@@ -25072,11 +25072,11 @@
       "openssl",
       "xz-utils"
     ],
-    "srcurl": "https://github.com/lumen-oss/lux/archive/refs/tags/v0.30.3.tar.gz",
+    "srcurl": "https://github.com/lumen-oss/lux/archive/refs/tags/v0.30.4.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/92e66aac76/packages/lux-cli",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/92e66aac76/packages/lux-cli/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/92e66aac76/packages/lux-cli/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/637791c24c/packages/lux-cli",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/637791c24c/packages/lux-cli/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/637791c24c/packages/lux-cli/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
