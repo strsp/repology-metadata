@@ -2984,22 +2984,22 @@
   },
   {
     "name": "broot",
-    "version": "1.56.4",
+    "version": "1.57.0",
     "description": "A better way to navigate directories",
     "homepage": "https://github.com/Canop/broot",
     "depends": [
       "libgit2"
     ],
-    "srcurl": "https://github.com/Canop/broot/archive/refs/tags/v1.56.4.tar.gz",
+    "srcurl": "https://github.com/Canop/broot/archive/refs/tags/v1.57.0.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/117f6fc3ed/packages/broot",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/117f6fc3ed/packages/broot/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/117f6fc3ed/packages/broot/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/ab04083d33/packages/broot",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/ab04083d33/packages/broot/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/ab04083d33/packages/broot/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/117f6fc3ed/packages/broot/disable_trash.patch"
+      "https://github.com/zrsx/termux-ng/blob/ab04083d33/packages/broot/disable_trash.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/117f6fc3ed/packages/broot/disable_trash.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/ab04083d33/packages/broot/disable_trash.patch"
     ],
     "auto_updated": true
   },
@@ -16477,15 +16477,15 @@
   },
   {
     "name": "libcpufeatures",
-    "version": "0.10.1",
+    "version": "0.11.0",
     "description": "A cross-platform C library to retrieve CPU features (such as available instructions) at runtime",
     "homepage": "https://github.com/google/cpu_features",
     "depends": [],
-    "srcurl": "https://github.com/google/cpu_features/archive/refs/tags/v0.10.1.tar.gz",
+    "srcurl": "https://github.com/google/cpu_features/archive/refs/tags/v0.11.0.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/b5a7518e76/packages/libcpufeatures",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/b5a7518e76/packages/libcpufeatures/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/b5a7518e76/packages/libcpufeatures/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/37240ed9fb/packages/libcpufeatures",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/37240ed9fb/packages/libcpufeatures/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/37240ed9fb/packages/libcpufeatures/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -27061,20 +27061,20 @@
   },
   {
     "name": "moor",
-    "version": "2.13.3",
+    "version": "2.13.4",
     "description": "A pager designed to just do the right thing without any configuration",
     "homepage": "https://github.com/walles/moor",
     "depends": [],
-    "srcurl": "https://github.com/walles/moor/archive/refs/tags/v2.13.3.tar.gz",
+    "srcurl": "https://github.com/walles/moor/archive/refs/tags/v2.13.4.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/fc76478fd5/packages/moor",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/fc76478fd5/packages/moor/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/fc76478fd5/packages/moor/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/cc32fffbcc/packages/moor",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/cc32fffbcc/packages/moor/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/cc32fffbcc/packages/moor/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/fc76478fd5/packages/moor/default-editor.patch"
+      "https://github.com/zrsx/termux-ng/blob/cc32fffbcc/packages/moor/default-editor.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/fc76478fd5/packages/moor/default-editor.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/cc32fffbcc/packages/moor/default-editor.patch"
     ],
     "auto_updated": true
   },
@@ -31229,15 +31229,15 @@
   },
   {
     "name": "oxlint",
-    "version": "1.67.0",
+    "version": "1.68.0",
     "description": "Oxc JavaScript linter",
     "homepage": "https://oxc.rs/",
     "depends": [],
-    "srcurl": "https://github.com/oxc-project/oxc/archive/refs/tags/oxlint_v1.67.0.tar.gz",
+    "srcurl": "https://github.com/oxc-project/oxc/archive/refs/tags/oxlint_v1.68.0.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/89ee818ef3/packages/oxlint",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/89ee818ef3/packages/oxlint/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/89ee818ef3/packages/oxlint/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/03bee0ff7d/packages/oxlint",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/03bee0ff7d/packages/oxlint/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/03bee0ff7d/packages/oxlint/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -38841,15 +38841,15 @@
   },
   {
     "name": "storj-uplink",
-    "version": "1.154.4",
+    "version": "1.155.4",
     "description": "Storj DCS Uplink CLI",
     "homepage": "https://www.storj.io/integrations/uplink-cli",
     "depends": [],
-    "srcurl": "https://github.com/storj/storj/archive/refs/tags/v1.154.4.tar.gz",
+    "srcurl": "https://github.com/storj/storj/archive/refs/tags/v1.155.4.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/18e890deac/packages/storj-uplink",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/18e890deac/packages/storj-uplink/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/18e890deac/packages/storj-uplink/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/dffc94f8f6/packages/storj-uplink",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/dffc94f8f6/packages/storj-uplink/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/dffc94f8f6/packages/storj-uplink/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -42138,20 +42138,20 @@
   },
   {
     "name": "ty",
-    "version": "0.0.40",
+    "version": "0.0.41",
     "description": "An extremely fast Python type checker and language server, written in Rust",
     "homepage": "https://github.com/astral-sh/ty",
     "depends": [],
-    "srcurl": "https://github.com/astral-sh/ty/releases/download/0.0.40/source.tar.gz",
+    "srcurl": "https://github.com/astral-sh/ty/releases/download/0.0.41/source.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/fc63bb2cf7/packages/ty",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/fc63bb2cf7/packages/ty/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/fc63bb2cf7/packages/ty/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/c40e37f714/packages/ty",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/c40e37f714/packages/ty/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/c40e37f714/packages/ty/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/fc63bb2cf7/packages/ty/rust-cc-do-not-concatenate-all-the-CFLAGS.diff"
+      "https://github.com/zrsx/termux-ng/blob/c40e37f714/packages/ty/rust-cc-do-not-concatenate-all-the-CFLAGS.diff"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/fc63bb2cf7/packages/ty/rust-cc-do-not-concatenate-all-the-CFLAGS.diff"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/c40e37f714/packages/ty/rust-cc-do-not-concatenate-all-the-CFLAGS.diff"
     ],
     "auto_updated": true
   },
