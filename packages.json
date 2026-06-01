@@ -3540,7 +3540,7 @@
   },
   {
     "name": "cargo-c",
-    "version": "0.10.22",
+    "version": "0.10.23",
     "description": "Cargo C-ABI helpers",
     "homepage": "https://github.com/lu-zero/cargo-c",
     "depends": [
@@ -3550,11 +3550,11 @@
       "openssl",
       "zlib"
     ],
-    "srcurl": "https://github.com/lu-zero/cargo-c/archive/refs/tags/v0.10.22.tar.gz",
+    "srcurl": "https://github.com/lu-zero/cargo-c/archive/refs/tags/v0.10.23.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/e1d02fec1f/packages/cargo-c",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/e1d02fec1f/packages/cargo-c/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/e1d02fec1f/packages/cargo-c/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/1adac2a71d/packages/cargo-c",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/1adac2a71d/packages/cargo-c/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/1adac2a71d/packages/cargo-c/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -6494,15 +6494,15 @@
   },
   {
     "name": "dnslookup",
-    "version": "1.11.2",
+    "version": "1.12.0",
     "description": "Simple command line utility to make DNS lookups. Supports all known DNS protocols: plain DNS, DoH, DoT, DoQ, DNSCrypt.",
     "homepage": "https://github.com/ameshkov/dnslookup",
     "depends": [],
-    "srcurl": "https://github.com/ameshkov/dnslookup/archive/refs/tags/v1.11.2.tar.gz",
+    "srcurl": "https://github.com/ameshkov/dnslookup/archive/refs/tags/v1.12.0.tar.gz",
     "maintainer": "CHIZI-0618 <kay9925@outlook.com>",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/3c52cffec8/packages/dnslookup",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/3c52cffec8/packages/dnslookup/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/3c52cffec8/packages/dnslookup/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/313d61bbc0/packages/dnslookup",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/313d61bbc0/packages/dnslookup/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/313d61bbc0/packages/dnslookup/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -9193,20 +9193,20 @@
   },
   {
     "name": "frp",
-    "version": "0.69.0",
+    "version": "0.69.1",
     "description": "A fast reverse proxy to expose a local server behind a NAT or firewall to the internet",
     "homepage": "https://github.com/fatedier/frp",
     "depends": [],
-    "srcurl": "https://github.com/fatedier/frp/archive/refs/tags/v0.69.0.tar.gz",
+    "srcurl": "https://github.com/fatedier/frp/archive/refs/tags/v0.69.1.tar.gz",
     "maintainer": "2096779623 <admin@utermux.dev>",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/71029d6e9f/packages/frp",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/71029d6e9f/packages/frp/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/71029d6e9f/packages/frp/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/e026554995/packages/frp",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/e026554995/packages/frp/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/e026554995/packages/frp/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/71029d6e9f/packages/frp/Makefile.patch"
+      "https://github.com/zrsx/termux-ng/blob/e026554995/packages/frp/Makefile.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/71029d6e9f/packages/frp/Makefile.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/e026554995/packages/frp/Makefile.patch"
     ],
     "auto_updated": true
   },
@@ -13970,7 +13970,7 @@
   },
   {
     "name": "jackett",
-    "version": "0.24.1985",
+    "version": "0.24.1996",
     "description": "API Support for your favorite torrent trackers",
     "homepage": "https://github.com/jackett/jackett",
     "depends": [
@@ -13978,11 +13978,11 @@
       "dotnet-host",
       "dotnet-runtime-9.0"
     ],
-    "srcurl": "https://github.com/Jackett/Jackett/archive/refs/tags/v0.24.1985.tar.gz",
+    "srcurl": "https://github.com/Jackett/Jackett/archive/refs/tags/v0.24.1996.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/a0470380f4/packages/jackett",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/a0470380f4/packages/jackett/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/a0470380f4/packages/jackett/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/c1c00dfe27/packages/jackett",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/c1c00dfe27/packages/jackett/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/c1c00dfe27/packages/jackett/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -36382,17 +36382,17 @@
   },
   {
     "name": "rust-analyzer",
-    "version": "2026-05-25",
+    "version": "2026-06-01",
     "description": "A Rust compiler front-end for IDEs",
     "homepage": "https://rust-analyzer.github.io/",
     "depends": [
       "rust-src"
     ],
-    "srcurl": "https://github.com/rust-lang/rust-analyzer/archive/refs/tags/2026-05-25.tar.gz",
+    "srcurl": "https://github.com/rust-lang/rust-analyzer/archive/refs/tags/2026-06-01.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/3f78c4300c/packages/rust-analyzer",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/3f78c4300c/packages/rust-analyzer/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/3f78c4300c/packages/rust-analyzer/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/41e96efb23/packages/rust-analyzer",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/41e96efb23/packages/rust-analyzer/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/41e96efb23/packages/rust-analyzer/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -45008,7 +45008,7 @@
   },
   {
     "name": "yara",
-    "version": "4.5.6",
+    "version": "4.5.7",
     "description": "Tool aimed at helping malware researchers to identify and classify malware samples",
     "homepage": "https://github.com/VirusTotal/yara",
     "depends": [
@@ -45016,11 +45016,11 @@
       "openssl",
       "libandroid-posix-semaphore"
     ],
-    "srcurl": "https://github.com/VirusTotal/yara/archive/refs/tags/v4.5.6.tar.gz",
+    "srcurl": "https://github.com/VirusTotal/yara/archive/refs/tags/v4.5.7.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/2b2ca494b3/packages/yara",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/2b2ca494b3/packages/yara/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/2b2ca494b3/packages/yara/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/ddea505f31/packages/yara",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/ddea505f31/packages/yara/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/ddea505f31/packages/yara/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -62450,7 +62450,7 @@
   },
   {
     "name": "openimageio",
-    "version": "3.1.13.1",
+    "version": "3.1.14.0",
     "description": "A library for reading and writing images, including classes, utilities, and applications",
     "homepage": "http://www.openimageio.org/",
     "depends": [
@@ -62482,20 +62482,20 @@
       "python",
       "qt6-qtbase"
     ],
-    "srcurl": "https://github.com/OpenImageIO/oiio/archive/refs/tags/v3.1.13.1.tar.gz",
+    "srcurl": "https://github.com/OpenImageIO/oiio/archive/refs/tags/v3.1.14.0.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/1fd63ba636/x11-packages/openimageio",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/1fd63ba636/x11-packages/openimageio/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/1fd63ba636/x11-packages/openimageio/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/f0ebc5da92/x11-packages/openimageio",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/f0ebc5da92/x11-packages/openimageio/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/f0ebc5da92/x11-packages/openimageio/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/1fd63ba636/x11-packages/openimageio/fix-cmake-error.patch",
-      "https://github.com/zrsx/termux-ng/blob/1fd63ba636/x11-packages/openimageio/prefix.patch",
-      "https://github.com/zrsx/termux-ng/blob/1fd63ba636/x11-packages/openimageio/python.patch"
+      "https://github.com/zrsx/termux-ng/blob/f0ebc5da92/x11-packages/openimageio/fix-cmake-error.patch",
+      "https://github.com/zrsx/termux-ng/blob/f0ebc5da92/x11-packages/openimageio/prefix.patch",
+      "https://github.com/zrsx/termux-ng/blob/f0ebc5da92/x11-packages/openimageio/python.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/1fd63ba636/x11-packages/openimageio/fix-cmake-error.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/1fd63ba636/x11-packages/openimageio/prefix.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/1fd63ba636/x11-packages/openimageio/python.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/f0ebc5da92/x11-packages/openimageio/fix-cmake-error.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/f0ebc5da92/x11-packages/openimageio/prefix.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/f0ebc5da92/x11-packages/openimageio/python.patch"
     ],
     "auto_updated": true
   },
