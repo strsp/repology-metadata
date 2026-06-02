@@ -9344,7 +9344,7 @@
   },
   {
     "name": "gap",
-    "version": "4.15.1",
+    "version": "4.16.0",
     "description": "GAP is a system for computational discrete algebra, with particular emphasis on Computational Group Theory",
     "homepage": "https://www.gap-system.org/",
     "depends": [
@@ -9353,16 +9353,16 @@
       "zlib",
       "gap-packages"
     ],
-    "srcurl": "https://github.com/gap-system/gap/releases/download/v4.15.1/gap-4.15.1.tar.gz",
+    "srcurl": "https://github.com/gap-system/gap/releases/download/v4.16.0/gap-4.16.0.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/992fcc4f82/packages/gap",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/992fcc4f82/packages/gap/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/992fcc4f82/packages/gap/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/b6262866c9/packages/gap",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/b6262866c9/packages/gap/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/b6262866c9/packages/gap/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/992fcc4f82/packages/gap/compiled.h-path.patch"
+      "https://github.com/zrsx/termux-ng/blob/b6262866c9/packages/gap/compiled.h-path.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/992fcc4f82/packages/gap/compiled.h-path.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/b6262866c9/packages/gap/compiled.h-path.patch"
     ],
     "auto_updated": true
   },
@@ -13110,15 +13110,15 @@
   },
   {
     "name": "hwdata",
-    "version": "0.407",
+    "version": "0.408",
     "description": "Database of hardware identification and configuration data",
     "homepage": "https://github.com/vcrhonek/hwdata",
     "depends": [],
-    "srcurl": "https://github.com/vcrhonek/hwdata/archive/refs/tags/v0.407.tar.gz",
+    "srcurl": "https://github.com/vcrhonek/hwdata/archive/refs/tags/v0.408.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/85f3dd8294/packages/hwdata",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/85f3dd8294/packages/hwdata/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/85f3dd8294/packages/hwdata/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/1e666512ec/packages/hwdata",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/1e666512ec/packages/hwdata/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/1e666512ec/packages/hwdata/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -13970,7 +13970,7 @@
   },
   {
     "name": "jackett",
-    "version": "0.24.1996",
+    "version": "0.24.2000",
     "description": "API Support for your favorite torrent trackers",
     "homepage": "https://github.com/jackett/jackett",
     "depends": [
@@ -13978,11 +13978,11 @@
       "dotnet-host",
       "dotnet-runtime-9.0"
     ],
-    "srcurl": "https://github.com/Jackett/Jackett/archive/refs/tags/v0.24.1996.tar.gz",
+    "srcurl": "https://github.com/Jackett/Jackett/archive/refs/tags/v0.24.2000.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/c1c00dfe27/packages/jackett",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/c1c00dfe27/packages/jackett/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/c1c00dfe27/packages/jackett/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/fc1829347f/packages/jackett",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/fc1829347f/packages/jackett/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/fc1829347f/packages/jackett/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
