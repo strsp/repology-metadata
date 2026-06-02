@@ -20982,7 +20982,7 @@
   },
   {
     "name": "librsvg",
-    "version": "2.62.2",
+    "version": "2.62.3",
     "description": "Library to render SVG files using cairo",
     "homepage": "https://wiki.gnome.org/action/show/Projects/LibRsvg",
     "depends": [
@@ -20997,18 +20997,18 @@
       "libxml2",
       "pango"
     ],
-    "srcurl": "https://download.gnome.org/sources/librsvg/2.62/librsvg-2.62.2.tar.xz",
+    "srcurl": "https://download.gnome.org/sources/librsvg/2.62/librsvg-2.62.3.tar.xz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/5258a3078b/packages/librsvg",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/5258a3078b/packages/librsvg/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/5258a3078b/packages/librsvg/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/1abaace768/packages/librsvg",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/1abaace768/packages/librsvg/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/1abaace768/packages/librsvg/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/5258a3078b/packages/librsvg/do-not-use-pkg-config-to-find-vapigen.patch",
-      "https://github.com/zrsx/termux-ng/blob/5258a3078b/packages/librsvg/meson.build.patch"
+      "https://github.com/zrsx/termux-ng/blob/1abaace768/packages/librsvg/do-not-use-pkg-config-to-find-vapigen.patch",
+      "https://github.com/zrsx/termux-ng/blob/1abaace768/packages/librsvg/meson.build.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/5258a3078b/packages/librsvg/do-not-use-pkg-config-to-find-vapigen.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/5258a3078b/packages/librsvg/meson.build.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/1abaace768/packages/librsvg/do-not-use-pkg-config-to-find-vapigen.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/1abaace768/packages/librsvg/meson.build.patch"
     ],
     "auto_updated": true
   },
@@ -32224,17 +32224,17 @@
   },
   {
     "name": "php-zephir-parser",
-    "version": "2.0.2",
+    "version": "2.0.3",
     "description": "The Zephir Parser delivered as a C extension for the PHP language",
     "homepage": "https://github.com/phalcon/php-zephir-parser",
     "depends": [
       "php"
     ],
-    "srcurl": "https://github.com/zephir-lang/php-zephir-parser/archive/refs/tags/v2.0.2.tar.gz",
+    "srcurl": "https://github.com/zephir-lang/php-zephir-parser/archive/refs/tags/v2.0.3.tar.gz",
     "maintainer": "ian4hu <hu2008yinxiang@163.com>",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/712aa4d810/packages/php-zephir-parser",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/712aa4d810/packages/php-zephir-parser/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/712aa4d810/packages/php-zephir-parser/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/fdb1ce3264/packages/php-zephir-parser",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/fdb1ce3264/packages/php-zephir-parser/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/fdb1ce3264/packages/php-zephir-parser/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -33299,18 +33299,18 @@
   },
   {
     "name": "proot-distro",
-    "version": "5.1.2",
+    "version": "5.1.4",
     "description": "Termux official utility for managing proot'ed Linux distributions",
     "homepage": "https://github.com/termux/proot-distro",
     "depends": [
       "proot",
       "python"
     ],
-    "srcurl": "https://github.com/termux/proot-distro/archive/refs/tags/v5.1.2.tar.gz",
+    "srcurl": "https://github.com/termux/proot-distro/archive/refs/tags/v5.1.4.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/8be16b3ae2/packages/proot-distro",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/8be16b3ae2/packages/proot-distro/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/8be16b3ae2/packages/proot-distro/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/292279c8b3/packages/proot-distro",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/292279c8b3/packages/proot-distro/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/292279c8b3/packages/proot-distro/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
