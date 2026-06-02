@@ -1989,7 +1989,7 @@
   },
   {
     "name": "awscli",
-    "version": "2.34.58",
+    "version": "2.34.59",
     "description": "Universal Command Line Interface for Amazon Web Services",
     "homepage": "https://aws.amazon.com/cli",
     "depends": [
@@ -1997,18 +1997,18 @@
       "libandroid-support",
       "mandoc"
     ],
-    "srcurl": "https://github.com/aws/aws-cli/archive/refs/tags/2.34.58.tar.gz",
+    "srcurl": "https://github.com/aws/aws-cli/archive/refs/tags/2.34.59.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/d2a5b8ed44/packages/awscli",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/d2a5b8ed44/packages/awscli/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/d2a5b8ed44/packages/awscli/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/6323099fbb/packages/awscli",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/6323099fbb/packages/awscli/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/6323099fbb/packages/awscli/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/d2a5b8ed44/packages/awscli/remove-ios-support.patch",
-      "https://github.com/zrsx/termux-ng/blob/d2a5b8ed44/packages/awscli/remove-no-build-isolation.patch"
+      "https://github.com/zrsx/termux-ng/blob/6323099fbb/packages/awscli/remove-ios-support.patch",
+      "https://github.com/zrsx/termux-ng/blob/6323099fbb/packages/awscli/remove-no-build-isolation.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/d2a5b8ed44/packages/awscli/remove-ios-support.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/d2a5b8ed44/packages/awscli/remove-no-build-isolation.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/6323099fbb/packages/awscli/remove-ios-support.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/6323099fbb/packages/awscli/remove-no-build-isolation.patch"
     ],
     "auto_updated": true
   },
@@ -24883,26 +24883,26 @@
   },
   {
     "name": "luajit",
-    "version": "1:2.1.1774896198+g18b087c",
+    "version": "1:2.1.1780076327+gb925b3e",
     "description": "Just-In-Time Compiler for Lua",
     "homepage": "https://luajit.org/",
     "depends": [],
     "srcurl": "git+https://github.com/LuaJIT/LuaJIT.git",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/b920409daf/packages/luajit",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/b920409daf/packages/luajit/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/b920409daf/packages/luajit/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/2ca08445ad/packages/luajit",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/2ca08445ad/packages/luajit/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/2ca08445ad/packages/luajit/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/b920409daf/packages/luajit/Makefile.patch",
-      "https://github.com/zrsx/termux-ng/blob/b920409daf/packages/luajit/etc-luajit.pc.patch",
-      "https://github.com/zrsx/termux-ng/blob/b920409daf/packages/luajit/src-Makefile.patch",
-      "https://github.com/zrsx/termux-ng/blob/b920409daf/packages/luajit/tmpdir-fix.patch"
+      "https://github.com/zrsx/termux-ng/blob/2ca08445ad/packages/luajit/Makefile.patch",
+      "https://github.com/zrsx/termux-ng/blob/2ca08445ad/packages/luajit/etc-luajit.pc.patch",
+      "https://github.com/zrsx/termux-ng/blob/2ca08445ad/packages/luajit/src-Makefile.patch",
+      "https://github.com/zrsx/termux-ng/blob/2ca08445ad/packages/luajit/tmpdir-fix.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/b920409daf/packages/luajit/Makefile.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/b920409daf/packages/luajit/etc-luajit.pc.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/b920409daf/packages/luajit/src-Makefile.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/b920409daf/packages/luajit/tmpdir-fix.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/2ca08445ad/packages/luajit/Makefile.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/2ca08445ad/packages/luajit/etc-luajit.pc.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/2ca08445ad/packages/luajit/src-Makefile.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/2ca08445ad/packages/luajit/tmpdir-fix.patch"
     ],
     "auto_updated": true
   },
@@ -25060,7 +25060,7 @@
   },
   {
     "name": "lux-cli",
-    "version": "0.30.4",
+    "version": "0.30.6",
     "description": "A package manager for Lua, similar to luarocks",
     "homepage": "https://lux.lumen-labs.org",
     "depends": [
@@ -25072,11 +25072,11 @@
       "openssl",
       "xz-utils"
     ],
-    "srcurl": "https://github.com/lumen-oss/lux/archive/refs/tags/v0.30.4.tar.gz",
+    "srcurl": "https://github.com/lumen-oss/lux/archive/refs/tags/v0.30.6.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/637791c24c/packages/lux-cli",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/637791c24c/packages/lux-cli/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/637791c24c/packages/lux-cli/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/cfeb2e2f8a/packages/lux-cli",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/cfeb2e2f8a/packages/lux-cli/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/cfeb2e2f8a/packages/lux-cli/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -29681,15 +29681,15 @@
   },
   {
     "name": "ocl-icd",
-    "version": "2.3.4",
+    "version": "2.3.5",
     "description": "OpenCL ICD Loader",
     "homepage": "https://github.com/OCL-dev/ocl-icd",
     "depends": [],
-    "srcurl": "https://github.com/OCL-dev/ocl-icd/archive/refs/tags/v2.3.4.tar.gz",
+    "srcurl": "https://github.com/OCL-dev/ocl-icd/archive/refs/tags/v2.3.5.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/bbfee719d0/packages/ocl-icd",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/bbfee719d0/packages/ocl-icd/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/bbfee719d0/packages/ocl-icd/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/c486e16a0e/packages/ocl-icd",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/c486e16a0e/packages/ocl-icd/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/c486e16a0e/packages/ocl-icd/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
