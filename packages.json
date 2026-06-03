@@ -7655,15 +7655,15 @@
   },
   {
     "name": "emmylua-ls",
-    "version": "0.23.1",
+    "version": "0.23.2",
     "description": "Emmy Lua Language Server coded in Rust",
     "homepage": "https://github.com/EmmyLuaLs/emmylua-analyzer-rust",
     "depends": [],
-    "srcurl": "https://github.com/EmmyLuaLs/emmylua-analyzer-rust/archive/refs/tags/0.23.1.tar.gz",
+    "srcurl": "https://github.com/EmmyLuaLs/emmylua-analyzer-rust/archive/refs/tags/0.23.2.tar.gz",
     "maintainer": "Steven Xu @stevenxxiu",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/11382c9b3f/packages/emmylua-ls",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/11382c9b3f/packages/emmylua-ls/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/11382c9b3f/packages/emmylua-ls/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/9636b15009/packages/emmylua-ls",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/9636b15009/packages/emmylua-ls/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/9636b15009/packages/emmylua-ls/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -26270,20 +26270,20 @@
   },
   {
     "name": "mediamtx",
-    "version": "1.18.2",
+    "version": "1.19.0",
     "description": "Ready-to-use SRT / WebRTC / RTSP / RTMP / LL-HLS media server and media proxy",
     "homepage": "https://github.com/bluenviron/mediamtx",
     "depends": [],
-    "srcurl": "https://github.com/bluenviron/mediamtx/archive/refs/tags/v1.18.2.tar.gz",
+    "srcurl": "https://github.com/bluenviron/mediamtx/archive/refs/tags/v1.19.0.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/800c670633/packages/mediamtx",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/800c670633/packages/mediamtx/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/800c670633/packages/mediamtx/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/eb7eeca28a/packages/mediamtx",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/eb7eeca28a/packages/mediamtx/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/eb7eeca28a/packages/mediamtx/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/800c670633/packages/mediamtx/internal-core-core.go.patch"
+      "https://github.com/zrsx/termux-ng/blob/eb7eeca28a/packages/mediamtx/internal-core-core.go.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/800c670633/packages/mediamtx/internal-core-core.go.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/eb7eeca28a/packages/mediamtx/internal-core-core.go.patch"
     ],
     "auto_updated": true
   },
@@ -35117,15 +35117,15 @@
   },
   {
     "name": "railway-cli",
-    "version": "4.66.0",
+    "version": "4.66.1",
     "description": "This is the command line interface for Railway",
     "homepage": "https://railway.app",
     "depends": [],
-    "srcurl": "https://github.com/railwayapp/cli/archive/refs/tags/v4.66.0.tar.gz",
+    "srcurl": "https://github.com/railwayapp/cli/archive/refs/tags/v4.66.1.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/6064847573/packages/railway-cli",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/6064847573/packages/railway-cli/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/6064847573/packages/railway-cli/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/d0276a76ab/packages/railway-cli",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/d0276a76ab/packages/railway-cli/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/d0276a76ab/packages/railway-cli/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -37024,15 +37024,15 @@
   },
   {
     "name": "senpai",
-    "version": "1:0.4.1",
+    "version": "1:0.5.0",
     "description": "An IRC client that works best with bouncers",
     "homepage": "https://git.sr.ht/~delthas/senpai",
     "depends": [],
-    "srcurl": "https://git.sr.ht/~delthas/senpai/archive/v0.4.1.tar.gz",
+    "srcurl": "https://git.sr.ht/~delthas/senpai/archive/v0.5.0.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/a0fafd6fe8/packages/senpai",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/a0fafd6fe8/packages/senpai/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/a0fafd6fe8/packages/senpai/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/e0c35bd6a1/packages/senpai",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/e0c35bd6a1/packages/senpai/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/e0c35bd6a1/packages/senpai/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -41252,7 +41252,7 @@
   },
   {
     "name": "transmission",
-    "version": "4.1.1",
+    "version": "4.1.2",
     "description": "Easy, lean and powerful BitTorrent client",
     "homepage": "https://transmissionbt.com/",
     "depends": [
@@ -41266,18 +41266,18 @@
     ],
     "srcurl": "git+https://github.com/transmission/transmission",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/dfa9440834/packages/transmission",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/dfa9440834/packages/transmission/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/dfa9440834/packages/transmission/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/fc0b7a6842/packages/transmission",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/fc0b7a6842/packages/transmission/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/fc0b7a6842/packages/transmission/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/dfa9440834/packages/transmission/fix_paths.patch",
-      "https://github.com/zrsx/termux-ng/blob/dfa9440834/packages/transmission/libtransmission-CMakeLists.txt.patch",
-      "https://github.com/zrsx/termux-ng/blob/dfa9440834/packages/transmission/no_quota.patch"
+      "https://github.com/zrsx/termux-ng/blob/fc0b7a6842/packages/transmission/fix_paths.patch",
+      "https://github.com/zrsx/termux-ng/blob/fc0b7a6842/packages/transmission/libtransmission-CMakeLists.txt.patch",
+      "https://github.com/zrsx/termux-ng/blob/fc0b7a6842/packages/transmission/no_quota.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/dfa9440834/packages/transmission/fix_paths.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/dfa9440834/packages/transmission/libtransmission-CMakeLists.txt.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/dfa9440834/packages/transmission/no_quota.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/fc0b7a6842/packages/transmission/fix_paths.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/fc0b7a6842/packages/transmission/libtransmission-CMakeLists.txt.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/fc0b7a6842/packages/transmission/no_quota.patch"
     ],
     "auto_updated": true
   },
@@ -66612,7 +66612,7 @@
   },
   {
     "name": "sdl3-mixer",
-    "version": "3.2.2",
+    "version": "3.2.4",
     "description": "A simple multi-channel audio mixer library (version 3)",
     "homepage": "https://github.com/libsdl-org/SDL_mixer",
     "depends": [
@@ -66627,11 +66627,11 @@
       "libmpg123",
       "sdl3"
     ],
-    "srcurl": "https://github.com/libsdl-org/SDL_mixer/releases/download/release-3.2.2/SDL3_mixer-3.2.2.tar.gz",
+    "srcurl": "https://github.com/libsdl-org/SDL_mixer/releases/download/release-3.2.4/SDL3_mixer-3.2.4.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/730085e791/x11-packages/sdl3-mixer",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/730085e791/x11-packages/sdl3-mixer/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/730085e791/x11-packages/sdl3-mixer/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/dbf5a3746c/x11-packages/sdl3-mixer",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/dbf5a3746c/x11-packages/sdl3-mixer/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/dbf5a3746c/x11-packages/sdl3-mixer/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -67946,7 +67946,7 @@
   },
   {
     "name": "transmission-gtk",
-    "version": "4.1.1",
+    "version": "4.1.2",
     "description": "Easy, lean and powerful BitTorrent client (gtk3)",
     "homepage": "https://transmissionbt.com/",
     "depends": [
@@ -67968,18 +67968,18 @@
     ],
     "srcurl": "git+https://github.com/transmission/transmission",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/62c1aa4fe6/x11-packages/transmission-gtk",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/62c1aa4fe6/x11-packages/transmission-gtk/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/62c1aa4fe6/x11-packages/transmission-gtk/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/09bc1d0ca1/x11-packages/transmission-gtk",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/09bc1d0ca1/x11-packages/transmission-gtk/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/09bc1d0ca1/x11-packages/transmission-gtk/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/62c1aa4fe6/x11-packages/transmission-gtk/fix_paths.patch",
-      "https://github.com/zrsx/termux-ng/blob/62c1aa4fe6/x11-packages/transmission-gtk/libtransmission-CMakeLists.txt.patch",
-      "https://github.com/zrsx/termux-ng/blob/62c1aa4fe6/x11-packages/transmission-gtk/no_quota.patch"
+      "https://github.com/zrsx/termux-ng/blob/09bc1d0ca1/x11-packages/transmission-gtk/fix_paths.patch",
+      "https://github.com/zrsx/termux-ng/blob/09bc1d0ca1/x11-packages/transmission-gtk/libtransmission-CMakeLists.txt.patch",
+      "https://github.com/zrsx/termux-ng/blob/09bc1d0ca1/x11-packages/transmission-gtk/no_quota.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/62c1aa4fe6/x11-packages/transmission-gtk/fix_paths.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/62c1aa4fe6/x11-packages/transmission-gtk/libtransmission-CMakeLists.txt.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/62c1aa4fe6/x11-packages/transmission-gtk/no_quota.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/09bc1d0ca1/x11-packages/transmission-gtk/fix_paths.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/09bc1d0ca1/x11-packages/transmission-gtk/libtransmission-CMakeLists.txt.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/09bc1d0ca1/x11-packages/transmission-gtk/no_quota.patch"
     ],
     "auto_updated": true
   },
