@@ -48339,7 +48339,7 @@
   },
   {
     "name": "audiotube",
-    "version": "26.04.1",
+    "version": "26.04.2",
     "description": "AudioTube can search YouTube Music, list albums and artists, play automatically generated playlists, albums and allows to put your own playlist together",
     "homepage": "https://apps.kde.org/audiotube/",
     "depends": [
@@ -48366,11 +48366,11 @@
       "qt6-qtsvg",
       "python-yt-dlp"
     ],
-    "srcurl": "https://download.kde.org/stable/release-service/26.04.1/src/audiotube-26.04.1.tar.xz",
+    "srcurl": "https://download.kde.org/stable/release-service/26.04.2/src/audiotube-26.04.2.tar.xz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/8da6763ffd/x11-packages/audiotube",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/8da6763ffd/x11-packages/audiotube/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/8da6763ffd/x11-packages/audiotube/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/d2792164c9/x11-packages/audiotube",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/d2792164c9/x11-packages/audiotube/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/d2792164c9/x11-packages/audiotube/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -48527,7 +48527,7 @@
   },
   {
     "name": "baloo-widgets",
-    "version": "26.04.1",
+    "version": "26.04.2",
     "description": "Widgets for Baloo",
     "homepage": "https://invent.kde.org/libraries/baloo-widgets",
     "depends": [
@@ -48542,11 +48542,11 @@
       "libc++",
       "qt6-qtbase"
     ],
-    "srcurl": "https://download.kde.org/stable/release-service/26.04.1/src/baloo-widgets-26.04.1.tar.xz",
+    "srcurl": "https://download.kde.org/stable/release-service/26.04.2/src/baloo-widgets-26.04.2.tar.xz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/91d52d53cf/x11-packages/baloo-widgets",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/91d52d53cf/x11-packages/baloo-widgets/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/91d52d53cf/x11-packages/baloo-widgets/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/85aea3c9bd/x11-packages/baloo-widgets",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/85aea3c9bd/x11-packages/baloo-widgets/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/85aea3c9bd/x11-packages/baloo-widgets/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -48862,7 +48862,7 @@
   },
   {
     "name": "calligra",
-    "version": "26.04.1",
+    "version": "26.04.2",
     "description": "Office and graphic art suite by KDE",
     "homepage": "https://calligra.org/",
     "depends": [
@@ -48926,18 +48926,18 @@
       "shared-mime-info",
       "zlib"
     ],
-    "srcurl": "https://download.kde.org/stable/release-service/26.04.1/src/calligra-26.04.1.tar.xz",
+    "srcurl": "https://download.kde.org/stable/release-service/26.04.2/src/calligra-26.04.2.tar.xz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/3f7cd584ea/x11-packages/calligra",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/3f7cd584ea/x11-packages/calligra/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/3f7cd584ea/x11-packages/calligra/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/8238017f22/x11-packages/calligra",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/8238017f22/x11-packages/calligra/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/8238017f22/x11-packages/calligra/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/3f7cd584ea/x11-packages/calligra/disable-update-mime-types.patch",
-      "https://github.com/zrsx/termux-ng/blob/3f7cd584ea/x11-packages/calligra/prepend-prefix-to-tmp-paths.patch"
+      "https://github.com/zrsx/termux-ng/blob/8238017f22/x11-packages/calligra/disable-update-mime-types.patch",
+      "https://github.com/zrsx/termux-ng/blob/8238017f22/x11-packages/calligra/prepend-prefix-to-tmp-paths.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/3f7cd584ea/x11-packages/calligra/disable-update-mime-types.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/3f7cd584ea/x11-packages/calligra/prepend-prefix-to-tmp-paths.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/8238017f22/x11-packages/calligra/disable-update-mime-types.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/8238017f22/x11-packages/calligra/prepend-prefix-to-tmp-paths.patch"
     ],
     "auto_updated": true
   },
@@ -50443,7 +50443,7 @@
   },
   {
     "name": "dolphin",
-    "version": "26.04.1",
+    "version": "26.04.2",
     "description": "KDE File Manager",
     "homepage": "https://invent.kde.org/system/dolphin",
     "depends": [
@@ -50484,11 +50484,11 @@
       "qt6-qtbase",
       "qt6-qtmultimedia"
     ],
-    "srcurl": "https://download.kde.org/stable/release-service/26.04.1/src/dolphin-26.04.1.tar.xz",
+    "srcurl": "https://download.kde.org/stable/release-service/26.04.2/src/dolphin-26.04.2.tar.xz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/bee8734951/x11-packages/dolphin",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/bee8734951/x11-packages/dolphin/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/bee8734951/x11-packages/dolphin/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/86d94d9b99/x11-packages/dolphin",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/86d94d9b99/x11-packages/dolphin/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/86d94d9b99/x11-packages/dolphin/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -50898,7 +50898,7 @@
   },
   {
     "name": "elisa",
-    "version": "26.04.1",
+    "version": "26.04.2",
     "description": "A simple music player developed by KDE",
     "homepage": "https://apps.kde.org/elisa/",
     "depends": [
@@ -50923,11 +50923,11 @@
       "qt6-qtmultimedia",
       "vlc-qt"
     ],
-    "srcurl": "https://download.kde.org/stable/release-service/26.04.1/src/elisa-26.04.1.tar.xz",
+    "srcurl": "https://download.kde.org/stable/release-service/26.04.2/src/elisa-26.04.2.tar.xz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/2255994a1d/x11-packages/elisa",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/2255994a1d/x11-packages/elisa/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/2255994a1d/x11-packages/elisa/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/ab5548ce9f/x11-packages/elisa",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/ab5548ce9f/x11-packages/elisa/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/ab5548ce9f/x11-packages/elisa/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -51303,7 +51303,7 @@
   },
   {
     "name": "falkon",
-    "version": "26.04.1",
+    "version": "26.04.2",
     "description": "Cross-platform QtWebEngine Browser",
     "homepage": "https://www.falkon.org/",
     "depends": [
@@ -51314,11 +51314,11 @@
       "qt6-qtwebsockets",
       "qt6-qtwebengine"
     ],
-    "srcurl": "https://download.kde.org/stable/release-service/26.04.1/src/falkon-26.04.1.tar.xz",
+    "srcurl": "https://download.kde.org/stable/release-service/26.04.2/src/falkon-26.04.2.tar.xz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/3171e91e30/x11-packages/falkon",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/3171e91e30/x11-packages/falkon/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/3171e91e30/x11-packages/falkon/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/53f6495fb9/x11-packages/falkon",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/53f6495fb9/x11-packages/falkon/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/53f6495fb9/x11-packages/falkon/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -51708,7 +51708,7 @@
   },
   {
     "name": "filelight",
-    "version": "26.04.1",
+    "version": "26.04.2",
     "description": "View disk usage information",
     "homepage": "https://apps.kde.org/filelight/",
     "depends": [
@@ -51725,11 +51725,11 @@
       "qt6-qtbase",
       "qt6-qtdeclarative"
     ],
-    "srcurl": "https://download.kde.org/stable/release-service/26.04.1/src/filelight-26.04.1.tar.xz",
+    "srcurl": "https://download.kde.org/stable/release-service/26.04.2/src/filelight-26.04.2.tar.xz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/f8ed08e21e/x11-packages/filelight",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/f8ed08e21e/x11-packages/filelight/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/f8ed08e21e/x11-packages/filelight/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/033081b536/x11-packages/filelight",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/033081b536/x11-packages/filelight/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/033081b536/x11-packages/filelight/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -52574,7 +52574,7 @@
   },
   {
     "name": "ghostwriter",
-    "version": "26.04.1",
+    "version": "26.04.2",
     "description": "Text editor for Markdown",
     "homepage": "https://ghostwriter.kde.org/",
     "depends": [
@@ -52589,11 +52589,11 @@
       "qt6-qtbase",
       "qt6-qtpositioning"
     ],
-    "srcurl": "https://download.kde.org/stable/release-service/26.04.1/src/ghostwriter-26.04.1.tar.xz",
+    "srcurl": "https://download.kde.org/stable/release-service/26.04.2/src/ghostwriter-26.04.2.tar.xz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/616c6d7774/x11-packages/ghostwriter",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/616c6d7774/x11-packages/ghostwriter/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/616c6d7774/x11-packages/ghostwriter/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/f56342e3dd/x11-packages/ghostwriter",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/f56342e3dd/x11-packages/ghostwriter/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/f56342e3dd/x11-packages/ghostwriter/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -53981,7 +53981,7 @@
   },
   {
     "name": "gwenview",
-    "version": "26.04.1",
+    "version": "26.04.2",
     "description": "Fast and easy to use image viewer by KDE",
     "homepage": "https://apps.kde.org/gwenview/",
     "depends": [
@@ -54023,11 +54023,11 @@
       "qt6-qtimageformats",
       "qt6-qtsvg"
     ],
-    "srcurl": "https://download.kde.org/stable/release-service/26.04.1/src/gwenview-26.04.1.tar.xz",
+    "srcurl": "https://download.kde.org/stable/release-service/26.04.2/src/gwenview-26.04.2.tar.xz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/0ba2927185/x11-packages/gwenview",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/0ba2927185/x11-packages/gwenview/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/0ba2927185/x11-packages/gwenview/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/265bc5ba13/x11-packages/gwenview",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/265bc5ba13/x11-packages/gwenview/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/265bc5ba13/x11-packages/gwenview/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -57074,7 +57074,7 @@
   },
   {
     "name": "konsole",
-    "version": "26.04.1",
+    "version": "26.04.2",
     "description": "KDE terminal emulator",
     "homepage": "https://apps.kde.org/konsole/",
     "depends": [
@@ -57101,11 +57101,11 @@
       "qt6-qtbase",
       "qt6-qtmultimedia"
     ],
-    "srcurl": "https://download.kde.org/stable/release-service/26.04.1/src/konsole-26.04.1.tar.xz",
+    "srcurl": "https://download.kde.org/stable/release-service/26.04.2/src/konsole-26.04.2.tar.xz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/a506a266d3/x11-packages/konsole",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/a506a266d3/x11-packages/konsole/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/a506a266d3/x11-packages/konsole/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/467fac19a6/x11-packages/konsole",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/467fac19a6/x11-packages/konsole/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/467fac19a6/x11-packages/konsole/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -58360,7 +58360,7 @@
   },
   {
     "name": "libkdcraw",
-    "version": "26.04.1",
+    "version": "26.04.2",
     "description": "C++ interface used to decode RAW pictures",
     "homepage": "https://invent.kde.org/graphics/libkdcraw",
     "depends": [
@@ -58368,29 +58368,29 @@
       "libraw",
       "qt6-qtbase"
     ],
-    "srcurl": "https://download.kde.org/stable/release-service/26.04.1/src/libkdcraw-26.04.1.tar.xz",
+    "srcurl": "https://download.kde.org/stable/release-service/26.04.2/src/libkdcraw-26.04.2.tar.xz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/aa39f168bd/x11-packages/libkdcraw",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/aa39f168bd/x11-packages/libkdcraw/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/aa39f168bd/x11-packages/libkdcraw/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/57bc02c78e/x11-packages/libkdcraw",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/57bc02c78e/x11-packages/libkdcraw/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/57bc02c78e/x11-packages/libkdcraw/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
   },
   {
     "name": "libkexiv2",
-    "version": "26.04.1",
+    "version": "26.04.2",
     "description": "A kde library to manipulate pictures metadata",
     "homepage": "https://invent.kde.org/graphics/libkexiv2",
     "depends": [
       "exiv2",
       "libc++"
     ],
-    "srcurl": "https://download.kde.org/stable/release-service/26.04.1/src/libkexiv2-26.04.1.tar.xz",
+    "srcurl": "https://download.kde.org/stable/release-service/26.04.2/src/libkexiv2-26.04.2.tar.xz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/58acb90b9b/x11-packages/libkexiv2",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/58acb90b9b/x11-packages/libkexiv2/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/58acb90b9b/x11-packages/libkexiv2/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/a0d12d6fa5/x11-packages/libkexiv2",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/a0d12d6fa5/x11-packages/libkexiv2/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/a0d12d6fa5/x11-packages/libkexiv2/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
