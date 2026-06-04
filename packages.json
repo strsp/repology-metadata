@@ -1989,7 +1989,7 @@
   },
   {
     "name": "awscli",
-    "version": "2.34.61",
+    "version": "2.34.62",
     "description": "Universal Command Line Interface for Amazon Web Services",
     "homepage": "https://aws.amazon.com/cli",
     "depends": [
@@ -1997,18 +1997,18 @@
       "libandroid-support",
       "mandoc"
     ],
-    "srcurl": "https://github.com/aws/aws-cli/archive/refs/tags/2.34.61.tar.gz",
+    "srcurl": "https://github.com/aws/aws-cli/archive/refs/tags/2.34.62.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/f37f57d5a6/packages/awscli",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/f37f57d5a6/packages/awscli/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/f37f57d5a6/packages/awscli/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/3c3ba8fb92/packages/awscli",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/3c3ba8fb92/packages/awscli/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/3c3ba8fb92/packages/awscli/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/f37f57d5a6/packages/awscli/remove-ios-support.patch",
-      "https://github.com/zrsx/termux-ng/blob/f37f57d5a6/packages/awscli/remove-no-build-isolation.patch"
+      "https://github.com/zrsx/termux-ng/blob/3c3ba8fb92/packages/awscli/remove-ios-support.patch",
+      "https://github.com/zrsx/termux-ng/blob/3c3ba8fb92/packages/awscli/remove-no-build-isolation.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/f37f57d5a6/packages/awscli/remove-ios-support.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/f37f57d5a6/packages/awscli/remove-no-build-isolation.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/3c3ba8fb92/packages/awscli/remove-ios-support.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/3c3ba8fb92/packages/awscli/remove-no-build-isolation.patch"
     ],
     "auto_updated": true
   },
@@ -8851,15 +8851,15 @@
   },
   {
     "name": "flyctl",
-    "version": "0.4.57",
+    "version": "0.4.58",
     "description": "Command line tools for fly.io services",
     "homepage": "https://fly.io",
     "depends": [],
-    "srcurl": "https://github.com/superfly/flyctl/archive/refs/tags/v0.4.57.tar.gz",
+    "srcurl": "https://github.com/superfly/flyctl/archive/refs/tags/v0.4.58.tar.gz",
     "maintainer": "Yaksh Bariya <thunder-coding@termux.dev>",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/3c7274a17e/packages/flyctl",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/3c7274a17e/packages/flyctl/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/3c7274a17e/packages/flyctl/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/f29e058ebb/packages/flyctl",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/f29e058ebb/packages/flyctl/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/f29e058ebb/packages/flyctl/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -32224,17 +32224,17 @@
   },
   {
     "name": "php-zephir-parser",
-    "version": "2.0.3",
+    "version": "2.0.4",
     "description": "The Zephir Parser delivered as a C extension for the PHP language",
     "homepage": "https://github.com/phalcon/php-zephir-parser",
     "depends": [
       "php"
     ],
-    "srcurl": "https://github.com/zephir-lang/php-zephir-parser/archive/refs/tags/v2.0.3.tar.gz",
+    "srcurl": "https://github.com/zephir-lang/php-zephir-parser/archive/refs/tags/v2.0.4.tar.gz",
     "maintainer": "ian4hu <hu2008yinxiang@163.com>",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/fdb1ce3264/packages/php-zephir-parser",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/fdb1ce3264/packages/php-zephir-parser/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/fdb1ce3264/packages/php-zephir-parser/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/2a941cb07c/packages/php-zephir-parser",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/2a941cb07c/packages/php-zephir-parser/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/2a941cb07c/packages/php-zephir-parser/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -35117,15 +35117,15 @@
   },
   {
     "name": "railway-cli",
-    "version": "4.68.0",
+    "version": "5.0.0",
     "description": "This is the command line interface for Railway",
     "homepage": "https://railway.app",
     "depends": [],
-    "srcurl": "https://github.com/railwayapp/cli/archive/refs/tags/v4.68.0.tar.gz",
+    "srcurl": "https://github.com/railwayapp/cli/archive/refs/tags/v5.0.0.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/777e008898/packages/railway-cli",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/777e008898/packages/railway-cli/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/777e008898/packages/railway-cli/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/13991a1d3e/packages/railway-cli",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/13991a1d3e/packages/railway-cli/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/13991a1d3e/packages/railway-cli/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -36292,15 +36292,15 @@
   },
   {
     "name": "ruff",
-    "version": "0.15.15",
+    "version": "0.15.16",
     "description": "An extremely fast Python linter, written in Rust",
     "homepage": "https://github.com/charliermarsh/ruff",
     "depends": [],
-    "srcurl": "https://github.com/charliermarsh/ruff/archive/refs/tags/0.15.15.tar.gz",
+    "srcurl": "https://github.com/charliermarsh/ruff/archive/refs/tags/0.15.16.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/9b1df90b33/packages/ruff",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/9b1df90b33/packages/ruff/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/9b1df90b33/packages/ruff/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/f12adaf6b8/packages/ruff",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/f12adaf6b8/packages/ruff/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/f12adaf6b8/packages/ruff/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -46092,22 +46092,22 @@
   },
   {
     "name": "dnsmasq",
-    "version": "2.92",
+    "version": "2.93",
     "description": "Dnsmasq provides network infrastructure for small networks",
     "homepage": "http://www.thekelleys.org.uk/dnsmasq/doc.html",
     "depends": [],
-    "srcurl": "https://www.thekelleys.org.uk/dnsmasq/dnsmasq-2.92.tar.xz",
+    "srcurl": "https://www.thekelleys.org.uk/dnsmasq/dnsmasq-2.93.tar.xz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/d472cfbd7e/root-packages/dnsmasq",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/d472cfbd7e/root-packages/dnsmasq/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/d472cfbd7e/root-packages/dnsmasq/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/49c41e8a33/root-packages/dnsmasq",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/49c41e8a33/root-packages/dnsmasq/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/49c41e8a33/root-packages/dnsmasq/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/d472cfbd7e/root-packages/dnsmasq/Makefile.patch",
-      "https://github.com/zrsx/termux-ng/blob/d472cfbd7e/root-packages/dnsmasq/dnsmasq.h.patch"
+      "https://github.com/zrsx/termux-ng/blob/49c41e8a33/root-packages/dnsmasq/Makefile.patch",
+      "https://github.com/zrsx/termux-ng/blob/49c41e8a33/root-packages/dnsmasq/dnsmasq.h.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/d472cfbd7e/root-packages/dnsmasq/Makefile.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/d472cfbd7e/root-packages/dnsmasq/dnsmasq.h.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/49c41e8a33/root-packages/dnsmasq/Makefile.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/49c41e8a33/root-packages/dnsmasq/dnsmasq.h.patch"
     ],
     "auto_updated": true
   },
@@ -56809,7 +56809,7 @@
   },
   {
     "name": "kio-extras",
-    "version": "26.04.1",
+    "version": "26.04.2",
     "description": "Additional components to increase the functionality of KIO",
     "homepage": "https://invent.kde.org/network/kio-extras",
     "depends": [
@@ -56844,11 +56844,11 @@
       "qt6-qtsvg",
       "ripgrep-all"
     ],
-    "srcurl": "https://download.kde.org/stable/release-service/26.04.1/src/kio-extras-26.04.1.tar.xz",
+    "srcurl": "https://download.kde.org/stable/release-service/26.04.2/src/kio-extras-26.04.2.tar.xz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/3419d4d48f/x11-packages/kio-extras",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/3419d4d48f/x11-packages/kio-extras/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/3419d4d48f/x11-packages/kio-extras/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/1fcbd712d5/x11-packages/kio-extras",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/1fcbd712d5/x11-packages/kio-extras/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/1fcbd712d5/x11-packages/kio-extras/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -62300,7 +62300,7 @@
   },
   {
     "name": "okular",
-    "version": "26.04.1",
+    "version": "26.04.2",
     "description": "Multi-platform document viewer for PDF, comics, EPub, and images",
     "homepage": "https://apps.kde.org/okular",
     "depends": [
@@ -62339,11 +62339,11 @@
       "unrar",
       "zlib"
     ],
-    "srcurl": "https://download.kde.org/stable/release-service/26.04.1/src/okular-26.04.1.tar.xz",
+    "srcurl": "https://download.kde.org/stable/release-service/26.04.2/src/okular-26.04.2.tar.xz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/652073c850/x11-packages/okular",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/652073c850/x11-packages/okular/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/652073c850/x11-packages/okular/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/80e6e85c19/x11-packages/okular",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/80e6e85c19/x11-packages/okular/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/80e6e85c19/x11-packages/okular/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
