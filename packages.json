@@ -25058,7 +25058,7 @@
   },
   {
     "name": "lux-cli",
-    "version": "0.31.0",
+    "version": "0.31.1",
     "description": "A package manager for Lua, similar to luarocks",
     "homepage": "https://lux.lumen-labs.org",
     "depends": [
@@ -25070,11 +25070,11 @@
       "openssl",
       "xz-utils"
     ],
-    "srcurl": "https://github.com/lumen-oss/lux/archive/refs/tags/v0.31.0.tar.gz",
+    "srcurl": "https://github.com/lumen-oss/lux/archive/refs/tags/v0.31.1.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/381d090912/packages/lux-cli",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/381d090912/packages/lux-cli/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/381d090912/packages/lux-cli/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/3f2b0c90da/packages/lux-cli",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/3f2b0c90da/packages/lux-cli/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/3f2b0c90da/packages/lux-cli/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -35140,15 +35140,15 @@
   },
   {
     "name": "railway-cli",
-    "version": "5.2.0",
+    "version": "5.4.0",
     "description": "This is the command line interface for Railway",
     "homepage": "https://railway.app",
     "depends": [],
-    "srcurl": "https://github.com/railwayapp/cli/archive/refs/tags/v5.2.0.tar.gz",
+    "srcurl": "https://github.com/railwayapp/cli/archive/refs/tags/v5.4.0.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/8778bf35a3/packages/railway-cli",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/8778bf35a3/packages/railway-cli/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/8778bf35a3/packages/railway-cli/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/0272cfb9dd/packages/railway-cli",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/0272cfb9dd/packages/railway-cli/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/0272cfb9dd/packages/railway-cli/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -35302,20 +35302,20 @@
   },
   {
     "name": "rclone",
-    "version": "1.74.2",
+    "version": "1.74.3",
     "description": "rsync for cloud storage",
     "homepage": "https://rclone.org/",
     "depends": [],
-    "srcurl": "https://github.com/rclone/rclone/releases/download/v1.74.2/rclone-v1.74.2.tar.gz",
+    "srcurl": "https://github.com/rclone/rclone/releases/download/v1.74.3/rclone-v1.74.3.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/624866459c/packages/rclone",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/624866459c/packages/rclone/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/624866459c/packages/rclone/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/c213a3bbef/packages/rclone",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/c213a3bbef/packages/rclone/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/c213a3bbef/packages/rclone/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/624866459c/packages/rclone/autocomplete_path.patch"
+      "https://github.com/zrsx/termux-ng/blob/c213a3bbef/packages/rclone/autocomplete_path.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/624866459c/packages/rclone/autocomplete_path.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/c213a3bbef/packages/rclone/autocomplete_path.patch"
     ],
     "auto_updated": true
   },
@@ -36699,18 +36699,18 @@
   },
   {
     "name": "scala",
-    "version": "3.8.3",
+    "version": "3.8.4",
     "description": "Scala 3 compiler and standard library.",
     "homepage": "https://www.scala-lang.org",
     "depends": [
       "openjdk-21",
       "which"
     ],
-    "srcurl": "https://github.com/lampepfl/dotty/releases/download/3.8.3/scala3-3.8.3.tar.gz",
+    "srcurl": "https://github.com/lampepfl/dotty/releases/download/3.8.4/scala3-3.8.4.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/eda6a02293/packages/scala",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/eda6a02293/packages/scala/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/eda6a02293/packages/scala/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/ba37eac890/packages/scala",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/ba37eac890/packages/scala/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/ba37eac890/packages/scala/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
