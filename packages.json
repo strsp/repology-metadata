@@ -8126,15 +8126,15 @@
   },
   {
     "name": "fastfetch",
-    "version": "2.64.1",
+    "version": "2.64.2",
     "description": "A maintained, feature-rich and performance oriented, neofetch like system information tool",
     "homepage": "https://github.com/fastfetch-cli/fastfetch",
     "depends": [],
-    "srcurl": "https://github.com/fastfetch-cli/fastfetch/archive/refs/tags/2.64.1.tar.gz",
+    "srcurl": "https://github.com/fastfetch-cli/fastfetch/archive/refs/tags/2.64.2.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/014e547e6b/packages/fastfetch",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/014e547e6b/packages/fastfetch/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/014e547e6b/packages/fastfetch/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/4bcd173574/packages/fastfetch",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/4bcd173574/packages/fastfetch/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/4bcd173574/packages/fastfetch/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -18388,7 +18388,7 @@
   },
   {
     "name": "libisoburn",
-    "version": "1.5.8",
+    "version": "1.5.8.pl02",
     "description": "Frontend for libraries libburn and libisofs",
     "homepage": "https://dev.lovelyhq.com/libburnia",
     "depends": [
@@ -18396,11 +18396,11 @@
       "libisofs",
       "readline"
     ],
-    "srcurl": "https://files.libburnia-project.org/releases/libisoburn-1.5.8.tar.gz",
+    "srcurl": "https://files.libburnia-project.org/releases/libisoburn-1.5.8.pl02.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/87a75475f6/packages/libisoburn",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/87a75475f6/packages/libisoburn/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/87a75475f6/packages/libisoburn/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/e88237b5b1/packages/libisoburn",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/e88237b5b1/packages/libisoburn/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/e88237b5b1/packages/libisoburn/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -25058,7 +25058,7 @@
   },
   {
     "name": "lux-cli",
-    "version": "0.30.6",
+    "version": "0.31.0",
     "description": "A package manager for Lua, similar to luarocks",
     "homepage": "https://lux.lumen-labs.org",
     "depends": [
@@ -25070,11 +25070,11 @@
       "openssl",
       "xz-utils"
     ],
-    "srcurl": "https://github.com/lumen-oss/lux/archive/refs/tags/v0.30.6.tar.gz",
+    "srcurl": "https://github.com/lumen-oss/lux/archive/refs/tags/v0.31.0.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/2ab043a203/packages/lux-cli",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/2ab043a203/packages/lux-cli/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/2ab043a203/packages/lux-cli/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/381d090912/packages/lux-cli",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/381d090912/packages/lux-cli/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/381d090912/packages/lux-cli/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -35140,15 +35140,15 @@
   },
   {
     "name": "railway-cli",
-    "version": "5.1.0",
+    "version": "5.2.0",
     "description": "This is the command line interface for Railway",
     "homepage": "https://railway.app",
     "depends": [],
-    "srcurl": "https://github.com/railwayapp/cli/archive/refs/tags/v5.1.0.tar.gz",
+    "srcurl": "https://github.com/railwayapp/cli/archive/refs/tags/v5.2.0.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/ec9ae412c8/packages/railway-cli",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/ec9ae412c8/packages/railway-cli/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/ec9ae412c8/packages/railway-cli/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/8778bf35a3/packages/railway-cli",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/8778bf35a3/packages/railway-cli/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/8778bf35a3/packages/railway-cli/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
