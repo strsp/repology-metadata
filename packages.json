@@ -9101,30 +9101,30 @@
   },
   {
     "name": "fresh-editor",
-    "version": "0.3.10",
+    "version": "0.3.12",
     "description": "Text editor for your terminal: easy, powerful and fast",
     "homepage": "https://getfresh.dev/",
     "depends": [],
-    "srcurl": "https://github.com/sinelaw/fresh/releases/download/v0.3.10/fresh-editor-0.3.10-source.tar.gz",
+    "srcurl": "https://github.com/sinelaw/fresh/releases/download/v0.3.12/fresh-editor-0.3.12-source.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/8e5ab89022/packages/fresh-editor",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/8e5ab89022/packages/fresh-editor/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/8e5ab89022/packages/fresh-editor/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/124caeab54/packages/fresh-editor",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/124caeab54/packages/fresh-editor/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/124caeab54/packages/fresh-editor/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/8e5ab89022/packages/fresh-editor/enable-rquickjs-bindgen.patch",
-      "https://github.com/zrsx/termux-ng/blob/8e5ab89022/packages/fresh-editor/no-AT_EACCESS.patch",
-      "https://github.com/zrsx/termux-ng/blob/8e5ab89022/packages/fresh-editor/rust-cc-do-not-concatenate-all-the-CFLAGS.diff",
-      "https://github.com/zrsx/termux-ng/blob/8e5ab89022/packages/fresh-editor/smithay-client-toolkit-no-shm.diff",
-      "https://github.com/zrsx/termux-ng/blob/8e5ab89022/packages/fresh-editor/trash-rs-implement-get_mount_points-android.diff",
-      "https://github.com/zrsx/termux-ng/blob/8e5ab89022/packages/fresh-editor/wayland-cursor-no-shm.diff"
+      "https://github.com/zrsx/termux-ng/blob/124caeab54/packages/fresh-editor/enable-rquickjs-bindgen.patch",
+      "https://github.com/zrsx/termux-ng/blob/124caeab54/packages/fresh-editor/no-AT_EACCESS.patch",
+      "https://github.com/zrsx/termux-ng/blob/124caeab54/packages/fresh-editor/rust-cc-do-not-concatenate-all-the-CFLAGS.diff",
+      "https://github.com/zrsx/termux-ng/blob/124caeab54/packages/fresh-editor/smithay-client-toolkit-no-shm.diff",
+      "https://github.com/zrsx/termux-ng/blob/124caeab54/packages/fresh-editor/trash-rs-implement-get_mount_points-android.diff",
+      "https://github.com/zrsx/termux-ng/blob/124caeab54/packages/fresh-editor/wayland-cursor-no-shm.diff"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/8e5ab89022/packages/fresh-editor/enable-rquickjs-bindgen.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/8e5ab89022/packages/fresh-editor/no-AT_EACCESS.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/8e5ab89022/packages/fresh-editor/rust-cc-do-not-concatenate-all-the-CFLAGS.diff",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/8e5ab89022/packages/fresh-editor/smithay-client-toolkit-no-shm.diff",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/8e5ab89022/packages/fresh-editor/trash-rs-implement-get_mount_points-android.diff",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/8e5ab89022/packages/fresh-editor/wayland-cursor-no-shm.diff"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/124caeab54/packages/fresh-editor/enable-rquickjs-bindgen.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/124caeab54/packages/fresh-editor/no-AT_EACCESS.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/124caeab54/packages/fresh-editor/rust-cc-do-not-concatenate-all-the-CFLAGS.diff",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/124caeab54/packages/fresh-editor/smithay-client-toolkit-no-shm.diff",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/124caeab54/packages/fresh-editor/trash-rs-implement-get_mount_points-android.diff",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/124caeab54/packages/fresh-editor/wayland-cursor-no-shm.diff"
     ],
     "auto_updated": true
   },
@@ -35117,15 +35117,15 @@
   },
   {
     "name": "railway-cli",
-    "version": "5.0.0",
+    "version": "5.1.0",
     "description": "This is the command line interface for Railway",
     "homepage": "https://railway.app",
     "depends": [],
-    "srcurl": "https://github.com/railwayapp/cli/archive/refs/tags/v5.0.0.tar.gz",
+    "srcurl": "https://github.com/railwayapp/cli/archive/refs/tags/v5.1.0.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/13991a1d3e/packages/railway-cli",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/13991a1d3e/packages/railway-cli/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/13991a1d3e/packages/railway-cli/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/f86c8e08b8/packages/railway-cli",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/f86c8e08b8/packages/railway-cli/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/f86c8e08b8/packages/railway-cli/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -42138,20 +42138,20 @@
   },
   {
     "name": "ty",
-    "version": "0.0.43",
+    "version": "0.0.44",
     "description": "An extremely fast Python type checker and language server, written in Rust",
     "homepage": "https://github.com/astral-sh/ty",
     "depends": [],
-    "srcurl": "https://github.com/astral-sh/ty/releases/download/0.0.43/source.tar.gz",
+    "srcurl": "https://github.com/astral-sh/ty/releases/download/0.0.44/source.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/5617ac8be3/packages/ty",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/5617ac8be3/packages/ty/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/5617ac8be3/packages/ty/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/23a59c7d66/packages/ty",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/23a59c7d66/packages/ty/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/23a59c7d66/packages/ty/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/5617ac8be3/packages/ty/rust-cc-do-not-concatenate-all-the-CFLAGS.diff"
+      "https://github.com/zrsx/termux-ng/blob/23a59c7d66/packages/ty/rust-cc-do-not-concatenate-all-the-CFLAGS.diff"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/5617ac8be3/packages/ty/rust-cc-do-not-concatenate-all-the-CFLAGS.diff"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/23a59c7d66/packages/ty/rust-cc-do-not-concatenate-all-the-CFLAGS.diff"
     ],
     "auto_updated": true
   },
@@ -43704,15 +43704,15 @@
   },
   {
     "name": "vulkan-headers",
-    "version": "1.4.352",
+    "version": "1.4.353",
     "description": "Vulkan Header files and API registry",
     "homepage": "https://github.com/KhronosGroup/Vulkan-Headers",
     "depends": [],
-    "srcurl": "https://github.com/KhronosGroup/Vulkan-Headers/archive/refs/tags/v1.4.352.tar.gz",
+    "srcurl": "https://github.com/KhronosGroup/Vulkan-Headers/archive/refs/tags/v1.4.353.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/22e00bcb90/packages/vulkan-headers",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/22e00bcb90/packages/vulkan-headers/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/22e00bcb90/packages/vulkan-headers/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/2dd354fe14/packages/vulkan-headers",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/2dd354fe14/packages/vulkan-headers/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/2dd354fe14/packages/vulkan-headers/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -43766,22 +43766,22 @@
   },
   {
     "name": "vulkan-loader",
-    "version": "1.4.352",
+    "version": "1.4.353",
     "description": "Vulkan Loader",
     "homepage": "https://github.com/KhronosGroup/Vulkan-Loader",
     "depends": [],
-    "srcurl": "https://github.com/KhronosGroup/Vulkan-Loader/archive/refs/tags/v1.4.352.tar.gz",
+    "srcurl": "https://github.com/KhronosGroup/Vulkan-Loader/archive/refs/tags/v1.4.353.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/d58885c5a5/packages/vulkan-loader-generic",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/d58885c5a5/packages/vulkan-loader-generic/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/d58885c5a5/packages/vulkan-loader-generic/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/20fe812a27/packages/vulkan-loader-generic",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/20fe812a27/packages/vulkan-loader-generic/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/20fe812a27/packages/vulkan-loader-generic/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/d58885c5a5/packages/vulkan-loader-generic/0001-fix-hardcoded-pathes.patch",
-      "https://github.com/zrsx/termux-ng/blob/d58885c5a5/packages/vulkan-loader-generic/0002-properly-enable-extensions.patch"
+      "https://github.com/zrsx/termux-ng/blob/20fe812a27/packages/vulkan-loader-generic/0001-fix-hardcoded-pathes.patch",
+      "https://github.com/zrsx/termux-ng/blob/20fe812a27/packages/vulkan-loader-generic/0002-properly-enable-extensions.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/d58885c5a5/packages/vulkan-loader-generic/0001-fix-hardcoded-pathes.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/d58885c5a5/packages/vulkan-loader-generic/0002-properly-enable-extensions.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/20fe812a27/packages/vulkan-loader-generic/0001-fix-hardcoded-pathes.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/20fe812a27/packages/vulkan-loader-generic/0002-properly-enable-extensions.patch"
     ],
     "auto_updated": true
   },
@@ -43816,20 +43816,20 @@
   },
   {
     "name": "vulkan-utility-libraries",
-    "version": "1.4.352",
+    "version": "1.4.353",
     "description": "Utility Libraries for Vulkan",
     "homepage": "https://github.com/KhronosGroup/Vulkan-Utility-Libraries",
     "depends": [],
-    "srcurl": "https://github.com/KhronosGroup/Vulkan-Utility-Libraries/archive/refs/tags/v1.4.352.tar.gz",
+    "srcurl": "https://github.com/KhronosGroup/Vulkan-Utility-Libraries/archive/refs/tags/v1.4.353.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/f3de5f5813/packages/vulkan-utility-libraries",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/f3de5f5813/packages/vulkan-utility-libraries/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/f3de5f5813/packages/vulkan-utility-libraries/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/69d4666f09/packages/vulkan-utility-libraries",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/69d4666f09/packages/vulkan-utility-libraries/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/69d4666f09/packages/vulkan-utility-libraries/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/f3de5f5813/packages/vulkan-utility-libraries/0001-do-not-build-for-android.patch"
+      "https://github.com/zrsx/termux-ng/blob/69d4666f09/packages/vulkan-utility-libraries/0001-do-not-build-for-android.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/f3de5f5813/packages/vulkan-utility-libraries/0001-do-not-build-for-android.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/69d4666f09/packages/vulkan-utility-libraries/0001-do-not-build-for-android.patch"
     ],
     "auto_updated": true
   },
@@ -54540,7 +54540,7 @@
   },
   {
     "name": "kate",
-    "version": "26.04.1",
+    "version": "26.04.2",
     "description": "KDE Advanced Text Editor",
     "homepage": "https://apps.kde.org/kate/",
     "depends": [
@@ -54575,18 +54575,18 @@
       "rust",
       "texlab"
     ],
-    "srcurl": "https://download.kde.org/stable/release-service/26.04.1/src/kate-26.04.1.tar.xz",
+    "srcurl": "https://download.kde.org/stable/release-service/26.04.2/src/kate-26.04.2.tar.xz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/96a793d1c1/x11-packages/kate",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/96a793d1c1/x11-packages/kate/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/96a793d1c1/x11-packages/kate/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/d8aae90fa8/x11-packages/kate",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/d8aae90fa8/x11-packages/kate/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/d8aae90fa8/x11-packages/kate/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
   },
   {
     "name": "kcalc",
-    "version": "26.04.1",
+    "version": "26.04.2",
     "description": "Scientific Calculator by KDE",
     "homepage": "https://apps.kde.org/kcalc/",
     "depends": [
@@ -54606,11 +54606,11 @@
       "libmpfr",
       "qt6-qtbase"
     ],
-    "srcurl": "https://download.kde.org/stable/release-service/26.04.1/src/kcalc-26.04.1.tar.xz",
+    "srcurl": "https://download.kde.org/stable/release-service/26.04.2/src/kcalc-26.04.2.tar.xz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/17a39e3a65/x11-packages/kcalc",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/17a39e3a65/x11-packages/kcalc/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/17a39e3a65/x11-packages/kcalc/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/d45f848d7e/x11-packages/kcalc",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/d45f848d7e/x11-packages/kcalc/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/d45f848d7e/x11-packages/kcalc/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -54753,7 +54753,7 @@
   },
   {
     "name": "kdeconnect",
-    "version": "26.04.1",
+    "version": "26.04.2",
     "description": "Adds communication between KDE and your smartphone",
     "homepage": "https://invent.kde.org/network/kdeconnect-kde",
     "depends": [
@@ -54793,11 +54793,11 @@
       "libc++",
       "libwayland"
     ],
-    "srcurl": "https://download.kde.org/stable/release-service/26.04.1/src/kdeconnect-kde-26.04.1.tar.xz",
+    "srcurl": "https://download.kde.org/stable/release-service/26.04.2/src/kdeconnect-kde-26.04.2.tar.xz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/bf06017a52/x11-packages/kdeconnect",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/bf06017a52/x11-packages/kdeconnect/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/bf06017a52/x11-packages/kdeconnect/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/337d8147b7/x11-packages/kdeconnect",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/337d8147b7/x11-packages/kdeconnect/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/337d8147b7/x11-packages/kdeconnect/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
