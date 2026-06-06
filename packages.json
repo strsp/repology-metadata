@@ -43817,7 +43817,7 @@
   },
   {
     "name": "vulkan-tools",
-    "version": "1.4.352",
+    "version": "1.4.353",
     "description": "Vulkan Tools and Utilities",
     "homepage": "https://github.com/KhronosGroup/Vulkan-Tools",
     "depends": [
@@ -43827,20 +43827,20 @@
       "libxcb",
       "vulkan-loader"
     ],
-    "srcurl": "https://github.com/KhronosGroup/Vulkan-Tools/archive/refs/tags/v1.4.352.tar.gz",
+    "srcurl": "https://github.com/KhronosGroup/Vulkan-Tools/archive/refs/tags/v1.4.353.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/bbf5af1441/packages/vulkan-tools",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/bbf5af1441/packages/vulkan-tools/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/bbf5af1441/packages/vulkan-tools/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/9efde2c4f6/packages/vulkan-tools",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/9efde2c4f6/packages/vulkan-tools/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/9efde2c4f6/packages/vulkan-tools/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/bbf5af1441/packages/vulkan-tools/0001-no-android.patch",
-      "https://github.com/zrsx/termux-ng/blob/bbf5af1441/packages/vulkan-tools/0002-do-not-search-KHR_display-automatically-on-Termux.patch",
-      "https://github.com/zrsx/termux-ng/blob/bbf5af1441/packages/vulkan-tools/0003-revert-vk-khr-display.patch"
+      "https://github.com/zrsx/termux-ng/blob/9efde2c4f6/packages/vulkan-tools/0001-no-android.patch",
+      "https://github.com/zrsx/termux-ng/blob/9efde2c4f6/packages/vulkan-tools/0002-do-not-search-KHR_display-automatically-on-Termux.patch",
+      "https://github.com/zrsx/termux-ng/blob/9efde2c4f6/packages/vulkan-tools/0003-revert-vk-khr-display.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/bbf5af1441/packages/vulkan-tools/0001-no-android.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/bbf5af1441/packages/vulkan-tools/0002-do-not-search-KHR_display-automatically-on-Termux.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/bbf5af1441/packages/vulkan-tools/0003-revert-vk-khr-display.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/9efde2c4f6/packages/vulkan-tools/0001-no-android.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/9efde2c4f6/packages/vulkan-tools/0002-do-not-search-KHR_display-automatically-on-Termux.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/9efde2c4f6/packages/vulkan-tools/0003-revert-vk-khr-display.patch"
     ],
     "auto_updated": true
   },
