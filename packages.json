@@ -13957,7 +13957,7 @@
   },
   {
     "name": "jackett",
-    "version": "0.24.2027",
+    "version": "0.24.2031",
     "description": "API Support for your favorite torrent trackers",
     "homepage": "https://github.com/jackett/jackett",
     "depends": [
@@ -13965,11 +13965,11 @@
       "dotnet-host",
       "dotnet-runtime-9.0"
     ],
-    "srcurl": "https://github.com/Jackett/Jackett/archive/refs/tags/v0.24.2027.tar.gz",
+    "srcurl": "https://github.com/Jackett/Jackett/archive/refs/tags/v0.24.2031.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/c27db3f10f/packages/jackett",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/c27db3f10f/packages/jackett/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/c27db3f10f/packages/jackett/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/7f631a7068/packages/jackett",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/7f631a7068/packages/jackett/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/7f631a7068/packages/jackett/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -32725,17 +32725,17 @@
   },
   {
     "name": "pocketbase",
-    "version": "0.39.1",
+    "version": "0.39.2",
     "description": "An open source Go backend",
     "homepage": "https://github.com/pocketbase/pocketbase",
     "depends": [
       "resolv-conf"
     ],
-    "srcurl": "https://github.com/pocketbase/pocketbase/archive/refs/tags/v0.39.1.tar.gz",
+    "srcurl": "https://github.com/pocketbase/pocketbase/archive/refs/tags/v0.39.2.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/5c185027ec/packages/pocketbase",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/5c185027ec/packages/pocketbase/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/5c185027ec/packages/pocketbase/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/17240c46d0/packages/pocketbase",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/17240c46d0/packages/pocketbase/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/17240c46d0/packages/pocketbase/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -57124,7 +57124,7 @@
   },
   {
     "name": "kitty",
-    "version": "0.47.1",
+    "version": "0.47.2",
     "description": "Cross-platform, fast, feature-rich, GPU based terminal",
     "homepage": "https://sw.kovidgoyal.net/kitty/",
     "depends": [
@@ -57143,30 +57143,30 @@
       "xxhash",
       "zlib"
     ],
-    "srcurl": "https://github.com/kovidgoyal/kitty/releases/download/v0.47.1/kitty-0.47.1.tar.xz",
+    "srcurl": "https://github.com/kovidgoyal/kitty/releases/download/v0.47.2/kitty-0.47.2.tar.xz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/7fc2f19b16/x11-packages/kitty",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/7fc2f19b16/x11-packages/kitty/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/7fc2f19b16/x11-packages/kitty/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/99f2002dc1/x11-packages/kitty",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/99f2002dc1/x11-packages/kitty/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/99f2002dc1/x11-packages/kitty/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/7fc2f19b16/x11-packages/kitty/glfw-glfw.py.patch",
-      "https://github.com/zrsx/termux-ng/blob/7fc2f19b16/x11-packages/kitty/glfw-x11_window.c.patch",
-      "https://github.com/zrsx/termux-ng/blob/7fc2f19b16/x11-packages/kitty/kitty-cross-platform-random.h.patch",
-      "https://github.com/zrsx/termux-ng/blob/7fc2f19b16/x11-packages/kitty/kitty-disk-cache.c.patch",
-      "https://github.com/zrsx/termux-ng/blob/7fc2f19b16/x11-packages/kitty/kitty-safe-wrappers.h.patch",
-      "https://github.com/zrsx/termux-ng/blob/7fc2f19b16/x11-packages/kitty/kitty-systemd.c.patch",
-      "https://github.com/zrsx/termux-ng/blob/7fc2f19b16/x11-packages/kitty/prepend-prefix-to-etc-and-share-paths.patch",
-      "https://github.com/zrsx/termux-ng/blob/7fc2f19b16/x11-packages/kitty/setup.py.patch"
+      "https://github.com/zrsx/termux-ng/blob/99f2002dc1/x11-packages/kitty/glfw-glfw.py.patch",
+      "https://github.com/zrsx/termux-ng/blob/99f2002dc1/x11-packages/kitty/glfw-x11_window.c.patch",
+      "https://github.com/zrsx/termux-ng/blob/99f2002dc1/x11-packages/kitty/kitty-cross-platform-random.h.patch",
+      "https://github.com/zrsx/termux-ng/blob/99f2002dc1/x11-packages/kitty/kitty-disk-cache.c.patch",
+      "https://github.com/zrsx/termux-ng/blob/99f2002dc1/x11-packages/kitty/kitty-safe-wrappers.h.patch",
+      "https://github.com/zrsx/termux-ng/blob/99f2002dc1/x11-packages/kitty/kitty-systemd.c.patch",
+      "https://github.com/zrsx/termux-ng/blob/99f2002dc1/x11-packages/kitty/prepend-prefix-to-etc-and-share-paths.patch",
+      "https://github.com/zrsx/termux-ng/blob/99f2002dc1/x11-packages/kitty/setup.py.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/7fc2f19b16/x11-packages/kitty/glfw-glfw.py.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/7fc2f19b16/x11-packages/kitty/glfw-x11_window.c.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/7fc2f19b16/x11-packages/kitty/kitty-cross-platform-random.h.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/7fc2f19b16/x11-packages/kitty/kitty-disk-cache.c.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/7fc2f19b16/x11-packages/kitty/kitty-safe-wrappers.h.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/7fc2f19b16/x11-packages/kitty/kitty-systemd.c.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/7fc2f19b16/x11-packages/kitty/prepend-prefix-to-etc-and-share-paths.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/7fc2f19b16/x11-packages/kitty/setup.py.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/99f2002dc1/x11-packages/kitty/glfw-glfw.py.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/99f2002dc1/x11-packages/kitty/glfw-x11_window.c.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/99f2002dc1/x11-packages/kitty/kitty-cross-platform-random.h.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/99f2002dc1/x11-packages/kitty/kitty-disk-cache.c.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/99f2002dc1/x11-packages/kitty/kitty-safe-wrappers.h.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/99f2002dc1/x11-packages/kitty/kitty-systemd.c.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/99f2002dc1/x11-packages/kitty/prepend-prefix-to-etc-and-share-paths.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/99f2002dc1/x11-packages/kitty/setup.py.patch"
     ],
     "auto_updated": true
   },
