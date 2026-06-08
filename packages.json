@@ -8599,22 +8599,22 @@
   },
   {
     "name": "file",
-    "version": "5.47",
+    "version": "5.48",
     "description": "Command-line tool that tells you in words what kind of data a file contains",
     "homepage": "https://darwinsys.com/file/",
     "depends": [
       "zlib"
     ],
-    "srcurl": "https://astron.com/pub/file/file-5.47.tar.gz",
+    "srcurl": "https://astron.com/pub/file/file-5.48.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/f521558005/packages/file",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/f521558005/packages/file/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/f521558005/packages/file/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/c2c7f2bcca/packages/file",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/c2c7f2bcca/packages/file/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/c2c7f2bcca/packages/file/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/f521558005/packages/file/fix-paths.patch"
+      "https://github.com/zrsx/termux-ng/blob/c2c7f2bcca/packages/file/fix-paths.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/f521558005/packages/file/fix-paths.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/c2c7f2bcca/packages/file/fix-paths.patch"
     ],
     "auto_updated": true
   },
@@ -12895,7 +12895,7 @@
   },
   {
     "name": "httrack",
-    "version": "3.49.6",
+    "version": "3.49.7",
     "description": "It allows you to download a World Wide Web site from the Internet",
     "homepage": "http://www.httrack.com",
     "depends": [
@@ -12905,24 +12905,24 @@
       "openssl",
       "zlib"
     ],
-    "srcurl": "https://ftp.debian.org/debian/pool/main/h/httrack/httrack_3.49.6.orig.tar.gz",
+    "srcurl": "https://ftp.debian.org/debian/pool/main/h/httrack/httrack_3.49.7.orig.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/bf6890ff73/packages/httrack",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/bf6890ff73/packages/httrack/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/bf6890ff73/packages/httrack/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/f5a4b77a24/packages/httrack",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/f5a4b77a24/packages/httrack/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/f5a4b77a24/packages/httrack/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/bf6890ff73/packages/httrack/html-Makefile.in.patch",
-      "https://github.com/zrsx/termux-ng/blob/bf6890ff73/packages/httrack/htsglobal.h.patch",
-      "https://github.com/zrsx/termux-ng/blob/bf6890ff73/packages/httrack/src-Makefile.in.patch",
-      "https://github.com/zrsx/termux-ng/blob/bf6890ff73/packages/httrack/src-proxy-proxytrack.h.patch",
-      "https://github.com/zrsx/termux-ng/blob/bf6890ff73/packages/httrack/store.c.patch"
+      "https://github.com/zrsx/termux-ng/blob/f5a4b77a24/packages/httrack/html-Makefile.in.patch",
+      "https://github.com/zrsx/termux-ng/blob/f5a4b77a24/packages/httrack/htsglobal.h.patch",
+      "https://github.com/zrsx/termux-ng/blob/f5a4b77a24/packages/httrack/src-Makefile.in.patch",
+      "https://github.com/zrsx/termux-ng/blob/f5a4b77a24/packages/httrack/src-proxy-proxytrack.h.patch",
+      "https://github.com/zrsx/termux-ng/blob/f5a4b77a24/packages/httrack/store.c.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/bf6890ff73/packages/httrack/html-Makefile.in.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/bf6890ff73/packages/httrack/htsglobal.h.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/bf6890ff73/packages/httrack/src-Makefile.in.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/bf6890ff73/packages/httrack/src-proxy-proxytrack.h.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/bf6890ff73/packages/httrack/store.c.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/f5a4b77a24/packages/httrack/html-Makefile.in.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/f5a4b77a24/packages/httrack/htsglobal.h.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/f5a4b77a24/packages/httrack/src-Makefile.in.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/f5a4b77a24/packages/httrack/src-proxy-proxytrack.h.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/f5a4b77a24/packages/httrack/store.c.patch"
     ],
     "auto_updated": true
   },
@@ -13957,7 +13957,7 @@
   },
   {
     "name": "jackett",
-    "version": "0.24.2031",
+    "version": "0.24.2033",
     "description": "API Support for your favorite torrent trackers",
     "homepage": "https://github.com/jackett/jackett",
     "depends": [
@@ -13965,11 +13965,11 @@
       "dotnet-host",
       "dotnet-runtime-9.0"
     ],
-    "srcurl": "https://github.com/Jackett/Jackett/archive/refs/tags/v0.24.2031.tar.gz",
+    "srcurl": "https://github.com/Jackett/Jackett/archive/refs/tags/v0.24.2033.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/7f631a7068/packages/jackett",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/7f631a7068/packages/jackett/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/7f631a7068/packages/jackett/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/82b553bcf8/packages/jackett",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/82b553bcf8/packages/jackett/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/82b553bcf8/packages/jackett/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -33227,7 +33227,7 @@
   },
   {
     "name": "profanity",
-    "version": "0.18.1",
+    "version": "0.18.2",
     "description": "Profanity is a console based XMPP client written in C using ncurses and libstrophe, inspired by Irssi",
     "homepage": "https://profanity-im.github.io",
     "depends": [
@@ -33246,16 +33246,16 @@
       "python",
       "readline"
     ],
-    "srcurl": "https://github.com/profanity-im/profanity/releases/download/0.18.1/profanity-0.18.1.tar.xz",
+    "srcurl": "https://github.com/profanity-im/profanity/releases/download/0.18.2/profanity-0.18.2.tar.xz",
     "maintainer": "Oliver Schmidhauser @Neo-Oli",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/16ff39e796/packages/profanity",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/16ff39e796/packages/profanity/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/16ff39e796/packages/profanity/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/9d2ed4880e/packages/profanity",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/9d2ed4880e/packages/profanity/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/9d2ed4880e/packages/profanity/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/16ff39e796/packages/profanity/cmd_funcs.c.patch"
+      "https://github.com/zrsx/termux-ng/blob/9d2ed4880e/packages/profanity/cmd_funcs.c.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/16ff39e796/packages/profanity/cmd_funcs.c.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/9d2ed4880e/packages/profanity/cmd_funcs.c.patch"
     ],
     "auto_updated": true
   },
@@ -36407,17 +36407,17 @@
   },
   {
     "name": "rust-analyzer",
-    "version": "2026-06-01",
+    "version": "2026-06-08",
     "description": "A Rust compiler front-end for IDEs",
     "homepage": "https://rust-analyzer.github.io/",
     "depends": [
       "rust-src"
     ],
-    "srcurl": "https://github.com/rust-lang/rust-analyzer/archive/refs/tags/2026-06-01.tar.gz",
+    "srcurl": "https://github.com/rust-lang/rust-analyzer/archive/refs/tags/2026-06-08.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/4fc85508b3/packages/rust-analyzer",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/4fc85508b3/packages/rust-analyzer/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/4fc85508b3/packages/rust-analyzer/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/0c23b438b9/packages/rust-analyzer",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/0c23b438b9/packages/rust-analyzer/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/0c23b438b9/packages/rust-analyzer/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
