@@ -940,7 +940,7 @@
   },
   {
     "name": "apache2",
-    "version": "1:2.4.67",
+    "version": "1:2.4.68",
     "description": "Apache Web Server",
     "homepage": "https://httpd.apache.org",
     "depends": [
@@ -954,20 +954,20 @@
       "pcre2",
       "zlib"
     ],
-    "srcurl": "https://downloads.apache.org/httpd/httpd-2.4.67.tar.bz2",
+    "srcurl": "https://downloads.apache.org/httpd/httpd-2.4.68.tar.bz2",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/ac6d513e9e/packages/apache2",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/ac6d513e9e/packages/apache2/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/ac6d513e9e/packages/apache2/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/e8055da682/packages/apache2",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/e8055da682/packages/apache2/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/e8055da682/packages/apache2/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/ac6d513e9e/packages/apache2/build-instdso.sh.patch",
-      "https://github.com/zrsx/termux-ng/blob/ac6d513e9e/packages/apache2/configure.patch",
-      "https://github.com/zrsx/termux-ng/blob/ac6d513e9e/packages/apache2/libdummy.patch"
+      "https://github.com/zrsx/termux-ng/blob/e8055da682/packages/apache2/build-instdso.sh.patch",
+      "https://github.com/zrsx/termux-ng/blob/e8055da682/packages/apache2/configure.patch",
+      "https://github.com/zrsx/termux-ng/blob/e8055da682/packages/apache2/libdummy.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/ac6d513e9e/packages/apache2/build-instdso.sh.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/ac6d513e9e/packages/apache2/configure.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/ac6d513e9e/packages/apache2/libdummy.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/e8055da682/packages/apache2/build-instdso.sh.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/e8055da682/packages/apache2/configure.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/e8055da682/packages/apache2/libdummy.patch"
     ],
     "auto_updated": true
   },
