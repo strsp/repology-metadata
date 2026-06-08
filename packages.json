@@ -12949,17 +12949,17 @@
   },
   {
     "name": "hugo",
-    "version": "0.162.1",
+    "version": "0.163.0",
     "description": "A fast and flexible static site generator",
     "homepage": "https://gohugo.io/",
     "depends": [
       "libc++"
     ],
-    "srcurl": "https://github.com/gohugoio/hugo/archive/refs/tags/v0.162.1.tar.gz",
+    "srcurl": "https://github.com/gohugoio/hugo/archive/refs/tags/v0.163.0.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/d59d798b7e/packages/hugo",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/d59d798b7e/packages/hugo/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/d59d798b7e/packages/hugo/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/b023b8c33f/packages/hugo",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/b023b8c33f/packages/hugo/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/b023b8c33f/packages/hugo/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -28158,23 +28158,23 @@
   },
   {
     "name": "navidrome",
-    "version": "0.61.2",
+    "version": "0.62.0",
     "description": "Modern Music Server and Streamer compatible with Subsonic/Airsonic",
     "homepage": "https://www.navidrome.org/",
     "depends": [
       "taglib",
       "ffmpeg"
     ],
-    "srcurl": "https://github.com/navidrome/navidrome/archive/refs/tags/v0.61.2.tar.gz",
+    "srcurl": "https://github.com/navidrome/navidrome/archive/refs/tags/v0.62.0.tar.gz",
     "maintainer": "2096779623 <admin@utermux.dev>",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/aafdc2eaba/packages/navidrome",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/aafdc2eaba/packages/navidrome/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/aafdc2eaba/packages/navidrome/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/7754b579d5/packages/navidrome",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/7754b579d5/packages/navidrome/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/7754b579d5/packages/navidrome/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/aafdc2eaba/packages/navidrome/prepend-prefix.patch"
+      "https://github.com/zrsx/termux-ng/blob/7754b579d5/packages/navidrome/prepend-prefix.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/aafdc2eaba/packages/navidrome/prepend-prefix.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/7754b579d5/packages/navidrome/prepend-prefix.patch"
     ],
     "auto_updated": true
   },
@@ -31251,15 +31251,15 @@
   },
   {
     "name": "oxlint",
-    "version": "1.68.0",
+    "version": "1.69.0",
     "description": "Oxc JavaScript linter",
     "homepage": "https://oxc.rs/",
     "depends": [],
-    "srcurl": "https://github.com/oxc-project/oxc/archive/refs/tags/oxlint_v1.68.0.tar.gz",
+    "srcurl": "https://github.com/oxc-project/oxc/archive/refs/tags/oxlint_v1.69.0.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/5133277883/packages/oxlint",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/5133277883/packages/oxlint/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/5133277883/packages/oxlint/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/358e339705/packages/oxlint",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/358e339705/packages/oxlint/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/358e339705/packages/oxlint/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -35140,15 +35140,15 @@
   },
   {
     "name": "railway-cli",
-    "version": "5.5.0",
+    "version": "5.6.0",
     "description": "This is the command line interface for Railway",
     "homepage": "https://railway.app",
     "depends": [],
-    "srcurl": "https://github.com/railwayapp/cli/archive/refs/tags/v5.5.0.tar.gz",
+    "srcurl": "https://github.com/railwayapp/cli/archive/refs/tags/v5.6.0.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/1514b5938f/packages/railway-cli",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/1514b5938f/packages/railway-cli/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/1514b5938f/packages/railway-cli/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/123695ada7/packages/railway-cli",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/123695ada7/packages/railway-cli/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/123695ada7/packages/railway-cli/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -42683,22 +42683,22 @@
   },
   {
     "name": "upx",
-    "version": "5.1.1",
+    "version": "5.2.0",
     "description": "the Ultimate Packer for eXecutables",
     "homepage": "https://upx.github.io/",
     "depends": [
       "libc++"
     ],
-    "srcurl": "https://github.com/upx/upx/releases/download/v5.1.1/upx-5.1.1-src.tar.xz",
+    "srcurl": "https://github.com/upx/upx/releases/download/v5.2.0/upx-5.2.0-src.tar.xz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/66f256457f/packages/upx",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/66f256457f/packages/upx/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/66f256457f/packages/upx/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/9341f13f41/packages/upx",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/9341f13f41/packages/upx/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/9341f13f41/packages/upx/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/66f256457f/packages/upx/src-util-snprintf.patch"
+      "https://github.com/zrsx/termux-ng/blob/9341f13f41/packages/upx/src-util-snprintf.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/66f256457f/packages/upx/src-util-snprintf.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/9341f13f41/packages/upx/src-util-snprintf.patch"
     ],
     "auto_updated": true
   },
@@ -45596,15 +45596,15 @@
   },
   {
     "name": "zk",
-    "version": "0.15.4",
+    "version": "0.15.5",
     "description": "A plain text note-taking assistant",
     "homepage": "https://zk-org.github.io/zk/",
     "depends": [],
-    "srcurl": "https://github.com/zk-org/zk/archive/refs/tags/v0.15.4.tar.gz",
+    "srcurl": "https://github.com/zk-org/zk/archive/refs/tags/v0.15.5.tar.gz",
     "maintainer": "@kirasok",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/2f229a759a/packages/zk",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/2f229a759a/packages/zk/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/2f229a759a/packages/zk/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/71fee8bfa9/packages/zk",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/71fee8bfa9/packages/zk/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/71fee8bfa9/packages/zk/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -66797,22 +66797,22 @@
   },
   {
     "name": "sdl2-compat",
-    "version": "2.32.68",
+    "version": "2.32.70",
     "description": "Simple DirectMedia Layer (SDL) sdl2-compat",
     "homepage": "https://www.libsdl.org",
     "depends": [
       "sdl3"
     ],
-    "srcurl": "https://github.com/libsdl-org/sdl2-compat/releases/download/release-2.32.68/sdl2-compat-2.32.68.tar.gz",
+    "srcurl": "https://github.com/libsdl-org/sdl2-compat/releases/download/release-2.32.70/sdl2-compat-2.32.70.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/8aab529146/x11-packages/sdl2-compat",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/8aab529146/x11-packages/sdl2-compat/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/8aab529146/x11-packages/sdl2-compat/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/9b430e4e57/x11-packages/sdl2-compat",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/9b430e4e57/x11-packages/sdl2-compat/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/9b430e4e57/x11-packages/sdl2-compat/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/8aab529146/x11-packages/sdl2-compat/do-not-version-library-filename.patch"
+      "https://github.com/zrsx/termux-ng/blob/9b430e4e57/x11-packages/sdl2-compat/do-not-version-library-filename.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/8aab529146/x11-packages/sdl2-compat/do-not-version-library-filename.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/9b430e4e57/x11-packages/sdl2-compat/do-not-version-library-filename.patch"
     ],
     "auto_updated": true
   },
@@ -69716,7 +69716,7 @@
   },
   {
     "name": "xdg-desktop-portal",
-    "version": "1.20.4",
+    "version": "1.22.0",
     "description": "Desktop integration portals for sandboxed apps",
     "homepage": "https://flatpak.github.io/xdg-desktop-portal/",
     "depends": [
@@ -69728,20 +69728,20 @@
       "libc++",
       "pipewire"
     ],
-    "srcurl": "https://github.com/flatpak/xdg-desktop-portal/releases/download/1.20.4/xdg-desktop-portal-1.20.4.tar.xz",
+    "srcurl": "https://github.com/flatpak/xdg-desktop-portal/releases/download/1.22.0/xdg-desktop-portal-1.22.0.tar.xz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/abcc383704/x11-packages/xdg-desktop-portal",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/abcc383704/x11-packages/xdg-desktop-portal/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/abcc383704/x11-packages/xdg-desktop-portal/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/a5d2b3f003/x11-packages/xdg-desktop-portal",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/a5d2b3f003/x11-packages/xdg-desktop-portal/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/a5d2b3f003/x11-packages/xdg-desktop-portal/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/abcc383704/x11-packages/xdg-desktop-portal/0001-fill-memfd.patch",
-      "https://github.com/zrsx/termux-ng/blob/abcc383704/x11-packages/xdg-desktop-portal/0002-disable-fuse.patch",
-      "https://github.com/zrsx/termux-ng/blob/abcc383704/x11-packages/xdg-desktop-portal/0003-add-strdupa.patch"
+      "https://github.com/zrsx/termux-ng/blob/a5d2b3f003/x11-packages/xdg-desktop-portal/0001-fill-memfd.patch",
+      "https://github.com/zrsx/termux-ng/blob/a5d2b3f003/x11-packages/xdg-desktop-portal/0002-disable-fuse.patch",
+      "https://github.com/zrsx/termux-ng/blob/a5d2b3f003/x11-packages/xdg-desktop-portal/0003-add-strdupa.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/abcc383704/x11-packages/xdg-desktop-portal/0001-fill-memfd.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/abcc383704/x11-packages/xdg-desktop-portal/0002-disable-fuse.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/abcc383704/x11-packages/xdg-desktop-portal/0003-add-strdupa.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/a5d2b3f003/x11-packages/xdg-desktop-portal/0001-fill-memfd.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/a5d2b3f003/x11-packages/xdg-desktop-portal/0002-disable-fuse.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/a5d2b3f003/x11-packages/xdg-desktop-portal/0003-add-strdupa.patch"
     ],
     "auto_updated": true
   },
