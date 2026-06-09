@@ -4456,20 +4456,20 @@
   },
   {
     "name": "cloudflared",
-    "version": "2026.5.2",
+    "version": "2026.6.0",
     "description": "A tunneling daemon that proxies traffic from the Cloudflare network to your origins",
     "homepage": "https://github.com/cloudflare/cloudflared",
     "depends": [],
-    "srcurl": "https://github.com/cloudflare/cloudflared/archive/refs/tags/2026.5.2.tar.gz",
+    "srcurl": "https://github.com/cloudflare/cloudflared/archive/refs/tags/2026.6.0.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/4c33fc2fcc/packages/cloudflared",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/4c33fc2fcc/packages/cloudflared/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/4c33fc2fcc/packages/cloudflared/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/b7965fbc7c/packages/cloudflared",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/b7965fbc7c/packages/cloudflared/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/b7965fbc7c/packages/cloudflared/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/4c33fc2fcc/packages/cloudflared/0001-disable-install-service.patch"
+      "https://github.com/zrsx/termux-ng/blob/b7965fbc7c/packages/cloudflared/0001-disable-install-service.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/4c33fc2fcc/packages/cloudflared/0001-disable-install-service.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/b7965fbc7c/packages/cloudflared/0001-disable-install-service.patch"
     ],
     "auto_updated": true
   },
@@ -4898,17 +4898,17 @@
   },
   {
     "name": "cookcli",
-    "version": "0.30.0",
+    "version": "0.31.0",
     "description": "A suite of tools to create shopping lists and maintain food recipes",
     "homepage": "https://cooklang.org",
     "depends": [
       "openssl"
     ],
-    "srcurl": "https://github.com/cooklang/cookcli/archive/refs/tags/v0.30.0.tar.gz",
+    "srcurl": "https://github.com/cooklang/cookcli/archive/refs/tags/v0.31.0.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/25278aa112/packages/cookcli",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/25278aa112/packages/cookcli/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/25278aa112/packages/cookcli/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/dc332cdb20/packages/cookcli",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/dc332cdb20/packages/cookcli/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/dc332cdb20/packages/cookcli/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -5677,26 +5677,26 @@
   },
   {
     "name": "dart",
-    "version": "3.12.1",
+    "version": "3.12.2",
     "description": "Dart is a general-purpose programming language",
     "homepage": "https://dart.dev/",
     "depends": [],
-    "srcurl": "https://github.com/dart-lang/sdk/archive/refs/tags/3.12.1.tar.gz",
+    "srcurl": "https://github.com/dart-lang/sdk/archive/refs/tags/3.12.2.tar.gz",
     "maintainer": "@0x1ACA663",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/d4bd8dcd45/packages/dart",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/d4bd8dcd45/packages/dart/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/d4bd8dcd45/packages/dart/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/242bc69de4/packages/dart",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/242bc69de4/packages/dart/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/242bc69de4/packages/dart/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/d4bd8dcd45/packages/dart/sdk-pkg-_fe_analyzer_shared-lib-src-util-colors.dart.patch",
-      "https://github.com/zrsx/termux-ng/blob/d4bd8dcd45/packages/dart/sdk-runtime-bin-directory_linux.cc.patch",
-      "https://github.com/zrsx/termux-ng/blob/d4bd8dcd45/packages/dart/sdk-runtime-vm-os_android.cc.patch",
-      "https://github.com/zrsx/termux-ng/blob/d4bd8dcd45/packages/dart/sdk-sdk-lib-_internal-vm-bin-process_patch.dart.patch"
+      "https://github.com/zrsx/termux-ng/blob/242bc69de4/packages/dart/sdk-pkg-_fe_analyzer_shared-lib-src-util-colors.dart.patch",
+      "https://github.com/zrsx/termux-ng/blob/242bc69de4/packages/dart/sdk-runtime-bin-directory_linux.cc.patch",
+      "https://github.com/zrsx/termux-ng/blob/242bc69de4/packages/dart/sdk-runtime-vm-os_android.cc.patch",
+      "https://github.com/zrsx/termux-ng/blob/242bc69de4/packages/dart/sdk-sdk-lib-_internal-vm-bin-process_patch.dart.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/d4bd8dcd45/packages/dart/sdk-pkg-_fe_analyzer_shared-lib-src-util-colors.dart.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/d4bd8dcd45/packages/dart/sdk-runtime-bin-directory_linux.cc.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/d4bd8dcd45/packages/dart/sdk-runtime-vm-os_android.cc.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/d4bd8dcd45/packages/dart/sdk-sdk-lib-_internal-vm-bin-process_patch.dart.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/242bc69de4/packages/dart/sdk-pkg-_fe_analyzer_shared-lib-src-util-colors.dart.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/242bc69de4/packages/dart/sdk-runtime-bin-directory_linux.cc.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/242bc69de4/packages/dart/sdk-runtime-vm-os_android.cc.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/242bc69de4/packages/dart/sdk-sdk-lib-_internal-vm-bin-process_patch.dart.patch"
     ],
     "auto_updated": true
   },
@@ -13957,7 +13957,7 @@
   },
   {
     "name": "jackett",
-    "version": "0.24.2033",
+    "version": "0.24.2040",
     "description": "API Support for your favorite torrent trackers",
     "homepage": "https://github.com/jackett/jackett",
     "depends": [
@@ -13965,11 +13965,11 @@
       "dotnet-host",
       "dotnet-runtime-9.0"
     ],
-    "srcurl": "https://github.com/Jackett/Jackett/archive/refs/tags/v0.24.2033.tar.gz",
+    "srcurl": "https://github.com/Jackett/Jackett/archive/refs/tags/v0.24.2040.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/82b553bcf8/packages/jackett",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/82b553bcf8/packages/jackett/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/82b553bcf8/packages/jackett/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/c37ba18c4f/packages/jackett",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/c37ba18c4f/packages/jackett/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/c37ba18c4f/packages/jackett/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -19403,15 +19403,15 @@
   },
   {
     "name": "libmsgpack",
-    "version": "7.0.0",
+    "version": "7.0.1",
     "description": "MessagePack implementation for C",
     "homepage": "https://github.com/msgpack/msgpack-c/",
     "depends": [],
-    "srcurl": "https://github.com/msgpack/msgpack-c/releases/download/c-7.0.0/msgpack-c-7.0.0.tar.gz",
+    "srcurl": "https://github.com/msgpack/msgpack-c/releases/download/c-7.0.1/msgpack-c-7.0.1.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/3e79b0ad8e/packages/libmsgpack",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/3e79b0ad8e/packages/libmsgpack/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/3e79b0ad8e/packages/libmsgpack/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/a341f99908/packages/libmsgpack",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/a341f99908/packages/libmsgpack/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/a341f99908/packages/libmsgpack/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -24088,7 +24088,7 @@
   },
   {
     "name": "lilv",
-    "version": "0.26.4",
+    "version": "0.28.0",
     "description": "A C library to make the use of LV2 plugins as simple as possible for applications",
     "homepage": "https://drobilla.net/software/lilv.html",
     "depends": [
@@ -24099,16 +24099,16 @@
       "sord",
       "sratom"
     ],
-    "srcurl": "https://download.drobilla.net/lilv-0.26.4.tar.xz",
+    "srcurl": "https://download.drobilla.net/lilv-0.28.0.tar.xz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/576cddafff/packages/lilv",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/576cddafff/packages/lilv/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/576cddafff/packages/lilv/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/3c387ed206/packages/lilv",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/3c387ed206/packages/lilv/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/3c387ed206/packages/lilv/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/576cddafff/packages/lilv/meson.build.patch"
+      "https://github.com/zrsx/termux-ng/blob/3c387ed206/packages/lilv/meson.build.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/576cddafff/packages/lilv/meson.build.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/3c387ed206/packages/lilv/meson.build.patch"
     ],
     "auto_updated": true
   },
@@ -36935,15 +36935,15 @@
   },
   {
     "name": "seanime",
-    "version": "3.8.4",
+    "version": "3.8.5",
     "description": "Self-hosted anime and manga server for sea rovers.",
     "homepage": "https://github.com/5rahim/seanime",
     "depends": [],
-    "srcurl": "https://github.com/5rahim/seanime/archive/refs/tags/v3.8.4.tar.gz",
+    "srcurl": "https://github.com/5rahim/seanime/archive/refs/tags/v3.8.5.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/dfcfa726d1/packages/seanime",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/dfcfa726d1/packages/seanime/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/dfcfa726d1/packages/seanime/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/159777874e/packages/seanime",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/159777874e/packages/seanime/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/159777874e/packages/seanime/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -37077,15 +37077,15 @@
   },
   {
     "name": "serd",
-    "version": "0.32.8",
+    "version": "0.32.10",
     "description": "A lightweight C library for RDF syntax",
     "homepage": "https://drobilla.net/software/serd.html",
     "depends": [],
-    "srcurl": "https://download.drobilla.net/serd-0.32.8.tar.xz",
+    "srcurl": "https://download.drobilla.net/serd-0.32.10.tar.xz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/2512c9667b/packages/serd",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/2512c9667b/packages/serd/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/2512c9667b/packages/serd/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/2e25f21dab/packages/serd",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/2e25f21dab/packages/serd/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/2e25f21dab/packages/serd/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
