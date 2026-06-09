@@ -32954,7 +32954,7 @@
   },
   {
     "name": "postgis",
-    "version": "3.6.3",
+    "version": "3.6.4",
     "description": "Spatial database extender for PostgreSQL object-relational database",
     "homepage": "https://postgis.net",
     "depends": [
@@ -32969,11 +32969,11 @@
       "postgresql",
       "proj"
     ],
-    "srcurl": "https://download.osgeo.org/postgis/source/postgis-3.6.3.tar.gz",
+    "srcurl": "https://download.osgeo.org/postgis/source/postgis-3.6.4.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/6236300554/packages/postgis",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/6236300554/packages/postgis/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/6236300554/packages/postgis/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/14604309b9/packages/postgis",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/14604309b9/packages/postgis/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/14604309b9/packages/postgis/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -35140,15 +35140,15 @@
   },
   {
     "name": "railway-cli",
-    "version": "5.6.1",
+    "version": "5.6.2",
     "description": "This is the command line interface for Railway",
     "homepage": "https://railway.app",
     "depends": [],
-    "srcurl": "https://github.com/railwayapp/cli/archive/refs/tags/v5.6.1.tar.gz",
+    "srcurl": "https://github.com/railwayapp/cli/archive/refs/tags/v5.6.2.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/1fe1114fe2/packages/railway-cli",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/1fe1114fe2/packages/railway-cli/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/1fe1114fe2/packages/railway-cli/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/f44ca2c512/packages/railway-cli",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/f44ca2c512/packages/railway-cli/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/f44ca2c512/packages/railway-cli/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -42166,20 +42166,20 @@
   },
   {
     "name": "ty",
-    "version": "0.0.44",
+    "version": "0.0.46",
     "description": "An extremely fast Python type checker and language server, written in Rust",
     "homepage": "https://github.com/astral-sh/ty",
     "depends": [],
-    "srcurl": "https://github.com/astral-sh/ty/releases/download/0.0.44/source.tar.gz",
+    "srcurl": "https://github.com/astral-sh/ty/releases/download/0.0.46/source.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/1124e97b21/packages/ty",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/1124e97b21/packages/ty/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/1124e97b21/packages/ty/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/6e02dffb8c/packages/ty",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/6e02dffb8c/packages/ty/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/6e02dffb8c/packages/ty/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/1124e97b21/packages/ty/rust-cc-do-not-concatenate-all-the-CFLAGS.diff"
+      "https://github.com/zrsx/termux-ng/blob/6e02dffb8c/packages/ty/rust-cc-do-not-concatenate-all-the-CFLAGS.diff"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/1124e97b21/packages/ty/rust-cc-do-not-concatenate-all-the-CFLAGS.diff"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/6e02dffb8c/packages/ty/rust-cc-do-not-concatenate-all-the-CFLAGS.diff"
     ],
     "auto_updated": true
   },
