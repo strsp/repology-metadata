@@ -7548,18 +7548,18 @@
   },
   {
     "name": "elixir",
-    "version": "1.20.0",
+    "version": "1.20.1",
     "description": "Elixir is a dynamic, functional language designed for building scalable and maintainable applications",
     "homepage": "https://elixir-lang.org/",
     "depends": [
       "dash",
       "erlang"
     ],
-    "srcurl": "https://github.com/elixir-lang/elixir/releases/download/v1.20.0/elixir-otp-29.zip",
+    "srcurl": "https://github.com/elixir-lang/elixir/releases/download/v1.20.1/elixir-otp-29.zip",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/6787cdde7c/packages/elixir",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/6787cdde7c/packages/elixir/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/6787cdde7c/packages/elixir/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/2ab3c23a2c/packages/elixir",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/2ab3c23a2c/packages/elixir/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/2ab3c23a2c/packages/elixir/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -9088,18 +9088,18 @@
   },
   {
     "name": "frei0r-plugins",
-    "version": "3.2.0",
+    "version": "3.2.1",
     "description": "Minimalistic plugin API for video effects",
     "homepage": "https://www.dyne.org/software/frei0r/",
     "depends": [
       "libc++",
       "libcairo"
     ],
-    "srcurl": "https://github.com/dyne/frei0r/archive/refs/tags/v3.2.0.tar.gz",
+    "srcurl": "https://github.com/dyne/frei0r/archive/refs/tags/v3.2.1.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/2360d6093e/packages/frei0r-plugins",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/2360d6093e/packages/frei0r-plugins/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/2360d6093e/packages/frei0r-plugins/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/65cecbd8aa/packages/frei0r-plugins",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/65cecbd8aa/packages/frei0r-plugins/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/65cecbd8aa/packages/frei0r-plugins/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -20448,32 +20448,32 @@
   },
   {
     "name": "libpluto",
-    "version": "0.12.2",
+    "version": "0.13.0",
     "description": "Shared library for the Pluto interpreter",
     "homepage": "https://plutolang.github.io/",
     "depends": [
       "libc++"
     ],
-    "srcurl": "https://github.com/PlutoLang/Pluto/archive/refs/tags/0.12.2.tar.gz",
+    "srcurl": "https://github.com/PlutoLang/Pluto/archive/refs/tags/0.13.0.tar.gz",
     "maintainer": "Komo @mbekkomo",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/d32e0b561c/packages/libpluto",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/d32e0b561c/packages/libpluto/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/d32e0b561c/packages/libpluto/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/24acb60b39/packages/libpluto",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/24acb60b39/packages/libpluto/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/24acb60b39/packages/libpluto/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/d32e0b561c/packages/libpluto/scripts-common.php.patch",
-      "https://github.com/zrsx/termux-ng/blob/d32e0b561c/packages/libpluto/scripts-link_pluto.php.patch",
-      "https://github.com/zrsx/termux-ng/blob/d32e0b561c/packages/libpluto/scripts-link_shared.php.patch",
-      "https://github.com/zrsx/termux-ng/blob/d32e0b561c/packages/libpluto/src-loslib.cpp.patch",
-      "https://github.com/zrsx/termux-ng/blob/d32e0b561c/packages/libpluto/src-luaconf.h.patch",
-      "https://github.com/zrsx/termux-ng/blob/d32e0b561c/packages/libpluto/src-vendor-Soup-build_common.php.patch"
+      "https://github.com/zrsx/termux-ng/blob/24acb60b39/packages/libpluto/scripts-common.php.patch",
+      "https://github.com/zrsx/termux-ng/blob/24acb60b39/packages/libpluto/scripts-link_pluto.php.patch",
+      "https://github.com/zrsx/termux-ng/blob/24acb60b39/packages/libpluto/scripts-link_shared.php.patch",
+      "https://github.com/zrsx/termux-ng/blob/24acb60b39/packages/libpluto/src-loslib.cpp.patch",
+      "https://github.com/zrsx/termux-ng/blob/24acb60b39/packages/libpluto/src-luaconf.h.patch",
+      "https://github.com/zrsx/termux-ng/blob/24acb60b39/packages/libpluto/src-vendor-Soup-build_common.php.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/d32e0b561c/packages/libpluto/scripts-common.php.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/d32e0b561c/packages/libpluto/scripts-link_pluto.php.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/d32e0b561c/packages/libpluto/scripts-link_shared.php.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/d32e0b561c/packages/libpluto/src-loslib.cpp.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/d32e0b561c/packages/libpluto/src-luaconf.h.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/d32e0b561c/packages/libpluto/src-vendor-Soup-build_common.php.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/24acb60b39/packages/libpluto/scripts-common.php.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/24acb60b39/packages/libpluto/scripts-link_pluto.php.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/24acb60b39/packages/libpluto/scripts-link_shared.php.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/24acb60b39/packages/libpluto/src-loslib.cpp.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/24acb60b39/packages/libpluto/src-luaconf.h.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/24acb60b39/packages/libpluto/src-vendor-Soup-build_common.php.patch"
     ],
     "auto_updated": true
   },
