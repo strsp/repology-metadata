@@ -3964,15 +3964,15 @@
   },
   {
     "name": "cgal",
-    "version": "6.1.1",
+    "version": "6.1.2",
     "description": "Computational Geometry Algorithms Library",
     "homepage": "https://www.cgal.org/",
     "depends": [],
-    "srcurl": "https://github.com/CGAL/cgal/releases/download/v6.1.1/CGAL-6.1.1.tar.xz",
+    "srcurl": "https://github.com/CGAL/cgal/releases/download/v6.1.2/CGAL-6.1.2.tar.xz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/c18f13cbeb/packages/cgal",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/c18f13cbeb/packages/cgal/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/c18f13cbeb/packages/cgal/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/9ec96bf829/packages/cgal",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/9ec96bf829/packages/cgal/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/9ec96bf829/packages/cgal/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -15125,18 +15125,18 @@
   },
   {
     "name": "lesspipe",
-    "version": "2.26",
+    "version": "2.27",
     "description": "An input filter for the pager less",
     "homepage": "https://lesspipe.org/",
     "depends": [
       "file",
       "less"
     ],
-    "srcurl": "https://github.com/wofr06/lesspipe/archive/refs/tags/v2.26.tar.gz",
+    "srcurl": "https://github.com/wofr06/lesspipe/archive/refs/tags/v2.27.tar.gz",
     "maintainer": "Joshua Kahn <tom@termux.dev>",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/f5ab5e31d0/packages/lesspipe",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/f5ab5e31d0/packages/lesspipe/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/f5ab5e31d0/packages/lesspipe/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/045cb56e4e/packages/lesspipe",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/045cb56e4e/packages/lesspipe/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/045cb56e4e/packages/lesspipe/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -15828,7 +15828,7 @@
   },
   {
     "name": "libblosc2",
-    "version": "3.1.2",
+    "version": "3.1.3",
     "description": "A blocking, shuffling and loss-less compression library",
     "homepage": "https://www.blosc.org",
     "depends": [
@@ -15836,16 +15836,16 @@
       "zlib",
       "zstd"
     ],
-    "srcurl": "https://github.com/Blosc/c-blosc2/archive/refs/tags/v3.1.2.tar.gz",
+    "srcurl": "https://github.com/Blosc/c-blosc2/archive/refs/tags/v3.1.3.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/865069e10f/packages/libblosc2",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/865069e10f/packages/libblosc2/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/865069e10f/packages/libblosc2/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/13d25f4cd0/packages/libblosc2",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/13d25f4cd0/packages/libblosc2/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/13d25f4cd0/packages/libblosc2/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/865069e10f/packages/libblosc2/0001-fix-posix-memalign.patch"
+      "https://github.com/zrsx/termux-ng/blob/13d25f4cd0/packages/libblosc2/0001-fix-posix-memalign.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/865069e10f/packages/libblosc2/0001-fix-posix-memalign.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/13d25f4cd0/packages/libblosc2/0001-fix-posix-memalign.patch"
     ],
     "auto_updated": true
   },
@@ -24251,7 +24251,7 @@
   },
   {
     "name": "llama-cpp",
-    "version": "b9360",
+    "version": "b9590",
     "description": "LLM inference in C/C++",
     "homepage": "https://github.com/ggml-org/llama.cpp",
     "depends": [
@@ -24259,18 +24259,18 @@
       "libc++",
       "libcurl"
     ],
-    "srcurl": "https://github.com/ggml-org/llama.cpp/archive/refs/tags/b9360.tar.gz",
+    "srcurl": "https://github.com/ggml-org/llama.cpp/archive/refs/tags/b9590.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/b564fe4122/packages/llama-cpp",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/b564fe4122/packages/llama-cpp/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/b564fe4122/packages/llama-cpp/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/acf724d1c8/packages/llama-cpp",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/acf724d1c8/packages/llama-cpp/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/acf724d1c8/packages/llama-cpp/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/b564fe4122/packages/llama-cpp/0001-search-dirs.patch",
-      "https://github.com/zrsx/termux-ng/blob/b564fe4122/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
+      "https://github.com/zrsx/termux-ng/blob/acf724d1c8/packages/llama-cpp/0001-search-dirs.patch",
+      "https://github.com/zrsx/termux-ng/blob/acf724d1c8/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/b564fe4122/packages/llama-cpp/0001-search-dirs.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/b564fe4122/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/acf724d1c8/packages/llama-cpp/0001-search-dirs.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/acf724d1c8/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
     ],
     "auto_updated": true
   },
@@ -29830,20 +29830,20 @@
   },
   {
     "name": "oh-my-posh",
-    "version": "29.15.0",
+    "version": "29.15.1",
     "description": "A prompt theme engine for any shell.",
     "homepage": "https://ohmyposh.dev",
     "depends": [],
-    "srcurl": "https://github.com/JanDeDobbeleer/oh-my-posh/archive/refs/tags/v29.15.0.tar.gz",
+    "srcurl": "https://github.com/JanDeDobbeleer/oh-my-posh/archive/refs/tags/v29.15.1.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/8ed1c84984/packages/oh-my-posh",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/8ed1c84984/packages/oh-my-posh/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/8ed1c84984/packages/oh-my-posh/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/cf1abb9013/packages/oh-my-posh",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/cf1abb9013/packages/oh-my-posh/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/cf1abb9013/packages/oh-my-posh/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/8ed1c84984/packages/oh-my-posh/issue-26712.patch"
+      "https://github.com/zrsx/termux-ng/blob/cf1abb9013/packages/oh-my-posh/issue-26712.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/8ed1c84984/packages/oh-my-posh/issue-26712.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/cf1abb9013/packages/oh-my-posh/issue-26712.patch"
     ],
     "auto_updated": true
   },
@@ -38865,15 +38865,15 @@
   },
   {
     "name": "storj-uplink",
-    "version": "1.155.5",
+    "version": "1.155.7",
     "description": "Storj DCS Uplink CLI",
     "homepage": "https://www.storj.io/integrations/uplink-cli",
     "depends": [],
-    "srcurl": "https://github.com/storj/storj/archive/refs/tags/v1.155.5.tar.gz",
+    "srcurl": "https://github.com/storj/storj/archive/refs/tags/v1.155.7.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/08bda501ee/packages/storj-uplink",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/08bda501ee/packages/storj-uplink/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/08bda501ee/packages/storj-uplink/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/398907d8a6/packages/storj-uplink",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/398907d8a6/packages/storj-uplink/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/398907d8a6/packages/storj-uplink/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -42166,20 +42166,20 @@
   },
   {
     "name": "ty",
-    "version": "0.0.46",
+    "version": "0.0.47",
     "description": "An extremely fast Python type checker and language server, written in Rust",
     "homepage": "https://github.com/astral-sh/ty",
     "depends": [],
-    "srcurl": "https://github.com/astral-sh/ty/releases/download/0.0.46/source.tar.gz",
+    "srcurl": "https://github.com/astral-sh/ty/releases/download/0.0.47/source.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/6e02dffb8c/packages/ty",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/6e02dffb8c/packages/ty/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/6e02dffb8c/packages/ty/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/352669d95a/packages/ty",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/352669d95a/packages/ty/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/352669d95a/packages/ty/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/6e02dffb8c/packages/ty/rust-cc-do-not-concatenate-all-the-CFLAGS.diff"
+      "https://github.com/zrsx/termux-ng/blob/352669d95a/packages/ty/rust-cc-do-not-concatenate-all-the-CFLAGS.diff"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/6e02dffb8c/packages/ty/rust-cc-do-not-concatenate-all-the-CFLAGS.diff"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/352669d95a/packages/ty/rust-cc-do-not-concatenate-all-the-CFLAGS.diff"
     ],
     "auto_updated": true
   },
@@ -46648,23 +46648,23 @@
   },
   {
     "name": "libccid",
-    "version": "1.8.0",
+    "version": "1.8.1",
     "description": "A generic USB CCID (Chip/Smart Card Interface Devices) driver and ICCD (Integrated Circuit(s) Card Devices).",
     "homepage": "https://ccid.apdu.fr/",
     "depends": [
       "libusb",
       "pcscd"
     ],
-    "srcurl": "https://github.com/LudovicRousseau/CCID/archive/refs/tags/1.8.0.tar.gz",
+    "srcurl": "https://github.com/LudovicRousseau/CCID/archive/refs/tags/1.8.1.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/6025344cfa/root-packages/libccid",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/6025344cfa/root-packages/libccid/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/6025344cfa/root-packages/libccid/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/682fe35d1c/root-packages/libccid",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/682fe35d1c/root-packages/libccid/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/682fe35d1c/root-packages/libccid/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/6025344cfa/root-packages/libccid/issetugid.patch"
+      "https://github.com/zrsx/termux-ng/blob/682fe35d1c/root-packages/libccid/issetugid.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/6025344cfa/root-packages/libccid/issetugid.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/682fe35d1c/root-packages/libccid/issetugid.patch"
     ],
     "auto_updated": true
   },
@@ -58194,7 +58194,7 @@
   },
   {
     "name": "libayatana-appindicator",
-    "version": "0.5.94",
+    "version": "0.6.0",
     "description": "Ayatana Application Indicators",
     "homepage": "https://github.com/AyatanaIndicators/libayatana-appindicator",
     "depends": [
@@ -58204,11 +58204,11 @@
       "libdbusmenu",
       "libdbusmenu-gtk3"
     ],
-    "srcurl": "https://github.com/AyatanaIndicators/libayatana-appindicator/archive/refs/tags/0.5.94.tar.gz",
+    "srcurl": "https://github.com/AyatanaIndicators/libayatana-appindicator/archive/refs/tags/0.6.0.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/39e29b78d8/x11-packages/libayatana-appindicator",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/39e29b78d8/x11-packages/libayatana-appindicator/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/39e29b78d8/x11-packages/libayatana-appindicator/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/8b133c7a98/x11-packages/libayatana-appindicator",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/8b133c7a98/x11-packages/libayatana-appindicator/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/8b133c7a98/x11-packages/libayatana-appindicator/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
