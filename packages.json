@@ -1991,7 +1991,7 @@
   },
   {
     "name": "awscli",
-    "version": "2.35.1",
+    "version": "2.35.2",
     "description": "Universal Command Line Interface for Amazon Web Services",
     "homepage": "https://aws.amazon.com/cli",
     "depends": [
@@ -1999,18 +1999,18 @@
       "libandroid-support",
       "mandoc"
     ],
-    "srcurl": "https://github.com/aws/aws-cli/archive/refs/tags/2.35.1.tar.gz",
+    "srcurl": "https://github.com/aws/aws-cli/archive/refs/tags/2.35.2.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/291da125a1/packages/awscli",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/291da125a1/packages/awscli/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/291da125a1/packages/awscli/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/2bdf15f029/packages/awscli",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/2bdf15f029/packages/awscli/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/2bdf15f029/packages/awscli/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/291da125a1/packages/awscli/remove-ios-support.patch",
-      "https://github.com/zrsx/termux-ng/blob/291da125a1/packages/awscli/remove-no-build-isolation.patch"
+      "https://github.com/zrsx/termux-ng/blob/2bdf15f029/packages/awscli/remove-ios-support.patch",
+      "https://github.com/zrsx/termux-ng/blob/2bdf15f029/packages/awscli/remove-no-build-isolation.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/291da125a1/packages/awscli/remove-ios-support.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/291da125a1/packages/awscli/remove-no-build-isolation.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/2bdf15f029/packages/awscli/remove-ios-support.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/2bdf15f029/packages/awscli/remove-no-build-isolation.patch"
     ],
     "auto_updated": true
   },
@@ -9106,30 +9106,30 @@
   },
   {
     "name": "fresh-editor",
-    "version": "0.3.12",
+    "version": "0.4.0",
     "description": "Text editor for your terminal: easy, powerful and fast",
     "homepage": "https://getfresh.dev/",
     "depends": [],
-    "srcurl": "https://github.com/sinelaw/fresh/releases/download/v0.3.12/fresh-editor-0.3.12-source.tar.gz",
+    "srcurl": "https://github.com/sinelaw/fresh/releases/download/v0.4.0/fresh-editor-0.4.0-source.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/2706bba1e0/packages/fresh-editor",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/2706bba1e0/packages/fresh-editor/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/2706bba1e0/packages/fresh-editor/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/7757f7863c/packages/fresh-editor",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/7757f7863c/packages/fresh-editor/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/7757f7863c/packages/fresh-editor/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/2706bba1e0/packages/fresh-editor/enable-rquickjs-bindgen.patch",
-      "https://github.com/zrsx/termux-ng/blob/2706bba1e0/packages/fresh-editor/no-AT_EACCESS.patch",
-      "https://github.com/zrsx/termux-ng/blob/2706bba1e0/packages/fresh-editor/rust-cc-do-not-concatenate-all-the-CFLAGS.diff",
-      "https://github.com/zrsx/termux-ng/blob/2706bba1e0/packages/fresh-editor/smithay-client-toolkit-no-shm.diff",
-      "https://github.com/zrsx/termux-ng/blob/2706bba1e0/packages/fresh-editor/trash-rs-implement-get_mount_points-android.diff",
-      "https://github.com/zrsx/termux-ng/blob/2706bba1e0/packages/fresh-editor/wayland-cursor-no-shm.diff"
+      "https://github.com/zrsx/termux-ng/blob/7757f7863c/packages/fresh-editor/enable-rquickjs-bindgen.patch",
+      "https://github.com/zrsx/termux-ng/blob/7757f7863c/packages/fresh-editor/no-AT_EACCESS.patch",
+      "https://github.com/zrsx/termux-ng/blob/7757f7863c/packages/fresh-editor/rust-cc-do-not-concatenate-all-the-CFLAGS.diff",
+      "https://github.com/zrsx/termux-ng/blob/7757f7863c/packages/fresh-editor/smithay-client-toolkit-no-shm.diff",
+      "https://github.com/zrsx/termux-ng/blob/7757f7863c/packages/fresh-editor/trash-rs-implement-get_mount_points-android.diff",
+      "https://github.com/zrsx/termux-ng/blob/7757f7863c/packages/fresh-editor/wayland-cursor-no-shm.diff"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/2706bba1e0/packages/fresh-editor/enable-rquickjs-bindgen.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/2706bba1e0/packages/fresh-editor/no-AT_EACCESS.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/2706bba1e0/packages/fresh-editor/rust-cc-do-not-concatenate-all-the-CFLAGS.diff",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/2706bba1e0/packages/fresh-editor/smithay-client-toolkit-no-shm.diff",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/2706bba1e0/packages/fresh-editor/trash-rs-implement-get_mount_points-android.diff",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/2706bba1e0/packages/fresh-editor/wayland-cursor-no-shm.diff"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/7757f7863c/packages/fresh-editor/enable-rquickjs-bindgen.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/7757f7863c/packages/fresh-editor/no-AT_EACCESS.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/7757f7863c/packages/fresh-editor/rust-cc-do-not-concatenate-all-the-CFLAGS.diff",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/7757f7863c/packages/fresh-editor/smithay-client-toolkit-no-shm.diff",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/7757f7863c/packages/fresh-editor/trash-rs-implement-get_mount_points-android.diff",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/7757f7863c/packages/fresh-editor/wayland-cursor-no-shm.diff"
     ],
     "auto_updated": true
   },
