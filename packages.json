@@ -7793,7 +7793,7 @@
   },
   {
     "name": "erlang",
-    "version": "29.0.1",
+    "version": "29.0.2",
     "description": "General-purpose concurrent functional programming language",
     "homepage": "https://www.erlang.org/",
     "depends": [
@@ -7802,30 +7802,30 @@
       "ncurses",
       "zlib"
     ],
-    "srcurl": "https://github.com/erlang/otp/archive/refs/tags/OTP-29.0.1.tar.gz",
+    "srcurl": "https://github.com/erlang/otp/archive/refs/tags/OTP-29.0.2.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/309ec3e279/packages/erlang",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/309ec3e279/packages/erlang/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/309ec3e279/packages/erlang/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/e244f078f6/packages/erlang",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/e244f078f6/packages/erlang/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/e244f078f6/packages/erlang/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/309ec3e279/packages/erlang/auto-download-ex_doc-noninteractively.patch.beforehostbuild",
-      "https://github.com/zrsx/termux-ng/blob/309ec3e279/packages/erlang/disable-docs-of-disabled-features.patch.beforehostbuild",
-      "https://github.com/zrsx/termux-ng/blob/309ec3e279/packages/erlang/do-not-set-manpath.patch",
-      "https://github.com/zrsx/termux-ng/blob/309ec3e279/packages/erlang/emulator-asmjit-virtmem-shm.patch",
-      "https://github.com/zrsx/termux-ng/blob/309ec3e279/packages/erlang/erts-configure.patch",
-      "https://github.com/zrsx/termux-ng/blob/309ec3e279/packages/erlang/erts-emulator-Makefile.in.patch",
-      "https://github.com/zrsx/termux-ng/blob/309ec3e279/packages/erlang/erts-emulator-nifs-common-socket_util.c.patch",
-      "https://github.com/zrsx/termux-ng/blob/309ec3e279/packages/erlang/lib-public_key-src-pubkey_os_cacerts.erl.patch"
+      "https://github.com/zrsx/termux-ng/blob/e244f078f6/packages/erlang/auto-download-ex_doc-noninteractively.patch.beforehostbuild",
+      "https://github.com/zrsx/termux-ng/blob/e244f078f6/packages/erlang/disable-docs-of-disabled-features.patch.beforehostbuild",
+      "https://github.com/zrsx/termux-ng/blob/e244f078f6/packages/erlang/do-not-set-manpath.patch",
+      "https://github.com/zrsx/termux-ng/blob/e244f078f6/packages/erlang/emulator-asmjit-virtmem-shm.patch",
+      "https://github.com/zrsx/termux-ng/blob/e244f078f6/packages/erlang/erts-configure.patch",
+      "https://github.com/zrsx/termux-ng/blob/e244f078f6/packages/erlang/erts-emulator-Makefile.in.patch",
+      "https://github.com/zrsx/termux-ng/blob/e244f078f6/packages/erlang/erts-emulator-nifs-common-socket_util.c.patch",
+      "https://github.com/zrsx/termux-ng/blob/e244f078f6/packages/erlang/lib-public_key-src-pubkey_os_cacerts.erl.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/309ec3e279/packages/erlang/auto-download-ex_doc-noninteractively.patch.beforehostbuild",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/309ec3e279/packages/erlang/disable-docs-of-disabled-features.patch.beforehostbuild",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/309ec3e279/packages/erlang/do-not-set-manpath.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/309ec3e279/packages/erlang/emulator-asmjit-virtmem-shm.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/309ec3e279/packages/erlang/erts-configure.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/309ec3e279/packages/erlang/erts-emulator-Makefile.in.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/309ec3e279/packages/erlang/erts-emulator-nifs-common-socket_util.c.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/309ec3e279/packages/erlang/lib-public_key-src-pubkey_os_cacerts.erl.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/e244f078f6/packages/erlang/auto-download-ex_doc-noninteractively.patch.beforehostbuild",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/e244f078f6/packages/erlang/disable-docs-of-disabled-features.patch.beforehostbuild",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/e244f078f6/packages/erlang/do-not-set-manpath.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/e244f078f6/packages/erlang/emulator-asmjit-virtmem-shm.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/e244f078f6/packages/erlang/erts-configure.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/e244f078f6/packages/erlang/erts-emulator-Makefile.in.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/e244f078f6/packages/erlang/erts-emulator-nifs-common-socket_util.c.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/e244f078f6/packages/erlang/lib-public_key-src-pubkey_os_cacerts.erl.patch"
     ],
     "auto_updated": true
   },
@@ -13957,7 +13957,7 @@
   },
   {
     "name": "jackett",
-    "version": "0.24.2040",
+    "version": "0.24.2043",
     "description": "API Support for your favorite torrent trackers",
     "homepage": "https://github.com/jackett/jackett",
     "depends": [
@@ -13965,11 +13965,11 @@
       "dotnet-host",
       "dotnet-runtime-9.0"
     ],
-    "srcurl": "https://github.com/Jackett/Jackett/archive/refs/tags/v0.24.2040.tar.gz",
+    "srcurl": "https://github.com/Jackett/Jackett/archive/refs/tags/v0.24.2043.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/c37ba18c4f/packages/jackett",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/c37ba18c4f/packages/jackett/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/c37ba18c4f/packages/jackett/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/c0f71acaa8/packages/jackett",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/c0f71acaa8/packages/jackett/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/c0f71acaa8/packages/jackett/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -69228,7 +69228,7 @@
   },
   {
     "name": "wxmaxima",
-    "version": "26.05.0",
+    "version": "26.06.1",
     "description": "A document based interface for the computer algebra system Maxima",
     "homepage": "https://wxmaxima-developers.github.io/wxmaxima/",
     "depends": [
@@ -69236,11 +69236,11 @@
       "maxima",
       "wxwidgets"
     ],
-    "srcurl": "https://github.com/wxMaxima-developers/wxmaxima/archive/refs/tags/Version-26.05.0.tar.gz",
+    "srcurl": "https://github.com/wxMaxima-developers/wxmaxima/archive/refs/tags/Version-26.06.1.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/d86d7d032f/x11-packages/wxmaxima",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/d86d7d032f/x11-packages/wxmaxima/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/d86d7d032f/x11-packages/wxmaxima/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/7560f74fd1/x11-packages/wxmaxima",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/7560f74fd1/x11-packages/wxmaxima/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/7560f74fd1/x11-packages/wxmaxima/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
