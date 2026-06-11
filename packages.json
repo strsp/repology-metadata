@@ -1991,7 +1991,7 @@
   },
   {
     "name": "awscli",
-    "version": "2.35.2",
+    "version": "2.35.3",
     "description": "Universal Command Line Interface for Amazon Web Services",
     "homepage": "https://aws.amazon.com/cli",
     "depends": [
@@ -1999,18 +1999,18 @@
       "libandroid-support",
       "mandoc"
     ],
-    "srcurl": "https://github.com/aws/aws-cli/archive/refs/tags/2.35.2.tar.gz",
+    "srcurl": "https://github.com/aws/aws-cli/archive/refs/tags/2.35.3.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/2bdf15f029/packages/awscli",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/2bdf15f029/packages/awscli/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/2bdf15f029/packages/awscli/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/4df6c613fe/packages/awscli",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/4df6c613fe/packages/awscli/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/4df6c613fe/packages/awscli/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/2bdf15f029/packages/awscli/remove-ios-support.patch",
-      "https://github.com/zrsx/termux-ng/blob/2bdf15f029/packages/awscli/remove-no-build-isolation.patch"
+      "https://github.com/zrsx/termux-ng/blob/4df6c613fe/packages/awscli/remove-ios-support.patch",
+      "https://github.com/zrsx/termux-ng/blob/4df6c613fe/packages/awscli/remove-no-build-isolation.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/2bdf15f029/packages/awscli/remove-ios-support.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/2bdf15f029/packages/awscli/remove-no-build-isolation.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/4df6c613fe/packages/awscli/remove-ios-support.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/4df6c613fe/packages/awscli/remove-no-build-isolation.patch"
     ],
     "auto_updated": true
   },
@@ -12949,17 +12949,17 @@
   },
   {
     "name": "hugo",
-    "version": "0.163.0",
+    "version": "0.163.1",
     "description": "A fast and flexible static site generator",
     "homepage": "https://gohugo.io/",
     "depends": [
       "libc++"
     ],
-    "srcurl": "https://github.com/gohugoio/hugo/archive/refs/tags/v0.163.0.tar.gz",
+    "srcurl": "https://github.com/gohugoio/hugo/archive/refs/tags/v0.163.1.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/b023b8c33f/packages/hugo",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/b023b8c33f/packages/hugo/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/b023b8c33f/packages/hugo/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/3860919229/packages/hugo",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/3860919229/packages/hugo/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/3860919229/packages/hugo/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -24251,7 +24251,7 @@
   },
   {
     "name": "llama-cpp",
-    "version": "b9596",
+    "version": "b9601",
     "description": "LLM inference in C/C++",
     "homepage": "https://github.com/ggml-org/llama.cpp",
     "depends": [
@@ -24259,18 +24259,18 @@
       "libc++",
       "libcurl"
     ],
-    "srcurl": "https://github.com/ggml-org/llama.cpp/archive/refs/tags/b9596.tar.gz",
+    "srcurl": "https://github.com/ggml-org/llama.cpp/archive/refs/tags/b9601.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/455bfad12b/packages/llama-cpp",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/455bfad12b/packages/llama-cpp/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/455bfad12b/packages/llama-cpp/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/2ab70aa432/packages/llama-cpp",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/2ab70aa432/packages/llama-cpp/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/2ab70aa432/packages/llama-cpp/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/455bfad12b/packages/llama-cpp/0001-search-dirs.patch",
-      "https://github.com/zrsx/termux-ng/blob/455bfad12b/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
+      "https://github.com/zrsx/termux-ng/blob/2ab70aa432/packages/llama-cpp/0001-search-dirs.patch",
+      "https://github.com/zrsx/termux-ng/blob/2ab70aa432/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/455bfad12b/packages/llama-cpp/0001-search-dirs.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/455bfad12b/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/2ab70aa432/packages/llama-cpp/0001-search-dirs.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/2ab70aa432/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
     ],
     "auto_updated": true
   },
@@ -29508,7 +29508,7 @@
   },
   {
     "name": "npm",
-    "version": "11.16.0",
+    "version": "11.17.0",
     "description": "The package manager for JavaScript",
     "homepage": "https://docs.npmjs.com/cli/",
     "depends": [
@@ -29516,9 +29516,9 @@
     ],
     "srcurl": "git+https://github.com/npm/cli.git",
     "maintainer": "Yaksh Bariya <thunder-coding@termux.dev>",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/2358f8e6bb/packages/npm",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/2358f8e6bb/packages/npm/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/2358f8e6bb/packages/npm/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/fe688511a4/packages/npm",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/fe688511a4/packages/npm/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/fe688511a4/packages/npm/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -34175,18 +34175,18 @@
   },
   {
     "name": "python-msgpack",
-    "version": "1.1.2",
+    "version": "1.2.0",
     "description": "MessagePack serializer implementation for Python",
     "homepage": "https://github.com/msgpack/msgpack-python",
     "depends": [
       "libc++",
       "python"
     ],
-    "srcurl": "https://pypi.org/packages/source/m/msgpack/msgpack-1.1.2.tar.gz",
+    "srcurl": "https://pypi.org/packages/source/m/msgpack/msgpack-1.2.0.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/46a96cf9c7/packages/python-msgpack",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/46a96cf9c7/packages/python-msgpack/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/46a96cf9c7/packages/python-msgpack/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/51359312e2/packages/python-msgpack",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/51359312e2/packages/python-msgpack/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/51359312e2/packages/python-msgpack/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -35140,15 +35140,15 @@
   },
   {
     "name": "railway-cli",
-    "version": "5.9.1",
+    "version": "5.12.0",
     "description": "This is the command line interface for Railway",
     "homepage": "https://railway.app",
     "depends": [],
-    "srcurl": "https://github.com/railwayapp/cli/archive/refs/tags/v5.9.1.tar.gz",
+    "srcurl": "https://github.com/railwayapp/cli/archive/refs/tags/v5.12.0.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/4628987441/packages/railway-cli",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/4628987441/packages/railway-cli/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/4628987441/packages/railway-cli/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/e629cff2b6/packages/railway-cli",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/e629cff2b6/packages/railway-cli/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/e629cff2b6/packages/railway-cli/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -36317,15 +36317,15 @@
   },
   {
     "name": "ruff",
-    "version": "0.15.16",
+    "version": "0.15.17",
     "description": "An extremely fast Python linter, written in Rust",
     "homepage": "https://github.com/charliermarsh/ruff",
     "depends": [],
-    "srcurl": "https://github.com/charliermarsh/ruff/archive/refs/tags/0.15.16.tar.gz",
+    "srcurl": "https://github.com/charliermarsh/ruff/archive/refs/tags/0.15.17.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/f262df6498/packages/ruff",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/f262df6498/packages/ruff/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/f262df6498/packages/ruff/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/0bc5a6f1bf/packages/ruff",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/0bc5a6f1bf/packages/ruff/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/0bc5a6f1bf/packages/ruff/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -38865,15 +38865,15 @@
   },
   {
     "name": "storj-uplink",
-    "version": "1.155.7",
+    "version": "1.155.8",
     "description": "Storj DCS Uplink CLI",
     "homepage": "https://www.storj.io/integrations/uplink-cli",
     "depends": [],
-    "srcurl": "https://github.com/storj/storj/archive/refs/tags/v1.155.7.tar.gz",
+    "srcurl": "https://github.com/storj/storj/archive/refs/tags/v1.155.8.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/398907d8a6/packages/storj-uplink",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/398907d8a6/packages/storj-uplink/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/398907d8a6/packages/storj-uplink/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/9b0788c339/packages/storj-uplink",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/9b0788c339/packages/storj-uplink/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/9b0788c339/packages/storj-uplink/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -42901,17 +42901,17 @@
   },
   {
     "name": "uv",
-    "version": "0.11.20",
+    "version": "0.11.21",
     "description": "An extremely fast Python package installer and resolver, written in Rust.",
     "homepage": "https://docs.astral.sh/uv/",
     "depends": [
       "zstd"
     ],
-    "srcurl": "https://github.com/astral-sh/uv/archive/refs/tags/0.11.20.tar.gz",
+    "srcurl": "https://github.com/astral-sh/uv/archive/refs/tags/0.11.21.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/3165e9c8cc/packages/uv",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/3165e9c8cc/packages/uv/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/3165e9c8cc/packages/uv/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/013996eb4c/packages/uv",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/013996eb4c/packages/uv/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/013996eb4c/packages/uv/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
