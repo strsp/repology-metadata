@@ -24251,7 +24251,7 @@
   },
   {
     "name": "llama-cpp",
-    "version": "b9590",
+    "version": "b9592",
     "description": "LLM inference in C/C++",
     "homepage": "https://github.com/ggml-org/llama.cpp",
     "depends": [
@@ -24259,18 +24259,18 @@
       "libc++",
       "libcurl"
     ],
-    "srcurl": "https://github.com/ggml-org/llama.cpp/archive/refs/tags/b9590.tar.gz",
+    "srcurl": "https://github.com/ggml-org/llama.cpp/archive/refs/tags/b9592.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/acf724d1c8/packages/llama-cpp",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/acf724d1c8/packages/llama-cpp/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/acf724d1c8/packages/llama-cpp/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/02e26396ea/packages/llama-cpp",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/02e26396ea/packages/llama-cpp/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/02e26396ea/packages/llama-cpp/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/acf724d1c8/packages/llama-cpp/0001-search-dirs.patch",
-      "https://github.com/zrsx/termux-ng/blob/acf724d1c8/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
+      "https://github.com/zrsx/termux-ng/blob/02e26396ea/packages/llama-cpp/0001-search-dirs.patch",
+      "https://github.com/zrsx/termux-ng/blob/02e26396ea/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/acf724d1c8/packages/llama-cpp/0001-search-dirs.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/acf724d1c8/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/02e26396ea/packages/llama-cpp/0001-search-dirs.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/02e26396ea/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
     ],
     "auto_updated": true
   },
@@ -31123,7 +31123,7 @@
   },
   {
     "name": "osm2pgsql",
-    "version": "2.2.0",
+    "version": "2.3.0",
     "description": "osm2pgsql imports OpenStreetMap (OSM) data into a PostgreSQL/PostGIS database",
     "homepage": "https://osm2pgsql.org/",
     "depends": [
@@ -31137,18 +31137,18 @@
       "zlib",
       "nlohmann-json"
     ],
-    "srcurl": "https://github.com/openstreetmap/osm2pgsql/archive/refs/tags/2.2.0.tar.gz",
+    "srcurl": "https://github.com/openstreetmap/osm2pgsql/archive/refs/tags/2.3.0.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/05fdde97b4/packages/osm2pgsql",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/05fdde97b4/packages/osm2pgsql/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/05fdde97b4/packages/osm2pgsql/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/8650ac8862/packages/osm2pgsql",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/8650ac8862/packages/osm2pgsql/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/8650ac8862/packages/osm2pgsql/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/05fdde97b4/packages/osm2pgsql/CMakeLists.txt.patch",
-      "https://github.com/zrsx/termux-ng/blob/05fdde97b4/packages/osm2pgsql/FindLua.cmake.patch"
+      "https://github.com/zrsx/termux-ng/blob/8650ac8862/packages/osm2pgsql/CMakeLists.txt.patch",
+      "https://github.com/zrsx/termux-ng/blob/8650ac8862/packages/osm2pgsql/FindLua.cmake.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/05fdde97b4/packages/osm2pgsql/CMakeLists.txt.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/05fdde97b4/packages/osm2pgsql/FindLua.cmake.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/8650ac8862/packages/osm2pgsql/CMakeLists.txt.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/8650ac8862/packages/osm2pgsql/FindLua.cmake.patch"
     ],
     "auto_updated": true
   },
@@ -31491,17 +31491,17 @@
   },
   {
     "name": "par2",
-    "version": "1.1.1",
+    "version": "1.2.0",
     "description": "par2cmdline is a PAR 2.0 compatible file verification and repair tool",
     "homepage": "https://github.com/Parchive/par2cmdline",
     "depends": [
       "libc++"
     ],
-    "srcurl": "https://github.com/Parchive/par2cmdline/archive/refs/tags/v1.1.1.tar.gz",
+    "srcurl": "https://github.com/Parchive/par2cmdline/archive/refs/tags/v1.2.0.tar.gz",
     "maintainer": "Oliver Schmidhauser @Neo-Oli",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/f2015c1330/packages/par2",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/f2015c1330/packages/par2/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/f2015c1330/packages/par2/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/dc9a4ad8e6/packages/par2",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/dc9a4ad8e6/packages/par2/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/dc9a4ad8e6/packages/par2/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -41086,15 +41086,15 @@
   },
   {
     "name": "topgrade",
-    "version": "17.5.1",
+    "version": "17.6.1",
     "description": "Upgrade all the things",
     "homepage": "https://github.com/topgrade-rs/topgrade/",
     "depends": [],
-    "srcurl": "https://github.com/topgrade-rs/topgrade/archive/refs/tags/v17.5.1.tar.gz",
+    "srcurl": "https://github.com/topgrade-rs/topgrade/archive/refs/tags/v17.6.1.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/8509c78432/packages/topgrade",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/8509c78432/packages/topgrade/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/8509c78432/packages/topgrade/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/26d7d246b3/packages/topgrade",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/26d7d246b3/packages/topgrade/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/26d7d246b3/packages/topgrade/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -42901,17 +42901,17 @@
   },
   {
     "name": "uv",
-    "version": "0.11.19",
+    "version": "0.11.20",
     "description": "An extremely fast Python package installer and resolver, written in Rust.",
     "homepage": "https://docs.astral.sh/uv/",
     "depends": [
       "zstd"
     ],
-    "srcurl": "https://github.com/astral-sh/uv/archive/refs/tags/0.11.19.tar.gz",
+    "srcurl": "https://github.com/astral-sh/uv/archive/refs/tags/0.11.20.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/0c3972f7ea/packages/uv",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/0c3972f7ea/packages/uv/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/0c3972f7ea/packages/uv/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/3165e9c8cc/packages/uv",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/3165e9c8cc/packages/uv/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/3165e9c8cc/packages/uv/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
