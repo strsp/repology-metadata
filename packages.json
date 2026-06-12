@@ -1991,7 +1991,7 @@
   },
   {
     "name": "awscli",
-    "version": "2.35.3",
+    "version": "2.35.4",
     "description": "Universal Command Line Interface for Amazon Web Services",
     "homepage": "https://aws.amazon.com/cli",
     "depends": [
@@ -1999,18 +1999,18 @@
       "libandroid-support",
       "mandoc"
     ],
-    "srcurl": "https://github.com/aws/aws-cli/archive/refs/tags/2.35.3.tar.gz",
+    "srcurl": "https://github.com/aws/aws-cli/archive/refs/tags/2.35.4.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/4df6c613fe/packages/awscli",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/4df6c613fe/packages/awscli/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/4df6c613fe/packages/awscli/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/f7e43c1388/packages/awscli",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/f7e43c1388/packages/awscli/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/f7e43c1388/packages/awscli/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/4df6c613fe/packages/awscli/remove-ios-support.patch",
-      "https://github.com/zrsx/termux-ng/blob/4df6c613fe/packages/awscli/remove-no-build-isolation.patch"
+      "https://github.com/zrsx/termux-ng/blob/f7e43c1388/packages/awscli/remove-ios-support.patch",
+      "https://github.com/zrsx/termux-ng/blob/f7e43c1388/packages/awscli/remove-no-build-isolation.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/4df6c613fe/packages/awscli/remove-ios-support.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/4df6c613fe/packages/awscli/remove-no-build-isolation.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/f7e43c1388/packages/awscli/remove-ios-support.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/f7e43c1388/packages/awscli/remove-no-build-isolation.patch"
     ],
     "auto_updated": true
   },
@@ -8830,7 +8830,7 @@
   },
   {
     "name": "fluidsynth",
-    "version": "2.5.4",
+    "version": "2.5.5",
     "description": "Software synthesizer based on the SoundFont 2 specifications",
     "homepage": "https://github.com/FluidSynth/fluidsynth",
     "depends": [
@@ -8841,16 +8841,16 @@
       "pulseaudio",
       "readline"
     ],
-    "srcurl": "https://github.com/FluidSynth/fluidsynth/archive/refs/tags/v2.5.4.tar.gz",
+    "srcurl": "https://github.com/FluidSynth/fluidsynth/archive/refs/tags/v2.5.5.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/87142d33dc/packages/fluidsynth",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/87142d33dc/packages/fluidsynth/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/87142d33dc/packages/fluidsynth/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/2ccf625ec7/packages/fluidsynth",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/2ccf625ec7/packages/fluidsynth/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/2ccf625ec7/packages/fluidsynth/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/87142d33dc/packages/fluidsynth/0001-no-android-log.patch"
+      "https://github.com/zrsx/termux-ng/blob/2ccf625ec7/packages/fluidsynth/0001-no-android-log.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/87142d33dc/packages/fluidsynth/0001-no-android-log.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/2ccf625ec7/packages/fluidsynth/0001-no-android-log.patch"
     ],
     "auto_updated": true
   },
@@ -12126,17 +12126,17 @@
   },
   {
     "name": "gstreamer",
-    "version": "1.28.3",
+    "version": "1.28.4",
     "description": "Open source multimedia framework",
     "homepage": "https://gstreamer.freedesktop.org/",
     "depends": [
       "glib"
     ],
-    "srcurl": "https://gstreamer.freedesktop.org/src/gstreamer/gstreamer-1.28.3.tar.xz",
+    "srcurl": "https://gstreamer.freedesktop.org/src/gstreamer/gstreamer-1.28.4.tar.xz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/3186bb069c/packages/gstreamer",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/3186bb069c/packages/gstreamer/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/3186bb069c/packages/gstreamer/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/da338a5543/packages/gstreamer",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/da338a5543/packages/gstreamer/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/da338a5543/packages/gstreamer/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -24251,7 +24251,7 @@
   },
   {
     "name": "llama-cpp",
-    "version": "b9611",
+    "version": "b9616",
     "description": "LLM inference in C/C++",
     "homepage": "https://github.com/ggml-org/llama.cpp",
     "depends": [
@@ -24259,18 +24259,18 @@
       "libc++",
       "libcurl"
     ],
-    "srcurl": "https://github.com/ggml-org/llama.cpp/archive/refs/tags/b9611.tar.gz",
+    "srcurl": "https://github.com/ggml-org/llama.cpp/archive/refs/tags/b9616.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/833228ac00/packages/llama-cpp",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/833228ac00/packages/llama-cpp/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/833228ac00/packages/llama-cpp/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/8c25f506b2/packages/llama-cpp",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/8c25f506b2/packages/llama-cpp/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/8c25f506b2/packages/llama-cpp/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/833228ac00/packages/llama-cpp/0001-search-dirs.patch",
-      "https://github.com/zrsx/termux-ng/blob/833228ac00/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
+      "https://github.com/zrsx/termux-ng/blob/8c25f506b2/packages/llama-cpp/0001-search-dirs.patch",
+      "https://github.com/zrsx/termux-ng/blob/8c25f506b2/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/833228ac00/packages/llama-cpp/0001-search-dirs.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/833228ac00/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/8c25f506b2/packages/llama-cpp/0001-search-dirs.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/8c25f506b2/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
     ],
     "auto_updated": true
   },
@@ -44017,15 +44017,15 @@
   },
   {
     "name": "wasm-component-ld",
-    "version": "0.5.24",
+    "version": "0.5.25",
     "description": "Command line linker for creating WebAssembly components",
     "homepage": "https://github.com/bytecodealliance/wasm-component-ld",
     "depends": [],
-    "srcurl": "https://github.com/bytecodealliance/wasm-component-ld/archive/refs/tags/v0.5.24.tar.gz",
+    "srcurl": "https://github.com/bytecodealliance/wasm-component-ld/archive/refs/tags/v0.5.25.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/836b86ca07/packages/wasm-component-ld",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/836b86ca07/packages/wasm-component-ld/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/836b86ca07/packages/wasm-component-ld/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/21b0e2f19d/packages/wasm-component-ld",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/21b0e2f19d/packages/wasm-component-ld/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/21b0e2f19d/packages/wasm-component-ld/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
