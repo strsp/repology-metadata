@@ -26789,25 +26789,25 @@
   },
   {
     "name": "mise",
-    "version": "2026.6.4",
+    "version": "2026.6.5",
     "description": "dev tools, env vars, task runner",
     "homepage": "https://mise.jdx.dev/",
     "depends": [
       "bzip2",
       "openssl"
     ],
-    "srcurl": "https://github.com/jdx/mise/archive/refs/tags/v2026.6.4.tar.gz",
+    "srcurl": "https://github.com/jdx/mise/archive/refs/tags/v2026.6.5.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/8e74398fc5/packages/mise",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/8e74398fc5/packages/mise/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/8e74398fc5/packages/mise/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/10ad5b8dd5/packages/mise",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/10ad5b8dd5/packages/mise/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/10ad5b8dd5/packages/mise/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/8e74398fc5/packages/mise/rattler_pty-android-target.diff",
-      "https://github.com/zrsx/termux-ng/blob/8e74398fc5/packages/mise/rust-cc-do-not-concatenate-all-the-CFLAGS.diff"
+      "https://github.com/zrsx/termux-ng/blob/10ad5b8dd5/packages/mise/rattler_pty-android-target.diff",
+      "https://github.com/zrsx/termux-ng/blob/10ad5b8dd5/packages/mise/rust-cc-do-not-concatenate-all-the-CFLAGS.diff"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/8e74398fc5/packages/mise/rattler_pty-android-target.diff",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/8e74398fc5/packages/mise/rust-cc-do-not-concatenate-all-the-CFLAGS.diff"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/10ad5b8dd5/packages/mise/rattler_pty-android-target.diff",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/10ad5b8dd5/packages/mise/rust-cc-do-not-concatenate-all-the-CFLAGS.diff"
     ],
     "auto_updated": true
   },
@@ -43001,15 +43001,15 @@
   },
   {
     "name": "vale",
-    "version": "3.14.2",
+    "version": "3.15.1",
     "description": "A syntax-aware linter for prose built with speed and extensibility in mind",
     "homepage": "https://vale.sh",
     "depends": [],
-    "srcurl": "https://github.com/errata-ai/vale/archive/refs/tags/v3.14.2.tar.gz",
+    "srcurl": "https://github.com/errata-ai/vale/archive/refs/tags/v3.15.1.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/fc9e621cc9/packages/vale",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/fc9e621cc9/packages/vale/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/fc9e621cc9/packages/vale/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/fefdcbafe3/packages/vale",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/fefdcbafe3/packages/vale/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/fefdcbafe3/packages/vale/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
