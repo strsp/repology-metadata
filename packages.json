@@ -3667,7 +3667,7 @@
   },
   {
     "name": "cava",
-    "version": "0.10.7",
+    "version": "1.0.0",
     "description": "Console-based Audio Visualizer. Works with MPD and Pulseaudio",
     "homepage": "https://github.com/karlstav/cava",
     "depends": [
@@ -3676,20 +3676,20 @@
       "ncurses",
       "pulseaudio"
     ],
-    "srcurl": "https://github.com/karlstav/cava/archive/refs/tags/0.10.7.tar.gz",
+    "srcurl": "https://github.com/karlstav/cava/archive/refs/tags/1.0.0.tar.gz",
     "maintainer": "Oliver Schmidhauser @Neo-Oli",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/bfe1a40604/packages/cava",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/bfe1a40604/packages/cava/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/bfe1a40604/packages/cava/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/0ae0c86de9/packages/cava",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/0ae0c86de9/packages/cava/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/0ae0c86de9/packages/cava/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/bfe1a40604/packages/cava/config.c.patch",
-      "https://github.com/zrsx/termux-ng/blob/bfe1a40604/packages/cava/configure.ac.patch",
-      "https://github.com/zrsx/termux-ng/blob/bfe1a40604/packages/cava/no-posix-shmem.patch"
+      "https://github.com/zrsx/termux-ng/blob/0ae0c86de9/packages/cava/config.c.patch",
+      "https://github.com/zrsx/termux-ng/blob/0ae0c86de9/packages/cava/configure.ac.patch",
+      "https://github.com/zrsx/termux-ng/blob/0ae0c86de9/packages/cava/no-posix-shmem.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/bfe1a40604/packages/cava/config.c.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/bfe1a40604/packages/cava/configure.ac.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/bfe1a40604/packages/cava/no-posix-shmem.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/0ae0c86de9/packages/cava/config.c.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/0ae0c86de9/packages/cava/configure.ac.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/0ae0c86de9/packages/cava/no-posix-shmem.patch"
     ],
     "auto_updated": true
   },
@@ -24251,7 +24251,7 @@
   },
   {
     "name": "llama-cpp",
-    "version": "b9622",
+    "version": "b9626",
     "description": "LLM inference in C/C++",
     "homepage": "https://github.com/ggml-org/llama.cpp",
     "depends": [
@@ -24259,18 +24259,18 @@
       "libc++",
       "libcurl"
     ],
-    "srcurl": "https://github.com/ggml-org/llama.cpp/archive/refs/tags/b9622.tar.gz",
+    "srcurl": "https://github.com/ggml-org/llama.cpp/archive/refs/tags/b9626.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/0696787ea0/packages/llama-cpp",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/0696787ea0/packages/llama-cpp/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/0696787ea0/packages/llama-cpp/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/72233d1cc8/packages/llama-cpp",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/72233d1cc8/packages/llama-cpp/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/72233d1cc8/packages/llama-cpp/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/0696787ea0/packages/llama-cpp/0001-search-dirs.patch",
-      "https://github.com/zrsx/termux-ng/blob/0696787ea0/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
+      "https://github.com/zrsx/termux-ng/blob/72233d1cc8/packages/llama-cpp/0001-search-dirs.patch",
+      "https://github.com/zrsx/termux-ng/blob/72233d1cc8/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/0696787ea0/packages/llama-cpp/0001-search-dirs.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/0696787ea0/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/72233d1cc8/packages/llama-cpp/0001-search-dirs.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/72233d1cc8/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
     ],
     "auto_updated": true
   },
@@ -40535,7 +40535,7 @@
   },
   {
     "name": "tig",
-    "version": "2.6.0",
+    "version": "2.6.1",
     "description": "Ncurses-based text-mode interface for git",
     "homepage": "https://jonas.github.io/tig/",
     "depends": [
@@ -40545,11 +40545,11 @@
       "ncurses",
       "pcre2"
     ],
-    "srcurl": "https://github.com/jonas/tig/releases/download/tig-2.6.0/tig-2.6.0.tar.gz",
+    "srcurl": "https://github.com/jonas/tig/releases/download/tig-2.6.1/tig-2.6.1.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/f71ea13fd1/packages/tig",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/f71ea13fd1/packages/tig/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/f71ea13fd1/packages/tig/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/6458eb603d/packages/tig",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/6458eb603d/packages/tig/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/6458eb603d/packages/tig/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
