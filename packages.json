@@ -24251,7 +24251,7 @@
   },
   {
     "name": "llama-cpp",
-    "version": "b9616",
+    "version": "b9622",
     "description": "LLM inference in C/C++",
     "homepage": "https://github.com/ggml-org/llama.cpp",
     "depends": [
@@ -24259,18 +24259,18 @@
       "libc++",
       "libcurl"
     ],
-    "srcurl": "https://github.com/ggml-org/llama.cpp/archive/refs/tags/b9616.tar.gz",
+    "srcurl": "https://github.com/ggml-org/llama.cpp/archive/refs/tags/b9622.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/8c25f506b2/packages/llama-cpp",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/8c25f506b2/packages/llama-cpp/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/8c25f506b2/packages/llama-cpp/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/0696787ea0/packages/llama-cpp",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/0696787ea0/packages/llama-cpp/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/0696787ea0/packages/llama-cpp/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/8c25f506b2/packages/llama-cpp/0001-search-dirs.patch",
-      "https://github.com/zrsx/termux-ng/blob/8c25f506b2/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
+      "https://github.com/zrsx/termux-ng/blob/0696787ea0/packages/llama-cpp/0001-search-dirs.patch",
+      "https://github.com/zrsx/termux-ng/blob/0696787ea0/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/8c25f506b2/packages/llama-cpp/0001-search-dirs.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/8c25f506b2/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/0696787ea0/packages/llama-cpp/0001-search-dirs.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/0696787ea0/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
     ],
     "auto_updated": true
   },
@@ -26789,25 +26789,25 @@
   },
   {
     "name": "mise",
-    "version": "2026.6.5",
+    "version": "2026.6.6",
     "description": "dev tools, env vars, task runner",
     "homepage": "https://mise.jdx.dev/",
     "depends": [
       "bzip2",
       "openssl"
     ],
-    "srcurl": "https://github.com/jdx/mise/archive/refs/tags/v2026.6.5.tar.gz",
+    "srcurl": "https://github.com/jdx/mise/archive/refs/tags/v2026.6.6.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/10ad5b8dd5/packages/mise",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/10ad5b8dd5/packages/mise/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/10ad5b8dd5/packages/mise/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/547b1fd928/packages/mise",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/547b1fd928/packages/mise/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/547b1fd928/packages/mise/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/10ad5b8dd5/packages/mise/rattler_pty-android-target.diff",
-      "https://github.com/zrsx/termux-ng/blob/10ad5b8dd5/packages/mise/rust-cc-do-not-concatenate-all-the-CFLAGS.diff"
+      "https://github.com/zrsx/termux-ng/blob/547b1fd928/packages/mise/rattler_pty-android-target.diff",
+      "https://github.com/zrsx/termux-ng/blob/547b1fd928/packages/mise/rust-cc-do-not-concatenate-all-the-CFLAGS.diff"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/10ad5b8dd5/packages/mise/rattler_pty-android-target.diff",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/10ad5b8dd5/packages/mise/rust-cc-do-not-concatenate-all-the-CFLAGS.diff"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/547b1fd928/packages/mise/rattler_pty-android-target.diff",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/547b1fd928/packages/mise/rust-cc-do-not-concatenate-all-the-CFLAGS.diff"
     ],
     "auto_updated": true
   },
@@ -46648,23 +46648,23 @@
   },
   {
     "name": "libccid",
-    "version": "1.8.1",
+    "version": "1.8.2",
     "description": "A generic USB CCID (Chip/Smart Card Interface Devices) driver and ICCD (Integrated Circuit(s) Card Devices).",
     "homepage": "https://ccid.apdu.fr/",
     "depends": [
       "libusb",
       "pcscd"
     ],
-    "srcurl": "https://github.com/LudovicRousseau/CCID/archive/refs/tags/1.8.1.tar.gz",
+    "srcurl": "https://github.com/LudovicRousseau/CCID/archive/refs/tags/1.8.2.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/682fe35d1c/root-packages/libccid",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/682fe35d1c/root-packages/libccid/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/682fe35d1c/root-packages/libccid/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/e51764aa17/root-packages/libccid",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/e51764aa17/root-packages/libccid/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/e51764aa17/root-packages/libccid/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/682fe35d1c/root-packages/libccid/issetugid.patch"
+      "https://github.com/zrsx/termux-ng/blob/e51764aa17/root-packages/libccid/issetugid.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/682fe35d1c/root-packages/libccid/issetugid.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/e51764aa17/root-packages/libccid/issetugid.patch"
     ],
     "auto_updated": true
   },
