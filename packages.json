@@ -26789,25 +26789,25 @@
   },
   {
     "name": "mise",
-    "version": "2026.6.6",
+    "version": "2026.6.9",
     "description": "dev tools, env vars, task runner",
     "homepage": "https://mise.jdx.dev/",
     "depends": [
       "bzip2",
       "openssl"
     ],
-    "srcurl": "https://github.com/jdx/mise/archive/refs/tags/v2026.6.6.tar.gz",
+    "srcurl": "https://github.com/jdx/mise/archive/refs/tags/v2026.6.9.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/547b1fd928/packages/mise",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/547b1fd928/packages/mise/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/547b1fd928/packages/mise/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/637eec166a/packages/mise",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/637eec166a/packages/mise/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/637eec166a/packages/mise/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/547b1fd928/packages/mise/rattler_pty-android-target.diff",
-      "https://github.com/zrsx/termux-ng/blob/547b1fd928/packages/mise/rust-cc-do-not-concatenate-all-the-CFLAGS.diff"
+      "https://github.com/zrsx/termux-ng/blob/637eec166a/packages/mise/rattler_pty-android-target.diff",
+      "https://github.com/zrsx/termux-ng/blob/637eec166a/packages/mise/rust-cc-do-not-concatenate-all-the-CFLAGS.diff"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/547b1fd928/packages/mise/rattler_pty-android-target.diff",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/547b1fd928/packages/mise/rust-cc-do-not-concatenate-all-the-CFLAGS.diff"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/637eec166a/packages/mise/rattler_pty-android-target.diff",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/637eec166a/packages/mise/rust-cc-do-not-concatenate-all-the-CFLAGS.diff"
     ],
     "auto_updated": true
   },
