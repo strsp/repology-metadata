@@ -17354,17 +17354,17 @@
   },
   {
     "name": "libftxui",
-    "version": "6.1.9",
+    "version": "7.0.0",
     "description": "A simple C++ library for terminal based user interface",
     "homepage": "https://github.com/ArthurSonzogni/FTXUI",
     "depends": [
       "libc++"
     ],
-    "srcurl": "https://github.com/ArthurSonzogni/FTXUI/archive/refs/tags/v6.1.9.tar.gz",
+    "srcurl": "https://github.com/ArthurSonzogni/FTXUI/archive/refs/tags/v7.0.0.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/38eadf6711/packages/libftxui",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/38eadf6711/packages/libftxui/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/38eadf6711/packages/libftxui/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/d90a1f0d85/packages/libftxui",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/d90a1f0d85/packages/libftxui/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/d90a1f0d85/packages/libftxui/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -24251,7 +24251,7 @@
   },
   {
     "name": "llama-cpp",
-    "version": "b9626",
+    "version": "b9628",
     "description": "LLM inference in C/C++",
     "homepage": "https://github.com/ggml-org/llama.cpp",
     "depends": [
@@ -24259,18 +24259,18 @@
       "libc++",
       "libcurl"
     ],
-    "srcurl": "https://github.com/ggml-org/llama.cpp/archive/refs/tags/b9626.tar.gz",
+    "srcurl": "https://github.com/ggml-org/llama.cpp/archive/refs/tags/b9628.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/72233d1cc8/packages/llama-cpp",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/72233d1cc8/packages/llama-cpp/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/72233d1cc8/packages/llama-cpp/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/4790ced6bc/packages/llama-cpp",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/4790ced6bc/packages/llama-cpp/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/4790ced6bc/packages/llama-cpp/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/72233d1cc8/packages/llama-cpp/0001-search-dirs.patch",
-      "https://github.com/zrsx/termux-ng/blob/72233d1cc8/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
+      "https://github.com/zrsx/termux-ng/blob/4790ced6bc/packages/llama-cpp/0001-search-dirs.patch",
+      "https://github.com/zrsx/termux-ng/blob/4790ced6bc/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/72233d1cc8/packages/llama-cpp/0001-search-dirs.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/72233d1cc8/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/4790ced6bc/packages/llama-cpp/0001-search-dirs.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/4790ced6bc/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
     ],
     "auto_updated": true
   },
