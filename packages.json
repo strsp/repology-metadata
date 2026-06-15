@@ -12309,7 +12309,7 @@
   },
   {
     "name": "hash-slinger",
-    "version": "3.5",
+    "version": "3.6",
     "description": "Various tools to generate special DNS records",
     "homepage": "https://github.com/letoams/hash-slinger",
     "depends": [
@@ -12322,18 +12322,18 @@
       "swig",
       "python-pip"
     ],
-    "srcurl": "https://github.com/letoams/hash-slinger/archive/refs/tags/3.5.tar.gz",
+    "srcurl": "https://github.com/letoams/hash-slinger/archive/refs/tags/3.6.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/8acb573e7a/packages/hash-slinger",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/8acb573e7a/packages/hash-slinger/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/8acb573e7a/packages/hash-slinger/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/79e1b4c21a/packages/hash-slinger",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/79e1b4c21a/packages/hash-slinger/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/79e1b4c21a/packages/hash-slinger/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/8acb573e7a/packages/hash-slinger/openpgpkey.patch",
-      "https://github.com/zrsx/termux-ng/blob/8acb573e7a/packages/hash-slinger/tlsa.patch"
+      "https://github.com/zrsx/termux-ng/blob/79e1b4c21a/packages/hash-slinger/openpgpkey.patch",
+      "https://github.com/zrsx/termux-ng/blob/79e1b4c21a/packages/hash-slinger/tlsa.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/8acb573e7a/packages/hash-slinger/openpgpkey.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/8acb573e7a/packages/hash-slinger/tlsa.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/79e1b4c21a/packages/hash-slinger/openpgpkey.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/79e1b4c21a/packages/hash-slinger/tlsa.patch"
     ],
     "auto_updated": true
   },
@@ -13957,7 +13957,7 @@
   },
   {
     "name": "jackett",
-    "version": "0.24.2066",
+    "version": "0.24.2067",
     "description": "API Support for your favorite torrent trackers",
     "homepage": "https://github.com/jackett/jackett",
     "depends": [
@@ -13965,11 +13965,11 @@
       "dotnet-host",
       "dotnet-runtime-9.0"
     ],
-    "srcurl": "https://github.com/Jackett/Jackett/archive/refs/tags/v0.24.2066.tar.gz",
+    "srcurl": "https://github.com/Jackett/Jackett/archive/refs/tags/v0.24.2067.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/86e53141e1/packages/jackett",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/86e53141e1/packages/jackett/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/86e53141e1/packages/jackett/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/8d399bca87/packages/jackett",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/8d399bca87/packages/jackett/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/8d399bca87/packages/jackett/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -24251,7 +24251,7 @@
   },
   {
     "name": "llama-cpp",
-    "version": "b9637",
+    "version": "b9642",
     "description": "LLM inference in C/C++",
     "homepage": "https://github.com/ggml-org/llama.cpp",
     "depends": [
@@ -24259,18 +24259,18 @@
       "libc++",
       "libcurl"
     ],
-    "srcurl": "https://github.com/ggml-org/llama.cpp/archive/refs/tags/b9637.tar.gz",
+    "srcurl": "https://github.com/ggml-org/llama.cpp/archive/refs/tags/b9642.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/c782891310/packages/llama-cpp",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/c782891310/packages/llama-cpp/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/c782891310/packages/llama-cpp/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/405acfaa30/packages/llama-cpp",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/405acfaa30/packages/llama-cpp/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/405acfaa30/packages/llama-cpp/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/c782891310/packages/llama-cpp/0001-search-dirs.patch",
-      "https://github.com/zrsx/termux-ng/blob/c782891310/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
+      "https://github.com/zrsx/termux-ng/blob/405acfaa30/packages/llama-cpp/0001-search-dirs.patch",
+      "https://github.com/zrsx/termux-ng/blob/405acfaa30/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/c782891310/packages/llama-cpp/0001-search-dirs.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/c782891310/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/405acfaa30/packages/llama-cpp/0001-search-dirs.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/405acfaa30/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
     ],
     "auto_updated": true
   },
@@ -27083,20 +27083,20 @@
   },
   {
     "name": "moor",
-    "version": "2.15.0",
+    "version": "2.15.1",
     "description": "A pager designed to just do the right thing without any configuration",
     "homepage": "https://github.com/walles/moor",
     "depends": [],
-    "srcurl": "https://github.com/walles/moor/archive/refs/tags/v2.15.0.tar.gz",
+    "srcurl": "https://github.com/walles/moor/archive/refs/tags/v2.15.1.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/5639fd2ef2/packages/moor",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/5639fd2ef2/packages/moor/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/5639fd2ef2/packages/moor/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/974e2752b5/packages/moor",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/974e2752b5/packages/moor/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/974e2752b5/packages/moor/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/5639fd2ef2/packages/moor/default-editor.patch"
+      "https://github.com/zrsx/termux-ng/blob/974e2752b5/packages/moor/default-editor.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/5639fd2ef2/packages/moor/default-editor.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/974e2752b5/packages/moor/default-editor.patch"
     ],
     "auto_updated": true
   },
@@ -29986,23 +29986,23 @@
   },
   {
     "name": "oma",
-    "version": "1.26.4",
+    "version": "1.26.5",
     "description": "oma is an attempt at reworking APT's interface",
     "homepage": "https://aosc.io/oma",
     "depends": [
       "libnettle",
       "apt"
     ],
-    "srcurl": "https://github.com/AOSC-Dev/oma/archive/refs/tags/v1.26.4.tar.gz",
+    "srcurl": "https://github.com/AOSC-Dev/oma/archive/refs/tags/v1.26.5.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/0617ac2a25/packages/oma",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/0617ac2a25/packages/oma/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/0617ac2a25/packages/oma/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/196f07aa2b/packages/oma",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/196f07aa2b/packages/oma/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/196f07aa2b/packages/oma/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/0617ac2a25/packages/oma/fix-hardcoded-path.patch"
+      "https://github.com/zrsx/termux-ng/blob/196f07aa2b/packages/oma/fix-hardcoded-path.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/0617ac2a25/packages/oma/fix-hardcoded-path.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/196f07aa2b/packages/oma/fix-hardcoded-path.patch"
     ],
     "auto_updated": true
   },
@@ -36407,17 +36407,17 @@
   },
   {
     "name": "rust-analyzer",
-    "version": "2026-06-08",
+    "version": "2026-06-15",
     "description": "A Rust compiler front-end for IDEs",
     "homepage": "https://rust-analyzer.github.io/",
     "depends": [
       "rust-src"
     ],
-    "srcurl": "https://github.com/rust-lang/rust-analyzer/archive/refs/tags/2026-06-08.tar.gz",
+    "srcurl": "https://github.com/rust-lang/rust-analyzer/archive/refs/tags/2026-06-15.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/0c23b438b9/packages/rust-analyzer",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/0c23b438b9/packages/rust-analyzer/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/0c23b438b9/packages/rust-analyzer/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/17b987ec58/packages/rust-analyzer",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/17b987ec58/packages/rust-analyzer/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/17b987ec58/packages/rust-analyzer/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -39278,7 +39278,7 @@
   },
   {
     "name": "swi-prolog",
-    "version": "10.1.8",
+    "version": "10.1.9",
     "description": "Most popular and complete prolog implementation",
     "homepage": "https://swi-prolog.org/",
     "depends": [
@@ -39297,18 +39297,18 @@
       "unixodbc",
       "zlib"
     ],
-    "srcurl": "https://www.swi-prolog.org/download/devel/src/swipl-10.1.8.tar.gz",
+    "srcurl": "https://www.swi-prolog.org/download/devel/src/swipl-10.1.9.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/174f20d33a/packages/swi-prolog",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/174f20d33a/packages/swi-prolog/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/174f20d33a/packages/swi-prolog/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/1c5a169701/packages/swi-prolog",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/1c5a169701/packages/swi-prolog/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/1c5a169701/packages/swi-prolog/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/174f20d33a/packages/swi-prolog/continue-on-abi-check-failure.patch",
-      "https://github.com/zrsx/termux-ng/blob/174f20d33a/packages/swi-prolog/disable-installation-of-some-qlfs.patch"
+      "https://github.com/zrsx/termux-ng/blob/1c5a169701/packages/swi-prolog/continue-on-abi-check-failure.patch",
+      "https://github.com/zrsx/termux-ng/blob/1c5a169701/packages/swi-prolog/disable-installation-of-some-qlfs.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/174f20d33a/packages/swi-prolog/continue-on-abi-check-failure.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/174f20d33a/packages/swi-prolog/disable-installation-of-some-qlfs.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/1c5a169701/packages/swi-prolog/continue-on-abi-check-failure.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/1c5a169701/packages/swi-prolog/disable-installation-of-some-qlfs.patch"
     ],
     "auto_updated": true
   },
