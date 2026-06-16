@@ -3119,15 +3119,15 @@
   },
   {
     "name": "buf",
-    "version": "1.70.0",
+    "version": "1.71.0",
     "description": "A new way of working with Protocol Buffers",
     "homepage": "https://buf.build",
     "depends": [],
-    "srcurl": "https://github.com/bufbuild/buf/archive/refs/tags/v1.70.0.tar.gz",
+    "srcurl": "https://github.com/bufbuild/buf/archive/refs/tags/v1.71.0.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/98ab818126/packages/buf",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/98ab818126/packages/buf/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/98ab818126/packages/buf/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/551a16168a/packages/buf",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/551a16168a/packages/buf/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/551a16168a/packages/buf/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -24251,7 +24251,7 @@
   },
   {
     "name": "llama-cpp",
-    "version": "b9667",
+    "version": "b9672",
     "description": "LLM inference in C/C++",
     "homepage": "https://github.com/ggml-org/llama.cpp",
     "depends": [
@@ -24259,18 +24259,18 @@
       "libc++",
       "libcurl"
     ],
-    "srcurl": "https://github.com/ggml-org/llama.cpp/archive/refs/tags/b9667.tar.gz",
+    "srcurl": "https://github.com/ggml-org/llama.cpp/archive/refs/tags/b9672.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/5d07ce78d4/packages/llama-cpp",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/5d07ce78d4/packages/llama-cpp/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/5d07ce78d4/packages/llama-cpp/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/cd662745d2/packages/llama-cpp",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/cd662745d2/packages/llama-cpp/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/cd662745d2/packages/llama-cpp/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/5d07ce78d4/packages/llama-cpp/0001-search-dirs.patch",
-      "https://github.com/zrsx/termux-ng/blob/5d07ce78d4/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
+      "https://github.com/zrsx/termux-ng/blob/cd662745d2/packages/llama-cpp/0001-search-dirs.patch",
+      "https://github.com/zrsx/termux-ng/blob/cd662745d2/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/5d07ce78d4/packages/llama-cpp/0001-search-dirs.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/5d07ce78d4/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/cd662745d2/packages/llama-cpp/0001-search-dirs.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/cd662745d2/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
     ],
     "auto_updated": true
   },
@@ -24606,25 +24606,25 @@
   },
   {
     "name": "lsof",
-    "version": "4.99.6",
+    "version": "4.99.7",
     "description": "Lists open files for running Unix processes",
     "homepage": "https://github.com/lsof-org/lsof",
     "depends": [
       "libandroid-support",
       "libtirpc"
     ],
-    "srcurl": "https://github.com/lsof-org/lsof/archive/refs/tags/4.99.6/lsof-4.99.6.tar.gz",
+    "srcurl": "https://github.com/lsof-org/lsof/archive/refs/tags/4.99.7/lsof-4.99.7.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/2238163619/packages/lsof",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/2238163619/packages/lsof/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/2238163619/packages/lsof/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/6544000a92/packages/lsof",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/6544000a92/packages/lsof/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/6544000a92/packages/lsof/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/2238163619/packages/lsof/main.c.patch",
-      "https://github.com/zrsx/termux-ng/blob/2238163619/packages/lsof/misc.c.patch"
+      "https://github.com/zrsx/termux-ng/blob/6544000a92/packages/lsof/main.c.patch",
+      "https://github.com/zrsx/termux-ng/blob/6544000a92/packages/lsof/misc.c.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/2238163619/packages/lsof/main.c.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/2238163619/packages/lsof/misc.c.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/6544000a92/packages/lsof/main.c.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/6544000a92/packages/lsof/misc.c.patch"
     ],
     "auto_updated": true
   },
@@ -25719,17 +25719,17 @@
   },
   {
     "name": "mautrix-whatsapp",
-    "version": "0.2605.0",
+    "version": "0.2606.0",
     "description": "A Matrix-WhatsApp puppeting bridge",
     "homepage": "https://maunium.net/go/mautrix-whatsapp/",
     "depends": [
       "libolm"
     ],
-    "srcurl": "https://github.com/mautrix/whatsapp/archive/refs/tags/v0.2605.0.tar.gz",
+    "srcurl": "https://github.com/mautrix/whatsapp/archive/refs/tags/v0.2606.0.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/05c5764488/packages/mautrix-whatsapp",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/05c5764488/packages/mautrix-whatsapp/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/05c5764488/packages/mautrix-whatsapp/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/3d88df9782/packages/mautrix-whatsapp",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/3d88df9782/packages/mautrix-whatsapp/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/3d88df9782/packages/mautrix-whatsapp/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -35140,15 +35140,15 @@
   },
   {
     "name": "railway-cli",
-    "version": "5.13.3",
+    "version": "5.15.0",
     "description": "This is the command line interface for Railway",
     "homepage": "https://railway.app",
     "depends": [],
-    "srcurl": "https://github.com/railwayapp/cli/archive/refs/tags/v5.13.3.tar.gz",
+    "srcurl": "https://github.com/railwayapp/cli/archive/refs/tags/v5.15.0.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/6411817380/packages/railway-cli",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/6411817380/packages/railway-cli/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/6411817380/packages/railway-cli/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/526293cc26/packages/railway-cli",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/526293cc26/packages/railway-cli/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/526293cc26/packages/railway-cli/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -46966,15 +46966,15 @@
   },
   {
     "name": "nexttrace",
-    "version": "1.7.0",
+    "version": "1.7.1",
     "description": "An open source visual routing tool that pursues light weight",
     "homepage": "https://github.com/nxtrace/Ntrace-V1",
     "depends": [],
-    "srcurl": "https://github.com/nxtrace/Ntrace-V1/archive/refs/tags/v1.7.0.tar.gz",
+    "srcurl": "https://github.com/nxtrace/Ntrace-V1/archive/refs/tags/v1.7.1.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/d960c087cd/root-packages/nexttrace",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/d960c087cd/root-packages/nexttrace/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/d960c087cd/root-packages/nexttrace/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/442439b48f/root-packages/nexttrace",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/442439b48f/root-packages/nexttrace/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/442439b48f/root-packages/nexttrace/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
