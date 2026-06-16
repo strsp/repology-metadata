@@ -13655,33 +13655,33 @@
   },
   {
     "name": "iproute2",
-    "version": "7.0.0",
+    "version": "7.1.0",
     "description": "Utilities for controlling networking",
     "homepage": "https://wiki.linuxfoundation.org/networking/iproute2",
     "depends": [
       "libandroid-glob",
       "libandroid-support"
     ],
-    "srcurl": "https://www.kernel.org/pub/linux/utils/net/iproute2/iproute2-7.0.0.tar.xz",
+    "srcurl": "https://www.kernel.org/pub/linux/utils/net/iproute2/iproute2-7.1.0.tar.xz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/913d21ccb0/packages/iproute2",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/913d21ccb0/packages/iproute2/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/913d21ccb0/packages/iproute2/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/7d8ad6e61e/packages/iproute2",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/7d8ad6e61e/packages/iproute2/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/7d8ad6e61e/packages/iproute2/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/913d21ccb0/packages/iproute2/IN6_IS_ADDR_UNSPECIFIED.patch",
-      "https://github.com/zrsx/termux-ng/blob/913d21ccb0/packages/iproute2/Makefile.patch",
-      "https://github.com/zrsx/termux-ng/blob/913d21ccb0/packages/iproute2/in_addr_t.patch",
-      "https://github.com/zrsx/termux-ng/blob/913d21ccb0/packages/iproute2/rindex.patch",
-      "https://github.com/zrsx/termux-ng/blob/913d21ccb0/packages/iproute2/sethostent.patch",
-      "https://github.com/zrsx/termux-ng/blob/913d21ccb0/packages/iproute2/strdupa.patch"
+      "https://github.com/zrsx/termux-ng/blob/7d8ad6e61e/packages/iproute2/IN6_IS_ADDR_UNSPECIFIED.patch",
+      "https://github.com/zrsx/termux-ng/blob/7d8ad6e61e/packages/iproute2/Makefile.patch",
+      "https://github.com/zrsx/termux-ng/blob/7d8ad6e61e/packages/iproute2/in_addr_t.patch",
+      "https://github.com/zrsx/termux-ng/blob/7d8ad6e61e/packages/iproute2/rindex.patch",
+      "https://github.com/zrsx/termux-ng/blob/7d8ad6e61e/packages/iproute2/sethostent.patch",
+      "https://github.com/zrsx/termux-ng/blob/7d8ad6e61e/packages/iproute2/strdupa.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/913d21ccb0/packages/iproute2/IN6_IS_ADDR_UNSPECIFIED.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/913d21ccb0/packages/iproute2/Makefile.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/913d21ccb0/packages/iproute2/in_addr_t.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/913d21ccb0/packages/iproute2/rindex.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/913d21ccb0/packages/iproute2/sethostent.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/913d21ccb0/packages/iproute2/strdupa.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/7d8ad6e61e/packages/iproute2/IN6_IS_ADDR_UNSPECIFIED.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/7d8ad6e61e/packages/iproute2/Makefile.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/7d8ad6e61e/packages/iproute2/in_addr_t.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/7d8ad6e61e/packages/iproute2/rindex.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/7d8ad6e61e/packages/iproute2/sethostent.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/7d8ad6e61e/packages/iproute2/strdupa.patch"
     ],
     "auto_updated": true
   },
@@ -13957,7 +13957,7 @@
   },
   {
     "name": "jackett",
-    "version": "0.24.2067",
+    "version": "0.24.2075",
     "description": "API Support for your favorite torrent trackers",
     "homepage": "https://github.com/jackett/jackett",
     "depends": [
@@ -13965,11 +13965,11 @@
       "dotnet-host",
       "dotnet-runtime-9.0"
     ],
-    "srcurl": "https://github.com/Jackett/Jackett/archive/refs/tags/v0.24.2067.tar.gz",
+    "srcurl": "https://github.com/Jackett/Jackett/archive/refs/tags/v0.24.2075.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/8d399bca87/packages/jackett",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/8d399bca87/packages/jackett/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/8d399bca87/packages/jackett/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/96a63b1f37/packages/jackett",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/96a63b1f37/packages/jackett/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/96a63b1f37/packages/jackett/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
