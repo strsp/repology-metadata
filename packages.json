@@ -6572,7 +6572,7 @@
   },
   {
     "name": "dnsutils",
-    "version": "9.20.23",
+    "version": "9.20.24",
     "description": "Clients provided with BIND",
     "homepage": "https://www.isc.org/bind/",
     "depends": [
@@ -6591,18 +6591,18 @@
       "resolv-conf",
       "zlib"
     ],
-    "srcurl": "https://downloads.isc.org/isc/bind9/9.20.23/bind-9.20.23.tar.xz",
+    "srcurl": "https://downloads.isc.org/isc/bind9/9.20.24/bind-9.20.24.tar.xz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/e989548585/packages/dnsutils",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/e989548585/packages/dnsutils/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/e989548585/packages/dnsutils/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/2fceda77a8/packages/dnsutils",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/2fceda77a8/packages/dnsutils/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/2fceda77a8/packages/dnsutils/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/e989548585/packages/dnsutils/bin-delv-delv.c.patch",
-      "https://github.com/zrsx/termux-ng/blob/e989548585/packages/dnsutils/socklen_t-fix.patch"
+      "https://github.com/zrsx/termux-ng/blob/2fceda77a8/packages/dnsutils/bin-delv-delv.c.patch",
+      "https://github.com/zrsx/termux-ng/blob/2fceda77a8/packages/dnsutils/socklen_t-fix.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/e989548585/packages/dnsutils/bin-delv-delv.c.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/e989548585/packages/dnsutils/socklen_t-fix.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/2fceda77a8/packages/dnsutils/bin-delv-delv.c.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/2fceda77a8/packages/dnsutils/socklen_t-fix.patch"
     ],
     "auto_updated": true
   },
@@ -24292,7 +24292,7 @@
   },
   {
     "name": "llama-cpp",
-    "version": "b9675",
+    "version": "b9682",
     "description": "LLM inference in C/C++",
     "homepage": "https://github.com/ggml-org/llama.cpp",
     "depends": [
@@ -24300,18 +24300,18 @@
       "libc++",
       "libcurl"
     ],
-    "srcurl": "https://github.com/ggml-org/llama.cpp/archive/refs/tags/b9675.tar.gz",
+    "srcurl": "https://github.com/ggml-org/llama.cpp/archive/refs/tags/b9682.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/0f1176907a/packages/llama-cpp",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/0f1176907a/packages/llama-cpp/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/0f1176907a/packages/llama-cpp/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/14b993e249/packages/llama-cpp",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/14b993e249/packages/llama-cpp/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/14b993e249/packages/llama-cpp/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/0f1176907a/packages/llama-cpp/0001-search-dirs.patch",
-      "https://github.com/zrsx/termux-ng/blob/0f1176907a/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
+      "https://github.com/zrsx/termux-ng/blob/14b993e249/packages/llama-cpp/0001-search-dirs.patch",
+      "https://github.com/zrsx/termux-ng/blob/14b993e249/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/0f1176907a/packages/llama-cpp/0001-search-dirs.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/0f1176907a/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/14b993e249/packages/llama-cpp/0001-search-dirs.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/14b993e249/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
     ],
     "auto_updated": true
   },
@@ -34072,7 +34072,7 @@
   },
   {
     "name": "python-cryptography",
-    "version": "48.0.1",
+    "version": "49.0.0",
     "description": "Provides cryptographic recipes and primitives to Python developers",
     "homepage": "https://github.com/pyca/cryptography",
     "depends": [
@@ -34080,11 +34080,11 @@
       "python",
       "python-pip"
     ],
-    "srcurl": "https://github.com/pyca/cryptography/archive/refs/tags/48.0.1.tar.gz",
+    "srcurl": "https://github.com/pyca/cryptography/archive/refs/tags/49.0.0.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/2023d16773/packages/python-cryptography",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/2023d16773/packages/python-cryptography/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/2023d16773/packages/python-cryptography/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/b626000ebf/packages/python-cryptography",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/b626000ebf/packages/python-cryptography/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/b626000ebf/packages/python-cryptography/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
