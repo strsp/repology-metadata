@@ -24292,7 +24292,7 @@
   },
   {
     "name": "llama-cpp",
-    "version": "b9699",
+    "version": "b9704",
     "description": "LLM inference in C/C++",
     "homepage": "https://github.com/ggml-org/llama.cpp",
     "depends": [
@@ -24300,18 +24300,18 @@
       "libc++",
       "libcurl"
     ],
-    "srcurl": "https://github.com/ggml-org/llama.cpp/archive/refs/tags/b9699.tar.gz",
+    "srcurl": "https://github.com/ggml-org/llama.cpp/archive/refs/tags/b9704.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/b27d8d2ce3/packages/llama-cpp",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/b27d8d2ce3/packages/llama-cpp/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/b27d8d2ce3/packages/llama-cpp/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/c1d9390aba/packages/llama-cpp",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/c1d9390aba/packages/llama-cpp/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/c1d9390aba/packages/llama-cpp/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/b27d8d2ce3/packages/llama-cpp/0001-search-dirs.patch",
-      "https://github.com/zrsx/termux-ng/blob/b27d8d2ce3/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
+      "https://github.com/zrsx/termux-ng/blob/c1d9390aba/packages/llama-cpp/0001-search-dirs.patch",
+      "https://github.com/zrsx/termux-ng/blob/c1d9390aba/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/b27d8d2ce3/packages/llama-cpp/0001-search-dirs.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/b27d8d2ce3/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/c1d9390aba/packages/llama-cpp/0001-search-dirs.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/c1d9390aba/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
     ],
     "auto_updated": true
   },
@@ -31165,15 +31165,15 @@
   },
   {
     "name": "orbiton",
-    "version": "2.74.3",
+    "version": "2.74.4",
     "description": "Small, fast and limited text editor",
     "homepage": "https://roboticoverlords.org/orbiton/",
     "depends": [],
-    "srcurl": "https://github.com/xyproto/orbiton/archive/refs/tags/v2.74.3.tar.gz",
+    "srcurl": "https://github.com/xyproto/orbiton/archive/refs/tags/v2.74.4.tar.gz",
     "maintainer": "Alexander F. Rødseth <xyproto@archlinux.org>",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/126f795318/packages/orbiton",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/126f795318/packages/orbiton/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/126f795318/packages/orbiton/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/4804845b50/packages/orbiton",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/4804845b50/packages/orbiton/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/4804845b50/packages/orbiton/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
