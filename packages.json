@@ -12471,15 +12471,15 @@
   },
   {
     "name": "helm",
-    "version": "4.2.1",
+    "version": "4.2.2",
     "description": "Helm helps you manage Kubernetes applications",
     "homepage": "https://helm.sh",
     "depends": [],
-    "srcurl": "https://github.com/helm/helm/archive/refs/tags/v4.2.1.tar.gz",
+    "srcurl": "https://github.com/helm/helm/archive/refs/tags/v4.2.2.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/98c5a2861d/packages/helm",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/98c5a2861d/packages/helm/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/98c5a2861d/packages/helm/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/81b64ede4e/packages/helm",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/81b64ede4e/packages/helm/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/81b64ede4e/packages/helm/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -15350,15 +15350,15 @@
   },
   {
     "name": "lhasa",
-    "version": "0.5.0",
+    "version": "0.6.0",
     "description": "LHA compressor/decompressor",
     "homepage": "https://lhasa.soulsphere.org/",
     "depends": [],
-    "srcurl": "https://github.com/fragglet/lhasa/releases/download/v0.5.0/lhasa-0.5.0.tar.gz",
+    "srcurl": "https://github.com/fragglet/lhasa/releases/download/v0.6.0/lhasa-0.6.0.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/6450153505/packages/lhasa",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/6450153505/packages/lhasa/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/6450153505/packages/lhasa/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/cf0c02c809/packages/lhasa",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/cf0c02c809/packages/lhasa/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/cf0c02c809/packages/lhasa/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -24102,7 +24102,7 @@
   },
   {
     "name": "lighttpd",
-    "version": "1.4.83",
+    "version": "1.4.84",
     "description": "Fast webserver with minimal memory footprint",
     "homepage": "https://www.lighttpd.net",
     "depends": [
@@ -24114,16 +24114,16 @@
       "pcre2",
       "zlib"
     ],
-    "srcurl": "https://download.lighttpd.net/lighttpd/releases-1.4.x/lighttpd-1.4.83.tar.xz",
+    "srcurl": "https://download.lighttpd.net/lighttpd/releases-1.4.x/lighttpd-1.4.84.tar.xz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/0190379d07/packages/lighttpd",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/0190379d07/packages/lighttpd/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/0190379d07/packages/lighttpd/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/103868c6be/packages/lighttpd",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/103868c6be/packages/lighttpd/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/103868c6be/packages/lighttpd/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/0190379d07/packages/lighttpd/termux-config.patch"
+      "https://github.com/zrsx/termux-ng/blob/103868c6be/packages/lighttpd/termux-config.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/0190379d07/packages/lighttpd/termux-config.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/103868c6be/packages/lighttpd/termux-config.patch"
     ],
     "auto_updated": true
   },
@@ -24292,7 +24292,7 @@
   },
   {
     "name": "llama-cpp",
-    "version": "b9690",
+    "version": "b9692",
     "description": "LLM inference in C/C++",
     "homepage": "https://github.com/ggml-org/llama.cpp",
     "depends": [
@@ -24300,18 +24300,18 @@
       "libc++",
       "libcurl"
     ],
-    "srcurl": "https://github.com/ggml-org/llama.cpp/archive/refs/tags/b9690.tar.gz",
+    "srcurl": "https://github.com/ggml-org/llama.cpp/archive/refs/tags/b9692.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/b58f8b4b30/packages/llama-cpp",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/b58f8b4b30/packages/llama-cpp/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/b58f8b4b30/packages/llama-cpp/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/8fbc0f368b/packages/llama-cpp",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/8fbc0f368b/packages/llama-cpp/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/8fbc0f368b/packages/llama-cpp/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/b58f8b4b30/packages/llama-cpp/0001-search-dirs.patch",
-      "https://github.com/zrsx/termux-ng/blob/b58f8b4b30/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
+      "https://github.com/zrsx/termux-ng/blob/8fbc0f368b/packages/llama-cpp/0001-search-dirs.patch",
+      "https://github.com/zrsx/termux-ng/blob/8fbc0f368b/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/b58f8b4b30/packages/llama-cpp/0001-search-dirs.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/b58f8b4b30/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/8fbc0f368b/packages/llama-cpp/0001-search-dirs.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/8fbc0f368b/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
     ],
     "auto_updated": true
   },
@@ -33361,18 +33361,18 @@
   },
   {
     "name": "proot",
-    "version": "5.1.107.79",
+    "version": "5.1.107.80",
     "description": "Emulate chroot, bind mount and binfmt_misc for non-root users",
     "homepage": "https://proot-me.github.io/",
     "depends": [
       "libandroid-shmem",
       "libtalloc"
     ],
-    "srcurl": "https://github.com/termux/proot/archive/v5.1.107.79.zip",
+    "srcurl": "https://github.com/termux/proot/archive/v5.1.107.80.zip",
     "maintainer": "Michal Bednarski @michalbednarski",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/44aa162738/packages/proot",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/44aa162738/packages/proot/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/44aa162738/packages/proot/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/bf37168462/packages/proot",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/bf37168462/packages/proot/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/bf37168462/packages/proot/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -39918,20 +39918,20 @@
   },
   {
     "name": "teleport-tsh",
-    "version": "18.8.3",
+    "version": "18.9.0",
     "description": "Secure Access for Developers that doesn't get in the way",
     "homepage": "https://github.com/gravitational/teleport",
     "depends": [],
-    "srcurl": "https://github.com/gravitational/teleport/archive/refs/tags/v18.8.3.tar.gz",
+    "srcurl": "https://github.com/gravitational/teleport/archive/refs/tags/v18.9.0.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/845d6fd94d/packages/teleport-tsh",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/845d6fd94d/packages/teleport-tsh/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/845d6fd94d/packages/teleport-tsh/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/49be6b4361/packages/teleport-tsh",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/49be6b4361/packages/teleport-tsh/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/49be6b4361/packages/teleport-tsh/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/845d6fd94d/packages/teleport-tsh/metadata_linux.go.patch"
+      "https://github.com/zrsx/termux-ng/blob/49be6b4361/packages/teleport-tsh/metadata_linux.go.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/845d6fd94d/packages/teleport-tsh/metadata_linux.go.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/49be6b4361/packages/teleport-tsh/metadata_linux.go.patch"
     ],
     "auto_updated": true
   },
@@ -42234,20 +42234,20 @@
   },
   {
     "name": "ty",
-    "version": "0.0.49",
+    "version": "0.0.50",
     "description": "An extremely fast Python type checker and language server, written in Rust",
     "homepage": "https://github.com/astral-sh/ty",
     "depends": [],
-    "srcurl": "https://github.com/astral-sh/ty/releases/download/0.0.49/source.tar.gz",
+    "srcurl": "https://github.com/astral-sh/ty/releases/download/0.0.50/source.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/6cb9c28b9f/packages/ty",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/6cb9c28b9f/packages/ty/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/6cb9c28b9f/packages/ty/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/7a0f7fae0b/packages/ty",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/7a0f7fae0b/packages/ty/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/7a0f7fae0b/packages/ty/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/6cb9c28b9f/packages/ty/rust-cc-do-not-concatenate-all-the-CFLAGS.diff"
+      "https://github.com/zrsx/termux-ng/blob/7a0f7fae0b/packages/ty/rust-cc-do-not-concatenate-all-the-CFLAGS.diff"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/6cb9c28b9f/packages/ty/rust-cc-do-not-concatenate-all-the-CFLAGS.diff"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/7a0f7fae0b/packages/ty/rust-cc-do-not-concatenate-all-the-CFLAGS.diff"
     ],
     "auto_updated": true
   },
