@@ -1011,7 +1011,7 @@
   },
   {
     "name": "appstream",
-    "version": "1.1.2",
+    "version": "1.1.3",
     "description": "Provides a standard for creating app stores across distributions",
     "homepage": "https://www.freedesktop.org/wiki/Distributions/AppStream/",
     "depends": [
@@ -1022,16 +1022,16 @@
       "libxmlb",
       "zstd"
     ],
-    "srcurl": "https://github.com/ximion/appstream/archive/refs/tags/v1.1.2.tar.gz",
+    "srcurl": "https://github.com/ximion/appstream/archive/refs/tags/v1.1.3.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/d8995b446c/packages/appstream",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/d8995b446c/packages/appstream/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/d8995b446c/packages/appstream/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/3fdb4ab14b/packages/appstream",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/3fdb4ab14b/packages/appstream/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/3fdb4ab14b/packages/appstream/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/d8995b446c/packages/appstream/meson.build.patch"
+      "https://github.com/zrsx/termux-ng/blob/3fdb4ab14b/packages/appstream/meson.build.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/d8995b446c/packages/appstream/meson.build.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/3fdb4ab14b/packages/appstream/meson.build.patch"
     ],
     "auto_updated": true
   },
@@ -6509,15 +6509,15 @@
   },
   {
     "name": "dnscontrol",
-    "version": "4.41.0",
+    "version": "4.42.0",
     "description": "Infrastructure as code for DNS!",
     "homepage": "https://github.com/StackExchange/dnscontrol",
     "depends": [],
-    "srcurl": "https://github.com/StackExchange/dnscontrol/archive/refs/tags/v4.41.0.tar.gz",
+    "srcurl": "https://github.com/StackExchange/dnscontrol/archive/refs/tags/v4.42.0.tar.gz",
     "maintainer": "Izumi Sena Sora <info@unordinary.eu.org>",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/16255493b6/packages/dnscontrol",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/16255493b6/packages/dnscontrol/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/16255493b6/packages/dnscontrol/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/3fe481a315/packages/dnscontrol",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/3fe481a315/packages/dnscontrol/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/3fe481a315/packages/dnscontrol/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -12990,17 +12990,17 @@
   },
   {
     "name": "hugo",
-    "version": "0.163.2",
+    "version": "0.163.3",
     "description": "A fast and flexible static site generator",
     "homepage": "https://gohugo.io/",
     "depends": [
       "libc++"
     ],
-    "srcurl": "https://github.com/gohugoio/hugo/archive/refs/tags/v0.163.2.tar.gz",
+    "srcurl": "https://github.com/gohugoio/hugo/archive/refs/tags/v0.163.3.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/3d266bc4c4/packages/hugo",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/3d266bc4c4/packages/hugo/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/3d266bc4c4/packages/hugo/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/d317feed2e/packages/hugo",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/d317feed2e/packages/hugo/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/d317feed2e/packages/hugo/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -38311,15 +38311,15 @@
   },
   {
     "name": "spirv-headers",
-    "version": "1.4.350.0",
+    "version": "1.4.350.1",
     "description": "SPIR-V Headers",
     "homepage": "https://github.com/KhronosGroup/SPIRV-Headers",
     "depends": [],
-    "srcurl": "https://github.com/KhronosGroup/SPIRV-Headers/archive/refs/tags/vulkan-sdk-1.4.350.0.tar.gz",
+    "srcurl": "https://github.com/KhronosGroup/SPIRV-Headers/archive/refs/tags/vulkan-sdk-1.4.350.1.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/260503c24e/packages/spirv-headers",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/260503c24e/packages/spirv-headers/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/260503c24e/packages/spirv-headers/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/3c787016fb/packages/spirv-headers",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/3c787016fb/packages/spirv-headers/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/3c787016fb/packages/spirv-headers/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -38344,22 +38344,22 @@
   },
   {
     "name": "spirv-tools",
-    "version": "1.4.350.0",
+    "version": "1.4.350.1",
     "description": "SPIR-V Tools",
     "homepage": "https://github.com/KhronosGroup/SPIRV-Tools",
     "depends": [
       "libc++"
     ],
-    "srcurl": "https://github.com/KhronosGroup/SPIRV-Tools/archive/refs/tags/vulkan-sdk-1.4.350.0.tar.gz",
+    "srcurl": "https://github.com/KhronosGroup/SPIRV-Tools/archive/refs/tags/vulkan-sdk-1.4.350.1.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/551f70091a/packages/spirv-tools",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/551f70091a/packages/spirv-tools/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/551f70091a/packages/spirv-tools/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/b6cd17ccbb/packages/spirv-tools",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/b6cd17ccbb/packages/spirv-tools/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/b6cd17ccbb/packages/spirv-tools/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/551f70091a/packages/spirv-tools/CMakeLists.txt.patch"
+      "https://github.com/zrsx/termux-ng/blob/b6cd17ccbb/packages/spirv-tools/CMakeLists.txt.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/551f70091a/packages/spirv-tools/CMakeLists.txt.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/b6cd17ccbb/packages/spirv-tools/CMakeLists.txt.patch"
     ],
     "auto_updated": true
   },
