@@ -13998,7 +13998,7 @@
   },
   {
     "name": "jackett",
-    "version": "0.24.2079",
+    "version": "0.24.2080",
     "description": "API Support for your favorite torrent trackers",
     "homepage": "https://github.com/jackett/jackett",
     "depends": [
@@ -14006,11 +14006,11 @@
       "dotnet-host",
       "dotnet-runtime-9.0"
     ],
-    "srcurl": "https://github.com/Jackett/Jackett/archive/refs/tags/v0.24.2079.tar.gz",
+    "srcurl": "https://github.com/Jackett/Jackett/archive/refs/tags/v0.24.2080.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/cd2eb82f35/packages/jackett",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/cd2eb82f35/packages/jackett/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/cd2eb82f35/packages/jackett/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/5ebc292d01/packages/jackett",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/5ebc292d01/packages/jackett/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/5ebc292d01/packages/jackett/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -24292,7 +24292,7 @@
   },
   {
     "name": "llama-cpp",
-    "version": "b9716",
+    "version": "b9722",
     "description": "LLM inference in C/C++",
     "homepage": "https://github.com/ggml-org/llama.cpp",
     "depends": [
@@ -24300,18 +24300,18 @@
       "libc++",
       "libcurl"
     ],
-    "srcurl": "https://github.com/ggml-org/llama.cpp/archive/refs/tags/b9716.tar.gz",
+    "srcurl": "https://github.com/ggml-org/llama.cpp/archive/refs/tags/b9722.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/d7e75a4051/packages/llama-cpp",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/d7e75a4051/packages/llama-cpp/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/d7e75a4051/packages/llama-cpp/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/70454876bd/packages/llama-cpp",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/70454876bd/packages/llama-cpp/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/70454876bd/packages/llama-cpp/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/d7e75a4051/packages/llama-cpp/0001-search-dirs.patch",
-      "https://github.com/zrsx/termux-ng/blob/d7e75a4051/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
+      "https://github.com/zrsx/termux-ng/blob/70454876bd/packages/llama-cpp/0001-search-dirs.patch",
+      "https://github.com/zrsx/termux-ng/blob/70454876bd/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/d7e75a4051/packages/llama-cpp/0001-search-dirs.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/d7e75a4051/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/70454876bd/packages/llama-cpp/0001-search-dirs.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/70454876bd/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
     ],
     "auto_updated": true
   },
@@ -35209,15 +35209,15 @@
   },
   {
     "name": "railway-cli",
-    "version": "5.15.0",
+    "version": "5.16.0",
     "description": "This is the command line interface for Railway",
     "homepage": "https://railway.app",
     "depends": [],
-    "srcurl": "https://github.com/railwayapp/cli/archive/refs/tags/v5.15.0.tar.gz",
+    "srcurl": "https://github.com/railwayapp/cli/archive/refs/tags/v5.16.0.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/526293cc26/packages/railway-cli",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/526293cc26/packages/railway-cli/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/526293cc26/packages/railway-cli/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/b336bbc411/packages/railway-cli",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/b336bbc411/packages/railway-cli/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/b336bbc411/packages/railway-cli/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -40838,22 +40838,22 @@
   },
   {
     "name": "tinymist",
-    "version": "0.14.18",
+    "version": "0.15.0",
     "description": "An integrated language service for Typst",
     "homepage": "https://myriad-dreamin.github.io/tinymist",
     "depends": [
       "openssl"
     ],
-    "srcurl": "https://github.com/Myriad-Dreamin/tinymist/archive/refs/tags/v0.14.18.tar.gz",
+    "srcurl": "https://github.com/Myriad-Dreamin/tinymist/archive/refs/tags/v0.15.0.tar.gz",
     "maintainer": "Joshua Kahn <tom@termux.dev>",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/959d453606/packages/tinymist",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/959d453606/packages/tinymist/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/959d453606/packages/tinymist/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/8377d234b3/packages/tinymist",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/8377d234b3/packages/tinymist/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/8377d234b3/packages/tinymist/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/959d453606/packages/tinymist/crates-tinymist-cli-Cargo.toml.patch"
+      "https://github.com/zrsx/termux-ng/blob/8377d234b3/packages/tinymist/crates-tinymist-cli-Cargo.toml.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/959d453606/packages/tinymist/crates-tinymist-cli-Cargo.toml.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/8377d234b3/packages/tinymist/crates-tinymist-cli-Cargo.toml.patch"
     ],
     "auto_updated": true
   },
@@ -42234,20 +42234,20 @@
   },
   {
     "name": "ty",
-    "version": "0.0.50",
+    "version": "0.0.51",
     "description": "An extremely fast Python type checker and language server, written in Rust",
     "homepage": "https://github.com/astral-sh/ty",
     "depends": [],
-    "srcurl": "https://github.com/astral-sh/ty/releases/download/0.0.50/source.tar.gz",
+    "srcurl": "https://github.com/astral-sh/ty/releases/download/0.0.51/source.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/7a0f7fae0b/packages/ty",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/7a0f7fae0b/packages/ty/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/7a0f7fae0b/packages/ty/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/0934808df4/packages/ty",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/0934808df4/packages/ty/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/0934808df4/packages/ty/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/7a0f7fae0b/packages/ty/rust-cc-do-not-concatenate-all-the-CFLAGS.diff"
+      "https://github.com/zrsx/termux-ng/blob/0934808df4/packages/ty/rust-cc-do-not-concatenate-all-the-CFLAGS.diff"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/7a0f7fae0b/packages/ty/rust-cc-do-not-concatenate-all-the-CFLAGS.diff"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/0934808df4/packages/ty/rust-cc-do-not-concatenate-all-the-CFLAGS.diff"
     ],
     "auto_updated": true
   },
@@ -42969,17 +42969,17 @@
   },
   {
     "name": "uv",
-    "version": "0.11.21",
+    "version": "0.11.22",
     "description": "An extremely fast Python package installer and resolver, written in Rust.",
     "homepage": "https://docs.astral.sh/uv/",
     "depends": [
       "zstd"
     ],
-    "srcurl": "https://github.com/astral-sh/uv/archive/refs/tags/0.11.21.tar.gz",
+    "srcurl": "https://github.com/astral-sh/uv/archive/refs/tags/0.11.22.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/013996eb4c/packages/uv",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/013996eb4c/packages/uv/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/013996eb4c/packages/uv/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/bbf9164024/packages/uv",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/bbf9164024/packages/uv/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/bbf9164024/packages/uv/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
