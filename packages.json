@@ -24292,7 +24292,7 @@
   },
   {
     "name": "llama-cpp",
-    "version": "b9722",
+    "version": "b9726",
     "description": "LLM inference in C/C++",
     "homepage": "https://github.com/ggml-org/llama.cpp",
     "depends": [
@@ -24300,18 +24300,18 @@
       "libc++",
       "libcurl"
     ],
-    "srcurl": "https://github.com/ggml-org/llama.cpp/archive/refs/tags/b9722.tar.gz",
+    "srcurl": "https://github.com/ggml-org/llama.cpp/archive/refs/tags/b9726.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/70454876bd/packages/llama-cpp",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/70454876bd/packages/llama-cpp/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/70454876bd/packages/llama-cpp/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/c9f319e83a/packages/llama-cpp",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/c9f319e83a/packages/llama-cpp/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/c9f319e83a/packages/llama-cpp/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/70454876bd/packages/llama-cpp/0001-search-dirs.patch",
-      "https://github.com/zrsx/termux-ng/blob/70454876bd/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
+      "https://github.com/zrsx/termux-ng/blob/c9f319e83a/packages/llama-cpp/0001-search-dirs.patch",
+      "https://github.com/zrsx/termux-ng/blob/c9f319e83a/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/70454876bd/packages/llama-cpp/0001-search-dirs.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/70454876bd/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/c9f319e83a/packages/llama-cpp/0001-search-dirs.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/c9f319e83a/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
     ],
     "auto_updated": true
   },
@@ -35209,15 +35209,15 @@
   },
   {
     "name": "railway-cli",
-    "version": "5.16.0",
+    "version": "5.17.0",
     "description": "This is the command line interface for Railway",
     "homepage": "https://railway.app",
     "depends": [],
-    "srcurl": "https://github.com/railwayapp/cli/archive/refs/tags/v5.16.0.tar.gz",
+    "srcurl": "https://github.com/railwayapp/cli/archive/refs/tags/v5.17.0.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/b336bbc411/packages/railway-cli",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/b336bbc411/packages/railway-cli/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/b336bbc411/packages/railway-cli/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/37130e3c23/packages/railway-cli",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/37130e3c23/packages/railway-cli/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/37130e3c23/packages/railway-cli/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -36799,17 +36799,17 @@
   },
   {
     "name": "sccache",
-    "version": "0.15.0",
+    "version": "0.16.0",
     "description": "sccache is ccache with cloud storage",
     "homepage": "https://github.com/mozilla/sccache",
     "depends": [
       "openssl"
     ],
-    "srcurl": "https://github.com/mozilla/sccache/archive/refs/tags/v0.15.0.tar.gz",
+    "srcurl": "https://github.com/mozilla/sccache/archive/refs/tags/v0.16.0.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/2ff4739334/packages/sccache",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/2ff4739334/packages/sccache/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/2ff4739334/packages/sccache/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/38b132dc34/packages/sccache",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/38b132dc34/packages/sccache/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/38b132dc34/packages/sccache/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
