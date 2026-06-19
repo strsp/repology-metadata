@@ -11658,17 +11658,17 @@
   },
   {
     "name": "gradle",
-    "version": "1:9.5.1",
+    "version": "1:9.6.0",
     "description": "Powerful build system for the JVM",
     "homepage": "https://gradle.org/",
     "depends": [
       "openjdk-21"
     ],
-    "srcurl": "https://services.gradle.org/distributions/gradle-9.5.1-bin.zip",
+    "srcurl": "https://services.gradle.org/distributions/gradle-9.6.0-bin.zip",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/6194341b74/packages/gradle",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/6194341b74/packages/gradle/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/6194341b74/packages/gradle/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/ed326a9b5f/packages/gradle",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/ed326a9b5f/packages/gradle/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/ed326a9b5f/packages/gradle/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -24292,7 +24292,7 @@
   },
   {
     "name": "llama-cpp",
-    "version": "b9704",
+    "version": "b9716",
     "description": "LLM inference in C/C++",
     "homepage": "https://github.com/ggml-org/llama.cpp",
     "depends": [
@@ -24300,18 +24300,18 @@
       "libc++",
       "libcurl"
     ],
-    "srcurl": "https://github.com/ggml-org/llama.cpp/archive/refs/tags/b9704.tar.gz",
+    "srcurl": "https://github.com/ggml-org/llama.cpp/archive/refs/tags/b9716.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/c1d9390aba/packages/llama-cpp",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/c1d9390aba/packages/llama-cpp/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/c1d9390aba/packages/llama-cpp/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/d7e75a4051/packages/llama-cpp",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/d7e75a4051/packages/llama-cpp/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/d7e75a4051/packages/llama-cpp/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/c1d9390aba/packages/llama-cpp/0001-search-dirs.patch",
-      "https://github.com/zrsx/termux-ng/blob/c1d9390aba/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
+      "https://github.com/zrsx/termux-ng/blob/d7e75a4051/packages/llama-cpp/0001-search-dirs.patch",
+      "https://github.com/zrsx/termux-ng/blob/d7e75a4051/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/c1d9390aba/packages/llama-cpp/0001-search-dirs.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/c1d9390aba/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/d7e75a4051/packages/llama-cpp/0001-search-dirs.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/d7e75a4051/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
     ],
     "auto_updated": true
   },
@@ -33859,20 +33859,20 @@
   },
   {
     "name": "pyrefly",
-    "version": "1.1.0",
+    "version": "1.1.1",
     "description": "A fast type checker and language server for Python",
     "homepage": "https://github.com/facebook/pyrefly.git",
     "depends": [],
-    "srcurl": "https://github.com/facebook/pyrefly/archive/refs/tags/1.1.0.tar.gz",
+    "srcurl": "https://github.com/facebook/pyrefly/archive/refs/tags/1.1.1.tar.gz",
     "maintainer": "@AhmadNaruto",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/4076c3222a/packages/pyrefly",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/4076c3222a/packages/pyrefly/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/4076c3222a/packages/pyrefly/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/eda94b05de/packages/pyrefly",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/eda94b05de/packages/pyrefly/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/eda94b05de/packages/pyrefly/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/4076c3222a/packages/pyrefly/rust-cc-do-not-concatenate-all-the-CFLAGS.diff"
+      "https://github.com/zrsx/termux-ng/blob/eda94b05de/packages/pyrefly/rust-cc-do-not-concatenate-all-the-CFLAGS.diff"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/4076c3222a/packages/pyrefly/rust-cc-do-not-concatenate-all-the-CFLAGS.diff"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/eda94b05de/packages/pyrefly/rust-cc-do-not-concatenate-all-the-CFLAGS.diff"
     ],
     "auto_updated": true
   },
