@@ -51658,7 +51658,7 @@
   },
   {
     "name": "fcitx5-configtool",
-    "version": "5.1.13",
+    "version": "5.1.14",
     "description": "Configuration tool for Fcitx5",
     "homepage": "https://fcitx-im.org/",
     "depends": [
@@ -51676,43 +51676,43 @@
       "qt6-qtsvg",
       "xkeyboard-config"
     ],
-    "srcurl": "https://github.com/fcitx/fcitx5-configtool/archive/refs/tags/5.1.13.tar.gz",
+    "srcurl": "https://github.com/fcitx/fcitx5-configtool/archive/refs/tags/5.1.14.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/069c9a008f/x11-packages/fcitx5-configtool",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/069c9a008f/x11-packages/fcitx5-configtool/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/069c9a008f/x11-packages/fcitx5-configtool/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/b8fe30e871/x11-packages/fcitx5-configtool",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/b8fe30e871/x11-packages/fcitx5-configtool/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/b8fe30e871/x11-packages/fcitx5-configtool/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/069c9a008f/x11-packages/fcitx5-configtool/fix-hardcoded-path.patch"
+      "https://github.com/zrsx/termux-ng/blob/b8fe30e871/x11-packages/fcitx5-configtool/fix-hardcoded-path.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/069c9a008f/x11-packages/fcitx5-configtool/fix-hardcoded-path.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/b8fe30e871/x11-packages/fcitx5-configtool/fix-hardcoded-path.patch"
     ],
     "auto_updated": true
   },
   {
     "name": "fcitx5-gtk-common",
-    "version": "5.1.6",
+    "version": "5.1.7",
     "description": "Fcitx gtk library",
     "homepage": "https://fcitx-im.org/",
     "depends": [
       "glib"
     ],
-    "srcurl": "https://github.com/fcitx/fcitx5-gtk/archive/refs/tags/5.1.6.tar.gz",
+    "srcurl": "https://github.com/fcitx/fcitx5-gtk/archive/refs/tags/5.1.7.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/994e44730e/x11-packages/fcitx5-gtk-common",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/994e44730e/x11-packages/fcitx5-gtk-common/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/994e44730e/x11-packages/fcitx5-gtk-common/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/830961d423/x11-packages/fcitx5-gtk-common",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/830961d423/x11-packages/fcitx5-gtk-common/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/830961d423/x11-packages/fcitx5-gtk-common/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/994e44730e/x11-packages/fcitx5-gtk-common/fcitx-gclient_CMakeLists.txt.patch"
+      "https://github.com/zrsx/termux-ng/blob/830961d423/x11-packages/fcitx5-gtk-common/fcitx-gclient_CMakeLists.txt.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/994e44730e/x11-packages/fcitx5-gtk-common/fcitx-gclient_CMakeLists.txt.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/830961d423/x11-packages/fcitx5-gtk-common/fcitx-gclient_CMakeLists.txt.patch"
     ],
     "auto_updated": true
   },
   {
     "name": "fcitx5-hangul",
-    "version": "5.1.9",
+    "version": "5.1.10",
     "description": "libhangul input method support for fcitx5",
     "homepage": "https://github.com/fcitx/fcitx5-hangul",
     "depends": [
@@ -51720,11 +51720,11 @@
       "libc++",
       "libhangul"
     ],
-    "srcurl": "https://github.com/fcitx/fcitx5-hangul/archive/refs/tags/5.1.9.tar.gz",
+    "srcurl": "https://github.com/fcitx/fcitx5-hangul/archive/refs/tags/5.1.10.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/0bf1abb6de/x11-packages/fcitx5-hangul",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/0bf1abb6de/x11-packages/fcitx5-hangul/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/0bf1abb6de/x11-packages/fcitx5-hangul/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/eb378d3846/x11-packages/fcitx5-hangul",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/eb378d3846/x11-packages/fcitx5-hangul/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/eb378d3846/x11-packages/fcitx5-hangul/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -51758,7 +51758,7 @@
   },
   {
     "name": "fcitx5-rime",
-    "version": "5.1.13",
+    "version": "5.1.14",
     "description": "RIME support for Fcitx5",
     "homepage": "https://github.com/fcitx/fcitx5-rime",
     "depends": [
@@ -51766,18 +51766,18 @@
       "libc++",
       "librime"
     ],
-    "srcurl": "https://github.com/fcitx/fcitx5-rime/archive/refs/tags/5.1.13.tar.gz",
+    "srcurl": "https://github.com/fcitx/fcitx5-rime/archive/refs/tags/5.1.14.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/53c33e69b4/x11-packages/fcitx5-rime",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/53c33e69b4/x11-packages/fcitx5-rime/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/53c33e69b4/x11-packages/fcitx5-rime/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/1bb26ed601/x11-packages/fcitx5-rime",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/1bb26ed601/x11-packages/fcitx5-rime/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/1bb26ed601/x11-packages/fcitx5-rime/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
   },
   {
     "name": "fcitx5-unikey",
-    "version": "5.1.10",
+    "version": "5.1.11",
     "description": "Unikey engine support for Fcitx5",
     "homepage": "https://github.com/fcitx/fcitx5-unikey",
     "depends": [
@@ -51786,11 +51786,11 @@
       "libc++",
       "qt6-qtbase"
     ],
-    "srcurl": "https://github.com/fcitx/fcitx5-unikey/archive/refs/tags/5.1.10.tar.gz",
+    "srcurl": "https://github.com/fcitx/fcitx5-unikey/archive/refs/tags/5.1.11.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/cbd9e81da9/x11-packages/fcitx5-unikey",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/cbd9e81da9/x11-packages/fcitx5-unikey/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/cbd9e81da9/x11-packages/fcitx5-unikey/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/290a73cab9/x11-packages/fcitx5-unikey",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/290a73cab9/x11-packages/fcitx5-unikey/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/290a73cab9/x11-packages/fcitx5-unikey/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -59156,7 +59156,7 @@
   },
   {
     "name": "libime",
-    "version": "1.1.14",
+    "version": "1.1.15",
     "description": "A library to support generic input method implementation",
     "homepage": "https://github.com/fcitx/libime",
     "depends": [
@@ -59168,14 +59168,14 @@
     ],
     "srcurl": "git+https://github.com/fcitx/libime",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/7d19bac5c1/x11-packages/libime",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/7d19bac5c1/x11-packages/libime/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/7d19bac5c1/x11-packages/libime/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/9e9b714409/x11-packages/libime",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/9e9b714409/x11-packages/libime/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/9e9b714409/x11-packages/libime/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/7d19bac5c1/x11-packages/libime/data-CMakeLists.txt.diff"
+      "https://github.com/zrsx/termux-ng/blob/9e9b714409/x11-packages/libime/data-CMakeLists.txt.diff"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/7d19bac5c1/x11-packages/libime/data-CMakeLists.txt.diff"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/9e9b714409/x11-packages/libime/data-CMakeLists.txt.diff"
     ],
     "auto_updated": true
   },
@@ -65125,7 +65125,7 @@
   },
   {
     "name": "pwsafe",
-    "version": "1.24.0",
+    "version": "3.72.0",
     "description": "Popular secure and convenient password manager",
     "homepage": "https://pwsafe.org/",
     "depends": [
@@ -65134,20 +65134,20 @@
       "wxwidgets",
       "xerces-c"
     ],
-    "srcurl": "https://github.com/pwsafe/pwsafe/archive/refs/tags/1.24.0.tar.gz",
+    "srcurl": "https://github.com/pwsafe/pwsafe/archive/refs/tags/3.72.0.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/71ae8526b1/x11-packages/pwsafe",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/71ae8526b1/x11-packages/pwsafe/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/71ae8526b1/x11-packages/pwsafe/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/b56e4487d5/x11-packages/pwsafe",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/b56e4487d5/x11-packages/pwsafe/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/b56e4487d5/x11-packages/pwsafe/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/71ae8526b1/x11-packages/pwsafe/disable-language.patch",
-      "https://github.com/zrsx/termux-ng/blob/71ae8526b1/x11-packages/pwsafe/prepend-prefix.patch",
-      "https://github.com/zrsx/termux-ng/blob/71ae8526b1/x11-packages/pwsafe/wxwidgets-workaround.patch"
+      "https://github.com/zrsx/termux-ng/blob/b56e4487d5/x11-packages/pwsafe/disable-language.patch",
+      "https://github.com/zrsx/termux-ng/blob/b56e4487d5/x11-packages/pwsafe/prepend-prefix.patch",
+      "https://github.com/zrsx/termux-ng/blob/b56e4487d5/x11-packages/pwsafe/wxwidgets-workaround.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/71ae8526b1/x11-packages/pwsafe/disable-language.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/71ae8526b1/x11-packages/pwsafe/prepend-prefix.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/71ae8526b1/x11-packages/pwsafe/wxwidgets-workaround.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/b56e4487d5/x11-packages/pwsafe/disable-language.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/b56e4487d5/x11-packages/pwsafe/prepend-prefix.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/b56e4487d5/x11-packages/pwsafe/wxwidgets-workaround.patch"
     ],
     "auto_updated": true
   },
