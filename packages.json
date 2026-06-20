@@ -24292,7 +24292,7 @@
   },
   {
     "name": "llama-cpp",
-    "version": "b9733",
+    "version": "b9738",
     "description": "LLM inference in C/C++",
     "homepage": "https://github.com/ggml-org/llama.cpp",
     "depends": [
@@ -24300,18 +24300,18 @@
       "libc++",
       "libcurl"
     ],
-    "srcurl": "https://github.com/ggml-org/llama.cpp/archive/refs/tags/b9733.tar.gz",
+    "srcurl": "https://github.com/ggml-org/llama.cpp/archive/refs/tags/b9738.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/0aaa64c914/packages/llama-cpp",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/0aaa64c914/packages/llama-cpp/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/0aaa64c914/packages/llama-cpp/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/f0b73e09e0/packages/llama-cpp",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/f0b73e09e0/packages/llama-cpp/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/f0b73e09e0/packages/llama-cpp/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/0aaa64c914/packages/llama-cpp/0001-search-dirs.patch",
-      "https://github.com/zrsx/termux-ng/blob/0aaa64c914/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
+      "https://github.com/zrsx/termux-ng/blob/f0b73e09e0/packages/llama-cpp/0001-search-dirs.patch",
+      "https://github.com/zrsx/termux-ng/blob/f0b73e09e0/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/0aaa64c914/packages/llama-cpp/0001-search-dirs.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/0aaa64c914/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/f0b73e09e0/packages/llama-cpp/0001-search-dirs.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/f0b73e09e0/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
     ],
     "auto_updated": true
   },
@@ -35209,15 +35209,15 @@
   },
   {
     "name": "railway-cli",
-    "version": "5.19.0",
+    "version": "5.20.0",
     "description": "This is the command line interface for Railway",
     "homepage": "https://railway.app",
     "depends": [],
-    "srcurl": "https://github.com/railwayapp/cli/archive/refs/tags/v5.19.0.tar.gz",
+    "srcurl": "https://github.com/railwayapp/cli/archive/refs/tags/v5.20.0.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/58b1facc6b/packages/railway-cli",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/58b1facc6b/packages/railway-cli/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/58b1facc6b/packages/railway-cli/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/7928817ba8/packages/railway-cli",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/7928817ba8/packages/railway-cli/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/7928817ba8/packages/railway-cli/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -41154,15 +41154,15 @@
   },
   {
     "name": "topgrade",
-    "version": "17.6.1",
+    "version": "17.6.2",
     "description": "Upgrade all the things",
     "homepage": "https://github.com/topgrade-rs/topgrade/",
     "depends": [],
-    "srcurl": "https://github.com/topgrade-rs/topgrade/archive/refs/tags/v17.6.1.tar.gz",
+    "srcurl": "https://github.com/topgrade-rs/topgrade/archive/refs/tags/v17.6.2.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/26d7d246b3/packages/topgrade",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/26d7d246b3/packages/topgrade/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/26d7d246b3/packages/topgrade/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/0a9df3abc8/packages/topgrade",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/0a9df3abc8/packages/topgrade/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/0a9df3abc8/packages/topgrade/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -44021,15 +44021,15 @@
   },
   {
     "name": "wakatime-cli",
-    "version": "2.20.3",
+    "version": "2.20.4",
     "description": "Command line interface used by all WakaTime text editor plugins",
     "homepage": "https://wakatime.com/plugins/",
     "depends": [],
-    "srcurl": "https://github.com/wakatime/wakatime-cli/archive/refs/tags/v2.20.3.tar.gz",
+    "srcurl": "https://github.com/wakatime/wakatime-cli/archive/refs/tags/v2.20.4.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/502ba69b52/packages/wakatime-cli",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/502ba69b52/packages/wakatime-cli/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/502ba69b52/packages/wakatime-cli/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/9120418a0a/packages/wakatime-cli",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/9120418a0a/packages/wakatime-cli/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/9120418a0a/packages/wakatime-cli/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
