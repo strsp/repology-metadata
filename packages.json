@@ -22926,17 +22926,17 @@
   },
   {
     "name": "libvmaf",
-    "version": "3.1.0",
+    "version": "3.2.0",
     "description": "A perceptual video quality assessment algorithm developed by Netflix",
     "homepage": "https://github.com/Netflix/vmaf",
     "depends": [
       "libc++"
     ],
-    "srcurl": "https://github.com/Netflix/vmaf/archive/refs/tags/v3.1.0.tar.gz",
+    "srcurl": "https://github.com/Netflix/vmaf/archive/refs/tags/v3.2.0.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/32c3ad09da/packages/libvmaf",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/32c3ad09da/packages/libvmaf/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/32c3ad09da/packages/libvmaf/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/9bb1640a9d/packages/libvmaf",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/9bb1640a9d/packages/libvmaf/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/9bb1640a9d/packages/libvmaf/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -24292,7 +24292,7 @@
   },
   {
     "name": "llama-cpp",
-    "version": "b9728",
+    "version": "b9733",
     "description": "LLM inference in C/C++",
     "homepage": "https://github.com/ggml-org/llama.cpp",
     "depends": [
@@ -24300,18 +24300,18 @@
       "libc++",
       "libcurl"
     ],
-    "srcurl": "https://github.com/ggml-org/llama.cpp/archive/refs/tags/b9728.tar.gz",
+    "srcurl": "https://github.com/ggml-org/llama.cpp/archive/refs/tags/b9733.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/6303958d07/packages/llama-cpp",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/6303958d07/packages/llama-cpp/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/6303958d07/packages/llama-cpp/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/0aaa64c914/packages/llama-cpp",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/0aaa64c914/packages/llama-cpp/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/0aaa64c914/packages/llama-cpp/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/6303958d07/packages/llama-cpp/0001-search-dirs.patch",
-      "https://github.com/zrsx/termux-ng/blob/6303958d07/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
+      "https://github.com/zrsx/termux-ng/blob/0aaa64c914/packages/llama-cpp/0001-search-dirs.patch",
+      "https://github.com/zrsx/termux-ng/blob/0aaa64c914/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/6303958d07/packages/llama-cpp/0001-search-dirs.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/6303958d07/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/0aaa64c914/packages/llama-cpp/0001-search-dirs.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/0aaa64c914/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
     ],
     "auto_updated": true
   },
@@ -35209,15 +35209,15 @@
   },
   {
     "name": "railway-cli",
-    "version": "5.18.0",
+    "version": "5.19.0",
     "description": "This is the command line interface for Railway",
     "homepage": "https://railway.app",
     "depends": [],
-    "srcurl": "https://github.com/railwayapp/cli/archive/refs/tags/v5.18.0.tar.gz",
+    "srcurl": "https://github.com/railwayapp/cli/archive/refs/tags/v5.19.0.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/e2e4f9e42e/packages/railway-cli",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/e2e4f9e42e/packages/railway-cli/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/e2e4f9e42e/packages/railway-cli/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/58b1facc6b/packages/railway-cli",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/58b1facc6b/packages/railway-cli/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/58b1facc6b/packages/railway-cli/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -44021,15 +44021,15 @@
   },
   {
     "name": "wakatime-cli",
-    "version": "2.19.1",
+    "version": "2.20.2",
     "description": "Command line interface used by all WakaTime text editor plugins",
     "homepage": "https://wakatime.com/plugins/",
     "depends": [],
-    "srcurl": "https://github.com/wakatime/wakatime-cli/archive/refs/tags/v2.19.1.tar.gz",
+    "srcurl": "https://github.com/wakatime/wakatime-cli/archive/refs/tags/v2.20.2.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/af551988d5/packages/wakatime-cli",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/af551988d5/packages/wakatime-cli/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/af551988d5/packages/wakatime-cli/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/178005d7d9/packages/wakatime-cli",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/178005d7d9/packages/wakatime-cli/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/178005d7d9/packages/wakatime-cli/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -44850,15 +44850,15 @@
   },
   {
     "name": "xh",
-    "version": "0.25.3",
+    "version": "0.26.1",
     "description": "A friendly and fast tool for sending HTTP requests",
     "homepage": "https://github.com/ducaale/xh",
     "depends": [],
-    "srcurl": "https://github.com/ducaale/xh/archive/refs/tags/v0.25.3.tar.gz",
+    "srcurl": "https://github.com/ducaale/xh/archive/refs/tags/v0.26.1.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/1a6e09b8db/packages/xh",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/1a6e09b8db/packages/xh/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/1a6e09b8db/packages/xh/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/94d80e5411/packages/xh",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/94d80e5411/packages/xh/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/94d80e5411/packages/xh/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
