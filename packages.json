@@ -13998,7 +13998,7 @@
   },
   {
     "name": "jackett",
-    "version": "0.24.2098",
+    "version": "0.24.2108",
     "description": "API Support for your favorite torrent trackers",
     "homepage": "https://github.com/jackett/jackett",
     "depends": [
@@ -14006,11 +14006,11 @@
       "dotnet-host",
       "dotnet-runtime-9.0"
     ],
-    "srcurl": "https://github.com/Jackett/Jackett/archive/refs/tags/v0.24.2098.tar.gz",
+    "srcurl": "https://github.com/Jackett/Jackett/archive/refs/tags/v0.24.2108.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/c7b7d1c770/packages/jackett",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/c7b7d1c770/packages/jackett/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/c7b7d1c770/packages/jackett/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/67961bcac9/packages/jackett",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/67961bcac9/packages/jackett/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/67961bcac9/packages/jackett/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -22328,7 +22328,7 @@
   },
   {
     "name": "libtorrent",
-    "version": "0.16.14",
+    "version": "0.16.15",
     "description": "Libtorrent BitTorrent library",
     "homepage": "https://github.com/rakshasa/rtorrent/wiki",
     "depends": [
@@ -22338,18 +22338,18 @@
       "resolv-conf",
       "zlib"
     ],
-    "srcurl": "https://github.com/rakshasa/libtorrent/archive/refs/tags/v0.16.14.tar.gz",
+    "srcurl": "https://github.com/rakshasa/libtorrent/archive/refs/tags/v0.16.15.tar.gz",
     "maintainer": "Krishna Kanhaiya @kcubeterm",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/f4a220bbf1/packages/libtorrent",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/f4a220bbf1/packages/libtorrent/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/f4a220bbf1/packages/libtorrent/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/6af309cfcc/packages/libtorrent",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/6af309cfcc/packages/libtorrent/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/6af309cfcc/packages/libtorrent/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/f4a220bbf1/packages/libtorrent/0001-fix-build-for-32bit.patch",
-      "https://github.com/zrsx/termux-ng/blob/f4a220bbf1/packages/libtorrent/resolv-conf.patch"
+      "https://github.com/zrsx/termux-ng/blob/6af309cfcc/packages/libtorrent/0001-fix-build-for-32bit.patch",
+      "https://github.com/zrsx/termux-ng/blob/6af309cfcc/packages/libtorrent/resolv-conf.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/f4a220bbf1/packages/libtorrent/0001-fix-build-for-32bit.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/f4a220bbf1/packages/libtorrent/resolv-conf.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/6af309cfcc/packages/libtorrent/0001-fix-build-for-32bit.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/6af309cfcc/packages/libtorrent/resolv-conf.patch"
     ],
     "auto_updated": true
   },
@@ -24292,7 +24292,7 @@
   },
   {
     "name": "llama-cpp",
-    "version": "b9754",
+    "version": "b9758",
     "description": "LLM inference in C/C++",
     "homepage": "https://github.com/ggml-org/llama.cpp",
     "depends": [
@@ -24300,18 +24300,18 @@
       "libc++",
       "libcurl"
     ],
-    "srcurl": "https://github.com/ggml-org/llama.cpp/archive/refs/tags/b9754.tar.gz",
+    "srcurl": "https://github.com/ggml-org/llama.cpp/archive/refs/tags/b9758.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/1c0ba932f4/packages/llama-cpp",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/1c0ba932f4/packages/llama-cpp/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/1c0ba932f4/packages/llama-cpp/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/24a4e17ec6/packages/llama-cpp",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/24a4e17ec6/packages/llama-cpp/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/24a4e17ec6/packages/llama-cpp/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/1c0ba932f4/packages/llama-cpp/0001-search-dirs.patch",
-      "https://github.com/zrsx/termux-ng/blob/1c0ba932f4/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
+      "https://github.com/zrsx/termux-ng/blob/24a4e17ec6/packages/llama-cpp/0001-search-dirs.patch",
+      "https://github.com/zrsx/termux-ng/blob/24a4e17ec6/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/1c0ba932f4/packages/llama-cpp/0001-search-dirs.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/1c0ba932f4/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/24a4e17ec6/packages/llama-cpp/0001-search-dirs.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/24a4e17ec6/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
     ],
     "auto_updated": true
   },
@@ -31308,15 +31308,15 @@
   },
   {
     "name": "oxlint",
-    "version": "1.70.0",
+    "version": "1.71.0",
     "description": "Oxc JavaScript linter",
     "homepage": "https://oxc.rs/",
     "depends": [],
-    "srcurl": "https://github.com/oxc-project/oxc/archive/refs/tags/oxlint_v1.70.0.tar.gz",
+    "srcurl": "https://github.com/oxc-project/oxc/archive/refs/tags/oxlint_v1.71.0.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/f631dffece/packages/oxlint",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/f631dffece/packages/oxlint/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/f631dffece/packages/oxlint/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/699eb060d1/packages/oxlint",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/699eb060d1/packages/oxlint/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/699eb060d1/packages/oxlint/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -40838,22 +40838,22 @@
   },
   {
     "name": "tinymist",
-    "version": "0.15.0",
+    "version": "0.15.2",
     "description": "An integrated language service for Typst",
     "homepage": "https://myriad-dreamin.github.io/tinymist",
     "depends": [
       "openssl"
     ],
-    "srcurl": "https://github.com/Myriad-Dreamin/tinymist/archive/refs/tags/v0.15.0.tar.gz",
+    "srcurl": "https://github.com/Myriad-Dreamin/tinymist/archive/refs/tags/v0.15.2.tar.gz",
     "maintainer": "Joshua Kahn <tom@termux.dev>",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/8377d234b3/packages/tinymist",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/8377d234b3/packages/tinymist/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/8377d234b3/packages/tinymist/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/3100b267ab/packages/tinymist",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/3100b267ab/packages/tinymist/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/3100b267ab/packages/tinymist/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/8377d234b3/packages/tinymist/crates-tinymist-cli-Cargo.toml.patch"
+      "https://github.com/zrsx/termux-ng/blob/3100b267ab/packages/tinymist/crates-tinymist-cli-Cargo.toml.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/8377d234b3/packages/tinymist/crates-tinymist-cli-Cargo.toml.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/3100b267ab/packages/tinymist/crates-tinymist-cli-Cargo.toml.patch"
     ],
     "auto_updated": true
   },
