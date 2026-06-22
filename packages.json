@@ -24292,7 +24292,7 @@
   },
   {
     "name": "llama-cpp",
-    "version": "b9753",
+    "version": "b9754",
     "description": "LLM inference in C/C++",
     "homepage": "https://github.com/ggml-org/llama.cpp",
     "depends": [
@@ -24300,18 +24300,18 @@
       "libc++",
       "libcurl"
     ],
-    "srcurl": "https://github.com/ggml-org/llama.cpp/archive/refs/tags/b9753.tar.gz",
+    "srcurl": "https://github.com/ggml-org/llama.cpp/archive/refs/tags/b9754.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/86dac90b95/packages/llama-cpp",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/86dac90b95/packages/llama-cpp/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/86dac90b95/packages/llama-cpp/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/1c0ba932f4/packages/llama-cpp",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/1c0ba932f4/packages/llama-cpp/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/1c0ba932f4/packages/llama-cpp/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/86dac90b95/packages/llama-cpp/0001-search-dirs.patch",
-      "https://github.com/zrsx/termux-ng/blob/86dac90b95/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
+      "https://github.com/zrsx/termux-ng/blob/1c0ba932f4/packages/llama-cpp/0001-search-dirs.patch",
+      "https://github.com/zrsx/termux-ng/blob/1c0ba932f4/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/86dac90b95/packages/llama-cpp/0001-search-dirs.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/86dac90b95/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/1c0ba932f4/packages/llama-cpp/0001-search-dirs.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/1c0ba932f4/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
     ],
     "auto_updated": true
   },
@@ -26847,25 +26847,25 @@
   },
   {
     "name": "mise",
-    "version": "2026.6.11",
+    "version": "2026.6.12",
     "description": "dev tools, env vars, task runner",
     "homepage": "https://mise.jdx.dev/",
     "depends": [
       "bzip2",
       "openssl"
     ],
-    "srcurl": "https://github.com/jdx/mise/archive/refs/tags/v2026.6.11.tar.gz",
+    "srcurl": "https://github.com/jdx/mise/archive/refs/tags/v2026.6.12.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/20b54dd74f/packages/mise",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/20b54dd74f/packages/mise/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/20b54dd74f/packages/mise/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/e2ae38a12d/packages/mise",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/e2ae38a12d/packages/mise/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/e2ae38a12d/packages/mise/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/20b54dd74f/packages/mise/rattler_pty-android-target.diff",
-      "https://github.com/zrsx/termux-ng/blob/20b54dd74f/packages/mise/rust-cc-do-not-concatenate-all-the-CFLAGS.diff"
+      "https://github.com/zrsx/termux-ng/blob/e2ae38a12d/packages/mise/rattler_pty-android-target.diff",
+      "https://github.com/zrsx/termux-ng/blob/e2ae38a12d/packages/mise/rust-cc-do-not-concatenate-all-the-CFLAGS.diff"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/20b54dd74f/packages/mise/rattler_pty-android-target.diff",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/20b54dd74f/packages/mise/rust-cc-do-not-concatenate-all-the-CFLAGS.diff"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/e2ae38a12d/packages/mise/rattler_pty-android-target.diff",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/e2ae38a12d/packages/mise/rust-cc-do-not-concatenate-all-the-CFLAGS.diff"
     ],
     "auto_updated": true
   },
@@ -36474,17 +36474,17 @@
   },
   {
     "name": "rust-analyzer",
-    "version": "2026-06-15",
+    "version": "2026-06-22",
     "description": "A Rust compiler front-end for IDEs",
     "homepage": "https://rust-analyzer.github.io/",
     "depends": [
       "rust-src"
     ],
-    "srcurl": "https://github.com/rust-lang/rust-analyzer/archive/refs/tags/2026-06-15.tar.gz",
+    "srcurl": "https://github.com/rust-lang/rust-analyzer/archive/refs/tags/2026-06-22.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/17b987ec58/packages/rust-analyzer",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/17b987ec58/packages/rust-analyzer/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/17b987ec58/packages/rust-analyzer/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/ce230826d1/packages/rust-analyzer",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/ce230826d1/packages/rust-analyzer/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/ce230826d1/packages/rust-analyzer/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -42034,17 +42034,17 @@
   },
   {
     "name": "ttyplot",
-    "version": "1.7.4",
+    "version": "1.7.5",
     "description": "A realtime plotting utility for terminal with data input from stdin",
     "homepage": "https://github.com/tenox7/ttyplot",
     "depends": [
       "ncurses"
     ],
-    "srcurl": "https://github.com/tenox7/ttyplot/archive/refs/tags/1.7.4.tar.gz",
+    "srcurl": "https://github.com/tenox7/ttyplot/archive/refs/tags/1.7.5.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/4ca4c3ed74/packages/ttyplot",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/4ca4c3ed74/packages/ttyplot/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/4ca4c3ed74/packages/ttyplot/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/fc9901cbdb/packages/ttyplot",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/fc9901cbdb/packages/ttyplot/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/fc9901cbdb/packages/ttyplot/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
