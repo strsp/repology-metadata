@@ -319,17 +319,17 @@
   },
   {
     "name": "acr",
-    "version": "2.2.6",
+    "version": "2.2.8",
     "description": "A fully compatible autoconf replacement",
     "homepage": "https://github.com/radareorg/acr",
     "depends": [
       "dash"
     ],
-    "srcurl": "https://github.com/radareorg/acr/archive/refs/tags/2.2.6.tar.gz",
+    "srcurl": "https://github.com/radareorg/acr/archive/refs/tags/2.2.8.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/37f0bbda3c/packages/acr",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/37f0bbda3c/packages/acr/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/37f0bbda3c/packages/acr/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/55ab5804cb/packages/acr",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/55ab5804cb/packages/acr/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/55ab5804cb/packages/acr/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
