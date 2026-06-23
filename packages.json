@@ -46272,17 +46272,17 @@
   },
   {
     "name": "docker-compose",
-    "version": "5.1.4",
+    "version": "5.2.0",
     "description": "Compose is a tool for defining and running multi-container Docker applications.",
     "homepage": "https://github.com/docker/compose",
     "depends": [
       "docker"
     ],
-    "srcurl": "https://github.com/docker/compose/archive/refs/tags/v5.1.4.tar.gz",
+    "srcurl": "https://github.com/docker/compose/archive/refs/tags/v5.2.0.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/1d4a7d406a/root-packages/docker-compose",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/1d4a7d406a/root-packages/docker-compose/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/1d4a7d406a/root-packages/docker-compose/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/0fd31d6fd8/root-packages/docker-compose",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/0fd31d6fd8/root-packages/docker-compose/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/0fd31d6fd8/root-packages/docker-compose/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -63690,17 +63690,17 @@
   },
   {
     "name": "oxygen-sounds",
-    "version": "6.7.0",
+    "version": "6.7.1",
     "description": "The Oxygen Sound Theme by KDE",
     "homepage": "https://invent.kde.org/plasma/oxygen-sounds",
     "depends": [
       "libc++"
     ],
-    "srcurl": "https://download.kde.org/stable/plasma/6.7.0/oxygen-sounds-6.7.0.tar.xz",
+    "srcurl": "https://download.kde.org/stable/plasma/6.7.1/oxygen-sounds-6.7.1.tar.xz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/787a145937/x11-packages/oxygen-sounds",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/787a145937/x11-packages/oxygen-sounds/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/787a145937/x11-packages/oxygen-sounds/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/8a660bfc18/x11-packages/oxygen-sounds",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/8a660bfc18/x11-packages/oxygen-sounds/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/8a660bfc18/x11-packages/oxygen-sounds/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
