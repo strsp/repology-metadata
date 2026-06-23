@@ -24292,7 +24292,7 @@
   },
   {
     "name": "llama-cpp",
-    "version": "b9771",
+    "version": "b9775",
     "description": "LLM inference in C/C++",
     "homepage": "https://github.com/ggml-org/llama.cpp",
     "depends": [
@@ -24300,18 +24300,18 @@
       "libc++",
       "libcurl"
     ],
-    "srcurl": "https://github.com/ggml-org/llama.cpp/archive/refs/tags/b9771.tar.gz",
+    "srcurl": "https://github.com/ggml-org/llama.cpp/archive/refs/tags/b9775.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/39e464cefb/packages/llama-cpp",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/39e464cefb/packages/llama-cpp/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/39e464cefb/packages/llama-cpp/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/cb2a3d63a8/packages/llama-cpp",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/cb2a3d63a8/packages/llama-cpp/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/cb2a3d63a8/packages/llama-cpp/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/39e464cefb/packages/llama-cpp/0001-search-dirs.patch",
-      "https://github.com/zrsx/termux-ng/blob/39e464cefb/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
+      "https://github.com/zrsx/termux-ng/blob/cb2a3d63a8/packages/llama-cpp/0001-search-dirs.patch",
+      "https://github.com/zrsx/termux-ng/blob/cb2a3d63a8/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/39e464cefb/packages/llama-cpp/0001-search-dirs.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/39e464cefb/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/cb2a3d63a8/packages/llama-cpp/0001-search-dirs.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/cb2a3d63a8/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
     ],
     "auto_updated": true
   },
@@ -25099,7 +25099,7 @@
   },
   {
     "name": "lux-cli",
-    "version": "0.33.2",
+    "version": "0.33.3",
     "description": "A package manager for Lua, similar to luarocks",
     "homepage": "https://lux.lumen-labs.org",
     "depends": [
@@ -25111,11 +25111,11 @@
       "openssl",
       "xz-utils"
     ],
-    "srcurl": "https://github.com/lumen-oss/lux/archive/refs/tags/v0.33.2.tar.gz",
+    "srcurl": "https://github.com/lumen-oss/lux/archive/refs/tags/v0.33.3.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/c1567b1207/packages/lux-cli",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/c1567b1207/packages/lux-cli/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/c1567b1207/packages/lux-cli/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/f37d45682d/packages/lux-cli",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/f37d45682d/packages/lux-cli/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/f37d45682d/packages/lux-cli/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -27987,7 +27987,7 @@
   },
   {
     "name": "mympd",
-    "version": "25.2.1",
+    "version": "25.2.2",
     "description": "A standalone and lightweight web-based MPD client",
     "homepage": "https://jcorporation.github.io/myMPD/",
     "depends": [
@@ -27998,24 +27998,24 @@
       "pcre2",
       "resolv-conf"
     ],
-    "srcurl": "https://github.com/jcorporation/myMPD/archive/refs/tags/v25.2.1.tar.gz",
+    "srcurl": "https://github.com/jcorporation/myMPD/archive/refs/tags/v25.2.2.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/6a88a378a4/packages/mympd",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/6a88a378a4/packages/mympd/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/6a88a378a4/packages/mympd/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/78342ca56a/packages/mympd",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/78342ca56a/packages/mympd/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/78342ca56a/packages/mympd/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/6a88a378a4/packages/mympd/CMakeLists.txt.patch",
-      "https://github.com/zrsx/termux-ng/blob/6a88a378a4/packages/mympd/dist-libmpdclient-include-config.h.patch",
-      "https://github.com/zrsx/termux-ng/blob/6a88a378a4/packages/mympd/src-lib-cacertstore.c.patch",
-      "https://github.com/zrsx/termux-ng/blob/6a88a378a4/packages/mympd/src-lib-http_client.c.patch",
-      "https://github.com/zrsx/termux-ng/blob/6a88a378a4/packages/mympd/src-mympd_client-autoconf.c.patch"
+      "https://github.com/zrsx/termux-ng/blob/78342ca56a/packages/mympd/CMakeLists.txt.patch",
+      "https://github.com/zrsx/termux-ng/blob/78342ca56a/packages/mympd/dist-libmpdclient-include-config.h.patch",
+      "https://github.com/zrsx/termux-ng/blob/78342ca56a/packages/mympd/src-lib-cacertstore.c.patch",
+      "https://github.com/zrsx/termux-ng/blob/78342ca56a/packages/mympd/src-lib-http_client.c.patch",
+      "https://github.com/zrsx/termux-ng/blob/78342ca56a/packages/mympd/src-mympd_client-autoconf.c.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/6a88a378a4/packages/mympd/CMakeLists.txt.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/6a88a378a4/packages/mympd/dist-libmpdclient-include-config.h.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/6a88a378a4/packages/mympd/src-lib-cacertstore.c.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/6a88a378a4/packages/mympd/src-lib-http_client.c.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/6a88a378a4/packages/mympd/src-mympd_client-autoconf.c.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/78342ca56a/packages/mympd/CMakeLists.txt.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/78342ca56a/packages/mympd/dist-libmpdclient-include-config.h.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/78342ca56a/packages/mympd/src-lib-cacertstore.c.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/78342ca56a/packages/mympd/src-lib-http_client.c.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/78342ca56a/packages/mympd/src-mympd_client-autoconf.c.patch"
     ],
     "auto_updated": true
   },
@@ -41169,7 +41169,7 @@
   },
   {
     "name": "tor",
-    "version": "0.4.9.9",
+    "version": "0.4.9.10",
     "description": "The Onion Router anonymizing overlay network",
     "homepage": "https://www.torproject.org",
     "depends": [
@@ -41179,20 +41179,20 @@
       "resolv-conf",
       "zlib"
     ],
-    "srcurl": "https://www.torproject.org/dist/tor-0.4.9.9.tar.gz",
+    "srcurl": "https://www.torproject.org/dist/tor-0.4.9.10.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/1a3c10cc99/packages/tor",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/1a3c10cc99/packages/tor/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/1a3c10cc99/packages/tor/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/18a2488d00/packages/tor",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/18a2488d00/packages/tor/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/18a2488d00/packages/tor/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/1a3c10cc99/packages/tor/remove-adbism.patch",
-      "https://github.com/zrsx/termux-ng/blob/1a3c10cc99/packages/tor/src-app-main-main.c.patch",
-      "https://github.com/zrsx/termux-ng/blob/1a3c10cc99/packages/tor/src-feature-relay-dns.c.patch"
+      "https://github.com/zrsx/termux-ng/blob/18a2488d00/packages/tor/remove-adbism.patch",
+      "https://github.com/zrsx/termux-ng/blob/18a2488d00/packages/tor/src-app-main-main.c.patch",
+      "https://github.com/zrsx/termux-ng/blob/18a2488d00/packages/tor/src-feature-relay-dns.c.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/1a3c10cc99/packages/tor/remove-adbism.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/1a3c10cc99/packages/tor/src-app-main-main.c.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/1a3c10cc99/packages/tor/src-feature-relay-dns.c.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/18a2488d00/packages/tor/remove-adbism.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/18a2488d00/packages/tor/src-app-main-main.c.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/18a2488d00/packages/tor/src-feature-relay-dns.c.patch"
     ],
     "auto_updated": true
   },
