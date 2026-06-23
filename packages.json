@@ -7572,18 +7572,18 @@
   },
   {
     "name": "elixir",
-    "version": "1.20.1",
+    "version": "1.20.2",
     "description": "Elixir is a dynamic, functional language designed for building scalable and maintainable applications",
     "homepage": "https://elixir-lang.org/",
     "depends": [
       "dash",
       "erlang"
     ],
-    "srcurl": "https://github.com/elixir-lang/elixir/releases/download/v1.20.1/elixir-otp-29.zip",
+    "srcurl": "https://github.com/elixir-lang/elixir/releases/download/v1.20.2/elixir-otp-29.zip",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/2ab3c23a2c/packages/elixir",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/2ab3c23a2c/packages/elixir/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/2ab3c23a2c/packages/elixir/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/5c4fbdcb9f/packages/elixir",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/5c4fbdcb9f/packages/elixir/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/5c4fbdcb9f/packages/elixir/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -10464,15 +10464,15 @@
   },
   {
     "name": "glab-cli",
-    "version": "1.103.0",
+    "version": "1.104.0",
     "description": "A GitLab CLI tool bringing GitLab to your command line",
     "homepage": "https://gitlab.com/gitlab-org/cli",
     "depends": [],
-    "srcurl": "https://gitlab.com/gitlab-org/cli/-/archive/v1.103.0/cli-1.103.0.tar.bz2",
+    "srcurl": "https://gitlab.com/gitlab-org/cli/-/archive/v1.104.0/cli-1.104.0.tar.bz2",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/1992e2dd64/packages/glab-cli",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/1992e2dd64/packages/glab-cli/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/1992e2dd64/packages/glab-cli/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/dbc7191ec8/packages/glab-cli",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/dbc7191ec8/packages/glab-cli/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/dbc7191ec8/packages/glab-cli/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -24292,7 +24292,7 @@
   },
   {
     "name": "llama-cpp",
-    "version": "b9767",
+    "version": "b9771",
     "description": "LLM inference in C/C++",
     "homepage": "https://github.com/ggml-org/llama.cpp",
     "depends": [
@@ -24300,18 +24300,18 @@
       "libc++",
       "libcurl"
     ],
-    "srcurl": "https://github.com/ggml-org/llama.cpp/archive/refs/tags/b9767.tar.gz",
+    "srcurl": "https://github.com/ggml-org/llama.cpp/archive/refs/tags/b9771.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/025fab8c46/packages/llama-cpp",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/025fab8c46/packages/llama-cpp/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/025fab8c46/packages/llama-cpp/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/39e464cefb/packages/llama-cpp",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/39e464cefb/packages/llama-cpp/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/39e464cefb/packages/llama-cpp/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/025fab8c46/packages/llama-cpp/0001-search-dirs.patch",
-      "https://github.com/zrsx/termux-ng/blob/025fab8c46/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
+      "https://github.com/zrsx/termux-ng/blob/39e464cefb/packages/llama-cpp/0001-search-dirs.patch",
+      "https://github.com/zrsx/termux-ng/blob/39e464cefb/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/025fab8c46/packages/llama-cpp/0001-search-dirs.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/025fab8c46/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/39e464cefb/packages/llama-cpp/0001-search-dirs.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/39e464cefb/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
     ],
     "auto_updated": true
   },
@@ -28140,23 +28140,23 @@
   },
   {
     "name": "nano",
-    "version": "9.0",
+    "version": "9.1",
     "description": "Small, free and friendly text editor",
     "homepage": "https://www.nano-editor.org/",
     "depends": [
       "libandroid-support",
       "ncurses"
     ],
-    "srcurl": "https://nano-editor.org/dist/latest/nano-9.0.tar.xz",
+    "srcurl": "https://nano-editor.org/dist/latest/nano-9.1.tar.xz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/3050fbdcb2/packages/nano",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/3050fbdcb2/packages/nano/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/3050fbdcb2/packages/nano/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/8e4df1d56c/packages/nano",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/8e4df1d56c/packages/nano/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/8e4df1d56c/packages/nano/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/3050fbdcb2/packages/nano/src-files.c.patch"
+      "https://github.com/zrsx/termux-ng/blob/8e4df1d56c/packages/nano/src-files.c.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/3050fbdcb2/packages/nano/src-files.c.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/8e4df1d56c/packages/nano/src-files.c.patch"
     ],
     "auto_updated": true
   },
@@ -35154,18 +35154,18 @@
   },
   {
     "name": "radare2",
-    "version": "6.1.6",
+    "version": "6.1.8",
     "description": "UNIX-like reverse engineering framework and command-line toolset",
     "homepage": "https://www.radare.org/",
     "depends": [
       "libandroid-spawn",
       "libuv"
     ],
-    "srcurl": "https://github.com/radareorg/radare2/archive/refs/tags/6.1.6.tar.gz",
+    "srcurl": "https://github.com/radareorg/radare2/archive/refs/tags/6.1.8.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/1e971d2b89/packages/radare2",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/1e971d2b89/packages/radare2/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/1e971d2b89/packages/radare2/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/851633b3f0/packages/radare2",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/851633b3f0/packages/radare2/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/851633b3f0/packages/radare2/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -38933,15 +38933,15 @@
   },
   {
     "name": "storj-uplink",
-    "version": "1.157.5",
+    "version": "1.157.6",
     "description": "Storj DCS Uplink CLI",
     "homepage": "https://www.storj.io/integrations/uplink-cli",
     "depends": [],
-    "srcurl": "https://github.com/storj/storj/archive/refs/tags/v1.157.5.tar.gz",
+    "srcurl": "https://github.com/storj/storj/archive/refs/tags/v1.157.6.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/133ecb0972/packages/storj-uplink",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/133ecb0972/packages/storj-uplink/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/133ecb0972/packages/storj-uplink/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/7783f00fa0/packages/storj-uplink",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/7783f00fa0/packages/storj-uplink/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/7783f00fa0/packages/storj-uplink/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
