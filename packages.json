@@ -12418,17 +12418,17 @@
   },
   {
     "name": "hcloud",
-    "version": "1.65.0",
+    "version": "1.66.0",
     "description": "Hetzner Cloud command line client",
     "homepage": "https://github.com/hetznercloud/cli",
     "depends": [
       "resolv-conf"
     ],
-    "srcurl": "https://github.com/hetznercloud/cli/archive/refs/tags/v1.65.0.tar.gz",
+    "srcurl": "https://github.com/hetznercloud/cli/archive/refs/tags/v1.66.0.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/b305178586/packages/hcloud",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/b305178586/packages/hcloud/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/b305178586/packages/hcloud/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/8fac7bcc50/packages/hcloud",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/8fac7bcc50/packages/hcloud/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/8fac7bcc50/packages/hcloud/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -20677,18 +20677,18 @@
   },
   {
     "name": "libpsl",
-    "version": "0.21.5",
+    "version": "0.22.0",
     "description": "Public Suffix List library",
     "homepage": "https://github.com/rockdaboot/libpsl",
     "depends": [
       "libidn2",
       "libunistring"
     ],
-    "srcurl": "https://github.com/rockdaboot/libpsl/releases/download/0.21.5/libpsl-0.21.5.tar.gz",
+    "srcurl": "https://github.com/rockdaboot/libpsl/releases/download/0.22.0/libpsl-0.22.0.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/e714c30c35/packages/libpsl",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/e714c30c35/packages/libpsl/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/e714c30c35/packages/libpsl/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/75894e36ce/packages/libpsl",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/75894e36ce/packages/libpsl/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/75894e36ce/packages/libpsl/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
