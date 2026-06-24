@@ -24292,7 +24292,7 @@
   },
   {
     "name": "llama-cpp",
-    "version": "b9780",
+    "version": "b9784",
     "description": "LLM inference in C/C++",
     "homepage": "https://github.com/ggml-org/llama.cpp",
     "depends": [
@@ -24300,18 +24300,18 @@
       "libc++",
       "libcurl"
     ],
-    "srcurl": "https://github.com/ggml-org/llama.cpp/archive/refs/tags/b9780.tar.gz",
+    "srcurl": "https://github.com/ggml-org/llama.cpp/archive/refs/tags/b9784.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/456afcd930/packages/llama-cpp",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/456afcd930/packages/llama-cpp/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/456afcd930/packages/llama-cpp/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/520a58eab2/packages/llama-cpp",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/520a58eab2/packages/llama-cpp/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/520a58eab2/packages/llama-cpp/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/456afcd930/packages/llama-cpp/0001-search-dirs.patch",
-      "https://github.com/zrsx/termux-ng/blob/456afcd930/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
+      "https://github.com/zrsx/termux-ng/blob/520a58eab2/packages/llama-cpp/0001-search-dirs.patch",
+      "https://github.com/zrsx/termux-ng/blob/520a58eab2/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/456afcd930/packages/llama-cpp/0001-search-dirs.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/456afcd930/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/520a58eab2/packages/llama-cpp/0001-search-dirs.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/520a58eab2/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
     ],
     "auto_updated": true
   },
@@ -25099,7 +25099,7 @@
   },
   {
     "name": "lux-cli",
-    "version": "0.33.3",
+    "version": "0.33.4",
     "description": "A package manager for Lua, similar to luarocks",
     "homepage": "https://lux.lumen-labs.org",
     "depends": [
@@ -25111,11 +25111,11 @@
       "openssl",
       "xz-utils"
     ],
-    "srcurl": "https://github.com/lumen-oss/lux/archive/refs/tags/v0.33.3.tar.gz",
+    "srcurl": "https://github.com/lumen-oss/lux/archive/refs/tags/v0.33.4.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/f37d45682d/packages/lux-cli",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/f37d45682d/packages/lux-cli/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/f37d45682d/packages/lux-cli/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/3583411c99/packages/lux-cli",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/3583411c99/packages/lux-cli/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/3583411c99/packages/lux-cli/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -42105,20 +42105,20 @@
   },
   {
     "name": "turbo",
-    "version": "2.9.18",
+    "version": "2.10.0",
     "description": "High-performance build system for JS/TS",
     "homepage": "https://turborepo.dev/",
     "depends": [],
-    "srcurl": "https://github.com/vercel/turborepo/archive/refs/tags/v2.9.18.tar.gz",
+    "srcurl": "https://github.com/vercel/turborepo/archive/refs/tags/v2.10.0.tar.gz",
     "maintainer": "@xingguangcuican6666",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/7a413651cf/packages/turbo",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/7a413651cf/packages/turbo/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/7a413651cf/packages/turbo/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/1e3929219d/packages/turbo",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/1e3929219d/packages/turbo/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/1e3929219d/packages/turbo/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/7a413651cf/packages/turbo/force-st_mode-32-bit-android.patch"
+      "https://github.com/zrsx/termux-ng/blob/1e3929219d/packages/turbo/force-st_mode-32-bit-android.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/7a413651cf/packages/turbo/force-st_mode-32-bit-android.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/1e3929219d/packages/turbo/force-st_mode-32-bit-android.patch"
     ],
     "auto_updated": true
   },
@@ -44021,15 +44021,15 @@
   },
   {
     "name": "wakatime-cli",
-    "version": "2.21.0",
+    "version": "2.21.2",
     "description": "Command line interface used by all WakaTime text editor plugins",
     "homepage": "https://wakatime.com/plugins/",
     "depends": [],
-    "srcurl": "https://github.com/wakatime/wakatime-cli/archive/refs/tags/v2.21.0.tar.gz",
+    "srcurl": "https://github.com/wakatime/wakatime-cli/archive/refs/tags/v2.21.2.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/b53dfada49/packages/wakatime-cli",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/b53dfada49/packages/wakatime-cli/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/b53dfada49/packages/wakatime-cli/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/efec368b69/packages/wakatime-cli",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/efec368b69/packages/wakatime-cli/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/efec368b69/packages/wakatime-cli/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -44143,20 +44143,20 @@
   },
   {
     "name": "wasmtime",
-    "version": "46.0.0",
+    "version": "46.0.1",
     "description": "A standalone runtime for WebAssembly",
     "homepage": "https://wasmtime.dev/",
     "depends": [],
     "srcurl": "git+https://github.com/bytecodealliance/wasmtime",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/e1ce6a265c/packages/wasmtime",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/e1ce6a265c/packages/wasmtime/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/e1ce6a265c/packages/wasmtime/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/67791d4d69/packages/wasmtime",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/67791d4d69/packages/wasmtime/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/67791d4d69/packages/wasmtime/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/e1ce6a265c/packages/wasmtime/listenfd-32-bit-android.diff"
+      "https://github.com/zrsx/termux-ng/blob/67791d4d69/packages/wasmtime/listenfd-32-bit-android.diff"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/e1ce6a265c/packages/wasmtime/listenfd-32-bit-android.diff"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/67791d4d69/packages/wasmtime/listenfd-32-bit-android.diff"
     ],
     "auto_updated": true
   },
