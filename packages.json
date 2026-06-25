@@ -5985,33 +5985,33 @@
   },
   {
     "name": "delve",
-    "version": "1.26.3",
+    "version": "1.27.0",
     "description": "A debugger for the Go programming language",
     "homepage": "https://github.com/go-delve/delve",
     "depends": [
       "golang",
       "git"
     ],
-    "srcurl": "https://github.com/go-delve/delve/archive/refs/tags/v1.26.3.tar.gz",
+    "srcurl": "https://github.com/go-delve/delve/archive/refs/tags/v1.27.0.tar.gz",
     "maintainer": "Krishna kanhaiya @kcubeterm",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/4030a2b8cb/packages/delve",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/4030a2b8cb/packages/delve/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/4030a2b8cb/packages/delve/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/e512231f39/packages/delve",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/e512231f39/packages/delve/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/e512231f39/packages/delve/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/4030a2b8cb/packages/delve/bininfo.go.patch",
-      "https://github.com/zrsx/termux-ng/blob/4030a2b8cb/packages/delve/debugger.go.patch",
-      "https://github.com/zrsx/termux-ng/blob/4030a2b8cb/packages/delve/debugger_unix.go.patch",
-      "https://github.com/zrsx/termux-ng/blob/4030a2b8cb/packages/delve/dump.go.patch",
-      "https://github.com/zrsx/termux-ng/blob/4030a2b8cb/packages/delve/gdbserver.go.patch",
-      "https://github.com/zrsx/termux-ng/blob/4030a2b8cb/packages/delve/gdbserver_conn.go.patch"
+      "https://github.com/zrsx/termux-ng/blob/e512231f39/packages/delve/bininfo.go.patch",
+      "https://github.com/zrsx/termux-ng/blob/e512231f39/packages/delve/debugger.go.patch",
+      "https://github.com/zrsx/termux-ng/blob/e512231f39/packages/delve/debugger_unix.go.patch",
+      "https://github.com/zrsx/termux-ng/blob/e512231f39/packages/delve/dump.go.patch",
+      "https://github.com/zrsx/termux-ng/blob/e512231f39/packages/delve/gdbserver.go.patch",
+      "https://github.com/zrsx/termux-ng/blob/e512231f39/packages/delve/gdbserver_conn.go.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/4030a2b8cb/packages/delve/bininfo.go.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/4030a2b8cb/packages/delve/debugger.go.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/4030a2b8cb/packages/delve/debugger_unix.go.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/4030a2b8cb/packages/delve/dump.go.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/4030a2b8cb/packages/delve/gdbserver.go.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/4030a2b8cb/packages/delve/gdbserver_conn.go.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/e512231f39/packages/delve/bininfo.go.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/e512231f39/packages/delve/debugger.go.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/e512231f39/packages/delve/debugger_unix.go.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/e512231f39/packages/delve/dump.go.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/e512231f39/packages/delve/gdbserver.go.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/e512231f39/packages/delve/gdbserver_conn.go.patch"
     ],
     "auto_updated": true
   },
@@ -11626,15 +11626,15 @@
   },
   {
     "name": "gping",
-    "version": "1.20.2",
+    "version": "1.20.4",
     "description": "Ping, but with a graph",
     "homepage": "https://github.com/orf/gping",
     "depends": [],
-    "srcurl": "https://github.com/orf/gping/archive/refs/tags/gping-v1.20.2.zip",
+    "srcurl": "https://github.com/orf/gping/archive/refs/tags/gping-v1.20.4.zip",
     "maintainer": "Krishna kanhaiya @kcubeterm",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/d59e3e4a5d/packages/gping",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/d59e3e4a5d/packages/gping/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/d59e3e4a5d/packages/gping/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/97a6aaace8/packages/gping",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/97a6aaace8/packages/gping/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/97a6aaace8/packages/gping/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -24292,7 +24292,7 @@
   },
   {
     "name": "llama-cpp",
-    "version": "b9784",
+    "version": "b9786",
     "description": "LLM inference in C/C++",
     "homepage": "https://github.com/ggml-org/llama.cpp",
     "depends": [
@@ -24300,18 +24300,18 @@
       "libc++",
       "libcurl"
     ],
-    "srcurl": "https://github.com/ggml-org/llama.cpp/archive/refs/tags/b9784.tar.gz",
+    "srcurl": "https://github.com/ggml-org/llama.cpp/archive/refs/tags/b9786.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/520a58eab2/packages/llama-cpp",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/520a58eab2/packages/llama-cpp/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/520a58eab2/packages/llama-cpp/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/94f61b981b/packages/llama-cpp",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/94f61b981b/packages/llama-cpp/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/94f61b981b/packages/llama-cpp/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/520a58eab2/packages/llama-cpp/0001-search-dirs.patch",
-      "https://github.com/zrsx/termux-ng/blob/520a58eab2/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
+      "https://github.com/zrsx/termux-ng/blob/94f61b981b/packages/llama-cpp/0001-search-dirs.patch",
+      "https://github.com/zrsx/termux-ng/blob/94f61b981b/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/520a58eab2/packages/llama-cpp/0001-search-dirs.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/520a58eab2/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/94f61b981b/packages/llama-cpp/0001-search-dirs.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/94f61b981b/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
     ],
     "auto_updated": true
   },
@@ -25732,15 +25732,15 @@
   },
   {
     "name": "matterircd",
-    "version": "0.29.0",
+    "version": "0.30.0",
     "description": "Connect to your mattermost or slack using your IRC-client of choice",
     "homepage": "https://github.com/42wim/matterircd",
     "depends": [],
-    "srcurl": "https://github.com/42wim/matterircd/archive/refs/tags/v0.29.0.tar.gz",
+    "srcurl": "https://github.com/42wim/matterircd/archive/refs/tags/v0.30.0.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/646f7a1751/packages/matterircd",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/646f7a1751/packages/matterircd/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/646f7a1751/packages/matterircd/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/730809fc5a/packages/matterircd",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/730809fc5a/packages/matterircd/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/730809fc5a/packages/matterircd/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -26847,25 +26847,25 @@
   },
   {
     "name": "mise",
-    "version": "2026.6.13",
+    "version": "2026.6.14",
     "description": "dev tools, env vars, task runner",
     "homepage": "https://mise.jdx.dev/",
     "depends": [
       "bzip2",
       "openssl"
     ],
-    "srcurl": "https://github.com/jdx/mise/archive/refs/tags/v2026.6.13.tar.gz",
+    "srcurl": "https://github.com/jdx/mise/archive/refs/tags/v2026.6.14.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/bcd8bdf8f2/packages/mise",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/bcd8bdf8f2/packages/mise/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/bcd8bdf8f2/packages/mise/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/76269c53e1/packages/mise",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/76269c53e1/packages/mise/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/76269c53e1/packages/mise/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/bcd8bdf8f2/packages/mise/rattler_pty-android-target.diff",
-      "https://github.com/zrsx/termux-ng/blob/bcd8bdf8f2/packages/mise/rust-cc-do-not-concatenate-all-the-CFLAGS.diff"
+      "https://github.com/zrsx/termux-ng/blob/76269c53e1/packages/mise/rattler_pty-android-target.diff",
+      "https://github.com/zrsx/termux-ng/blob/76269c53e1/packages/mise/rust-cc-do-not-concatenate-all-the-CFLAGS.diff"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/bcd8bdf8f2/packages/mise/rattler_pty-android-target.diff",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/bcd8bdf8f2/packages/mise/rust-cc-do-not-concatenate-all-the-CFLAGS.diff"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/76269c53e1/packages/mise/rattler_pty-android-target.diff",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/76269c53e1/packages/mise/rust-cc-do-not-concatenate-all-the-CFLAGS.diff"
     ],
     "auto_updated": true
   },
