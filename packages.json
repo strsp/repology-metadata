@@ -37887,40 +37887,40 @@
   },
   {
     "name": "snowflake",
-    "version": "2.14.0",
+    "version": "2.14.1",
     "description": "Pluggable Transport using WebRTC, inspired by Flashproxy",
     "homepage": "https://snowflake.torproject.org/",
     "depends": [],
-    "srcurl": "https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake/-/archive/v2.14.0/snowflake-v2.14.0.tar.gz",
+    "srcurl": "https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake/-/archive/v2.14.1/snowflake-v2.14.1.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/6c2af471c6/packages/snowflake",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/6c2af471c6/packages/snowflake/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/6c2af471c6/packages/snowflake/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/171dc62e99/packages/snowflake",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/171dc62e99/packages/snowflake/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/171dc62e99/packages/snowflake/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
   },
   {
     "name": "socat",
-    "version": "1.8.1.1",
+    "version": "1.8.1.2",
     "description": "Relay for bidirectional data transfer between two independent data channels",
     "homepage": "http://www.dest-unreach.org/socat/",
     "depends": [
       "openssl",
       "readline"
     ],
-    "srcurl": "http://www.dest-unreach.org/socat/download/socat-1.8.1.1.tar.gz",
+    "srcurl": "http://www.dest-unreach.org/socat/download/socat-1.8.1.2.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/1c1544dc6a/packages/socat",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/1c1544dc6a/packages/socat/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/1c1544dc6a/packages/socat/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/f622f37b6a/packages/socat",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/f622f37b6a/packages/socat/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/f622f37b6a/packages/socat/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/1c1544dc6a/packages/socat/0001-no-o_append.patch",
-      "https://github.com/zrsx/termux-ng/blob/1c1544dc6a/packages/socat/0002-fix-format-specifiers-for-32-bit-archs.patch"
+      "https://github.com/zrsx/termux-ng/blob/f622f37b6a/packages/socat/0001-no-o_append.patch",
+      "https://github.com/zrsx/termux-ng/blob/f622f37b6a/packages/socat/0002-fix-format-specifiers-for-32-bit-archs.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/1c1544dc6a/packages/socat/0001-no-o_append.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/1c1544dc6a/packages/socat/0002-fix-format-specifiers-for-32-bit-archs.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/f622f37b6a/packages/socat/0001-no-o_append.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/f622f37b6a/packages/socat/0002-fix-format-specifiers-for-32-bit-archs.patch"
     ],
     "auto_updated": true
   },
@@ -39242,17 +39242,17 @@
   },
   {
     "name": "sundials",
-    "version": "2:7.7.0",
+    "version": "2:7.8.0",
     "description": "SUite of Nonlinear and DIfferential/ALgebraic equation Solvers.",
     "homepage": "https://computing.llnl.gov/projects/sundials",
     "depends": [
       "suitesparse"
     ],
-    "srcurl": "https://github.com/LLNL/sundials/releases/download/v7.7.0/sundials-7.7.0.tar.gz",
+    "srcurl": "https://github.com/LLNL/sundials/releases/download/v7.8.0/sundials-7.8.0.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/a33967995c/packages/sundials",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/a33967995c/packages/sundials/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/a33967995c/packages/sundials/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/c667f24f67/packages/sundials",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/c667f24f67/packages/sundials/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/c667f24f67/packages/sundials/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -40448,15 +40448,15 @@
   },
   {
     "name": "texlab",
-    "version": "5.25.1",
+    "version": "5.26.0",
     "description": "A cross-platform implementation of the Language Server Protocol providing rich cross-editing support for the LaTeX typesetting system",
     "homepage": "https://texlab.netlify.app/",
     "depends": [],
     "srcurl": "git+https://github.com/latex-lsp/texlab",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/b8d1a8bcb0/packages/texlab",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/b8d1a8bcb0/packages/texlab/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/b8d1a8bcb0/packages/texlab/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/476689589c/packages/texlab",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/476689589c/packages/texlab/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/476689589c/packages/texlab/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -42234,20 +42234,20 @@
   },
   {
     "name": "ty",
-    "version": "0.0.53",
+    "version": "0.0.54",
     "description": "An extremely fast Python type checker and language server, written in Rust",
     "homepage": "https://github.com/astral-sh/ty",
     "depends": [],
-    "srcurl": "https://github.com/astral-sh/ty/releases/download/0.0.53/source.tar.gz",
+    "srcurl": "https://github.com/astral-sh/ty/releases/download/0.0.54/source.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/271e2a6333/packages/ty",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/271e2a6333/packages/ty/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/271e2a6333/packages/ty/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/691d0e2dc7/packages/ty",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/691d0e2dc7/packages/ty/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/691d0e2dc7/packages/ty/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/271e2a6333/packages/ty/rust-cc-do-not-concatenate-all-the-CFLAGS.diff"
+      "https://github.com/zrsx/termux-ng/blob/691d0e2dc7/packages/ty/rust-cc-do-not-concatenate-all-the-CFLAGS.diff"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/271e2a6333/packages/ty/rust-cc-do-not-concatenate-all-the-CFLAGS.diff"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/691d0e2dc7/packages/ty/rust-cc-do-not-concatenate-all-the-CFLAGS.diff"
     ],
     "auto_updated": true
   },
