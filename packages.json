@@ -11588,7 +11588,7 @@
   },
   {
     "name": "gpgme",
-    "version": "2.1.0",
+    "version": "2.1.1",
     "description": "Library designed to make access to GnuPG easier",
     "homepage": "https://www.gnupg.org/related_software/gpgme/",
     "depends": [
@@ -11596,11 +11596,11 @@
       "libassuan",
       "libgpg-error"
     ],
-    "srcurl": "https://www.gnupg.org/ftp/gcrypt/gpgme/gpgme-2.1.0.tar.bz2",
+    "srcurl": "https://www.gnupg.org/ftp/gcrypt/gpgme/gpgme-2.1.1.tar.bz2",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/3d722e5504/packages/gpgme",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/3d722e5504/packages/gpgme/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/3d722e5504/packages/gpgme/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/53999ad9c7/packages/gpgme",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/53999ad9c7/packages/gpgme/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/53999ad9c7/packages/gpgme/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -12300,7 +12300,7 @@
   },
   {
     "name": "haproxy",
-    "version": "3.4.0",
+    "version": "3.4.1",
     "description": "The Reliable, High Performance TCP/HTTP Load Balancer",
     "homepage": "https://www.haproxy.org/",
     "depends": [
@@ -12309,16 +12309,16 @@
       "pcre2",
       "zlib"
     ],
-    "srcurl": "https://www.haproxy.org/download/3.4/src/haproxy-3.4.0.tar.gz",
+    "srcurl": "https://www.haproxy.org/download/3.4/src/haproxy-3.4.1.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/d0437ceb5e/packages/haproxy",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/d0437ceb5e/packages/haproxy/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/d0437ceb5e/packages/haproxy/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/b8054da4ee/packages/haproxy",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/b8054da4ee/packages/haproxy/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/b8054da4ee/packages/haproxy/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/d0437ceb5e/packages/haproxy/Makefile.patch"
+      "https://github.com/zrsx/termux-ng/blob/b8054da4ee/packages/haproxy/Makefile.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/d0437ceb5e/packages/haproxy/Makefile.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/b8054da4ee/packages/haproxy/Makefile.patch"
     ],
     "auto_updated": true
   },
@@ -24292,7 +24292,7 @@
   },
   {
     "name": "llama-cpp",
-    "version": "b9789",
+    "version": "b9803",
     "description": "LLM inference in C/C++",
     "homepage": "https://github.com/ggml-org/llama.cpp",
     "depends": [
@@ -24300,18 +24300,18 @@
       "libc++",
       "libcurl"
     ],
-    "srcurl": "https://github.com/ggml-org/llama.cpp/archive/refs/tags/b9789.tar.gz",
+    "srcurl": "https://github.com/ggml-org/llama.cpp/archive/refs/tags/b9803.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/09a798e215/packages/llama-cpp",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/09a798e215/packages/llama-cpp/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/09a798e215/packages/llama-cpp/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/e9eddef6e1/packages/llama-cpp",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/e9eddef6e1/packages/llama-cpp/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/e9eddef6e1/packages/llama-cpp/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/09a798e215/packages/llama-cpp/0001-search-dirs.patch",
-      "https://github.com/zrsx/termux-ng/blob/09a798e215/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
+      "https://github.com/zrsx/termux-ng/blob/e9eddef6e1/packages/llama-cpp/0001-search-dirs.patch",
+      "https://github.com/zrsx/termux-ng/blob/e9eddef6e1/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/09a798e215/packages/llama-cpp/0001-search-dirs.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/09a798e215/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/e9eddef6e1/packages/llama-cpp/0001-search-dirs.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/e9eddef6e1/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
     ],
     "auto_updated": true
   },
@@ -43802,15 +43802,15 @@
   },
   {
     "name": "vulkan-headers",
-    "version": "1.4.354",
+    "version": "1.4.355",
     "description": "Vulkan Header files and API registry",
     "homepage": "https://github.com/KhronosGroup/Vulkan-Headers",
     "depends": [],
-    "srcurl": "https://github.com/KhronosGroup/Vulkan-Headers/archive/refs/tags/v1.4.354.tar.gz",
+    "srcurl": "https://github.com/KhronosGroup/Vulkan-Headers/archive/refs/tags/v1.4.355.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/833d4203b0/packages/vulkan-headers",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/833d4203b0/packages/vulkan-headers/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/833d4203b0/packages/vulkan-headers/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/72d3e7afdb/packages/vulkan-headers",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/72d3e7afdb/packages/vulkan-headers/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/72d3e7afdb/packages/vulkan-headers/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
