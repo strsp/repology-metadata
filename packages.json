@@ -24292,7 +24292,7 @@
   },
   {
     "name": "llama-cpp",
-    "version": "b9822",
+    "version": "b9827",
     "description": "LLM inference in C/C++",
     "homepage": "https://github.com/ggml-org/llama.cpp",
     "depends": [
@@ -24300,18 +24300,18 @@
       "libc++",
       "libcurl"
     ],
-    "srcurl": "https://github.com/ggml-org/llama.cpp/archive/refs/tags/b9822.tar.gz",
+    "srcurl": "https://github.com/ggml-org/llama.cpp/archive/refs/tags/b9827.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/5beaa72d0f/packages/llama-cpp",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/5beaa72d0f/packages/llama-cpp/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/5beaa72d0f/packages/llama-cpp/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/71a45ffcd0/packages/llama-cpp",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/71a45ffcd0/packages/llama-cpp/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/71a45ffcd0/packages/llama-cpp/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/5beaa72d0f/packages/llama-cpp/0001-search-dirs.patch",
-      "https://github.com/zrsx/termux-ng/blob/5beaa72d0f/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
+      "https://github.com/zrsx/termux-ng/blob/71a45ffcd0/packages/llama-cpp/0001-search-dirs.patch",
+      "https://github.com/zrsx/termux-ng/blob/71a45ffcd0/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/5beaa72d0f/packages/llama-cpp/0001-search-dirs.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/5beaa72d0f/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/71a45ffcd0/packages/llama-cpp/0001-search-dirs.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/71a45ffcd0/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
     ],
     "auto_updated": true
   },
@@ -31565,26 +31565,26 @@
   },
   {
     "name": "parallel",
-    "version": "20260522",
+    "version": "20260622",
     "description": "GNU Parallel is a shell tool for executing jobs in parallel using one or more machines",
     "homepage": "https://www.gnu.org/software/parallel/",
     "depends": [
       "perl"
     ],
-    "srcurl": "https://mirrors.kernel.org/gnu/parallel/parallel-20260522.tar.bz2",
+    "srcurl": "https://mirrors.kernel.org/gnu/parallel/parallel-20260622.tar.bz2",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/75e79ca934/packages/parallel",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/75e79ca934/packages/parallel/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/75e79ca934/packages/parallel/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/22768fdabe/packages/parallel",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/22768fdabe/packages/parallel/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/22768fdabe/packages/parallel/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/75e79ca934/packages/parallel/Makefile.in.patch",
-      "https://github.com/zrsx/termux-ng/blob/75e79ca934/packages/parallel/parallel.patch",
-      "https://github.com/zrsx/termux-ng/blob/75e79ca934/packages/parallel/sem.patch"
+      "https://github.com/zrsx/termux-ng/blob/22768fdabe/packages/parallel/Makefile.in.patch",
+      "https://github.com/zrsx/termux-ng/blob/22768fdabe/packages/parallel/parallel.patch",
+      "https://github.com/zrsx/termux-ng/blob/22768fdabe/packages/parallel/sem.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/75e79ca934/packages/parallel/Makefile.in.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/75e79ca934/packages/parallel/parallel.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/75e79ca934/packages/parallel/sem.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/22768fdabe/packages/parallel/Makefile.in.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/22768fdabe/packages/parallel/parallel.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/22768fdabe/packages/parallel/sem.patch"
     ],
     "auto_updated": true
   },
