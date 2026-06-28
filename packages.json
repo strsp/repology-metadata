@@ -9256,22 +9256,22 @@
   },
   {
     "name": "fselect",
-    "version": "0.10.1",
+    "version": "0.10.2",
     "description": "Find files with SQL-like queries",
     "homepage": "https://fselect.rocks/",
     "depends": [
       "zlib"
     ],
-    "srcurl": "https://github.com/jhspetersson/fselect/archive/refs/tags/0.10.1.tar.gz",
+    "srcurl": "https://github.com/jhspetersson/fselect/archive/refs/tags/0.10.2.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/66f3ebcc9c/packages/fselect",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/66f3ebcc9c/packages/fselect/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/66f3ebcc9c/packages/fselect/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/e321e5b108/packages/fselect",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/e321e5b108/packages/fselect/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/e321e5b108/packages/fselect/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/66f3ebcc9c/packages/fselect/libmimalloc-sys-tls.diff"
+      "https://github.com/zrsx/termux-ng/blob/e321e5b108/packages/fselect/libmimalloc-sys-tls.diff"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/66f3ebcc9c/packages/fselect/libmimalloc-sys-tls.diff"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/e321e5b108/packages/fselect/libmimalloc-sys-tls.diff"
     ],
     "auto_updated": true
   },
