@@ -9145,30 +9145,30 @@
   },
   {
     "name": "fresh-editor",
-    "version": "0.4.1",
+    "version": "0.4.2",
     "description": "Text editor for your terminal: easy, powerful and fast",
     "homepage": "https://getfresh.dev/",
     "depends": [],
-    "srcurl": "https://github.com/sinelaw/fresh/releases/download/v0.4.1/fresh-editor-0.4.1-source.tar.gz",
+    "srcurl": "https://github.com/sinelaw/fresh/releases/download/v0.4.2/fresh-editor-0.4.2-source.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/c6cb1aad80/packages/fresh-editor",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/c6cb1aad80/packages/fresh-editor/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/c6cb1aad80/packages/fresh-editor/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/d4399cec3b/packages/fresh-editor",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/d4399cec3b/packages/fresh-editor/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/d4399cec3b/packages/fresh-editor/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/c6cb1aad80/packages/fresh-editor/enable-rquickjs-bindgen.patch",
-      "https://github.com/zrsx/termux-ng/blob/c6cb1aad80/packages/fresh-editor/no-AT_EACCESS.patch",
-      "https://github.com/zrsx/termux-ng/blob/c6cb1aad80/packages/fresh-editor/rust-cc-do-not-concatenate-all-the-CFLAGS.diff",
-      "https://github.com/zrsx/termux-ng/blob/c6cb1aad80/packages/fresh-editor/smithay-client-toolkit-no-shm.diff",
-      "https://github.com/zrsx/termux-ng/blob/c6cb1aad80/packages/fresh-editor/trash-rs-implement-get_mount_points-android.diff",
-      "https://github.com/zrsx/termux-ng/blob/c6cb1aad80/packages/fresh-editor/wayland-cursor-no-shm.diff"
+      "https://github.com/zrsx/termux-ng/blob/d4399cec3b/packages/fresh-editor/enable-rquickjs-bindgen.patch",
+      "https://github.com/zrsx/termux-ng/blob/d4399cec3b/packages/fresh-editor/no-AT_EACCESS.patch",
+      "https://github.com/zrsx/termux-ng/blob/d4399cec3b/packages/fresh-editor/rust-cc-do-not-concatenate-all-the-CFLAGS.diff",
+      "https://github.com/zrsx/termux-ng/blob/d4399cec3b/packages/fresh-editor/smithay-client-toolkit-no-shm.diff",
+      "https://github.com/zrsx/termux-ng/blob/d4399cec3b/packages/fresh-editor/trash-rs-implement-get_mount_points-android.diff",
+      "https://github.com/zrsx/termux-ng/blob/d4399cec3b/packages/fresh-editor/wayland-cursor-no-shm.diff"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/c6cb1aad80/packages/fresh-editor/enable-rquickjs-bindgen.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/c6cb1aad80/packages/fresh-editor/no-AT_EACCESS.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/c6cb1aad80/packages/fresh-editor/rust-cc-do-not-concatenate-all-the-CFLAGS.diff",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/c6cb1aad80/packages/fresh-editor/smithay-client-toolkit-no-shm.diff",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/c6cb1aad80/packages/fresh-editor/trash-rs-implement-get_mount_points-android.diff",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/c6cb1aad80/packages/fresh-editor/wayland-cursor-no-shm.diff"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/d4399cec3b/packages/fresh-editor/enable-rquickjs-bindgen.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/d4399cec3b/packages/fresh-editor/no-AT_EACCESS.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/d4399cec3b/packages/fresh-editor/rust-cc-do-not-concatenate-all-the-CFLAGS.diff",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/d4399cec3b/packages/fresh-editor/smithay-client-toolkit-no-shm.diff",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/d4399cec3b/packages/fresh-editor/trash-rs-implement-get_mount_points-android.diff",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/d4399cec3b/packages/fresh-editor/wayland-cursor-no-shm.diff"
     ],
     "auto_updated": true
   },
@@ -14390,15 +14390,15 @@
   },
   {
     "name": "json-c",
-    "version": "0.18",
+    "version": "0.19",
     "description": "A JSON implementation in C",
     "homepage": "https://github.com/json-c/json-c/wiki",
     "depends": [],
-    "srcurl": "https://s3.amazonaws.com/json-c_releases/releases/json-c-0.18.tar.gz",
+    "srcurl": "https://s3.amazonaws.com/json-c_releases/releases/json-c-0.19.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/824f6cede8/packages/json-c",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/824f6cede8/packages/json-c/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/824f6cede8/packages/json-c/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/42c1072070/packages/json-c",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/42c1072070/packages/json-c/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/42c1072070/packages/json-c/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -24292,7 +24292,7 @@
   },
   {
     "name": "llama-cpp",
-    "version": "b9827",
+    "version": "b9828",
     "description": "LLM inference in C/C++",
     "homepage": "https://github.com/ggml-org/llama.cpp",
     "depends": [
@@ -24300,18 +24300,18 @@
       "libc++",
       "libcurl"
     ],
-    "srcurl": "https://github.com/ggml-org/llama.cpp/archive/refs/tags/b9827.tar.gz",
+    "srcurl": "https://github.com/ggml-org/llama.cpp/archive/refs/tags/b9828.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/71a45ffcd0/packages/llama-cpp",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/71a45ffcd0/packages/llama-cpp/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/71a45ffcd0/packages/llama-cpp/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/0363b9849a/packages/llama-cpp",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/0363b9849a/packages/llama-cpp/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/0363b9849a/packages/llama-cpp/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/71a45ffcd0/packages/llama-cpp/0001-search-dirs.patch",
-      "https://github.com/zrsx/termux-ng/blob/71a45ffcd0/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
+      "https://github.com/zrsx/termux-ng/blob/0363b9849a/packages/llama-cpp/0001-search-dirs.patch",
+      "https://github.com/zrsx/termux-ng/blob/0363b9849a/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/71a45ffcd0/packages/llama-cpp/0001-search-dirs.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/71a45ffcd0/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/0363b9849a/packages/llama-cpp/0001-search-dirs.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/0363b9849a/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
     ],
     "auto_updated": true
   },
@@ -37342,15 +37342,15 @@
   },
   {
     "name": "shellharden",
-    "version": "4.3.1",
+    "version": "4.3.2",
     "description": "The corrective bash syntax highlighter",
     "homepage": "https://github.com/anordal/shellharden",
     "depends": [],
-    "srcurl": "https://github.com/anordal/shellharden/archive/refs/tags/v4.3.1.tar.gz",
+    "srcurl": "https://github.com/anordal/shellharden/archive/refs/tags/v4.3.2.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/eb9da0b638/packages/shellharden",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/eb9da0b638/packages/shellharden/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/eb9da0b638/packages/shellharden/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/1276f5fbd2/packages/shellharden",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/1276f5fbd2/packages/shellharden/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/1276f5fbd2/packages/shellharden/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
