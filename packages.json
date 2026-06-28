@@ -24292,7 +24292,7 @@
   },
   {
     "name": "llama-cpp",
-    "version": "b9829",
+    "version": "b9831",
     "description": "LLM inference in C/C++",
     "homepage": "https://github.com/ggml-org/llama.cpp",
     "depends": [
@@ -24300,18 +24300,18 @@
       "libc++",
       "libcurl"
     ],
-    "srcurl": "https://github.com/ggml-org/llama.cpp/archive/refs/tags/b9829.tar.gz",
+    "srcurl": "https://github.com/ggml-org/llama.cpp/archive/refs/tags/b9831.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/3461135914/packages/llama-cpp",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/3461135914/packages/llama-cpp/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/3461135914/packages/llama-cpp/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/4dc593852f/packages/llama-cpp",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/4dc593852f/packages/llama-cpp/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/4dc593852f/packages/llama-cpp/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/3461135914/packages/llama-cpp/0001-search-dirs.patch",
-      "https://github.com/zrsx/termux-ng/blob/3461135914/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
+      "https://github.com/zrsx/termux-ng/blob/4dc593852f/packages/llama-cpp/0001-search-dirs.patch",
+      "https://github.com/zrsx/termux-ng/blob/4dc593852f/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/3461135914/packages/llama-cpp/0001-search-dirs.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/3461135914/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/4dc593852f/packages/llama-cpp/0001-search-dirs.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/4dc593852f/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
     ],
     "auto_updated": true
   },
@@ -26326,20 +26326,20 @@
   },
   {
     "name": "mediamtx",
-    "version": "1.19.1",
+    "version": "1.19.2",
     "description": "Ready-to-use SRT / WebRTC / RTSP / RTMP / LL-HLS media server and media proxy",
     "homepage": "https://github.com/bluenviron/mediamtx",
     "depends": [],
-    "srcurl": "https://github.com/bluenviron/mediamtx/archive/refs/tags/v1.19.1.tar.gz",
+    "srcurl": "https://github.com/bluenviron/mediamtx/archive/refs/tags/v1.19.2.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/5c4a93c7e3/packages/mediamtx",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/5c4a93c7e3/packages/mediamtx/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/5c4a93c7e3/packages/mediamtx/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/f51feab672/packages/mediamtx",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/f51feab672/packages/mediamtx/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/f51feab672/packages/mediamtx/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/5c4a93c7e3/packages/mediamtx/internal-core-core.go.patch"
+      "https://github.com/zrsx/termux-ng/blob/f51feab672/packages/mediamtx/internal-core-core.go.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/5c4a93c7e3/packages/mediamtx/internal-core-core.go.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/f51feab672/packages/mediamtx/internal-core-core.go.patch"
     ],
     "auto_updated": true
   },
