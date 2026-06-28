@@ -13998,7 +13998,7 @@
   },
   {
     "name": "jackett",
-    "version": "0.24.2126",
+    "version": "0.24.2135",
     "description": "API Support for your favorite torrent trackers",
     "homepage": "https://github.com/jackett/jackett",
     "depends": [
@@ -14006,11 +14006,11 @@
       "dotnet-host",
       "dotnet-runtime-9.0"
     ],
-    "srcurl": "https://github.com/Jackett/Jackett/archive/refs/tags/v0.24.2126.tar.gz",
+    "srcurl": "https://github.com/Jackett/Jackett/archive/refs/tags/v0.24.2135.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/acd3112554/packages/jackett",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/acd3112554/packages/jackett/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/acd3112554/packages/jackett/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/907368ce61/packages/jackett",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/907368ce61/packages/jackett/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/907368ce61/packages/jackett/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -19700,17 +19700,17 @@
   },
   {
     "name": "libngtcp2",
-    "version": "1.23.0",
+    "version": "1.24.0",
     "description": "Implementation of IETF QUIC protocol",
     "homepage": "https://github.com/ngtcp2/ngtcp2",
     "depends": [
       "openssl"
     ],
-    "srcurl": "https://github.com/ngtcp2/ngtcp2/releases/download/v1.23.0/ngtcp2-1.23.0.tar.gz",
+    "srcurl": "https://github.com/ngtcp2/ngtcp2/releases/download/v1.24.0/ngtcp2-1.24.0.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/ec36d30c22/packages/libngtcp2",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/ec36d30c22/packages/libngtcp2/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/ec36d30c22/packages/libngtcp2/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/bbed49de89/packages/libngtcp2",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/bbed49de89/packages/libngtcp2/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/bbed49de89/packages/libngtcp2/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -24292,7 +24292,7 @@
   },
   {
     "name": "llama-cpp",
-    "version": "b9828",
+    "version": "b9829",
     "description": "LLM inference in C/C++",
     "homepage": "https://github.com/ggml-org/llama.cpp",
     "depends": [
@@ -24300,18 +24300,18 @@
       "libc++",
       "libcurl"
     ],
-    "srcurl": "https://github.com/ggml-org/llama.cpp/archive/refs/tags/b9828.tar.gz",
+    "srcurl": "https://github.com/ggml-org/llama.cpp/archive/refs/tags/b9829.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/0363b9849a/packages/llama-cpp",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/0363b9849a/packages/llama-cpp/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/0363b9849a/packages/llama-cpp/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/3461135914/packages/llama-cpp",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/3461135914/packages/llama-cpp/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/3461135914/packages/llama-cpp/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/0363b9849a/packages/llama-cpp/0001-search-dirs.patch",
-      "https://github.com/zrsx/termux-ng/blob/0363b9849a/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
+      "https://github.com/zrsx/termux-ng/blob/3461135914/packages/llama-cpp/0001-search-dirs.patch",
+      "https://github.com/zrsx/termux-ng/blob/3461135914/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/0363b9849a/packages/llama-cpp/0001-search-dirs.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/0363b9849a/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/3461135914/packages/llama-cpp/0001-search-dirs.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/3461135914/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
     ],
     "auto_updated": true
   },
@@ -32782,17 +32782,17 @@
   },
   {
     "name": "pocketbase",
-    "version": "0.39.4",
+    "version": "0.39.5",
     "description": "An open source Go backend",
     "homepage": "https://github.com/pocketbase/pocketbase",
     "depends": [
       "resolv-conf"
     ],
-    "srcurl": "https://github.com/pocketbase/pocketbase/archive/refs/tags/v0.39.4.tar.gz",
+    "srcurl": "https://github.com/pocketbase/pocketbase/archive/refs/tags/v0.39.5.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/d9c283341e/packages/pocketbase",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/d9c283341e/packages/pocketbase/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/d9c283341e/packages/pocketbase/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/8cac16feb6/packages/pocketbase",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/8cac16feb6/packages/pocketbase/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/8cac16feb6/packages/pocketbase/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
