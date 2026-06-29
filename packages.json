@@ -24292,7 +24292,7 @@
   },
   {
     "name": "llama-cpp",
-    "version": "b9840",
+    "version": "b9842",
     "description": "LLM inference in C/C++",
     "homepage": "https://github.com/ggml-org/llama.cpp",
     "depends": [
@@ -24300,18 +24300,18 @@
       "libc++",
       "libcurl"
     ],
-    "srcurl": "https://github.com/ggml-org/llama.cpp/archive/refs/tags/b9840.tar.gz",
+    "srcurl": "https://github.com/ggml-org/llama.cpp/archive/refs/tags/b9842.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/21016f9444/packages/llama-cpp",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/21016f9444/packages/llama-cpp/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/21016f9444/packages/llama-cpp/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/1ebfc44454/packages/llama-cpp",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/1ebfc44454/packages/llama-cpp/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/1ebfc44454/packages/llama-cpp/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/21016f9444/packages/llama-cpp/0001-search-dirs.patch",
-      "https://github.com/zrsx/termux-ng/blob/21016f9444/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
+      "https://github.com/zrsx/termux-ng/blob/1ebfc44454/packages/llama-cpp/0001-search-dirs.patch",
+      "https://github.com/zrsx/termux-ng/blob/1ebfc44454/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/21016f9444/packages/llama-cpp/0001-search-dirs.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/21016f9444/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/1ebfc44454/packages/llama-cpp/0001-search-dirs.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/1ebfc44454/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
     ],
     "auto_updated": true
   },
@@ -29566,7 +29566,7 @@
   },
   {
     "name": "npm",
-    "version": "11.17.0",
+    "version": "11.18.0",
     "description": "The package manager for JavaScript",
     "homepage": "https://docs.npmjs.com/cli/",
     "depends": [
@@ -29574,9 +29574,9 @@
     ],
     "srcurl": "git+https://github.com/npm/cli.git",
     "maintainer": "Yaksh Bariya <thunder-coding@termux.dev>",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/fe688511a4/packages/npm",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/fe688511a4/packages/npm/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/fe688511a4/packages/npm/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/be0e93e84d/packages/npm",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/be0e93e84d/packages/npm/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/be0e93e84d/packages/npm/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -43402,7 +43402,7 @@
   },
   {
     "name": "vim",
-    "version": "9.2.0700",
+    "version": "9.2.0750",
     "description": "Vi IMproved - enhanced vi editor",
     "homepage": "https://www.vim.org",
     "depends": [
@@ -43410,28 +43410,28 @@
       "libsodium",
       "ncurses"
     ],
-    "srcurl": "https://github.com/vim/vim/archive/refs/tags/v9.2.0700.tar.gz",
+    "srcurl": "https://github.com/vim/vim/archive/refs/tags/v9.2.0750.tar.gz",
     "maintainer": "Joshua Kahn <tom@termux.dev>",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/2f97965922/packages/vim",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/2f97965922/packages/vim/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/2f97965922/packages/vim/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/0f89250e96/packages/vim",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/0f89250e96/packages/vim/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/0f89250e96/packages/vim/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/2f97965922/packages/vim/configure-perl-ruby-tcl-cross-compiling.diff",
-      "https://github.com/zrsx/termux-ng/blob/2f97965922/packages/vim/fix-writing-archive.patch",
-      "https://github.com/zrsx/termux-ng/blob/2f97965922/packages/vim/option.c.patch",
-      "https://github.com/zrsx/termux-ng/blob/2f97965922/packages/vim/revert-1fe0d1e.patch",
-      "https://github.com/zrsx/termux-ng/blob/2f97965922/packages/vim/runtime-syntax-sh.vim.patch",
-      "https://github.com/zrsx/termux-ng/blob/2f97965922/packages/vim/src-os_unix.h.patch",
-      "https://github.com/zrsx/termux-ng/blob/2f97965922/packages/vim/vimtutor.patch"
+      "https://github.com/zrsx/termux-ng/blob/0f89250e96/packages/vim/configure-perl-ruby-tcl-cross-compiling.diff",
+      "https://github.com/zrsx/termux-ng/blob/0f89250e96/packages/vim/fix-writing-archive.patch",
+      "https://github.com/zrsx/termux-ng/blob/0f89250e96/packages/vim/option.c.patch",
+      "https://github.com/zrsx/termux-ng/blob/0f89250e96/packages/vim/revert-1fe0d1e.patch",
+      "https://github.com/zrsx/termux-ng/blob/0f89250e96/packages/vim/runtime-syntax-sh.vim.patch",
+      "https://github.com/zrsx/termux-ng/blob/0f89250e96/packages/vim/src-os_unix.h.patch",
+      "https://github.com/zrsx/termux-ng/blob/0f89250e96/packages/vim/vimtutor.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/2f97965922/packages/vim/configure-perl-ruby-tcl-cross-compiling.diff",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/2f97965922/packages/vim/fix-writing-archive.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/2f97965922/packages/vim/option.c.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/2f97965922/packages/vim/revert-1fe0d1e.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/2f97965922/packages/vim/runtime-syntax-sh.vim.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/2f97965922/packages/vim/src-os_unix.h.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/2f97965922/packages/vim/vimtutor.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/0f89250e96/packages/vim/configure-perl-ruby-tcl-cross-compiling.diff",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/0f89250e96/packages/vim/fix-writing-archive.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/0f89250e96/packages/vim/option.c.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/0f89250e96/packages/vim/revert-1fe0d1e.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/0f89250e96/packages/vim/runtime-syntax-sh.vim.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/0f89250e96/packages/vim/src-os_unix.h.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/0f89250e96/packages/vim/vimtutor.patch"
     ],
     "auto_updated": true
   },
