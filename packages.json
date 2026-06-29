@@ -14622,20 +14622,20 @@
   },
   {
     "name": "kakoune-lsp",
-    "version": "21.0.0",
+    "version": "21.0.1",
     "description": "Language Server Protocol Client for the Kakoune editor",
     "homepage": "https://github.com/kakoune-lsp/kakoune-lsp",
     "depends": [],
-    "srcurl": "https://github.com/kakoune-lsp/kakoune-lsp/archive/refs/tags/v21.0.0.tar.gz",
+    "srcurl": "https://github.com/kakoune-lsp/kakoune-lsp/archive/refs/tags/v21.0.1.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/0dc58eb17e/packages/kakoune-lsp",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/0dc58eb17e/packages/kakoune-lsp/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/0dc58eb17e/packages/kakoune-lsp/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/103d07f353/packages/kakoune-lsp",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/103d07f353/packages/kakoune-lsp/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/103d07f353/packages/kakoune-lsp/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/0dc58eb17e/packages/kakoune-lsp/src-text_edit.rs.patch"
+      "https://github.com/zrsx/termux-ng/blob/103d07f353/packages/kakoune-lsp/src-text_edit.rs.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/0dc58eb17e/packages/kakoune-lsp/src-text_edit.rs.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/103d07f353/packages/kakoune-lsp/src-text_edit.rs.patch"
     ],
     "auto_updated": true
   },
@@ -24292,7 +24292,7 @@
   },
   {
     "name": "llama-cpp",
-    "version": "b9833",
+    "version": "b9837",
     "description": "LLM inference in C/C++",
     "homepage": "https://github.com/ggml-org/llama.cpp",
     "depends": [
@@ -24300,18 +24300,18 @@
       "libc++",
       "libcurl"
     ],
-    "srcurl": "https://github.com/ggml-org/llama.cpp/archive/refs/tags/b9833.tar.gz",
+    "srcurl": "https://github.com/ggml-org/llama.cpp/archive/refs/tags/b9837.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/6de3891e1d/packages/llama-cpp",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/6de3891e1d/packages/llama-cpp/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/6de3891e1d/packages/llama-cpp/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/3f51a774c5/packages/llama-cpp",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/3f51a774c5/packages/llama-cpp/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/3f51a774c5/packages/llama-cpp/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/6de3891e1d/packages/llama-cpp/0001-search-dirs.patch",
-      "https://github.com/zrsx/termux-ng/blob/6de3891e1d/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
+      "https://github.com/zrsx/termux-ng/blob/3f51a774c5/packages/llama-cpp/0001-search-dirs.patch",
+      "https://github.com/zrsx/termux-ng/blob/3f51a774c5/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/6de3891e1d/packages/llama-cpp/0001-search-dirs.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/6de3891e1d/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/3f51a774c5/packages/llama-cpp/0001-search-dirs.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/3f51a774c5/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
     ],
     "auto_updated": true
   },
@@ -36474,17 +36474,17 @@
   },
   {
     "name": "rust-analyzer",
-    "version": "2026-06-22",
+    "version": "2026-06-29",
     "description": "A Rust compiler front-end for IDEs",
     "homepage": "https://rust-analyzer.github.io/",
     "depends": [
       "rust-src"
     ],
-    "srcurl": "https://github.com/rust-lang/rust-analyzer/archive/refs/tags/2026-06-22.tar.gz",
+    "srcurl": "https://github.com/rust-lang/rust-analyzer/archive/refs/tags/2026-06-29.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/ce230826d1/packages/rust-analyzer",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/ce230826d1/packages/rust-analyzer/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/ce230826d1/packages/rust-analyzer/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/5b00c61be3/packages/rust-analyzer",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/5b00c61be3/packages/rust-analyzer/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/5b00c61be3/packages/rust-analyzer/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
