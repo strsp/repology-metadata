@@ -24292,7 +24292,7 @@
   },
   {
     "name": "llama-cpp",
-    "version": "b9844",
+    "version": "b9848",
     "description": "LLM inference in C/C++",
     "homepage": "https://github.com/ggml-org/llama.cpp",
     "depends": [
@@ -24300,18 +24300,18 @@
       "libc++",
       "libcurl"
     ],
-    "srcurl": "https://github.com/ggml-org/llama.cpp/archive/refs/tags/b9844.tar.gz",
+    "srcurl": "https://github.com/ggml-org/llama.cpp/archive/refs/tags/b9848.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/78c4f8d3c8/packages/llama-cpp",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/78c4f8d3c8/packages/llama-cpp/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/78c4f8d3c8/packages/llama-cpp/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/e937f33cbb/packages/llama-cpp",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/e937f33cbb/packages/llama-cpp/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/e937f33cbb/packages/llama-cpp/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/78c4f8d3c8/packages/llama-cpp/0001-search-dirs.patch",
-      "https://github.com/zrsx/termux-ng/blob/78c4f8d3c8/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
+      "https://github.com/zrsx/termux-ng/blob/e937f33cbb/packages/llama-cpp/0001-search-dirs.patch",
+      "https://github.com/zrsx/termux-ng/blob/e937f33cbb/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/78c4f8d3c8/packages/llama-cpp/0001-search-dirs.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/78c4f8d3c8/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/e937f33cbb/packages/llama-cpp/0001-search-dirs.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/e937f33cbb/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
     ],
     "auto_updated": true
   },
@@ -25099,7 +25099,7 @@
   },
   {
     "name": "lux-cli",
-    "version": "0.34.0",
+    "version": "0.34.1",
     "description": "A package manager for Lua, similar to luarocks",
     "homepage": "https://lux.lumen-labs.org",
     "depends": [
@@ -25111,11 +25111,11 @@
       "openssl",
       "xz-utils"
     ],
-    "srcurl": "https://github.com/lumen-oss/lux/archive/refs/tags/v0.34.0.tar.gz",
+    "srcurl": "https://github.com/lumen-oss/lux/archive/refs/tags/v0.34.1.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/7a0e4a1a58/packages/lux-cli",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/7a0e4a1a58/packages/lux-cli/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/7a0e4a1a58/packages/lux-cli/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/ce1dda52c5/packages/lux-cli",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/ce1dda52c5/packages/lux-cli/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/ce1dda52c5/packages/lux-cli/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -42592,25 +42592,25 @@
   },
   {
     "name": "unrar",
-    "version": "7.2.6",
+    "version": "7.2.7",
     "description": "Tool for extracting files from .rar archives",
     "homepage": "https://www.rarlab.com/",
     "depends": [
       "libandroid-support",
       "libc++"
     ],
-    "srcurl": "https://www.rarlab.com/rar/unrarsrc-7.2.6.tar.gz",
+    "srcurl": "https://www.rarlab.com/rar/unrarsrc-7.2.7.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/b608d7d10a/packages/unrar",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/b608d7d10a/packages/unrar/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/b608d7d10a/packages/unrar/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/3a22e2f3a3/packages/unrar",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/3a22e2f3a3/packages/unrar/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/3a22e2f3a3/packages/unrar/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/b608d7d10a/packages/unrar/makefile.patch",
-      "https://github.com/zrsx/termux-ng/blob/b608d7d10a/packages/unrar/os.hpp.patch"
+      "https://github.com/zrsx/termux-ng/blob/3a22e2f3a3/packages/unrar/makefile.patch",
+      "https://github.com/zrsx/termux-ng/blob/3a22e2f3a3/packages/unrar/os.hpp.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/b608d7d10a/packages/unrar/makefile.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/b608d7d10a/packages/unrar/os.hpp.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/3a22e2f3a3/packages/unrar/makefile.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/3a22e2f3a3/packages/unrar/os.hpp.patch"
     ],
     "auto_updated": true
   },
@@ -44021,15 +44021,15 @@
   },
   {
     "name": "wakatime-cli",
-    "version": "2.21.3",
+    "version": "2.21.4",
     "description": "Command line interface used by all WakaTime text editor plugins",
     "homepage": "https://wakatime.com/plugins/",
     "depends": [],
-    "srcurl": "https://github.com/wakatime/wakatime-cli/archive/refs/tags/v2.21.3.tar.gz",
+    "srcurl": "https://github.com/wakatime/wakatime-cli/archive/refs/tags/v2.21.4.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/2b2c92aa4b/packages/wakatime-cli",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/2b2c92aa4b/packages/wakatime-cli/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/2b2c92aa4b/packages/wakatime-cli/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/e49f4c885b/packages/wakatime-cli",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/e49f4c885b/packages/wakatime-cli/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/e49f4c885b/packages/wakatime-cli/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
