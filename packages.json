@@ -13998,7 +13998,7 @@
   },
   {
     "name": "jackett",
-    "version": "0.24.2140",
+    "version": "0.24.2142",
     "description": "API Support for your favorite torrent trackers",
     "homepage": "https://github.com/jackett/jackett",
     "depends": [
@@ -14006,11 +14006,11 @@
       "dotnet-host",
       "dotnet-runtime-9.0"
     ],
-    "srcurl": "https://github.com/Jackett/Jackett/archive/refs/tags/v0.24.2140.tar.gz",
+    "srcurl": "https://github.com/Jackett/Jackett/archive/refs/tags/v0.24.2142.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/b7e55d8cf8/packages/jackett",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/b7e55d8cf8/packages/jackett/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/b7e55d8cf8/packages/jackett/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/5ea2108255/packages/jackett",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/5ea2108255/packages/jackett/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/5ea2108255/packages/jackett/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -19378,15 +19378,15 @@
   },
   {
     "name": "libmpdclient",
-    "version": "2.25",
+    "version": "2.26",
     "description": "Asynchronous API library for interfacing MPD in the C, C++ & Objective C languages",
     "homepage": "https://www.musicpd.org/libs/libmpdclient/",
     "depends": [],
-    "srcurl": "https://github.com/MusicPlayerDaemon/libmpdclient/archive/refs/tags/v2.25.tar.gz",
+    "srcurl": "https://github.com/MusicPlayerDaemon/libmpdclient/archive/refs/tags/v2.26.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/ca64adfad0/packages/libmpdclient",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/ca64adfad0/packages/libmpdclient/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/ca64adfad0/packages/libmpdclient/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/c38e67740d/packages/libmpdclient",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/c38e67740d/packages/libmpdclient/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/c38e67740d/packages/libmpdclient/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -24292,7 +24292,7 @@
   },
   {
     "name": "llama-cpp",
-    "version": "b9843",
+    "version": "b9844",
     "description": "LLM inference in C/C++",
     "homepage": "https://github.com/ggml-org/llama.cpp",
     "depends": [
@@ -24300,18 +24300,18 @@
       "libc++",
       "libcurl"
     ],
-    "srcurl": "https://github.com/ggml-org/llama.cpp/archive/refs/tags/b9843.tar.gz",
+    "srcurl": "https://github.com/ggml-org/llama.cpp/archive/refs/tags/b9844.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/e444869ad6/packages/llama-cpp",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/e444869ad6/packages/llama-cpp/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/e444869ad6/packages/llama-cpp/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/78c4f8d3c8/packages/llama-cpp",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/78c4f8d3c8/packages/llama-cpp/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/78c4f8d3c8/packages/llama-cpp/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/e444869ad6/packages/llama-cpp/0001-search-dirs.patch",
-      "https://github.com/zrsx/termux-ng/blob/e444869ad6/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
+      "https://github.com/zrsx/termux-ng/blob/78c4f8d3c8/packages/llama-cpp/0001-search-dirs.patch",
+      "https://github.com/zrsx/termux-ng/blob/78c4f8d3c8/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/e444869ad6/packages/llama-cpp/0001-search-dirs.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/e444869ad6/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/78c4f8d3c8/packages/llama-cpp/0001-search-dirs.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/78c4f8d3c8/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
     ],
     "auto_updated": true
   },
@@ -35780,15 +35780,15 @@
   },
   {
     "name": "restish",
-    "version": "2.2.0",
+    "version": "2.3.0",
     "description": "A CLI for interacting with REST-ish HTTP APIs",
     "homepage": "https://github.com/rest-sh/restish",
     "depends": [],
-    "srcurl": "https://github.com/rest-sh/restish/archive/refs/tags/v2.2.0.tar.gz",
+    "srcurl": "https://github.com/rest-sh/restish/archive/refs/tags/v2.3.0.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/7c7544ebdb/packages/restish",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/7c7544ebdb/packages/restish/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/7c7544ebdb/packages/restish/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/19c26ea44f/packages/restish",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/19c26ea44f/packages/restish/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/19c26ea44f/packages/restish/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -38020,15 +38020,15 @@
   },
   {
     "name": "sops",
-    "version": "3.13.1",
+    "version": "3.13.2",
     "description": "Simple and flexible tool for managing secrets",
     "homepage": "https://github.com/getsops/sops",
     "depends": [],
-    "srcurl": "https://github.com/getsops/sops/archive/refs/tags/v3.13.1.tar.gz",
+    "srcurl": "https://github.com/getsops/sops/archive/refs/tags/v3.13.2.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/fc3e4af849/packages/sops",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/fc3e4af849/packages/sops/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/fc3e4af849/packages/sops/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/5ed01d5233/packages/sops",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/5ed01d5233/packages/sops/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/5ed01d5233/packages/sops/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -38933,15 +38933,15 @@
   },
   {
     "name": "storj-uplink",
-    "version": "1.157.6",
+    "version": "1.158.2",
     "description": "Storj DCS Uplink CLI",
     "homepage": "https://www.storj.io/integrations/uplink-cli",
     "depends": [],
-    "srcurl": "https://github.com/storj/storj/archive/refs/tags/v1.157.6.tar.gz",
+    "srcurl": "https://github.com/storj/storj/archive/refs/tags/v1.158.2.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/7783f00fa0/packages/storj-uplink",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/7783f00fa0/packages/storj-uplink/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/7783f00fa0/packages/storj-uplink/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/47d1035a89/packages/storj-uplink",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/47d1035a89/packages/storj-uplink/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/47d1035a89/packages/storj-uplink/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
