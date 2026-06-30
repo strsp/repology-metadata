@@ -5198,15 +5198,15 @@
   },
   {
     "name": "croc",
-    "version": "1:10.4.5",
+    "version": "1:10.4.6",
     "description": "Easily and securely send things from one computer to another",
     "homepage": "https://github.com/schollz/croc",
     "depends": [],
-    "srcurl": "https://github.com/schollz/croc/archive/refs/tags/v10.4.5.tar.gz",
+    "srcurl": "https://github.com/schollz/croc/archive/refs/tags/v10.4.6.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/880306b1ea/packages/croc",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/880306b1ea/packages/croc/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/880306b1ea/packages/croc/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/dad761155e/packages/croc",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/dad761155e/packages/croc/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/dad761155e/packages/croc/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -8880,15 +8880,15 @@
   },
   {
     "name": "flyctl",
-    "version": "0.4.62",
+    "version": "0.4.63",
     "description": "Command line tools for fly.io services",
     "homepage": "https://fly.io",
     "depends": [],
-    "srcurl": "https://github.com/superfly/flyctl/archive/refs/tags/v0.4.62.tar.gz",
+    "srcurl": "https://github.com/superfly/flyctl/archive/refs/tags/v0.4.63.tar.gz",
     "maintainer": "Yaksh Bariya <thunder-coding@termux.dev>",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/b3866b84e7/packages/flyctl",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/b3866b84e7/packages/flyctl/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/b3866b84e7/packages/flyctl/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/406064951d/packages/flyctl",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/406064951d/packages/flyctl/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/406064951d/packages/flyctl/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -10464,15 +10464,15 @@
   },
   {
     "name": "glab-cli",
-    "version": "1.105.0",
+    "version": "1.106.0",
     "description": "A GitLab CLI tool bringing GitLab to your command line",
     "homepage": "https://gitlab.com/gitlab-org/cli",
     "depends": [],
-    "srcurl": "https://gitlab.com/gitlab-org/cli/-/archive/v1.105.0/cli-1.105.0.tar.bz2",
+    "srcurl": "https://gitlab.com/gitlab-org/cli/-/archive/v1.106.0/cli-1.106.0.tar.bz2",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/8124c3be63/packages/glab-cli",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/8124c3be63/packages/glab-cli/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/8124c3be63/packages/glab-cli/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/41a05cc594/packages/glab-cli",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/41a05cc594/packages/glab-cli/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/41a05cc594/packages/glab-cli/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -18542,15 +18542,15 @@
   },
   {
     "name": "libjpeg-turbo",
-    "version": "3.1.4.1",
+    "version": "3.2.0",
     "description": "Library for reading and writing JPEG image files",
     "homepage": "https://libjpeg-turbo.virtualgl.org",
     "depends": [],
-    "srcurl": "https://github.com/libjpeg-turbo/libjpeg-turbo/releases/download/3.1.4.1/libjpeg-turbo-3.1.4.1.tar.gz",
+    "srcurl": "https://github.com/libjpeg-turbo/libjpeg-turbo/releases/download/3.2.0/libjpeg-turbo-3.2.0.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/85ad6bbb07/packages/libjpeg-turbo",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/85ad6bbb07/packages/libjpeg-turbo/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/85ad6bbb07/packages/libjpeg-turbo/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/35e9c9a278/packages/libjpeg-turbo",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/35e9c9a278/packages/libjpeg-turbo/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/35e9c9a278/packages/libjpeg-turbo/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -19238,7 +19238,7 @@
   },
   {
     "name": "libminizip-ng",
-    "version": "4.2.1",
+    "version": "4.2.2",
     "description": "A zip manipulation library written in C",
     "homepage": "https://github.com/zlib-ng/minizip-ng",
     "depends": [
@@ -19248,11 +19248,11 @@
       "openssl",
       "zlib"
     ],
-    "srcurl": "https://github.com/zlib-ng/minizip-ng/archive/refs/tags/4.2.1.tar.gz",
+    "srcurl": "https://github.com/zlib-ng/minizip-ng/archive/refs/tags/4.2.2.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/111384f3bd/packages/libminizip-ng",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/111384f3bd/packages/libminizip-ng/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/111384f3bd/packages/libminizip-ng/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/86618d14ed/packages/libminizip-ng",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/86618d14ed/packages/libminizip-ng/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/86618d14ed/packages/libminizip-ng/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -24292,7 +24292,7 @@
   },
   {
     "name": "llama-cpp",
-    "version": "b9848",
+    "version": "b9851",
     "description": "LLM inference in C/C++",
     "homepage": "https://github.com/ggml-org/llama.cpp",
     "depends": [
@@ -24300,18 +24300,18 @@
       "libc++",
       "libcurl"
     ],
-    "srcurl": "https://github.com/ggml-org/llama.cpp/archive/refs/tags/b9848.tar.gz",
+    "srcurl": "https://github.com/ggml-org/llama.cpp/archive/refs/tags/b9851.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/e937f33cbb/packages/llama-cpp",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/e937f33cbb/packages/llama-cpp/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/e937f33cbb/packages/llama-cpp/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/44389019da/packages/llama-cpp",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/44389019da/packages/llama-cpp/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/44389019da/packages/llama-cpp/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/e937f33cbb/packages/llama-cpp/0001-search-dirs.patch",
-      "https://github.com/zrsx/termux-ng/blob/e937f33cbb/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
+      "https://github.com/zrsx/termux-ng/blob/44389019da/packages/llama-cpp/0001-search-dirs.patch",
+      "https://github.com/zrsx/termux-ng/blob/44389019da/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/e937f33cbb/packages/llama-cpp/0001-search-dirs.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/e937f33cbb/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/44389019da/packages/llama-cpp/0001-search-dirs.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/44389019da/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
     ],
     "auto_updated": true
   },
@@ -42969,17 +42969,17 @@
   },
   {
     "name": "uv",
-    "version": "0.11.25",
+    "version": "0.11.26",
     "description": "An extremely fast Python package installer and resolver, written in Rust.",
     "homepage": "https://docs.astral.sh/uv/",
     "depends": [
       "zstd"
     ],
-    "srcurl": "https://github.com/astral-sh/uv/archive/refs/tags/0.11.25.tar.gz",
+    "srcurl": "https://github.com/astral-sh/uv/archive/refs/tags/0.11.26.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/cf99ffc2ae/packages/uv",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/cf99ffc2ae/packages/uv/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/cf99ffc2ae/packages/uv/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/579818b252/packages/uv",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/579818b252/packages/uv/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/579818b252/packages/uv/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
