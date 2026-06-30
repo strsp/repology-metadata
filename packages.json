@@ -11350,15 +11350,15 @@
   },
   {
     "name": "goose",
-    "version": "3.27.1",
+    "version": "3.27.2",
     "description": "A database migration tool. Supports SQL migrations and Go functions.",
     "homepage": "https://pressly.github.io/goose",
     "depends": [],
-    "srcurl": "https://github.com/pressly/goose/archive/refs/tags/v3.27.1.tar.gz",
+    "srcurl": "https://github.com/pressly/goose/archive/refs/tags/v3.27.2.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/6eeada7c5e/packages/goose",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/6eeada7c5e/packages/goose/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/6eeada7c5e/packages/goose/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/d00669d712/packages/goose",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/d00669d712/packages/goose/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/d00669d712/packages/goose/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -11588,7 +11588,7 @@
   },
   {
     "name": "gpgme",
-    "version": "2.1.1",
+    "version": "2.1.2",
     "description": "Library designed to make access to GnuPG easier",
     "homepage": "https://www.gnupg.org/related_software/gpgme/",
     "depends": [
@@ -11596,11 +11596,11 @@
       "libassuan",
       "libgpg-error"
     ],
-    "srcurl": "https://www.gnupg.org/ftp/gcrypt/gpgme/gpgme-2.1.1.tar.bz2",
+    "srcurl": "https://www.gnupg.org/ftp/gcrypt/gpgme/gpgme-2.1.2.tar.bz2",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/53999ad9c7/packages/gpgme",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/53999ad9c7/packages/gpgme/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/53999ad9c7/packages/gpgme/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/d87e5ac417/packages/gpgme",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/d87e5ac417/packages/gpgme/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/d87e5ac417/packages/gpgme/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
