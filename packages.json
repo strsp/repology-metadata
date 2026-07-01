@@ -8880,15 +8880,15 @@
   },
   {
     "name": "flyctl",
-    "version": "0.4.63",
+    "version": "0.4.64",
     "description": "Command line tools for fly.io services",
     "homepage": "https://fly.io",
     "depends": [],
-    "srcurl": "https://github.com/superfly/flyctl/archive/refs/tags/v0.4.63.tar.gz",
+    "srcurl": "https://github.com/superfly/flyctl/archive/refs/tags/v0.4.64.tar.gz",
     "maintainer": "Yaksh Bariya <thunder-coding@termux.dev>",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/406064951d/packages/flyctl",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/406064951d/packages/flyctl/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/406064951d/packages/flyctl/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/8bb19d1fd6/packages/flyctl",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/8bb19d1fd6/packages/flyctl/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/8bb19d1fd6/packages/flyctl/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -24292,7 +24292,7 @@
   },
   {
     "name": "llama-cpp",
-    "version": "b9857",
+    "version": "b9859",
     "description": "LLM inference in C/C++",
     "homepage": "https://github.com/ggml-org/llama.cpp",
     "depends": [
@@ -24300,18 +24300,18 @@
       "libc++",
       "libcurl"
     ],
-    "srcurl": "https://github.com/ggml-org/llama.cpp/archive/refs/tags/b9857.tar.gz",
+    "srcurl": "https://github.com/ggml-org/llama.cpp/archive/refs/tags/b9859.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/c2f31d72b8/packages/llama-cpp",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/c2f31d72b8/packages/llama-cpp/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/c2f31d72b8/packages/llama-cpp/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/bbd645ff3e/packages/llama-cpp",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/bbd645ff3e/packages/llama-cpp/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/bbd645ff3e/packages/llama-cpp/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/c2f31d72b8/packages/llama-cpp/0001-search-dirs.patch",
-      "https://github.com/zrsx/termux-ng/blob/c2f31d72b8/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
+      "https://github.com/zrsx/termux-ng/blob/bbd645ff3e/packages/llama-cpp/0001-search-dirs.patch",
+      "https://github.com/zrsx/termux-ng/blob/bbd645ff3e/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/c2f31d72b8/packages/llama-cpp/0001-search-dirs.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/c2f31d72b8/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/bbd645ff3e/packages/llama-cpp/0001-search-dirs.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/bbd645ff3e/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
     ],
     "auto_updated": true
   },
@@ -41053,7 +41053,7 @@
   },
   {
     "name": "tmux",
-    "version": "3.7a",
+    "version": "3.7b",
     "description": "Terminal multiplexer",
     "homepage": "https://tmux.github.io/",
     "depends": [
@@ -41062,20 +41062,20 @@
       "libandroid-support",
       "libandroid-glob"
     ],
-    "srcurl": "https://github.com/tmux/tmux/archive/refs/tags/3.7a.tar.gz",
+    "srcurl": "https://github.com/tmux/tmux/archive/refs/tags/3.7b.tar.gz",
     "maintainer": "Joshua Kahn <tom@termux.dev>",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/1680d808ff/packages/tmux",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/1680d808ff/packages/tmux/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/1680d808ff/packages/tmux/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/d257928131/packages/tmux",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/d257928131/packages/tmux/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/d257928131/packages/tmux/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/1680d808ff/packages/tmux/compat-setproctitle.c.patch",
-      "https://github.com/zrsx/termux-ng/blob/1680d808ff/packages/tmux/configure.ac.patch",
-      "https://github.com/zrsx/termux-ng/blob/1680d808ff/packages/tmux/tmux.h.patch"
+      "https://github.com/zrsx/termux-ng/blob/d257928131/packages/tmux/compat-setproctitle.c.patch",
+      "https://github.com/zrsx/termux-ng/blob/d257928131/packages/tmux/configure.ac.patch",
+      "https://github.com/zrsx/termux-ng/blob/d257928131/packages/tmux/tmux.h.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/1680d808ff/packages/tmux/compat-setproctitle.c.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/1680d808ff/packages/tmux/configure.ac.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/1680d808ff/packages/tmux/tmux.h.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/d257928131/packages/tmux/compat-setproctitle.c.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/d257928131/packages/tmux/configure.ac.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/d257928131/packages/tmux/tmux.h.patch"
     ],
     "auto_updated": true
   },
