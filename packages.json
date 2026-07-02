@@ -1981,15 +1981,15 @@
   },
   {
     "name": "await",
-    "version": "2.6.0",
+    "version": "2.7.0",
     "description": "Runs list of commands in parallel and waits for their termination",
     "homepage": "https://github.com/slavaGanzin/await",
     "depends": [],
-    "srcurl": "https://github.com/slavaGanzin/await/archive/refs/tags/2.6.0.tar.gz",
+    "srcurl": "https://github.com/slavaGanzin/await/archive/refs/tags/2.7.0.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/f88e2da485/packages/await",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/f88e2da485/packages/await/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/f88e2da485/packages/await/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/ebb161be9c/packages/await",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/ebb161be9c/packages/await/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/ebb161be9c/packages/await/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -8880,15 +8880,15 @@
   },
   {
     "name": "flyctl",
-    "version": "0.4.64",
+    "version": "0.4.65",
     "description": "Command line tools for fly.io services",
     "homepage": "https://fly.io",
     "depends": [],
-    "srcurl": "https://github.com/superfly/flyctl/archive/refs/tags/v0.4.64.tar.gz",
+    "srcurl": "https://github.com/superfly/flyctl/archive/refs/tags/v0.4.65.tar.gz",
     "maintainer": "Yaksh Bariya <thunder-coding@termux.dev>",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/8bb19d1fd6/packages/flyctl",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/8bb19d1fd6/packages/flyctl/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/8bb19d1fd6/packages/flyctl/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/552c240f95/packages/flyctl",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/552c240f95/packages/flyctl/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/552c240f95/packages/flyctl/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -24292,7 +24292,7 @@
   },
   {
     "name": "llama-cpp",
-    "version": "b9859",
+    "version": "b9860",
     "description": "LLM inference in C/C++",
     "homepage": "https://github.com/ggml-org/llama.cpp",
     "depends": [
@@ -24300,18 +24300,18 @@
       "libc++",
       "libcurl"
     ],
-    "srcurl": "https://github.com/ggml-org/llama.cpp/archive/refs/tags/b9859.tar.gz",
+    "srcurl": "https://github.com/ggml-org/llama.cpp/archive/refs/tags/b9860.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/bbd645ff3e/packages/llama-cpp",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/bbd645ff3e/packages/llama-cpp/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/bbd645ff3e/packages/llama-cpp/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/930cf4c3dd/packages/llama-cpp",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/930cf4c3dd/packages/llama-cpp/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/930cf4c3dd/packages/llama-cpp/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/bbd645ff3e/packages/llama-cpp/0001-search-dirs.patch",
-      "https://github.com/zrsx/termux-ng/blob/bbd645ff3e/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
+      "https://github.com/zrsx/termux-ng/blob/930cf4c3dd/packages/llama-cpp/0001-search-dirs.patch",
+      "https://github.com/zrsx/termux-ng/blob/930cf4c3dd/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/bbd645ff3e/packages/llama-cpp/0001-search-dirs.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/bbd645ff3e/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/930cf4c3dd/packages/llama-cpp/0001-search-dirs.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/930cf4c3dd/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
     ],
     "auto_updated": true
   },
@@ -25099,7 +25099,7 @@
   },
   {
     "name": "lux-cli",
-    "version": "0.34.1",
+    "version": "0.35.0",
     "description": "A package manager for Lua, similar to luarocks",
     "homepage": "https://lux.lumen-labs.org",
     "depends": [
@@ -25111,11 +25111,11 @@
       "openssl",
       "xz-utils"
     ],
-    "srcurl": "https://github.com/lumen-oss/lux/archive/refs/tags/v0.34.1.tar.gz",
+    "srcurl": "https://github.com/lumen-oss/lux/archive/refs/tags/v0.35.0.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/ce1dda52c5/packages/lux-cli",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/ce1dda52c5/packages/lux-cli/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/ce1dda52c5/packages/lux-cli/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/d960ac8e86/packages/lux-cli",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/d960ac8e86/packages/lux-cli/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/d960ac8e86/packages/lux-cli/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -26847,25 +26847,25 @@
   },
   {
     "name": "mise",
-    "version": "2026.6.14",
+    "version": "2026.7.0",
     "description": "dev tools, env vars, task runner",
     "homepage": "https://mise.jdx.dev/",
     "depends": [
       "bzip2",
       "openssl"
     ],
-    "srcurl": "https://github.com/jdx/mise/archive/refs/tags/v2026.6.14.tar.gz",
+    "srcurl": "https://github.com/jdx/mise/archive/refs/tags/v2026.7.0.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/76269c53e1/packages/mise",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/76269c53e1/packages/mise/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/76269c53e1/packages/mise/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/99cd801ff1/packages/mise",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/99cd801ff1/packages/mise/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/99cd801ff1/packages/mise/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/76269c53e1/packages/mise/rattler_pty-android-target.diff",
-      "https://github.com/zrsx/termux-ng/blob/76269c53e1/packages/mise/rust-cc-do-not-concatenate-all-the-CFLAGS.diff"
+      "https://github.com/zrsx/termux-ng/blob/99cd801ff1/packages/mise/rattler_pty-android-target.diff",
+      "https://github.com/zrsx/termux-ng/blob/99cd801ff1/packages/mise/rust-cc-do-not-concatenate-all-the-CFLAGS.diff"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/76269c53e1/packages/mise/rattler_pty-android-target.diff",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/76269c53e1/packages/mise/rust-cc-do-not-concatenate-all-the-CFLAGS.diff"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/99cd801ff1/packages/mise/rattler_pty-android-target.diff",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/99cd801ff1/packages/mise/rust-cc-do-not-concatenate-all-the-CFLAGS.diff"
     ],
     "auto_updated": true
   },
