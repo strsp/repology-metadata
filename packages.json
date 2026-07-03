@@ -22328,7 +22328,7 @@
   },
   {
     "name": "libtorrent",
-    "version": "0.16.15",
+    "version": "0.16.16",
     "description": "Libtorrent BitTorrent library",
     "homepage": "https://github.com/rakshasa/rtorrent/wiki",
     "depends": [
@@ -22338,18 +22338,18 @@
       "resolv-conf",
       "zlib"
     ],
-    "srcurl": "https://github.com/rakshasa/libtorrent/archive/refs/tags/v0.16.15.tar.gz",
+    "srcurl": "https://github.com/rakshasa/libtorrent/archive/refs/tags/v0.16.16.tar.gz",
     "maintainer": "Krishna Kanhaiya @kcubeterm",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/6af309cfcc/packages/libtorrent",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/6af309cfcc/packages/libtorrent/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/6af309cfcc/packages/libtorrent/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/dc69fee508/packages/libtorrent",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/dc69fee508/packages/libtorrent/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/dc69fee508/packages/libtorrent/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/6af309cfcc/packages/libtorrent/0001-fix-build-for-32bit.patch",
-      "https://github.com/zrsx/termux-ng/blob/6af309cfcc/packages/libtorrent/resolv-conf.patch"
+      "https://github.com/zrsx/termux-ng/blob/dc69fee508/packages/libtorrent/0001-fix-build-for-32bit.patch",
+      "https://github.com/zrsx/termux-ng/blob/dc69fee508/packages/libtorrent/resolv-conf.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/6af309cfcc/packages/libtorrent/0001-fix-build-for-32bit.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/6af309cfcc/packages/libtorrent/resolv-conf.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/dc69fee508/packages/libtorrent/0001-fix-build-for-32bit.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/dc69fee508/packages/libtorrent/resolv-conf.patch"
     ],
     "auto_updated": true
   },
@@ -24292,7 +24292,7 @@
   },
   {
     "name": "llama-cpp",
-    "version": "b9866",
+    "version": "b9867",
     "description": "LLM inference in C/C++",
     "homepage": "https://github.com/ggml-org/llama.cpp",
     "depends": [
@@ -24300,18 +24300,18 @@
       "libc++",
       "libcurl"
     ],
-    "srcurl": "https://github.com/ggml-org/llama.cpp/archive/refs/tags/b9866.tar.gz",
+    "srcurl": "https://github.com/ggml-org/llama.cpp/archive/refs/tags/b9867.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/8376617b5e/packages/llama-cpp",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/8376617b5e/packages/llama-cpp/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/8376617b5e/packages/llama-cpp/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/c18e8914b5/packages/llama-cpp",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/c18e8914b5/packages/llama-cpp/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/c18e8914b5/packages/llama-cpp/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/8376617b5e/packages/llama-cpp/0001-search-dirs.patch",
-      "https://github.com/zrsx/termux-ng/blob/8376617b5e/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
+      "https://github.com/zrsx/termux-ng/blob/c18e8914b5/packages/llama-cpp/0001-search-dirs.patch",
+      "https://github.com/zrsx/termux-ng/blob/c18e8914b5/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/8376617b5e/packages/llama-cpp/0001-search-dirs.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/8376617b5e/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/c18e8914b5/packages/llama-cpp/0001-search-dirs.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/c18e8914b5/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
     ],
     "auto_updated": true
   },
@@ -43864,22 +43864,22 @@
   },
   {
     "name": "vulkan-loader",
-    "version": "1.4.355",
+    "version": "1.4.356",
     "description": "Vulkan Loader",
     "homepage": "https://github.com/KhronosGroup/Vulkan-Loader",
     "depends": [],
-    "srcurl": "https://github.com/KhronosGroup/Vulkan-Loader/archive/refs/tags/v1.4.355.tar.gz",
+    "srcurl": "https://github.com/KhronosGroup/Vulkan-Loader/archive/refs/tags/v1.4.356.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/7ef793017a/packages/vulkan-loader-generic",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/7ef793017a/packages/vulkan-loader-generic/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/7ef793017a/packages/vulkan-loader-generic/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/bd4cf6b5eb/packages/vulkan-loader-generic",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/bd4cf6b5eb/packages/vulkan-loader-generic/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/bd4cf6b5eb/packages/vulkan-loader-generic/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/7ef793017a/packages/vulkan-loader-generic/0001-fix-hardcoded-pathes.patch",
-      "https://github.com/zrsx/termux-ng/blob/7ef793017a/packages/vulkan-loader-generic/0002-properly-enable-extensions.patch"
+      "https://github.com/zrsx/termux-ng/blob/bd4cf6b5eb/packages/vulkan-loader-generic/0001-fix-hardcoded-pathes.patch",
+      "https://github.com/zrsx/termux-ng/blob/bd4cf6b5eb/packages/vulkan-loader-generic/0002-properly-enable-extensions.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/7ef793017a/packages/vulkan-loader-generic/0001-fix-hardcoded-pathes.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/7ef793017a/packages/vulkan-loader-generic/0002-properly-enable-extensions.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/bd4cf6b5eb/packages/vulkan-loader-generic/0001-fix-hardcoded-pathes.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/bd4cf6b5eb/packages/vulkan-loader-generic/0002-properly-enable-extensions.patch"
     ],
     "auto_updated": true
   },
@@ -43914,20 +43914,20 @@
   },
   {
     "name": "vulkan-utility-libraries",
-    "version": "1.4.355",
+    "version": "1.4.356",
     "description": "Utility Libraries for Vulkan",
     "homepage": "https://github.com/KhronosGroup/Vulkan-Utility-Libraries",
     "depends": [],
-    "srcurl": "https://github.com/KhronosGroup/Vulkan-Utility-Libraries/archive/refs/tags/v1.4.355.tar.gz",
+    "srcurl": "https://github.com/KhronosGroup/Vulkan-Utility-Libraries/archive/refs/tags/v1.4.356.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/a865903e3b/packages/vulkan-utility-libraries",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/a865903e3b/packages/vulkan-utility-libraries/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/a865903e3b/packages/vulkan-utility-libraries/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/f0194add7c/packages/vulkan-utility-libraries",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/f0194add7c/packages/vulkan-utility-libraries/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/f0194add7c/packages/vulkan-utility-libraries/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/a865903e3b/packages/vulkan-utility-libraries/0001-do-not-build-for-android.patch"
+      "https://github.com/zrsx/termux-ng/blob/f0194add7c/packages/vulkan-utility-libraries/0001-do-not-build-for-android.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/a865903e3b/packages/vulkan-utility-libraries/0001-do-not-build-for-android.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/f0194add7c/packages/vulkan-utility-libraries/0001-do-not-build-for-android.patch"
     ],
     "auto_updated": true
   },
