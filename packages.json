@@ -12300,7 +12300,7 @@
   },
   {
     "name": "haproxy",
-    "version": "3.4.1",
+    "version": "3.4.2",
     "description": "The Reliable, High Performance TCP/HTTP Load Balancer",
     "homepage": "https://www.haproxy.org/",
     "depends": [
@@ -12309,16 +12309,16 @@
       "pcre2",
       "zlib"
     ],
-    "srcurl": "https://www.haproxy.org/download/3.4/src/haproxy-3.4.1.tar.gz",
+    "srcurl": "https://www.haproxy.org/download/3.4/src/haproxy-3.4.2.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/b8054da4ee/packages/haproxy",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/b8054da4ee/packages/haproxy/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/b8054da4ee/packages/haproxy/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/d7b081e8d1/packages/haproxy",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/d7b081e8d1/packages/haproxy/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/d7b081e8d1/packages/haproxy/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/b8054da4ee/packages/haproxy/Makefile.patch"
+      "https://github.com/zrsx/termux-ng/blob/d7b081e8d1/packages/haproxy/Makefile.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/b8054da4ee/packages/haproxy/Makefile.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/d7b081e8d1/packages/haproxy/Makefile.patch"
     ],
     "auto_updated": true
   },
