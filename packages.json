@@ -3608,17 +3608,17 @@
   },
   {
     "name": "cargo-leptos",
-    "version": "0.3.6",
+    "version": "0.3.7",
     "description": "Build tool for the Rust framework Leptos",
     "homepage": "https://github.com/leptos-rs/cargo-leptos",
     "depends": [
       "openssl"
     ],
-    "srcurl": "https://github.com/leptos-rs/cargo-leptos/archive/refs/tags/v0.3.6.tar.gz",
+    "srcurl": "https://github.com/leptos-rs/cargo-leptos/archive/refs/tags/v0.3.7.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/31abf72e9b/packages/cargo-leptos",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/31abf72e9b/packages/cargo-leptos/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/31abf72e9b/packages/cargo-leptos/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/6a73707e54/packages/cargo-leptos",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/6a73707e54/packages/cargo-leptos/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/6a73707e54/packages/cargo-leptos/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -5198,15 +5198,15 @@
   },
   {
     "name": "croc",
-    "version": "1:10.4.6",
+    "version": "1:10.4.7",
     "description": "Easily and securely send things from one computer to another",
     "homepage": "https://github.com/schollz/croc",
     "depends": [],
-    "srcurl": "https://github.com/schollz/croc/archive/refs/tags/v10.4.6.tar.gz",
+    "srcurl": "https://github.com/schollz/croc/archive/refs/tags/v10.4.7.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/dad761155e/packages/croc",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/dad761155e/packages/croc/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/dad761155e/packages/croc/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/22f66cef64/packages/croc",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/22f66cef64/packages/croc/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/22f66cef64/packages/croc/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -24292,7 +24292,7 @@
   },
   {
     "name": "llama-cpp",
-    "version": "b9867",
+    "version": "b9870",
     "description": "LLM inference in C/C++",
     "homepage": "https://github.com/ggml-org/llama.cpp",
     "depends": [
@@ -24300,18 +24300,18 @@
       "libc++",
       "libcurl"
     ],
-    "srcurl": "https://github.com/ggml-org/llama.cpp/archive/refs/tags/b9867.tar.gz",
+    "srcurl": "https://github.com/ggml-org/llama.cpp/archive/refs/tags/b9870.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/c18e8914b5/packages/llama-cpp",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/c18e8914b5/packages/llama-cpp/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/c18e8914b5/packages/llama-cpp/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/f493066685/packages/llama-cpp",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/f493066685/packages/llama-cpp/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/f493066685/packages/llama-cpp/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/c18e8914b5/packages/llama-cpp/0001-search-dirs.patch",
-      "https://github.com/zrsx/termux-ng/blob/c18e8914b5/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
+      "https://github.com/zrsx/termux-ng/blob/f493066685/packages/llama-cpp/0001-search-dirs.patch",
+      "https://github.com/zrsx/termux-ng/blob/f493066685/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/c18e8914b5/packages/llama-cpp/0001-search-dirs.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/c18e8914b5/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/f493066685/packages/llama-cpp/0001-search-dirs.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/f493066685/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
     ],
     "auto_updated": true
   },
@@ -24922,26 +24922,26 @@
   },
   {
     "name": "luajit",
-    "version": "1:2.1.1780076327+gb925b3e",
+    "version": "1:2.1.1782726002+ga2bde60",
     "description": "Just-In-Time Compiler for Lua",
     "homepage": "https://luajit.org/",
     "depends": [],
     "srcurl": "git+https://github.com/LuaJIT/LuaJIT.git",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/5b87b01aae/packages/luajit",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/5b87b01aae/packages/luajit/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/5b87b01aae/packages/luajit/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/7292aa74db/packages/luajit",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/7292aa74db/packages/luajit/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/7292aa74db/packages/luajit/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/5b87b01aae/packages/luajit/Makefile.patch",
-      "https://github.com/zrsx/termux-ng/blob/5b87b01aae/packages/luajit/etc-luajit.pc.patch",
-      "https://github.com/zrsx/termux-ng/blob/5b87b01aae/packages/luajit/src-Makefile.patch",
-      "https://github.com/zrsx/termux-ng/blob/5b87b01aae/packages/luajit/tmpdir-fix.patch"
+      "https://github.com/zrsx/termux-ng/blob/7292aa74db/packages/luajit/Makefile.patch",
+      "https://github.com/zrsx/termux-ng/blob/7292aa74db/packages/luajit/etc-luajit.pc.patch",
+      "https://github.com/zrsx/termux-ng/blob/7292aa74db/packages/luajit/src-Makefile.patch",
+      "https://github.com/zrsx/termux-ng/blob/7292aa74db/packages/luajit/tmpdir-fix.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/5b87b01aae/packages/luajit/Makefile.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/5b87b01aae/packages/luajit/etc-luajit.pc.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/5b87b01aae/packages/luajit/src-Makefile.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/5b87b01aae/packages/luajit/tmpdir-fix.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/7292aa74db/packages/luajit/Makefile.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/7292aa74db/packages/luajit/etc-luajit.pc.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/7292aa74db/packages/luajit/src-Makefile.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/7292aa74db/packages/luajit/tmpdir-fix.patch"
     ],
     "auto_updated": true
   },
