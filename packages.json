@@ -24292,7 +24292,7 @@
   },
   {
     "name": "llama-cpp",
-    "version": "b9870",
+    "version": "b9871",
     "description": "LLM inference in C/C++",
     "homepage": "https://github.com/ggml-org/llama.cpp",
     "depends": [
@@ -24300,18 +24300,18 @@
       "libc++",
       "libcurl"
     ],
-    "srcurl": "https://github.com/ggml-org/llama.cpp/archive/refs/tags/b9870.tar.gz",
+    "srcurl": "https://github.com/ggml-org/llama.cpp/archive/refs/tags/b9871.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/f493066685/packages/llama-cpp",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/f493066685/packages/llama-cpp/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/f493066685/packages/llama-cpp/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/8aa399b7bf/packages/llama-cpp",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/8aa399b7bf/packages/llama-cpp/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/8aa399b7bf/packages/llama-cpp/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/f493066685/packages/llama-cpp/0001-search-dirs.patch",
-      "https://github.com/zrsx/termux-ng/blob/f493066685/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
+      "https://github.com/zrsx/termux-ng/blob/8aa399b7bf/packages/llama-cpp/0001-search-dirs.patch",
+      "https://github.com/zrsx/termux-ng/blob/8aa399b7bf/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/f493066685/packages/llama-cpp/0001-search-dirs.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/f493066685/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/8aa399b7bf/packages/llama-cpp/0001-search-dirs.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/8aa399b7bf/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
     ],
     "auto_updated": true
   },
@@ -45751,15 +45751,15 @@
   },
   {
     "name": "zoxide",
-    "version": "0.9.9",
+    "version": "0.10.0",
     "description": "A faster way to navigate your filesystem",
     "homepage": "https://github.com/ajeetdsouza/zoxide",
     "depends": [],
-    "srcurl": "https://github.com/ajeetdsouza/zoxide/archive/refs/tags/v0.9.9.tar.gz",
+    "srcurl": "https://github.com/ajeetdsouza/zoxide/archive/refs/tags/v0.10.0.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/1c1d2e0395/packages/zoxide",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/1c1d2e0395/packages/zoxide/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/1c1d2e0395/packages/zoxide/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/9cedf6cbe8/packages/zoxide",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/9cedf6cbe8/packages/zoxide/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/9cedf6cbe8/packages/zoxide/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
