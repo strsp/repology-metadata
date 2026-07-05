@@ -493,20 +493,20 @@
   },
   {
     "name": "algernon",
-    "version": "1.17.9",
+    "version": "1.17.10",
     "description": "Small self-contained web server with Lua, Markdown, QUIC, Redis and PostgreSQL support",
     "homepage": "https://algernon.roboticoverlords.org/",
     "depends": [],
-    "srcurl": "https://github.com/xyproto/algernon/archive/refs/tags/v1.17.9.tar.gz",
+    "srcurl": "https://github.com/xyproto/algernon/archive/refs/tags/v1.17.10.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/dd5c7c78de/packages/algernon",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/dd5c7c78de/packages/algernon/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/dd5c7c78de/packages/algernon/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/81e782bed2/packages/algernon",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/81e782bed2/packages/algernon/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/81e782bed2/packages/algernon/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/dd5c7c78de/packages/algernon/fix-hardcoded-paths.patch"
+      "https://github.com/zrsx/termux-ng/blob/81e782bed2/packages/algernon/fix-hardcoded-paths.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/dd5c7c78de/packages/algernon/fix-hardcoded-paths.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/81e782bed2/packages/algernon/fix-hardcoded-paths.patch"
     ],
     "auto_updated": true
   },
@@ -23715,15 +23715,15 @@
   },
   {
     "name": "libxmp",
-    "version": "4.7.0",
+    "version": "4.7.1",
     "description": "Extended Module Player C Library that renders tracker and module music (MOD, S3M, IT, XM etc.)",
     "homepage": "https://github.com/libxmp/libxmp",
     "depends": [],
-    "srcurl": "https://github.com/libxmp/libxmp/releases/download/libxmp-4.7.0/libxmp-4.7.0.tar.gz",
+    "srcurl": "https://github.com/libxmp/libxmp/releases/download/libxmp-4.7.1/libxmp-4.7.1.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/ebc8e53f9a/packages/libxmp",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/ebc8e53f9a/packages/libxmp/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/ebc8e53f9a/packages/libxmp/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/913c3dfa51/packages/libxmp",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/913c3dfa51/packages/libxmp/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/913c3dfa51/packages/libxmp/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -24292,7 +24292,7 @@
   },
   {
     "name": "llama-cpp",
-    "version": "b9871",
+    "version": "b9873",
     "description": "LLM inference in C/C++",
     "homepage": "https://github.com/ggml-org/llama.cpp",
     "depends": [
@@ -24300,18 +24300,18 @@
       "libc++",
       "libcurl"
     ],
-    "srcurl": "https://github.com/ggml-org/llama.cpp/archive/refs/tags/b9871.tar.gz",
+    "srcurl": "https://github.com/ggml-org/llama.cpp/archive/refs/tags/b9873.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/8aa399b7bf/packages/llama-cpp",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/8aa399b7bf/packages/llama-cpp/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/8aa399b7bf/packages/llama-cpp/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/2025ce000b/packages/llama-cpp",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/2025ce000b/packages/llama-cpp/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/2025ce000b/packages/llama-cpp/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/8aa399b7bf/packages/llama-cpp/0001-search-dirs.patch",
-      "https://github.com/zrsx/termux-ng/blob/8aa399b7bf/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
+      "https://github.com/zrsx/termux-ng/blob/2025ce000b/packages/llama-cpp/0001-search-dirs.patch",
+      "https://github.com/zrsx/termux-ng/blob/2025ce000b/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/8aa399b7bf/packages/llama-cpp/0001-search-dirs.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/8aa399b7bf/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/2025ce000b/packages/llama-cpp/0001-search-dirs.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/2025ce000b/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
     ],
     "auto_updated": true
   },
@@ -29672,24 +29672,24 @@
   },
   {
     "name": "nushell",
-    "version": "0.113.1",
+    "version": "0.114.0",
     "description": "A new type of shell operating on structured data",
     "homepage": "https://www.nushell.sh",
     "depends": [
       "openssl"
     ],
-    "srcurl": "https://github.com/nushell/nushell/archive/refs/tags/0.113.1.tar.gz",
+    "srcurl": "https://github.com/nushell/nushell/archive/refs/tags/0.114.0.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/761bc3c23f/packages/nushell",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/761bc3c23f/packages/nushell/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/761bc3c23f/packages/nushell/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/2684efdd0c/packages/nushell",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/2684efdd0c/packages/nushell/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/2684efdd0c/packages/nushell/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/761bc3c23f/packages/nushell/0001-remove-sysinfo-Users.patch",
-      "https://github.com/zrsx/termux-ng/blob/761bc3c23f/packages/nushell/0002-replace-osc-52-paste-with-termux-clipboard-get.patch"
+      "https://github.com/zrsx/termux-ng/blob/2684efdd0c/packages/nushell/0001-remove-sysinfo-Users.patch",
+      "https://github.com/zrsx/termux-ng/blob/2684efdd0c/packages/nushell/0002-replace-osc-52-paste-with-termux-clipboard-get.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/761bc3c23f/packages/nushell/0001-remove-sysinfo-Users.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/761bc3c23f/packages/nushell/0002-replace-osc-52-paste-with-termux-clipboard-get.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/2684efdd0c/packages/nushell/0001-remove-sysinfo-Users.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/2684efdd0c/packages/nushell/0002-replace-osc-52-paste-with-termux-clipboard-get.patch"
     ],
     "auto_updated": true
   },
@@ -33361,18 +33361,18 @@
   },
   {
     "name": "proot",
-    "version": "5.1.107.81",
+    "version": "5.1.107.82",
     "description": "Emulate chroot, bind mount and binfmt_misc for non-root users",
     "homepage": "https://proot-me.github.io/",
     "depends": [
       "libandroid-shmem",
       "libtalloc"
     ],
-    "srcurl": "https://github.com/termux/proot/archive/v5.1.107.81.zip",
+    "srcurl": "https://github.com/termux/proot/archive/v5.1.107.82.zip",
     "maintainer": "Michal Bednarski @michalbednarski",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/9307928672/packages/proot",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/9307928672/packages/proot/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/9307928672/packages/proot/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/801f64707d/packages/proot",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/801f64707d/packages/proot/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/801f64707d/packages/proot/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
