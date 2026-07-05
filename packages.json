@@ -28583,7 +28583,7 @@
   },
   {
     "name": "neovim",
-    "version": "0.12.3",
+    "version": "0.12.4",
     "description": "Ambitious Vim-fork focused on extensibility and agility (nvim)",
     "homepage": "https://neovim.io/",
     "depends": [
@@ -28600,18 +28600,18 @@
       "tree-sitter-parsers",
       "utf8proc"
     ],
-    "srcurl": "https://github.com/neovim/neovim/archive/refs/tags/v0.12.3.tar.gz",
+    "srcurl": "https://github.com/neovim/neovim/archive/refs/tags/v0.12.4.tar.gz",
     "maintainer": "Joshua Kahn <tom@termux.dev>",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/40dce478d3/packages/neovim",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/40dce478d3/packages/neovim/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/40dce478d3/packages/neovim/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/2b06fde961/packages/neovim",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/2b06fde961/packages/neovim/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/2b06fde961/packages/neovim/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/40dce478d3/packages/neovim/disable-checkhealth-locale-warning.patch",
-      "https://github.com/zrsx/termux-ng/blob/40dce478d3/packages/neovim/src-nvim-os-stdpaths.c.patch"
+      "https://github.com/zrsx/termux-ng/blob/2b06fde961/packages/neovim/disable-checkhealth-locale-warning.patch",
+      "https://github.com/zrsx/termux-ng/blob/2b06fde961/packages/neovim/src-nvim-os-stdpaths.c.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/40dce478d3/packages/neovim/disable-checkhealth-locale-warning.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/40dce478d3/packages/neovim/src-nvim-os-stdpaths.c.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/2b06fde961/packages/neovim/disable-checkhealth-locale-warning.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/2b06fde961/packages/neovim/src-nvim-os-stdpaths.c.patch"
     ],
     "auto_updated": true
   },
