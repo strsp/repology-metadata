@@ -3289,24 +3289,24 @@
   },
   {
     "name": "c-ares",
-    "version": "1.34.6",
+    "version": "1.34.7",
     "description": "Library for asynchronous DNS requests (including name resolves)",
     "homepage": "https://c-ares.org/",
     "depends": [
       "resolv-conf"
     ],
-    "srcurl": "https://github.com/c-ares/c-ares/archive/refs/tags/v1.34.6.tar.gz",
+    "srcurl": "https://github.com/c-ares/c-ares/archive/refs/tags/v1.34.7.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/91fad586ce/packages/c-ares",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/91fad586ce/packages/c-ares/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/91fad586ce/packages/c-ares/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/fed8a34921/packages/c-ares",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/fed8a34921/packages/c-ares/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/fed8a34921/packages/c-ares/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/91fad586ce/packages/c-ares/0001-disable-ares-android.patch",
-      "https://github.com/zrsx/termux-ng/blob/91fad586ce/packages/c-ares/0002-fix-path-etc-hosts.patch"
+      "https://github.com/zrsx/termux-ng/blob/fed8a34921/packages/c-ares/0001-disable-ares-android.patch",
+      "https://github.com/zrsx/termux-ng/blob/fed8a34921/packages/c-ares/0002-fix-path-etc-hosts.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/91fad586ce/packages/c-ares/0001-disable-ares-android.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/91fad586ce/packages/c-ares/0002-fix-path-etc-hosts.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/fed8a34921/packages/c-ares/0001-disable-ares-android.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/fed8a34921/packages/c-ares/0002-fix-path-etc-hosts.patch"
     ],
     "auto_updated": true
   },
@@ -8880,15 +8880,15 @@
   },
   {
     "name": "flyctl",
-    "version": "0.4.66",
+    "version": "0.4.67",
     "description": "Command line tools for fly.io services",
     "homepage": "https://fly.io",
     "depends": [],
-    "srcurl": "https://github.com/superfly/flyctl/archive/refs/tags/v0.4.66.tar.gz",
+    "srcurl": "https://github.com/superfly/flyctl/archive/refs/tags/v0.4.67.tar.gz",
     "maintainer": "Yaksh Bariya <thunder-coding@termux.dev>",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/c334e83fd1/packages/flyctl",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/c334e83fd1/packages/flyctl/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/c334e83fd1/packages/flyctl/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/59217fb591/packages/flyctl",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/59217fb591/packages/flyctl/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/59217fb591/packages/flyctl/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -12990,17 +12990,17 @@
   },
   {
     "name": "hugo",
-    "version": "0.163.3",
+    "version": "0.164.0",
     "description": "A fast and flexible static site generator",
     "homepage": "https://gohugo.io/",
     "depends": [
       "libc++"
     ],
-    "srcurl": "https://github.com/gohugoio/hugo/archive/refs/tags/v0.163.3.tar.gz",
+    "srcurl": "https://github.com/gohugoio/hugo/archive/refs/tags/v0.164.0.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/d317feed2e/packages/hugo",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/d317feed2e/packages/hugo/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/d317feed2e/packages/hugo/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/b711288da3/packages/hugo",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/b711288da3/packages/hugo/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/b711288da3/packages/hugo/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -31047,7 +31047,7 @@
   },
   {
     "name": "openxr",
-    "version": "1.1.60",
+    "version": "1.1.61",
     "description": "Open standard that provides a common set of APIs for developing XR applications",
     "homepage": "https://www.khronos.org/openxr/",
     "depends": [
@@ -31059,16 +31059,16 @@
       "libxxf86vm",
       "opengl"
     ],
-    "srcurl": "https://github.com/KhronosGroup/OpenXR-SDK-Source/releases/download/release-1.1.60/OpenXR-SDK-Source-release-1.1.60.tar.gz",
+    "srcurl": "https://github.com/KhronosGroup/OpenXR-SDK-Source/releases/download/release-1.1.61/OpenXR-SDK-Source-release-1.1.61.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/f5820a41b3/packages/openxr",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/f5820a41b3/packages/openxr/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/f5820a41b3/packages/openxr/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/6caf271551/packages/openxr",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/6caf271551/packages/openxr/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/6caf271551/packages/openxr/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/f5820a41b3/packages/openxr/no-glslc.patch"
+      "https://github.com/zrsx/termux-ng/blob/6caf271551/packages/openxr/no-glslc.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/f5820a41b3/packages/openxr/no-glslc.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/6caf271551/packages/openxr/no-glslc.patch"
     ],
     "auto_updated": true
   },
