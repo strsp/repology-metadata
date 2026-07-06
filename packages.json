@@ -9145,30 +9145,30 @@
   },
   {
     "name": "fresh-editor",
-    "version": "0.4.2",
+    "version": "0.4.3",
     "description": "Text editor for your terminal: easy, powerful and fast",
     "homepage": "https://getfresh.dev/",
     "depends": [],
-    "srcurl": "https://github.com/sinelaw/fresh/releases/download/v0.4.2/fresh-editor-0.4.2-source.tar.gz",
+    "srcurl": "https://github.com/sinelaw/fresh/releases/download/v0.4.3/fresh-editor-0.4.3-source.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/d4399cec3b/packages/fresh-editor",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/d4399cec3b/packages/fresh-editor/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/d4399cec3b/packages/fresh-editor/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/b225a8018d/packages/fresh-editor",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/b225a8018d/packages/fresh-editor/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/b225a8018d/packages/fresh-editor/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/d4399cec3b/packages/fresh-editor/enable-rquickjs-bindgen.patch",
-      "https://github.com/zrsx/termux-ng/blob/d4399cec3b/packages/fresh-editor/no-AT_EACCESS.patch",
-      "https://github.com/zrsx/termux-ng/blob/d4399cec3b/packages/fresh-editor/rust-cc-do-not-concatenate-all-the-CFLAGS.diff",
-      "https://github.com/zrsx/termux-ng/blob/d4399cec3b/packages/fresh-editor/smithay-client-toolkit-no-shm.diff",
-      "https://github.com/zrsx/termux-ng/blob/d4399cec3b/packages/fresh-editor/trash-rs-implement-get_mount_points-android.diff",
-      "https://github.com/zrsx/termux-ng/blob/d4399cec3b/packages/fresh-editor/wayland-cursor-no-shm.diff"
+      "https://github.com/zrsx/termux-ng/blob/b225a8018d/packages/fresh-editor/enable-rquickjs-bindgen.patch",
+      "https://github.com/zrsx/termux-ng/blob/b225a8018d/packages/fresh-editor/no-AT_EACCESS.patch",
+      "https://github.com/zrsx/termux-ng/blob/b225a8018d/packages/fresh-editor/rust-cc-do-not-concatenate-all-the-CFLAGS.diff",
+      "https://github.com/zrsx/termux-ng/blob/b225a8018d/packages/fresh-editor/smithay-client-toolkit-no-shm.diff",
+      "https://github.com/zrsx/termux-ng/blob/b225a8018d/packages/fresh-editor/trash-rs-implement-get_mount_points-android.diff",
+      "https://github.com/zrsx/termux-ng/blob/b225a8018d/packages/fresh-editor/wayland-cursor-no-shm.diff"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/d4399cec3b/packages/fresh-editor/enable-rquickjs-bindgen.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/d4399cec3b/packages/fresh-editor/no-AT_EACCESS.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/d4399cec3b/packages/fresh-editor/rust-cc-do-not-concatenate-all-the-CFLAGS.diff",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/d4399cec3b/packages/fresh-editor/smithay-client-toolkit-no-shm.diff",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/d4399cec3b/packages/fresh-editor/trash-rs-implement-get_mount_points-android.diff",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/d4399cec3b/packages/fresh-editor/wayland-cursor-no-shm.diff"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/b225a8018d/packages/fresh-editor/enable-rquickjs-bindgen.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/b225a8018d/packages/fresh-editor/no-AT_EACCESS.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/b225a8018d/packages/fresh-editor/rust-cc-do-not-concatenate-all-the-CFLAGS.diff",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/b225a8018d/packages/fresh-editor/smithay-client-toolkit-no-shm.diff",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/b225a8018d/packages/fresh-editor/trash-rs-implement-get_mount_points-android.diff",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/b225a8018d/packages/fresh-editor/wayland-cursor-no-shm.diff"
     ],
     "auto_updated": true
   },
@@ -24292,7 +24292,7 @@
   },
   {
     "name": "llama-cpp",
-    "version": "b9878",
+    "version": "b9884",
     "description": "LLM inference in C/C++",
     "homepage": "https://github.com/ggml-org/llama.cpp",
     "depends": [
@@ -24300,18 +24300,18 @@
       "libc++",
       "libcurl"
     ],
-    "srcurl": "https://github.com/ggml-org/llama.cpp/archive/refs/tags/b9878.tar.gz",
+    "srcurl": "https://github.com/ggml-org/llama.cpp/archive/refs/tags/b9884.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/53729bb953/packages/llama-cpp",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/53729bb953/packages/llama-cpp/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/53729bb953/packages/llama-cpp/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/84bf783b45/packages/llama-cpp",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/84bf783b45/packages/llama-cpp/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/84bf783b45/packages/llama-cpp/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/53729bb953/packages/llama-cpp/0001-search-dirs.patch",
-      "https://github.com/zrsx/termux-ng/blob/53729bb953/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
+      "https://github.com/zrsx/termux-ng/blob/84bf783b45/packages/llama-cpp/0001-search-dirs.patch",
+      "https://github.com/zrsx/termux-ng/blob/84bf783b45/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/53729bb953/packages/llama-cpp/0001-search-dirs.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/53729bb953/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/84bf783b45/packages/llama-cpp/0001-search-dirs.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/84bf783b45/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
     ],
     "auto_updated": true
   },
@@ -29888,20 +29888,20 @@
   },
   {
     "name": "oh-my-posh",
-    "version": "29.20.1",
+    "version": "29.21.0",
     "description": "A prompt theme engine for any shell.",
     "homepage": "https://ohmyposh.dev",
     "depends": [],
-    "srcurl": "https://github.com/JanDeDobbeleer/oh-my-posh/archive/refs/tags/v29.20.1.tar.gz",
+    "srcurl": "https://github.com/JanDeDobbeleer/oh-my-posh/archive/refs/tags/v29.21.0.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/d4dd3c4750/packages/oh-my-posh",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/d4dd3c4750/packages/oh-my-posh/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/d4dd3c4750/packages/oh-my-posh/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/7480bfb657/packages/oh-my-posh",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/7480bfb657/packages/oh-my-posh/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/7480bfb657/packages/oh-my-posh/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/d4dd3c4750/packages/oh-my-posh/issue-26712.patch"
+      "https://github.com/zrsx/termux-ng/blob/7480bfb657/packages/oh-my-posh/issue-26712.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/d4dd3c4750/packages/oh-my-posh/issue-26712.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/7480bfb657/packages/oh-my-posh/issue-26712.patch"
     ],
     "auto_updated": true
   },
@@ -33361,18 +33361,18 @@
   },
   {
     "name": "proot",
-    "version": "5.1.107.82",
+    "version": "5.1.107.83",
     "description": "Emulate chroot, bind mount and binfmt_misc for non-root users",
     "homepage": "https://proot-me.github.io/",
     "depends": [
       "libandroid-shmem",
       "libtalloc"
     ],
-    "srcurl": "https://github.com/termux/proot/archive/v5.1.107.82.zip",
+    "srcurl": "https://github.com/termux/proot/archive/v5.1.107.83.zip",
     "maintainer": "Michal Bednarski @michalbednarski",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/801f64707d/packages/proot",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/801f64707d/packages/proot/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/801f64707d/packages/proot/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/dc8fdbc741/packages/proot",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/dc8fdbc741/packages/proot/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/dc8fdbc741/packages/proot/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -36474,17 +36474,17 @@
   },
   {
     "name": "rust-analyzer",
-    "version": "2026-06-29",
+    "version": "2026-07-06",
     "description": "A Rust compiler front-end for IDEs",
     "homepage": "https://rust-analyzer.github.io/",
     "depends": [
       "rust-src"
     ],
-    "srcurl": "https://github.com/rust-lang/rust-analyzer/archive/refs/tags/2026-06-29.tar.gz",
+    "srcurl": "https://github.com/rust-lang/rust-analyzer/archive/refs/tags/2026-07-06.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/5b00c61be3/packages/rust-analyzer",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/5b00c61be3/packages/rust-analyzer/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/5b00c61be3/packages/rust-analyzer/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/af4d69b72e/packages/rust-analyzer",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/af4d69b72e/packages/rust-analyzer/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/af4d69b72e/packages/rust-analyzer/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
