@@ -5198,15 +5198,15 @@
   },
   {
     "name": "croc",
-    "version": "1:10.4.7",
+    "version": "1:10.4.8",
     "description": "Easily and securely send things from one computer to another",
     "homepage": "https://github.com/schollz/croc",
     "depends": [],
-    "srcurl": "https://github.com/schollz/croc/archive/refs/tags/v10.4.7.tar.gz",
+    "srcurl": "https://github.com/schollz/croc/archive/refs/tags/v10.4.8.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/22f66cef64/packages/croc",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/22f66cef64/packages/croc/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/22f66cef64/packages/croc/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/f0a2889406/packages/croc",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/f0a2889406/packages/croc/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/f0a2889406/packages/croc/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -10464,15 +10464,15 @@
   },
   {
     "name": "glab-cli",
-    "version": "1.106.0",
+    "version": "1.107.0",
     "description": "A GitLab CLI tool bringing GitLab to your command line",
     "homepage": "https://gitlab.com/gitlab-org/cli",
     "depends": [],
-    "srcurl": "https://gitlab.com/gitlab-org/cli/-/archive/v1.106.0/cli-1.106.0.tar.bz2",
+    "srcurl": "https://gitlab.com/gitlab-org/cli/-/archive/v1.107.0/cli-1.107.0.tar.bz2",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/41a05cc594/packages/glab-cli",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/41a05cc594/packages/glab-cli/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/41a05cc594/packages/glab-cli/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/2a81a637f5/packages/glab-cli",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/2a81a637f5/packages/glab-cli/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/2a81a637f5/packages/glab-cli/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -24292,7 +24292,7 @@
   },
   {
     "name": "llama-cpp",
-    "version": "b9895",
+    "version": "b9898",
     "description": "LLM inference in C/C++",
     "homepage": "https://github.com/ggml-org/llama.cpp",
     "depends": [
@@ -24300,18 +24300,18 @@
       "libc++",
       "libcurl"
     ],
-    "srcurl": "https://github.com/ggml-org/llama.cpp/archive/refs/tags/b9895.tar.gz",
+    "srcurl": "https://github.com/ggml-org/llama.cpp/archive/refs/tags/b9898.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/33daa2b9d6/packages/llama-cpp",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/33daa2b9d6/packages/llama-cpp/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/33daa2b9d6/packages/llama-cpp/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/795e5554e5/packages/llama-cpp",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/795e5554e5/packages/llama-cpp/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/795e5554e5/packages/llama-cpp/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/33daa2b9d6/packages/llama-cpp/0001-search-dirs.patch",
-      "https://github.com/zrsx/termux-ng/blob/33daa2b9d6/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
+      "https://github.com/zrsx/termux-ng/blob/795e5554e5/packages/llama-cpp/0001-search-dirs.patch",
+      "https://github.com/zrsx/termux-ng/blob/795e5554e5/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/33daa2b9d6/packages/llama-cpp/0001-search-dirs.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/33daa2b9d6/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/795e5554e5/packages/llama-cpp/0001-search-dirs.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/795e5554e5/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
     ],
     "auto_updated": true
   },
@@ -24922,26 +24922,26 @@
   },
   {
     "name": "luajit",
-    "version": "1:2.1.1782726002+ga2bde60",
+    "version": "1:2.1.1783415239+gacb2234",
     "description": "Just-In-Time Compiler for Lua",
     "homepage": "https://luajit.org/",
     "depends": [],
     "srcurl": "git+https://github.com/LuaJIT/LuaJIT.git",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/7292aa74db/packages/luajit",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/7292aa74db/packages/luajit/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/7292aa74db/packages/luajit/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/bf66b59a8f/packages/luajit",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/bf66b59a8f/packages/luajit/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/bf66b59a8f/packages/luajit/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/7292aa74db/packages/luajit/Makefile.patch",
-      "https://github.com/zrsx/termux-ng/blob/7292aa74db/packages/luajit/etc-luajit.pc.patch",
-      "https://github.com/zrsx/termux-ng/blob/7292aa74db/packages/luajit/src-Makefile.patch",
-      "https://github.com/zrsx/termux-ng/blob/7292aa74db/packages/luajit/tmpdir-fix.patch"
+      "https://github.com/zrsx/termux-ng/blob/bf66b59a8f/packages/luajit/Makefile.patch",
+      "https://github.com/zrsx/termux-ng/blob/bf66b59a8f/packages/luajit/etc-luajit.pc.patch",
+      "https://github.com/zrsx/termux-ng/blob/bf66b59a8f/packages/luajit/src-Makefile.patch",
+      "https://github.com/zrsx/termux-ng/blob/bf66b59a8f/packages/luajit/tmpdir-fix.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/7292aa74db/packages/luajit/Makefile.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/7292aa74db/packages/luajit/etc-luajit.pc.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/7292aa74db/packages/luajit/src-Makefile.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/7292aa74db/packages/luajit/tmpdir-fix.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/bf66b59a8f/packages/luajit/Makefile.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/bf66b59a8f/packages/luajit/etc-luajit.pc.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/bf66b59a8f/packages/luajit/src-Makefile.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/bf66b59a8f/packages/luajit/tmpdir-fix.patch"
     ],
     "auto_updated": true
   },
@@ -29888,20 +29888,20 @@
   },
   {
     "name": "oh-my-posh",
-    "version": "29.21.0",
+    "version": "29.22.0",
     "description": "A prompt theme engine for any shell.",
     "homepage": "https://ohmyposh.dev",
     "depends": [],
-    "srcurl": "https://github.com/JanDeDobbeleer/oh-my-posh/archive/refs/tags/v29.21.0.tar.gz",
+    "srcurl": "https://github.com/JanDeDobbeleer/oh-my-posh/archive/refs/tags/v29.22.0.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/7480bfb657/packages/oh-my-posh",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/7480bfb657/packages/oh-my-posh/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/7480bfb657/packages/oh-my-posh/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/0b50a87eea/packages/oh-my-posh",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/0b50a87eea/packages/oh-my-posh/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/0b50a87eea/packages/oh-my-posh/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/7480bfb657/packages/oh-my-posh/issue-26712.patch"
+      "https://github.com/zrsx/termux-ng/blob/0b50a87eea/packages/oh-my-posh/issue-26712.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/7480bfb657/packages/oh-my-posh/issue-26712.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/0b50a87eea/packages/oh-my-posh/issue-26712.patch"
     ],
     "auto_updated": true
   },
@@ -36816,20 +36816,20 @@
   },
   {
     "name": "scdoc",
-    "version": "1.11.4",
+    "version": "1.11.5",
     "description": "Small man page generator",
     "homepage": "https://git.sr.ht/~sircmpwn/scdoc",
     "depends": [],
-    "srcurl": "https://git.sr.ht/~sircmpwn/scdoc/archive/1.11.4.tar.gz",
+    "srcurl": "https://git.sr.ht/~sircmpwn/scdoc/archive/1.11.5.tar.gz",
     "maintainer": "Yaksh Bariya <thunder-coding@termux.dev>",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/5298220f47/packages/scdoc",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/5298220f47/packages/scdoc/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/5298220f47/packages/scdoc/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/be7be6d191/packages/scdoc",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/be7be6d191/packages/scdoc/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/be7be6d191/packages/scdoc/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/5298220f47/packages/scdoc/Makefile.patch.beforehostbuild"
+      "https://github.com/zrsx/termux-ng/blob/be7be6d191/packages/scdoc/Makefile.patch.beforehostbuild"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/5298220f47/packages/scdoc/Makefile.patch.beforehostbuild"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/be7be6d191/packages/scdoc/Makefile.patch.beforehostbuild"
     ],
     "auto_updated": true
   },
@@ -38933,15 +38933,15 @@
   },
   {
     "name": "storj-uplink",
-    "version": "1.158.2",
+    "version": "1.158.3",
     "description": "Storj DCS Uplink CLI",
     "homepage": "https://www.storj.io/integrations/uplink-cli",
     "depends": [],
-    "srcurl": "https://github.com/storj/storj/archive/refs/tags/v1.158.2.tar.gz",
+    "srcurl": "https://github.com/storj/storj/archive/refs/tags/v1.158.3.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/47d1035a89/packages/storj-uplink",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/47d1035a89/packages/storj-uplink/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/47d1035a89/packages/storj-uplink/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/68160a4b0a/packages/storj-uplink",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/68160a4b0a/packages/storj-uplink/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/68160a4b0a/packages/storj-uplink/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
