@@ -3289,24 +3289,24 @@
   },
   {
     "name": "c-ares",
-    "version": "1.34.7",
+    "version": "1.34.8",
     "description": "Library for asynchronous DNS requests (including name resolves)",
     "homepage": "https://c-ares.org/",
     "depends": [
       "resolv-conf"
     ],
-    "srcurl": "https://github.com/c-ares/c-ares/archive/refs/tags/v1.34.7.tar.gz",
+    "srcurl": "https://github.com/c-ares/c-ares/archive/refs/tags/v1.34.8.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/fed8a34921/packages/c-ares",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/fed8a34921/packages/c-ares/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/fed8a34921/packages/c-ares/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/2465fe3900/packages/c-ares",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/2465fe3900/packages/c-ares/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/2465fe3900/packages/c-ares/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/fed8a34921/packages/c-ares/0001-disable-ares-android.patch",
-      "https://github.com/zrsx/termux-ng/blob/fed8a34921/packages/c-ares/0002-fix-path-etc-hosts.patch"
+      "https://github.com/zrsx/termux-ng/blob/2465fe3900/packages/c-ares/0001-disable-ares-android.patch",
+      "https://github.com/zrsx/termux-ng/blob/2465fe3900/packages/c-ares/0002-fix-path-etc-hosts.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/fed8a34921/packages/c-ares/0001-disable-ares-android.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/fed8a34921/packages/c-ares/0002-fix-path-etc-hosts.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/2465fe3900/packages/c-ares/0001-disable-ares-android.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/2465fe3900/packages/c-ares/0002-fix-path-etc-hosts.patch"
     ],
     "auto_updated": true
   },
@@ -5198,15 +5198,15 @@
   },
   {
     "name": "croc",
-    "version": "1:10.4.8",
+    "version": "1:10.4.11",
     "description": "Easily and securely send things from one computer to another",
     "homepage": "https://github.com/schollz/croc",
     "depends": [],
-    "srcurl": "https://github.com/schollz/croc/archive/refs/tags/v10.4.8.tar.gz",
+    "srcurl": "https://github.com/schollz/croc/archive/refs/tags/v10.4.11.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/f0a2889406/packages/croc",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/f0a2889406/packages/croc/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/f0a2889406/packages/croc/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/b7e39afee6/packages/croc",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/b7e39afee6/packages/croc/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/b7e39afee6/packages/croc/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
