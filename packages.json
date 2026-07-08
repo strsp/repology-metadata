@@ -4089,15 +4089,15 @@
   },
   {
     "name": "chezmoi",
-    "version": "2.70.5",
+    "version": "2.71.0",
     "description": "Manage your dotfiles across multiple machines",
     "homepage": "https://chezmoi.io",
     "depends": [],
-    "srcurl": "https://github.com/twpayne/chezmoi/archive/refs/tags/v2.70.5.tar.gz",
+    "srcurl": "https://github.com/twpayne/chezmoi/archive/refs/tags/v2.71.0.tar.gz",
     "maintainer": "Henrik Grimler @Grimler91",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/d707815d7d/packages/chezmoi",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/d707815d7d/packages/chezmoi/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/d707815d7d/packages/chezmoi/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/dd271eb1a1/packages/chezmoi",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/dd271eb1a1/packages/chezmoi/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/dd271eb1a1/packages/chezmoi/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -7888,7 +7888,7 @@
   },
   {
     "name": "et",
-    "version": "6.2.11",
+    "version": "7.0.0",
     "description": "A remote shell that automatically reconnects without interrupting the session",
     "homepage": "https://eternalterminal.dev",
     "depends": [
@@ -7901,14 +7901,14 @@
     ],
     "srcurl": "git+https://github.com/MisterTea/EternalTerminal",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/2c333d8c94/packages/et",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/2c333d8c94/packages/et/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/2c333d8c94/packages/et/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/3a39c032df/packages/et",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/3a39c032df/packages/et/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/3a39c032df/packages/et/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/2c333d8c94/packages/et/src-terminal-TerminalServerMain.cpp.patch"
+      "https://github.com/zrsx/termux-ng/blob/3a39c032df/packages/et/src-terminal-TerminalServerMain.cpp.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/2c333d8c94/packages/et/src-terminal-TerminalServerMain.cpp.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/3a39c032df/packages/et/src-terminal-TerminalServerMain.cpp.patch"
     ],
     "auto_updated": true
   },
@@ -24292,7 +24292,7 @@
   },
   {
     "name": "llama-cpp",
-    "version": "b9902",
+    "version": "b9908",
     "description": "LLM inference in C/C++",
     "homepage": "https://github.com/ggml-org/llama.cpp",
     "depends": [
@@ -24300,18 +24300,18 @@
       "libc++",
       "libcurl"
     ],
-    "srcurl": "https://github.com/ggml-org/llama.cpp/archive/refs/tags/b9902.tar.gz",
+    "srcurl": "https://github.com/ggml-org/llama.cpp/archive/refs/tags/b9908.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/dc8574483e/packages/llama-cpp",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/dc8574483e/packages/llama-cpp/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/dc8574483e/packages/llama-cpp/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/c2ca0e98ec/packages/llama-cpp",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/c2ca0e98ec/packages/llama-cpp/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/c2ca0e98ec/packages/llama-cpp/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/dc8574483e/packages/llama-cpp/0001-search-dirs.patch",
-      "https://github.com/zrsx/termux-ng/blob/dc8574483e/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
+      "https://github.com/zrsx/termux-ng/blob/c2ca0e98ec/packages/llama-cpp/0001-search-dirs.patch",
+      "https://github.com/zrsx/termux-ng/blob/c2ca0e98ec/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/dc8574483e/packages/llama-cpp/0001-search-dirs.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/dc8574483e/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/c2ca0e98ec/packages/llama-cpp/0001-search-dirs.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/c2ca0e98ec/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
     ],
     "auto_updated": true
   },
@@ -42969,17 +42969,17 @@
   },
   {
     "name": "uv",
-    "version": "0.11.27",
+    "version": "0.11.28",
     "description": "An extremely fast Python package installer and resolver, written in Rust.",
     "homepage": "https://docs.astral.sh/uv/",
     "depends": [
       "zstd"
     ],
-    "srcurl": "https://github.com/astral-sh/uv/archive/refs/tags/0.11.27.tar.gz",
+    "srcurl": "https://github.com/astral-sh/uv/archive/refs/tags/0.11.28.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/958ec12378/packages/uv",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/958ec12378/packages/uv/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/958ec12378/packages/uv/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/e9ca4d0e9c/packages/uv",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/e9ca4d0e9c/packages/uv/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/e9ca4d0e9c/packages/uv/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
