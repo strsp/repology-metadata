@@ -4480,20 +4480,20 @@
   },
   {
     "name": "cloudflared",
-    "version": "2026.6.1",
+    "version": "2026.7.0",
     "description": "A tunneling daemon that proxies traffic from the Cloudflare network to your origins",
     "homepage": "https://github.com/cloudflare/cloudflared",
     "depends": [],
-    "srcurl": "https://github.com/cloudflare/cloudflared/archive/refs/tags/2026.6.1.tar.gz",
+    "srcurl": "https://github.com/cloudflare/cloudflared/archive/refs/tags/2026.7.0.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/f44aa128ed/packages/cloudflared",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/f44aa128ed/packages/cloudflared/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/f44aa128ed/packages/cloudflared/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/4f0e4d043d/packages/cloudflared",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/4f0e4d043d/packages/cloudflared/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/4f0e4d043d/packages/cloudflared/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/f44aa128ed/packages/cloudflared/0001-disable-install-service.patch"
+      "https://github.com/zrsx/termux-ng/blob/4f0e4d043d/packages/cloudflared/0001-disable-install-service.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/f44aa128ed/packages/cloudflared/0001-disable-install-service.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/4f0e4d043d/packages/cloudflared/0001-disable-install-service.patch"
     ],
     "auto_updated": true
   },
@@ -14133,15 +14133,15 @@
   },
   {
     "name": "jfrog-cli",
-    "version": "2.112.0",
+    "version": "2.113.0",
     "description": "A CLI for JFrog products",
     "homepage": "https://jfrog.com/getcli",
     "depends": [],
-    "srcurl": "https://github.com/jfrog/jfrog-cli/archive/refs/tags/v2.112.0.tar.gz",
+    "srcurl": "https://github.com/jfrog/jfrog-cli/archive/refs/tags/v2.113.0.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/e293c5a354/packages/jfrog-cli",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/e293c5a354/packages/jfrog-cli/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/e293c5a354/packages/jfrog-cli/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/75ece546a0/packages/jfrog-cli",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/75ece546a0/packages/jfrog-cli/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/75ece546a0/packages/jfrog-cli/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
