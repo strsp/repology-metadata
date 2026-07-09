@@ -8880,15 +8880,15 @@
   },
   {
     "name": "flyctl",
-    "version": "0.4.68",
+    "version": "0.4.69",
     "description": "Command line tools for fly.io services",
     "homepage": "https://fly.io",
     "depends": [],
-    "srcurl": "https://github.com/superfly/flyctl/archive/refs/tags/v0.4.68.tar.gz",
+    "srcurl": "https://github.com/superfly/flyctl/archive/refs/tags/v0.4.69.tar.gz",
     "maintainer": "Yaksh Bariya <thunder-coding@termux.dev>",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/69b8368fc1/packages/flyctl",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/69b8368fc1/packages/flyctl/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/69b8368fc1/packages/flyctl/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/d30ebd16fa/packages/flyctl",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/d30ebd16fa/packages/flyctl/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/d30ebd16fa/packages/flyctl/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -15869,7 +15869,7 @@
   },
   {
     "name": "libblosc2",
-    "version": "3.2.0",
+    "version": "3.2.1",
     "description": "A blocking, shuffling and loss-less compression library",
     "homepage": "https://www.blosc.org",
     "depends": [
@@ -15877,16 +15877,16 @@
       "zlib",
       "zstd"
     ],
-    "srcurl": "https://github.com/Blosc/c-blosc2/archive/refs/tags/v3.2.0.tar.gz",
+    "srcurl": "https://github.com/Blosc/c-blosc2/archive/refs/tags/v3.2.1.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/2f141b1f5e/packages/libblosc2",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/2f141b1f5e/packages/libblosc2/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/2f141b1f5e/packages/libblosc2/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/0c006bee6e/packages/libblosc2",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/0c006bee6e/packages/libblosc2/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/0c006bee6e/packages/libblosc2/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/2f141b1f5e/packages/libblosc2/0001-fix-posix-memalign.patch"
+      "https://github.com/zrsx/termux-ng/blob/0c006bee6e/packages/libblosc2/0001-fix-posix-memalign.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/2f141b1f5e/packages/libblosc2/0001-fix-posix-memalign.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/0c006bee6e/packages/libblosc2/0001-fix-posix-memalign.patch"
     ],
     "auto_updated": true
   },
@@ -33361,18 +33361,18 @@
   },
   {
     "name": "proot",
-    "version": "5.1.107.83",
+    "version": "5.1.107.84",
     "description": "Emulate chroot, bind mount and binfmt_misc for non-root users",
     "homepage": "https://proot-me.github.io/",
     "depends": [
       "libandroid-shmem",
       "libtalloc"
     ],
-    "srcurl": "https://github.com/termux/proot/archive/v5.1.107.83.zip",
+    "srcurl": "https://github.com/termux/proot/archive/v5.1.107.84.zip",
     "maintainer": "Michal Bednarski @michalbednarski",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/dc8fdbc741/packages/proot",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/dc8fdbc741/packages/proot/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/dc8fdbc741/packages/proot/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/b31292033e/packages/proot",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/b31292033e/packages/proot/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/b31292033e/packages/proot/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
