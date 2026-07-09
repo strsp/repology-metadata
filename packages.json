@@ -1746,15 +1746,15 @@
   },
   {
     "name": "atuin",
-    "version": "18.16.1",
+    "version": "18.17.0",
     "description": "Magical shell history",
     "homepage": "https://atuin.sh/",
     "depends": [],
-    "srcurl": "https://github.com/atuinsh/atuin/archive/refs/tags/v18.16.1.tar.gz",
+    "srcurl": "https://github.com/atuinsh/atuin/archive/refs/tags/v18.17.0.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/b490509f4d/packages/atuin",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/b490509f4d/packages/atuin/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/b490509f4d/packages/atuin/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/913ed58dec/packages/atuin",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/913ed58dec/packages/atuin/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/913ed58dec/packages/atuin/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -24292,7 +24292,7 @@
   },
   {
     "name": "llama-cpp",
-    "version": "b9929",
+    "version": "b9934",
     "description": "LLM inference in C/C++",
     "homepage": "https://github.com/ggml-org/llama.cpp",
     "depends": [
@@ -24300,18 +24300,18 @@
       "libc++",
       "libcurl"
     ],
-    "srcurl": "https://github.com/ggml-org/llama.cpp/archive/refs/tags/b9929.tar.gz",
+    "srcurl": "https://github.com/ggml-org/llama.cpp/archive/refs/tags/b9934.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/aa9cccebba/packages/llama-cpp",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/aa9cccebba/packages/llama-cpp/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/aa9cccebba/packages/llama-cpp/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/034fbacbde/packages/llama-cpp",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/034fbacbde/packages/llama-cpp/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/034fbacbde/packages/llama-cpp/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/aa9cccebba/packages/llama-cpp/0001-search-dirs.patch",
-      "https://github.com/zrsx/termux-ng/blob/aa9cccebba/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
+      "https://github.com/zrsx/termux-ng/blob/034fbacbde/packages/llama-cpp/0001-search-dirs.patch",
+      "https://github.com/zrsx/termux-ng/blob/034fbacbde/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/aa9cccebba/packages/llama-cpp/0001-search-dirs.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/aa9cccebba/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/034fbacbde/packages/llama-cpp/0001-search-dirs.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/034fbacbde/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
     ],
     "auto_updated": true
   },
@@ -30184,17 +30184,17 @@
   },
   {
     "name": "open-adventure",
-    "version": "1.21",
+    "version": "1.22",
     "description": "Forward-port of the original Colossal Cave Adventure from 1976-77",
     "homepage": "http://www.catb.org/~esr/open-adventure/",
     "depends": [
       "libedit"
     ],
-    "srcurl": "https://gitlab.com/esr/open-adventure/-/archive/1.21/open-adventure-1.21.tar.gz",
+    "srcurl": "https://gitlab.com/esr/open-adventure/-/archive/1.22/open-adventure-1.22.tar.gz",
     "maintainer": "Henrik Grimler @Grimler91",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/74101a32bd/packages/open-adventure",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/74101a32bd/packages/open-adventure/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/74101a32bd/packages/open-adventure/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/9af2263719/packages/open-adventure",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/9af2263719/packages/open-adventure/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/9af2263719/packages/open-adventure/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -35209,15 +35209,15 @@
   },
   {
     "name": "railway-cli",
-    "version": "5.25.1",
+    "version": "5.26.0",
     "description": "This is the command line interface for Railway",
     "homepage": "https://railway.app",
     "depends": [],
-    "srcurl": "https://github.com/railwayapp/cli/archive/refs/tags/v5.25.1.tar.gz",
+    "srcurl": "https://github.com/railwayapp/cli/archive/refs/tags/v5.26.0.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/877347a91c/packages/railway-cli",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/877347a91c/packages/railway-cli/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/877347a91c/packages/railway-cli/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/21df81a94c/packages/railway-cli",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/21df81a94c/packages/railway-cli/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/21df81a94c/packages/railway-cli/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -39918,20 +39918,20 @@
   },
   {
     "name": "teleport-tsh",
-    "version": "18.9.2",
+    "version": "18.10.0",
     "description": "Secure Access for Developers that doesn't get in the way",
     "homepage": "https://github.com/gravitational/teleport",
     "depends": [],
-    "srcurl": "https://github.com/gravitational/teleport/archive/refs/tags/v18.9.2.tar.gz",
+    "srcurl": "https://github.com/gravitational/teleport/archive/refs/tags/v18.10.0.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/2bf8c861c9/packages/teleport-tsh",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/2bf8c861c9/packages/teleport-tsh/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/2bf8c861c9/packages/teleport-tsh/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/7bc0b5371a/packages/teleport-tsh",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/7bc0b5371a/packages/teleport-tsh/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/7bc0b5371a/packages/teleport-tsh/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/2bf8c861c9/packages/teleport-tsh/metadata_linux.go.patch"
+      "https://github.com/zrsx/termux-ng/blob/7bc0b5371a/packages/teleport-tsh/metadata_linux.go.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/2bf8c861c9/packages/teleport-tsh/metadata_linux.go.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/7bc0b5371a/packages/teleport-tsh/metadata_linux.go.patch"
     ],
     "auto_updated": true
   },
@@ -46334,17 +46334,17 @@
   },
   {
     "name": "ethtool",
-    "version": "7.0",
+    "version": "7.1",
     "description": "standard Linux utility for controlling network drivers and hardware, particularly for wired Ethernet devices",
     "homepage": "https://mirrors.edge.kernel.org/pub/software/network/ethtool/",
     "depends": [
       "libmnl"
     ],
-    "srcurl": "https://git.kernel.org/pub/scm/network/ethtool/ethtool.git/snapshot/ethtool-7.0.tar.gz",
+    "srcurl": "https://git.kernel.org/pub/scm/network/ethtool/ethtool.git/snapshot/ethtool-7.1.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/18241aea52/root-packages/ethtool",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/18241aea52/root-packages/ethtool/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/18241aea52/root-packages/ethtool/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/a859654d16/root-packages/ethtool",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/a859654d16/root-packages/ethtool/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/a859654d16/root-packages/ethtool/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
