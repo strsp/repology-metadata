@@ -4480,20 +4480,20 @@
   },
   {
     "name": "cloudflared",
-    "version": "2026.7.0",
+    "version": "2026.7.1",
     "description": "A tunneling daemon that proxies traffic from the Cloudflare network to your origins",
     "homepage": "https://github.com/cloudflare/cloudflared",
     "depends": [],
-    "srcurl": "https://github.com/cloudflare/cloudflared/archive/refs/tags/2026.7.0.tar.gz",
+    "srcurl": "https://github.com/cloudflare/cloudflared/archive/refs/tags/2026.7.1.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/4f0e4d043d/packages/cloudflared",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/4f0e4d043d/packages/cloudflared/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/4f0e4d043d/packages/cloudflared/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/63ad0579f9/packages/cloudflared",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/63ad0579f9/packages/cloudflared/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/63ad0579f9/packages/cloudflared/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/4f0e4d043d/packages/cloudflared/0001-disable-install-service.patch"
+      "https://github.com/zrsx/termux-ng/blob/63ad0579f9/packages/cloudflared/0001-disable-install-service.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/4f0e4d043d/packages/cloudflared/0001-disable-install-service.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/63ad0579f9/packages/cloudflared/0001-disable-install-service.patch"
     ],
     "auto_updated": true
   },
@@ -8049,17 +8049,17 @@
   },
   {
     "name": "eza",
-    "version": "0.23.4",
+    "version": "0.23.5",
     "description": "A modern replacement for ls",
     "homepage": "https://github.com/eza-community/eza",
     "depends": [
       "libgit2"
     ],
-    "srcurl": "https://github.com/eza-community/eza/archive/refs/tags/v0.23.4.tar.gz",
+    "srcurl": "https://github.com/eza-community/eza/archive/refs/tags/v0.23.5.tar.gz",
     "maintainer": "Joshua Kahn <tom@termux.dev>",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/f2a1bd1ae4/packages/eza",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/f2a1bd1ae4/packages/eza/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/f2a1bd1ae4/packages/eza/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/0dc06358e0/packages/eza",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/0dc06358e0/packages/eza/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/0dc06358e0/packages/eza/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -8927,7 +8927,7 @@
   },
   {
     "name": "fontconfig",
-    "version": "2.18.1",
+    "version": "2.18.2",
     "description": "Library for configuring and customizing font access",
     "homepage": "https://www.freedesktop.org/wiki/Software/fontconfig/",
     "depends": [
@@ -8935,16 +8935,16 @@
       "libexpat",
       "ttf-dejavu"
     ],
-    "srcurl": "https://gitlab.freedesktop.org/fontconfig/fontconfig/-/archive/2.18.1/fontconfig-2.18.1.tar.gz",
+    "srcurl": "https://gitlab.freedesktop.org/fontconfig/fontconfig/-/archive/2.18.2/fontconfig-2.18.2.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/1e730ef6e1/packages/fontconfig",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/1e730ef6e1/packages/fontconfig/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/1e730ef6e1/packages/fontconfig/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/56e62f1f15/packages/fontconfig",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/56e62f1f15/packages/fontconfig/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/56e62f1f15/packages/fontconfig/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/1e730ef6e1/packages/fontconfig/fcatomic.c.patch"
+      "https://github.com/zrsx/termux-ng/blob/56e62f1f15/packages/fontconfig/fcatomic.c.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/1e730ef6e1/packages/fontconfig/fcatomic.c.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/56e62f1f15/packages/fontconfig/fcatomic.c.patch"
     ],
     "auto_updated": true
   },
@@ -11412,15 +11412,15 @@
   },
   {
     "name": "gopls",
-    "version": "0.22.0",
+    "version": "0.23.0",
     "description": "The official Go language server",
     "homepage": "https://github.com/golang/tools",
     "depends": [],
-    "srcurl": "https://github.com/golang/tools/archive/refs/tags/gopls/v0.22.0.tar.gz",
+    "srcurl": "https://github.com/golang/tools/archive/refs/tags/gopls/v0.23.0.tar.gz",
     "maintainer": "Joshua Kahn <tom@termux.dev>",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/b6288b1334/packages/gopls",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/b6288b1334/packages/gopls/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/b6288b1334/packages/gopls/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/ae8773e33e/packages/gopls",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/ae8773e33e/packages/gopls/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/ae8773e33e/packages/gopls/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -12891,7 +12891,7 @@
   },
   {
     "name": "htslib",
-    "version": "1.23.1",
+    "version": "1.24",
     "description": "C library for high-throughput sequencing data formats",
     "homepage": "https://github.com/samtools/htslib",
     "depends": [
@@ -12901,11 +12901,11 @@
       "libdeflate",
       "libcurl"
     ],
-    "srcurl": "https://github.com/samtools/htslib/releases/download/1.23.1/htslib-1.23.1.tar.bz2",
+    "srcurl": "https://github.com/samtools/htslib/releases/download/1.24/htslib-1.24.tar.bz2",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/833acf2ac7/packages/htslib",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/833acf2ac7/packages/htslib/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/833acf2ac7/packages/htslib/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/cba7c6a174/packages/htslib",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/cba7c6a174/packages/htslib/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/cba7c6a174/packages/htslib/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -15869,7 +15869,7 @@
   },
   {
     "name": "libblosc2",
-    "version": "3.1.5",
+    "version": "3.2.0",
     "description": "A blocking, shuffling and loss-less compression library",
     "homepage": "https://www.blosc.org",
     "depends": [
@@ -15877,16 +15877,16 @@
       "zlib",
       "zstd"
     ],
-    "srcurl": "https://github.com/Blosc/c-blosc2/archive/refs/tags/v3.1.5.tar.gz",
+    "srcurl": "https://github.com/Blosc/c-blosc2/archive/refs/tags/v3.2.0.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/66ef39ab0f/packages/libblosc2",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/66ef39ab0f/packages/libblosc2/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/66ef39ab0f/packages/libblosc2/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/2f141b1f5e/packages/libblosc2",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/2f141b1f5e/packages/libblosc2/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/2f141b1f5e/packages/libblosc2/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/66ef39ab0f/packages/libblosc2/0001-fix-posix-memalign.patch"
+      "https://github.com/zrsx/termux-ng/blob/2f141b1f5e/packages/libblosc2/0001-fix-posix-memalign.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/66ef39ab0f/packages/libblosc2/0001-fix-posix-memalign.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/2f141b1f5e/packages/libblosc2/0001-fix-posix-memalign.patch"
     ],
     "auto_updated": true
   },
