@@ -7681,15 +7681,15 @@
   },
   {
     "name": "emmylua-ls",
-    "version": "0.23.2",
+    "version": "0.24.0",
     "description": "Emmy Lua Language Server coded in Rust",
     "homepage": "https://github.com/EmmyLuaLs/emmylua-analyzer-rust",
     "depends": [],
-    "srcurl": "https://github.com/EmmyLuaLs/emmylua-analyzer-rust/archive/refs/tags/0.23.2.tar.gz",
+    "srcurl": "https://github.com/EmmyLuaLs/emmylua-analyzer-rust/archive/refs/tags/0.24.0.tar.gz",
     "maintainer": "Steven Xu @stevenxxiu",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/a4637f2c57/packages/emmylua-ls",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/a4637f2c57/packages/emmylua-ls/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/a4637f2c57/packages/emmylua-ls/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/5a467dc5d7/packages/emmylua-ls",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/5a467dc5d7/packages/emmylua-ls/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/5a467dc5d7/packages/emmylua-ls/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -24922,26 +24922,26 @@
   },
   {
     "name": "luajit",
-    "version": "1:2.1.1783585446+gfed6d47",
+    "version": "1:2.1.1783672735+g5dd996e",
     "description": "Just-In-Time Compiler for Lua",
     "homepage": "https://luajit.org/",
     "depends": [],
     "srcurl": "git+https://github.com/LuaJIT/LuaJIT.git",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/8518d48df0/packages/luajit",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/8518d48df0/packages/luajit/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/8518d48df0/packages/luajit/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/91362a1bb8/packages/luajit",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/91362a1bb8/packages/luajit/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/91362a1bb8/packages/luajit/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/8518d48df0/packages/luajit/Makefile.patch",
-      "https://github.com/zrsx/termux-ng/blob/8518d48df0/packages/luajit/etc-luajit.pc.patch",
-      "https://github.com/zrsx/termux-ng/blob/8518d48df0/packages/luajit/src-Makefile.patch",
-      "https://github.com/zrsx/termux-ng/blob/8518d48df0/packages/luajit/tmpdir-fix.patch"
+      "https://github.com/zrsx/termux-ng/blob/91362a1bb8/packages/luajit/Makefile.patch",
+      "https://github.com/zrsx/termux-ng/blob/91362a1bb8/packages/luajit/etc-luajit.pc.patch",
+      "https://github.com/zrsx/termux-ng/blob/91362a1bb8/packages/luajit/src-Makefile.patch",
+      "https://github.com/zrsx/termux-ng/blob/91362a1bb8/packages/luajit/tmpdir-fix.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/8518d48df0/packages/luajit/Makefile.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/8518d48df0/packages/luajit/etc-luajit.pc.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/8518d48df0/packages/luajit/src-Makefile.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/8518d48df0/packages/luajit/tmpdir-fix.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/91362a1bb8/packages/luajit/Makefile.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/91362a1bb8/packages/luajit/etc-luajit.pc.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/91362a1bb8/packages/luajit/src-Makefile.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/91362a1bb8/packages/luajit/tmpdir-fix.patch"
     ],
     "auto_updated": true
   },
