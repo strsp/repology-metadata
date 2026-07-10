@@ -1584,7 +1584,7 @@
   },
   {
     "name": "asymptote",
-    "version": "3.12",
+    "version": "3.13",
     "description": "A powerful descriptive vector graphics language for technical drawing",
     "homepage": "https://asymptote.sourceforge.io/",
     "depends": [
@@ -1596,16 +1596,16 @@
       "ncurses",
       "readline"
     ],
-    "srcurl": "https://downloads.sourceforge.net/asymptote/asymptote-3.12.src.tgz",
+    "srcurl": "https://downloads.sourceforge.net/asymptote/asymptote-3.13.src.tgz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/8f412b0d20/packages/asymptote",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/8f412b0d20/packages/asymptote/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/8f412b0d20/packages/asymptote/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/e967ca372b/packages/asymptote",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/e967ca372b/packages/asymptote/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/e967ca372b/packages/asymptote/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/8f412b0d20/packages/asymptote/disable-x11.patch"
+      "https://github.com/zrsx/termux-ng/blob/e967ca372b/packages/asymptote/disable-x11.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/8f412b0d20/packages/asymptote/disable-x11.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/e967ca372b/packages/asymptote/disable-x11.patch"
     ],
     "auto_updated": true
   },
@@ -13998,7 +13998,7 @@
   },
   {
     "name": "jackett",
-    "version": "0.24.2196",
+    "version": "0.24.2200",
     "description": "API Support for your favorite torrent trackers",
     "homepage": "https://github.com/jackett/jackett",
     "depends": [
@@ -14006,11 +14006,11 @@
       "dotnet-host",
       "dotnet-runtime-9.0"
     ],
-    "srcurl": "https://github.com/Jackett/Jackett/archive/refs/tags/v0.24.2196.tar.gz",
+    "srcurl": "https://github.com/Jackett/Jackett/archive/refs/tags/v0.24.2200.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/b8584fef20/packages/jackett",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/b8584fef20/packages/jackett/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/b8584fef20/packages/jackett/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/43a429d680/packages/jackett",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/43a429d680/packages/jackett/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/43a429d680/packages/jackett/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -24292,7 +24292,7 @@
   },
   {
     "name": "llama-cpp",
-    "version": "b9946",
+    "version": "b9948",
     "description": "LLM inference in C/C++",
     "homepage": "https://github.com/ggml-org/llama.cpp",
     "depends": [
@@ -24300,18 +24300,18 @@
       "libc++",
       "libcurl"
     ],
-    "srcurl": "https://github.com/ggml-org/llama.cpp/archive/refs/tags/b9946.tar.gz",
+    "srcurl": "https://github.com/ggml-org/llama.cpp/archive/refs/tags/b9948.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/9e37215cc5/packages/llama-cpp",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/9e37215cc5/packages/llama-cpp/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/9e37215cc5/packages/llama-cpp/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/1f4a3aabbe/packages/llama-cpp",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/1f4a3aabbe/packages/llama-cpp/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/1f4a3aabbe/packages/llama-cpp/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/9e37215cc5/packages/llama-cpp/0001-search-dirs.patch",
-      "https://github.com/zrsx/termux-ng/blob/9e37215cc5/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
+      "https://github.com/zrsx/termux-ng/blob/1f4a3aabbe/packages/llama-cpp/0001-search-dirs.patch",
+      "https://github.com/zrsx/termux-ng/blob/1f4a3aabbe/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/9e37215cc5/packages/llama-cpp/0001-search-dirs.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/9e37215cc5/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/1f4a3aabbe/packages/llama-cpp/0001-search-dirs.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/1f4a3aabbe/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
     ],
     "auto_updated": true
   },
@@ -26418,35 +26418,35 @@
   },
   {
     "name": "memcached",
-    "version": "1.6.44",
+    "version": "1.6.45",
     "description": "Free & open source, high-performance, distributed memory object caching system",
     "homepage": "https://memcached.org/",
     "depends": [
       "libevent",
       "libsasl"
     ],
-    "srcurl": "https://www.memcached.org/files/memcached-1.6.44.tar.gz",
+    "srcurl": "https://www.memcached.org/files/memcached-1.6.45.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/9511835f1c/packages/memcached",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/9511835f1c/packages/memcached/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/9511835f1c/packages/memcached/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/5b6348e190/packages/memcached",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/5b6348e190/packages/memcached/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/5b6348e190/packages/memcached/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/9511835f1c/packages/memcached/Makefile.am.patch",
-      "https://github.com/zrsx/termux-ng/blob/9511835f1c/packages/memcached/configure.patch",
-      "https://github.com/zrsx/termux-ng/blob/9511835f1c/packages/memcached/crc32c.c.patch",
-      "https://github.com/zrsx/termux-ng/blob/9511835f1c/packages/memcached/memcached.c.patch",
-      "https://github.com/zrsx/termux-ng/blob/9511835f1c/packages/memcached/memcached.h.patch",
-      "https://github.com/zrsx/termux-ng/blob/9511835f1c/packages/memcached/restart.c.patch",
-      "https://github.com/zrsx/termux-ng/blob/9511835f1c/packages/memcached/storage.c.patch"
+      "https://github.com/zrsx/termux-ng/blob/5b6348e190/packages/memcached/Makefile.am.patch",
+      "https://github.com/zrsx/termux-ng/blob/5b6348e190/packages/memcached/configure.patch",
+      "https://github.com/zrsx/termux-ng/blob/5b6348e190/packages/memcached/crc32c.c.patch",
+      "https://github.com/zrsx/termux-ng/blob/5b6348e190/packages/memcached/memcached.c.patch",
+      "https://github.com/zrsx/termux-ng/blob/5b6348e190/packages/memcached/memcached.h.patch",
+      "https://github.com/zrsx/termux-ng/blob/5b6348e190/packages/memcached/restart.c.patch",
+      "https://github.com/zrsx/termux-ng/blob/5b6348e190/packages/memcached/storage.c.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/9511835f1c/packages/memcached/Makefile.am.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/9511835f1c/packages/memcached/configure.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/9511835f1c/packages/memcached/crc32c.c.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/9511835f1c/packages/memcached/memcached.c.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/9511835f1c/packages/memcached/memcached.h.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/9511835f1c/packages/memcached/restart.c.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/9511835f1c/packages/memcached/storage.c.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/5b6348e190/packages/memcached/Makefile.am.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/5b6348e190/packages/memcached/configure.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/5b6348e190/packages/memcached/crc32c.c.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/5b6348e190/packages/memcached/memcached.c.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/5b6348e190/packages/memcached/memcached.h.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/5b6348e190/packages/memcached/restart.c.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/5b6348e190/packages/memcached/storage.c.patch"
     ],
     "auto_updated": true
   },
@@ -29888,20 +29888,20 @@
   },
   {
     "name": "oh-my-posh",
-    "version": "29.24.0",
+    "version": "29.24.1",
     "description": "A prompt theme engine for any shell.",
     "homepage": "https://ohmyposh.dev",
     "depends": [],
-    "srcurl": "https://github.com/JanDeDobbeleer/oh-my-posh/archive/refs/tags/v29.24.0.tar.gz",
+    "srcurl": "https://github.com/JanDeDobbeleer/oh-my-posh/archive/refs/tags/v29.24.1.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/43c0fdfc5d/packages/oh-my-posh",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/43c0fdfc5d/packages/oh-my-posh/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/43c0fdfc5d/packages/oh-my-posh/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/b1edb5b643/packages/oh-my-posh",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/b1edb5b643/packages/oh-my-posh/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/b1edb5b643/packages/oh-my-posh/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/43c0fdfc5d/packages/oh-my-posh/issue-26712.patch"
+      "https://github.com/zrsx/termux-ng/blob/b1edb5b643/packages/oh-my-posh/issue-26712.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/43c0fdfc5d/packages/oh-my-posh/issue-26712.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/b1edb5b643/packages/oh-my-posh/issue-26712.patch"
     ],
     "auto_updated": true
   },
@@ -38933,15 +38933,15 @@
   },
   {
     "name": "storj-uplink",
-    "version": "1.158.4",
+    "version": "1.158.5",
     "description": "Storj DCS Uplink CLI",
     "homepage": "https://www.storj.io/integrations/uplink-cli",
     "depends": [],
-    "srcurl": "https://github.com/storj/storj/archive/refs/tags/v1.158.4.tar.gz",
+    "srcurl": "https://github.com/storj/storj/archive/refs/tags/v1.158.5.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/17dad83b1e/packages/storj-uplink",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/17dad83b1e/packages/storj-uplink/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/17dad83b1e/packages/storj-uplink/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/b0fdeb739d/packages/storj-uplink",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/b0fdeb739d/packages/storj-uplink/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/b0fdeb739d/packages/storj-uplink/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
