@@ -3008,22 +3008,22 @@
   },
   {
     "name": "broot",
-    "version": "1.57.0",
+    "version": "1.58.0",
     "description": "A better way to navigate directories",
     "homepage": "https://github.com/Canop/broot",
     "depends": [
       "libgit2"
     ],
-    "srcurl": "https://github.com/Canop/broot/archive/refs/tags/v1.57.0.tar.gz",
+    "srcurl": "https://github.com/Canop/broot/archive/refs/tags/v1.58.0.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/b322d23a92/packages/broot",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/b322d23a92/packages/broot/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/b322d23a92/packages/broot/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/4320c1be25/packages/broot",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/4320c1be25/packages/broot/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/4320c1be25/packages/broot/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/b322d23a92/packages/broot/disable_trash.patch"
+      "https://github.com/zrsx/termux-ng/blob/4320c1be25/packages/broot/disable_trash.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/b322d23a92/packages/broot/disable_trash.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/4320c1be25/packages/broot/disable_trash.patch"
     ],
     "auto_updated": true
   },
@@ -24292,7 +24292,7 @@
   },
   {
     "name": "llama-cpp",
-    "version": "b9956",
+    "version": "b9957",
     "description": "LLM inference in C/C++",
     "homepage": "https://github.com/ggml-org/llama.cpp",
     "depends": [
@@ -24300,18 +24300,18 @@
       "libc++",
       "libcurl"
     ],
-    "srcurl": "https://github.com/ggml-org/llama.cpp/archive/refs/tags/b9956.tar.gz",
+    "srcurl": "https://github.com/ggml-org/llama.cpp/archive/refs/tags/b9957.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/4552e17e66/packages/llama-cpp",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/4552e17e66/packages/llama-cpp/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/4552e17e66/packages/llama-cpp/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/f35f719ce4/packages/llama-cpp",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/f35f719ce4/packages/llama-cpp/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/f35f719ce4/packages/llama-cpp/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/4552e17e66/packages/llama-cpp/0001-search-dirs.patch",
-      "https://github.com/zrsx/termux-ng/blob/4552e17e66/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
+      "https://github.com/zrsx/termux-ng/blob/f35f719ce4/packages/llama-cpp/0001-search-dirs.patch",
+      "https://github.com/zrsx/termux-ng/blob/f35f719ce4/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/4552e17e66/packages/llama-cpp/0001-search-dirs.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/4552e17e66/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/f35f719ce4/packages/llama-cpp/0001-search-dirs.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/f35f719ce4/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
     ],
     "auto_updated": true
   },
