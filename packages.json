@@ -24292,7 +24292,7 @@
   },
   {
     "name": "llama-cpp",
-    "version": "b9964",
+    "version": "b9966",
     "description": "LLM inference in C/C++",
     "homepage": "https://github.com/ggml-org/llama.cpp",
     "depends": [
@@ -24300,18 +24300,18 @@
       "libc++",
       "libcurl"
     ],
-    "srcurl": "https://github.com/ggml-org/llama.cpp/archive/refs/tags/b9964.tar.gz",
+    "srcurl": "https://github.com/ggml-org/llama.cpp/archive/refs/tags/b9966.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/12212962ca/packages/llama-cpp",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/12212962ca/packages/llama-cpp/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/12212962ca/packages/llama-cpp/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/aa71a82144/packages/llama-cpp",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/aa71a82144/packages/llama-cpp/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/aa71a82144/packages/llama-cpp/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/12212962ca/packages/llama-cpp/0001-search-dirs.patch",
-      "https://github.com/zrsx/termux-ng/blob/12212962ca/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
+      "https://github.com/zrsx/termux-ng/blob/aa71a82144/packages/llama-cpp/0001-search-dirs.patch",
+      "https://github.com/zrsx/termux-ng/blob/aa71a82144/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/12212962ca/packages/llama-cpp/0001-search-dirs.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/12212962ca/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/aa71a82144/packages/llama-cpp/0001-search-dirs.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/aa71a82144/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
     ],
     "auto_updated": true
   },
@@ -24922,26 +24922,26 @@
   },
   {
     "name": "luajit",
-    "version": "1:2.1.1783672735+g5dd996e",
+    "version": "1:2.1.1783773675+g3c4f9fe",
     "description": "Just-In-Time Compiler for Lua",
     "homepage": "https://luajit.org/",
     "depends": [],
     "srcurl": "git+https://github.com/LuaJIT/LuaJIT.git",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/91362a1bb8/packages/luajit",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/91362a1bb8/packages/luajit/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/91362a1bb8/packages/luajit/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/53f27c65cd/packages/luajit",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/53f27c65cd/packages/luajit/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/53f27c65cd/packages/luajit/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/91362a1bb8/packages/luajit/Makefile.patch",
-      "https://github.com/zrsx/termux-ng/blob/91362a1bb8/packages/luajit/etc-luajit.pc.patch",
-      "https://github.com/zrsx/termux-ng/blob/91362a1bb8/packages/luajit/src-Makefile.patch",
-      "https://github.com/zrsx/termux-ng/blob/91362a1bb8/packages/luajit/tmpdir-fix.patch"
+      "https://github.com/zrsx/termux-ng/blob/53f27c65cd/packages/luajit/Makefile.patch",
+      "https://github.com/zrsx/termux-ng/blob/53f27c65cd/packages/luajit/etc-luajit.pc.patch",
+      "https://github.com/zrsx/termux-ng/blob/53f27c65cd/packages/luajit/src-Makefile.patch",
+      "https://github.com/zrsx/termux-ng/blob/53f27c65cd/packages/luajit/tmpdir-fix.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/91362a1bb8/packages/luajit/Makefile.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/91362a1bb8/packages/luajit/etc-luajit.pc.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/91362a1bb8/packages/luajit/src-Makefile.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/91362a1bb8/packages/luajit/tmpdir-fix.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/53f27c65cd/packages/luajit/Makefile.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/53f27c65cd/packages/luajit/etc-luajit.pc.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/53f27c65cd/packages/luajit/src-Makefile.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/53f27c65cd/packages/luajit/tmpdir-fix.patch"
     ],
     "auto_updated": true
   },
@@ -29672,24 +29672,24 @@
   },
   {
     "name": "nushell",
-    "version": "0.114.0",
+    "version": "0.114.1",
     "description": "A new type of shell operating on structured data",
     "homepage": "https://www.nushell.sh",
     "depends": [
       "openssl"
     ],
-    "srcurl": "https://github.com/nushell/nushell/archive/refs/tags/0.114.0.tar.gz",
+    "srcurl": "https://github.com/nushell/nushell/archive/refs/tags/0.114.1.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/2684efdd0c/packages/nushell",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/2684efdd0c/packages/nushell/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/2684efdd0c/packages/nushell/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/40098b9346/packages/nushell",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/40098b9346/packages/nushell/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/40098b9346/packages/nushell/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/2684efdd0c/packages/nushell/0001-remove-sysinfo-Users.patch",
-      "https://github.com/zrsx/termux-ng/blob/2684efdd0c/packages/nushell/0002-replace-osc-52-paste-with-termux-clipboard-get.patch"
+      "https://github.com/zrsx/termux-ng/blob/40098b9346/packages/nushell/0001-remove-sysinfo-Users.patch",
+      "https://github.com/zrsx/termux-ng/blob/40098b9346/packages/nushell/0002-replace-osc-52-paste-with-termux-clipboard-get.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/2684efdd0c/packages/nushell/0001-remove-sysinfo-Users.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/2684efdd0c/packages/nushell/0002-replace-osc-52-paste-with-termux-clipboard-get.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/40098b9346/packages/nushell/0001-remove-sysinfo-Users.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/40098b9346/packages/nushell/0002-replace-osc-52-paste-with-termux-clipboard-get.patch"
     ],
     "auto_updated": true
   },
