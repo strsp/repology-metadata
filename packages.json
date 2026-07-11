@@ -9237,20 +9237,20 @@
   },
   {
     "name": "frp",
-    "version": "0.69.1",
+    "version": "0.70.0",
     "description": "A fast reverse proxy to expose a local server behind a NAT or firewall to the internet",
     "homepage": "https://github.com/fatedier/frp",
     "depends": [],
-    "srcurl": "https://github.com/fatedier/frp/archive/refs/tags/v0.69.1.tar.gz",
+    "srcurl": "https://github.com/fatedier/frp/archive/refs/tags/v0.70.0.tar.gz",
     "maintainer": "2096779623 <admin@utermux.dev>",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/990df0e4f3/packages/frp",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/990df0e4f3/packages/frp/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/990df0e4f3/packages/frp/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/7c6c9f5e63/packages/frp",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/7c6c9f5e63/packages/frp/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/7c6c9f5e63/packages/frp/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/990df0e4f3/packages/frp/Makefile.patch"
+      "https://github.com/zrsx/termux-ng/blob/7c6c9f5e63/packages/frp/Makefile.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/990df0e4f3/packages/frp/Makefile.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/7c6c9f5e63/packages/frp/Makefile.patch"
     ],
     "auto_updated": true
   },
@@ -24292,7 +24292,7 @@
   },
   {
     "name": "llama-cpp",
-    "version": "b9960",
+    "version": "b9964",
     "description": "LLM inference in C/C++",
     "homepage": "https://github.com/ggml-org/llama.cpp",
     "depends": [
@@ -24300,18 +24300,18 @@
       "libc++",
       "libcurl"
     ],
-    "srcurl": "https://github.com/ggml-org/llama.cpp/archive/refs/tags/b9960.tar.gz",
+    "srcurl": "https://github.com/ggml-org/llama.cpp/archive/refs/tags/b9964.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/1c1280ed9f/packages/llama-cpp",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/1c1280ed9f/packages/llama-cpp/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/1c1280ed9f/packages/llama-cpp/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/12212962ca/packages/llama-cpp",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/12212962ca/packages/llama-cpp/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/12212962ca/packages/llama-cpp/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/1c1280ed9f/packages/llama-cpp/0001-search-dirs.patch",
-      "https://github.com/zrsx/termux-ng/blob/1c1280ed9f/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
+      "https://github.com/zrsx/termux-ng/blob/12212962ca/packages/llama-cpp/0001-search-dirs.patch",
+      "https://github.com/zrsx/termux-ng/blob/12212962ca/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/1c1280ed9f/packages/llama-cpp/0001-search-dirs.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/1c1280ed9f/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/12212962ca/packages/llama-cpp/0001-search-dirs.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/12212962ca/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
     ],
     "auto_updated": true
   },
@@ -29888,20 +29888,20 @@
   },
   {
     "name": "oh-my-posh",
-    "version": "29.25.1",
+    "version": "29.26.0",
     "description": "A prompt theme engine for any shell.",
     "homepage": "https://ohmyposh.dev",
     "depends": [],
-    "srcurl": "https://github.com/JanDeDobbeleer/oh-my-posh/archive/refs/tags/v29.25.1.tar.gz",
+    "srcurl": "https://github.com/JanDeDobbeleer/oh-my-posh/archive/refs/tags/v29.26.0.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/cc5a3d7a55/packages/oh-my-posh",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/cc5a3d7a55/packages/oh-my-posh/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/cc5a3d7a55/packages/oh-my-posh/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/f70c9fd78b/packages/oh-my-posh",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/f70c9fd78b/packages/oh-my-posh/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/f70c9fd78b/packages/oh-my-posh/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/cc5a3d7a55/packages/oh-my-posh/issue-26712.patch"
+      "https://github.com/zrsx/termux-ng/blob/f70c9fd78b/packages/oh-my-posh/issue-26712.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/cc5a3d7a55/packages/oh-my-posh/issue-26712.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/f70c9fd78b/packages/oh-my-posh/issue-26712.patch"
     ],
     "auto_updated": true
   },
@@ -46064,17 +46064,17 @@
   },
   {
     "name": "avrdude",
-    "version": "8.1",
+    "version": "8.2",
     "description": "Software for programming Microchip (former Atmel) AVR Microcontrollers",
     "homepage": "https://avrdudes.github.io/avrdude/",
     "depends": [
       "libusb"
     ],
-    "srcurl": "https://github.com/avrdudes/avrdude/archive/refs/tags/v8.1.tar.gz",
+    "srcurl": "https://github.com/avrdudes/avrdude/archive/refs/tags/v8.2.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/3f52b713df/root-packages/avrdude",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/3f52b713df/root-packages/avrdude/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/3f52b713df/root-packages/avrdude/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/6fd118692f/root-packages/avrdude",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/6fd118692f/root-packages/avrdude/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/6fd118692f/root-packages/avrdude/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
