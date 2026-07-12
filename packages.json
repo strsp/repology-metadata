@@ -24292,7 +24292,7 @@
   },
   {
     "name": "llama-cpp",
-    "version": "b9966",
+    "version": "b9968",
     "description": "LLM inference in C/C++",
     "homepage": "https://github.com/ggml-org/llama.cpp",
     "depends": [
@@ -24300,18 +24300,18 @@
       "libc++",
       "libcurl"
     ],
-    "srcurl": "https://github.com/ggml-org/llama.cpp/archive/refs/tags/b9966.tar.gz",
+    "srcurl": "https://github.com/ggml-org/llama.cpp/archive/refs/tags/b9968.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/aa71a82144/packages/llama-cpp",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/aa71a82144/packages/llama-cpp/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/aa71a82144/packages/llama-cpp/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/9904cc7723/packages/llama-cpp",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/9904cc7723/packages/llama-cpp/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/9904cc7723/packages/llama-cpp/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/aa71a82144/packages/llama-cpp/0001-search-dirs.patch",
-      "https://github.com/zrsx/termux-ng/blob/aa71a82144/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
+      "https://github.com/zrsx/termux-ng/blob/9904cc7723/packages/llama-cpp/0001-search-dirs.patch",
+      "https://github.com/zrsx/termux-ng/blob/9904cc7723/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/aa71a82144/packages/llama-cpp/0001-search-dirs.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/aa71a82144/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/9904cc7723/packages/llama-cpp/0001-search-dirs.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/9904cc7723/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
     ],
     "auto_updated": true
   },
@@ -29888,20 +29888,20 @@
   },
   {
     "name": "oh-my-posh",
-    "version": "29.26.0",
+    "version": "29.26.1",
     "description": "A prompt theme engine for any shell.",
     "homepage": "https://ohmyposh.dev",
     "depends": [],
-    "srcurl": "https://github.com/JanDeDobbeleer/oh-my-posh/archive/refs/tags/v29.26.0.tar.gz",
+    "srcurl": "https://github.com/JanDeDobbeleer/oh-my-posh/archive/refs/tags/v29.26.1.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/f70c9fd78b/packages/oh-my-posh",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/f70c9fd78b/packages/oh-my-posh/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/f70c9fd78b/packages/oh-my-posh/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/73266cb57c/packages/oh-my-posh",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/73266cb57c/packages/oh-my-posh/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/73266cb57c/packages/oh-my-posh/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/f70c9fd78b/packages/oh-my-posh/issue-26712.patch"
+      "https://github.com/zrsx/termux-ng/blob/73266cb57c/packages/oh-my-posh/issue-26712.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/f70c9fd78b/packages/oh-my-posh/issue-26712.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/73266cb57c/packages/oh-my-posh/issue-26712.patch"
     ],
     "auto_updated": true
   },
