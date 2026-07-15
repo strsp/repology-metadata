@@ -10661,24 +10661,24 @@
   },
   {
     "name": "glslang",
-    "version": "16.3.0",
+    "version": "16.4.0",
     "description": "OpenGL and OpenGL ES shader front end and validator",
     "homepage": "https://github.com/KhronosGroup/glslang",
     "depends": [
       "libc++"
     ],
-    "srcurl": "https://github.com/KhronosGroup/glslang/archive/refs/tags/16.3.0.tar.gz",
+    "srcurl": "https://github.com/KhronosGroup/glslang/archive/refs/tags/16.4.0.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/0bb8b32a60/packages/glslang",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/0bb8b32a60/packages/glslang/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/0bb8b32a60/packages/glslang/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/3708c6f9ee/packages/glslang",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/3708c6f9ee/packages/glslang/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/3708c6f9ee/packages/glslang/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/0bb8b32a60/packages/glslang/CMakeLists.txt.patch",
-      "https://github.com/zrsx/termux-ng/blob/0bb8b32a60/packages/glslang/revert-only-install-public-headers.patch"
+      "https://github.com/zrsx/termux-ng/blob/3708c6f9ee/packages/glslang/CMakeLists.txt.patch",
+      "https://github.com/zrsx/termux-ng/blob/3708c6f9ee/packages/glslang/revert-only-install-public-headers.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/0bb8b32a60/packages/glslang/CMakeLists.txt.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/0bb8b32a60/packages/glslang/revert-only-install-public-headers.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/3708c6f9ee/packages/glslang/CMakeLists.txt.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/3708c6f9ee/packages/glslang/revert-only-install-public-headers.patch"
     ],
     "auto_updated": true
   },
