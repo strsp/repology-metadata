@@ -2454,17 +2454,17 @@
   },
   {
     "name": "binaryen",
-    "version": "130",
+    "version": "131",
     "description": "Binaryen is a compiler and toolchain infrastructure library for WebAssembly",
     "homepage": "https://github.com/WebAssembly/binaryen",
     "depends": [
       "libc++"
     ],
-    "srcurl": "https://github.com/WebAssembly/binaryen/archive/refs/tags/version_130.tar.gz",
+    "srcurl": "https://github.com/WebAssembly/binaryen/archive/refs/tags/version_131.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/095b3c1058/packages/binaryen",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/095b3c1058/packages/binaryen/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/095b3c1058/packages/binaryen/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/5ef226f680/packages/binaryen",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/5ef226f680/packages/binaryen/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/5ef226f680/packages/binaryen/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -6161,17 +6161,17 @@
   },
   {
     "name": "diff-so-fancy",
-    "version": "1.4.10",
+    "version": "1.4.12",
     "description": "Good-lookin' diffs. Actually... nah... The best-lookin' diffs",
     "homepage": "https://github.com/so-fancy/diff-so-fancy",
     "depends": [
       "perl"
     ],
-    "srcurl": "https://github.com/so-fancy/diff-so-fancy/archive/refs/tags/v1.4.10.tar.gz",
+    "srcurl": "https://github.com/so-fancy/diff-so-fancy/archive/refs/tags/v1.4.12.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/26bd87c919/packages/diff-so-fancy",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/26bd87c919/packages/diff-so-fancy/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/26bd87c919/packages/diff-so-fancy/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/9e81d9755d/packages/diff-so-fancy",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/9e81d9755d/packages/diff-so-fancy/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/9e81d9755d/packages/diff-so-fancy/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
