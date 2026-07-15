@@ -4480,20 +4480,20 @@
   },
   {
     "name": "cloudflared",
-    "version": "2026.7.1",
+    "version": "2026.7.2",
     "description": "A tunneling daemon that proxies traffic from the Cloudflare network to your origins",
     "homepage": "https://github.com/cloudflare/cloudflared",
     "depends": [],
-    "srcurl": "https://github.com/cloudflare/cloudflared/archive/refs/tags/2026.7.1.tar.gz",
+    "srcurl": "https://github.com/cloudflare/cloudflared/archive/refs/tags/2026.7.2.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/63ad0579f9/packages/cloudflared",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/63ad0579f9/packages/cloudflared/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/63ad0579f9/packages/cloudflared/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/66b2ec633d/packages/cloudflared",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/66b2ec633d/packages/cloudflared/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/66b2ec633d/packages/cloudflared/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/63ad0579f9/packages/cloudflared/0001-disable-install-service.patch"
+      "https://github.com/zrsx/termux-ng/blob/66b2ec633d/packages/cloudflared/0001-disable-install-service.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/63ad0579f9/packages/cloudflared/0001-disable-install-service.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/66b2ec633d/packages/cloudflared/0001-disable-install-service.patch"
     ],
     "auto_updated": true
   },
@@ -14988,15 +14988,15 @@
   },
   {
     "name": "lazygit",
-    "version": "0.63.0",
+    "version": "0.63.1",
     "description": "Simple terminal UI for git commands",
     "homepage": "https://github.com/jesseduffield/lazygit",
     "depends": [],
-    "srcurl": "https://github.com/jesseduffield/lazygit/archive/refs/tags/v0.63.0.tar.gz",
+    "srcurl": "https://github.com/jesseduffield/lazygit/archive/refs/tags/v0.63.1.tar.gz",
     "maintainer": "Krishna kanhaiya @kcubeterm",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/aade0370a7/packages/lazygit",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/aade0370a7/packages/lazygit/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/aade0370a7/packages/lazygit/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/23d57f3315/packages/lazygit",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/23d57f3315/packages/lazygit/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/23d57f3315/packages/lazygit/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -15869,7 +15869,7 @@
   },
   {
     "name": "libblosc2",
-    "version": "3.2.1",
+    "version": "3.2.2",
     "description": "A blocking, shuffling and loss-less compression library",
     "homepage": "https://www.blosc.org",
     "depends": [
@@ -15877,16 +15877,16 @@
       "zlib",
       "zstd"
     ],
-    "srcurl": "https://github.com/Blosc/c-blosc2/archive/refs/tags/v3.2.1.tar.gz",
+    "srcurl": "https://github.com/Blosc/c-blosc2/archive/refs/tags/v3.2.2.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/0c006bee6e/packages/libblosc2",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/0c006bee6e/packages/libblosc2/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/0c006bee6e/packages/libblosc2/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/8ede953c93/packages/libblosc2",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/8ede953c93/packages/libblosc2/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/8ede953c93/packages/libblosc2/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/0c006bee6e/packages/libblosc2/0001-fix-posix-memalign.patch"
+      "https://github.com/zrsx/termux-ng/blob/8ede953c93/packages/libblosc2/0001-fix-posix-memalign.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/0c006bee6e/packages/libblosc2/0001-fix-posix-memalign.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/8ede953c93/packages/libblosc2/0001-fix-posix-memalign.patch"
     ],
     "auto_updated": true
   },
