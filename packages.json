@@ -14133,15 +14133,15 @@
   },
   {
     "name": "jfrog-cli",
-    "version": "2.113.0",
+    "version": "2.115.0",
     "description": "A CLI for JFrog products",
     "homepage": "https://jfrog.com/getcli",
     "depends": [],
-    "srcurl": "https://github.com/jfrog/jfrog-cli/archive/refs/tags/v2.113.0.tar.gz",
+    "srcurl": "https://github.com/jfrog/jfrog-cli/archive/refs/tags/v2.115.0.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/75ece546a0/packages/jfrog-cli",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/75ece546a0/packages/jfrog-cli/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/75ece546a0/packages/jfrog-cli/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/1e569c7a8c/packages/jfrog-cli",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/1e569c7a8c/packages/jfrog-cli/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/1e569c7a8c/packages/jfrog-cli/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -15869,7 +15869,7 @@
   },
   {
     "name": "libblosc2",
-    "version": "3.2.2",
+    "version": "3.2.3",
     "description": "A blocking, shuffling and loss-less compression library",
     "homepage": "https://www.blosc.org",
     "depends": [
@@ -15877,16 +15877,16 @@
       "zlib",
       "zstd"
     ],
-    "srcurl": "https://github.com/Blosc/c-blosc2/archive/refs/tags/v3.2.2.tar.gz",
+    "srcurl": "https://github.com/Blosc/c-blosc2/archive/refs/tags/v3.2.3.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/8ede953c93/packages/libblosc2",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/8ede953c93/packages/libblosc2/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/8ede953c93/packages/libblosc2/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/cbecb5888c/packages/libblosc2",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/cbecb5888c/packages/libblosc2/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/cbecb5888c/packages/libblosc2/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/8ede953c93/packages/libblosc2/0001-fix-posix-memalign.patch"
+      "https://github.com/zrsx/termux-ng/blob/cbecb5888c/packages/libblosc2/0001-fix-posix-memalign.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/8ede953c93/packages/libblosc2/0001-fix-posix-memalign.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/cbecb5888c/packages/libblosc2/0001-fix-posix-memalign.patch"
     ],
     "auto_updated": true
   },
@@ -24292,7 +24292,7 @@
   },
   {
     "name": "llama-cpp",
-    "version": "b10020",
+    "version": "b10031",
     "description": "LLM inference in C/C++",
     "homepage": "https://github.com/ggml-org/llama.cpp",
     "depends": [
@@ -24300,18 +24300,18 @@
       "libc++",
       "libcurl"
     ],
-    "srcurl": "https://github.com/ggml-org/llama.cpp/archive/refs/tags/b10020.tar.gz",
+    "srcurl": "https://github.com/ggml-org/llama.cpp/archive/refs/tags/b10031.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/56063534ad/packages/llama-cpp",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/56063534ad/packages/llama-cpp/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/56063534ad/packages/llama-cpp/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/ce868bbc15/packages/llama-cpp",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/ce868bbc15/packages/llama-cpp/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/ce868bbc15/packages/llama-cpp/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/56063534ad/packages/llama-cpp/0001-search-dirs.patch",
-      "https://github.com/zrsx/termux-ng/blob/56063534ad/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
+      "https://github.com/zrsx/termux-ng/blob/ce868bbc15/packages/llama-cpp/0001-search-dirs.patch",
+      "https://github.com/zrsx/termux-ng/blob/ce868bbc15/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/56063534ad/packages/llama-cpp/0001-search-dirs.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/56063534ad/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/ce868bbc15/packages/llama-cpp/0001-search-dirs.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/ce868bbc15/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
     ],
     "auto_updated": true
   },
@@ -35893,17 +35893,17 @@
   },
   {
     "name": "ripgrep",
-    "version": "15.1.0",
+    "version": "15.2.0",
     "description": "Search tool like grep and The Silver Searcher",
     "homepage": "https://github.com/BurntSushi/ripgrep",
     "depends": [
       "pcre2"
     ],
-    "srcurl": "https://github.com/BurntSushi/ripgrep/archive/refs/tags/15.1.0.tar.gz",
+    "srcurl": "https://github.com/BurntSushi/ripgrep/archive/refs/tags/15.2.0.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/6f6b7871b2/packages/ripgrep",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/6f6b7871b2/packages/ripgrep/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/6f6b7871b2/packages/ripgrep/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/dabbb8e642/packages/ripgrep",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/dabbb8e642/packages/ripgrep/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/dabbb8e642/packages/ripgrep/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -37002,15 +37002,15 @@
   },
   {
     "name": "seanime",
-    "version": "3.9.1",
+    "version": "3.10.0",
     "description": "Self-hosted anime and manga server for sea rovers.",
     "homepage": "https://github.com/5rahim/seanime",
     "depends": [],
-    "srcurl": "https://github.com/5rahim/seanime/archive/refs/tags/v3.9.1.tar.gz",
+    "srcurl": "https://github.com/5rahim/seanime/archive/refs/tags/v3.10.0.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/c8e936dbef/packages/seanime",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/c8e936dbef/packages/seanime/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/c8e936dbef/packages/seanime/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/701503d1da/packages/seanime",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/701503d1da/packages/seanime/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/701503d1da/packages/seanime/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -41154,15 +41154,15 @@
   },
   {
     "name": "topgrade",
-    "version": "17.7.0",
+    "version": "17.8.0",
     "description": "Upgrade all the things",
     "homepage": "https://github.com/topgrade-rs/topgrade/",
     "depends": [],
-    "srcurl": "https://github.com/topgrade-rs/topgrade/archive/refs/tags/v17.7.0.tar.gz",
+    "srcurl": "https://github.com/topgrade-rs/topgrade/archive/refs/tags/v17.8.0.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/b701525d9c/packages/topgrade",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/b701525d9c/packages/topgrade/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/b701525d9c/packages/topgrade/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/1bba6354dc/packages/topgrade",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/1bba6354dc/packages/topgrade/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/1bba6354dc/packages/topgrade/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -42969,17 +42969,17 @@
   },
   {
     "name": "uv",
-    "version": "0.11.28",
+    "version": "0.11.29",
     "description": "An extremely fast Python package installer and resolver, written in Rust.",
     "homepage": "https://docs.astral.sh/uv/",
     "depends": [
       "zstd"
     ],
-    "srcurl": "https://github.com/astral-sh/uv/archive/refs/tags/0.11.28.tar.gz",
+    "srcurl": "https://github.com/astral-sh/uv/archive/refs/tags/0.11.29.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/e9ca4d0e9c/packages/uv",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/e9ca4d0e9c/packages/uv/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/e9ca4d0e9c/packages/uv/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/0f48f48b42/packages/uv",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/0f48f48b42/packages/uv/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/0f48f48b42/packages/uv/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -44021,15 +44021,15 @@
   },
   {
     "name": "wakatime-cli",
-    "version": "2.22.0",
+    "version": "2.22.1",
     "description": "Command line interface used by all WakaTime text editor plugins",
     "homepage": "https://wakatime.com/plugins/",
     "depends": [],
-    "srcurl": "https://github.com/wakatime/wakatime-cli/archive/refs/tags/v2.22.0.tar.gz",
+    "srcurl": "https://github.com/wakatime/wakatime-cli/archive/refs/tags/v2.22.1.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/4541070563/packages/wakatime-cli",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/4541070563/packages/wakatime-cli/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/4541070563/packages/wakatime-cli/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/e1c6ed934c/packages/wakatime-cli",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/e1c6ed934c/packages/wakatime-cli/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/e1c6ed934c/packages/wakatime-cli/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -47100,26 +47100,26 @@
   },
   {
     "name": "ntfs-3g",
-    "version": "2026.2.25",
+    "version": "2026.7.7",
     "description": "NTFS-3G Safe Read/Write NTFS Driver",
     "homepage": "https://github.com/tuxera/ntfs-3g",
     "depends": [
       "libfuse2"
     ],
-    "srcurl": "https://github.com/tuxera/ntfs-3g/archive/refs/tags/2026.2.25.tar.gz",
+    "srcurl": "https://github.com/tuxera/ntfs-3g/archive/refs/tags/2026.7.7.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/a540bca28b/root-packages/ntfs-3g",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/a540bca28b/root-packages/ntfs-3g/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/a540bca28b/root-packages/ntfs-3g/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/84e4413f24/root-packages/ntfs-3g",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/84e4413f24/root-packages/ntfs-3g/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/84e4413f24/root-packages/ntfs-3g/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/a540bca28b/root-packages/ntfs-3g/fix-hardcoded-path.patch",
-      "https://github.com/zrsx/termux-ng/blob/a540bca28b/root-packages/ntfs-3g/fix-symlink.patch",
-      "https://github.com/zrsx/termux-ng/blob/a540bca28b/root-packages/ntfs-3g/remove-ldconfig.patch"
+      "https://github.com/zrsx/termux-ng/blob/84e4413f24/root-packages/ntfs-3g/fix-hardcoded-path.patch",
+      "https://github.com/zrsx/termux-ng/blob/84e4413f24/root-packages/ntfs-3g/fix-symlink.patch",
+      "https://github.com/zrsx/termux-ng/blob/84e4413f24/root-packages/ntfs-3g/remove-ldconfig.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/a540bca28b/root-packages/ntfs-3g/fix-hardcoded-path.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/a540bca28b/root-packages/ntfs-3g/fix-symlink.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/a540bca28b/root-packages/ntfs-3g/remove-ldconfig.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/84e4413f24/root-packages/ntfs-3g/fix-hardcoded-path.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/84e4413f24/root-packages/ntfs-3g/fix-symlink.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/84e4413f24/root-packages/ntfs-3g/remove-ldconfig.patch"
     ],
     "auto_updated": true
   },
