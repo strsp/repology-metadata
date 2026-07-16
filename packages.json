@@ -20817,7 +20817,7 @@
   },
   {
     "name": "libraw",
-    "version": "0.22.1",
+    "version": "0.22.2",
     "description": "Library for reading RAW files from digital cameras",
     "homepage": "https://www.libraw.org/",
     "depends": [
@@ -20827,11 +20827,11 @@
       "littlecms",
       "zlib"
     ],
-    "srcurl": "https://www.libraw.org/data/LibRaw-0.22.1.tar.gz",
+    "srcurl": "https://www.libraw.org/data/LibRaw-0.22.2.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/d5bce98aa7/packages/libraw",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/d5bce98aa7/packages/libraw/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/d5bce98aa7/packages/libraw/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/fdc08174b1/packages/libraw",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/fdc08174b1/packages/libraw/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/fdc08174b1/packages/libraw/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
