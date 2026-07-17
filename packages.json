@@ -24292,7 +24292,7 @@
   },
   {
     "name": "llama-cpp",
-    "version": "b10059",
+    "version": "b10064",
     "description": "LLM inference in C/C++",
     "homepage": "https://github.com/ggml-org/llama.cpp",
     "depends": [
@@ -24300,18 +24300,18 @@
       "libc++",
       "libcurl"
     ],
-    "srcurl": "https://github.com/ggml-org/llama.cpp/archive/refs/tags/b10059.tar.gz",
+    "srcurl": "https://github.com/ggml-org/llama.cpp/archive/refs/tags/b10064.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/0fcb1ed515/packages/llama-cpp",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/0fcb1ed515/packages/llama-cpp/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/0fcb1ed515/packages/llama-cpp/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/50f6013e7a/packages/llama-cpp",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/50f6013e7a/packages/llama-cpp/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/50f6013e7a/packages/llama-cpp/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/0fcb1ed515/packages/llama-cpp/0001-search-dirs.patch",
-      "https://github.com/zrsx/termux-ng/blob/0fcb1ed515/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
+      "https://github.com/zrsx/termux-ng/blob/50f6013e7a/packages/llama-cpp/0001-search-dirs.patch",
+      "https://github.com/zrsx/termux-ng/blob/50f6013e7a/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/0fcb1ed515/packages/llama-cpp/0001-search-dirs.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/0fcb1ed515/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/50f6013e7a/packages/llama-cpp/0001-search-dirs.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/50f6013e7a/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
     ],
     "auto_updated": true
   },
@@ -35209,15 +35209,15 @@
   },
   {
     "name": "railway-cli",
-    "version": "5.26.3",
+    "version": "5.26.4",
     "description": "This is the command line interface for Railway",
     "homepage": "https://railway.app",
     "depends": [],
-    "srcurl": "https://github.com/railwayapp/cli/archive/refs/tags/v5.26.3.tar.gz",
+    "srcurl": "https://github.com/railwayapp/cli/archive/refs/tags/v5.26.4.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/78d002e028/packages/railway-cli",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/78d002e028/packages/railway-cli/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/78d002e028/packages/railway-cli/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/ecd12c7b52/packages/railway-cli",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/ecd12c7b52/packages/railway-cli/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/ecd12c7b52/packages/railway-cli/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -37204,20 +37204,20 @@
   },
   {
     "name": "sftpgo",
-    "version": "2.7.4",
+    "version": "2.7.5",
     "description": "Full-featured and highly configurable SFTP, HTTP/S, FTP/S and WebDAV server",
     "homepage": "https://sftpgo.com/",
     "depends": [],
-    "srcurl": "https://github.com/drakkan/sftpgo/releases/download/v2.7.4/sftpgo_v2.7.4_src_with_deps.tar.xz",
+    "srcurl": "https://github.com/drakkan/sftpgo/releases/download/v2.7.5/sftpgo_v2.7.5_src_with_deps.tar.xz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/a7b6637844/packages/sftpgo",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/a7b6637844/packages/sftpgo/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/a7b6637844/packages/sftpgo/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/958d0dc387/packages/sftpgo",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/958d0dc387/packages/sftpgo/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/958d0dc387/packages/sftpgo/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/a7b6637844/packages/sftpgo/0001-conf.patch"
+      "https://github.com/zrsx/termux-ng/blob/958d0dc387/packages/sftpgo/0001-conf.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/a7b6637844/packages/sftpgo/0001-conf.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/958d0dc387/packages/sftpgo/0001-conf.patch"
     ],
     "auto_updated": true
   },
