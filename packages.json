@@ -8313,17 +8313,17 @@
   },
   {
     "name": "fdkaac",
-    "version": "1.0.7",
+    "version": "1.0.8",
     "description": "command line encoder frontend for libfdk-aac",
     "homepage": "https://github.com/nu774/fdkaac",
     "depends": [
       "libfdk-aac"
     ],
-    "srcurl": "https://github.com/nu774/fdkaac/archive/refs/tags/v1.0.7.tar.gz",
+    "srcurl": "https://github.com/nu774/fdkaac/archive/refs/tags/v1.0.8.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/d45cab6ba1/packages/fdkaac",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/d45cab6ba1/packages/fdkaac/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/d45cab6ba1/packages/fdkaac/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/b3aee83dcf/packages/fdkaac",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/b3aee83dcf/packages/fdkaac/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/b3aee83dcf/packages/fdkaac/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -12867,25 +12867,25 @@
   },
   {
     "name": "htop",
-    "version": "3.5.1",
+    "version": "3.5.2",
     "description": "Interactive process viewer for Linux",
     "homepage": "https://htop.dev/",
     "depends": [
       "libandroid-support",
       "ncurses"
     ],
-    "srcurl": "https://github.com/htop-dev/htop/archive/refs/tags/3.5.1/htop-3.5.1.tar.gz",
+    "srcurl": "https://github.com/htop-dev/htop/archive/refs/tags/3.5.2/htop-3.5.2.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/e6ba369f3a/packages/htop",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/e6ba369f3a/packages/htop/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/e6ba369f3a/packages/htop/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/228548a09b/packages/htop",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/228548a09b/packages/htop/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/228548a09b/packages/htop/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/e6ba369f3a/packages/htop/access-procstat-file.patch",
-      "https://github.com/zrsx/termux-ng/blob/e6ba369f3a/packages/htop/proc-stat.patch"
+      "https://github.com/zrsx/termux-ng/blob/228548a09b/packages/htop/access-procstat-file.patch",
+      "https://github.com/zrsx/termux-ng/blob/228548a09b/packages/htop/proc-stat.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/e6ba369f3a/packages/htop/access-procstat-file.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/e6ba369f3a/packages/htop/proc-stat.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/228548a09b/packages/htop/access-procstat-file.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/228548a09b/packages/htop/proc-stat.patch"
     ],
     "auto_updated": true
   },
