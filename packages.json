@@ -33361,18 +33361,18 @@
   },
   {
     "name": "proot",
-    "version": "5.1.107.84",
+    "version": "5.1.107.85",
     "description": "Emulate chroot, bind mount and binfmt_misc for non-root users",
     "homepage": "https://proot-me.github.io/",
     "depends": [
       "libandroid-shmem",
       "libtalloc"
     ],
-    "srcurl": "https://github.com/termux/proot/archive/v5.1.107.84.zip",
+    "srcurl": "https://github.com/termux/proot/archive/v5.1.107.85.zip",
     "maintainer": "Michal Bednarski @michalbednarski",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/b31292033e/packages/proot",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/b31292033e/packages/proot/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/b31292033e/packages/proot/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/533bd06a66/packages/proot",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/533bd06a66/packages/proot/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/533bd06a66/packages/proot/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
