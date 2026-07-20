@@ -9768,15 +9768,15 @@
   },
   {
     "name": "geckodriver",
-    "version": "0.37.0",
+    "version": "0.37.1",
     "description": "Proxy for using W3C WebDriver-compatible clients to interact with Gecko-based browsers",
     "homepage": "https://github.com/mozilla/geckodriver",
     "depends": [],
-    "srcurl": "https://github.com/mozilla/geckodriver/archive/refs/tags/v0.37.0.tar.gz",
+    "srcurl": "https://github.com/mozilla/geckodriver/archive/refs/tags/v0.37.1.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/e82b8babe4/packages/geckodriver",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/e82b8babe4/packages/geckodriver/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/e82b8babe4/packages/geckodriver/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/bb3318e5c7/packages/geckodriver",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/bb3318e5c7/packages/geckodriver/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/bb3318e5c7/packages/geckodriver/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -14360,15 +14360,15 @@
   },
   {
     "name": "jq-lsp",
-    "version": "0.1.17",
+    "version": "0.1.18",
     "description": "jq language server",
     "homepage": "https://github.com/wader/jq-lsp",
     "depends": [],
-    "srcurl": "https://github.com/wader/jq-lsp/archive/refs/tags/v0.1.17.tar.gz",
+    "srcurl": "https://github.com/wader/jq-lsp/archive/refs/tags/v0.1.18.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/698b20cdac/packages/jq-lsp",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/698b20cdac/packages/jq-lsp/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/698b20cdac/packages/jq-lsp/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/dbfb5b0bf5/packages/jq-lsp",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/dbfb5b0bf5/packages/jq-lsp/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/dbfb5b0bf5/packages/jq-lsp/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -21760,23 +21760,23 @@
   },
   {
     "name": "libsrt",
-    "version": "1.5.5",
+    "version": "1.5.6a",
     "description": "Secure Reliable Transport (SRT) Protocol",
     "homepage": "https://github.com/Haivision/srt",
     "depends": [
       "libc++",
       "openssl"
     ],
-    "srcurl": "https://github.com/Haivision/srt/archive/refs/tags/v1.5.5.tar.gz",
+    "srcurl": "https://github.com/Haivision/srt/archive/refs/tags/v1.5.6a.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/8acff31997/packages/libsrt",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/8acff31997/packages/libsrt/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/8acff31997/packages/libsrt/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/b7a656033a/packages/libsrt",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/b7a656033a/packages/libsrt/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/b7a656033a/packages/libsrt/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/8acff31997/packages/libsrt/scripts-srt.pc.in.patch"
+      "https://github.com/zrsx/termux-ng/blob/b7a656033a/packages/libsrt/scripts-srt.pc.in.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/8acff31997/packages/libsrt/scripts-srt.pc.in.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/b7a656033a/packages/libsrt/scripts-srt.pc.in.patch"
     ],
     "auto_updated": true
   },
@@ -24922,26 +24922,26 @@
   },
   {
     "name": "luajit",
-    "version": "1:2.1.1784360928+g14d8a7a",
+    "version": "1:2.1.1784535789+g5f627e4",
     "description": "Just-In-Time Compiler for Lua",
     "homepage": "https://luajit.org/",
     "depends": [],
     "srcurl": "git+https://github.com/LuaJIT/LuaJIT.git",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/790e3a0dd7/packages/luajit",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/790e3a0dd7/packages/luajit/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/790e3a0dd7/packages/luajit/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/54463eb3a3/packages/luajit",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/54463eb3a3/packages/luajit/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/54463eb3a3/packages/luajit/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/790e3a0dd7/packages/luajit/Makefile.patch",
-      "https://github.com/zrsx/termux-ng/blob/790e3a0dd7/packages/luajit/etc-luajit.pc.patch",
-      "https://github.com/zrsx/termux-ng/blob/790e3a0dd7/packages/luajit/src-Makefile.patch",
-      "https://github.com/zrsx/termux-ng/blob/790e3a0dd7/packages/luajit/tmpdir-fix.patch"
+      "https://github.com/zrsx/termux-ng/blob/54463eb3a3/packages/luajit/Makefile.patch",
+      "https://github.com/zrsx/termux-ng/blob/54463eb3a3/packages/luajit/etc-luajit.pc.patch",
+      "https://github.com/zrsx/termux-ng/blob/54463eb3a3/packages/luajit/src-Makefile.patch",
+      "https://github.com/zrsx/termux-ng/blob/54463eb3a3/packages/luajit/tmpdir-fix.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/790e3a0dd7/packages/luajit/Makefile.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/790e3a0dd7/packages/luajit/etc-luajit.pc.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/790e3a0dd7/packages/luajit/src-Makefile.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/790e3a0dd7/packages/luajit/tmpdir-fix.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/54463eb3a3/packages/luajit/Makefile.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/54463eb3a3/packages/luajit/etc-luajit.pc.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/54463eb3a3/packages/luajit/src-Makefile.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/54463eb3a3/packages/luajit/tmpdir-fix.patch"
     ],
     "auto_updated": true
   },
@@ -35209,15 +35209,15 @@
   },
   {
     "name": "railway-cli",
-    "version": "5.27.0",
+    "version": "5.27.1",
     "description": "This is the command line interface for Railway",
     "homepage": "https://railway.app",
     "depends": [],
-    "srcurl": "https://github.com/railwayapp/cli/archive/refs/tags/v5.27.0.tar.gz",
+    "srcurl": "https://github.com/railwayapp/cli/archive/refs/tags/v5.27.1.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/62625ff460/packages/railway-cli",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/62625ff460/packages/railway-cli/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/62625ff460/packages/railway-cli/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/c0ca7b18f4/packages/railway-cli",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/c0ca7b18f4/packages/railway-cli/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/c0ca7b18f4/packages/railway-cli/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
