@@ -4089,15 +4089,15 @@
   },
   {
     "name": "chezmoi",
-    "version": "2.71.0",
+    "version": "2.71.1",
     "description": "Manage your dotfiles across multiple machines",
     "homepage": "https://chezmoi.io",
     "depends": [],
-    "srcurl": "https://github.com/twpayne/chezmoi/archive/refs/tags/v2.71.0.tar.gz",
+    "srcurl": "https://github.com/twpayne/chezmoi/archive/refs/tags/v2.71.1.tar.gz",
     "maintainer": "Henrik Grimler @Grimler91",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/dd271eb1a1/packages/chezmoi",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/dd271eb1a1/packages/chezmoi/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/dd271eb1a1/packages/chezmoi/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/2aa9c8c814/packages/chezmoi",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/2aa9c8c814/packages/chezmoi/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/2aa9c8c814/packages/chezmoi/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -6509,15 +6509,15 @@
   },
   {
     "name": "dnscontrol",
-    "version": "4.43.2",
+    "version": "4.43.3",
     "description": "Infrastructure as code for DNS!",
     "homepage": "https://github.com/StackExchange/dnscontrol",
     "depends": [],
-    "srcurl": "https://github.com/StackExchange/dnscontrol/archive/refs/tags/v4.43.2.tar.gz",
+    "srcurl": "https://github.com/StackExchange/dnscontrol/archive/refs/tags/v4.43.3.tar.gz",
     "maintainer": "Izumi Sena Sora <info@unordinary.eu.org>",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/510d32e979/packages/dnscontrol",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/510d32e979/packages/dnscontrol/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/510d32e979/packages/dnscontrol/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/64662b63b7/packages/dnscontrol",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/64662b63b7/packages/dnscontrol/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/64662b63b7/packages/dnscontrol/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -11143,25 +11143,25 @@
   },
   {
     "name": "goaccess",
-    "version": "1.10.2",
+    "version": "1.11",
     "description": "An open source real-time web log analyzer and interactive viewer",
     "homepage": "https://goaccess.io",
     "depends": [
       "ncurses",
       "openssl"
     ],
-    "srcurl": "https://tar.goaccess.io/goaccess-1.10.2.tar.gz",
+    "srcurl": "https://tar.goaccess.io/goaccess-1.11.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/ee38de27a6/packages/goaccess",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/ee38de27a6/packages/goaccess/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/ee38de27a6/packages/goaccess/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/49e8f0fa54/packages/goaccess",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/49e8f0fa54/packages/goaccess/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/49e8f0fa54/packages/goaccess/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/ee38de27a6/packages/goaccess/Makefile.in.patch",
-      "https://github.com/zrsx/termux-ng/blob/ee38de27a6/packages/goaccess/fix-paths.patch"
+      "https://github.com/zrsx/termux-ng/blob/49e8f0fa54/packages/goaccess/Makefile.in.patch",
+      "https://github.com/zrsx/termux-ng/blob/49e8f0fa54/packages/goaccess/fix-paths.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/ee38de27a6/packages/goaccess/Makefile.in.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/ee38de27a6/packages/goaccess/fix-paths.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/49e8f0fa54/packages/goaccess/Makefile.in.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/49e8f0fa54/packages/goaccess/fix-paths.patch"
     ],
     "auto_updated": true
   },
@@ -24292,7 +24292,7 @@
   },
   {
     "name": "llama-cpp",
-    "version": "b10069",
+    "version": "b10075",
     "description": "LLM inference in C/C++",
     "homepage": "https://github.com/ggml-org/llama.cpp",
     "depends": [
@@ -24300,18 +24300,18 @@
       "libc++",
       "libcurl"
     ],
-    "srcurl": "https://github.com/ggml-org/llama.cpp/archive/refs/tags/b10069.tar.gz",
+    "srcurl": "https://github.com/ggml-org/llama.cpp/archive/refs/tags/b10075.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/1e5e34f778/packages/llama-cpp",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/1e5e34f778/packages/llama-cpp/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/1e5e34f778/packages/llama-cpp/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/3023cf7451/packages/llama-cpp",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/3023cf7451/packages/llama-cpp/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/3023cf7451/packages/llama-cpp/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/1e5e34f778/packages/llama-cpp/0001-search-dirs.patch",
-      "https://github.com/zrsx/termux-ng/blob/1e5e34f778/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
+      "https://github.com/zrsx/termux-ng/blob/3023cf7451/packages/llama-cpp/0001-search-dirs.patch",
+      "https://github.com/zrsx/termux-ng/blob/3023cf7451/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/1e5e34f778/packages/llama-cpp/0001-search-dirs.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/1e5e34f778/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/3023cf7451/packages/llama-cpp/0001-search-dirs.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/3023cf7451/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
     ],
     "auto_updated": true
   },
@@ -31250,7 +31250,7 @@
   },
   {
     "name": "osslsigncode",
-    "version": "2.13",
+    "version": "2.14",
     "description": "OpenSSL based Authenticode signing for PE/MSI/Java CAB files",
     "homepage": "https://github.com/mtrojnar/osslsigncode",
     "depends": [
@@ -31258,11 +31258,11 @@
       "openssl",
       "zlib"
     ],
-    "srcurl": "https://github.com/mtrojnar/osslsigncode/archive/refs/tags/2.13.tar.gz",
+    "srcurl": "https://github.com/mtrojnar/osslsigncode/archive/refs/tags/2.14.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/ee1a05710f/packages/osslsigncode",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/ee1a05710f/packages/osslsigncode/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/ee1a05710f/packages/osslsigncode/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/91418b5287/packages/osslsigncode",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/91418b5287/packages/osslsigncode/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/91418b5287/packages/osslsigncode/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -42969,17 +42969,17 @@
   },
   {
     "name": "uv",
-    "version": "0.11.29",
+    "version": "0.11.30",
     "description": "An extremely fast Python package installer and resolver, written in Rust.",
     "homepage": "https://docs.astral.sh/uv/",
     "depends": [
       "zstd"
     ],
-    "srcurl": "https://github.com/astral-sh/uv/archive/refs/tags/0.11.29.tar.gz",
+    "srcurl": "https://github.com/astral-sh/uv/archive/refs/tags/0.11.30.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/0f48f48b42/packages/uv",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/0f48f48b42/packages/uv/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/0f48f48b42/packages/uv/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/a265010f30/packages/uv",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/a265010f30/packages/uv/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/a265010f30/packages/uv/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
