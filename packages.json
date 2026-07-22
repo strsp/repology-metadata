@@ -5198,15 +5198,15 @@
   },
   {
     "name": "croc",
-    "version": "1:10.4.14",
+    "version": "1:10.5.0",
     "description": "Easily and securely send things from one computer to another",
     "homepage": "https://github.com/schollz/croc",
     "depends": [],
-    "srcurl": "https://github.com/schollz/croc/archive/refs/tags/v10.4.14.tar.gz",
+    "srcurl": "https://github.com/schollz/croc/archive/refs/tags/v10.5.0.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/772f5e1857/packages/croc",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/772f5e1857/packages/croc/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/772f5e1857/packages/croc/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/c6a27a3ecd/packages/croc",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/c6a27a3ecd/packages/croc/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/c6a27a3ecd/packages/croc/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -8880,15 +8880,15 @@
   },
   {
     "name": "flyctl",
-    "version": "0.4.72",
+    "version": "0.4.73",
     "description": "Command line tools for fly.io services",
     "homepage": "https://fly.io",
     "depends": [],
-    "srcurl": "https://github.com/superfly/flyctl/archive/refs/tags/v0.4.72.tar.gz",
+    "srcurl": "https://github.com/superfly/flyctl/archive/refs/tags/v0.4.73.tar.gz",
     "maintainer": "Yaksh Bariya <thunder-coding@termux.dev>",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/da737a867f/packages/flyctl",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/da737a867f/packages/flyctl/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/da737a867f/packages/flyctl/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/7500fb0ffa/packages/flyctl",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/7500fb0ffa/packages/flyctl/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/7500fb0ffa/packages/flyctl/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -14622,20 +14622,20 @@
   },
   {
     "name": "kakoune-lsp",
-    "version": "21.0.1",
+    "version": "21.0.2",
     "description": "Language Server Protocol Client for the Kakoune editor",
     "homepage": "https://github.com/kakoune-lsp/kakoune-lsp",
     "depends": [],
-    "srcurl": "https://github.com/kakoune-lsp/kakoune-lsp/archive/refs/tags/v21.0.1.tar.gz",
+    "srcurl": "https://github.com/kakoune-lsp/kakoune-lsp/archive/refs/tags/v21.0.2.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/103d07f353/packages/kakoune-lsp",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/103d07f353/packages/kakoune-lsp/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/103d07f353/packages/kakoune-lsp/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/3e09906210/packages/kakoune-lsp",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/3e09906210/packages/kakoune-lsp/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/3e09906210/packages/kakoune-lsp/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/103d07f353/packages/kakoune-lsp/src-text_edit.rs.patch"
+      "https://github.com/zrsx/termux-ng/blob/3e09906210/packages/kakoune-lsp/src-text_edit.rs.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/103d07f353/packages/kakoune-lsp/src-text_edit.rs.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/3e09906210/packages/kakoune-lsp/src-text_edit.rs.patch"
     ],
     "auto_updated": true
   },
@@ -15110,15 +15110,15 @@
   },
   {
     "name": "lego",
-    "version": "5.3.0",
+    "version": "5.3.1",
     "description": "Let's Encrypt/ACME client and library written in Go",
     "homepage": "https://github.com/go-acme/lego",
     "depends": [],
-    "srcurl": "https://github.com/go-acme/lego/archive/refs/tags/v5.3.0.tar.gz",
+    "srcurl": "https://github.com/go-acme/lego/archive/refs/tags/v5.3.1.tar.gz",
     "maintainer": "Izumi Sena Sora <info@unordinary.eu.org>",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/08736f5564/packages/lego",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/08736f5564/packages/lego/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/08736f5564/packages/lego/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/8412a6b44a/packages/lego",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/8412a6b44a/packages/lego/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/8412a6b44a/packages/lego/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -20180,17 +20180,17 @@
   },
   {
     "name": "libp11",
-    "version": "0.4.18",
+    "version": "0.4.19",
     "description": "PKCS#11 wrapper library",
     "homepage": "https://github.com/OpenSC/libp11",
     "depends": [
       "openssl"
     ],
-    "srcurl": "https://github.com/OpenSC/libp11/releases/download/libp11-0.4.18/libp11-0.4.18.tar.gz",
+    "srcurl": "https://github.com/OpenSC/libp11/releases/download/libp11-0.4.19/libp11-0.4.19.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/ecedefe3ef/packages/libp11",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/ecedefe3ef/packages/libp11/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/ecedefe3ef/packages/libp11/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/e40fb0221b/packages/libp11",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/e40fb0221b/packages/libp11/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/e40fb0221b/packages/libp11/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -24292,7 +24292,7 @@
   },
   {
     "name": "llama-cpp",
-    "version": "b10076",
+    "version": "b10079",
     "description": "LLM inference in C/C++",
     "homepage": "https://github.com/ggml-org/llama.cpp",
     "depends": [
@@ -24300,18 +24300,18 @@
       "libc++",
       "libcurl"
     ],
-    "srcurl": "https://github.com/ggml-org/llama.cpp/archive/refs/tags/b10076.tar.gz",
+    "srcurl": "https://github.com/ggml-org/llama.cpp/archive/refs/tags/b10079.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/d717c7c85d/packages/llama-cpp",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/d717c7c85d/packages/llama-cpp/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/d717c7c85d/packages/llama-cpp/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/0d8d42ba55/packages/llama-cpp",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/0d8d42ba55/packages/llama-cpp/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/0d8d42ba55/packages/llama-cpp/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/d717c7c85d/packages/llama-cpp/0001-search-dirs.patch",
-      "https://github.com/zrsx/termux-ng/blob/d717c7c85d/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
+      "https://github.com/zrsx/termux-ng/blob/0d8d42ba55/packages/llama-cpp/0001-search-dirs.patch",
+      "https://github.com/zrsx/termux-ng/blob/0d8d42ba55/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/d717c7c85d/packages/llama-cpp/0001-search-dirs.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/d717c7c85d/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/0d8d42ba55/packages/llama-cpp/0001-search-dirs.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/0d8d42ba55/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
     ],
     "auto_updated": true
   },
@@ -31308,15 +31308,15 @@
   },
   {
     "name": "oxlint",
-    "version": "1.74.0",
+    "version": "1.75.0",
     "description": "Oxc JavaScript linter",
     "homepage": "https://oxc.rs/",
     "depends": [],
-    "srcurl": "https://github.com/oxc-project/oxc/archive/refs/tags/oxlint_v1.74.0.tar.gz",
+    "srcurl": "https://github.com/oxc-project/oxc/archive/refs/tags/oxlint_v1.75.0.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/aab4bd0bb3/packages/oxlint",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/aab4bd0bb3/packages/oxlint/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/aab4bd0bb3/packages/oxlint/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/b09e4d1da3/packages/oxlint",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/b09e4d1da3/packages/oxlint/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/b09e4d1da3/packages/oxlint/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
