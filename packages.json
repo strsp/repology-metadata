@@ -13998,7 +13998,7 @@
   },
   {
     "name": "jackett",
-    "version": "0.24.2251",
+    "version": "0.24.2254",
     "description": "API Support for your favorite torrent trackers",
     "homepage": "https://github.com/jackett/jackett",
     "depends": [
@@ -14006,11 +14006,11 @@
       "dotnet-host",
       "dotnet-runtime-9.0"
     ],
-    "srcurl": "https://github.com/Jackett/Jackett/archive/refs/tags/v0.24.2251.tar.gz",
+    "srcurl": "https://github.com/Jackett/Jackett/archive/refs/tags/v0.24.2254.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/dbc2493aa4/packages/jackett",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/dbc2493aa4/packages/jackett/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/dbc2493aa4/packages/jackett/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/62612fe701/packages/jackett",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/62612fe701/packages/jackett/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/62612fe701/packages/jackett/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -17849,7 +17849,7 @@
   },
   {
     "name": "libgrpc",
-    "version": "1.82.1",
+    "version": "1.83.0",
     "description": "High performance, open source, general RPC framework that puts mobile and HTTP/2 first",
     "homepage": "https://grpc.io/",
     "depends": [
@@ -17865,20 +17865,20 @@
     ],
     "srcurl": "git+https://github.com/grpc/grpc",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/e1accc73b5/packages/libgrpc",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/e1accc73b5/packages/libgrpc/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/e1accc73b5/packages/libgrpc/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/dac80b82ee/packages/libgrpc",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/dac80b82ee/packages/libgrpc/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/dac80b82ee/packages/libgrpc/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/e1accc73b5/packages/libgrpc/CMakeLists.txt.patch",
-      "https://github.com/zrsx/termux-ng/blob/e1accc73b5/packages/libgrpc/src-core-credentials-transport-tls-load_system_roots_supported.cc.patch",
-      "https://github.com/zrsx/termux-ng/blob/e1accc73b5/packages/libgrpc/src-core-credentials-transport-tls-ssl_utils.cc.patch",
-      "https://github.com/zrsx/termux-ng/blob/e1accc73b5/packages/libgrpc/src-core-lib-gpr-tmpfile_posix.cc.patch"
+      "https://github.com/zrsx/termux-ng/blob/dac80b82ee/packages/libgrpc/CMakeLists.txt.patch",
+      "https://github.com/zrsx/termux-ng/blob/dac80b82ee/packages/libgrpc/src-core-credentials-transport-tls-load_system_roots_supported.cc.patch",
+      "https://github.com/zrsx/termux-ng/blob/dac80b82ee/packages/libgrpc/src-core-credentials-transport-tls-ssl_utils.cc.patch",
+      "https://github.com/zrsx/termux-ng/blob/dac80b82ee/packages/libgrpc/src-core-lib-gpr-tmpfile_posix.cc.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/e1accc73b5/packages/libgrpc/CMakeLists.txt.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/e1accc73b5/packages/libgrpc/src-core-credentials-transport-tls-load_system_roots_supported.cc.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/e1accc73b5/packages/libgrpc/src-core-credentials-transport-tls-ssl_utils.cc.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/e1accc73b5/packages/libgrpc/src-core-lib-gpr-tmpfile_posix.cc.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/dac80b82ee/packages/libgrpc/CMakeLists.txt.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/dac80b82ee/packages/libgrpc/src-core-credentials-transport-tls-load_system_roots_supported.cc.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/dac80b82ee/packages/libgrpc/src-core-credentials-transport-tls-ssl_utils.cc.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/dac80b82ee/packages/libgrpc/src-core-lib-gpr-tmpfile_posix.cc.patch"
     ],
     "auto_updated": true
   },
@@ -24292,7 +24292,7 @@
   },
   {
     "name": "llama-cpp",
-    "version": "b10079",
+    "version": "b10084",
     "description": "LLM inference in C/C++",
     "homepage": "https://github.com/ggml-org/llama.cpp",
     "depends": [
@@ -24300,18 +24300,18 @@
       "libc++",
       "libcurl"
     ],
-    "srcurl": "https://github.com/ggml-org/llama.cpp/archive/refs/tags/b10079.tar.gz",
+    "srcurl": "https://github.com/ggml-org/llama.cpp/archive/refs/tags/b10084.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/0d8d42ba55/packages/llama-cpp",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/0d8d42ba55/packages/llama-cpp/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/0d8d42ba55/packages/llama-cpp/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/72021554e7/packages/llama-cpp",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/72021554e7/packages/llama-cpp/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/72021554e7/packages/llama-cpp/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/0d8d42ba55/packages/llama-cpp/0001-search-dirs.patch",
-      "https://github.com/zrsx/termux-ng/blob/0d8d42ba55/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
+      "https://github.com/zrsx/termux-ng/blob/72021554e7/packages/llama-cpp/0001-search-dirs.patch",
+      "https://github.com/zrsx/termux-ng/blob/72021554e7/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/0d8d42ba55/packages/llama-cpp/0001-search-dirs.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/0d8d42ba55/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/72021554e7/packages/llama-cpp/0001-search-dirs.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/72021554e7/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
     ],
     "auto_updated": true
   },
