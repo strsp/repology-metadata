@@ -8880,15 +8880,15 @@
   },
   {
     "name": "flyctl",
-    "version": "0.4.73",
+    "version": "0.4.74",
     "description": "Command line tools for fly.io services",
     "homepage": "https://fly.io",
     "depends": [],
-    "srcurl": "https://github.com/superfly/flyctl/archive/refs/tags/v0.4.73.tar.gz",
+    "srcurl": "https://github.com/superfly/flyctl/archive/refs/tags/v0.4.74.tar.gz",
     "maintainer": "Yaksh Bariya <thunder-coding@termux.dev>",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/7500fb0ffa/packages/flyctl",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/7500fb0ffa/packages/flyctl/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/7500fb0ffa/packages/flyctl/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/00232b9c8f/packages/flyctl",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/00232b9c8f/packages/flyctl/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/00232b9c8f/packages/flyctl/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -9987,17 +9987,17 @@
   },
   {
     "name": "gflags",
-    "version": "2.3.0",
+    "version": "2.3.1",
     "description": "A C++ library that implements commandline flags processing",
     "homepage": "https://github.com/gflags/gflags",
     "depends": [
       "libc++"
     ],
-    "srcurl": "https://github.com/gflags/gflags/archive/refs/tags/v2.3.0.tar.gz",
+    "srcurl": "https://github.com/gflags/gflags/archive/refs/tags/v2.3.1.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/a0adffe7b5/packages/gflags",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/a0adffe7b5/packages/gflags/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/a0adffe7b5/packages/gflags/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/c10b1d9c48/packages/gflags",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/c10b1d9c48/packages/gflags/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/c10b1d9c48/packages/gflags/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -16272,18 +16272,18 @@
   },
   {
     "name": "libcec",
-    "version": "7.1.1",
+    "version": "8.0.0",
     "description": "Provides support for Pulse-Eight's USB-CEC adapter and other CEC capable hardware",
     "homepage": "https://libcec.pulse-eight.com/",
     "depends": [
       "libc++",
       "libp8-platform"
     ],
-    "srcurl": "https://github.com/Pulse-Eight/libcec/archive/refs/tags/libcec-7.1.1.tar.gz",
+    "srcurl": "https://github.com/Pulse-Eight/libcec/archive/refs/tags/libcec-8.0.0.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/91fad586ce/packages/libcec",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/91fad586ce/packages/libcec/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/91fad586ce/packages/libcec/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/557497a8db/packages/libcec",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/557497a8db/packages/libcec/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/557497a8db/packages/libcec/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -24292,7 +24292,7 @@
   },
   {
     "name": "llama-cpp",
-    "version": "b10087",
+    "version": "b10089",
     "description": "LLM inference in C/C++",
     "homepage": "https://github.com/ggml-org/llama.cpp",
     "depends": [
@@ -24300,18 +24300,18 @@
       "libc++",
       "libcurl"
     ],
-    "srcurl": "https://github.com/ggml-org/llama.cpp/archive/refs/tags/b10087.tar.gz",
+    "srcurl": "https://github.com/ggml-org/llama.cpp/archive/refs/tags/b10089.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/421f8fccce/packages/llama-cpp",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/421f8fccce/packages/llama-cpp/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/421f8fccce/packages/llama-cpp/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/1e635fef14/packages/llama-cpp",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/1e635fef14/packages/llama-cpp/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/1e635fef14/packages/llama-cpp/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/421f8fccce/packages/llama-cpp/0001-search-dirs.patch",
-      "https://github.com/zrsx/termux-ng/blob/421f8fccce/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
+      "https://github.com/zrsx/termux-ng/blob/1e635fef14/packages/llama-cpp/0001-search-dirs.patch",
+      "https://github.com/zrsx/termux-ng/blob/1e635fef14/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/421f8fccce/packages/llama-cpp/0001-search-dirs.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/421f8fccce/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/1e635fef14/packages/llama-cpp/0001-search-dirs.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/1e635fef14/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
     ],
     "auto_updated": true
   },
@@ -29888,20 +29888,20 @@
   },
   {
     "name": "oh-my-posh",
-    "version": "29.34.0",
+    "version": "29.35.0",
     "description": "A prompt theme engine for any shell.",
     "homepage": "https://ohmyposh.dev",
     "depends": [],
-    "srcurl": "https://github.com/JanDeDobbeleer/oh-my-posh/archive/refs/tags/v29.34.0.tar.gz",
+    "srcurl": "https://github.com/JanDeDobbeleer/oh-my-posh/archive/refs/tags/v29.35.0.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/161371158c/packages/oh-my-posh",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/161371158c/packages/oh-my-posh/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/161371158c/packages/oh-my-posh/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/b59712efc5/packages/oh-my-posh",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/b59712efc5/packages/oh-my-posh/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/b59712efc5/packages/oh-my-posh/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/161371158c/packages/oh-my-posh/issue-26712.patch"
+      "https://github.com/zrsx/termux-ng/blob/b59712efc5/packages/oh-my-posh/issue-26712.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/161371158c/packages/oh-my-posh/issue-26712.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/b59712efc5/packages/oh-my-posh/issue-26712.patch"
     ],
     "auto_updated": true
   },
@@ -32782,17 +32782,17 @@
   },
   {
     "name": "pocketbase",
-    "version": "0.39.8",
+    "version": "0.39.9",
     "description": "An open source Go backend",
     "homepage": "https://github.com/pocketbase/pocketbase",
     "depends": [
       "resolv-conf"
     ],
-    "srcurl": "https://github.com/pocketbase/pocketbase/archive/refs/tags/v0.39.8.tar.gz",
+    "srcurl": "https://github.com/pocketbase/pocketbase/archive/refs/tags/v0.39.9.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/9c40ec6aa1/packages/pocketbase",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/9c40ec6aa1/packages/pocketbase/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/9c40ec6aa1/packages/pocketbase/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/057f011380/packages/pocketbase",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/057f011380/packages/pocketbase/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/057f011380/packages/pocketbase/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
