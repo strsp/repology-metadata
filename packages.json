@@ -16861,7 +16861,7 @@
   },
   {
     "name": "libduckdb",
-    "version": "1.5.4",
+    "version": "1.5.5",
     "description": "An in-process SQL OLAP database management system",
     "homepage": "https://duckdb.org/",
     "depends": [
@@ -16870,14 +16870,14 @@
     ],
     "srcurl": "git+https://github.com/duckdb/duckdb",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/4bc0329b47/packages/libduckdb",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/4bc0329b47/packages/libduckdb/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/4bc0329b47/packages/libduckdb/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/ce3ac7257e/packages/libduckdb",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/ce3ac7257e/packages/libduckdb/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/ce3ac7257e/packages/libduckdb/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/4bc0329b47/packages/libduckdb/tools-shell-shell.c.patch"
+      "https://github.com/zrsx/termux-ng/blob/ce3ac7257e/packages/libduckdb/tools-shell-shell.c.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/4bc0329b47/packages/libduckdb/tools-shell-shell.c.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/ce3ac7257e/packages/libduckdb/tools-shell-shell.c.patch"
     ],
     "auto_updated": true
   },
@@ -24292,7 +24292,7 @@
   },
   {
     "name": "llama-cpp",
-    "version": "b10084",
+    "version": "b10087",
     "description": "LLM inference in C/C++",
     "homepage": "https://github.com/ggml-org/llama.cpp",
     "depends": [
@@ -24300,18 +24300,18 @@
       "libc++",
       "libcurl"
     ],
-    "srcurl": "https://github.com/ggml-org/llama.cpp/archive/refs/tags/b10084.tar.gz",
+    "srcurl": "https://github.com/ggml-org/llama.cpp/archive/refs/tags/b10087.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/72021554e7/packages/llama-cpp",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/72021554e7/packages/llama-cpp/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/72021554e7/packages/llama-cpp/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/421f8fccce/packages/llama-cpp",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/421f8fccce/packages/llama-cpp/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/421f8fccce/packages/llama-cpp/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/72021554e7/packages/llama-cpp/0001-search-dirs.patch",
-      "https://github.com/zrsx/termux-ng/blob/72021554e7/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
+      "https://github.com/zrsx/termux-ng/blob/421f8fccce/packages/llama-cpp/0001-search-dirs.patch",
+      "https://github.com/zrsx/termux-ng/blob/421f8fccce/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/72021554e7/packages/llama-cpp/0001-search-dirs.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/72021554e7/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/421f8fccce/packages/llama-cpp/0001-search-dirs.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/421f8fccce/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
     ],
     "auto_updated": true
   },
