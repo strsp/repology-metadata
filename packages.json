@@ -6509,15 +6509,15 @@
   },
   {
     "name": "dnscontrol",
-    "version": "4.43.3",
+    "version": "4.44.1",
     "description": "Infrastructure as code for DNS!",
     "homepage": "https://github.com/StackExchange/dnscontrol",
     "depends": [],
-    "srcurl": "https://github.com/StackExchange/dnscontrol/archive/refs/tags/v4.43.3.tar.gz",
+    "srcurl": "https://github.com/StackExchange/dnscontrol/archive/refs/tags/v4.44.1.tar.gz",
     "maintainer": "Izumi Sena Sora <info@unordinary.eu.org>",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/64662b63b7/packages/dnscontrol",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/64662b63b7/packages/dnscontrol/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/64662b63b7/packages/dnscontrol/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/40afca6b88/packages/dnscontrol",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/40afca6b88/packages/dnscontrol/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/40afca6b88/packages/dnscontrol/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -9237,20 +9237,20 @@
   },
   {
     "name": "frp",
-    "version": "0.70.0",
+    "version": "0.70.1",
     "description": "A fast reverse proxy to expose a local server behind a NAT or firewall to the internet",
     "homepage": "https://github.com/fatedier/frp",
     "depends": [],
-    "srcurl": "https://github.com/fatedier/frp/archive/refs/tags/v0.70.0.tar.gz",
+    "srcurl": "https://github.com/fatedier/frp/archive/refs/tags/v0.70.1.tar.gz",
     "maintainer": "2096779623 <admin@utermux.dev>",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/7c6c9f5e63/packages/frp",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/7c6c9f5e63/packages/frp/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/7c6c9f5e63/packages/frp/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/63d630ce07/packages/frp",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/63d630ce07/packages/frp/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/63d630ce07/packages/frp/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/7c6c9f5e63/packages/frp/Makefile.patch"
+      "https://github.com/zrsx/termux-ng/blob/63d630ce07/packages/frp/Makefile.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/7c6c9f5e63/packages/frp/Makefile.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/63d630ce07/packages/frp/Makefile.patch"
     ],
     "auto_updated": true
   },
@@ -13998,7 +13998,7 @@
   },
   {
     "name": "jackett",
-    "version": "0.24.2254",
+    "version": "0.24.2257",
     "description": "API Support for your favorite torrent trackers",
     "homepage": "https://github.com/jackett/jackett",
     "depends": [
@@ -14006,11 +14006,11 @@
       "dotnet-host",
       "dotnet-runtime-9.0"
     ],
-    "srcurl": "https://github.com/Jackett/Jackett/archive/refs/tags/v0.24.2254.tar.gz",
+    "srcurl": "https://github.com/Jackett/Jackett/archive/refs/tags/v0.24.2257.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/62612fe701/packages/jackett",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/62612fe701/packages/jackett/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/62612fe701/packages/jackett/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/e8d0de974a/packages/jackett",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/e8d0de974a/packages/jackett/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/e8d0de974a/packages/jackett/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -24292,7 +24292,7 @@
   },
   {
     "name": "llama-cpp",
-    "version": "b10091",
+    "version": "b10092",
     "description": "LLM inference in C/C++",
     "homepage": "https://github.com/ggml-org/llama.cpp",
     "depends": [
@@ -24300,18 +24300,18 @@
       "libc++",
       "libcurl"
     ],
-    "srcurl": "https://github.com/ggml-org/llama.cpp/archive/refs/tags/b10091.tar.gz",
+    "srcurl": "https://github.com/ggml-org/llama.cpp/archive/refs/tags/b10092.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/6694430a92/packages/llama-cpp",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/6694430a92/packages/llama-cpp/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/6694430a92/packages/llama-cpp/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/cb6163e379/packages/llama-cpp",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/cb6163e379/packages/llama-cpp/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/cb6163e379/packages/llama-cpp/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/6694430a92/packages/llama-cpp/0001-search-dirs.patch",
-      "https://github.com/zrsx/termux-ng/blob/6694430a92/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
+      "https://github.com/zrsx/termux-ng/blob/cb6163e379/packages/llama-cpp/0001-search-dirs.patch",
+      "https://github.com/zrsx/termux-ng/blob/cb6163e379/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/6694430a92/packages/llama-cpp/0001-search-dirs.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/6694430a92/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/cb6163e379/packages/llama-cpp/0001-search-dirs.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/cb6163e379/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
     ],
     "auto_updated": true
   },
@@ -26828,7 +26828,7 @@
   },
   {
     "name": "minizinc",
-    "version": "2.9.7",
+    "version": "2.10.0",
     "description": "A medium-level constraint modelling language",
     "homepage": "https://github.com/MiniZinc/libminizinc",
     "depends": [
@@ -26836,11 +26836,11 @@
       "zlib",
       "gecode"
     ],
-    "srcurl": "https://github.com/MiniZinc/libminizinc/archive/refs/tags/2.9.7.tar.gz",
+    "srcurl": "https://github.com/MiniZinc/libminizinc/archive/refs/tags/2.10.0.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/159bca1cca/packages/minizinc",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/159bca1cca/packages/minizinc/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/159bca1cca/packages/minizinc/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/a79b6dccde/packages/minizinc",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/a79b6dccde/packages/minizinc/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/a79b6dccde/packages/minizinc/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -38020,15 +38020,15 @@
   },
   {
     "name": "sops",
-    "version": "3.13.2",
+    "version": "3.13.3",
     "description": "Simple and flexible tool for managing secrets",
     "homepage": "https://github.com/getsops/sops",
     "depends": [],
-    "srcurl": "https://github.com/getsops/sops/archive/refs/tags/v3.13.2.tar.gz",
+    "srcurl": "https://github.com/getsops/sops/archive/refs/tags/v3.13.3.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/5ed01d5233/packages/sops",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/5ed01d5233/packages/sops/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/5ed01d5233/packages/sops/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/c19f86b0f2/packages/sops",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/c19f86b0f2/packages/sops/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/c19f86b0f2/packages/sops/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
