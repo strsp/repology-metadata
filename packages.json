@@ -798,7 +798,7 @@
   },
   {
     "name": "ani-cli",
-    "version": "4.14",
+    "version": "4.15",
     "description": "A cli to browse and watch anime",
     "homepage": "https://github.com/pystardust/ani-cli",
     "depends": [
@@ -809,16 +809,16 @@
       "sed",
       "wget"
     ],
-    "srcurl": "https://github.com/pystardust/ani-cli/archive/refs/tags/v4.14.tar.gz",
+    "srcurl": "https://github.com/pystardust/ani-cli/archive/refs/tags/v4.15.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/efd487235e/packages/ani-cli",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/efd487235e/packages/ani-cli/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/efd487235e/packages/ani-cli/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/ed54330394/packages/ani-cli",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/ed54330394/packages/ani-cli/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/ed54330394/packages/ani-cli/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/efd487235e/packages/ani-cli/ani-cli.patch"
+      "https://github.com/zrsx/termux-ng/blob/ed54330394/packages/ani-cli/ani-cli.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/efd487235e/packages/ani-cli/ani-cli.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/ed54330394/packages/ani-cli/ani-cli.patch"
     ],
     "auto_updated": true
   },
@@ -5198,15 +5198,15 @@
   },
   {
     "name": "croc",
-    "version": "1:10.5.0",
+    "version": "1:10.6.0",
     "description": "Easily and securely send things from one computer to another",
     "homepage": "https://github.com/schollz/croc",
     "depends": [],
-    "srcurl": "https://github.com/schollz/croc/archive/refs/tags/v10.5.0.tar.gz",
+    "srcurl": "https://github.com/schollz/croc/archive/refs/tags/v10.6.0.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/c6a27a3ecd/packages/croc",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/c6a27a3ecd/packages/croc/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/c6a27a3ecd/packages/croc/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/561e2aca28/packages/croc",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/561e2aca28/packages/croc/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/561e2aca28/packages/croc/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -24292,7 +24292,7 @@
   },
   {
     "name": "llama-cpp",
-    "version": "b10092",
+    "version": "b10094",
     "description": "LLM inference in C/C++",
     "homepage": "https://github.com/ggml-org/llama.cpp",
     "depends": [
@@ -24300,18 +24300,18 @@
       "libc++",
       "libcurl"
     ],
-    "srcurl": "https://github.com/ggml-org/llama.cpp/archive/refs/tags/b10092.tar.gz",
+    "srcurl": "https://github.com/ggml-org/llama.cpp/archive/refs/tags/b10094.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/cb6163e379/packages/llama-cpp",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/cb6163e379/packages/llama-cpp/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/cb6163e379/packages/llama-cpp/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/ad082aff9b/packages/llama-cpp",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/ad082aff9b/packages/llama-cpp/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/ad082aff9b/packages/llama-cpp/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/cb6163e379/packages/llama-cpp/0001-search-dirs.patch",
-      "https://github.com/zrsx/termux-ng/blob/cb6163e379/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
+      "https://github.com/zrsx/termux-ng/blob/ad082aff9b/packages/llama-cpp/0001-search-dirs.patch",
+      "https://github.com/zrsx/termux-ng/blob/ad082aff9b/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/cb6163e379/packages/llama-cpp/0001-search-dirs.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/cb6163e379/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/ad082aff9b/packages/llama-cpp/0001-search-dirs.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/ad082aff9b/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
     ],
     "auto_updated": true
   },
@@ -29888,20 +29888,20 @@
   },
   {
     "name": "oh-my-posh",
-    "version": "29.35.1",
+    "version": "29.35.2",
     "description": "A prompt theme engine for any shell.",
     "homepage": "https://ohmyposh.dev",
     "depends": [],
-    "srcurl": "https://github.com/JanDeDobbeleer/oh-my-posh/archive/refs/tags/v29.35.1.tar.gz",
+    "srcurl": "https://github.com/JanDeDobbeleer/oh-my-posh/archive/refs/tags/v29.35.2.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/4fce08d3fb/packages/oh-my-posh",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/4fce08d3fb/packages/oh-my-posh/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/4fce08d3fb/packages/oh-my-posh/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/cded113338/packages/oh-my-posh",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/cded113338/packages/oh-my-posh/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/cded113338/packages/oh-my-posh/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/4fce08d3fb/packages/oh-my-posh/issue-26712.patch"
+      "https://github.com/zrsx/termux-ng/blob/cded113338/packages/oh-my-posh/issue-26712.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/4fce08d3fb/packages/oh-my-posh/issue-26712.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/cded113338/packages/oh-my-posh/issue-26712.patch"
     ],
     "auto_updated": true
   },
@@ -35107,17 +35107,17 @@
   },
   {
     "name": "rabbitmq-server",
-    "version": "4.3.3",
+    "version": "4.3.4",
     "description": "Feature rich, multi-protocol messaging and streaming broker",
     "homepage": "https://github.com/rabbitmq/rabbitmq-server",
     "depends": [
       "erlang"
     ],
-    "srcurl": "https://github.com/rabbitmq/rabbitmq-server/releases/download/v4.3.3/rabbitmq-server-generic-unix-4.3.3.tar.xz",
+    "srcurl": "https://github.com/rabbitmq/rabbitmq-server/releases/download/v4.3.4/rabbitmq-server-generic-unix-4.3.4.tar.xz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/812b3be1f1/packages/rabbitmq-server",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/812b3be1f1/packages/rabbitmq-server/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/812b3be1f1/packages/rabbitmq-server/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/e86b359e81/packages/rabbitmq-server",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/e86b359e81/packages/rabbitmq-server/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/e86b359e81/packages/rabbitmq-server/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -43069,15 +43069,15 @@
   },
   {
     "name": "vale",
-    "version": "3.15.1",
+    "version": "3.15.2",
     "description": "A syntax-aware linter for prose built with speed and extensibility in mind",
     "homepage": "https://vale.sh",
     "depends": [],
-    "srcurl": "https://github.com/errata-ai/vale/archive/refs/tags/v3.15.1.tar.gz",
+    "srcurl": "https://github.com/errata-ai/vale/archive/refs/tags/v3.15.2.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/fefdcbafe3/packages/vale",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/fefdcbafe3/packages/vale/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/fefdcbafe3/packages/vale/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/4ca731479b/packages/vale",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/4ca731479b/packages/vale/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/4ca731479b/packages/vale/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
