@@ -10345,15 +10345,15 @@
   },
   {
     "name": "git-town",
-    "version": "23.0.3",
+    "version": "24.0.0",
     "description": "Git branches made easy",
     "homepage": "https://www.git-town.com",
     "depends": [],
-    "srcurl": "https://github.com/git-town/git-town/archive/refs/tags/v23.0.3.tar.gz",
+    "srcurl": "https://github.com/git-town/git-town/archive/refs/tags/v24.0.0.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/9eaf3ec5ab/packages/git-town",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/9eaf3ec5ab/packages/git-town/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/9eaf3ec5ab/packages/git-town/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/7dbe8bfeab/packages/git-town",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/7dbe8bfeab/packages/git-town/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/7dbe8bfeab/packages/git-town/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -29888,20 +29888,20 @@
   },
   {
     "name": "oh-my-posh",
-    "version": "29.35.0",
+    "version": "29.35.1",
     "description": "A prompt theme engine for any shell.",
     "homepage": "https://ohmyposh.dev",
     "depends": [],
-    "srcurl": "https://github.com/JanDeDobbeleer/oh-my-posh/archive/refs/tags/v29.35.0.tar.gz",
+    "srcurl": "https://github.com/JanDeDobbeleer/oh-my-posh/archive/refs/tags/v29.35.1.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/b59712efc5/packages/oh-my-posh",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/b59712efc5/packages/oh-my-posh/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/b59712efc5/packages/oh-my-posh/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/4fce08d3fb/packages/oh-my-posh",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/4fce08d3fb/packages/oh-my-posh/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/4fce08d3fb/packages/oh-my-posh/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/b59712efc5/packages/oh-my-posh/issue-26712.patch"
+      "https://github.com/zrsx/termux-ng/blob/4fce08d3fb/packages/oh-my-posh/issue-26712.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/b59712efc5/packages/oh-my-posh/issue-26712.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/4fce08d3fb/packages/oh-my-posh/issue-26712.patch"
     ],
     "auto_updated": true
   },
@@ -30788,15 +30788,15 @@
   },
   {
     "name": "openlist",
-    "version": "4.2.3",
+    "version": "4.2.4",
     "description": "A file list program that supports multiple storage",
     "homepage": "https://oplist.org/",
     "depends": [],
-    "srcurl": "https://github.com/OpenListTeam/OpenList/archive/refs/tags/v4.2.3.tar.gz",
+    "srcurl": "https://github.com/OpenListTeam/OpenList/archive/refs/tags/v4.2.4.tar.gz",
     "maintainer": "2096779623 <admin@utermux.dev>",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/ecaffdbb92/packages/openlist",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/ecaffdbb92/packages/openlist/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/ecaffdbb92/packages/openlist/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/1b223f50ae/packages/openlist",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/1b223f50ae/packages/openlist/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/1b223f50ae/packages/openlist/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
