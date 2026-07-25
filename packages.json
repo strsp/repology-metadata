@@ -16793,15 +16793,15 @@
   },
   {
     "name": "libdisplay-info",
-    "version": "0.3.0",
+    "version": "0.4.0",
     "description": "EDID and DisplayID library",
     "homepage": "https://emersion.pages.freedesktop.org/libdisplay-info/",
     "depends": [],
-    "srcurl": "https://gitlab.freedesktop.org/emersion/libdisplay-info/-/releases/0.3.0/downloads/libdisplay-info-0.3.0.tar.xz",
+    "srcurl": "https://gitlab.freedesktop.org/emersion/libdisplay-info/-/releases/0.4.0/downloads/libdisplay-info-0.4.0.tar.xz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/3eacfa1e2e/packages/libdisplay-info",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/3eacfa1e2e/packages/libdisplay-info/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/3eacfa1e2e/packages/libdisplay-info/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/02d3f16c4e/packages/libdisplay-info",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/02d3f16c4e/packages/libdisplay-info/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/02d3f16c4e/packages/libdisplay-info/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -18660,18 +18660,18 @@
   },
   {
     "name": "libkokkos",
-    "version": "5.1.1",
+    "version": "5.2.0",
     "description": "Implements a programming model in C++ for writing performance portable applications",
     "homepage": "https://github.com/kokkos",
     "depends": [
       "libandroid-execinfo",
       "libc++"
     ],
-    "srcurl": "https://github.com/kokkos/kokkos/archive/refs/tags/5.1.1.tar.gz",
+    "srcurl": "https://github.com/kokkos/kokkos/archive/refs/tags/5.2.0.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/b324239e8d/packages/libkokkos",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/b324239e8d/packages/libkokkos/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/b324239e8d/packages/libkokkos/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/791b7a2b6e/packages/libkokkos",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/791b7a2b6e/packages/libkokkos/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/791b7a2b6e/packages/libkokkos/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -21737,24 +21737,24 @@
   },
   {
     "name": "libsqlite",
-    "version": "3.53.2",
+    "version": "3.53.4",
     "description": "Library implementing a self-contained and transactional SQL database engine",
     "homepage": "https://www.sqlite.org",
     "depends": [
       "zlib"
     ],
-    "srcurl": "https://www.sqlite.org/2026/sqlite-src-3530200.zip",
+    "srcurl": "https://www.sqlite.org/2026/sqlite-src-3530400.zip",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/15f2e33794/packages/libsqlite",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/15f2e33794/packages/libsqlite/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/15f2e33794/packages/libsqlite/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/16483f7dd4/packages/libsqlite",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/16483f7dd4/packages/libsqlite/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/16483f7dd4/packages/libsqlite/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/15f2e33794/packages/libsqlite/src-os_unix.c.patch",
-      "https://github.com/zrsx/termux-ng/blob/15f2e33794/packages/libsqlite/src-tclsqlite.patch"
+      "https://github.com/zrsx/termux-ng/blob/16483f7dd4/packages/libsqlite/src-os_unix.c.patch",
+      "https://github.com/zrsx/termux-ng/blob/16483f7dd4/packages/libsqlite/src-tclsqlite.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/15f2e33794/packages/libsqlite/src-os_unix.c.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/15f2e33794/packages/libsqlite/src-tclsqlite.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/16483f7dd4/packages/libsqlite/src-os_unix.c.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/16483f7dd4/packages/libsqlite/src-tclsqlite.patch"
     ],
     "auto_updated": true
   },
@@ -26733,20 +26733,20 @@
   },
   {
     "name": "miniflux",
-    "version": "2.3.2",
+    "version": "2.3.3",
     "description": "A minimalist and opinionated feed reader",
     "homepage": "https://miniflux.app/",
     "depends": [],
-    "srcurl": "https://github.com/miniflux/v2/archive/refs/tags/2.3.2.tar.gz",
+    "srcurl": "https://github.com/miniflux/v2/archive/refs/tags/2.3.3.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/8e85e94008/packages/miniflux",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/8e85e94008/packages/miniflux/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/8e85e94008/packages/miniflux/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/0523023adf/packages/miniflux",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/0523023adf/packages/miniflux/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/0523023adf/packages/miniflux/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/8e85e94008/packages/miniflux/Makefile.patch"
+      "https://github.com/zrsx/termux-ng/blob/0523023adf/packages/miniflux/Makefile.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/8e85e94008/packages/miniflux/Makefile.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/0523023adf/packages/miniflux/Makefile.patch"
     ],
     "auto_updated": true
   },
@@ -33361,18 +33361,18 @@
   },
   {
     "name": "proot",
-    "version": "5.1.107.86",
+    "version": "5.1.107.87",
     "description": "Emulate chroot, bind mount and binfmt_misc for non-root users",
     "homepage": "https://proot-me.github.io/",
     "depends": [
       "libandroid-shmem",
       "libtalloc"
     ],
-    "srcurl": "https://github.com/termux/proot/archive/v5.1.107.86.zip",
+    "srcurl": "https://github.com/termux/proot/archive/v5.1.107.87.zip",
     "maintainer": "Michal Bednarski @michalbednarski",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/84c4b7e3c8/packages/proot",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/84c4b7e3c8/packages/proot/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/84c4b7e3c8/packages/proot/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/bca6f785fe/packages/proot",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/bca6f785fe/packages/proot/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/bca6f785fe/packages/proot/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
