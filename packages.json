@@ -493,20 +493,20 @@
   },
   {
     "name": "algernon",
-    "version": "1.17.10",
+    "version": "1.17.11",
     "description": "Small self-contained web server with Lua, Markdown, QUIC, Redis and PostgreSQL support",
     "homepage": "https://algernon.roboticoverlords.org/",
     "depends": [],
-    "srcurl": "https://github.com/xyproto/algernon/archive/refs/tags/v1.17.10.tar.gz",
+    "srcurl": "https://github.com/xyproto/algernon/archive/refs/tags/v1.17.11.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/81e782bed2/packages/algernon",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/81e782bed2/packages/algernon/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/81e782bed2/packages/algernon/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/b2e681b8f8/packages/algernon",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/b2e681b8f8/packages/algernon/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/b2e681b8f8/packages/algernon/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/81e782bed2/packages/algernon/fix-hardcoded-paths.patch"
+      "https://github.com/zrsx/termux-ng/blob/b2e681b8f8/packages/algernon/fix-hardcoded-paths.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/81e782bed2/packages/algernon/fix-hardcoded-paths.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/b2e681b8f8/packages/algernon/fix-hardcoded-paths.patch"
     ],
     "auto_updated": true
   },
@@ -23715,15 +23715,15 @@
   },
   {
     "name": "libxmp",
-    "version": "4.7.1",
+    "version": "4.7.2",
     "description": "Extended Module Player C Library that renders tracker and module music (MOD, S3M, IT, XM etc.)",
     "homepage": "https://github.com/libxmp/libxmp",
     "depends": [],
-    "srcurl": "https://github.com/libxmp/libxmp/releases/download/libxmp-4.7.1/libxmp-4.7.1.tar.gz",
+    "srcurl": "https://github.com/libxmp/libxmp/releases/download/libxmp-4.7.2/libxmp-4.7.2.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/913c3dfa51/packages/libxmp",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/913c3dfa51/packages/libxmp/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/913c3dfa51/packages/libxmp/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/d782f45d76/packages/libxmp",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/d782f45d76/packages/libxmp/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/d782f45d76/packages/libxmp/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -27141,20 +27141,20 @@
   },
   {
     "name": "moor",
-    "version": "2.15.1",
+    "version": "2.15.2",
     "description": "A pager designed to just do the right thing without any configuration",
     "homepage": "https://github.com/walles/moor",
     "depends": [],
-    "srcurl": "https://github.com/walles/moor/archive/refs/tags/v2.15.1.tar.gz",
+    "srcurl": "https://github.com/walles/moor/archive/refs/tags/v2.15.2.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/974e2752b5/packages/moor",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/974e2752b5/packages/moor/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/974e2752b5/packages/moor/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/efe5ac4e6a/packages/moor",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/efe5ac4e6a/packages/moor/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/efe5ac4e6a/packages/moor/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/974e2752b5/packages/moor/default-editor.patch"
+      "https://github.com/zrsx/termux-ng/blob/efe5ac4e6a/packages/moor/default-editor.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/974e2752b5/packages/moor/default-editor.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/efe5ac4e6a/packages/moor/default-editor.patch"
     ],
     "auto_updated": true
   },
