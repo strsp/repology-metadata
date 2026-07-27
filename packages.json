@@ -7817,7 +7817,7 @@
   },
   {
     "name": "erlang",
-    "version": "29.0.3",
+    "version": "29.0.4",
     "description": "General-purpose concurrent functional programming language",
     "homepage": "https://www.erlang.org/",
     "depends": [
@@ -7826,30 +7826,30 @@
       "ncurses",
       "zlib"
     ],
-    "srcurl": "https://github.com/erlang/otp/archive/refs/tags/OTP-29.0.3.tar.gz",
+    "srcurl": "https://github.com/erlang/otp/archive/refs/tags/OTP-29.0.4.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/d892123ce9/packages/erlang",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/d892123ce9/packages/erlang/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/d892123ce9/packages/erlang/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/e0d22eedd0/packages/erlang",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/e0d22eedd0/packages/erlang/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/e0d22eedd0/packages/erlang/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/d892123ce9/packages/erlang/auto-download-ex_doc-noninteractively.patch.beforehostbuild",
-      "https://github.com/zrsx/termux-ng/blob/d892123ce9/packages/erlang/disable-docs-of-disabled-features.patch.beforehostbuild",
-      "https://github.com/zrsx/termux-ng/blob/d892123ce9/packages/erlang/do-not-set-manpath.patch",
-      "https://github.com/zrsx/termux-ng/blob/d892123ce9/packages/erlang/emulator-asmjit-virtmem-shm.patch",
-      "https://github.com/zrsx/termux-ng/blob/d892123ce9/packages/erlang/erts-configure.patch",
-      "https://github.com/zrsx/termux-ng/blob/d892123ce9/packages/erlang/erts-emulator-Makefile.in.patch",
-      "https://github.com/zrsx/termux-ng/blob/d892123ce9/packages/erlang/erts-emulator-nifs-common-socket_util.c.patch",
-      "https://github.com/zrsx/termux-ng/blob/d892123ce9/packages/erlang/lib-public_key-src-pubkey_os_cacerts.erl.patch"
+      "https://github.com/zrsx/termux-ng/blob/e0d22eedd0/packages/erlang/auto-download-ex_doc-noninteractively.patch.beforehostbuild",
+      "https://github.com/zrsx/termux-ng/blob/e0d22eedd0/packages/erlang/disable-docs-of-disabled-features.patch.beforehostbuild",
+      "https://github.com/zrsx/termux-ng/blob/e0d22eedd0/packages/erlang/do-not-set-manpath.patch",
+      "https://github.com/zrsx/termux-ng/blob/e0d22eedd0/packages/erlang/emulator-asmjit-virtmem-shm.patch",
+      "https://github.com/zrsx/termux-ng/blob/e0d22eedd0/packages/erlang/erts-configure.patch",
+      "https://github.com/zrsx/termux-ng/blob/e0d22eedd0/packages/erlang/erts-emulator-Makefile.in.patch",
+      "https://github.com/zrsx/termux-ng/blob/e0d22eedd0/packages/erlang/erts-emulator-nifs-common-socket_util.c.patch",
+      "https://github.com/zrsx/termux-ng/blob/e0d22eedd0/packages/erlang/lib-public_key-src-pubkey_os_cacerts.erl.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/d892123ce9/packages/erlang/auto-download-ex_doc-noninteractively.patch.beforehostbuild",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/d892123ce9/packages/erlang/disable-docs-of-disabled-features.patch.beforehostbuild",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/d892123ce9/packages/erlang/do-not-set-manpath.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/d892123ce9/packages/erlang/emulator-asmjit-virtmem-shm.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/d892123ce9/packages/erlang/erts-configure.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/d892123ce9/packages/erlang/erts-emulator-Makefile.in.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/d892123ce9/packages/erlang/erts-emulator-nifs-common-socket_util.c.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/d892123ce9/packages/erlang/lib-public_key-src-pubkey_os_cacerts.erl.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/e0d22eedd0/packages/erlang/auto-download-ex_doc-noninteractively.patch.beforehostbuild",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/e0d22eedd0/packages/erlang/disable-docs-of-disabled-features.patch.beforehostbuild",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/e0d22eedd0/packages/erlang/do-not-set-manpath.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/e0d22eedd0/packages/erlang/emulator-asmjit-virtmem-shm.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/e0d22eedd0/packages/erlang/erts-configure.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/e0d22eedd0/packages/erlang/erts-emulator-Makefile.in.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/e0d22eedd0/packages/erlang/erts-emulator-nifs-common-socket_util.c.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/e0d22eedd0/packages/erlang/lib-public_key-src-pubkey_os_cacerts.erl.patch"
     ],
     "auto_updated": true
   },
