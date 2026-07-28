@@ -336,17 +336,17 @@
   },
   {
     "name": "ada",
-    "version": "3.4.4",
+    "version": "4.0.0",
     "description": "WHATWG-compliant and fast URL parser written in modern C++",
     "homepage": "https://github.com/ada-url/ada",
     "depends": [
       "libc++"
     ],
-    "srcurl": "https://github.com/ada-url/ada/archive/refs/tags/v3.4.4.tar.gz",
+    "srcurl": "https://github.com/ada-url/ada/archive/refs/tags/v4.0.0.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/45fd258ac0/packages/ada",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/45fd258ac0/packages/ada/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/45fd258ac0/packages/ada/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/34ced3a05a/packages/ada",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/34ced3a05a/packages/ada/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/34ced3a05a/packages/ada/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -24292,7 +24292,7 @@
   },
   {
     "name": "llama-cpp",
-    "version": "b10154",
+    "version": "b10156",
     "description": "LLM inference in C/C++",
     "homepage": "https://github.com/ggml-org/llama.cpp",
     "depends": [
@@ -24300,18 +24300,18 @@
       "libc++",
       "libcurl"
     ],
-    "srcurl": "https://github.com/ggml-org/llama.cpp/archive/refs/tags/b10154.tar.gz",
+    "srcurl": "https://github.com/ggml-org/llama.cpp/archive/refs/tags/b10156.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/7836926e96/packages/llama-cpp",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/7836926e96/packages/llama-cpp/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/7836926e96/packages/llama-cpp/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/2e639915d3/packages/llama-cpp",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/2e639915d3/packages/llama-cpp/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/2e639915d3/packages/llama-cpp/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/7836926e96/packages/llama-cpp/0001-search-dirs.patch",
-      "https://github.com/zrsx/termux-ng/blob/7836926e96/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
+      "https://github.com/zrsx/termux-ng/blob/2e639915d3/packages/llama-cpp/0001-search-dirs.patch",
+      "https://github.com/zrsx/termux-ng/blob/2e639915d3/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/7836926e96/packages/llama-cpp/0001-search-dirs.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/7836926e96/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/2e639915d3/packages/llama-cpp/0001-search-dirs.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/2e639915d3/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
     ],
     "auto_updated": true
   },
@@ -35209,15 +35209,15 @@
   },
   {
     "name": "railway-cli",
-    "version": "5.29.0",
+    "version": "5.30.1",
     "description": "This is the command line interface for Railway",
     "homepage": "https://railway.app",
     "depends": [],
-    "srcurl": "https://github.com/railwayapp/cli/archive/refs/tags/v5.29.0.tar.gz",
+    "srcurl": "https://github.com/railwayapp/cli/archive/refs/tags/v5.30.1.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/e11de7b9d6/packages/railway-cli",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/e11de7b9d6/packages/railway-cli/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/e11de7b9d6/packages/railway-cli/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/a9fc8f3d35/packages/railway-cli",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/a9fc8f3d35/packages/railway-cli/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/a9fc8f3d35/packages/railway-cli/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
