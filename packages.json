@@ -2522,15 +2522,15 @@
   },
   {
     "name": "biome2",
-    "version": "2.5.5",
+    "version": "2.5.6",
     "description": "A toolchain for web projects, aimed to provide functionalities to maintain them. Biome offers formatter and linter, usable via CLI and LSP",
     "homepage": "https://biomejs.dev/",
     "depends": [],
-    "srcurl": "https://github.com/biomejs/biome/archive/refs/tags/@biomejs/biome@2.5.5.tar.gz",
+    "srcurl": "https://github.com/biomejs/biome/archive/refs/tags/@biomejs/biome@2.5.6.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/56c8f972de/packages/biome2",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/56c8f972de/packages/biome2/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/56c8f972de/packages/biome2/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/3b3477aa70/packages/biome2",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/3b3477aa70/packages/biome2/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/3b3477aa70/packages/biome2/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -7112,15 +7112,15 @@
   },
   {
     "name": "dua",
-    "version": "2.38.1",
+    "version": "2.39.0",
     "description": "View disk space usage and delete unwanted data, fast",
     "homepage": "https://github.com/Byron/dua-cli",
     "depends": [],
-    "srcurl": "https://github.com/Byron/dua-cli/archive/refs/tags/v2.38.1.tar.gz",
+    "srcurl": "https://github.com/Byron/dua-cli/archive/refs/tags/v2.39.0.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/6edeae7d13/packages/dua",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/6edeae7d13/packages/dua/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/6edeae7d13/packages/dua/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/2876d1375d/packages/dua",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/2876d1375d/packages/dua/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/2876d1375d/packages/dua/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -10464,15 +10464,15 @@
   },
   {
     "name": "glab-cli",
-    "version": "1.109.0",
+    "version": "1.110.0",
     "description": "A GitLab CLI tool bringing GitLab to your command line",
     "homepage": "https://gitlab.com/gitlab-org/cli",
     "depends": [],
-    "srcurl": "https://gitlab.com/gitlab-org/cli/-/archive/v1.109.0/cli-1.109.0.tar.bz2",
+    "srcurl": "https://gitlab.com/gitlab-org/cli/-/archive/v1.110.0/cli-1.110.0.tar.bz2",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/82d1897019/packages/glab-cli",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/82d1897019/packages/glab-cli/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/82d1897019/packages/glab-cli/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/2e9639876f/packages/glab-cli",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/2e9639876f/packages/glab-cli/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/2e9639876f/packages/glab-cli/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -24292,7 +24292,7 @@
   },
   {
     "name": "llama-cpp",
-    "version": "b10156",
+    "version": "b10164",
     "description": "LLM inference in C/C++",
     "homepage": "https://github.com/ggml-org/llama.cpp",
     "depends": [
@@ -24300,18 +24300,18 @@
       "libc++",
       "libcurl"
     ],
-    "srcurl": "https://github.com/ggml-org/llama.cpp/archive/refs/tags/b10156.tar.gz",
+    "srcurl": "https://github.com/ggml-org/llama.cpp/archive/refs/tags/b10164.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/2e639915d3/packages/llama-cpp",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/2e639915d3/packages/llama-cpp/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/2e639915d3/packages/llama-cpp/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/66b07b2bcf/packages/llama-cpp",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/66b07b2bcf/packages/llama-cpp/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/66b07b2bcf/packages/llama-cpp/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/2e639915d3/packages/llama-cpp/0001-search-dirs.patch",
-      "https://github.com/zrsx/termux-ng/blob/2e639915d3/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
+      "https://github.com/zrsx/termux-ng/blob/66b07b2bcf/packages/llama-cpp/0001-search-dirs.patch",
+      "https://github.com/zrsx/termux-ng/blob/66b07b2bcf/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/2e639915d3/packages/llama-cpp/0001-search-dirs.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/2e639915d3/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/66b07b2bcf/packages/llama-cpp/0001-search-dirs.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/66b07b2bcf/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
     ],
     "auto_updated": true
   },
@@ -24922,26 +24922,26 @@
   },
   {
     "name": "luajit",
-    "version": "1:2.1.1785005726+ga471ab7",
+    "version": "1:2.1.1785192264+gfaaf663",
     "description": "Just-In-Time Compiler for Lua",
     "homepage": "https://luajit.org/",
     "depends": [],
     "srcurl": "git+https://github.com/LuaJIT/LuaJIT.git",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/bd0db7273a/packages/luajit",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/bd0db7273a/packages/luajit/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/bd0db7273a/packages/luajit/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/8cf70d7ec8/packages/luajit",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/8cf70d7ec8/packages/luajit/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/8cf70d7ec8/packages/luajit/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/bd0db7273a/packages/luajit/Makefile.patch",
-      "https://github.com/zrsx/termux-ng/blob/bd0db7273a/packages/luajit/etc-luajit.pc.patch",
-      "https://github.com/zrsx/termux-ng/blob/bd0db7273a/packages/luajit/src-Makefile.patch",
-      "https://github.com/zrsx/termux-ng/blob/bd0db7273a/packages/luajit/tmpdir-fix.patch"
+      "https://github.com/zrsx/termux-ng/blob/8cf70d7ec8/packages/luajit/Makefile.patch",
+      "https://github.com/zrsx/termux-ng/blob/8cf70d7ec8/packages/luajit/etc-luajit.pc.patch",
+      "https://github.com/zrsx/termux-ng/blob/8cf70d7ec8/packages/luajit/src-Makefile.patch",
+      "https://github.com/zrsx/termux-ng/blob/8cf70d7ec8/packages/luajit/tmpdir-fix.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/bd0db7273a/packages/luajit/Makefile.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/bd0db7273a/packages/luajit/etc-luajit.pc.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/bd0db7273a/packages/luajit/src-Makefile.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/bd0db7273a/packages/luajit/tmpdir-fix.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/8cf70d7ec8/packages/luajit/Makefile.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/8cf70d7ec8/packages/luajit/etc-luajit.pc.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/8cf70d7ec8/packages/luajit/src-Makefile.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/8cf70d7ec8/packages/luajit/tmpdir-fix.patch"
     ],
     "auto_updated": true
   },
@@ -33361,18 +33361,18 @@
   },
   {
     "name": "proot",
-    "version": "5.1.107.87",
+    "version": "5.1.107.88",
     "description": "Emulate chroot, bind mount and binfmt_misc for non-root users",
     "homepage": "https://proot-me.github.io/",
     "depends": [
       "libandroid-shmem",
       "libtalloc"
     ],
-    "srcurl": "https://github.com/termux/proot/archive/v5.1.107.87.zip",
+    "srcurl": "https://github.com/termux/proot/archive/v5.1.107.88.zip",
     "maintainer": "Michal Bednarski @michalbednarski",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/bca6f785fe/packages/proot",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/bca6f785fe/packages/proot/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/bca6f785fe/packages/proot/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/1f4233f6ee/packages/proot",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/1f4233f6ee/packages/proot/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/1f4233f6ee/packages/proot/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -42969,17 +42969,17 @@
   },
   {
     "name": "uv",
-    "version": "0.11.32",
+    "version": "0.11.33",
     "description": "An extremely fast Python package installer and resolver, written in Rust.",
     "homepage": "https://docs.astral.sh/uv/",
     "depends": [
       "zstd"
     ],
-    "srcurl": "https://github.com/astral-sh/uv/archive/refs/tags/0.11.32.tar.gz",
+    "srcurl": "https://github.com/astral-sh/uv/archive/refs/tags/0.11.33.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/c7dd0ee20e/packages/uv",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/c7dd0ee20e/packages/uv/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/c7dd0ee20e/packages/uv/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/3321398a8e/packages/uv",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/3321398a8e/packages/uv/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/3321398a8e/packages/uv/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
