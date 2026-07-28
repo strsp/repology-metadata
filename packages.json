@@ -368,15 +368,15 @@
   },
   {
     "name": "aerc",
-    "version": "0.21.0",
+    "version": "0.22.0",
     "description": "A pretty good email client",
     "homepage": "https://aerc-mail.org/",
     "depends": [],
-    "srcurl": "https://git.sr.ht/~rjarry/aerc/archive/0.21.0.tar.gz",
+    "srcurl": "https://git.sr.ht/~rjarry/aerc/archive/0.22.0.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/d56b62bd79/packages/aerc",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/d56b62bd79/packages/aerc/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/d56b62bd79/packages/aerc/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/2b62d71b4e/packages/aerc",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/2b62d71b4e/packages/aerc/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/2b62d71b4e/packages/aerc/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -5198,15 +5198,15 @@
   },
   {
     "name": "croc",
-    "version": "1:10.6.0",
+    "version": "1:10.7.0",
     "description": "Easily and securely send things from one computer to another",
     "homepage": "https://github.com/schollz/croc",
     "depends": [],
-    "srcurl": "https://github.com/schollz/croc/archive/refs/tags/v10.6.0.tar.gz",
+    "srcurl": "https://github.com/schollz/croc/archive/refs/tags/v10.7.0.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/561e2aca28/packages/croc",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/561e2aca28/packages/croc/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/561e2aca28/packages/croc/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/239d3e73ee/packages/croc",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/239d3e73ee/packages/croc/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/239d3e73ee/packages/croc/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -21782,25 +21782,25 @@
   },
   {
     "name": "libssh",
-    "version": "0.12.1",
+    "version": "0.12.2",
     "description": "Tiny C SSH library",
     "homepage": "https://www.libssh.org/",
     "depends": [
       "openssl",
       "zlib"
     ],
-    "srcurl": "https://www.libssh.org/files/0.12/libssh-0.12.1.tar.xz",
+    "srcurl": "https://www.libssh.org/files/0.12/libssh-0.12.2.tar.xz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/2fc87016f5/packages/libssh",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/2fc87016f5/packages/libssh/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/2fc87016f5/packages/libssh/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/199acf27be/packages/libssh",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/199acf27be/packages/libssh/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/199acf27be/packages/libssh/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/2fc87016f5/packages/libssh/fix-paths.patch",
-      "https://github.com/zrsx/termux-ng/blob/2fc87016f5/packages/libssh/strerror_r.patch"
+      "https://github.com/zrsx/termux-ng/blob/199acf27be/packages/libssh/fix-paths.patch",
+      "https://github.com/zrsx/termux-ng/blob/199acf27be/packages/libssh/strerror_r.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/2fc87016f5/packages/libssh/fix-paths.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/2fc87016f5/packages/libssh/strerror_r.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/199acf27be/packages/libssh/fix-paths.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/199acf27be/packages/libssh/strerror_r.patch"
     ],
     "auto_updated": true
   },
@@ -24292,7 +24292,7 @@
   },
   {
     "name": "llama-cpp",
-    "version": "b10164",
+    "version": "b10172",
     "description": "LLM inference in C/C++",
     "homepage": "https://github.com/ggml-org/llama.cpp",
     "depends": [
@@ -24300,18 +24300,18 @@
       "libc++",
       "libcurl"
     ],
-    "srcurl": "https://github.com/ggml-org/llama.cpp/archive/refs/tags/b10164.tar.gz",
+    "srcurl": "https://github.com/ggml-org/llama.cpp/archive/refs/tags/b10172.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/66b07b2bcf/packages/llama-cpp",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/66b07b2bcf/packages/llama-cpp/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/66b07b2bcf/packages/llama-cpp/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/046b9df835/packages/llama-cpp",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/046b9df835/packages/llama-cpp/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/046b9df835/packages/llama-cpp/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/66b07b2bcf/packages/llama-cpp/0001-search-dirs.patch",
-      "https://github.com/zrsx/termux-ng/blob/66b07b2bcf/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
+      "https://github.com/zrsx/termux-ng/blob/046b9df835/packages/llama-cpp/0001-search-dirs.patch",
+      "https://github.com/zrsx/termux-ng/blob/046b9df835/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/66b07b2bcf/packages/llama-cpp/0001-search-dirs.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/66b07b2bcf/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/046b9df835/packages/llama-cpp/0001-search-dirs.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/046b9df835/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
     ],
     "auto_updated": true
   },
@@ -38311,15 +38311,15 @@
   },
   {
     "name": "spirv-headers",
-    "version": "1.4.350.1",
+    "version": "1.4.357.0",
     "description": "SPIR-V Headers",
     "homepage": "https://github.com/KhronosGroup/SPIRV-Headers",
     "depends": [],
-    "srcurl": "https://github.com/KhronosGroup/SPIRV-Headers/archive/refs/tags/vulkan-sdk-1.4.350.1.tar.gz",
+    "srcurl": "https://github.com/KhronosGroup/SPIRV-Headers/archive/refs/tags/vulkan-sdk-1.4.357.0.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/3c787016fb/packages/spirv-headers",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/3c787016fb/packages/spirv-headers/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/3c787016fb/packages/spirv-headers/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/c5cd01f3d2/packages/spirv-headers",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/c5cd01f3d2/packages/spirv-headers/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/c5cd01f3d2/packages/spirv-headers/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -38344,22 +38344,22 @@
   },
   {
     "name": "spirv-tools",
-    "version": "1.4.350.1",
+    "version": "1.4.357.0",
     "description": "SPIR-V Tools",
     "homepage": "https://github.com/KhronosGroup/SPIRV-Tools",
     "depends": [
       "libc++"
     ],
-    "srcurl": "https://github.com/KhronosGroup/SPIRV-Tools/archive/refs/tags/vulkan-sdk-1.4.350.1.tar.gz",
+    "srcurl": "https://github.com/KhronosGroup/SPIRV-Tools/archive/refs/tags/vulkan-sdk-1.4.357.0.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/b6cd17ccbb/packages/spirv-tools",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/b6cd17ccbb/packages/spirv-tools/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/b6cd17ccbb/packages/spirv-tools/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/90b3c2f49b/packages/spirv-tools",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/90b3c2f49b/packages/spirv-tools/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/90b3c2f49b/packages/spirv-tools/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/b6cd17ccbb/packages/spirv-tools/CMakeLists.txt.patch"
+      "https://github.com/zrsx/termux-ng/blob/90b3c2f49b/packages/spirv-tools/CMakeLists.txt.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/b6cd17ccbb/packages/spirv-tools/CMakeLists.txt.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/90b3c2f49b/packages/spirv-tools/CMakeLists.txt.patch"
     ],
     "auto_updated": true
   },
@@ -41154,15 +41154,15 @@
   },
   {
     "name": "topgrade",
-    "version": "17.8.0",
+    "version": "17.9.0",
     "description": "Upgrade all the things",
     "homepage": "https://github.com/topgrade-rs/topgrade/",
     "depends": [],
-    "srcurl": "https://github.com/topgrade-rs/topgrade/archive/refs/tags/v17.8.0.tar.gz",
+    "srcurl": "https://github.com/topgrade-rs/topgrade/archive/refs/tags/v17.9.0.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/1bba6354dc/packages/topgrade",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/1bba6354dc/packages/topgrade/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/1bba6354dc/packages/topgrade/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/4af6bb930b/packages/topgrade",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/4af6bb930b/packages/topgrade/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/4af6bb930b/packages/topgrade/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -42969,17 +42969,17 @@
   },
   {
     "name": "uv",
-    "version": "0.11.33",
+    "version": "0.12.0",
     "description": "An extremely fast Python package installer and resolver, written in Rust.",
     "homepage": "https://docs.astral.sh/uv/",
     "depends": [
       "zstd"
     ],
-    "srcurl": "https://github.com/astral-sh/uv/archive/refs/tags/0.11.33.tar.gz",
+    "srcurl": "https://github.com/astral-sh/uv/archive/refs/tags/0.12.0.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/3321398a8e/packages/uv",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/3321398a8e/packages/uv/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/3321398a8e/packages/uv/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/851c385df2/packages/uv",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/851c385df2/packages/uv/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/851c385df2/packages/uv/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
