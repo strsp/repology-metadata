@@ -10479,17 +10479,17 @@
   },
   {
     "name": "gleam",
-    "version": "1.17.0",
+    "version": "1.18.0",
     "description": "A friendly language for building type-safe, scalable systems!",
     "homepage": "https://gleam.run",
     "depends": [
       "erlang"
     ],
-    "srcurl": "https://github.com/gleam-lang/gleam/archive/refs/tags/v1.17.0.tar.gz",
+    "srcurl": "https://github.com/gleam-lang/gleam/archive/refs/tags/v1.18.0.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/bda316ea87/packages/gleam",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/bda316ea87/packages/gleam/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/bda316ea87/packages/gleam/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/df11107f30/packages/gleam",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/df11107f30/packages/gleam/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/df11107f30/packages/gleam/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -13998,7 +13998,7 @@
   },
   {
     "name": "jackett",
-    "version": "0.24.2288",
+    "version": "0.24.2292",
     "description": "API Support for your favorite torrent trackers",
     "homepage": "https://github.com/jackett/jackett",
     "depends": [
@@ -14006,11 +14006,11 @@
       "dotnet-host",
       "dotnet-runtime-9.0"
     ],
-    "srcurl": "https://github.com/Jackett/Jackett/archive/refs/tags/v0.24.2288.tar.gz",
+    "srcurl": "https://github.com/Jackett/Jackett/archive/refs/tags/v0.24.2292.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/1f896eb196/packages/jackett",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/1f896eb196/packages/jackett/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/1f896eb196/packages/jackett/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/eefba036c9/packages/jackett",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/eefba036c9/packages/jackett/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/eefba036c9/packages/jackett/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -24085,17 +24085,17 @@
   },
   {
     "name": "libzxing-cpp",
-    "version": "3.1.0",
+    "version": "3.1.1",
     "description": "An open-source, multi-format 1D/2D barcode image processing library implemented in C++",
     "homepage": "https://github.com/zxing-cpp/zxing-cpp",
     "depends": [
       "libc++"
     ],
-    "srcurl": "https://github.com/zxing-cpp/zxing-cpp/releases/download/v3.1.0/zxing-cpp-3.1.0.tar.gz",
+    "srcurl": "https://github.com/zxing-cpp/zxing-cpp/releases/download/v3.1.1/zxing-cpp-3.1.1.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/335f83bb4a/packages/libzxing-cpp",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/335f83bb4a/packages/libzxing-cpp/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/335f83bb4a/packages/libzxing-cpp/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/5fb1b4730e/packages/libzxing-cpp",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/5fb1b4730e/packages/libzxing-cpp/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/5fb1b4730e/packages/libzxing-cpp/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -24292,7 +24292,7 @@
   },
   {
     "name": "llama-cpp",
-    "version": "b10173",
+    "version": "b10179",
     "description": "LLM inference in C/C++",
     "homepage": "https://github.com/ggml-org/llama.cpp",
     "depends": [
@@ -24300,18 +24300,18 @@
       "libc++",
       "libcurl"
     ],
-    "srcurl": "https://github.com/ggml-org/llama.cpp/archive/refs/tags/b10173.tar.gz",
+    "srcurl": "https://github.com/ggml-org/llama.cpp/archive/refs/tags/b10179.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/f519848e22/packages/llama-cpp",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/f519848e22/packages/llama-cpp/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/f519848e22/packages/llama-cpp/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/05994c7876/packages/llama-cpp",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/05994c7876/packages/llama-cpp/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/05994c7876/packages/llama-cpp/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/f519848e22/packages/llama-cpp/0001-search-dirs.patch",
-      "https://github.com/zrsx/termux-ng/blob/f519848e22/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
+      "https://github.com/zrsx/termux-ng/blob/05994c7876/packages/llama-cpp/0001-search-dirs.patch",
+      "https://github.com/zrsx/termux-ng/blob/05994c7876/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/f519848e22/packages/llama-cpp/0001-search-dirs.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/f519848e22/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/05994c7876/packages/llama-cpp/0001-search-dirs.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/05994c7876/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
     ],
     "auto_updated": true
   },
@@ -35668,17 +35668,17 @@
   },
   {
     "name": "remind",
-    "version": "1:06.02.07",
+    "version": "1:06.02.09",
     "description": "Sophisticated calendar and alarm program",
     "homepage": "https://dianne.skoll.ca/projects/remind/",
     "depends": [
       "libandroid-glob"
     ],
-    "srcurl": "https://dianne.skoll.ca/projects/remind/download/remind-06.02.07.tar.gz",
+    "srcurl": "https://dianne.skoll.ca/projects/remind/download/remind-06.02.09.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/a234dd288b/packages/remind",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/a234dd288b/packages/remind/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/a234dd288b/packages/remind/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/c5043dc74e/packages/remind",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/c5043dc74e/packages/remind/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/c5043dc74e/packages/remind/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -36799,17 +36799,17 @@
   },
   {
     "name": "sccache",
-    "version": "0.16.0",
+    "version": "0.17.0",
     "description": "sccache is ccache with cloud storage",
     "homepage": "https://github.com/mozilla/sccache",
     "depends": [
       "openssl"
     ],
-    "srcurl": "https://github.com/mozilla/sccache/archive/refs/tags/v0.16.0.tar.gz",
+    "srcurl": "https://github.com/mozilla/sccache/archive/refs/tags/v0.17.0.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/38b132dc34/packages/sccache",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/38b132dc34/packages/sccache/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/38b132dc34/packages/sccache/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/5786b01a12/packages/sccache",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/5786b01a12/packages/sccache/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/5786b01a12/packages/sccache/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -37565,17 +37565,17 @@
   },
   {
     "name": "simdjson",
-    "version": "4.6.4",
+    "version": "4.6.5",
     "description": "A C++ library to see how fast we can parse JSON with complete validation",
     "homepage": "https://simdjson.org/",
     "depends": [
       "libc++"
     ],
-    "srcurl": "https://github.com/simdjson/simdjson/archive/refs/tags/v4.6.4.tar.gz",
+    "srcurl": "https://github.com/simdjson/simdjson/archive/refs/tags/v4.6.5.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/23339c6b41/packages/simdjson",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/23339c6b41/packages/simdjson/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/23339c6b41/packages/simdjson/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/bccf8d4e0b/packages/simdjson",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/bccf8d4e0b/packages/simdjson/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/bccf8d4e0b/packages/simdjson/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -37620,15 +37620,15 @@
   },
   {
     "name": "sing-box",
-    "version": "1.13.14",
+    "version": "1.13.15",
     "description": "The universal proxy platform",
     "homepage": "https://sing-box.sagernet.org",
     "depends": [],
-    "srcurl": "https://github.com/SagerNet/sing-box/archive/refs/tags/v1.13.14.tar.gz",
+    "srcurl": "https://github.com/SagerNet/sing-box/archive/refs/tags/v1.13.15.tar.gz",
     "maintainer": "kay9925@outlook.com",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/f1a526467f/packages/sing-box",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/f1a526467f/packages/sing-box/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/f1a526467f/packages/sing-box/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/3773d14808/packages/sing-box",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/3773d14808/packages/sing-box/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/3773d14808/packages/sing-box/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -38933,15 +38933,15 @@
   },
   {
     "name": "storj-uplink",
-    "version": "1.160.3",
+    "version": "1.161.1",
     "description": "Storj DCS Uplink CLI",
     "homepage": "https://www.storj.io/integrations/uplink-cli",
     "depends": [],
-    "srcurl": "https://github.com/storj/storj/archive/refs/tags/v1.160.3.tar.gz",
+    "srcurl": "https://github.com/storj/storj/archive/refs/tags/v1.161.1.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/2b91823329/packages/storj-uplink",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/2b91823329/packages/storj-uplink/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/2b91823329/packages/storj-uplink/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/9f29c2cde2/packages/storj-uplink",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/9f29c2cde2/packages/storj-uplink/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/9f29c2cde2/packages/storj-uplink/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
