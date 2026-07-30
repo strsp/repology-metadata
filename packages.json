@@ -12300,7 +12300,7 @@
   },
   {
     "name": "haproxy",
-    "version": "3.4.2",
+    "version": "3.4.3",
     "description": "The Reliable, High Performance TCP/HTTP Load Balancer",
     "homepage": "https://www.haproxy.org/",
     "depends": [
@@ -12309,16 +12309,16 @@
       "pcre2",
       "zlib"
     ],
-    "srcurl": "https://www.haproxy.org/download/3.4/src/haproxy-3.4.2.tar.gz",
+    "srcurl": "https://www.haproxy.org/download/3.4/src/haproxy-3.4.3.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/d7b081e8d1/packages/haproxy",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/d7b081e8d1/packages/haproxy/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/d7b081e8d1/packages/haproxy/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/423215b409/packages/haproxy",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/423215b409/packages/haproxy/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/423215b409/packages/haproxy/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/d7b081e8d1/packages/haproxy/Makefile.patch"
+      "https://github.com/zrsx/termux-ng/blob/423215b409/packages/haproxy/Makefile.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/d7b081e8d1/packages/haproxy/Makefile.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/423215b409/packages/haproxy/Makefile.patch"
     ],
     "auto_updated": true
   },
@@ -27141,20 +27141,20 @@
   },
   {
     "name": "moor",
-    "version": "2.15.2",
+    "version": "2.16.0",
     "description": "A pager designed to just do the right thing without any configuration",
     "homepage": "https://github.com/walles/moor",
     "depends": [],
-    "srcurl": "https://github.com/walles/moor/archive/refs/tags/v2.15.2.tar.gz",
+    "srcurl": "https://github.com/walles/moor/archive/refs/tags/v2.16.0.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/efe5ac4e6a/packages/moor",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/efe5ac4e6a/packages/moor/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/efe5ac4e6a/packages/moor/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/ed03ccc0a9/packages/moor",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/ed03ccc0a9/packages/moor/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/ed03ccc0a9/packages/moor/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/efe5ac4e6a/packages/moor/default-editor.patch"
+      "https://github.com/zrsx/termux-ng/blob/ed03ccc0a9/packages/moor/default-editor.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/efe5ac4e6a/packages/moor/default-editor.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/ed03ccc0a9/packages/moor/default-editor.patch"
     ],
     "auto_updated": true
   },
@@ -29566,7 +29566,7 @@
   },
   {
     "name": "npm",
-    "version": "11.18.0",
+    "version": "11.19.0",
     "description": "The package manager for JavaScript",
     "homepage": "https://docs.npmjs.com/cli/",
     "depends": [
@@ -29574,9 +29574,9 @@
     ],
     "srcurl": "git+https://github.com/npm/cli.git",
     "maintainer": "Yaksh Bariya <thunder-coding@termux.dev>",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/be0e93e84d/packages/npm",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/be0e93e84d/packages/npm/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/be0e93e84d/packages/npm/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/ffd61fc938/packages/npm",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/ffd61fc938/packages/npm/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/ffd61fc938/packages/npm/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
