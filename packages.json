@@ -8880,15 +8880,15 @@
   },
   {
     "name": "flyctl",
-    "version": "0.4.76",
+    "version": "0.4.77",
     "description": "Command line tools for fly.io services",
     "homepage": "https://fly.io",
     "depends": [],
-    "srcurl": "https://github.com/superfly/flyctl/archive/refs/tags/v0.4.76.tar.gz",
+    "srcurl": "https://github.com/superfly/flyctl/archive/refs/tags/v0.4.77.tar.gz",
     "maintainer": "Yaksh Bariya <thunder-coding@termux.dev>",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/7d18734473/packages/flyctl",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/7d18734473/packages/flyctl/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/7d18734473/packages/flyctl/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/7ea6be15a4/packages/flyctl",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/7ea6be15a4/packages/flyctl/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/7ea6be15a4/packages/flyctl/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -11124,7 +11124,7 @@
   },
   {
     "name": "go-musicfox",
-    "version": "4.8.5",
+    "version": "5.0.0",
     "description": "A netease music player in terminal.",
     "homepage": "https://github.com/go-musicfox/go-musicfox",
     "depends": [
@@ -11132,11 +11132,11 @@
       "libflac",
       "libvorbis"
     ],
-    "srcurl": "https://github.com/go-musicfox/go-musicfox/archive/refs/tags/v4.8.5.tar.gz",
+    "srcurl": "https://github.com/go-musicfox/go-musicfox/archive/refs/tags/v5.0.0.tar.gz",
     "maintainer": "@anhoder",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/b5a60c6533/packages/go-musicfox",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/b5a60c6533/packages/go-musicfox/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/b5a60c6533/packages/go-musicfox/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/bfd9788f62/packages/go-musicfox",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/bfd9788f62/packages/go-musicfox/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/bfd9788f62/packages/go-musicfox/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -14133,15 +14133,15 @@
   },
   {
     "name": "jfrog-cli",
-    "version": "2.116.0",
+    "version": "2.117.0",
     "description": "A CLI for JFrog products",
     "homepage": "https://jfrog.com/getcli",
     "depends": [],
-    "srcurl": "https://github.com/jfrog/jfrog-cli/archive/refs/tags/v2.116.0.tar.gz",
+    "srcurl": "https://github.com/jfrog/jfrog-cli/archive/refs/tags/v2.117.0.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/269ffb5d49/packages/jfrog-cli",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/269ffb5d49/packages/jfrog-cli/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/269ffb5d49/packages/jfrog-cli/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/10a0b4d5f6/packages/jfrog-cli",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/10a0b4d5f6/packages/jfrog-cli/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/10a0b4d5f6/packages/jfrog-cli/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -24292,7 +24292,7 @@
   },
   {
     "name": "llama-cpp",
-    "version": "b10192",
+    "version": "b10198",
     "description": "LLM inference in C/C++",
     "homepage": "https://github.com/ggml-org/llama.cpp",
     "depends": [
@@ -24300,18 +24300,18 @@
       "libc++",
       "libcurl"
     ],
-    "srcurl": "https://github.com/ggml-org/llama.cpp/archive/refs/tags/b10192.tar.gz",
+    "srcurl": "https://github.com/ggml-org/llama.cpp/archive/refs/tags/b10198.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/b7b7fd480c/packages/llama-cpp",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/b7b7fd480c/packages/llama-cpp/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/b7b7fd480c/packages/llama-cpp/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/3f3f294f8d/packages/llama-cpp",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/3f3f294f8d/packages/llama-cpp/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/3f3f294f8d/packages/llama-cpp/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/b7b7fd480c/packages/llama-cpp/0001-search-dirs.patch",
-      "https://github.com/zrsx/termux-ng/blob/b7b7fd480c/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
+      "https://github.com/zrsx/termux-ng/blob/3f3f294f8d/packages/llama-cpp/0001-search-dirs.patch",
+      "https://github.com/zrsx/termux-ng/blob/3f3f294f8d/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/b7b7fd480c/packages/llama-cpp/0001-search-dirs.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/b7b7fd480c/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/3f3f294f8d/packages/llama-cpp/0001-search-dirs.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/3f3f294f8d/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
     ],
     "auto_updated": true
   },
@@ -29888,20 +29888,20 @@
   },
   {
     "name": "oh-my-posh",
-    "version": "29.37.0",
+    "version": "30.0.0",
     "description": "A prompt theme engine for any shell.",
     "homepage": "https://ohmyposh.dev",
     "depends": [],
-    "srcurl": "https://github.com/JanDeDobbeleer/oh-my-posh/archive/refs/tags/v29.37.0.tar.gz",
+    "srcurl": "https://github.com/JanDeDobbeleer/oh-my-posh/archive/refs/tags/v30.0.0.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/83837b077e/packages/oh-my-posh",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/83837b077e/packages/oh-my-posh/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/83837b077e/packages/oh-my-posh/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/728e271c55/packages/oh-my-posh",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/728e271c55/packages/oh-my-posh/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/728e271c55/packages/oh-my-posh/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/83837b077e/packages/oh-my-posh/issue-26712.patch"
+      "https://github.com/zrsx/termux-ng/blob/728e271c55/packages/oh-my-posh/issue-26712.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/83837b077e/packages/oh-my-posh/issue-26712.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/728e271c55/packages/oh-my-posh/issue-26712.patch"
     ],
     "auto_updated": true
   },
@@ -42390,7 +42390,7 @@
   },
   {
     "name": "ugrep",
-    "version": "7.8.2",
+    "version": "7.8.3",
     "description": "A faster, user-friendly and compatible grep replacement",
     "homepage": "https://github.com/Genivia/ugrep",
     "depends": [
@@ -42403,16 +42403,16 @@
       "zlib",
       "zstd"
     ],
-    "srcurl": "https://github.com/Genivia/ugrep/archive/refs/tags/v7.8.2.tar.gz",
+    "srcurl": "https://github.com/Genivia/ugrep/archive/refs/tags/v7.8.3.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/677600b29b/packages/ugrep",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/677600b29b/packages/ugrep/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/677600b29b/packages/ugrep/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/eda5ea1eda/packages/ugrep",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/eda5ea1eda/packages/ugrep/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/eda5ea1eda/packages/ugrep/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/677600b29b/packages/ugrep/dependencies-fix.patch"
+      "https://github.com/zrsx/termux-ng/blob/eda5ea1eda/packages/ugrep/dependencies-fix.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/677600b29b/packages/ugrep/dependencies-fix.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/eda5ea1eda/packages/ugrep/dependencies-fix.patch"
     ],
     "auto_updated": true
   },
