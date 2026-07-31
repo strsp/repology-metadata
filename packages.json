@@ -4392,17 +4392,17 @@
   },
   {
     "name": "cli11",
-    "version": "2.6.2",
+    "version": "2.7.0",
     "description": "Command line parser for C++11",
     "homepage": "https://github.com/CLIUtils/CLI11",
     "depends": [
       "libc++"
     ],
-    "srcurl": "https://github.com/CLIUtils/CLI11/archive/refs/tags/v2.6.2.tar.gz",
+    "srcurl": "https://github.com/CLIUtils/CLI11/archive/refs/tags/v2.7.0.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/87ec8e32b4/packages/cli11",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/87ec8e32b4/packages/cli11/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/87ec8e32b4/packages/cli11/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/febd38fbe7/packages/cli11",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/febd38fbe7/packages/cli11/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/febd38fbe7/packages/cli11/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -9145,30 +9145,30 @@
   },
   {
     "name": "fresh-editor",
-    "version": "0.4.5",
+    "version": "0.4.6",
     "description": "Text editor for your terminal: easy, powerful and fast",
     "homepage": "https://getfresh.dev/",
     "depends": [],
-    "srcurl": "https://github.com/sinelaw/fresh/releases/download/v0.4.5/fresh-editor-0.4.5-source.tar.gz",
+    "srcurl": "https://github.com/sinelaw/fresh/releases/download/v0.4.6/fresh-editor-0.4.6-source.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/702abe4fe2/packages/fresh-editor",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/702abe4fe2/packages/fresh-editor/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/702abe4fe2/packages/fresh-editor/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/9495fa3d01/packages/fresh-editor",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/9495fa3d01/packages/fresh-editor/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/9495fa3d01/packages/fresh-editor/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/702abe4fe2/packages/fresh-editor/enable-rquickjs-bindgen.patch",
-      "https://github.com/zrsx/termux-ng/blob/702abe4fe2/packages/fresh-editor/no-AT_EACCESS.patch",
-      "https://github.com/zrsx/termux-ng/blob/702abe4fe2/packages/fresh-editor/rust-cc-do-not-concatenate-all-the-CFLAGS.diff",
-      "https://github.com/zrsx/termux-ng/blob/702abe4fe2/packages/fresh-editor/smithay-client-toolkit-no-shm.diff",
-      "https://github.com/zrsx/termux-ng/blob/702abe4fe2/packages/fresh-editor/trash-rs-implement-get_mount_points-android.diff",
-      "https://github.com/zrsx/termux-ng/blob/702abe4fe2/packages/fresh-editor/wayland-cursor-no-shm.diff"
+      "https://github.com/zrsx/termux-ng/blob/9495fa3d01/packages/fresh-editor/enable-rquickjs-bindgen.patch",
+      "https://github.com/zrsx/termux-ng/blob/9495fa3d01/packages/fresh-editor/no-AT_EACCESS.patch",
+      "https://github.com/zrsx/termux-ng/blob/9495fa3d01/packages/fresh-editor/rust-cc-do-not-concatenate-all-the-CFLAGS.diff",
+      "https://github.com/zrsx/termux-ng/blob/9495fa3d01/packages/fresh-editor/smithay-client-toolkit-no-shm.diff",
+      "https://github.com/zrsx/termux-ng/blob/9495fa3d01/packages/fresh-editor/trash-rs-implement-get_mount_points-android.diff",
+      "https://github.com/zrsx/termux-ng/blob/9495fa3d01/packages/fresh-editor/wayland-cursor-no-shm.diff"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/702abe4fe2/packages/fresh-editor/enable-rquickjs-bindgen.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/702abe4fe2/packages/fresh-editor/no-AT_EACCESS.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/702abe4fe2/packages/fresh-editor/rust-cc-do-not-concatenate-all-the-CFLAGS.diff",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/702abe4fe2/packages/fresh-editor/smithay-client-toolkit-no-shm.diff",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/702abe4fe2/packages/fresh-editor/trash-rs-implement-get_mount_points-android.diff",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/702abe4fe2/packages/fresh-editor/wayland-cursor-no-shm.diff"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/9495fa3d01/packages/fresh-editor/enable-rquickjs-bindgen.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/9495fa3d01/packages/fresh-editor/no-AT_EACCESS.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/9495fa3d01/packages/fresh-editor/rust-cc-do-not-concatenate-all-the-CFLAGS.diff",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/9495fa3d01/packages/fresh-editor/smithay-client-toolkit-no-shm.diff",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/9495fa3d01/packages/fresh-editor/trash-rs-implement-get_mount_points-android.diff",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/9495fa3d01/packages/fresh-editor/wayland-cursor-no-shm.diff"
     ],
     "auto_updated": true
   },
@@ -10033,20 +10033,20 @@
   },
   {
     "name": "gh",
-    "version": "2.96.0",
+    "version": "2.97.0",
     "description": "GitHub’s official command line tool",
     "homepage": "https://cli.github.com/",
     "depends": [],
-    "srcurl": "https://github.com/cli/cli/archive/refs/tags/v2.96.0.tar.gz",
+    "srcurl": "https://github.com/cli/cli/archive/refs/tags/v2.97.0.tar.gz",
     "maintainer": "Krishna kanhaiya @kcubeterm",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/f85a930cec/packages/gh",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/f85a930cec/packages/gh/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/f85a930cec/packages/gh/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/8699dfe795/packages/gh",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/8699dfe795/packages/gh/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/8699dfe795/packages/gh/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/f85a930cec/packages/gh/001-use-sh-for-extensions.patch"
+      "https://github.com/zrsx/termux-ng/blob/8699dfe795/packages/gh/001-use-sh-for-extensions.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/f85a930cec/packages/gh/001-use-sh-for-extensions.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/8699dfe795/packages/gh/001-use-sh-for-extensions.patch"
     ],
     "auto_updated": true
   },
@@ -10464,15 +10464,15 @@
   },
   {
     "name": "glab-cli",
-    "version": "1.110.0",
+    "version": "1.111.0",
     "description": "A GitLab CLI tool bringing GitLab to your command line",
     "homepage": "https://gitlab.com/gitlab-org/cli",
     "depends": [],
-    "srcurl": "https://gitlab.com/gitlab-org/cli/-/archive/v1.110.0/cli-1.110.0.tar.bz2",
+    "srcurl": "https://gitlab.com/gitlab-org/cli/-/archive/v1.111.0/cli-1.111.0.tar.bz2",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/2e9639876f/packages/glab-cli",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/2e9639876f/packages/glab-cli/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/2e9639876f/packages/glab-cli/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/7191003ea1/packages/glab-cli",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/7191003ea1/packages/glab-cli/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/7191003ea1/packages/glab-cli/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -24292,7 +24292,7 @@
   },
   {
     "name": "llama-cpp",
-    "version": "b10198",
+    "version": "b10199",
     "description": "LLM inference in C/C++",
     "homepage": "https://github.com/ggml-org/llama.cpp",
     "depends": [
@@ -24300,18 +24300,18 @@
       "libc++",
       "libcurl"
     ],
-    "srcurl": "https://github.com/ggml-org/llama.cpp/archive/refs/tags/b10198.tar.gz",
+    "srcurl": "https://github.com/ggml-org/llama.cpp/archive/refs/tags/b10199.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/3f3f294f8d/packages/llama-cpp",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/3f3f294f8d/packages/llama-cpp/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/3f3f294f8d/packages/llama-cpp/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/9ae8f5e649/packages/llama-cpp",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/9ae8f5e649/packages/llama-cpp/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/9ae8f5e649/packages/llama-cpp/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/3f3f294f8d/packages/llama-cpp/0001-search-dirs.patch",
-      "https://github.com/zrsx/termux-ng/blob/3f3f294f8d/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
+      "https://github.com/zrsx/termux-ng/blob/9ae8f5e649/packages/llama-cpp/0001-search-dirs.patch",
+      "https://github.com/zrsx/termux-ng/blob/9ae8f5e649/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/3f3f294f8d/packages/llama-cpp/0001-search-dirs.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/3f3f294f8d/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/9ae8f5e649/packages/llama-cpp/0001-search-dirs.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/9ae8f5e649/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
     ],
     "auto_updated": true
   },
@@ -37565,17 +37565,17 @@
   },
   {
     "name": "simdjson",
-    "version": "4.6.5",
+    "version": "4.6.6",
     "description": "A C++ library to see how fast we can parse JSON with complete validation",
     "homepage": "https://simdjson.org/",
     "depends": [
       "libc++"
     ],
-    "srcurl": "https://github.com/simdjson/simdjson/archive/refs/tags/v4.6.5.tar.gz",
+    "srcurl": "https://github.com/simdjson/simdjson/archive/refs/tags/v4.6.6.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/bccf8d4e0b/packages/simdjson",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/bccf8d4e0b/packages/simdjson/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/bccf8d4e0b/packages/simdjson/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/3266279ed7/packages/simdjson",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/3266279ed7/packages/simdjson/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/3266279ed7/packages/simdjson/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -43802,15 +43802,15 @@
   },
   {
     "name": "vulkan-headers",
-    "version": "1.4.357",
+    "version": "1.4.358",
     "description": "Vulkan Header files and API registry",
     "homepage": "https://github.com/KhronosGroup/Vulkan-Headers",
     "depends": [],
-    "srcurl": "https://github.com/KhronosGroup/Vulkan-Headers/archive/refs/tags/v1.4.357.tar.gz",
+    "srcurl": "https://github.com/KhronosGroup/Vulkan-Headers/archive/refs/tags/v1.4.358.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/3c6e101ded/packages/vulkan-headers",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/3c6e101ded/packages/vulkan-headers/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/3c6e101ded/packages/vulkan-headers/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/efe15208d1/packages/vulkan-headers",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/efe15208d1/packages/vulkan-headers/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/efe15208d1/packages/vulkan-headers/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -44085,15 +44085,15 @@
   },
   {
     "name": "wasm-component-ld",
-    "version": "0.5.27",
+    "version": "0.5.28",
     "description": "Command line linker for creating WebAssembly components",
     "homepage": "https://github.com/bytecodealliance/wasm-component-ld",
     "depends": [],
-    "srcurl": "https://github.com/bytecodealliance/wasm-component-ld/archive/refs/tags/v0.5.27.tar.gz",
+    "srcurl": "https://github.com/bytecodealliance/wasm-component-ld/archive/refs/tags/v0.5.28.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/0f758170e4/packages/wasm-component-ld",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/0f758170e4/packages/wasm-component-ld/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/0f758170e4/packages/wasm-component-ld/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/76da8d8c9e/packages/wasm-component-ld",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/76da8d8c9e/packages/wasm-component-ld/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/76da8d8c9e/packages/wasm-component-ld/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
