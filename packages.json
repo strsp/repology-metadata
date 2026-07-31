@@ -13138,15 +13138,15 @@
   },
   {
     "name": "hwdata",
-    "version": "0.409",
+    "version": "0.410",
     "description": "Database of hardware identification and configuration data",
     "homepage": "https://github.com/vcrhonek/hwdata",
     "depends": [],
-    "srcurl": "https://github.com/vcrhonek/hwdata/archive/refs/tags/v0.409.tar.gz",
+    "srcurl": "https://github.com/vcrhonek/hwdata/archive/refs/tags/v0.410.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/6b904f8705/packages/hwdata",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/6b904f8705/packages/hwdata/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/6b904f8705/packages/hwdata/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/40f692951d/packages/hwdata",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/40f692951d/packages/hwdata/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/40f692951d/packages/hwdata/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -13998,7 +13998,7 @@
   },
   {
     "name": "jackett",
-    "version": "0.24.2297",
+    "version": "0.24.2304",
     "description": "API Support for your favorite torrent trackers",
     "homepage": "https://github.com/jackett/jackett",
     "depends": [
@@ -14006,11 +14006,11 @@
       "dotnet-host",
       "dotnet-runtime-9.0"
     ],
-    "srcurl": "https://github.com/Jackett/Jackett/archive/refs/tags/v0.24.2297.tar.gz",
+    "srcurl": "https://github.com/Jackett/Jackett/archive/refs/tags/v0.24.2304.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/8b862fb25f/packages/jackett",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/8b862fb25f/packages/jackett/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/8b862fb25f/packages/jackett/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/8a480af48e/packages/jackett",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/8a480af48e/packages/jackett/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/8a480af48e/packages/jackett/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -15241,15 +15241,15 @@
   },
   {
     "name": "lf",
-    "version": "41",
+    "version": "42",
     "description": "Terminal file manager",
     "homepage": "https://github.com/gokcehan/lf",
     "depends": [],
-    "srcurl": "https://github.com/gokcehan/lf/archive/refs/tags/r41.tar.gz",
+    "srcurl": "https://github.com/gokcehan/lf/archive/refs/tags/r42.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/47b82bed35/packages/lf",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/47b82bed35/packages/lf/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/47b82bed35/packages/lf/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/a46dd983c9/packages/lf",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/a46dd983c9/packages/lf/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/a46dd983c9/packages/lf/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -43864,22 +43864,22 @@
   },
   {
     "name": "vulkan-loader",
-    "version": "1.4.357",
+    "version": "1.4.358",
     "description": "Vulkan Loader",
     "homepage": "https://github.com/KhronosGroup/Vulkan-Loader",
     "depends": [],
-    "srcurl": "https://github.com/KhronosGroup/Vulkan-Loader/archive/refs/tags/v1.4.357.tar.gz",
+    "srcurl": "https://github.com/KhronosGroup/Vulkan-Loader/archive/refs/tags/v1.4.358.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/f914d60cb2/packages/vulkan-loader-generic",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/f914d60cb2/packages/vulkan-loader-generic/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/f914d60cb2/packages/vulkan-loader-generic/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/f867f3b4ae/packages/vulkan-loader-generic",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/f867f3b4ae/packages/vulkan-loader-generic/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/f867f3b4ae/packages/vulkan-loader-generic/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/f914d60cb2/packages/vulkan-loader-generic/0001-fix-hardcoded-pathes.patch",
-      "https://github.com/zrsx/termux-ng/blob/f914d60cb2/packages/vulkan-loader-generic/0002-properly-enable-extensions.patch"
+      "https://github.com/zrsx/termux-ng/blob/f867f3b4ae/packages/vulkan-loader-generic/0001-fix-hardcoded-pathes.patch",
+      "https://github.com/zrsx/termux-ng/blob/f867f3b4ae/packages/vulkan-loader-generic/0002-properly-enable-extensions.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/f914d60cb2/packages/vulkan-loader-generic/0001-fix-hardcoded-pathes.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/f914d60cb2/packages/vulkan-loader-generic/0002-properly-enable-extensions.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/f867f3b4ae/packages/vulkan-loader-generic/0001-fix-hardcoded-pathes.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/f867f3b4ae/packages/vulkan-loader-generic/0002-properly-enable-extensions.patch"
     ],
     "auto_updated": true
   },
@@ -43914,20 +43914,20 @@
   },
   {
     "name": "vulkan-utility-libraries",
-    "version": "1.4.357",
+    "version": "1.4.358",
     "description": "Utility Libraries for Vulkan",
     "homepage": "https://github.com/KhronosGroup/Vulkan-Utility-Libraries",
     "depends": [],
-    "srcurl": "https://github.com/KhronosGroup/Vulkan-Utility-Libraries/archive/refs/tags/v1.4.357.tar.gz",
+    "srcurl": "https://github.com/KhronosGroup/Vulkan-Utility-Libraries/archive/refs/tags/v1.4.358.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/33d98d8b77/packages/vulkan-utility-libraries",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/33d98d8b77/packages/vulkan-utility-libraries/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/33d98d8b77/packages/vulkan-utility-libraries/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/c16a0cf213/packages/vulkan-utility-libraries",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/c16a0cf213/packages/vulkan-utility-libraries/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/c16a0cf213/packages/vulkan-utility-libraries/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/33d98d8b77/packages/vulkan-utility-libraries/0001-do-not-build-for-android.patch"
+      "https://github.com/zrsx/termux-ng/blob/c16a0cf213/packages/vulkan-utility-libraries/0001-do-not-build-for-android.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/33d98d8b77/packages/vulkan-utility-libraries/0001-do-not-build-for-android.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/c16a0cf213/packages/vulkan-utility-libraries/0001-do-not-build-for-android.patch"
     ],
     "auto_updated": true
   },
