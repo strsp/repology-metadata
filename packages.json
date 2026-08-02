@@ -10479,17 +10479,17 @@
   },
   {
     "name": "gleam",
-    "version": "1.18.0",
+    "version": "1.18.1",
     "description": "A friendly language for building type-safe, scalable systems!",
     "homepage": "https://gleam.run",
     "depends": [
       "erlang"
     ],
-    "srcurl": "https://github.com/gleam-lang/gleam/archive/refs/tags/v1.18.0.tar.gz",
+    "srcurl": "https://github.com/gleam-lang/gleam/archive/refs/tags/v1.18.1.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/df11107f30/packages/gleam",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/df11107f30/packages/gleam/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/df11107f30/packages/gleam/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/ac5cf71742/packages/gleam",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/ac5cf71742/packages/gleam/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/ac5cf71742/packages/gleam/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -11124,7 +11124,7 @@
   },
   {
     "name": "go-musicfox",
-    "version": "5.0.0",
+    "version": "5.0.1",
     "description": "A netease music player in terminal.",
     "homepage": "https://github.com/go-musicfox/go-musicfox",
     "depends": [
@@ -11132,11 +11132,11 @@
       "libflac",
       "libvorbis"
     ],
-    "srcurl": "https://github.com/go-musicfox/go-musicfox/archive/refs/tags/v5.0.0.tar.gz",
+    "srcurl": "https://github.com/go-musicfox/go-musicfox/archive/refs/tags/v5.0.1.tar.gz",
     "maintainer": "@anhoder",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/bfd9788f62/packages/go-musicfox",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/bfd9788f62/packages/go-musicfox/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/bfd9788f62/packages/go-musicfox/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/7e8118fd77/packages/go-musicfox",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/7e8118fd77/packages/go-musicfox/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/7e8118fd77/packages/go-musicfox/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -20677,18 +20677,18 @@
   },
   {
     "name": "libpsl",
-    "version": "0.23.0",
+    "version": "0.23.1",
     "description": "Public Suffix List library",
     "homepage": "https://github.com/rockdaboot/libpsl",
     "depends": [
       "libidn2",
       "libunistring"
     ],
-    "srcurl": "https://github.com/rockdaboot/libpsl/releases/download/0.23.0/libpsl-0.23.0.tar.gz",
+    "srcurl": "https://github.com/rockdaboot/libpsl/releases/download/0.23.1/libpsl-0.23.1.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/ec9eb9bdb0/packages/libpsl",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/ec9eb9bdb0/packages/libpsl/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/ec9eb9bdb0/packages/libpsl/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/42faa12c7d/packages/libpsl",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/42faa12c7d/packages/libpsl/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/42faa12c7d/packages/libpsl/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -24292,7 +24292,7 @@
   },
   {
     "name": "llama-cpp",
-    "version": "b10219",
+    "version": "b10223",
     "description": "LLM inference in C/C++",
     "homepage": "https://github.com/ggml-org/llama.cpp",
     "depends": [
@@ -24300,18 +24300,18 @@
       "libc++",
       "libcurl"
     ],
-    "srcurl": "https://github.com/ggml-org/llama.cpp/archive/refs/tags/b10219.tar.gz",
+    "srcurl": "https://github.com/ggml-org/llama.cpp/archive/refs/tags/b10223.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/a0b17d2e36/packages/llama-cpp",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/a0b17d2e36/packages/llama-cpp/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/a0b17d2e36/packages/llama-cpp/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/1bc0c7085a/packages/llama-cpp",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/1bc0c7085a/packages/llama-cpp/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/1bc0c7085a/packages/llama-cpp/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/a0b17d2e36/packages/llama-cpp/0001-search-dirs.patch",
-      "https://github.com/zrsx/termux-ng/blob/a0b17d2e36/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
+      "https://github.com/zrsx/termux-ng/blob/1bc0c7085a/packages/llama-cpp/0001-search-dirs.patch",
+      "https://github.com/zrsx/termux-ng/blob/1bc0c7085a/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/a0b17d2e36/packages/llama-cpp/0001-search-dirs.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/a0b17d2e36/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/1bc0c7085a/packages/llama-cpp/0001-search-dirs.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/1bc0c7085a/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
     ],
     "auto_updated": true
   },
