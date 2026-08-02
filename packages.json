@@ -24292,7 +24292,7 @@
   },
   {
     "name": "llama-cpp",
-    "version": "b10228",
+    "version": "b10232",
     "description": "LLM inference in C/C++",
     "homepage": "https://github.com/ggml-org/llama.cpp",
     "depends": [
@@ -24300,18 +24300,18 @@
       "libc++",
       "libcurl"
     ],
-    "srcurl": "https://github.com/ggml-org/llama.cpp/archive/refs/tags/b10228.tar.gz",
+    "srcurl": "https://github.com/ggml-org/llama.cpp/archive/refs/tags/b10232.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/2c1dd5a1a8/packages/llama-cpp",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/2c1dd5a1a8/packages/llama-cpp/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/2c1dd5a1a8/packages/llama-cpp/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/dc014b0e8e/packages/llama-cpp",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/dc014b0e8e/packages/llama-cpp/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/dc014b0e8e/packages/llama-cpp/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/2c1dd5a1a8/packages/llama-cpp/0001-search-dirs.patch",
-      "https://github.com/zrsx/termux-ng/blob/2c1dd5a1a8/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
+      "https://github.com/zrsx/termux-ng/blob/dc014b0e8e/packages/llama-cpp/0001-search-dirs.patch",
+      "https://github.com/zrsx/termux-ng/blob/dc014b0e8e/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/2c1dd5a1a8/packages/llama-cpp/0001-search-dirs.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/2c1dd5a1a8/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/dc014b0e8e/packages/llama-cpp/0001-search-dirs.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/dc014b0e8e/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
     ],
     "auto_updated": true
   },
@@ -29888,20 +29888,20 @@
   },
   {
     "name": "oh-my-posh",
-    "version": "30.2.0",
+    "version": "30.3.0",
     "description": "A prompt theme engine for any shell.",
     "homepage": "https://ohmyposh.dev",
     "depends": [],
-    "srcurl": "https://github.com/JanDeDobbeleer/oh-my-posh/archive/refs/tags/v30.2.0.tar.gz",
+    "srcurl": "https://github.com/JanDeDobbeleer/oh-my-posh/archive/refs/tags/v30.3.0.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/c7465ccd25/packages/oh-my-posh",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/c7465ccd25/packages/oh-my-posh/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/c7465ccd25/packages/oh-my-posh/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/b51fc33e0b/packages/oh-my-posh",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/b51fc33e0b/packages/oh-my-posh/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/b51fc33e0b/packages/oh-my-posh/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/c7465ccd25/packages/oh-my-posh/issue-26712.patch"
+      "https://github.com/zrsx/termux-ng/blob/b51fc33e0b/packages/oh-my-posh/issue-26712.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/c7465ccd25/packages/oh-my-posh/issue-26712.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/b51fc33e0b/packages/oh-my-posh/issue-26712.patch"
     ],
     "auto_updated": true
   },
@@ -40669,7 +40669,7 @@
   },
   {
     "name": "timewarrior",
-    "version": "1.9.1",
+    "version": "1.10.0",
     "description": "Command-line time tracker",
     "homepage": "https://timewarrior.net/",
     "depends": [
@@ -40678,16 +40678,16 @@
     ],
     "srcurl": "git+https://github.com/GothenburgBitFactory/timewarrior",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/a4cd7a7349/packages/timewarrior",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/a4cd7a7349/packages/timewarrior/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/a4cd7a7349/packages/timewarrior/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/9251e8a055/packages/timewarrior",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/9251e8a055/packages/timewarrior/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/9251e8a055/packages/timewarrior/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/a4cd7a7349/packages/timewarrior/cmake-CXXSniffer.cmake.patch",
-      "https://github.com/zrsx/termux-ng/blob/a4cd7a7349/packages/timewarrior/src-CMakeLists.txt.patch"
+      "https://github.com/zrsx/termux-ng/blob/9251e8a055/packages/timewarrior/cmake-CXXSniffer.cmake.patch",
+      "https://github.com/zrsx/termux-ng/blob/9251e8a055/packages/timewarrior/src-CMakeLists.txt.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/a4cd7a7349/packages/timewarrior/cmake-CXXSniffer.cmake.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/a4cd7a7349/packages/timewarrior/src-CMakeLists.txt.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/9251e8a055/packages/timewarrior/cmake-CXXSniffer.cmake.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/9251e8a055/packages/timewarrior/src-CMakeLists.txt.patch"
     ],
     "auto_updated": true
   },
