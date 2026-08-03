@@ -7112,15 +7112,15 @@
   },
   {
     "name": "dua",
-    "version": "2.40.1",
+    "version": "2.41.0",
     "description": "View disk space usage and delete unwanted data, fast",
     "homepage": "https://github.com/Byron/dua-cli",
     "depends": [],
-    "srcurl": "https://github.com/Byron/dua-cli/archive/refs/tags/v2.40.1.tar.gz",
+    "srcurl": "https://github.com/Byron/dua-cli/archive/refs/tags/v2.41.0.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/2162408743/packages/dua",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/2162408743/packages/dua/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/2162408743/packages/dua/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/9d3935a7d6/packages/dua",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/9d3935a7d6/packages/dua/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/9d3935a7d6/packages/dua/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -13998,7 +13998,7 @@
   },
   {
     "name": "jackett",
-    "version": "0.24.2315",
+    "version": "0.24.2323",
     "description": "API Support for your favorite torrent trackers",
     "homepage": "https://github.com/jackett/jackett",
     "depends": [
@@ -14006,11 +14006,11 @@
       "dotnet-host",
       "dotnet-runtime-9.0"
     ],
-    "srcurl": "https://github.com/Jackett/Jackett/archive/refs/tags/v0.24.2315.tar.gz",
+    "srcurl": "https://github.com/Jackett/Jackett/archive/refs/tags/v0.24.2323.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/1228fbd9dc/packages/jackett",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/1228fbd9dc/packages/jackett/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/1228fbd9dc/packages/jackett/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/a4456e9386/packages/jackett",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/a4456e9386/packages/jackett/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/a4456e9386/packages/jackett/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -24292,7 +24292,7 @@
   },
   {
     "name": "llama-cpp",
-    "version": "b10235",
+    "version": "b10238",
     "description": "LLM inference in C/C++",
     "homepage": "https://github.com/ggml-org/llama.cpp",
     "depends": [
@@ -24300,18 +24300,18 @@
       "libc++",
       "libcurl"
     ],
-    "srcurl": "https://github.com/ggml-org/llama.cpp/archive/refs/tags/b10235.tar.gz",
+    "srcurl": "https://github.com/ggml-org/llama.cpp/archive/refs/tags/b10238.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/08c2c13042/packages/llama-cpp",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/08c2c13042/packages/llama-cpp/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/08c2c13042/packages/llama-cpp/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/acb60ba704/packages/llama-cpp",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/acb60ba704/packages/llama-cpp/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/acb60ba704/packages/llama-cpp/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/08c2c13042/packages/llama-cpp/0001-search-dirs.patch",
-      "https://github.com/zrsx/termux-ng/blob/08c2c13042/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
+      "https://github.com/zrsx/termux-ng/blob/acb60ba704/packages/llama-cpp/0001-search-dirs.patch",
+      "https://github.com/zrsx/termux-ng/blob/acb60ba704/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/08c2c13042/packages/llama-cpp/0001-search-dirs.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/08c2c13042/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/acb60ba704/packages/llama-cpp/0001-search-dirs.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/acb60ba704/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
     ],
     "auto_updated": true
   },
@@ -29888,20 +29888,20 @@
   },
   {
     "name": "oh-my-posh",
-    "version": "30.3.0",
+    "version": "30.4.0",
     "description": "A prompt theme engine for any shell.",
     "homepage": "https://ohmyposh.dev",
     "depends": [],
-    "srcurl": "https://github.com/JanDeDobbeleer/oh-my-posh/archive/refs/tags/v30.3.0.tar.gz",
+    "srcurl": "https://github.com/JanDeDobbeleer/oh-my-posh/archive/refs/tags/v30.4.0.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/b51fc33e0b/packages/oh-my-posh",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/b51fc33e0b/packages/oh-my-posh/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/b51fc33e0b/packages/oh-my-posh/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/8420dd9c9a/packages/oh-my-posh",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/8420dd9c9a/packages/oh-my-posh/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/8420dd9c9a/packages/oh-my-posh/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/b51fc33e0b/packages/oh-my-posh/issue-26712.patch"
+      "https://github.com/zrsx/termux-ng/blob/8420dd9c9a/packages/oh-my-posh/issue-26712.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/b51fc33e0b/packages/oh-my-posh/issue-26712.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/8420dd9c9a/packages/oh-my-posh/issue-26712.patch"
     ],
     "auto_updated": true
   },
@@ -35209,15 +35209,15 @@
   },
   {
     "name": "railway-cli",
-    "version": "5.30.3",
+    "version": "5.30.4",
     "description": "This is the command line interface for Railway",
     "homepage": "https://railway.app",
     "depends": [],
-    "srcurl": "https://github.com/railwayapp/cli/archive/refs/tags/v5.30.3.tar.gz",
+    "srcurl": "https://github.com/railwayapp/cli/archive/refs/tags/v5.30.4.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/1e9005f9e9/packages/railway-cli",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/1e9005f9e9/packages/railway-cli/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/1e9005f9e9/packages/railway-cli/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/dc1995f2ae/packages/railway-cli",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/dc1995f2ae/packages/railway-cli/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/dc1995f2ae/packages/railway-cli/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -36474,17 +36474,17 @@
   },
   {
     "name": "rust-analyzer",
-    "version": "2026-07-27",
+    "version": "2026-08-03",
     "description": "A Rust compiler front-end for IDEs",
     "homepage": "https://rust-analyzer.github.io/",
     "depends": [
       "rust-src"
     ],
-    "srcurl": "https://github.com/rust-lang/rust-analyzer/archive/refs/tags/2026-07-27.tar.gz",
+    "srcurl": "https://github.com/rust-lang/rust-analyzer/archive/refs/tags/2026-08-03.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/f054958005/packages/rust-analyzer",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/f054958005/packages/rust-analyzer/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/f054958005/packages/rust-analyzer/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/33316adea6/packages/rust-analyzer",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/33316adea6/packages/rust-analyzer/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/33316adea6/packages/rust-analyzer/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
