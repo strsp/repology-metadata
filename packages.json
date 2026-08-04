@@ -24292,7 +24292,7 @@
   },
   {
     "name": "llama-cpp",
-    "version": "b10265",
+    "version": "b10271",
     "description": "LLM inference in C/C++",
     "homepage": "https://github.com/ggml-org/llama.cpp",
     "depends": [
@@ -24300,18 +24300,18 @@
       "libc++",
       "libcurl"
     ],
-    "srcurl": "https://github.com/ggml-org/llama.cpp/archive/refs/tags/b10265.tar.gz",
+    "srcurl": "https://github.com/ggml-org/llama.cpp/archive/refs/tags/b10271.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/f14d28ad57/packages/llama-cpp",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/f14d28ad57/packages/llama-cpp/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/f14d28ad57/packages/llama-cpp/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/b90e769369/packages/llama-cpp",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/b90e769369/packages/llama-cpp/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/b90e769369/packages/llama-cpp/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/f14d28ad57/packages/llama-cpp/0001-search-dirs.patch",
-      "https://github.com/zrsx/termux-ng/blob/f14d28ad57/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
+      "https://github.com/zrsx/termux-ng/blob/b90e769369/packages/llama-cpp/0001-search-dirs.patch",
+      "https://github.com/zrsx/termux-ng/blob/b90e769369/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/f14d28ad57/packages/llama-cpp/0001-search-dirs.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/f14d28ad57/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/b90e769369/packages/llama-cpp/0001-search-dirs.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/b90e769369/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
     ],
     "auto_updated": true
   },
@@ -38933,15 +38933,15 @@
   },
   {
     "name": "storj-uplink",
-    "version": "1.161.2",
+    "version": "1.161.4",
     "description": "Storj DCS Uplink CLI",
     "homepage": "https://www.storj.io/integrations/uplink-cli",
     "depends": [],
-    "srcurl": "https://github.com/storj/storj/archive/refs/tags/v1.161.2.tar.gz",
+    "srcurl": "https://github.com/storj/storj/archive/refs/tags/v1.161.4.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/268bb687c2/packages/storj-uplink",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/268bb687c2/packages/storj-uplink/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/268bb687c2/packages/storj-uplink/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/ba925215c6/packages/storj-uplink",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/ba925215c6/packages/storj-uplink/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/ba925215c6/packages/storj-uplink/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -39024,17 +39024,17 @@
   },
   {
     "name": "stunnel",
-    "version": "5.78",
+    "version": "5.80",
     "description": "Socket wrapper which can provide TLS support to ordinary applications",
     "homepage": "https://www.stunnel.org/",
     "depends": [
       "openssl"
     ],
-    "srcurl": "https://www.stunnel.org/downloads/stunnel-5.78.tar.gz",
+    "srcurl": "https://www.stunnel.org/downloads/stunnel-5.80.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/ac422a8fba/packages/stunnel",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/ac422a8fba/packages/stunnel/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/ac422a8fba/packages/stunnel/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/0631ac5aa6/packages/stunnel",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/0631ac5aa6/packages/stunnel/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/0631ac5aa6/packages/stunnel/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
