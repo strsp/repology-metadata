@@ -2522,15 +2522,15 @@
   },
   {
     "name": "biome2",
-    "version": "2.5.6",
+    "version": "2.5.7",
     "description": "A toolchain for web projects, aimed to provide functionalities to maintain them. Biome offers formatter and linter, usable via CLI and LSP",
     "homepage": "https://biomejs.dev/",
     "depends": [],
-    "srcurl": "https://github.com/biomejs/biome/archive/refs/tags/@biomejs/biome@2.5.6.tar.gz",
+    "srcurl": "https://github.com/biomejs/biome/archive/refs/tags/@biomejs/biome@2.5.7.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/3b3477aa70/packages/biome2",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/3b3477aa70/packages/biome2/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/3b3477aa70/packages/biome2/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/9a2d029243/packages/biome2",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/9a2d029243/packages/biome2/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/9a2d029243/packages/biome2/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -7817,7 +7817,7 @@
   },
   {
     "name": "erlang",
-    "version": "29.0.4",
+    "version": "29.0.5",
     "description": "General-purpose concurrent functional programming language",
     "homepage": "https://www.erlang.org/",
     "depends": [
@@ -7826,30 +7826,30 @@
       "ncurses",
       "zlib"
     ],
-    "srcurl": "https://github.com/erlang/otp/archive/refs/tags/OTP-29.0.4.tar.gz",
+    "srcurl": "https://github.com/erlang/otp/archive/refs/tags/OTP-29.0.5.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/e0d22eedd0/packages/erlang",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/e0d22eedd0/packages/erlang/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/e0d22eedd0/packages/erlang/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/6178147e82/packages/erlang",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/6178147e82/packages/erlang/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/6178147e82/packages/erlang/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/e0d22eedd0/packages/erlang/auto-download-ex_doc-noninteractively.patch.beforehostbuild",
-      "https://github.com/zrsx/termux-ng/blob/e0d22eedd0/packages/erlang/disable-docs-of-disabled-features.patch.beforehostbuild",
-      "https://github.com/zrsx/termux-ng/blob/e0d22eedd0/packages/erlang/do-not-set-manpath.patch",
-      "https://github.com/zrsx/termux-ng/blob/e0d22eedd0/packages/erlang/emulator-asmjit-virtmem-shm.patch",
-      "https://github.com/zrsx/termux-ng/blob/e0d22eedd0/packages/erlang/erts-configure.patch",
-      "https://github.com/zrsx/termux-ng/blob/e0d22eedd0/packages/erlang/erts-emulator-Makefile.in.patch",
-      "https://github.com/zrsx/termux-ng/blob/e0d22eedd0/packages/erlang/erts-emulator-nifs-common-socket_util.c.patch",
-      "https://github.com/zrsx/termux-ng/blob/e0d22eedd0/packages/erlang/lib-public_key-src-pubkey_os_cacerts.erl.patch"
+      "https://github.com/zrsx/termux-ng/blob/6178147e82/packages/erlang/auto-download-ex_doc-noninteractively.patch.beforehostbuild",
+      "https://github.com/zrsx/termux-ng/blob/6178147e82/packages/erlang/disable-docs-of-disabled-features.patch.beforehostbuild",
+      "https://github.com/zrsx/termux-ng/blob/6178147e82/packages/erlang/do-not-set-manpath.patch",
+      "https://github.com/zrsx/termux-ng/blob/6178147e82/packages/erlang/emulator-asmjit-virtmem-shm.patch",
+      "https://github.com/zrsx/termux-ng/blob/6178147e82/packages/erlang/erts-configure.patch",
+      "https://github.com/zrsx/termux-ng/blob/6178147e82/packages/erlang/erts-emulator-Makefile.in.patch",
+      "https://github.com/zrsx/termux-ng/blob/6178147e82/packages/erlang/erts-emulator-nifs-common-socket_util.c.patch",
+      "https://github.com/zrsx/termux-ng/blob/6178147e82/packages/erlang/lib-public_key-src-pubkey_os_cacerts.erl.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/e0d22eedd0/packages/erlang/auto-download-ex_doc-noninteractively.patch.beforehostbuild",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/e0d22eedd0/packages/erlang/disable-docs-of-disabled-features.patch.beforehostbuild",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/e0d22eedd0/packages/erlang/do-not-set-manpath.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/e0d22eedd0/packages/erlang/emulator-asmjit-virtmem-shm.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/e0d22eedd0/packages/erlang/erts-configure.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/e0d22eedd0/packages/erlang/erts-emulator-Makefile.in.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/e0d22eedd0/packages/erlang/erts-emulator-nifs-common-socket_util.c.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/e0d22eedd0/packages/erlang/lib-public_key-src-pubkey_os_cacerts.erl.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/6178147e82/packages/erlang/auto-download-ex_doc-noninteractively.patch.beforehostbuild",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/6178147e82/packages/erlang/disable-docs-of-disabled-features.patch.beforehostbuild",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/6178147e82/packages/erlang/do-not-set-manpath.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/6178147e82/packages/erlang/emulator-asmjit-virtmem-shm.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/6178147e82/packages/erlang/erts-configure.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/6178147e82/packages/erlang/erts-emulator-Makefile.in.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/6178147e82/packages/erlang/erts-emulator-nifs-common-socket_util.c.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/6178147e82/packages/erlang/lib-public_key-src-pubkey_os_cacerts.erl.patch"
     ],
     "auto_updated": true
   },
@@ -10464,15 +10464,15 @@
   },
   {
     "name": "glab-cli",
-    "version": "1.111.0",
+    "version": "1.112.0",
     "description": "A GitLab CLI tool bringing GitLab to your command line",
     "homepage": "https://gitlab.com/gitlab-org/cli",
     "depends": [],
-    "srcurl": "https://gitlab.com/gitlab-org/cli/-/archive/v1.111.0/cli-1.111.0.tar.bz2",
+    "srcurl": "https://gitlab.com/gitlab-org/cli/-/archive/v1.112.0/cli-1.112.0.tar.bz2",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/7191003ea1/packages/glab-cli",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/7191003ea1/packages/glab-cli/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/7191003ea1/packages/glab-cli/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/4b7791fb60/packages/glab-cli",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/4b7791fb60/packages/glab-cli/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/4b7791fb60/packages/glab-cli/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -11124,7 +11124,7 @@
   },
   {
     "name": "go-musicfox",
-    "version": "5.0.1",
+    "version": "5.0.2",
     "description": "A netease music player in terminal.",
     "homepage": "https://github.com/go-musicfox/go-musicfox",
     "depends": [
@@ -11132,11 +11132,11 @@
       "libflac",
       "libvorbis"
     ],
-    "srcurl": "https://github.com/go-musicfox/go-musicfox/archive/refs/tags/v5.0.1.tar.gz",
+    "srcurl": "https://github.com/go-musicfox/go-musicfox/archive/refs/tags/v5.0.2.tar.gz",
     "maintainer": "@anhoder",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/7e8118fd77/packages/go-musicfox",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/7e8118fd77/packages/go-musicfox/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/7e8118fd77/packages/go-musicfox/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/f69254cae6/packages/go-musicfox",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/f69254cae6/packages/go-musicfox/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/f69254cae6/packages/go-musicfox/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -24292,7 +24292,7 @@
   },
   {
     "name": "llama-cpp",
-    "version": "b10256",
+    "version": "b10265",
     "description": "LLM inference in C/C++",
     "homepage": "https://github.com/ggml-org/llama.cpp",
     "depends": [
@@ -24300,18 +24300,18 @@
       "libc++",
       "libcurl"
     ],
-    "srcurl": "https://github.com/ggml-org/llama.cpp/archive/refs/tags/b10256.tar.gz",
+    "srcurl": "https://github.com/ggml-org/llama.cpp/archive/refs/tags/b10265.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/718087c0ee/packages/llama-cpp",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/718087c0ee/packages/llama-cpp/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/718087c0ee/packages/llama-cpp/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/f14d28ad57/packages/llama-cpp",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/f14d28ad57/packages/llama-cpp/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/f14d28ad57/packages/llama-cpp/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/718087c0ee/packages/llama-cpp/0001-search-dirs.patch",
-      "https://github.com/zrsx/termux-ng/blob/718087c0ee/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
+      "https://github.com/zrsx/termux-ng/blob/f14d28ad57/packages/llama-cpp/0001-search-dirs.patch",
+      "https://github.com/zrsx/termux-ng/blob/f14d28ad57/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/718087c0ee/packages/llama-cpp/0001-search-dirs.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/718087c0ee/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/f14d28ad57/packages/llama-cpp/0001-search-dirs.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/f14d28ad57/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
     ],
     "auto_updated": true
   },
@@ -35065,15 +35065,15 @@
   },
   {
     "name": "quickjs-ng",
-    "version": "0.16.0",
+    "version": "0.16.1",
     "description": "Embeddable JavaScript engine in C (NG fork)",
     "homepage": "https://quickjs-ng.github.io/quickjs/",
     "depends": [],
-    "srcurl": "https://github.com/quickjs-ng/quickjs/archive/refs/tags/v0.16.0.tar.gz",
+    "srcurl": "https://github.com/quickjs-ng/quickjs/archive/refs/tags/v0.16.1.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/3d4361aca8/packages/quickjs-ng",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/3d4361aca8/packages/quickjs-ng/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/3d4361aca8/packages/quickjs-ng/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/67eb15b676/packages/quickjs-ng",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/67eb15b676/packages/quickjs-ng/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/67eb15b676/packages/quickjs-ng/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
