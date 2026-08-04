@@ -383,15 +383,15 @@
   },
   {
     "name": "agate",
-    "version": "3.3.23",
+    "version": "3.3.24",
     "description": "Very simple server for the Gemini hypertext protocol",
     "homepage": "https://github.com/mbrubeck/agate",
     "depends": [],
-    "srcurl": "https://github.com/mbrubeck/agate/archive/refs/tags/v3.3.23.tar.gz",
+    "srcurl": "https://github.com/mbrubeck/agate/archive/refs/tags/v3.3.24.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/1482f3b4b0/packages/agate",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/1482f3b4b0/packages/agate/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/1482f3b4b0/packages/agate/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/75db5f74ff/packages/agate",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/75db5f74ff/packages/agate/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/75db5f74ff/packages/agate/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -21215,15 +21215,15 @@
   },
   {
     "name": "libsecp256k1",
-    "version": "1:0.7.1",
+    "version": "1:0.8.0",
     "description": "Optimized c library for ECDSA signatures and seret/public key operations on curve secp256k1",
     "homepage": "https://github.com/bitcoin-core/secp256k1",
     "depends": [],
-    "srcurl": "https://github.com/bitcoin-core/secp256k1/archive/refs/tags/v0.7.1.tar.gz",
+    "srcurl": "https://github.com/bitcoin-core/secp256k1/archive/refs/tags/v0.8.0.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/c89b53cd51/packages/libsecp256k1",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/c89b53cd51/packages/libsecp256k1/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/c89b53cd51/packages/libsecp256k1/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/7e5aaa2012/packages/libsecp256k1",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/7e5aaa2012/packages/libsecp256k1/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/7e5aaa2012/packages/libsecp256k1/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -24292,7 +24292,7 @@
   },
   {
     "name": "llama-cpp",
-    "version": "b10242",
+    "version": "b10250",
     "description": "LLM inference in C/C++",
     "homepage": "https://github.com/ggml-org/llama.cpp",
     "depends": [
@@ -24300,18 +24300,18 @@
       "libc++",
       "libcurl"
     ],
-    "srcurl": "https://github.com/ggml-org/llama.cpp/archive/refs/tags/b10242.tar.gz",
+    "srcurl": "https://github.com/ggml-org/llama.cpp/archive/refs/tags/b10250.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/70545ca1ce/packages/llama-cpp",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/70545ca1ce/packages/llama-cpp/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/70545ca1ce/packages/llama-cpp/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/505c08a1f1/packages/llama-cpp",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/505c08a1f1/packages/llama-cpp/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/505c08a1f1/packages/llama-cpp/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/70545ca1ce/packages/llama-cpp/0001-search-dirs.patch",
-      "https://github.com/zrsx/termux-ng/blob/70545ca1ce/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
+      "https://github.com/zrsx/termux-ng/blob/505c08a1f1/packages/llama-cpp/0001-search-dirs.patch",
+      "https://github.com/zrsx/termux-ng/blob/505c08a1f1/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/70545ca1ce/packages/llama-cpp/0001-search-dirs.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/70545ca1ce/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/505c08a1f1/packages/llama-cpp/0001-search-dirs.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/505c08a1f1/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
     ],
     "auto_updated": true
   },
@@ -31945,15 +31945,15 @@
   },
   {
     "name": "pdfcpu",
-    "version": "0.13.0",
+    "version": "0.14.0",
     "description": "A PDF processor written in Go",
     "homepage": "https://pdfcpu.io",
     "depends": [],
-    "srcurl": "https://github.com/pdfcpu/pdfcpu/archive/refs/tags/v0.13.0.tar.gz",
+    "srcurl": "https://github.com/pdfcpu/pdfcpu/archive/refs/tags/v0.14.0.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/41610bf048/packages/pdfcpu",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/41610bf048/packages/pdfcpu/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/41610bf048/packages/pdfcpu/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/37a4089b51/packages/pdfcpu",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/37a4089b51/packages/pdfcpu/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/37a4089b51/packages/pdfcpu/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -38167,15 +38167,15 @@
   },
   {
     "name": "speedtest-go",
-    "version": "1.7.10",
+    "version": "1.7.11",
     "description": "Command line interface to test internet speed using speedtest.net",
     "homepage": "https://github.com/showwin/speedtest-go/",
     "depends": [],
-    "srcurl": "https://github.com/showwin/speedtest-go/archive/refs/tags/v1.7.10.tar.gz",
+    "srcurl": "https://github.com/showwin/speedtest-go/archive/refs/tags/v1.7.11.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/f4b5115c25/packages/speedtest-go",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/f4b5115c25/packages/speedtest-go/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/f4b5115c25/packages/speedtest-go/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/db58b0f4f0/packages/speedtest-go",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/db58b0f4f0/packages/speedtest-go/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/db58b0f4f0/packages/speedtest-go/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
