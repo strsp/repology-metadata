@@ -13998,7 +13998,7 @@
   },
   {
     "name": "jackett",
-    "version": "0.24.2327",
+    "version": "0.24.2330",
     "description": "API Support for your favorite torrent trackers",
     "homepage": "https://github.com/jackett/jackett",
     "depends": [
@@ -14006,11 +14006,11 @@
       "dotnet-host",
       "dotnet-runtime-9.0"
     ],
-    "srcurl": "https://github.com/Jackett/Jackett/archive/refs/tags/v0.24.2327.tar.gz",
+    "srcurl": "https://github.com/Jackett/Jackett/archive/refs/tags/v0.24.2330.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/0d4acf0562/packages/jackett",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/0d4acf0562/packages/jackett/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/0d4acf0562/packages/jackett/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/bf0c4fc288/packages/jackett",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/bf0c4fc288/packages/jackett/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/bf0c4fc288/packages/jackett/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -25732,15 +25732,15 @@
   },
   {
     "name": "matterircd",
-    "version": "0.30.0",
+    "version": "0.31.0",
     "description": "Connect to your mattermost or slack using your IRC-client of choice",
     "homepage": "https://github.com/42wim/matterircd",
     "depends": [],
-    "srcurl": "https://github.com/42wim/matterircd/archive/refs/tags/v0.30.0.tar.gz",
+    "srcurl": "https://github.com/42wim/matterircd/archive/refs/tags/v0.31.0.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/730809fc5a/packages/matterircd",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/730809fc5a/packages/matterircd/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/730809fc5a/packages/matterircd/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/46491f0f29/packages/matterircd",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/46491f0f29/packages/matterircd/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/46491f0f29/packages/matterircd/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -29888,20 +29888,20 @@
   },
   {
     "name": "oh-my-posh",
-    "version": "30.5.0",
+    "version": "30.6.1",
     "description": "A prompt theme engine for any shell.",
     "homepage": "https://ohmyposh.dev",
     "depends": [],
-    "srcurl": "https://github.com/JanDeDobbeleer/oh-my-posh/archive/refs/tags/v30.5.0.tar.gz",
+    "srcurl": "https://github.com/JanDeDobbeleer/oh-my-posh/archive/refs/tags/v30.6.1.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/7d22b2caf2/packages/oh-my-posh",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/7d22b2caf2/packages/oh-my-posh/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/7d22b2caf2/packages/oh-my-posh/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/49b0bc18af/packages/oh-my-posh",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/49b0bc18af/packages/oh-my-posh/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/49b0bc18af/packages/oh-my-posh/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/7d22b2caf2/packages/oh-my-posh/issue-26712.patch"
+      "https://github.com/zrsx/termux-ng/blob/49b0bc18af/packages/oh-my-posh/issue-26712.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/7d22b2caf2/packages/oh-my-posh/issue-26712.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/49b0bc18af/packages/oh-my-posh/issue-26712.patch"
     ],
     "auto_updated": true
   },
@@ -60236,7 +60236,7 @@
   },
   {
     "name": "libxfont2",
-    "version": "2.0.7",
+    "version": "2.0.9",
     "description": "X11 font rasterisation library",
     "homepage": "https://xorg.freedesktop.org/",
     "depends": [
@@ -60244,16 +60244,16 @@
       "libfontenc",
       "zlib"
     ],
-    "srcurl": "https://xorg.freedesktop.org/releases/individual/lib/libXfont2-2.0.7.tar.xz",
+    "srcurl": "https://xorg.freedesktop.org/releases/individual/lib/libXfont2-2.0.9.tar.xz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/4fce9daa81/x11-packages/libxfont2",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/4fce9daa81/x11-packages/libxfont2/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/4fce9daa81/x11-packages/libxfont2/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/90984915df/x11-packages/libxfont2",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/90984915df/x11-packages/libxfont2/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/90984915df/x11-packages/libxfont2/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/4fce9daa81/x11-packages/libxfont2/libXfont2-2.0.1_src_fc_fslibos.h.patch"
+      "https://github.com/zrsx/termux-ng/blob/90984915df/x11-packages/libxfont2/libXfont2-2.0.1_src_fc_fslibos.h.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/4fce9daa81/x11-packages/libxfont2/libXfont2-2.0.1_src_fc_fslibos.h.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/90984915df/x11-packages/libxfont2/libXfont2-2.0.1_src_fc_fslibos.h.patch"
     ],
     "auto_updated": true
   },
