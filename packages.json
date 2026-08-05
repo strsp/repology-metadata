@@ -24292,7 +24292,7 @@
   },
   {
     "name": "llama-cpp",
-    "version": "b10276",
+    "version": "b10282",
     "description": "LLM inference in C/C++",
     "homepage": "https://github.com/ggml-org/llama.cpp",
     "depends": [
@@ -24300,18 +24300,18 @@
       "libc++",
       "libcurl"
     ],
-    "srcurl": "https://github.com/ggml-org/llama.cpp/archive/refs/tags/b10276.tar.gz",
+    "srcurl": "https://github.com/ggml-org/llama.cpp/archive/refs/tags/b10282.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/c5fb2ec5c3/packages/llama-cpp",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/c5fb2ec5c3/packages/llama-cpp/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/c5fb2ec5c3/packages/llama-cpp/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/0683ccf1e1/packages/llama-cpp",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/0683ccf1e1/packages/llama-cpp/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/0683ccf1e1/packages/llama-cpp/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/c5fb2ec5c3/packages/llama-cpp/0001-search-dirs.patch",
-      "https://github.com/zrsx/termux-ng/blob/c5fb2ec5c3/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
+      "https://github.com/zrsx/termux-ng/blob/0683ccf1e1/packages/llama-cpp/0001-search-dirs.patch",
+      "https://github.com/zrsx/termux-ng/blob/0683ccf1e1/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/c5fb2ec5c3/packages/llama-cpp/0001-search-dirs.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/c5fb2ec5c3/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/0683ccf1e1/packages/llama-cpp/0001-search-dirs.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/0683ccf1e1/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
     ],
     "auto_updated": true
   },
@@ -26326,20 +26326,20 @@
   },
   {
     "name": "mediamtx",
-    "version": "1.19.3",
+    "version": "1.20.0",
     "description": "Ready-to-use SRT / WebRTC / RTSP / RTMP / LL-HLS media server and media proxy",
     "homepage": "https://github.com/bluenviron/mediamtx",
     "depends": [],
-    "srcurl": "https://github.com/bluenviron/mediamtx/archive/refs/tags/v1.19.3.tar.gz",
+    "srcurl": "https://github.com/bluenviron/mediamtx/archive/refs/tags/v1.20.0.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/f6a0db39cb/packages/mediamtx",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/f6a0db39cb/packages/mediamtx/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/f6a0db39cb/packages/mediamtx/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/9d9b785f0c/packages/mediamtx",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/9d9b785f0c/packages/mediamtx/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/9d9b785f0c/packages/mediamtx/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/f6a0db39cb/packages/mediamtx/internal-core-core.go.patch"
+      "https://github.com/zrsx/termux-ng/blob/9d9b785f0c/packages/mediamtx/internal-core-core.go.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/f6a0db39cb/packages/mediamtx/internal-core-core.go.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/9d9b785f0c/packages/mediamtx/internal-core-core.go.patch"
     ],
     "auto_updated": true
   },
@@ -29888,20 +29888,20 @@
   },
   {
     "name": "oh-my-posh",
-    "version": "30.6.1",
+    "version": "30.6.2",
     "description": "A prompt theme engine for any shell.",
     "homepage": "https://ohmyposh.dev",
     "depends": [],
-    "srcurl": "https://github.com/JanDeDobbeleer/oh-my-posh/archive/refs/tags/v30.6.1.tar.gz",
+    "srcurl": "https://github.com/JanDeDobbeleer/oh-my-posh/archive/refs/tags/v30.6.2.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/49b0bc18af/packages/oh-my-posh",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/49b0bc18af/packages/oh-my-posh/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/49b0bc18af/packages/oh-my-posh/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/da75656b4b/packages/oh-my-posh",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/da75656b4b/packages/oh-my-posh/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/da75656b4b/packages/oh-my-posh/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/49b0bc18af/packages/oh-my-posh/issue-26712.patch"
+      "https://github.com/zrsx/termux-ng/blob/da75656b4b/packages/oh-my-posh/issue-26712.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/49b0bc18af/packages/oh-my-posh/issue-26712.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/da75656b4b/packages/oh-my-posh/issue-26712.patch"
     ],
     "auto_updated": true
   },
@@ -38933,15 +38933,15 @@
   },
   {
     "name": "storj-uplink",
-    "version": "1.161.4",
+    "version": "1.161.5",
     "description": "Storj DCS Uplink CLI",
     "homepage": "https://www.storj.io/integrations/uplink-cli",
     "depends": [],
-    "srcurl": "https://github.com/storj/storj/archive/refs/tags/v1.161.4.tar.gz",
+    "srcurl": "https://github.com/storj/storj/archive/refs/tags/v1.161.5.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/ba925215c6/packages/storj-uplink",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/ba925215c6/packages/storj-uplink/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/ba925215c6/packages/storj-uplink/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/8ed60e5dd9/packages/storj-uplink",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/8ed60e5dd9/packages/storj-uplink/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/8ed60e5dd9/packages/storj-uplink/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -39532,15 +39532,15 @@
   },
   {
     "name": "syncthing",
-    "version": "2.1.2",
+    "version": "2.1.3",
     "description": "Decentralized file synchronization",
     "homepage": "https://syncthing.net/",
     "depends": [],
-    "srcurl": "https://github.com/syncthing/syncthing/archive/refs/tags/v2.1.2.tar.gz",
+    "srcurl": "https://github.com/syncthing/syncthing/archive/refs/tags/v2.1.3.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/6266f1078c/packages/syncthing",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/6266f1078c/packages/syncthing/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/6266f1078c/packages/syncthing/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/8318b61013/packages/syncthing",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/8318b61013/packages/syncthing/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/8318b61013/packages/syncthing/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -45736,15 +45736,15 @@
   },
   {
     "name": "zola",
-    "version": "0.22.1",
+    "version": "0.23.1",
     "description": "A fast static site generator in a single binary with everything built-in.",
     "homepage": "https://github.com/getzola/zola",
     "depends": [],
-    "srcurl": "https://github.com/getzola/zola/archive/refs/tags/v0.22.1.tar.gz",
+    "srcurl": "https://github.com/getzola/zola/archive/refs/tags/v0.23.1.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/5520dc8539/packages/zola",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/5520dc8539/packages/zola/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/5520dc8539/packages/zola/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/1e2841d12f/packages/zola",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/1e2841d12f/packages/zola/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/1e2841d12f/packages/zola/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
