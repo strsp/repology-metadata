@@ -8880,15 +8880,15 @@
   },
   {
     "name": "flyctl",
-    "version": "0.4.78",
+    "version": "0.4.79",
     "description": "Command line tools for fly.io services",
     "homepage": "https://fly.io",
     "depends": [],
-    "srcurl": "https://github.com/superfly/flyctl/archive/refs/tags/v0.4.78.tar.gz",
+    "srcurl": "https://github.com/superfly/flyctl/archive/refs/tags/v0.4.79.tar.gz",
     "maintainer": "Yaksh Bariya <thunder-coding@termux.dev>",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/417059e382/packages/flyctl",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/417059e382/packages/flyctl/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/417059e382/packages/flyctl/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/a4368bd8b4/packages/flyctl",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/a4368bd8b4/packages/flyctl/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/a4368bd8b4/packages/flyctl/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -16589,7 +16589,7 @@
   },
   {
     "name": "libcurl",
-    "version": "8.20.0",
+    "version": "8.21.0",
     "description": "Easy-to-use client-side URL transfer library",
     "homepage": "https://curl.se/",
     "depends": [
@@ -16600,11 +16600,11 @@
       "openssl",
       "zlib"
     ],
-    "srcurl": "https://github.com/curl/curl/releases/download/curl-8_20_0/curl-8.20.0.tar.xz",
+    "srcurl": "https://github.com/curl/curl/releases/download/curl-8_21_0/curl-8.21.0.tar.xz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/30c36e9891/packages/libcurl",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/30c36e9891/packages/libcurl/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/30c36e9891/packages/libcurl/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/509718cd0a/packages/libcurl",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/509718cd0a/packages/libcurl/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/509718cd0a/packages/libcurl/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -24292,7 +24292,7 @@
   },
   {
     "name": "llama-cpp",
-    "version": "b10282",
+    "version": "b10288",
     "description": "LLM inference in C/C++",
     "homepage": "https://github.com/ggml-org/llama.cpp",
     "depends": [
@@ -24300,18 +24300,18 @@
       "libc++",
       "libcurl"
     ],
-    "srcurl": "https://github.com/ggml-org/llama.cpp/archive/refs/tags/b10282.tar.gz",
+    "srcurl": "https://github.com/ggml-org/llama.cpp/archive/refs/tags/b10288.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/0683ccf1e1/packages/llama-cpp",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/0683ccf1e1/packages/llama-cpp/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/0683ccf1e1/packages/llama-cpp/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/c14fb4edb2/packages/llama-cpp",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/c14fb4edb2/packages/llama-cpp/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/c14fb4edb2/packages/llama-cpp/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/0683ccf1e1/packages/llama-cpp/0001-search-dirs.patch",
-      "https://github.com/zrsx/termux-ng/blob/0683ccf1e1/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
+      "https://github.com/zrsx/termux-ng/blob/c14fb4edb2/packages/llama-cpp/0001-search-dirs.patch",
+      "https://github.com/zrsx/termux-ng/blob/c14fb4edb2/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/0683ccf1e1/packages/llama-cpp/0001-search-dirs.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/0683ccf1e1/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/c14fb4edb2/packages/llama-cpp/0001-search-dirs.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/c14fb4edb2/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
     ],
     "auto_updated": true
   },
@@ -42390,7 +42390,7 @@
   },
   {
     "name": "ugrep",
-    "version": "7.8.3",
+    "version": "7.8.4",
     "description": "A faster, user-friendly and compatible grep replacement",
     "homepage": "https://github.com/Genivia/ugrep",
     "depends": [
@@ -42403,16 +42403,16 @@
       "zlib",
       "zstd"
     ],
-    "srcurl": "https://github.com/Genivia/ugrep/archive/refs/tags/v7.8.3.tar.gz",
+    "srcurl": "https://github.com/Genivia/ugrep/archive/refs/tags/v7.8.4.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/eda5ea1eda/packages/ugrep",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/eda5ea1eda/packages/ugrep/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/eda5ea1eda/packages/ugrep/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/c5c78eff69/packages/ugrep",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/c5c78eff69/packages/ugrep/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/c5c78eff69/packages/ugrep/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/eda5ea1eda/packages/ugrep/dependencies-fix.patch"
+      "https://github.com/zrsx/termux-ng/blob/c5c78eff69/packages/ugrep/dependencies-fix.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/eda5ea1eda/packages/ugrep/dependencies-fix.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/c5c78eff69/packages/ugrep/dependencies-fix.patch"
     ],
     "auto_updated": true
   },
@@ -42969,17 +42969,17 @@
   },
   {
     "name": "uv",
-    "version": "0.12.1",
+    "version": "0.12.2",
     "description": "An extremely fast Python package installer and resolver, written in Rust.",
     "homepage": "https://docs.astral.sh/uv/",
     "depends": [
       "zstd"
     ],
-    "srcurl": "https://github.com/astral-sh/uv/archive/refs/tags/0.12.1.tar.gz",
+    "srcurl": "https://github.com/astral-sh/uv/archive/refs/tags/0.12.2.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/78bf9475e0/packages/uv",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/78bf9475e0/packages/uv/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/78bf9475e0/packages/uv/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/012c0c3321/packages/uv",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/012c0c3321/packages/uv/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/012c0c3321/packages/uv/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
