@@ -5198,15 +5198,15 @@
   },
   {
     "name": "croc",
-    "version": "1:11.0.1",
+    "version": "1:11.0.2",
     "description": "Easily and securely send things from one computer to another",
     "homepage": "https://github.com/schollz/croc",
     "depends": [],
-    "srcurl": "https://github.com/schollz/croc/archive/refs/tags/v11.0.1.tar.gz",
+    "srcurl": "https://github.com/schollz/croc/archive/refs/tags/v11.0.2.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/21746cf0c3/packages/croc",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/21746cf0c3/packages/croc/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/21746cf0c3/packages/croc/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/1d42827477/packages/croc",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/1d42827477/packages/croc/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/1d42827477/packages/croc/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -15869,7 +15869,7 @@
   },
   {
     "name": "libblosc2",
-    "version": "3.3.1",
+    "version": "3.3.2",
     "description": "A blocking, shuffling and loss-less compression library",
     "homepage": "https://www.blosc.org",
     "depends": [
@@ -15877,16 +15877,16 @@
       "zlib",
       "zstd"
     ],
-    "srcurl": "https://github.com/Blosc/c-blosc2/archive/refs/tags/v3.3.1.tar.gz",
+    "srcurl": "https://github.com/Blosc/c-blosc2/archive/refs/tags/v3.3.2.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/48ef3b5765/packages/libblosc2",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/48ef3b5765/packages/libblosc2/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/48ef3b5765/packages/libblosc2/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/6521b5f01d/packages/libblosc2",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/6521b5f01d/packages/libblosc2/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/6521b5f01d/packages/libblosc2/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/48ef3b5765/packages/libblosc2/0001-fix-posix-memalign.patch"
+      "https://github.com/zrsx/termux-ng/blob/6521b5f01d/packages/libblosc2/0001-fix-posix-memalign.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/48ef3b5765/packages/libblosc2/0001-fix-posix-memalign.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/6521b5f01d/packages/libblosc2/0001-fix-posix-memalign.patch"
     ],
     "auto_updated": true
   },
@@ -24292,7 +24292,7 @@
   },
   {
     "name": "llama-cpp",
-    "version": "b10291",
+    "version": "b10297",
     "description": "LLM inference in C/C++",
     "homepage": "https://github.com/ggml-org/llama.cpp",
     "depends": [
@@ -24300,18 +24300,18 @@
       "libc++",
       "libcurl"
     ],
-    "srcurl": "https://github.com/ggml-org/llama.cpp/archive/refs/tags/b10291.tar.gz",
+    "srcurl": "https://github.com/ggml-org/llama.cpp/archive/refs/tags/b10297.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/725adc4dc8/packages/llama-cpp",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/725adc4dc8/packages/llama-cpp/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/725adc4dc8/packages/llama-cpp/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/85c196dce6/packages/llama-cpp",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/85c196dce6/packages/llama-cpp/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/85c196dce6/packages/llama-cpp/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/725adc4dc8/packages/llama-cpp/0001-search-dirs.patch",
-      "https://github.com/zrsx/termux-ng/blob/725adc4dc8/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
+      "https://github.com/zrsx/termux-ng/blob/85c196dce6/packages/llama-cpp/0001-search-dirs.patch",
+      "https://github.com/zrsx/termux-ng/blob/85c196dce6/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/725adc4dc8/packages/llama-cpp/0001-search-dirs.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/725adc4dc8/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/85c196dce6/packages/llama-cpp/0001-search-dirs.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/85c196dce6/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
     ],
     "auto_updated": true
   },
@@ -47154,7 +47154,7 @@
   },
   {
     "name": "openvpn",
-    "version": "2.7.5",
+    "version": "2.7.6",
     "description": "An easy-to-use, robust, and highly configurable VPN (Virtual Private Network)",
     "homepage": "https://openvpn.net",
     "depends": [
@@ -47164,20 +47164,20 @@
       "net-tools",
       "openssl"
     ],
-    "srcurl": "https://github.com/OpenVPN/openvpn/archive/refs/tags/v2.7.5.tar.gz",
+    "srcurl": "https://github.com/OpenVPN/openvpn/archive/refs/tags/v2.7.6.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/6a085ec287/root-packages/openvpn",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/6a085ec287/root-packages/openvpn/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/6a085ec287/root-packages/openvpn/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/bb5d362d58/root-packages/openvpn",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/bb5d362d58/root-packages/openvpn/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/bb5d362d58/root-packages/openvpn/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/6a085ec287/root-packages/openvpn/src-openvpn-console_builtin.c.patch",
-      "https://github.com/zrsx/termux-ng/blob/6a085ec287/root-packages/openvpn/src-openvpn-options.c.patch",
-      "https://github.com/zrsx/termux-ng/blob/6a085ec287/root-packages/openvpn/src-openvpn-tun.c.patch"
+      "https://github.com/zrsx/termux-ng/blob/bb5d362d58/root-packages/openvpn/src-openvpn-console_builtin.c.patch",
+      "https://github.com/zrsx/termux-ng/blob/bb5d362d58/root-packages/openvpn/src-openvpn-options.c.patch",
+      "https://github.com/zrsx/termux-ng/blob/bb5d362d58/root-packages/openvpn/src-openvpn-tun.c.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/6a085ec287/root-packages/openvpn/src-openvpn-console_builtin.c.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/6a085ec287/root-packages/openvpn/src-openvpn-options.c.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/6a085ec287/root-packages/openvpn/src-openvpn-tun.c.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/bb5d362d58/root-packages/openvpn/src-openvpn-console_builtin.c.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/bb5d362d58/root-packages/openvpn/src-openvpn-options.c.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/bb5d362d58/root-packages/openvpn/src-openvpn-tun.c.patch"
     ],
     "auto_updated": true
   },
