@@ -8927,7 +8927,7 @@
   },
   {
     "name": "fontconfig",
-    "version": "2.18.2",
+    "version": "2.18.3",
     "description": "Library for configuring and customizing font access",
     "homepage": "https://www.freedesktop.org/wiki/Software/fontconfig/",
     "depends": [
@@ -8935,16 +8935,16 @@
       "libexpat",
       "ttf-dejavu"
     ],
-    "srcurl": "https://gitlab.freedesktop.org/fontconfig/fontconfig/-/archive/2.18.2/fontconfig-2.18.2.tar.gz",
+    "srcurl": "https://gitlab.freedesktop.org/fontconfig/fontconfig/-/archive/2.18.3/fontconfig-2.18.3.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/56e62f1f15/packages/fontconfig",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/56e62f1f15/packages/fontconfig/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/56e62f1f15/packages/fontconfig/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/094f09a264/packages/fontconfig",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/094f09a264/packages/fontconfig/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/094f09a264/packages/fontconfig/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/56e62f1f15/packages/fontconfig/fcatomic.c.patch"
+      "https://github.com/zrsx/termux-ng/blob/094f09a264/packages/fontconfig/fcatomic.c.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/56e62f1f15/packages/fontconfig/fcatomic.c.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/094f09a264/packages/fontconfig/fcatomic.c.patch"
     ],
     "auto_updated": true
   },
@@ -13183,15 +13183,15 @@
   },
   {
     "name": "hz",
-    "version": "0.10.5",
+    "version": "0.10.6",
     "description": "A high-performance and strong-extensibility Go HTTP framework that helps developers build microservices",
     "homepage": "https://www.cloudwego.io",
     "depends": [],
-    "srcurl": "https://github.com/cloudwego/hertz/archive/refs/tags/v0.10.5.tar.gz",
+    "srcurl": "https://github.com/cloudwego/hertz/archive/refs/tags/v0.10.6.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/974c1d9707/packages/hz",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/974c1d9707/packages/hz/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/974c1d9707/packages/hz/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/1425656196/packages/hz",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/1425656196/packages/hz/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/1425656196/packages/hz/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -13998,7 +13998,7 @@
   },
   {
     "name": "jackett",
-    "version": "0.24.2330",
+    "version": "0.24.2335",
     "description": "API Support for your favorite torrent trackers",
     "homepage": "https://github.com/jackett/jackett",
     "depends": [
@@ -14006,11 +14006,11 @@
       "dotnet-host",
       "dotnet-runtime-9.0"
     ],
-    "srcurl": "https://github.com/Jackett/Jackett/archive/refs/tags/v0.24.2330.tar.gz",
+    "srcurl": "https://github.com/Jackett/Jackett/archive/refs/tags/v0.24.2335.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/bf0c4fc288/packages/jackett",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/bf0c4fc288/packages/jackett/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/bf0c4fc288/packages/jackett/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/006628de9d/packages/jackett",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/006628de9d/packages/jackett/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/006628de9d/packages/jackett/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -14133,15 +14133,15 @@
   },
   {
     "name": "jfrog-cli",
-    "version": "2.117.0",
+    "version": "2.118.0",
     "description": "A CLI for JFrog products",
     "homepage": "https://jfrog.com/getcli",
     "depends": [],
-    "srcurl": "https://github.com/jfrog/jfrog-cli/archive/refs/tags/v2.117.0.tar.gz",
+    "srcurl": "https://github.com/jfrog/jfrog-cli/archive/refs/tags/v2.118.0.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/10a0b4d5f6/packages/jfrog-cli",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/10a0b4d5f6/packages/jfrog-cli/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/10a0b4d5f6/packages/jfrog-cli/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/03c35186f5/packages/jfrog-cli",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/03c35186f5/packages/jfrog-cli/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/03c35186f5/packages/jfrog-cli/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -17395,17 +17395,17 @@
   },
   {
     "name": "libftxui",
-    "version": "7.0.2",
+    "version": "7.0.3",
     "description": "A simple C++ library for terminal based user interface",
     "homepage": "https://github.com/ArthurSonzogni/FTXUI",
     "depends": [
       "libc++"
     ],
-    "srcurl": "https://github.com/ArthurSonzogni/FTXUI/archive/refs/tags/v7.0.2.tar.gz",
+    "srcurl": "https://github.com/ArthurSonzogni/FTXUI/archive/refs/tags/v7.0.3.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/0976084bec/packages/libftxui",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/0976084bec/packages/libftxui/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/0976084bec/packages/libftxui/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/105ec79c6a/packages/libftxui",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/105ec79c6a/packages/libftxui/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/105ec79c6a/packages/libftxui/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -24292,7 +24292,7 @@
   },
   {
     "name": "llama-cpp",
-    "version": "b10290",
+    "version": "b10291",
     "description": "LLM inference in C/C++",
     "homepage": "https://github.com/ggml-org/llama.cpp",
     "depends": [
@@ -24300,18 +24300,18 @@
       "libc++",
       "libcurl"
     ],
-    "srcurl": "https://github.com/ggml-org/llama.cpp/archive/refs/tags/b10290.tar.gz",
+    "srcurl": "https://github.com/ggml-org/llama.cpp/archive/refs/tags/b10291.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/a4e48e5c16/packages/llama-cpp",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/a4e48e5c16/packages/llama-cpp/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/a4e48e5c16/packages/llama-cpp/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/725adc4dc8/packages/llama-cpp",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/725adc4dc8/packages/llama-cpp/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/725adc4dc8/packages/llama-cpp/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/a4e48e5c16/packages/llama-cpp/0001-search-dirs.patch",
-      "https://github.com/zrsx/termux-ng/blob/a4e48e5c16/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
+      "https://github.com/zrsx/termux-ng/blob/725adc4dc8/packages/llama-cpp/0001-search-dirs.patch",
+      "https://github.com/zrsx/termux-ng/blob/725adc4dc8/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/a4e48e5c16/packages/llama-cpp/0001-search-dirs.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/a4e48e5c16/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/725adc4dc8/packages/llama-cpp/0001-search-dirs.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/725adc4dc8/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
     ],
     "auto_updated": true
   },
@@ -38933,15 +38933,15 @@
   },
   {
     "name": "storj-uplink",
-    "version": "1.161.5",
+    "version": "1.161.6",
     "description": "Storj DCS Uplink CLI",
     "homepage": "https://www.storj.io/integrations/uplink-cli",
     "depends": [],
-    "srcurl": "https://github.com/storj/storj/archive/refs/tags/v1.161.5.tar.gz",
+    "srcurl": "https://github.com/storj/storj/archive/refs/tags/v1.161.6.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/8ed60e5dd9/packages/storj-uplink",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/8ed60e5dd9/packages/storj-uplink/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/8ed60e5dd9/packages/storj-uplink/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/7cbe3b6add/packages/storj-uplink",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/7cbe3b6add/packages/storj-uplink/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/7cbe3b6add/packages/storj-uplink/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
