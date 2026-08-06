@@ -2040,15 +2040,15 @@
   },
   {
     "name": "b3sum",
-    "version": "1.8.5",
+    "version": "1.8.6",
     "description": "A command line utility for calculating BLAKE3 hashes, similar to Coreutils tools like b2sum or md5sum",
     "homepage": "https://github.com/BLAKE3-team/BLAKE3/tree/master/b3sum",
     "depends": [],
-    "srcurl": "https://github.com/BLAKE3-team/BLAKE3/archive/refs/tags/1.8.5.tar.gz",
+    "srcurl": "https://github.com/BLAKE3-team/BLAKE3/archive/refs/tags/1.8.6.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/3640ee492e/packages/b3sum",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/3640ee492e/packages/b3sum/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/3640ee492e/packages/b3sum/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/342257bee0/packages/b3sum",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/342257bee0/packages/b3sum/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/342257bee0/packages/b3sum/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -24292,7 +24292,7 @@
   },
   {
     "name": "llama-cpp",
-    "version": "b10288",
+    "version": "b10290",
     "description": "LLM inference in C/C++",
     "homepage": "https://github.com/ggml-org/llama.cpp",
     "depends": [
@@ -24300,18 +24300,18 @@
       "libc++",
       "libcurl"
     ],
-    "srcurl": "https://github.com/ggml-org/llama.cpp/archive/refs/tags/b10288.tar.gz",
+    "srcurl": "https://github.com/ggml-org/llama.cpp/archive/refs/tags/b10290.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/c14fb4edb2/packages/llama-cpp",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/c14fb4edb2/packages/llama-cpp/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/c14fb4edb2/packages/llama-cpp/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/a4e48e5c16/packages/llama-cpp",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/a4e48e5c16/packages/llama-cpp/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/a4e48e5c16/packages/llama-cpp/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/c14fb4edb2/packages/llama-cpp/0001-search-dirs.patch",
-      "https://github.com/zrsx/termux-ng/blob/c14fb4edb2/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
+      "https://github.com/zrsx/termux-ng/blob/a4e48e5c16/packages/llama-cpp/0001-search-dirs.patch",
+      "https://github.com/zrsx/termux-ng/blob/a4e48e5c16/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/c14fb4edb2/packages/llama-cpp/0001-search-dirs.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/c14fb4edb2/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/a4e48e5c16/packages/llama-cpp/0001-search-dirs.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/a4e48e5c16/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
     ],
     "auto_updated": true
   },
@@ -35668,17 +35668,17 @@
   },
   {
     "name": "remind",
-    "version": "1:06.02.09",
+    "version": "1:06.02.10",
     "description": "Sophisticated calendar and alarm program",
     "homepage": "https://dianne.skoll.ca/projects/remind/",
     "depends": [
       "libandroid-glob"
     ],
-    "srcurl": "https://dianne.skoll.ca/projects/remind/download/remind-06.02.09.tar.gz",
+    "srcurl": "https://dianne.skoll.ca/projects/remind/download/remind-06.02.10.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/c5043dc74e/packages/remind",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/c5043dc74e/packages/remind/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/c5043dc74e/packages/remind/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/f921522e44/packages/remind",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/f921522e44/packages/remind/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/f921522e44/packages/remind/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
