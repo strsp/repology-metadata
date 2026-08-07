@@ -7681,15 +7681,15 @@
   },
   {
     "name": "emmylua-ls",
-    "version": "0.24.0",
+    "version": "0.25.0",
     "description": "Emmy Lua Language Server coded in Rust",
     "homepage": "https://github.com/EmmyLuaLs/emmylua-analyzer-rust",
     "depends": [],
-    "srcurl": "https://github.com/EmmyLuaLs/emmylua-analyzer-rust/archive/refs/tags/0.24.0.tar.gz",
+    "srcurl": "https://github.com/EmmyLuaLs/emmylua-analyzer-rust/archive/refs/tags/0.25.0.tar.gz",
     "maintainer": "Steven Xu @stevenxxiu",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/5a467dc5d7/packages/emmylua-ls",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/5a467dc5d7/packages/emmylua-ls/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/5a467dc5d7/packages/emmylua-ls/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/f89584e989/packages/emmylua-ls",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/f89584e989/packages/emmylua-ls/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/f89584e989/packages/emmylua-ls/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -24292,7 +24292,7 @@
   },
   {
     "name": "llama-cpp",
-    "version": "b10299",
+    "version": "b10307",
     "description": "LLM inference in C/C++",
     "homepage": "https://github.com/ggml-org/llama.cpp",
     "depends": [
@@ -24300,18 +24300,18 @@
       "libc++",
       "libcurl"
     ],
-    "srcurl": "https://github.com/ggml-org/llama.cpp/archive/refs/tags/b10299.tar.gz",
+    "srcurl": "https://github.com/ggml-org/llama.cpp/archive/refs/tags/b10307.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/19512049a5/packages/llama-cpp",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/19512049a5/packages/llama-cpp/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/19512049a5/packages/llama-cpp/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/e8ca1699d6/packages/llama-cpp",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/e8ca1699d6/packages/llama-cpp/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/e8ca1699d6/packages/llama-cpp/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/19512049a5/packages/llama-cpp/0001-search-dirs.patch",
-      "https://github.com/zrsx/termux-ng/blob/19512049a5/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
+      "https://github.com/zrsx/termux-ng/blob/e8ca1699d6/packages/llama-cpp/0001-search-dirs.patch",
+      "https://github.com/zrsx/termux-ng/blob/e8ca1699d6/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/19512049a5/packages/llama-cpp/0001-search-dirs.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/19512049a5/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/e8ca1699d6/packages/llama-cpp/0001-search-dirs.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/e8ca1699d6/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
     ],
     "auto_updated": true
   },
@@ -38933,15 +38933,15 @@
   },
   {
     "name": "storj-uplink",
-    "version": "1.161.6",
+    "version": "1.161.7",
     "description": "Storj DCS Uplink CLI",
     "homepage": "https://www.storj.io/integrations/uplink-cli",
     "depends": [],
-    "srcurl": "https://github.com/storj/storj/archive/refs/tags/v1.161.6.tar.gz",
+    "srcurl": "https://github.com/storj/storj/archive/refs/tags/v1.161.7.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/7cbe3b6add/packages/storj-uplink",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/7cbe3b6add/packages/storj-uplink/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/7cbe3b6add/packages/storj-uplink/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/72a938ab94/packages/storj-uplink",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/72a938ab94/packages/storj-uplink/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/72a938ab94/packages/storj-uplink/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -45736,15 +45736,15 @@
   },
   {
     "name": "zola",
-    "version": "0.23.1",
+    "version": "0.23.2",
     "description": "A fast static site generator in a single binary with everything built-in.",
     "homepage": "https://github.com/getzola/zola",
     "depends": [],
-    "srcurl": "https://github.com/getzola/zola/archive/refs/tags/v0.23.1.tar.gz",
+    "srcurl": "https://github.com/getzola/zola/archive/refs/tags/v0.23.2.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/1e2841d12f/packages/zola",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/1e2841d12f/packages/zola/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/1e2841d12f/packages/zola/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/53ebddde7f/packages/zola",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/53ebddde7f/packages/zola/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/53ebddde7f/packages/zola/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
