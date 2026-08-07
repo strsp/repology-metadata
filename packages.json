@@ -14133,15 +14133,15 @@
   },
   {
     "name": "jfrog-cli",
-    "version": "2.118.0",
+    "version": "2.119.0",
     "description": "A CLI for JFrog products",
     "homepage": "https://jfrog.com/getcli",
     "depends": [],
-    "srcurl": "https://github.com/jfrog/jfrog-cli/archive/refs/tags/v2.118.0.tar.gz",
+    "srcurl": "https://github.com/jfrog/jfrog-cli/archive/refs/tags/v2.119.0.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/03c35186f5/packages/jfrog-cli",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/03c35186f5/packages/jfrog-cli/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/03c35186f5/packages/jfrog-cli/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/dee423477e/packages/jfrog-cli",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/dee423477e/packages/jfrog-cli/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/dee423477e/packages/jfrog-cli/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -16272,18 +16272,18 @@
   },
   {
     "name": "libcec",
-    "version": "8.1.4",
+    "version": "8.1.6",
     "description": "Provides support for Pulse-Eight's USB-CEC adapter and other CEC capable hardware",
     "homepage": "https://libcec.pulse-eight.com/",
     "depends": [
       "libc++",
       "libp8-platform"
     ],
-    "srcurl": "https://github.com/Pulse-Eight/libcec/archive/refs/tags/libcec-8.1.4.tar.gz",
+    "srcurl": "https://github.com/Pulse-Eight/libcec/archive/refs/tags/libcec-8.1.6.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/5abb4bc4d1/packages/libcec",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/5abb4bc4d1/packages/libcec/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/5abb4bc4d1/packages/libcec/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/376afca9cc/packages/libcec",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/376afca9cc/packages/libcec/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/376afca9cc/packages/libcec/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -24292,7 +24292,7 @@
   },
   {
     "name": "llama-cpp",
-    "version": "b10307",
+    "version": "b10321",
     "description": "LLM inference in C/C++",
     "homepage": "https://github.com/ggml-org/llama.cpp",
     "depends": [
@@ -24300,18 +24300,18 @@
       "libc++",
       "libcurl"
     ],
-    "srcurl": "https://github.com/ggml-org/llama.cpp/archive/refs/tags/b10307.tar.gz",
+    "srcurl": "https://github.com/ggml-org/llama.cpp/archive/refs/tags/b10321.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/e8ca1699d6/packages/llama-cpp",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/e8ca1699d6/packages/llama-cpp/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/e8ca1699d6/packages/llama-cpp/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/e02803f0bb/packages/llama-cpp",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/e02803f0bb/packages/llama-cpp/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/e02803f0bb/packages/llama-cpp/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/e8ca1699d6/packages/llama-cpp/0001-search-dirs.patch",
-      "https://github.com/zrsx/termux-ng/blob/e8ca1699d6/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
+      "https://github.com/zrsx/termux-ng/blob/e02803f0bb/packages/llama-cpp/0001-search-dirs.patch",
+      "https://github.com/zrsx/termux-ng/blob/e02803f0bb/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/e8ca1699d6/packages/llama-cpp/0001-search-dirs.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/e8ca1699d6/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/e02803f0bb/packages/llama-cpp/0001-search-dirs.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/e02803f0bb/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
     ],
     "auto_updated": true
   },
@@ -24698,7 +24698,7 @@
   },
   {
     "name": "lua-language-server",
-    "version": "3.18.2",
+    "version": "3.19.0",
     "description": "Sumneko Lua Language Server coded in Lua",
     "homepage": "https://github.com/sumneko/lua-language-server",
     "depends": [
@@ -24708,30 +24708,30 @@
     ],
     "srcurl": "git+https://github.com/sumneko/lua-language-server",
     "maintainer": "Joshua Kahn <tom@termux.dev>",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/0f9c174f2b/packages/lua-language-server",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/0f9c174f2b/packages/lua-language-server/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/0f9c174f2b/packages/lua-language-server/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/be0df6be70/packages/lua-language-server",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/be0df6be70/packages/lua-language-server/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/be0df6be70/packages/lua-language-server/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/0f9c174f2b/packages/lua-language-server/android.diff",
-      "https://github.com/zrsx/termux-ng/blob/0f9c174f2b/packages/lua-language-server/bee.lua-bee-net-endpoint.patch",
-      "https://github.com/zrsx/termux-ng/blob/0f9c174f2b/packages/lua-language-server/bee.lua-project-common.patch",
-      "https://github.com/zrsx/termux-ng/blob/0f9c174f2b/packages/lua-language-server/force-cast-unw_context_t.diff",
-      "https://github.com/zrsx/termux-ng/blob/0f9c174f2b/packages/lua-language-server/hostbuild-force-link.diff",
-      "https://github.com/zrsx/termux-ng/blob/0f9c174f2b/packages/lua-language-server/loslib.patch",
-      "https://github.com/zrsx/termux-ng/blob/0f9c174f2b/packages/lua-language-server/luaconf.patch",
-      "https://github.com/zrsx/termux-ng/blob/0f9c174f2b/packages/lua-language-server/make.lua.diff",
-      "https://github.com/zrsx/termux-ng/blob/0f9c174f2b/packages/lua-language-server/no-kernel_sigaction.patch"
+      "https://github.com/zrsx/termux-ng/blob/be0df6be70/packages/lua-language-server/android.diff",
+      "https://github.com/zrsx/termux-ng/blob/be0df6be70/packages/lua-language-server/bee.lua-bee-net-endpoint.patch",
+      "https://github.com/zrsx/termux-ng/blob/be0df6be70/packages/lua-language-server/bee.lua-project-common.patch",
+      "https://github.com/zrsx/termux-ng/blob/be0df6be70/packages/lua-language-server/force-cast-unw_context_t.diff",
+      "https://github.com/zrsx/termux-ng/blob/be0df6be70/packages/lua-language-server/hostbuild-force-link.diff",
+      "https://github.com/zrsx/termux-ng/blob/be0df6be70/packages/lua-language-server/loslib.patch",
+      "https://github.com/zrsx/termux-ng/blob/be0df6be70/packages/lua-language-server/luaconf.patch",
+      "https://github.com/zrsx/termux-ng/blob/be0df6be70/packages/lua-language-server/make.lua.diff",
+      "https://github.com/zrsx/termux-ng/blob/be0df6be70/packages/lua-language-server/no-kernel_sigaction.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/0f9c174f2b/packages/lua-language-server/android.diff",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/0f9c174f2b/packages/lua-language-server/bee.lua-bee-net-endpoint.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/0f9c174f2b/packages/lua-language-server/bee.lua-project-common.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/0f9c174f2b/packages/lua-language-server/force-cast-unw_context_t.diff",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/0f9c174f2b/packages/lua-language-server/hostbuild-force-link.diff",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/0f9c174f2b/packages/lua-language-server/loslib.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/0f9c174f2b/packages/lua-language-server/luaconf.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/0f9c174f2b/packages/lua-language-server/make.lua.diff",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/0f9c174f2b/packages/lua-language-server/no-kernel_sigaction.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/be0df6be70/packages/lua-language-server/android.diff",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/be0df6be70/packages/lua-language-server/bee.lua-bee-net-endpoint.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/be0df6be70/packages/lua-language-server/bee.lua-project-common.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/be0df6be70/packages/lua-language-server/force-cast-unw_context_t.diff",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/be0df6be70/packages/lua-language-server/hostbuild-force-link.diff",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/be0df6be70/packages/lua-language-server/loslib.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/be0df6be70/packages/lua-language-server/luaconf.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/be0df6be70/packages/lua-language-server/make.lua.diff",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/be0df6be70/packages/lua-language-server/no-kernel_sigaction.patch"
     ],
     "auto_updated": true
   },
@@ -35154,18 +35154,18 @@
   },
   {
     "name": "radare2",
-    "version": "6.1.8",
+    "version": "6.2.0",
     "description": "UNIX-like reverse engineering framework and command-line toolset",
     "homepage": "https://www.radare.org/",
     "depends": [
       "libandroid-spawn",
       "libuv"
     ],
-    "srcurl": "https://github.com/radareorg/radare2/archive/refs/tags/6.1.8.tar.gz",
+    "srcurl": "https://github.com/radareorg/radare2/archive/refs/tags/6.2.0.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/851633b3f0/packages/radare2",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/851633b3f0/packages/radare2/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/851633b3f0/packages/radare2/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/1bd62d20fa/packages/radare2",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/1bd62d20fa/packages/radare2/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/1bd62d20fa/packages/radare2/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -42969,17 +42969,17 @@
   },
   {
     "name": "uv",
-    "version": "0.12.2",
+    "version": "0.12.3",
     "description": "An extremely fast Python package installer and resolver, written in Rust.",
     "homepage": "https://docs.astral.sh/uv/",
     "depends": [
       "zstd"
     ],
-    "srcurl": "https://github.com/astral-sh/uv/archive/refs/tags/0.12.2.tar.gz",
+    "srcurl": "https://github.com/astral-sh/uv/archive/refs/tags/0.12.3.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/012c0c3321/packages/uv",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/012c0c3321/packages/uv/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/012c0c3321/packages/uv/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/89f5237109/packages/uv",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/89f5237109/packages/uv/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/89f5237109/packages/uv/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -43864,22 +43864,22 @@
   },
   {
     "name": "vulkan-loader",
-    "version": "1.4.358",
+    "version": "1.4.359",
     "description": "Vulkan Loader",
     "homepage": "https://github.com/KhronosGroup/Vulkan-Loader",
     "depends": [],
-    "srcurl": "https://github.com/KhronosGroup/Vulkan-Loader/archive/refs/tags/v1.4.358.tar.gz",
+    "srcurl": "https://github.com/KhronosGroup/Vulkan-Loader/archive/refs/tags/v1.4.359.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/f867f3b4ae/packages/vulkan-loader-generic",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/f867f3b4ae/packages/vulkan-loader-generic/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/f867f3b4ae/packages/vulkan-loader-generic/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/f3f2230b22/packages/vulkan-loader-generic",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/f3f2230b22/packages/vulkan-loader-generic/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/f3f2230b22/packages/vulkan-loader-generic/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/f867f3b4ae/packages/vulkan-loader-generic/0001-fix-hardcoded-pathes.patch",
-      "https://github.com/zrsx/termux-ng/blob/f867f3b4ae/packages/vulkan-loader-generic/0002-properly-enable-extensions.patch"
+      "https://github.com/zrsx/termux-ng/blob/f3f2230b22/packages/vulkan-loader-generic/0001-fix-hardcoded-pathes.patch",
+      "https://github.com/zrsx/termux-ng/blob/f3f2230b22/packages/vulkan-loader-generic/0002-properly-enable-extensions.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/f867f3b4ae/packages/vulkan-loader-generic/0001-fix-hardcoded-pathes.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/f867f3b4ae/packages/vulkan-loader-generic/0002-properly-enable-extensions.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/f3f2230b22/packages/vulkan-loader-generic/0001-fix-hardcoded-pathes.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/f3f2230b22/packages/vulkan-loader-generic/0002-properly-enable-extensions.patch"
     ],
     "auto_updated": true
   },
@@ -43914,20 +43914,20 @@
   },
   {
     "name": "vulkan-utility-libraries",
-    "version": "1.4.358",
+    "version": "1.4.359",
     "description": "Utility Libraries for Vulkan",
     "homepage": "https://github.com/KhronosGroup/Vulkan-Utility-Libraries",
     "depends": [],
-    "srcurl": "https://github.com/KhronosGroup/Vulkan-Utility-Libraries/archive/refs/tags/v1.4.358.tar.gz",
+    "srcurl": "https://github.com/KhronosGroup/Vulkan-Utility-Libraries/archive/refs/tags/v1.4.359.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/c16a0cf213/packages/vulkan-utility-libraries",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/c16a0cf213/packages/vulkan-utility-libraries/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/c16a0cf213/packages/vulkan-utility-libraries/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/940dc66ae3/packages/vulkan-utility-libraries",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/940dc66ae3/packages/vulkan-utility-libraries/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/940dc66ae3/packages/vulkan-utility-libraries/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/c16a0cf213/packages/vulkan-utility-libraries/0001-do-not-build-for-android.patch"
+      "https://github.com/zrsx/termux-ng/blob/940dc66ae3/packages/vulkan-utility-libraries/0001-do-not-build-for-android.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/c16a0cf213/packages/vulkan-utility-libraries/0001-do-not-build-for-android.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/940dc66ae3/packages/vulkan-utility-libraries/0001-do-not-build-for-android.patch"
     ],
     "auto_updated": true
   },
