@@ -18093,15 +18093,15 @@
   },
   {
     "name": "libhiredis",
-    "version": "1.4.0",
+    "version": "1.4.1",
     "description": "Hiredis is a minimalistic C client library for the Redis database",
     "homepage": "https://redis.com/lp/hiredis",
     "depends": [],
-    "srcurl": "https://github.com/redis/hiredis/archive/refs/tags/v1.4.0.tar.gz",
+    "srcurl": "https://github.com/redis/hiredis/archive/refs/tags/v1.4.1.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/0c1803ecbd/packages/libhiredis",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/0c1803ecbd/packages/libhiredis/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/0c1803ecbd/packages/libhiredis/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/c89195737a/packages/libhiredis",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/c89195737a/packages/libhiredis/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/c89195737a/packages/libhiredis/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -19782,20 +19782,20 @@
   },
   {
     "name": "libnspr",
-    "version": "4.39",
+    "version": "4.40",
     "description": "Netscape Portable Runtime (NSPR)",
     "homepage": "https://hg.mozilla.org/projects/nspr",
     "depends": [],
-    "srcurl": "https://archive.mozilla.org/pub/nspr/releases/v4.39/src/nspr-4.39.tar.gz",
+    "srcurl": "https://archive.mozilla.org/pub/nspr/releases/v4.40/src/nspr-4.40.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/d136dfe3b2/packages/libnspr",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/d136dfe3b2/packages/libnspr/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/d136dfe3b2/packages/libnspr/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/70a71b07b3/packages/libnspr",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/70a71b07b3/packages/libnspr/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/70a71b07b3/packages/libnspr/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/d136dfe3b2/packages/libnspr/configure.patch"
+      "https://github.com/zrsx/termux-ng/blob/70a71b07b3/packages/libnspr/configure.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/d136dfe3b2/packages/libnspr/configure.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/70a71b07b3/packages/libnspr/configure.patch"
     ],
     "auto_updated": true
   },
@@ -24292,7 +24292,7 @@
   },
   {
     "name": "llama-cpp",
-    "version": "b10297",
+    "version": "b10298",
     "description": "LLM inference in C/C++",
     "homepage": "https://github.com/ggml-org/llama.cpp",
     "depends": [
@@ -24300,18 +24300,18 @@
       "libc++",
       "libcurl"
     ],
-    "srcurl": "https://github.com/ggml-org/llama.cpp/archive/refs/tags/b10297.tar.gz",
+    "srcurl": "https://github.com/ggml-org/llama.cpp/archive/refs/tags/b10298.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/85c196dce6/packages/llama-cpp",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/85c196dce6/packages/llama-cpp/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/85c196dce6/packages/llama-cpp/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/0559d5ac8e/packages/llama-cpp",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/0559d5ac8e/packages/llama-cpp/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/0559d5ac8e/packages/llama-cpp/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/85c196dce6/packages/llama-cpp/0001-search-dirs.patch",
-      "https://github.com/zrsx/termux-ng/blob/85c196dce6/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
+      "https://github.com/zrsx/termux-ng/blob/0559d5ac8e/packages/llama-cpp/0001-search-dirs.patch",
+      "https://github.com/zrsx/termux-ng/blob/0559d5ac8e/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/85c196dce6/packages/llama-cpp/0001-search-dirs.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/85c196dce6/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/0559d5ac8e/packages/llama-cpp/0001-search-dirs.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/0559d5ac8e/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
     ],
     "auto_updated": true
   },
