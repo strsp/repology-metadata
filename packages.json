@@ -13998,7 +13998,7 @@
   },
   {
     "name": "jackett",
-    "version": "0.24.2342",
+    "version": "0.24.2353",
     "description": "API Support for your favorite torrent trackers",
     "homepage": "https://github.com/jackett/jackett",
     "depends": [
@@ -14006,11 +14006,11 @@
       "dotnet-host",
       "dotnet-runtime-9.0"
     ],
-    "srcurl": "https://github.com/Jackett/Jackett/archive/refs/tags/v0.24.2342.tar.gz",
+    "srcurl": "https://github.com/Jackett/Jackett/archive/refs/tags/v0.24.2353.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/abb335bb6a/packages/jackett",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/abb335bb6a/packages/jackett/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/abb335bb6a/packages/jackett/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/ad2f81a369/packages/jackett",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/ad2f81a369/packages/jackett/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/ad2f81a369/packages/jackett/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
