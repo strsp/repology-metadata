@@ -10464,15 +10464,15 @@
   },
   {
     "name": "glab-cli",
-    "version": "1.112.0",
+    "version": "1.113.0",
     "description": "A GitLab CLI tool bringing GitLab to your command line",
     "homepage": "https://gitlab.com/gitlab-org/cli",
     "depends": [],
-    "srcurl": "https://gitlab.com/gitlab-org/cli/-/archive/v1.112.0/cli-1.112.0.tar.bz2",
+    "srcurl": "https://gitlab.com/gitlab-org/cli/-/archive/v1.113.0/cli-1.113.0.tar.bz2",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/4b7791fb60/packages/glab-cli",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/4b7791fb60/packages/glab-cli/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/4b7791fb60/packages/glab-cli/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/78a827259a/packages/glab-cli",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/78a827259a/packages/glab-cli/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/78a827259a/packages/glab-cli/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -10629,15 +10629,15 @@
   },
   {
     "name": "glow",
-    "version": "2.1.2",
+    "version": "3.0.0",
     "description": "Render markdown on the CLI, with pizzazz!",
     "homepage": "https://github.com/charmbracelet/glow",
     "depends": [],
-    "srcurl": "https://github.com/charmbracelet/glow/archive/refs/tags/v2.1.2.tar.gz",
+    "srcurl": "https://github.com/charmbracelet/glow/archive/refs/tags/v3.0.0.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/18182dd42b/packages/glow",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/18182dd42b/packages/glow/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/18182dd42b/packages/glow/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/7fc54e1ac2/packages/glow",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/7fc54e1ac2/packages/glow/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/7fc54e1ac2/packages/glow/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -24292,7 +24292,7 @@
   },
   {
     "name": "llama-cpp",
-    "version": "b10360",
+    "version": "b10361",
     "description": "LLM inference in C/C++",
     "homepage": "https://github.com/ggml-org/llama.cpp",
     "depends": [
@@ -24300,18 +24300,18 @@
       "libc++",
       "libcurl"
     ],
-    "srcurl": "https://github.com/ggml-org/llama.cpp/archive/refs/tags/b10360.tar.gz",
+    "srcurl": "https://github.com/ggml-org/llama.cpp/archive/refs/tags/b10361.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/acb25e634e/packages/llama-cpp",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/acb25e634e/packages/llama-cpp/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/acb25e634e/packages/llama-cpp/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/05fa64039e/packages/llama-cpp",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/05fa64039e/packages/llama-cpp/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/05fa64039e/packages/llama-cpp/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/acb25e634e/packages/llama-cpp/0001-search-dirs.patch",
-      "https://github.com/zrsx/termux-ng/blob/acb25e634e/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
+      "https://github.com/zrsx/termux-ng/blob/05fa64039e/packages/llama-cpp/0001-search-dirs.patch",
+      "https://github.com/zrsx/termux-ng/blob/05fa64039e/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/acb25e634e/packages/llama-cpp/0001-search-dirs.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/acb25e634e/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/05fa64039e/packages/llama-cpp/0001-search-dirs.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/05fa64039e/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
     ],
     "auto_updated": true
   },
@@ -38933,15 +38933,15 @@
   },
   {
     "name": "storj-uplink",
-    "version": "1.161.7",
+    "version": "1.161.8",
     "description": "Storj DCS Uplink CLI",
     "homepage": "https://www.storj.io/integrations/uplink-cli",
     "depends": [],
-    "srcurl": "https://github.com/storj/storj/archive/refs/tags/v1.161.7.tar.gz",
+    "srcurl": "https://github.com/storj/storj/archive/refs/tags/v1.161.8.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/72a938ab94/packages/storj-uplink",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/72a938ab94/packages/storj-uplink/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/72a938ab94/packages/storj-uplink/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/22f88c93f6/packages/storj-uplink",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/22f88c93f6/packages/storj-uplink/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/22f88c93f6/packages/storj-uplink/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -45736,15 +45736,15 @@
   },
   {
     "name": "zola",
-    "version": "0.23.2",
+    "version": "0.23.3",
     "description": "A fast static site generator in a single binary with everything built-in.",
     "homepage": "https://github.com/getzola/zola",
     "depends": [],
-    "srcurl": "https://github.com/getzola/zola/archive/refs/tags/v0.23.2.tar.gz",
+    "srcurl": "https://github.com/getzola/zola/archive/refs/tags/v0.23.3.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/53ebddde7f/packages/zola",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/53ebddde7f/packages/zola/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/53ebddde7f/packages/zola/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/2cb2d0f9ef/packages/zola",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/2cb2d0f9ef/packages/zola/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/2cb2d0f9ef/packages/zola/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
