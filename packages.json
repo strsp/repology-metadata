@@ -12990,17 +12990,17 @@
   },
   {
     "name": "hugo",
-    "version": "0.164.0",
+    "version": "0.165.0",
     "description": "A fast and flexible static site generator",
     "homepage": "https://gohugo.io/",
     "depends": [
       "libc++"
     ],
-    "srcurl": "https://github.com/gohugoio/hugo/archive/refs/tags/v0.164.0.tar.gz",
+    "srcurl": "https://github.com/gohugoio/hugo/archive/refs/tags/v0.165.0.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/b711288da3/packages/hugo",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/b711288da3/packages/hugo/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/b711288da3/packages/hugo/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/186b3e53b3/packages/hugo",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/186b3e53b3/packages/hugo/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/186b3e53b3/packages/hugo/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -33361,18 +33361,18 @@
   },
   {
     "name": "proot",
-    "version": "5.1.107.89",
+    "version": "5.1.107.90",
     "description": "Emulate chroot, bind mount and binfmt_misc for non-root users",
     "homepage": "https://proot-me.github.io/",
     "depends": [
       "libandroid-shmem",
       "libtalloc"
     ],
-    "srcurl": "https://github.com/termux/proot/archive/v5.1.107.89.zip",
+    "srcurl": "https://github.com/termux/proot/archive/v5.1.107.90.zip",
     "maintainer": "Michal Bednarski @michalbednarski",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/f0491bde3b/packages/proot",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/f0491bde3b/packages/proot/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/f0491bde3b/packages/proot/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/ff2cafbfad/packages/proot",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/ff2cafbfad/packages/proot/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/ff2cafbfad/packages/proot/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -47777,7 +47777,7 @@
   },
   {
     "name": "1oom",
-    "version": "1.11.8",
+    "version": "1.11.9",
     "description": "A Master of Orion (1993) game engine recreation",
     "homepage": "https://github.com/1oom-fork/1oom",
     "depends": [
@@ -47787,16 +47787,16 @@
       "libxext",
       "readline"
     ],
-    "srcurl": "https://github.com/1oom-fork/1oom/archive/refs/tags/v1.11.8.tar.gz",
+    "srcurl": "https://github.com/1oom-fork/1oom/archive/refs/tags/v1.11.9.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/bbb1526148/x11-packages/1oom",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/bbb1526148/x11-packages/1oom/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/bbb1526148/x11-packages/1oom/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/28fc279650/x11-packages/1oom",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/28fc279650/x11-packages/1oom/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/28fc279650/x11-packages/1oom/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/bbb1526148/x11-packages/1oom/src-os-unix-os.c.patch"
+      "https://github.com/zrsx/termux-ng/blob/28fc279650/x11-packages/1oom/src-os-unix-os.c.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/bbb1526148/x11-packages/1oom/src-os-unix-os.c.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/28fc279650/x11-packages/1oom/src-os-unix-os.c.patch"
     ],
     "auto_updated": true
   },
