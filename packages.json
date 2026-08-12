@@ -13998,7 +13998,7 @@
   },
   {
     "name": "jackett",
-    "version": "0.24.2389",
+    "version": "0.24.2398",
     "description": "API Support for your favorite torrent trackers",
     "homepage": "https://github.com/jackett/jackett",
     "depends": [
@@ -14006,11 +14006,11 @@
       "dotnet-host",
       "dotnet-runtime-9.0"
     ],
-    "srcurl": "https://github.com/Jackett/Jackett/archive/refs/tags/v0.24.2389.tar.gz",
+    "srcurl": "https://github.com/Jackett/Jackett/archive/refs/tags/v0.24.2398.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/b7743be2c1/packages/jackett",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/b7743be2c1/packages/jackett/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/b7743be2c1/packages/jackett/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/40e9fd3dc3/packages/jackett",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/40e9fd3dc3/packages/jackett/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/40e9fd3dc3/packages/jackett/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -29027,7 +29027,7 @@
   },
   {
     "name": "ngspice",
-    "version": "46",
+    "version": "47",
     "description": "A mixed-level/mixed-signal circuit simulator",
     "homepage": "https://ngspice.sourceforge.net/",
     "depends": [
@@ -29036,32 +29036,32 @@
       "ncurses",
       "readline"
     ],
-    "srcurl": "https://github.com/imr/ngspice/archive/refs/tags/ngspice-46.tar.gz",
+    "srcurl": "https://github.com/imr/ngspice/archive/refs/tags/ngspice-47.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/81dbd254b7/packages/ngspice",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/81dbd254b7/packages/ngspice/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/81dbd254b7/packages/ngspice/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/1c2f6c3095/packages/ngspice",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/1c2f6c3095/packages/ngspice/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/1c2f6c3095/packages/ngspice/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/81dbd254b7/packages/ngspice/pthread_cancel.patch",
-      "https://github.com/zrsx/termux-ng/blob/81dbd254b7/packages/ngspice/src-frontend-com_shell.c.patch",
-      "https://github.com/zrsx/termux-ng/blob/81dbd254b7/packages/ngspice/src-frontend-inp.c.patch",
-      "https://github.com/zrsx/termux-ng/blob/81dbd254b7/packages/ngspice/src-frontend-parser-complete.c.patch",
-      "https://github.com/zrsx/termux-ng/blob/81dbd254b7/packages/ngspice/src-frontend-plotting-gnuplot.c.patch",
-      "https://github.com/zrsx/termux-ng/blob/81dbd254b7/packages/ngspice/src-include-ngspice-defines.h.patch",
-      "https://github.com/zrsx/termux-ng/blob/81dbd254b7/packages/ngspice/src-include-ngspice-ipctiein.h.patch",
-      "https://github.com/zrsx/termux-ng/blob/81dbd254b7/packages/ngspice/src-tclspice.c.patch",
-      "https://github.com/zrsx/termux-ng/blob/81dbd254b7/packages/ngspice/src-xspice-icm-makedefs.in.patch"
+      "https://github.com/zrsx/termux-ng/blob/1c2f6c3095/packages/ngspice/pthread_cancel.patch",
+      "https://github.com/zrsx/termux-ng/blob/1c2f6c3095/packages/ngspice/src-frontend-com_shell.c.patch",
+      "https://github.com/zrsx/termux-ng/blob/1c2f6c3095/packages/ngspice/src-frontend-inp.c.patch",
+      "https://github.com/zrsx/termux-ng/blob/1c2f6c3095/packages/ngspice/src-frontend-parser-complete.c.patch",
+      "https://github.com/zrsx/termux-ng/blob/1c2f6c3095/packages/ngspice/src-frontend-plotting-gnuplot.c.patch",
+      "https://github.com/zrsx/termux-ng/blob/1c2f6c3095/packages/ngspice/src-include-ngspice-defines.h.patch",
+      "https://github.com/zrsx/termux-ng/blob/1c2f6c3095/packages/ngspice/src-include-ngspice-ipctiein.h.patch",
+      "https://github.com/zrsx/termux-ng/blob/1c2f6c3095/packages/ngspice/src-tclspice.c.patch",
+      "https://github.com/zrsx/termux-ng/blob/1c2f6c3095/packages/ngspice/src-xspice-icm-makedefs.in.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/81dbd254b7/packages/ngspice/pthread_cancel.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/81dbd254b7/packages/ngspice/src-frontend-com_shell.c.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/81dbd254b7/packages/ngspice/src-frontend-inp.c.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/81dbd254b7/packages/ngspice/src-frontend-parser-complete.c.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/81dbd254b7/packages/ngspice/src-frontend-plotting-gnuplot.c.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/81dbd254b7/packages/ngspice/src-include-ngspice-defines.h.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/81dbd254b7/packages/ngspice/src-include-ngspice-ipctiein.h.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/81dbd254b7/packages/ngspice/src-tclspice.c.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/81dbd254b7/packages/ngspice/src-xspice-icm-makedefs.in.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/1c2f6c3095/packages/ngspice/pthread_cancel.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/1c2f6c3095/packages/ngspice/src-frontend-com_shell.c.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/1c2f6c3095/packages/ngspice/src-frontend-inp.c.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/1c2f6c3095/packages/ngspice/src-frontend-parser-complete.c.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/1c2f6c3095/packages/ngspice/src-frontend-plotting-gnuplot.c.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/1c2f6c3095/packages/ngspice/src-include-ngspice-defines.h.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/1c2f6c3095/packages/ngspice/src-include-ngspice-ipctiein.h.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/1c2f6c3095/packages/ngspice/src-tclspice.c.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/1c2f6c3095/packages/ngspice/src-xspice-icm-makedefs.in.patch"
     ],
     "auto_updated": true
   },
