@@ -6928,23 +6928,23 @@
   },
   {
     "name": "doxygen",
-    "version": "1.17.0",
+    "version": "1.18.0",
     "description": "A documentation system for C++, C, Java, IDL and PHP",
     "homepage": "http://www.doxygen.org",
     "depends": [
       "libc++",
       "libiconv"
     ],
-    "srcurl": "https://github.com/doxygen/doxygen/archive/refs/tags/Release_1_17_0.tar.gz",
+    "srcurl": "https://github.com/doxygen/doxygen/archive/refs/tags/Release_1_18_0.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/4152bfe794/packages/doxygen",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/4152bfe794/packages/doxygen/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/4152bfe794/packages/doxygen/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/760f2db4d9/packages/doxygen",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/760f2db4d9/packages/doxygen/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/760f2db4d9/packages/doxygen/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/4152bfe794/packages/doxygen/0001-disable-ipo.patch"
+      "https://github.com/zrsx/termux-ng/blob/760f2db4d9/packages/doxygen/0001-disable-ipo.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/4152bfe794/packages/doxygen/0001-disable-ipo.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/760f2db4d9/packages/doxygen/0001-disable-ipo.patch"
     ],
     "auto_updated": true
   },
