@@ -35124,31 +35124,31 @@
   },
   {
     "name": "racket",
-    "version": "9.2",
+    "version": "9.3",
     "description": "Full-spectrum programming language going beyond Lisp and Scheme",
     "homepage": "https://racket-lang.org",
     "depends": [
       "libffi",
       "libiconv"
     ],
-    "srcurl": "https://www.cs.utah.edu/plt/installers/9.2/racket-minimal-9.2-src-builtpkgs.tgz",
+    "srcurl": "https://www.cs.utah.edu/plt/installers/9.3/racket-minimal-9.3-src-builtpkgs.tgz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/e8c7699b61/packages/racket",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/e8c7699b61/packages/racket/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/e8c7699b61/packages/racket/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/9f44effb69/packages/racket",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/9f44effb69/packages/racket/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/9f44effb69/packages/racket/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/e8c7699b61/packages/racket/collects-racket-private-shell.rkt.patch",
-      "https://github.com/zrsx/termux-ng/blob/e8c7699b61/packages/racket/configure.patch",
-      "https://github.com/zrsx/termux-ng/blob/e8c7699b61/packages/racket/newgc.c.patch",
-      "https://github.com/zrsx/termux-ng/blob/e8c7699b61/packages/racket/rktio_dll.c.patch",
-      "https://github.com/zrsx/termux-ng/blob/e8c7699b61/packages/racket/sconfig.h.patch"
+      "https://github.com/zrsx/termux-ng/blob/9f44effb69/packages/racket/collects-racket-private-shell.rkt.patch",
+      "https://github.com/zrsx/termux-ng/blob/9f44effb69/packages/racket/configure.patch",
+      "https://github.com/zrsx/termux-ng/blob/9f44effb69/packages/racket/newgc.c.patch",
+      "https://github.com/zrsx/termux-ng/blob/9f44effb69/packages/racket/rktio_dll.c.patch",
+      "https://github.com/zrsx/termux-ng/blob/9f44effb69/packages/racket/sconfig.h.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/e8c7699b61/packages/racket/collects-racket-private-shell.rkt.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/e8c7699b61/packages/racket/configure.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/e8c7699b61/packages/racket/newgc.c.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/e8c7699b61/packages/racket/rktio_dll.c.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/e8c7699b61/packages/racket/sconfig.h.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/9f44effb69/packages/racket/collects-racket-private-shell.rkt.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/9f44effb69/packages/racket/configure.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/9f44effb69/packages/racket/newgc.c.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/9f44effb69/packages/racket/rktio_dll.c.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/9f44effb69/packages/racket/sconfig.h.patch"
     ],
     "auto_updated": true
   },
@@ -42969,17 +42969,17 @@
   },
   {
     "name": "uv",
-    "version": "0.12.3",
+    "version": "0.12.4",
     "description": "An extremely fast Python package installer and resolver, written in Rust.",
     "homepage": "https://docs.astral.sh/uv/",
     "depends": [
       "zstd"
     ],
-    "srcurl": "https://github.com/astral-sh/uv/archive/refs/tags/0.12.3.tar.gz",
+    "srcurl": "https://github.com/astral-sh/uv/archive/refs/tags/0.12.4.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/89f5237109/packages/uv",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/89f5237109/packages/uv/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/89f5237109/packages/uv/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/8414867c26/packages/uv",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/8414867c26/packages/uv/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/8414867c26/packages/uv/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
