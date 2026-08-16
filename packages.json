@@ -24292,7 +24292,7 @@
   },
   {
     "name": "llama-cpp",
-    "version": "b10448",
+    "version": "b10453",
     "description": "LLM inference in C/C++",
     "homepage": "https://github.com/ggml-org/llama.cpp",
     "depends": [
@@ -24300,18 +24300,18 @@
       "libc++",
       "libcurl"
     ],
-    "srcurl": "https://github.com/ggml-org/llama.cpp/archive/refs/tags/b10448.tar.gz",
+    "srcurl": "https://github.com/ggml-org/llama.cpp/archive/refs/tags/b10453.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/fe19f65723/packages/llama-cpp",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/fe19f65723/packages/llama-cpp/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/fe19f65723/packages/llama-cpp/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/c1c1faaad5/packages/llama-cpp",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/c1c1faaad5/packages/llama-cpp/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/c1c1faaad5/packages/llama-cpp/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/fe19f65723/packages/llama-cpp/0001-search-dirs.patch",
-      "https://github.com/zrsx/termux-ng/blob/fe19f65723/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
+      "https://github.com/zrsx/termux-ng/blob/c1c1faaad5/packages/llama-cpp/0001-search-dirs.patch",
+      "https://github.com/zrsx/termux-ng/blob/c1c1faaad5/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/fe19f65723/packages/llama-cpp/0001-search-dirs.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/fe19f65723/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/c1c1faaad5/packages/llama-cpp/0001-search-dirs.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/c1c1faaad5/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
     ],
     "auto_updated": true
   },
@@ -27141,20 +27141,20 @@
   },
   {
     "name": "moor",
-    "version": "2.16.3",
+    "version": "2.17.0",
     "description": "A pager designed to just do the right thing without any configuration",
     "homepage": "https://github.com/walles/moor",
     "depends": [],
-    "srcurl": "https://github.com/walles/moor/archive/refs/tags/v2.16.3.tar.gz",
+    "srcurl": "https://github.com/walles/moor/archive/refs/tags/v2.17.0.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/c6ba670a5b/packages/moor",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/c6ba670a5b/packages/moor/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/c6ba670a5b/packages/moor/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/38bb0dc9c9/packages/moor",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/38bb0dc9c9/packages/moor/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/38bb0dc9c9/packages/moor/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/c6ba670a5b/packages/moor/default-editor.patch"
+      "https://github.com/zrsx/termux-ng/blob/38bb0dc9c9/packages/moor/default-editor.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/c6ba670a5b/packages/moor/default-editor.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/38bb0dc9c9/packages/moor/default-editor.patch"
     ],
     "auto_updated": true
   },
