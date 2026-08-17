@@ -37620,15 +37620,15 @@
   },
   {
     "name": "sing-box",
-    "version": "1.13.18",
+    "version": "1.13.19",
     "description": "The universal proxy platform",
     "homepage": "https://sing-box.sagernet.org",
     "depends": [],
-    "srcurl": "https://github.com/SagerNet/sing-box/archive/refs/tags/v1.13.18.tar.gz",
+    "srcurl": "https://github.com/SagerNet/sing-box/archive/refs/tags/v1.13.19.tar.gz",
     "maintainer": "kay9925@outlook.com",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/202e35d3ad/packages/sing-box",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/202e35d3ad/packages/sing-box/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/202e35d3ad/packages/sing-box/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/c5f687c4bd/packages/sing-box",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/c5f687c4bd/packages/sing-box/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/c5f687c4bd/packages/sing-box/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -41053,7 +41053,7 @@
   },
   {
     "name": "tmux",
-    "version": "3.7b",
+    "version": "3.7c",
     "description": "Terminal multiplexer",
     "homepage": "https://tmux.github.io/",
     "depends": [
@@ -41062,20 +41062,20 @@
       "libandroid-support",
       "libandroid-glob"
     ],
-    "srcurl": "https://github.com/tmux/tmux/archive/refs/tags/3.7b.tar.gz",
+    "srcurl": "https://github.com/tmux/tmux/archive/refs/tags/3.7c.tar.gz",
     "maintainer": "Joshua Kahn <tom@termux.dev>",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/d257928131/packages/tmux",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/d257928131/packages/tmux/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/d257928131/packages/tmux/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/9e68b84311/packages/tmux",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/9e68b84311/packages/tmux/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/9e68b84311/packages/tmux/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/d257928131/packages/tmux/compat-setproctitle.c.patch",
-      "https://github.com/zrsx/termux-ng/blob/d257928131/packages/tmux/configure.ac.patch",
-      "https://github.com/zrsx/termux-ng/blob/d257928131/packages/tmux/tmux.h.patch"
+      "https://github.com/zrsx/termux-ng/blob/9e68b84311/packages/tmux/compat-setproctitle.c.patch",
+      "https://github.com/zrsx/termux-ng/blob/9e68b84311/packages/tmux/configure.ac.patch",
+      "https://github.com/zrsx/termux-ng/blob/9e68b84311/packages/tmux/tmux.h.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/d257928131/packages/tmux/compat-setproctitle.c.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/d257928131/packages/tmux/configure.ac.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/d257928131/packages/tmux/tmux.h.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/9e68b84311/packages/tmux/compat-setproctitle.c.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/9e68b84311/packages/tmux/configure.ac.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/9e68b84311/packages/tmux/tmux.h.patch"
     ],
     "auto_updated": true
   },
