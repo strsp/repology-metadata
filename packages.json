@@ -13998,7 +13998,7 @@
   },
   {
     "name": "jackett",
-    "version": "0.24.2413",
+    "version": "0.24.2414",
     "description": "API Support for your favorite torrent trackers",
     "homepage": "https://github.com/jackett/jackett",
     "depends": [
@@ -14006,11 +14006,11 @@
       "dotnet-host",
       "dotnet-runtime-9.0"
     ],
-    "srcurl": "https://github.com/Jackett/Jackett/archive/refs/tags/v0.24.2413.tar.gz",
+    "srcurl": "https://github.com/Jackett/Jackett/archive/refs/tags/v0.24.2414.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/e960b0e9d7/packages/jackett",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/e960b0e9d7/packages/jackett/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/e960b0e9d7/packages/jackett/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/910322c434/packages/jackett",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/910322c434/packages/jackett/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/910322c434/packages/jackett/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -16490,15 +16490,15 @@
   },
   {
     "name": "libconfuse",
-    "version": "3.3",
+    "version": "3.4",
     "description": "Small configuration file parser library for C",
     "homepage": "https://github.com/martinh/libconfuse",
     "depends": [],
-    "srcurl": "https://github.com/martinh/libconfuse/releases/download/v3.3/confuse-3.3.tar.gz",
+    "srcurl": "https://github.com/martinh/libconfuse/releases/download/v3.4/confuse-3.4.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/8214d0dc85/packages/libconfuse",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/8214d0dc85/packages/libconfuse/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/8214d0dc85/packages/libconfuse/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/3f28b66e13/packages/libconfuse",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/3f28b66e13/packages/libconfuse/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/3f28b66e13/packages/libconfuse/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -39199,7 +39199,7 @@
   },
   {
     "name": "suitesparse",
-    "version": "2:7.13.0",
+    "version": "2:7.14.0",
     "description": "A Suite of Sparse matrix packages.",
     "homepage": "https://github.com/DrTimothyAldenDavis/SuiteSparse",
     "depends": [
@@ -39208,16 +39208,16 @@
       "libmpfr",
       "libopenblas"
     ],
-    "srcurl": "https://github.com/DrTimothyAldenDavis/SuiteSparse/archive/refs/tags/v7.13.0.tar.gz",
+    "srcurl": "https://github.com/DrTimothyAldenDavis/SuiteSparse/archive/refs/tags/v7.14.0.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/15aadce6d7/packages/suitesparse",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/15aadce6d7/packages/suitesparse/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/15aadce6d7/packages/suitesparse/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/ac9850e2ff/packages/suitesparse",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/ac9850e2ff/packages/suitesparse/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/ac9850e2ff/packages/suitesparse/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/15aadce6d7/packages/suitesparse/0001-android-complex-math.patch"
+      "https://github.com/zrsx/termux-ng/blob/ac9850e2ff/packages/suitesparse/0001-android-complex-math.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/15aadce6d7/packages/suitesparse/0001-android-complex-math.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/ac9850e2ff/packages/suitesparse/0001-android-complex-math.patch"
     ],
     "auto_updated": true
   },
