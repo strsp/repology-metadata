@@ -5701,26 +5701,26 @@
   },
   {
     "name": "dart",
-    "version": "3.13.0",
+    "version": "3.13.1",
     "description": "Dart is a general-purpose programming language",
     "homepage": "https://dart.dev/",
     "depends": [],
-    "srcurl": "https://github.com/dart-lang/sdk/archive/refs/tags/3.13.0.tar.gz",
+    "srcurl": "https://github.com/dart-lang/sdk/archive/refs/tags/3.13.1.tar.gz",
     "maintainer": "@0x1ACA663",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/c2cfdda37c/packages/dart",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/c2cfdda37c/packages/dart/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/c2cfdda37c/packages/dart/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/90ae3af681/packages/dart",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/90ae3af681/packages/dart/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/90ae3af681/packages/dart/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/c2cfdda37c/packages/dart/sdk-pkg-_fe_analyzer_shared-lib-src-util-colors.dart.patch",
-      "https://github.com/zrsx/termux-ng/blob/c2cfdda37c/packages/dart/sdk-runtime-bin-directory_linux.cc.patch",
-      "https://github.com/zrsx/termux-ng/blob/c2cfdda37c/packages/dart/sdk-runtime-vm-os_android.cc.patch",
-      "https://github.com/zrsx/termux-ng/blob/c2cfdda37c/packages/dart/sdk-sdk-lib-_internal-vm-bin-process_patch.dart.patch"
+      "https://github.com/zrsx/termux-ng/blob/90ae3af681/packages/dart/sdk-pkg-_fe_analyzer_shared-lib-src-util-colors.dart.patch",
+      "https://github.com/zrsx/termux-ng/blob/90ae3af681/packages/dart/sdk-runtime-bin-directory_linux.cc.patch",
+      "https://github.com/zrsx/termux-ng/blob/90ae3af681/packages/dart/sdk-runtime-vm-os_android.cc.patch",
+      "https://github.com/zrsx/termux-ng/blob/90ae3af681/packages/dart/sdk-sdk-lib-_internal-vm-bin-process_patch.dart.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/c2cfdda37c/packages/dart/sdk-pkg-_fe_analyzer_shared-lib-src-util-colors.dart.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/c2cfdda37c/packages/dart/sdk-runtime-bin-directory_linux.cc.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/c2cfdda37c/packages/dart/sdk-runtime-vm-os_android.cc.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/c2cfdda37c/packages/dart/sdk-sdk-lib-_internal-vm-bin-process_patch.dart.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/90ae3af681/packages/dart/sdk-pkg-_fe_analyzer_shared-lib-src-util-colors.dart.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/90ae3af681/packages/dart/sdk-runtime-bin-directory_linux.cc.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/90ae3af681/packages/dart/sdk-runtime-vm-os_android.cc.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/90ae3af681/packages/dart/sdk-sdk-lib-_internal-vm-bin-process_patch.dart.patch"
     ],
     "auto_updated": true
   },
@@ -10464,15 +10464,15 @@
   },
   {
     "name": "glab-cli",
-    "version": "1.113.0",
+    "version": "1.114.0",
     "description": "A GitLab CLI tool bringing GitLab to your command line",
     "homepage": "https://gitlab.com/gitlab-org/cli",
     "depends": [],
-    "srcurl": "https://gitlab.com/gitlab-org/cli/-/archive/v1.113.0/cli-1.113.0.tar.bz2",
+    "srcurl": "https://gitlab.com/gitlab-org/cli/-/archive/v1.114.0/cli-1.114.0.tar.bz2",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/78a827259a/packages/glab-cli",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/78a827259a/packages/glab-cli/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/78a827259a/packages/glab-cli/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/8765c48b1d/packages/glab-cli",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/8765c48b1d/packages/glab-cli/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/8765c48b1d/packages/glab-cli/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
