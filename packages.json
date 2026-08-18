@@ -2522,15 +2522,15 @@
   },
   {
     "name": "biome2",
-    "version": "2.5.8",
+    "version": "2.5.9",
     "description": "A toolchain for web projects, aimed to provide functionalities to maintain them. Biome offers formatter and linter, usable via CLI and LSP",
     "homepage": "https://biomejs.dev/",
     "depends": [],
-    "srcurl": "https://github.com/biomejs/biome/archive/refs/tags/@biomejs/biome@2.5.8.tar.gz",
+    "srcurl": "https://github.com/biomejs/biome/archive/refs/tags/@biomejs/biome@2.5.9.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/eebbaae8b4/packages/biome2",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/eebbaae8b4/packages/biome2/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/eebbaae8b4/packages/biome2/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/82d6ace3ad/packages/biome2",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/82d6ace3ad/packages/biome2/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/82d6ace3ad/packages/biome2/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -8880,15 +8880,15 @@
   },
   {
     "name": "flyctl",
-    "version": "0.4.83",
+    "version": "0.4.84",
     "description": "Command line tools for fly.io services",
     "homepage": "https://fly.io",
     "depends": [],
-    "srcurl": "https://github.com/superfly/flyctl/archive/refs/tags/v0.4.83.tar.gz",
+    "srcurl": "https://github.com/superfly/flyctl/archive/refs/tags/v0.4.84.tar.gz",
     "maintainer": "Yaksh Bariya <thunder-coding@termux.dev>",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/bacc895097/packages/flyctl",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/bacc895097/packages/flyctl/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/bacc895097/packages/flyctl/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/fe715495bb/packages/flyctl",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/fe715495bb/packages/flyctl/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/fe715495bb/packages/flyctl/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -9749,20 +9749,20 @@
   },
   {
     "name": "gdu",
-    "version": "5.36.1",
+    "version": "5.37.0",
     "description": "Fast disk usage analyzer with console interface written in Go",
     "homepage": "https://github.com/dundee/gdu",
     "depends": [],
-    "srcurl": "https://github.com/dundee/gdu/archive/refs/tags/v5.36.1.tar.gz",
+    "srcurl": "https://github.com/dundee/gdu/archive/refs/tags/v5.37.0.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/8b12aaa23b/packages/gdu",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/8b12aaa23b/packages/gdu/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/8b12aaa23b/packages/gdu/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/e1d531f7ca/packages/gdu",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/e1d531f7ca/packages/gdu/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/e1d531f7ca/packages/gdu/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/8b12aaa23b/packages/gdu/Makefile.patch"
+      "https://github.com/zrsx/termux-ng/blob/e1d531f7ca/packages/gdu/Makefile.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/8b12aaa23b/packages/gdu/Makefile.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/e1d531f7ca/packages/gdu/Makefile.patch"
     ],
     "auto_updated": true
   },
@@ -13998,7 +13998,7 @@
   },
   {
     "name": "jackett",
-    "version": "0.24.2414",
+    "version": "0.24.2416",
     "description": "API Support for your favorite torrent trackers",
     "homepage": "https://github.com/jackett/jackett",
     "depends": [
@@ -14006,11 +14006,11 @@
       "dotnet-host",
       "dotnet-runtime-9.0"
     ],
-    "srcurl": "https://github.com/Jackett/Jackett/archive/refs/tags/v0.24.2414.tar.gz",
+    "srcurl": "https://github.com/Jackett/Jackett/archive/refs/tags/v0.24.2416.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/910322c434/packages/jackett",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/910322c434/packages/jackett/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/910322c434/packages/jackett/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/18d7d213bb/packages/jackett",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/18d7d213bb/packages/jackett/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/18d7d213bb/packages/jackett/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -18660,18 +18660,18 @@
   },
   {
     "name": "libkokkos",
-    "version": "5.2.0",
+    "version": "5.2.1",
     "description": "Implements a programming model in C++ for writing performance portable applications",
     "homepage": "https://github.com/kokkos",
     "depends": [
       "libandroid-execinfo",
       "libc++"
     ],
-    "srcurl": "https://github.com/kokkos/kokkos/archive/refs/tags/5.2.0.tar.gz",
+    "srcurl": "https://github.com/kokkos/kokkos/archive/refs/tags/5.2.1.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/791b7a2b6e/packages/libkokkos",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/791b7a2b6e/packages/libkokkos/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/791b7a2b6e/packages/libkokkos/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/3da000b3a0/packages/libkokkos",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/3da000b3a0/packages/libkokkos/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/3da000b3a0/packages/libkokkos/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -35107,17 +35107,17 @@
   },
   {
     "name": "rabbitmq-server",
-    "version": "4.3.4",
+    "version": "4.3.5",
     "description": "Feature rich, multi-protocol messaging and streaming broker",
     "homepage": "https://github.com/rabbitmq/rabbitmq-server",
     "depends": [
       "erlang"
     ],
-    "srcurl": "https://github.com/rabbitmq/rabbitmq-server/releases/download/v4.3.4/rabbitmq-server-generic-unix-4.3.4.tar.xz",
+    "srcurl": "https://github.com/rabbitmq/rabbitmq-server/releases/download/v4.3.5/rabbitmq-server-generic-unix-4.3.5.tar.xz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/e86b359e81/packages/rabbitmq-server",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/e86b359e81/packages/rabbitmq-server/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/e86b359e81/packages/rabbitmq-server/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/d0201d0747/packages/rabbitmq-server",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/d0201d0747/packages/rabbitmq-server/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/d0201d0747/packages/rabbitmq-server/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
