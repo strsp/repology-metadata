@@ -24292,7 +24292,7 @@
   },
   {
     "name": "llama-cpp",
-    "version": "b10472",
+    "version": "b10488",
     "description": "LLM inference in C/C++",
     "homepage": "https://github.com/ggml-org/llama.cpp",
     "depends": [
@@ -24300,18 +24300,18 @@
       "libc++",
       "libcurl"
     ],
-    "srcurl": "https://github.com/ggml-org/llama.cpp/archive/refs/tags/b10472.tar.gz",
+    "srcurl": "https://github.com/ggml-org/llama.cpp/archive/refs/tags/b10488.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/3455c0b03e/packages/llama-cpp",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/3455c0b03e/packages/llama-cpp/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/3455c0b03e/packages/llama-cpp/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/f7b4996238/packages/llama-cpp",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/f7b4996238/packages/llama-cpp/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/f7b4996238/packages/llama-cpp/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/3455c0b03e/packages/llama-cpp/0001-search-dirs.patch",
-      "https://github.com/zrsx/termux-ng/blob/3455c0b03e/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
+      "https://github.com/zrsx/termux-ng/blob/f7b4996238/packages/llama-cpp/0001-search-dirs.patch",
+      "https://github.com/zrsx/termux-ng/blob/f7b4996238/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/3455c0b03e/packages/llama-cpp/0001-search-dirs.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/3455c0b03e/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/f7b4996238/packages/llama-cpp/0001-search-dirs.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/f7b4996238/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
     ],
     "auto_updated": true
   },
@@ -26326,20 +26326,20 @@
   },
   {
     "name": "mediamtx",
-    "version": "1.20.0",
+    "version": "1.20.1",
     "description": "Ready-to-use SRT / WebRTC / RTSP / RTMP / LL-HLS media server and media proxy",
     "homepage": "https://github.com/bluenviron/mediamtx",
     "depends": [],
-    "srcurl": "https://github.com/bluenviron/mediamtx/archive/refs/tags/v1.20.0.tar.gz",
+    "srcurl": "https://github.com/bluenviron/mediamtx/archive/refs/tags/v1.20.1.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/9d9b785f0c/packages/mediamtx",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/9d9b785f0c/packages/mediamtx/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/9d9b785f0c/packages/mediamtx/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/0a0122e939/packages/mediamtx",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/0a0122e939/packages/mediamtx/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/0a0122e939/packages/mediamtx/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/9d9b785f0c/packages/mediamtx/internal-core-core.go.patch"
+      "https://github.com/zrsx/termux-ng/blob/0a0122e939/packages/mediamtx/internal-core-core.go.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/9d9b785f0c/packages/mediamtx/internal-core-core.go.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/0a0122e939/packages/mediamtx/internal-core-core.go.patch"
     ],
     "auto_updated": true
   },
@@ -58853,20 +58853,20 @@
   },
   {
     "name": "libevdev",
-    "version": "1.13.6",
+    "version": "1.13.7",
     "description": "Wrapper library for evdev devices",
     "homepage": "https://www.freedesktop.org/wiki/Software/libevdev/",
     "depends": [],
-    "srcurl": "https://www.freedesktop.org/software/libevdev/libevdev-1.13.6.tar.xz",
+    "srcurl": "https://www.freedesktop.org/software/libevdev/libevdev-1.13.7.tar.xz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/662fd86c36/x11-packages/libevdev",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/662fd86c36/x11-packages/libevdev/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/662fd86c36/x11-packages/libevdev/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/be2f6a7fc0/x11-packages/libevdev",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/be2f6a7fc0/x11-packages/libevdev/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/be2f6a7fc0/x11-packages/libevdev/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/662fd86c36/x11-packages/libevdev/tools-Makefile.am.patch"
+      "https://github.com/zrsx/termux-ng/blob/be2f6a7fc0/x11-packages/libevdev/tools-Makefile.am.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/662fd86c36/x11-packages/libevdev/tools-Makefile.am.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/be2f6a7fc0/x11-packages/libevdev/tools-Makefile.am.patch"
     ],
     "auto_updated": true
   },
