@@ -24292,7 +24292,7 @@
   },
   {
     "name": "llama-cpp",
-    "version": "b10509",
+    "version": "b10514",
     "description": "LLM inference in C/C++",
     "homepage": "https://github.com/ggml-org/llama.cpp",
     "depends": [
@@ -24300,18 +24300,18 @@
       "libc++",
       "libcurl"
     ],
-    "srcurl": "https://github.com/ggml-org/llama.cpp/archive/refs/tags/b10509.tar.gz",
+    "srcurl": "https://github.com/ggml-org/llama.cpp/archive/refs/tags/b10514.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/2800a11675/packages/llama-cpp",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/2800a11675/packages/llama-cpp/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/2800a11675/packages/llama-cpp/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/2caa53d0da/packages/llama-cpp",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/2caa53d0da/packages/llama-cpp/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/2caa53d0da/packages/llama-cpp/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/2800a11675/packages/llama-cpp/0001-search-dirs.patch",
-      "https://github.com/zrsx/termux-ng/blob/2800a11675/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
+      "https://github.com/zrsx/termux-ng/blob/2caa53d0da/packages/llama-cpp/0001-search-dirs.patch",
+      "https://github.com/zrsx/termux-ng/blob/2caa53d0da/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/2800a11675/packages/llama-cpp/0001-search-dirs.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/2800a11675/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/2caa53d0da/packages/llama-cpp/0001-search-dirs.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/2caa53d0da/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
     ],
     "auto_updated": true
   },
@@ -35065,15 +35065,15 @@
   },
   {
     "name": "quickjs-ng",
-    "version": "0.16.1",
+    "version": "0.16.2",
     "description": "Embeddable JavaScript engine in C (NG fork)",
     "homepage": "https://quickjs-ng.github.io/quickjs/",
     "depends": [],
-    "srcurl": "https://github.com/quickjs-ng/quickjs/archive/refs/tags/v0.16.1.tar.gz",
+    "srcurl": "https://github.com/quickjs-ng/quickjs/archive/refs/tags/v0.16.2.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/67eb15b676/packages/quickjs-ng",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/67eb15b676/packages/quickjs-ng/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/67eb15b676/packages/quickjs-ng/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/c81f9f0fa0/packages/quickjs-ng",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/c81f9f0fa0/packages/quickjs-ng/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/c81f9f0fa0/packages/quickjs-ng/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -45280,15 +45280,15 @@
   },
   {
     "name": "yq",
-    "version": "4.53.4",
+    "version": "4.53.6",
     "description": "A lightweight and portable command-line YAML, JSON and XML processor",
     "homepage": "https://mikefarah.gitbook.io/yq/",
     "depends": [],
-    "srcurl": "https://github.com/mikefarah/yq/archive/refs/tags/v4.53.4.tar.gz",
+    "srcurl": "https://github.com/mikefarah/yq/archive/refs/tags/v4.53.6.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/64fb4cec50/packages/yq",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/64fb4cec50/packages/yq/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/64fb4cec50/packages/yq/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/e08f9bb8c7/packages/yq",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/e08f9bb8c7/packages/yq/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/e08f9bb8c7/packages/yq/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -45507,22 +45507,22 @@
   },
   {
     "name": "zellij",
-    "version": "0.44.3",
+    "version": "0.45.0",
     "description": "A terminal workspace with batteries included",
     "homepage": "https://zellij.dev/",
     "depends": [],
-    "srcurl": "https://github.com/zellij-org/zellij/archive/refs/tags/v0.44.3.tar.gz",
+    "srcurl": "https://github.com/zellij-org/zellij/archive/refs/tags/v0.45.0.tar.gz",
     "maintainer": "Jonathan Lei <me@xjonathan.dev>",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/e1dc6f6cda/packages/zellij",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/e1dc6f6cda/packages/zellij/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/e1dc6f6cda/packages/zellij/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/1ff20bbab1/packages/zellij",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/1ff20bbab1/packages/zellij/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/1ff20bbab1/packages/zellij/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/e1dc6f6cda/packages/zellij/0001-curl-sys-0.4.78-curl-8.11.0.patch",
-      "https://github.com/zrsx/termux-ng/blob/e1dc6f6cda/packages/zellij/prefix.patch"
+      "https://github.com/zrsx/termux-ng/blob/1ff20bbab1/packages/zellij/0001-curl-sys-0.4.78-curl-8.11.0.patch",
+      "https://github.com/zrsx/termux-ng/blob/1ff20bbab1/packages/zellij/prefix.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/e1dc6f6cda/packages/zellij/0001-curl-sys-0.4.78-curl-8.11.0.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/e1dc6f6cda/packages/zellij/prefix.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/1ff20bbab1/packages/zellij/0001-curl-sys-0.4.78-curl-8.11.0.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/1ff20bbab1/packages/zellij/prefix.patch"
     ],
     "auto_updated": true
   },
