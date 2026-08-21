@@ -24292,7 +24292,7 @@
   },
   {
     "name": "llama-cpp",
-    "version": "b10545",
+    "version": "b10549",
     "description": "LLM inference in C/C++",
     "homepage": "https://github.com/ggml-org/llama.cpp",
     "depends": [
@@ -24300,18 +24300,18 @@
       "libc++",
       "libcurl"
     ],
-    "srcurl": "https://github.com/ggml-org/llama.cpp/archive/refs/tags/b10545.tar.gz",
+    "srcurl": "https://github.com/ggml-org/llama.cpp/archive/refs/tags/b10549.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/47bba27ad2/packages/llama-cpp",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/47bba27ad2/packages/llama-cpp/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/47bba27ad2/packages/llama-cpp/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/1f2d1d5844/packages/llama-cpp",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/1f2d1d5844/packages/llama-cpp/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/1f2d1d5844/packages/llama-cpp/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/47bba27ad2/packages/llama-cpp/0001-search-dirs.patch",
-      "https://github.com/zrsx/termux-ng/blob/47bba27ad2/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
+      "https://github.com/zrsx/termux-ng/blob/1f2d1d5844/packages/llama-cpp/0001-search-dirs.patch",
+      "https://github.com/zrsx/termux-ng/blob/1f2d1d5844/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/47bba27ad2/packages/llama-cpp/0001-search-dirs.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/47bba27ad2/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/1f2d1d5844/packages/llama-cpp/0001-search-dirs.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/1f2d1d5844/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
     ],
     "auto_updated": true
   },
@@ -47032,15 +47032,15 @@
   },
   {
     "name": "nexttrace",
-    "version": "1.7.2",
+    "version": "1.7.3",
     "description": "An open source visual routing tool that pursues light weight",
     "homepage": "https://github.com/nxtrace/Ntrace-V1",
     "depends": [],
-    "srcurl": "https://github.com/nxtrace/Ntrace-V1/archive/refs/tags/v1.7.2.tar.gz",
+    "srcurl": "https://github.com/nxtrace/Ntrace-V1/archive/refs/tags/v1.7.3.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/2e10147401/root-packages/nexttrace",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/2e10147401/root-packages/nexttrace/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/2e10147401/root-packages/nexttrace/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/e13a161ff3/root-packages/nexttrace",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/e13a161ff3/root-packages/nexttrace/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/e13a161ff3/root-packages/nexttrace/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
