@@ -7405,20 +7405,20 @@
   },
   {
     "name": "ed",
-    "version": "1.22.5",
+    "version": "1.22.6",
     "description": "Classic UNIX line editor",
     "homepage": "https://www.gnu.org/software/ed/",
     "depends": [],
-    "srcurl": "https://mirrors.kernel.org/gnu/ed/ed-1.22.5.tar.lz",
+    "srcurl": "https://mirrors.kernel.org/gnu/ed/ed-1.22.6.tar.lz",
     "maintainer": "Oliver Schmidhauser @Neo-Oli",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/118d5bcf92/packages/ed",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/118d5bcf92/packages/ed/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/118d5bcf92/packages/ed/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/0486aca8b6/packages/ed",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/0486aca8b6/packages/ed/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/0486aca8b6/packages/ed/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/118d5bcf92/packages/ed/configure.patch"
+      "https://github.com/zrsx/termux-ng/blob/0486aca8b6/packages/ed/configure.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/118d5bcf92/packages/ed/configure.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/0486aca8b6/packages/ed/configure.patch"
     ],
     "auto_updated": true
   },
@@ -13998,7 +13998,7 @@
   },
   {
     "name": "jackett",
-    "version": "0.24.2424",
+    "version": "0.24.2434",
     "description": "API Support for your favorite torrent trackers",
     "homepage": "https://github.com/jackett/jackett",
     "depends": [
@@ -14006,11 +14006,11 @@
       "dotnet-host",
       "dotnet-runtime-9.0"
     ],
-    "srcurl": "https://github.com/Jackett/Jackett/archive/refs/tags/v0.24.2424.tar.gz",
+    "srcurl": "https://github.com/Jackett/Jackett/archive/refs/tags/v0.24.2434.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/07d91c8718/packages/jackett",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/07d91c8718/packages/jackett/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/07d91c8718/packages/jackett/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/d912e21d25/packages/jackett",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/d912e21d25/packages/jackett/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/d912e21d25/packages/jackett/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -16217,15 +16217,15 @@
   },
   {
     "name": "libcap-ng",
-    "version": "2:0.9.4",
+    "version": "2:0.9.5",
     "description": "Library making programming with POSIX capabilities easier than traditional libcap",
     "homepage": "https://people.redhat.com/sgrubb/libcap-ng/",
     "depends": [],
-    "srcurl": "https://github.com/stevegrubb/libcap-ng/archive/refs/tags/v0.9.4.tar.gz",
+    "srcurl": "https://github.com/stevegrubb/libcap-ng/archive/refs/tags/v0.9.5.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/b24454a105/packages/libcap-ng",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/b24454a105/packages/libcap-ng/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/b24454a105/packages/libcap-ng/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/d8211aaea6/packages/libcap-ng",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/d8211aaea6/packages/libcap-ng/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/d8211aaea6/packages/libcap-ng/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
