@@ -19038,17 +19038,17 @@
   },
   {
     "name": "libmatio",
-    "version": "1.5.30",
+    "version": "1.6.0",
     "description": "A C library for reading and writing Matlab MAT files",
     "homepage": "https://github.com/tbeu/matio",
     "depends": [
       "zlib"
     ],
-    "srcurl": "https://github.com/tbeu/matio/archive/refs/tags/v1.5.30.tar.gz",
+    "srcurl": "https://github.com/tbeu/matio/archive/refs/tags/v1.6.0.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/9347ce8030/packages/libmatio",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/9347ce8030/packages/libmatio/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/9347ce8030/packages/libmatio/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/8ca9442271/packages/libmatio",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/8ca9442271/packages/libmatio/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/8ca9442271/packages/libmatio/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
