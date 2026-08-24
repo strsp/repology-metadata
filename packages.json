@@ -47266,7 +47266,7 @@
   },
   {
     "name": "squashfuse",
-    "version": "0.6.2",
+    "version": "0.6.3",
     "description": "FUSE filesystem to mount squashfs archives",
     "homepage": "https://github.com/vasi/squashfuse",
     "depends": [
@@ -47277,16 +47277,16 @@
       "zlib",
       "zstd"
     ],
-    "srcurl": "https://github.com/vasi/squashfuse/archive/refs/tags/0.6.2.tar.gz",
+    "srcurl": "https://github.com/vasi/squashfuse/archive/refs/tags/0.6.3.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/704d1bcac5/root-packages/squashfuse",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/704d1bcac5/root-packages/squashfuse/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/704d1bcac5/root-packages/squashfuse/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/b78ef9396b/root-packages/squashfuse",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/b78ef9396b/root-packages/squashfuse/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/b78ef9396b/root-packages/squashfuse/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/704d1bcac5/root-packages/squashfuse/Makefile.am.patch"
+      "https://github.com/zrsx/termux-ng/blob/b78ef9396b/root-packages/squashfuse/Makefile.am.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/704d1bcac5/root-packages/squashfuse/Makefile.am.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/b78ef9396b/root-packages/squashfuse/Makefile.am.patch"
     ],
     "auto_updated": true
   },
