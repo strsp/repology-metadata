@@ -44162,20 +44162,20 @@
   },
   {
     "name": "watchexec",
-    "version": "2.6.1",
+    "version": "2.7.0",
     "description": "Executes commands in response to file modifications",
     "homepage": "https://github.com/watchexec/watchexec",
     "depends": [],
-    "srcurl": "https://github.com/watchexec/watchexec/archive/refs/tags/v2.6.1.tar.gz",
+    "srcurl": "https://github.com/watchexec/watchexec/archive/refs/tags/v2.7.0.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/8f26c4b249/packages/watchexec",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/8f26c4b249/packages/watchexec/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/8f26c4b249/packages/watchexec/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/6428aa15e1/packages/watchexec",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/6428aa15e1/packages/watchexec/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/6428aa15e1/packages/watchexec/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/8f26c4b249/packages/watchexec/notify-rust-bump-zbus.diff"
+      "https://github.com/zrsx/termux-ng/blob/6428aa15e1/packages/watchexec/notify-rust-bump-zbus.diff"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/8f26c4b249/packages/watchexec/notify-rust-bump-zbus.diff"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/6428aa15e1/packages/watchexec/notify-rust-bump-zbus.diff"
     ],
     "auto_updated": true
   },
