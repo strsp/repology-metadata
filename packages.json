@@ -5701,26 +5701,26 @@
   },
   {
     "name": "dart",
-    "version": "3.13.1",
+    "version": "3.13.2",
     "description": "Dart is a general-purpose programming language",
     "homepage": "https://dart.dev/",
     "depends": [],
-    "srcurl": "https://github.com/dart-lang/sdk/archive/refs/tags/3.13.1.tar.gz",
+    "srcurl": "https://github.com/dart-lang/sdk/archive/refs/tags/3.13.2.tar.gz",
     "maintainer": "@0x1ACA663",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/90ae3af681/packages/dart",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/90ae3af681/packages/dart/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/90ae3af681/packages/dart/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/c6ce2a9bb7/packages/dart",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/c6ce2a9bb7/packages/dart/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/c6ce2a9bb7/packages/dart/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/90ae3af681/packages/dart/sdk-pkg-_fe_analyzer_shared-lib-src-util-colors.dart.patch",
-      "https://github.com/zrsx/termux-ng/blob/90ae3af681/packages/dart/sdk-runtime-bin-directory_linux.cc.patch",
-      "https://github.com/zrsx/termux-ng/blob/90ae3af681/packages/dart/sdk-runtime-vm-os_android.cc.patch",
-      "https://github.com/zrsx/termux-ng/blob/90ae3af681/packages/dart/sdk-sdk-lib-_internal-vm-bin-process_patch.dart.patch"
+      "https://github.com/zrsx/termux-ng/blob/c6ce2a9bb7/packages/dart/sdk-pkg-_fe_analyzer_shared-lib-src-util-colors.dart.patch",
+      "https://github.com/zrsx/termux-ng/blob/c6ce2a9bb7/packages/dart/sdk-runtime-bin-directory_linux.cc.patch",
+      "https://github.com/zrsx/termux-ng/blob/c6ce2a9bb7/packages/dart/sdk-runtime-vm-os_android.cc.patch",
+      "https://github.com/zrsx/termux-ng/blob/c6ce2a9bb7/packages/dart/sdk-sdk-lib-_internal-vm-bin-process_patch.dart.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/90ae3af681/packages/dart/sdk-pkg-_fe_analyzer_shared-lib-src-util-colors.dart.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/90ae3af681/packages/dart/sdk-runtime-bin-directory_linux.cc.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/90ae3af681/packages/dart/sdk-runtime-vm-os_android.cc.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/90ae3af681/packages/dart/sdk-sdk-lib-_internal-vm-bin-process_patch.dart.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/c6ce2a9bb7/packages/dart/sdk-pkg-_fe_analyzer_shared-lib-src-util-colors.dart.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/c6ce2a9bb7/packages/dart/sdk-runtime-bin-directory_linux.cc.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/c6ce2a9bb7/packages/dart/sdk-runtime-vm-os_android.cc.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/c6ce2a9bb7/packages/dart/sdk-sdk-lib-_internal-vm-bin-process_patch.dart.patch"
     ],
     "auto_updated": true
   },
@@ -7112,15 +7112,15 @@
   },
   {
     "name": "dua",
-    "version": "2.42.1",
+    "version": "2.43.0",
     "description": "View disk space usage and delete unwanted data, fast",
     "homepage": "https://github.com/Byron/dua-cli",
     "depends": [],
-    "srcurl": "https://github.com/Byron/dua-cli/archive/refs/tags/v2.42.1.tar.gz",
+    "srcurl": "https://github.com/Byron/dua-cli/archive/refs/tags/v2.43.0.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/16450f43a4/packages/dua",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/16450f43a4/packages/dua/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/16450f43a4/packages/dua/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/27ca4fec9b/packages/dua",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/27ca4fec9b/packages/dua/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/27ca4fec9b/packages/dua/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -24292,7 +24292,7 @@
   },
   {
     "name": "llama-cpp",
-    "version": "v0.2.0",
+    "version": "v0.3.0",
     "description": "LLM inference in C/C++",
     "homepage": "https://github.com/ggml-org/llama.cpp",
     "depends": [
@@ -24300,18 +24300,18 @@
       "libc++",
       "libcurl"
     ],
-    "srcurl": "https://github.com/ggml-org/llama.cpp/archive/refs/tags/v0.2.0.tar.gz",
+    "srcurl": "https://github.com/ggml-org/llama.cpp/archive/refs/tags/v0.3.0.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/85d8530a94/packages/llama-cpp",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/85d8530a94/packages/llama-cpp/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/85d8530a94/packages/llama-cpp/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/4e2505b1e4/packages/llama-cpp",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/4e2505b1e4/packages/llama-cpp/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/4e2505b1e4/packages/llama-cpp/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/85d8530a94/packages/llama-cpp/0001-search-dirs.patch",
-      "https://github.com/zrsx/termux-ng/blob/85d8530a94/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
+      "https://github.com/zrsx/termux-ng/blob/4e2505b1e4/packages/llama-cpp/0001-search-dirs.patch",
+      "https://github.com/zrsx/termux-ng/blob/4e2505b1e4/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/85d8530a94/packages/llama-cpp/0001-search-dirs.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/85d8530a94/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/4e2505b1e4/packages/llama-cpp/0001-search-dirs.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/4e2505b1e4/packages/llama-cpp/0002-do-not-install-backend-libs.patch"
     ],
     "auto_updated": true
   },
@@ -29888,20 +29888,20 @@
   },
   {
     "name": "oh-my-posh",
-    "version": "30.6.5",
+    "version": "30.7.0",
     "description": "A prompt theme engine for any shell.",
     "homepage": "https://ohmyposh.dev",
     "depends": [],
-    "srcurl": "https://github.com/JanDeDobbeleer/oh-my-posh/archive/refs/tags/v30.6.5.tar.gz",
+    "srcurl": "https://github.com/JanDeDobbeleer/oh-my-posh/archive/refs/tags/v30.7.0.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/2adda2abd3/packages/oh-my-posh",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/2adda2abd3/packages/oh-my-posh/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/2adda2abd3/packages/oh-my-posh/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/974db3532c/packages/oh-my-posh",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/974db3532c/packages/oh-my-posh/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/974db3532c/packages/oh-my-posh/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/2adda2abd3/packages/oh-my-posh/issue-26712.patch"
+      "https://github.com/zrsx/termux-ng/blob/974db3532c/packages/oh-my-posh/issue-26712.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/2adda2abd3/packages/oh-my-posh/issue-26712.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/974db3532c/packages/oh-my-posh/issue-26712.patch"
     ],
     "auto_updated": true
   },
@@ -35668,17 +35668,17 @@
   },
   {
     "name": "remind",
-    "version": "1:06.03.00",
+    "version": "1:06.03.01",
     "description": "Sophisticated calendar and alarm program",
     "homepage": "https://dianne.skoll.ca/projects/remind/",
     "depends": [
       "libandroid-glob"
     ],
-    "srcurl": "https://dianne.skoll.ca/projects/remind/download/remind-06.03.00.tar.gz",
+    "srcurl": "https://dianne.skoll.ca/projects/remind/download/remind-06.03.01.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/1f22da8272/packages/remind",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/1f22da8272/packages/remind/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/1f22da8272/packages/remind/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/5b46ec87f2/packages/remind",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/5b46ec87f2/packages/remind/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/5b46ec87f2/packages/remind/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
