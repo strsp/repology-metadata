@@ -8880,15 +8880,15 @@
   },
   {
     "name": "flyctl",
-    "version": "0.4.87",
+    "version": "0.4.90",
     "description": "Command line tools for fly.io services",
     "homepage": "https://fly.io",
     "depends": [],
-    "srcurl": "https://github.com/superfly/flyctl/archive/refs/tags/v0.4.87.tar.gz",
+    "srcurl": "https://github.com/superfly/flyctl/archive/refs/tags/v0.4.90.tar.gz",
     "maintainer": "Yaksh Bariya <thunder-coding@termux.dev>",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/87d5c4b120/packages/flyctl",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/87d5c4b120/packages/flyctl/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/87d5c4b120/packages/flyctl/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/0e2b30d2f3/packages/flyctl",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/0e2b30d2f3/packages/flyctl/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/0e2b30d2f3/packages/flyctl/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -18678,17 +18678,17 @@
   },
   {
     "name": "libksba",
-    "version": "1.8.0",
+    "version": "1.8.1",
     "description": "Library for using X.509 certificates and CMS (Cryptographic Message Syntax) easily accessible",
     "homepage": "https://gnupg.org/related_software/libksba/",
     "depends": [
       "libgpg-error"
     ],
-    "srcurl": "https://www.gnupg.org/ftp/gcrypt/libksba/libksba-1.8.0.tar.bz2",
+    "srcurl": "https://www.gnupg.org/ftp/gcrypt/libksba/libksba-1.8.1.tar.bz2",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/a0f60b8efc/packages/libksba",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/a0f60b8efc/packages/libksba/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/a0f60b8efc/packages/libksba/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/b4329b394a/packages/libksba",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/b4329b394a/packages/libksba/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/b4329b394a/packages/libksba/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
