@@ -14870,17 +14870,17 @@
   },
   {
     "name": "kubecolor",
-    "version": "0.6.0",
+    "version": "0.7.1",
     "description": "Colorize your kubectl output",
     "homepage": "https://github.com/kubecolor/kubecolor",
     "depends": [
       "kubectl"
     ],
-    "srcurl": "https://github.com/kubecolor/kubecolor/archive/refs/tags/v0.6.0.tar.gz",
+    "srcurl": "https://github.com/kubecolor/kubecolor/archive/refs/tags/v0.7.1.tar.gz",
     "maintainer": "Kalle Fagerberg @applejag",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/b9f92c5419/packages/kubecolor",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/b9f92c5419/packages/kubecolor/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/b9f92c5419/packages/kubecolor/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/8cea193515/packages/kubecolor",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/8cea193515/packages/kubecolor/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/8cea193515/packages/kubecolor/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -22998,24 +22998,24 @@
   },
   {
     "name": "libvpx",
-    "version": "1:1.16.0",
+    "version": "1:1.17.0",
     "description": "VP8 & VP9 Codec SDK",
     "homepage": "https://www.webmproject.org",
     "depends": [
       "libc++"
     ],
-    "srcurl": "https://github.com/webmproject/libvpx/archive/refs/tags/v1.16.0.tar.gz",
+    "srcurl": "https://github.com/webmproject/libvpx/archive/refs/tags/v1.17.0.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/81409a1201/packages/libvpx",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/81409a1201/packages/libvpx/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/81409a1201/packages/libvpx/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/aaf5e35b26/packages/libvpx",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/aaf5e35b26/packages/libvpx/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/aaf5e35b26/packages/libvpx/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/81409a1201/packages/libvpx/build-make-configure.sh.patch",
-      "https://github.com/zrsx/termux-ng/blob/81409a1201/packages/libvpx/configure.patch"
+      "https://github.com/zrsx/termux-ng/blob/aaf5e35b26/packages/libvpx/build-make-configure.sh.patch",
+      "https://github.com/zrsx/termux-ng/blob/aaf5e35b26/packages/libvpx/configure.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/81409a1201/packages/libvpx/build-make-configure.sh.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/81409a1201/packages/libvpx/configure.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/aaf5e35b26/packages/libvpx/build-make-configure.sh.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/aaf5e35b26/packages/libvpx/configure.patch"
     ],
     "auto_updated": true
   },
