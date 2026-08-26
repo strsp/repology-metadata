@@ -8298,15 +8298,15 @@
   },
   {
     "name": "fd",
-    "version": "10.4.2",
+    "version": "10.5.0",
     "description": "Simple, fast and user-friendly alternative to find",
     "homepage": "https://github.com/sharkdp/fd",
     "depends": [],
-    "srcurl": "https://github.com/sharkdp/fd/archive/refs/tags/v10.4.2.tar.gz",
+    "srcurl": "https://github.com/sharkdp/fd/archive/refs/tags/v10.5.0.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/bae31aa502/packages/fd",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/bae31aa502/packages/fd/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/bae31aa502/packages/fd/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/59a4274e18/packages/fd",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/59a4274e18/packages/fd/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/59a4274e18/packages/fd/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -15619,20 +15619,20 @@
   },
   {
     "name": "libaom",
-    "version": "3.14.1",
+    "version": "3.15.0",
     "description": "AV1 Video Codec Library",
     "homepage": "https://aomedia.org/",
     "depends": [],
-    "srcurl": "https://storage.googleapis.com/aom-releases/libaom-3.14.1.tar.gz",
+    "srcurl": "https://storage.googleapis.com/aom-releases/libaom-3.15.0.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/ad660b886a/packages/libaom",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/ad660b886a/packages/libaom/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/ad660b886a/packages/libaom/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/02efab410b/packages/libaom",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/02efab410b/packages/libaom/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/02efab410b/packages/libaom/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/ad660b886a/packages/libaom/arm_cpudetect-always-neon.patch"
+      "https://github.com/zrsx/termux-ng/blob/02efab410b/packages/libaom/arm_cpudetect-always-neon.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/ad660b886a/packages/libaom/arm_cpudetect-always-neon.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/02efab410b/packages/libaom/arm_cpudetect-always-neon.patch"
     ],
     "auto_updated": true
   },
@@ -21760,23 +21760,23 @@
   },
   {
     "name": "libsrt",
-    "version": "1.5.6a",
+    "version": "1.5.7",
     "description": "Secure Reliable Transport (SRT) Protocol",
     "homepage": "https://github.com/Haivision/srt",
     "depends": [
       "libc++",
       "openssl"
     ],
-    "srcurl": "https://github.com/Haivision/srt/archive/refs/tags/v1.5.6a.tar.gz",
+    "srcurl": "https://github.com/Haivision/srt/archive/refs/tags/v1.5.7.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/b7a656033a/packages/libsrt",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/b7a656033a/packages/libsrt/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/b7a656033a/packages/libsrt/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/c4ce6358b5/packages/libsrt",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/c4ce6358b5/packages/libsrt/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/c4ce6358b5/packages/libsrt/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/b7a656033a/packages/libsrt/scripts-srt.pc.in.patch"
+      "https://github.com/zrsx/termux-ng/blob/c4ce6358b5/packages/libsrt/scripts-srt.pc.in.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/b7a656033a/packages/libsrt/scripts-srt.pc.in.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/c4ce6358b5/packages/libsrt/scripts-srt.pc.in.patch"
     ],
     "auto_updated": true
   },
@@ -25732,15 +25732,15 @@
   },
   {
     "name": "matterircd",
-    "version": "0.31.0",
+    "version": "0.32.0",
     "description": "Connect to your mattermost or slack using your IRC-client of choice",
     "homepage": "https://github.com/42wim/matterircd",
     "depends": [],
-    "srcurl": "https://github.com/42wim/matterircd/archive/refs/tags/v0.31.0.tar.gz",
+    "srcurl": "https://github.com/42wim/matterircd/archive/refs/tags/v0.32.0.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/46491f0f29/packages/matterircd",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/46491f0f29/packages/matterircd/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/46491f0f29/packages/matterircd/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/91d33a53b8/packages/matterircd",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/91d33a53b8/packages/matterircd/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/91d33a53b8/packages/matterircd/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
