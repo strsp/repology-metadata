@@ -8880,15 +8880,15 @@
   },
   {
     "name": "flyctl",
-    "version": "0.4.91",
+    "version": "0.4.93",
     "description": "Command line tools for fly.io services",
     "homepage": "https://fly.io",
     "depends": [],
-    "srcurl": "https://github.com/superfly/flyctl/archive/refs/tags/v0.4.91.tar.gz",
+    "srcurl": "https://github.com/superfly/flyctl/archive/refs/tags/v0.4.93.tar.gz",
     "maintainer": "Yaksh Bariya <thunder-coding@termux.dev>",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/bb853106e3/packages/flyctl",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/bb853106e3/packages/flyctl/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/bb853106e3/packages/flyctl/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/3a220af7b1/packages/flyctl",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/3a220af7b1/packages/flyctl/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/3a220af7b1/packages/flyctl/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -10464,15 +10464,15 @@
   },
   {
     "name": "glab-cli",
-    "version": "1.114.0",
+    "version": "1.115.0",
     "description": "A GitLab CLI tool bringing GitLab to your command line",
     "homepage": "https://gitlab.com/gitlab-org/cli",
     "depends": [],
-    "srcurl": "https://gitlab.com/gitlab-org/cli/-/archive/v1.114.0/cli-1.114.0.tar.bz2",
+    "srcurl": "https://gitlab.com/gitlab-org/cli/-/archive/v1.115.0/cli-1.115.0.tar.bz2",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/8765c48b1d/packages/glab-cli",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/8765c48b1d/packages/glab-cli/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/8765c48b1d/packages/glab-cli/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/f2eba0ccf2/packages/glab-cli",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/f2eba0ccf2/packages/glab-cli/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/f2eba0ccf2/packages/glab-cli/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -27141,20 +27141,20 @@
   },
   {
     "name": "moor",
-    "version": "2.17.0",
+    "version": "2.18.0",
     "description": "A pager designed to just do the right thing without any configuration",
     "homepage": "https://github.com/walles/moor",
     "depends": [],
-    "srcurl": "https://github.com/walles/moor/archive/refs/tags/v2.17.0.tar.gz",
+    "srcurl": "https://github.com/walles/moor/archive/refs/tags/v2.18.0.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/38bb0dc9c9/packages/moor",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/38bb0dc9c9/packages/moor/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/38bb0dc9c9/packages/moor/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/4594c56b45/packages/moor",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/4594c56b45/packages/moor/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/4594c56b45/packages/moor/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/38bb0dc9c9/packages/moor/default-editor.patch"
+      "https://github.com/zrsx/termux-ng/blob/4594c56b45/packages/moor/default-editor.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/38bb0dc9c9/packages/moor/default-editor.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/4594c56b45/packages/moor/default-editor.patch"
     ],
     "auto_updated": true
   },
