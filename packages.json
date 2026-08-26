@@ -40838,22 +40838,22 @@
   },
   {
     "name": "tinymist",
-    "version": "0.15.2",
+    "version": "0.15.4",
     "description": "An integrated language service for Typst",
     "homepage": "https://myriad-dreamin.github.io/tinymist",
     "depends": [
       "openssl"
     ],
-    "srcurl": "https://github.com/Myriad-Dreamin/tinymist/archive/refs/tags/v0.15.2.tar.gz",
+    "srcurl": "https://github.com/Myriad-Dreamin/tinymist/archive/refs/tags/v0.15.4.tar.gz",
     "maintainer": "Joshua Kahn <tom@termux.dev>",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/3100b267ab/packages/tinymist",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/3100b267ab/packages/tinymist/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/3100b267ab/packages/tinymist/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/9a9338b589/packages/tinymist",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/9a9338b589/packages/tinymist/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/9a9338b589/packages/tinymist/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/3100b267ab/packages/tinymist/crates-tinymist-cli-Cargo.toml.patch"
+      "https://github.com/zrsx/termux-ng/blob/9a9338b589/packages/tinymist/crates-tinymist-cli-Cargo.toml.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/3100b267ab/packages/tinymist/crates-tinymist-cli-Cargo.toml.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/9a9338b589/packages/tinymist/crates-tinymist-cli-Cargo.toml.patch"
     ],
     "auto_updated": true
   },
