@@ -2522,15 +2522,15 @@
   },
   {
     "name": "biome2",
-    "version": "2.5.10",
+    "version": "2.5.11",
     "description": "A toolchain for web projects, aimed to provide functionalities to maintain them. Biome offers formatter and linter, usable via CLI and LSP",
     "homepage": "https://biomejs.dev/",
     "depends": [],
-    "srcurl": "https://github.com/biomejs/biome/archive/refs/tags/@biomejs/biome@2.5.10.tar.gz",
+    "srcurl": "https://github.com/biomejs/biome/archive/refs/tags/@biomejs/biome@2.5.11.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/f7a591c6b4/packages/biome2",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/f7a591c6b4/packages/biome2/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/f7a591c6b4/packages/biome2/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/508fcea4fa/packages/biome2",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/508fcea4fa/packages/biome2/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/508fcea4fa/packages/biome2/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -11457,15 +11457,15 @@
   },
   {
     "name": "gotify",
-    "version": "3.0.0",
+    "version": "3.1.0",
     "description": "A simple server for sending and receiving messages in real-time per WebSocket.",
     "homepage": "https://github.com/gotify/server",
     "depends": [],
-    "srcurl": "https://github.com/gotify/server/archive/refs/tags/v3.0.0.tar.gz",
+    "srcurl": "https://github.com/gotify/server/archive/refs/tags/v3.1.0.tar.gz",
     "maintainer": "Izumi Sena Sora <info@unordinary.eu.org>",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/8e5392d2f8/packages/gotify",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/8e5392d2f8/packages/gotify/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/8e5392d2f8/packages/gotify/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/42ede3eed4/packages/gotify",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/42ede3eed4/packages/gotify/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/42ede3eed4/packages/gotify/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -17849,7 +17849,7 @@
   },
   {
     "name": "libgrpc",
-    "version": "1.83.0",
+    "version": "1.83.1",
     "description": "High performance, open source, general RPC framework that puts mobile and HTTP/2 first",
     "homepage": "https://grpc.io/",
     "depends": [
@@ -17865,20 +17865,20 @@
     ],
     "srcurl": "git+https://github.com/grpc/grpc",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/dac80b82ee/packages/libgrpc",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/dac80b82ee/packages/libgrpc/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/dac80b82ee/packages/libgrpc/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/ffb1022916/packages/libgrpc",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/ffb1022916/packages/libgrpc/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/ffb1022916/packages/libgrpc/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/dac80b82ee/packages/libgrpc/CMakeLists.txt.patch",
-      "https://github.com/zrsx/termux-ng/blob/dac80b82ee/packages/libgrpc/src-core-credentials-transport-tls-load_system_roots_supported.cc.patch",
-      "https://github.com/zrsx/termux-ng/blob/dac80b82ee/packages/libgrpc/src-core-credentials-transport-tls-ssl_utils.cc.patch",
-      "https://github.com/zrsx/termux-ng/blob/dac80b82ee/packages/libgrpc/src-core-lib-gpr-tmpfile_posix.cc.patch"
+      "https://github.com/zrsx/termux-ng/blob/ffb1022916/packages/libgrpc/CMakeLists.txt.patch",
+      "https://github.com/zrsx/termux-ng/blob/ffb1022916/packages/libgrpc/src-core-credentials-transport-tls-load_system_roots_supported.cc.patch",
+      "https://github.com/zrsx/termux-ng/blob/ffb1022916/packages/libgrpc/src-core-credentials-transport-tls-ssl_utils.cc.patch",
+      "https://github.com/zrsx/termux-ng/blob/ffb1022916/packages/libgrpc/src-core-lib-gpr-tmpfile_posix.cc.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/dac80b82ee/packages/libgrpc/CMakeLists.txt.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/dac80b82ee/packages/libgrpc/src-core-credentials-transport-tls-load_system_roots_supported.cc.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/dac80b82ee/packages/libgrpc/src-core-credentials-transport-tls-ssl_utils.cc.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/dac80b82ee/packages/libgrpc/src-core-lib-gpr-tmpfile_posix.cc.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/ffb1022916/packages/libgrpc/CMakeLists.txt.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/ffb1022916/packages/libgrpc/src-core-credentials-transport-tls-load_system_roots_supported.cc.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/ffb1022916/packages/libgrpc/src-core-credentials-transport-tls-ssl_utils.cc.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/ffb1022916/packages/libgrpc/src-core-lib-gpr-tmpfile_posix.cc.patch"
     ],
     "auto_updated": true
   },
@@ -29566,7 +29566,7 @@
   },
   {
     "name": "npm",
-    "version": "11.19.0",
+    "version": "11.19.1",
     "description": "The package manager for JavaScript",
     "homepage": "https://docs.npmjs.com/cli/",
     "depends": [
@@ -29574,9 +29574,9 @@
     ],
     "srcurl": "git+https://github.com/npm/cli.git",
     "maintainer": "Yaksh Bariya <thunder-coding@termux.dev>",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/ffd61fc938/packages/npm",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/ffd61fc938/packages/npm/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/ffd61fc938/packages/npm/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/e10879bc92/packages/npm",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/e10879bc92/packages/npm/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/e10879bc92/packages/npm/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -29888,20 +29888,20 @@
   },
   {
     "name": "oh-my-posh",
-    "version": "30.8.1",
+    "version": "30.9.0",
     "description": "A prompt theme engine for any shell.",
     "homepage": "https://ohmyposh.dev",
     "depends": [],
-    "srcurl": "https://github.com/JanDeDobbeleer/oh-my-posh/archive/refs/tags/v30.8.1.tar.gz",
+    "srcurl": "https://github.com/JanDeDobbeleer/oh-my-posh/archive/refs/tags/v30.9.0.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/d3047ea52e/packages/oh-my-posh",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/d3047ea52e/packages/oh-my-posh/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/d3047ea52e/packages/oh-my-posh/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/905f525ef8/packages/oh-my-posh",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/905f525ef8/packages/oh-my-posh/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/905f525ef8/packages/oh-my-posh/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/d3047ea52e/packages/oh-my-posh/issue-26712.patch"
+      "https://github.com/zrsx/termux-ng/blob/905f525ef8/packages/oh-my-posh/issue-26712.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/d3047ea52e/packages/oh-my-posh/issue-26712.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/905f525ef8/packages/oh-my-posh/issue-26712.patch"
     ],
     "auto_updated": true
   },
@@ -42751,22 +42751,22 @@
   },
   {
     "name": "upx",
-    "version": "5.2.0",
+    "version": "5.2.1",
     "description": "the Ultimate Packer for eXecutables",
     "homepage": "https://upx.github.io/",
     "depends": [
       "libc++"
     ],
-    "srcurl": "https://github.com/upx/upx/releases/download/v5.2.0/upx-5.2.0-src.tar.xz",
+    "srcurl": "https://github.com/upx/upx/releases/download/v5.2.1/upx-5.2.1-src.tar.xz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/9341f13f41/packages/upx",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/9341f13f41/packages/upx/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/9341f13f41/packages/upx/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/dde8b1dc75/packages/upx",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/dde8b1dc75/packages/upx/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/dde8b1dc75/packages/upx/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/9341f13f41/packages/upx/src-util-snprintf.patch"
+      "https://github.com/zrsx/termux-ng/blob/dde8b1dc75/packages/upx/src-util-snprintf.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/9341f13f41/packages/upx/src-util-snprintf.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/dde8b1dc75/packages/upx/src-util-snprintf.patch"
     ],
     "auto_updated": true
   },
@@ -44021,15 +44021,15 @@
   },
   {
     "name": "wakatime-cli",
-    "version": "2.24.4",
+    "version": "2.25.0",
     "description": "Command line interface used by all WakaTime text editor plugins",
     "homepage": "https://wakatime.com/plugins/",
     "depends": [],
-    "srcurl": "https://github.com/wakatime/wakatime-cli/archive/refs/tags/v2.24.4.tar.gz",
+    "srcurl": "https://github.com/wakatime/wakatime-cli/archive/refs/tags/v2.25.0.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/64b5ac1f34/packages/wakatime-cli",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/64b5ac1f34/packages/wakatime-cli/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/64b5ac1f34/packages/wakatime-cli/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/6874483836/packages/wakatime-cli",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/6874483836/packages/wakatime-cli/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/6874483836/packages/wakatime-cli/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
