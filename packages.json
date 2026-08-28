@@ -5198,15 +5198,15 @@
   },
   {
     "name": "croc",
-    "version": "1:11.3.2",
+    "version": "1:11.3.3",
     "description": "Easily and securely send things from one computer to another",
     "homepage": "https://github.com/schollz/croc",
     "depends": [],
-    "srcurl": "https://github.com/schollz/croc/archive/refs/tags/v11.3.2.tar.gz",
+    "srcurl": "https://github.com/schollz/croc/archive/refs/tags/v11.3.3.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/88c0e46af8/packages/croc",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/88c0e46af8/packages/croc/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/88c0e46af8/packages/croc/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/7fea1064a9/packages/croc",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/7fea1064a9/packages/croc/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/7fea1064a9/packages/croc/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -5931,20 +5931,20 @@
   },
   {
     "name": "debianutils",
-    "version": "5.23.2",
+    "version": "5.24",
     "description": "Small utilities which are used primarily by the installation scripts of Debian packages",
     "homepage": "https://packages.debian.org/debianutils",
     "depends": [],
-    "srcurl": "https://deb.debian.org/debian/pool/main/d/debianutils/debianutils_5.23.2.tar.xz",
+    "srcurl": "https://deb.debian.org/debian/pool/main/d/debianutils/debianutils_5.24.tar.xz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/45cea5eecf/packages/debianutils",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/45cea5eecf/packages/debianutils/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/45cea5eecf/packages/debianutils/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/785b8eda77/packages/debianutils",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/785b8eda77/packages/debianutils/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/785b8eda77/packages/debianutils/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/45cea5eecf/packages/debianutils/Makefile.am.patch"
+      "https://github.com/zrsx/termux-ng/blob/785b8eda77/packages/debianutils/Makefile.am.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/45cea5eecf/packages/debianutils/Makefile.am.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/785b8eda77/packages/debianutils/Makefile.am.patch"
     ],
     "auto_updated": true
   },
@@ -8880,15 +8880,15 @@
   },
   {
     "name": "flyctl",
-    "version": "0.4.94",
+    "version": "0.4.95",
     "description": "Command line tools for fly.io services",
     "homepage": "https://fly.io",
     "depends": [],
-    "srcurl": "https://github.com/superfly/flyctl/archive/refs/tags/v0.4.94.tar.gz",
+    "srcurl": "https://github.com/superfly/flyctl/archive/refs/tags/v0.4.95.tar.gz",
     "maintainer": "Yaksh Bariya <thunder-coding@termux.dev>",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/b64070c1c1/packages/flyctl",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/b64070c1c1/packages/flyctl/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/b64070c1c1/packages/flyctl/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/66704097d1/packages/flyctl",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/66704097d1/packages/flyctl/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/66704097d1/packages/flyctl/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -10313,15 +10313,15 @@
   },
   {
     "name": "git-lfs",
-    "version": "3.7.1",
+    "version": "3.8.0",
     "description": "Git extension for versioning large files",
     "homepage": "https://git-lfs.github.com/",
     "depends": [],
-    "srcurl": "https://github.com/git-lfs/git-lfs/archive/refs/tags/v3.7.1.tar.gz",
+    "srcurl": "https://github.com/git-lfs/git-lfs/archive/refs/tags/v3.8.0.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/91fad586ce/packages/git-lfs",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/91fad586ce/packages/git-lfs/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/91fad586ce/packages/git-lfs/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/f6dfd03f18/packages/git-lfs",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/f6dfd03f18/packages/git-lfs/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/f6dfd03f18/packages/git-lfs/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -13998,7 +13998,7 @@
   },
   {
     "name": "jackett",
-    "version": "0.24.2481",
+    "version": "0.24.2486",
     "description": "API Support for your favorite torrent trackers",
     "homepage": "https://github.com/jackett/jackett",
     "depends": [
@@ -14006,11 +14006,11 @@
       "dotnet-host",
       "dotnet-runtime-9.0"
     ],
-    "srcurl": "https://github.com/Jackett/Jackett/archive/refs/tags/v0.24.2481.tar.gz",
+    "srcurl": "https://github.com/Jackett/Jackett/archive/refs/tags/v0.24.2486.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/1bed3786f2/packages/jackett",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/1bed3786f2/packages/jackett/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/1bed3786f2/packages/jackett/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/63c65b4175/packages/jackett",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/63c65b4175/packages/jackett/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/63c65b4175/packages/jackett/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -34979,7 +34979,7 @@
   },
   {
     "name": "qpdf",
-    "version": "12.4.0",
+    "version": "12.4.1",
     "description": "Content-Preserving PDF Transformation System",
     "homepage": "http://qpdf.sourceforge.net",
     "depends": [
@@ -34987,11 +34987,11 @@
       "libjpeg-turbo",
       "zlib"
     ],
-    "srcurl": "https://github.com/qpdf/qpdf/releases/download/v12.4.0/qpdf-12.4.0.tar.gz",
+    "srcurl": "https://github.com/qpdf/qpdf/releases/download/v12.4.1/qpdf-12.4.1.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/d093ee00d3/packages/qpdf",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/d093ee00d3/packages/qpdf/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/d093ee00d3/packages/qpdf/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/ea6b844fe4/packages/qpdf",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/ea6b844fe4/packages/qpdf/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/ea6b844fe4/packages/qpdf/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -42969,17 +42969,17 @@
   },
   {
     "name": "uv",
-    "version": "0.12.6",
+    "version": "0.12.7",
     "description": "An extremely fast Python package installer and resolver, written in Rust.",
     "homepage": "https://docs.astral.sh/uv/",
     "depends": [
       "zstd"
     ],
-    "srcurl": "https://github.com/astral-sh/uv/archive/refs/tags/0.12.6.tar.gz",
+    "srcurl": "https://github.com/astral-sh/uv/archive/refs/tags/0.12.7.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/c5f7c8f193/packages/uv",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/c5f7c8f193/packages/uv/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/c5f7c8f193/packages/uv/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/bf51e89478/packages/uv",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/bf51e89478/packages/uv/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/bf51e89478/packages/uv/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -43802,15 +43802,15 @@
   },
   {
     "name": "vulkan-headers",
-    "version": "1.4.360",
+    "version": "1.4.361",
     "description": "Vulkan Header files and API registry",
     "homepage": "https://github.com/KhronosGroup/Vulkan-Headers",
     "depends": [],
-    "srcurl": "https://github.com/KhronosGroup/Vulkan-Headers/archive/refs/tags/v1.4.360.tar.gz",
+    "srcurl": "https://github.com/KhronosGroup/Vulkan-Headers/archive/refs/tags/v1.4.361.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/82aaf4c04b/packages/vulkan-headers",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/82aaf4c04b/packages/vulkan-headers/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/82aaf4c04b/packages/vulkan-headers/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/3f9a005b2b/packages/vulkan-headers",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/3f9a005b2b/packages/vulkan-headers/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/3f9a005b2b/packages/vulkan-headers/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -43864,22 +43864,22 @@
   },
   {
     "name": "vulkan-loader",
-    "version": "1.4.360",
+    "version": "1.4.361",
     "description": "Vulkan Loader",
     "homepage": "https://github.com/KhronosGroup/Vulkan-Loader",
     "depends": [],
-    "srcurl": "https://github.com/KhronosGroup/Vulkan-Loader/archive/refs/tags/v1.4.360.tar.gz",
+    "srcurl": "https://github.com/KhronosGroup/Vulkan-Loader/archive/refs/tags/v1.4.361.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/495c353636/packages/vulkan-loader-generic",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/495c353636/packages/vulkan-loader-generic/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/495c353636/packages/vulkan-loader-generic/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/36e0174279/packages/vulkan-loader-generic",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/36e0174279/packages/vulkan-loader-generic/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/36e0174279/packages/vulkan-loader-generic/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/495c353636/packages/vulkan-loader-generic/0001-fix-hardcoded-pathes.patch",
-      "https://github.com/zrsx/termux-ng/blob/495c353636/packages/vulkan-loader-generic/0002-properly-enable-extensions.patch"
+      "https://github.com/zrsx/termux-ng/blob/36e0174279/packages/vulkan-loader-generic/0001-fix-hardcoded-pathes.patch",
+      "https://github.com/zrsx/termux-ng/blob/36e0174279/packages/vulkan-loader-generic/0002-properly-enable-extensions.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/495c353636/packages/vulkan-loader-generic/0001-fix-hardcoded-pathes.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/495c353636/packages/vulkan-loader-generic/0002-properly-enable-extensions.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/36e0174279/packages/vulkan-loader-generic/0001-fix-hardcoded-pathes.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/36e0174279/packages/vulkan-loader-generic/0002-properly-enable-extensions.patch"
     ],
     "auto_updated": true
   },
@@ -43914,20 +43914,20 @@
   },
   {
     "name": "vulkan-utility-libraries",
-    "version": "1.4.360",
+    "version": "1.4.361",
     "description": "Utility Libraries for Vulkan",
     "homepage": "https://github.com/KhronosGroup/Vulkan-Utility-Libraries",
     "depends": [],
-    "srcurl": "https://github.com/KhronosGroup/Vulkan-Utility-Libraries/archive/refs/tags/v1.4.360.tar.gz",
+    "srcurl": "https://github.com/KhronosGroup/Vulkan-Utility-Libraries/archive/refs/tags/v1.4.361.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/373b082aae/packages/vulkan-utility-libraries",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/373b082aae/packages/vulkan-utility-libraries/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/373b082aae/packages/vulkan-utility-libraries/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/9d0c949e9f/packages/vulkan-utility-libraries",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/9d0c949e9f/packages/vulkan-utility-libraries/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/9d0c949e9f/packages/vulkan-utility-libraries/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/373b082aae/packages/vulkan-utility-libraries/0001-do-not-build-for-android.patch"
+      "https://github.com/zrsx/termux-ng/blob/9d0c949e9f/packages/vulkan-utility-libraries/0001-do-not-build-for-android.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/373b082aae/packages/vulkan-utility-libraries/0001-do-not-build-for-android.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/9d0c949e9f/packages/vulkan-utility-libraries/0001-do-not-build-for-android.patch"
     ],
     "auto_updated": true
   },
@@ -45507,22 +45507,22 @@
   },
   {
     "name": "zellij",
-    "version": "0.45.0",
+    "version": "0.45.1",
     "description": "A terminal workspace with batteries included",
     "homepage": "https://zellij.dev/",
     "depends": [],
-    "srcurl": "https://github.com/zellij-org/zellij/archive/refs/tags/v0.45.0.tar.gz",
+    "srcurl": "https://github.com/zellij-org/zellij/archive/refs/tags/v0.45.1.tar.gz",
     "maintainer": "Jonathan Lei <me@xjonathan.dev>",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/1ff20bbab1/packages/zellij",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/1ff20bbab1/packages/zellij/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/1ff20bbab1/packages/zellij/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/b828e64938/packages/zellij",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/b828e64938/packages/zellij/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/b828e64938/packages/zellij/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/1ff20bbab1/packages/zellij/0001-curl-sys-0.4.78-curl-8.11.0.patch",
-      "https://github.com/zrsx/termux-ng/blob/1ff20bbab1/packages/zellij/prefix.patch"
+      "https://github.com/zrsx/termux-ng/blob/b828e64938/packages/zellij/0001-curl-sys-0.4.78-curl-8.11.0.patch",
+      "https://github.com/zrsx/termux-ng/blob/b828e64938/packages/zellij/prefix.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/1ff20bbab1/packages/zellij/0001-curl-sys-0.4.78-curl-8.11.0.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/1ff20bbab1/packages/zellij/prefix.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/b828e64938/packages/zellij/0001-curl-sys-0.4.78-curl-8.11.0.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/b828e64938/packages/zellij/prefix.patch"
     ],
     "auto_updated": true
   },
