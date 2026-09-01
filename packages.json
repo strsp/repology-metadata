@@ -18466,22 +18466,22 @@
   },
   {
     "name": "libjanet",
-    "version": "1.41.2",
+    "version": "1.42.0",
     "description": "Development library for Janet",
     "homepage": "https://janet-lang.org",
     "depends": [
       "libandroid-spawn"
     ],
-    "srcurl": "https://github.com/janet-lang/janet/archive/refs/tags/v1.41.2.tar.gz",
+    "srcurl": "https://github.com/janet-lang/janet/archive/refs/tags/v1.42.0.tar.gz",
     "maintainer": "Komo @mbekkomo",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/57f0f56112/packages/libjanet",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/57f0f56112/packages/libjanet/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/57f0f56112/packages/libjanet/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/4c982f4a13/packages/libjanet",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/4c982f4a13/packages/libjanet/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/4c982f4a13/packages/libjanet/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/57f0f56112/packages/libjanet/Makefile.patch.beforehostbuild"
+      "https://github.com/zrsx/termux-ng/blob/4c982f4a13/packages/libjanet/Makefile.patch.beforehostbuild"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/57f0f56112/packages/libjanet/Makefile.patch.beforehostbuild"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/4c982f4a13/packages/libjanet/Makefile.patch.beforehostbuild"
     ],
     "auto_updated": true
   },
@@ -43123,35 +43123,35 @@
   },
   {
     "name": "valkey",
-    "version": "9.1.1",
+    "version": "9.1.2",
     "description": "In-memory data structure store used as a database, cache and message broker",
     "homepage": "https://valkey.io/",
     "depends": [
       "libandroid-execinfo",
       "libandroid-glob"
     ],
-    "srcurl": "https://github.com/valkey-io/valkey/archive/refs/tags/9.1.1.tar.gz",
+    "srcurl": "https://github.com/valkey-io/valkey/archive/refs/tags/9.1.2.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/8bb009879a/packages/valkey",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/8bb009879a/packages/valkey/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/8bb009879a/packages/valkey/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/b7ec16c831/packages/valkey",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/b7ec16c831/packages/valkey/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/b7ec16c831/packages/valkey/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/8bb009879a/packages/valkey/fix-cflags.patch",
-      "https://github.com/zrsx/termux-ng/blob/8bb009879a/packages/valkey/fix-deps-lua.patch",
-      "https://github.com/zrsx/termux-ng/blob/8bb009879a/packages/valkey/fix-unused-variable-static-assert-i686.patch",
-      "https://github.com/zrsx/termux-ng/blob/8bb009879a/packages/valkey/pthread_cancel.patch",
-      "https://github.com/zrsx/termux-ng/blob/8bb009879a/packages/valkey/rename-struct-user.patch",
-      "https://github.com/zrsx/termux-ng/blob/8bb009879a/packages/valkey/setproctitle.patch",
-      "https://github.com/zrsx/termux-ng/blob/8bb009879a/packages/valkey/valkey.conf.patch"
+      "https://github.com/zrsx/termux-ng/blob/b7ec16c831/packages/valkey/fix-cflags.patch",
+      "https://github.com/zrsx/termux-ng/blob/b7ec16c831/packages/valkey/fix-deps-lua.patch",
+      "https://github.com/zrsx/termux-ng/blob/b7ec16c831/packages/valkey/fix-unused-variable-static-assert-i686.patch",
+      "https://github.com/zrsx/termux-ng/blob/b7ec16c831/packages/valkey/pthread_cancel.patch",
+      "https://github.com/zrsx/termux-ng/blob/b7ec16c831/packages/valkey/rename-struct-user.patch",
+      "https://github.com/zrsx/termux-ng/blob/b7ec16c831/packages/valkey/setproctitle.patch",
+      "https://github.com/zrsx/termux-ng/blob/b7ec16c831/packages/valkey/valkey.conf.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/8bb009879a/packages/valkey/fix-cflags.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/8bb009879a/packages/valkey/fix-deps-lua.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/8bb009879a/packages/valkey/fix-unused-variable-static-assert-i686.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/8bb009879a/packages/valkey/pthread_cancel.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/8bb009879a/packages/valkey/rename-struct-user.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/8bb009879a/packages/valkey/setproctitle.patch",
-      "https://raw.githubusercontent.com/zrsx/termux-ng/8bb009879a/packages/valkey/valkey.conf.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/b7ec16c831/packages/valkey/fix-cflags.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/b7ec16c831/packages/valkey/fix-deps-lua.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/b7ec16c831/packages/valkey/fix-unused-variable-static-assert-i686.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/b7ec16c831/packages/valkey/pthread_cancel.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/b7ec16c831/packages/valkey/rename-struct-user.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/b7ec16c831/packages/valkey/setproctitle.patch",
+      "https://raw.githubusercontent.com/zrsx/termux-ng/b7ec16c831/packages/valkey/valkey.conf.patch"
     ],
     "auto_updated": true
   },
