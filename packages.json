@@ -6509,15 +6509,15 @@
   },
   {
     "name": "dnscontrol",
-    "version": "5.0.2",
+    "version": "5.0.3",
     "description": "Infrastructure as code for DNS!",
     "homepage": "https://github.com/StackExchange/dnscontrol",
     "depends": [],
-    "srcurl": "https://github.com/StackExchange/dnscontrol/archive/refs/tags/v5.0.2.tar.gz",
+    "srcurl": "https://github.com/StackExchange/dnscontrol/archive/refs/tags/v5.0.3.tar.gz",
     "maintainer": "Izumi Sena Sora <info@unordinary.eu.org>",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/6f59d7ee9f/packages/dnscontrol",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/6f59d7ee9f/packages/dnscontrol/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/6f59d7ee9f/packages/dnscontrol/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/a79e50ca51/packages/dnscontrol",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/a79e50ca51/packages/dnscontrol/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/a79e50ca51/packages/dnscontrol/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -10033,20 +10033,20 @@
   },
   {
     "name": "gh",
-    "version": "2.99.0",
+    "version": "2.100.0",
     "description": "GitHub’s official command line tool",
     "homepage": "https://cli.github.com/",
     "depends": [],
-    "srcurl": "https://github.com/cli/cli/archive/refs/tags/v2.99.0.tar.gz",
+    "srcurl": "https://github.com/cli/cli/archive/refs/tags/v2.100.0.tar.gz",
     "maintainer": "Krishna kanhaiya @kcubeterm",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/99ccc935a5/packages/gh",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/99ccc935a5/packages/gh/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/99ccc935a5/packages/gh/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/1b21264e72/packages/gh",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/1b21264e72/packages/gh/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/1b21264e72/packages/gh/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/99ccc935a5/packages/gh/001-use-sh-for-extensions.patch"
+      "https://github.com/zrsx/termux-ng/blob/1b21264e72/packages/gh/001-use-sh-for-extensions.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/99ccc935a5/packages/gh/001-use-sh-for-extensions.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/1b21264e72/packages/gh/001-use-sh-for-extensions.patch"
     ],
     "auto_updated": true
   },
@@ -47802,7 +47802,7 @@
   },
   {
     "name": "2bwm",
-    "version": "0.3",
+    "version": "0.4",
     "description": "A fast floating WM",
     "homepage": "https://github.com/venam/2bwm",
     "depends": [
@@ -47811,16 +47811,16 @@
       "xcb-util-wm",
       "xcb-util-xrm"
     ],
-    "srcurl": "https://github.com/venam/2bwm/archive/refs/tags/v0.3.tar.gz",
+    "srcurl": "https://github.com/venam/2bwm/archive/refs/tags/v0.4.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/ae7ca33535/x11-packages/2bwm",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/ae7ca33535/x11-packages/2bwm/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/ae7ca33535/x11-packages/2bwm/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/40411e10e8/x11-packages/2bwm",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/40411e10e8/x11-packages/2bwm/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/40411e10e8/x11-packages/2bwm/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/ae7ca33535/x11-packages/2bwm/Makefile.patch"
+      "https://github.com/zrsx/termux-ng/blob/40411e10e8/x11-packages/2bwm/Makefile.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/ae7ca33535/x11-packages/2bwm/Makefile.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/40411e10e8/x11-packages/2bwm/Makefile.patch"
     ],
     "auto_updated": true
   },
