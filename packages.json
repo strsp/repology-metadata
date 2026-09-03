@@ -16717,17 +16717,17 @@
   },
   {
     "name": "libde265",
-    "version": "1.1.1",
+    "version": "1.1.2",
     "description": "H.265/HEVC video stream decoder library",
     "homepage": "https://github.com/strukturag/libde265",
     "depends": [
       "libc++"
     ],
-    "srcurl": "https://github.com/strukturag/libde265/releases/download/v1.1.1/libde265-1.1.1.tar.gz",
+    "srcurl": "https://github.com/strukturag/libde265/releases/download/v1.1.2/libde265-1.1.2.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/3b112c29d5/packages/libde265",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/3b112c29d5/packages/libde265/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/3b112c29d5/packages/libde265/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/5b63097725/packages/libde265",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/5b63097725/packages/libde265/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/5b63097725/packages/libde265/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -31047,7 +31047,7 @@
   },
   {
     "name": "openxr",
-    "version": "1.1.62",
+    "version": "1.1.63",
     "description": "Open standard that provides a common set of APIs for developing XR applications",
     "homepage": "https://www.khronos.org/openxr/",
     "depends": [
@@ -31059,16 +31059,16 @@
       "libxxf86vm",
       "opengl"
     ],
-    "srcurl": "https://github.com/KhronosGroup/OpenXR-SDK-Source/releases/download/release-1.1.62/OpenXR-SDK-Source-release-1.1.62.tar.gz",
+    "srcurl": "https://github.com/KhronosGroup/OpenXR-SDK-Source/releases/download/release-1.1.63/OpenXR-SDK-Source-release-1.1.63.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/f2b5c254ea/packages/openxr",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/f2b5c254ea/packages/openxr/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/f2b5c254ea/packages/openxr/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/931a4aa04e/packages/openxr",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/931a4aa04e/packages/openxr/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/931a4aa04e/packages/openxr/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/f2b5c254ea/packages/openxr/no-glslc.patch"
+      "https://github.com/zrsx/termux-ng/blob/931a4aa04e/packages/openxr/no-glslc.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/f2b5c254ea/packages/openxr/no-glslc.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/931a4aa04e/packages/openxr/no-glslc.patch"
     ],
     "auto_updated": true
   },
@@ -43069,15 +43069,15 @@
   },
   {
     "name": "vale",
-    "version": "3.19.0",
+    "version": "3.20.0",
     "description": "A syntax-aware linter for prose built with speed and extensibility in mind",
     "homepage": "https://vale.sh",
     "depends": [],
-    "srcurl": "https://github.com/errata-ai/vale/archive/refs/tags/v3.19.0.tar.gz",
+    "srcurl": "https://github.com/errata-ai/vale/archive/refs/tags/v3.20.0.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/fccd4aa809/packages/vale",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/fccd4aa809/packages/vale/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/fccd4aa809/packages/vale/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/54018f8b5e/packages/vale",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/54018f8b5e/packages/vale/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/54018f8b5e/packages/vale/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
