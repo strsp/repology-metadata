@@ -2522,15 +2522,15 @@
   },
   {
     "name": "biome2",
-    "version": "2.5.11",
+    "version": "2.5.12",
     "description": "A toolchain for web projects, aimed to provide functionalities to maintain them. Biome offers formatter and linter, usable via CLI and LSP",
     "homepage": "https://biomejs.dev/",
     "depends": [],
-    "srcurl": "https://github.com/biomejs/biome/archive/refs/tags/@biomejs/biome@2.5.11.tar.gz",
+    "srcurl": "https://github.com/biomejs/biome/archive/refs/tags/@biomejs/biome@2.5.12.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/508fcea4fa/packages/biome2",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/508fcea4fa/packages/biome2/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/508fcea4fa/packages/biome2/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/9fb11f2dee/packages/biome2",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/9fb11f2dee/packages/biome2/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/9fb11f2dee/packages/biome2/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -13998,7 +13998,7 @@
   },
   {
     "name": "jackett",
-    "version": "0.24.2520",
+    "version": "0.24.2527",
     "description": "API Support for your favorite torrent trackers",
     "homepage": "https://github.com/jackett/jackett",
     "depends": [
@@ -14006,11 +14006,11 @@
       "dotnet-host",
       "dotnet-runtime-9.0"
     ],
-    "srcurl": "https://github.com/Jackett/Jackett/archive/refs/tags/v0.24.2520.tar.gz",
+    "srcurl": "https://github.com/Jackett/Jackett/archive/refs/tags/v0.24.2527.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/27219e23fc/packages/jackett",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/27219e23fc/packages/jackett/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/27219e23fc/packages/jackett/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/b10b262f8e/packages/jackett",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/b10b262f8e/packages/jackett/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/b10b262f8e/packages/jackett/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -44162,20 +44162,20 @@
   },
   {
     "name": "watchexec",
-    "version": "2.7.0",
+    "version": "2.7.1",
     "description": "Executes commands in response to file modifications",
     "homepage": "https://github.com/watchexec/watchexec",
     "depends": [],
-    "srcurl": "https://github.com/watchexec/watchexec/archive/refs/tags/v2.7.0.tar.gz",
+    "srcurl": "https://github.com/watchexec/watchexec/archive/refs/tags/v2.7.1.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/6428aa15e1/packages/watchexec",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/6428aa15e1/packages/watchexec/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/6428aa15e1/packages/watchexec/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/6ec69fac85/packages/watchexec",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/6ec69fac85/packages/watchexec/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/6ec69fac85/packages/watchexec/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/6428aa15e1/packages/watchexec/notify-rust-bump-zbus.diff"
+      "https://github.com/zrsx/termux-ng/blob/6ec69fac85/packages/watchexec/notify-rust-bump-zbus.diff"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/6428aa15e1/packages/watchexec/notify-rust-bump-zbus.diff"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/6ec69fac85/packages/watchexec/notify-rust-bump-zbus.diff"
     ],
     "auto_updated": true
   },
