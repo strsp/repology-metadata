@@ -3988,15 +3988,15 @@
   },
   {
     "name": "cgal",
-    "version": "6.2",
+    "version": "6.2.1",
     "description": "Computational Geometry Algorithms Library",
     "homepage": "https://www.cgal.org/",
     "depends": [],
-    "srcurl": "https://github.com/CGAL/cgal/releases/download/v6.2/CGAL-6.2.tar.xz",
+    "srcurl": "https://github.com/CGAL/cgal/releases/download/v6.2.1/CGAL-6.2.1.tar.xz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/0c3ab65a8c/packages/cgal",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/0c3ab65a8c/packages/cgal/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/0c3ab65a8c/packages/cgal/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/d548c912ab/packages/cgal",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/d548c912ab/packages/cgal/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/d548c912ab/packages/cgal/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -39488,7 +39488,7 @@
   },
   {
     "name": "swig",
-    "version": "4.4.1",
+    "version": "4.5.1",
     "description": "Generate scripting interfaces to C/C++ code",
     "homepage": "https://swig.org",
     "depends": [
@@ -39496,11 +39496,11 @@
       "pcre2",
       "zlib"
     ],
-    "srcurl": "https://downloads.sourceforge.net/swig/swig-4.4.1.tar.gz",
+    "srcurl": "https://downloads.sourceforge.net/swig/swig-4.5.1.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/412098fc18/packages/swig",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/412098fc18/packages/swig/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/412098fc18/packages/swig/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/511aae2543/packages/swig",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/511aae2543/packages/swig/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/511aae2543/packages/swig/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
