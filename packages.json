@@ -33516,18 +33516,18 @@
   },
   {
     "name": "ptex",
-    "version": "2.5.2",
+    "version": "2.5.4",
     "description": "Per-Face Texture Mapping for Production Rendering",
     "homepage": "https://github.com/wdas/ptex",
     "depends": [
       "libc++",
       "libdeflate"
     ],
-    "srcurl": "https://github.com/wdas/ptex/archive/refs/tags/v2.5.2.tar.gz",
+    "srcurl": "https://github.com/wdas/ptex/archive/refs/tags/v2.5.4.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/90d1dadbd0/packages/ptex",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/90d1dadbd0/packages/ptex/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/90d1dadbd0/packages/ptex/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/18a0b01c85/packages/ptex",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/18a0b01c85/packages/ptex/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/18a0b01c85/packages/ptex/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -35371,20 +35371,20 @@
   },
   {
     "name": "rclone",
-    "version": "1.75.0",
+    "version": "1.75.1",
     "description": "rsync for cloud storage",
     "homepage": "https://rclone.org/",
     "depends": [],
-    "srcurl": "https://github.com/rclone/rclone/releases/download/v1.75.0/rclone-v1.75.0.tar.gz",
+    "srcurl": "https://github.com/rclone/rclone/releases/download/v1.75.1/rclone-v1.75.1.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/daaf8bc3b2/packages/rclone",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/daaf8bc3b2/packages/rclone/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/daaf8bc3b2/packages/rclone/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/63f6a15c2e/packages/rclone",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/63f6a15c2e/packages/rclone/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/63f6a15c2e/packages/rclone/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/daaf8bc3b2/packages/rclone/autocomplete_path.patch"
+      "https://github.com/zrsx/termux-ng/blob/63f6a15c2e/packages/rclone/autocomplete_path.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/daaf8bc3b2/packages/rclone/autocomplete_path.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/63f6a15c2e/packages/rclone/autocomplete_path.patch"
     ],
     "auto_updated": true
   },
