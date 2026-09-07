@@ -13998,7 +13998,7 @@
   },
   {
     "name": "jackett",
-    "version": "0.24.2541",
+    "version": "0.24.2544",
     "description": "API Support for your favorite torrent trackers",
     "homepage": "https://github.com/jackett/jackett",
     "depends": [
@@ -14006,11 +14006,11 @@
       "dotnet-host",
       "dotnet-runtime-9.0"
     ],
-    "srcurl": "https://github.com/Jackett/Jackett/archive/refs/tags/v0.24.2541.tar.gz",
+    "srcurl": "https://github.com/Jackett/Jackett/archive/refs/tags/v0.24.2544.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/e426d3071e/packages/jackett",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/e426d3071e/packages/jackett/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/e426d3071e/packages/jackett/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/661febc57d/packages/jackett",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/661febc57d/packages/jackett/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/661febc57d/packages/jackett/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -14375,15 +14375,15 @@
   },
   {
     "name": "jql",
-    "version": "8.1.2",
+    "version": "8.3.0",
     "description": "A JSON Query Language CLI tool",
     "homepage": "https://github.com/yamafaktory/jql",
     "depends": [],
-    "srcurl": "https://github.com/yamafaktory/jql/archive/refs/tags/jql-v8.1.2.tar.gz",
+    "srcurl": "https://github.com/yamafaktory/jql/archive/refs/tags/jql-v8.3.0.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/cccacec2af/packages/jql",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/cccacec2af/packages/jql/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/cccacec2af/packages/jql/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/4e7a8cdf78/packages/jql",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/4e7a8cdf78/packages/jql/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/4e7a8cdf78/packages/jql/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
