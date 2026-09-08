@@ -5198,15 +5198,15 @@
   },
   {
     "name": "croc",
-    "version": "1:11.5.0",
+    "version": "1:11.5.1",
     "description": "Easily and securely send things from one computer to another",
     "homepage": "https://github.com/schollz/croc",
     "depends": [],
-    "srcurl": "https://github.com/schollz/croc/archive/refs/tags/v11.5.0.tar.gz",
+    "srcurl": "https://github.com/schollz/croc/archive/refs/tags/v11.5.1.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/5ee9a87ce5/packages/croc",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/5ee9a87ce5/packages/croc/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/5ee9a87ce5/packages/croc/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/e470cc5549/packages/croc",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/e470cc5549/packages/croc/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/e470cc5549/packages/croc/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -10464,15 +10464,15 @@
   },
   {
     "name": "glab-cli",
-    "version": "1.116.0",
+    "version": "1.117.0",
     "description": "A GitLab CLI tool bringing GitLab to your command line",
     "homepage": "https://gitlab.com/gitlab-org/cli",
     "depends": [],
-    "srcurl": "https://gitlab.com/gitlab-org/cli/-/archive/v1.116.0/cli-1.116.0.tar.bz2",
+    "srcurl": "https://gitlab.com/gitlab-org/cli/-/archive/v1.117.0/cli-1.117.0.tar.bz2",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/6fed21c0bc/packages/glab-cli",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/6fed21c0bc/packages/glab-cli/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/6fed21c0bc/packages/glab-cli/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/530cd80d59/packages/glab-cli",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/530cd80d59/packages/glab-cli/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/530cd80d59/packages/glab-cli/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -14375,15 +14375,15 @@
   },
   {
     "name": "jql",
-    "version": "9.0.0",
+    "version": "9.0.1",
     "description": "A JSON Query Language CLI tool",
     "homepage": "https://github.com/yamafaktory/jql",
     "depends": [],
-    "srcurl": "https://github.com/yamafaktory/jql/archive/refs/tags/jql-v9.0.0.tar.gz",
+    "srcurl": "https://github.com/yamafaktory/jql/archive/refs/tags/jql-v9.0.1.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/10b02d307a/packages/jql",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/10b02d307a/packages/jql/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/10b02d307a/packages/jql/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/a187e4a513/packages/jql",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/a187e4a513/packages/jql/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/a187e4a513/packages/jql/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -40838,22 +40838,22 @@
   },
   {
     "name": "tinymist",
-    "version": "0.15.6",
+    "version": "0.15.8",
     "description": "An integrated language service for Typst",
     "homepage": "https://myriad-dreamin.github.io/tinymist",
     "depends": [
       "openssl"
     ],
-    "srcurl": "https://github.com/Myriad-Dreamin/tinymist/archive/refs/tags/v0.15.6.tar.gz",
+    "srcurl": "https://github.com/Myriad-Dreamin/tinymist/archive/refs/tags/v0.15.8.tar.gz",
     "maintainer": "Joshua Kahn <tom@termux.dev>",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/3638ad5f9e/packages/tinymist",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/3638ad5f9e/packages/tinymist/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/3638ad5f9e/packages/tinymist/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/b0558b8943/packages/tinymist",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/b0558b8943/packages/tinymist/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/b0558b8943/packages/tinymist/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/3638ad5f9e/packages/tinymist/crates-tinymist-cli-Cargo.toml.patch"
+      "https://github.com/zrsx/termux-ng/blob/b0558b8943/packages/tinymist/crates-tinymist-cli-Cargo.toml.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/3638ad5f9e/packages/tinymist/crates-tinymist-cli-Cargo.toml.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/b0558b8943/packages/tinymist/crates-tinymist-cli-Cargo.toml.patch"
     ],
     "auto_updated": true
   },
