@@ -18945,20 +18945,20 @@
   },
   {
     "name": "liblzma",
-    "version": "5.8.3",
+    "version": "5.8.4",
     "description": "XZ-format compression library",
     "homepage": "https://tukaani.org/xz/",
     "depends": [],
-    "srcurl": "https://github.com/tukaani-project/xz/releases/download/v5.8.3/xz-5.8.3.tar.xz",
+    "srcurl": "https://github.com/tukaani-project/xz/releases/download/v5.8.4/xz-5.8.4.tar.xz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/802285dbc9/packages/liblzma",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/802285dbc9/packages/liblzma/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/802285dbc9/packages/liblzma/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/0167a758d7/packages/liblzma",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/0167a758d7/packages/liblzma/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/0167a758d7/packages/liblzma/build.sh",
     "package_patch_urls": [
-      "https://github.com/zrsx/termux-ng/blob/802285dbc9/packages/liblzma/configure.patch"
+      "https://github.com/zrsx/termux-ng/blob/0167a758d7/packages/liblzma/configure.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/zrsx/termux-ng/802285dbc9/packages/liblzma/configure.patch"
+      "https://raw.githubusercontent.com/zrsx/termux-ng/0167a758d7/packages/liblzma/configure.patch"
     ],
     "auto_updated": true
   },
@@ -42969,17 +42969,17 @@
   },
   {
     "name": "uv",
-    "version": "0.12.11",
+    "version": "0.12.12",
     "description": "An extremely fast Python package installer and resolver, written in Rust.",
     "homepage": "https://docs.astral.sh/uv/",
     "depends": [
       "zstd"
     ],
-    "srcurl": "https://github.com/astral-sh/uv/archive/refs/tags/0.12.11.tar.gz",
+    "srcurl": "https://github.com/astral-sh/uv/archive/refs/tags/0.12.12.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/1731ec8eba/packages/uv",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/1731ec8eba/packages/uv/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/1731ec8eba/packages/uv/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/fdf017b19b/packages/uv",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/fdf017b19b/packages/uv/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/fdf017b19b/packages/uv/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
