@@ -12990,17 +12990,17 @@
   },
   {
     "name": "hugo",
-    "version": "0.165.0",
+    "version": "0.166.0",
     "description": "A fast and flexible static site generator",
     "homepage": "https://gohugo.io/",
     "depends": [
       "libc++"
     ],
-    "srcurl": "https://github.com/gohugoio/hugo/archive/refs/tags/v0.165.0.tar.gz",
+    "srcurl": "https://github.com/gohugoio/hugo/archive/refs/tags/v0.166.0.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/186b3e53b3/packages/hugo",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/186b3e53b3/packages/hugo/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/186b3e53b3/packages/hugo/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/ac323d1c83/packages/hugo",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/ac323d1c83/packages/hugo/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/ac323d1c83/packages/hugo/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -16217,15 +16217,15 @@
   },
   {
     "name": "libcap-ng",
-    "version": "2:0.9.5",
+    "version": "2:0.9.6",
     "description": "Library making programming with POSIX capabilities easier than traditional libcap",
     "homepage": "https://people.redhat.com/sgrubb/libcap-ng/",
     "depends": [],
-    "srcurl": "https://github.com/stevegrubb/libcap-ng/archive/refs/tags/v0.9.5.tar.gz",
+    "srcurl": "https://github.com/stevegrubb/libcap-ng/archive/refs/tags/v0.9.6.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/d8211aaea6/packages/libcap-ng",
-    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/d8211aaea6/packages/libcap-ng/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/d8211aaea6/packages/libcap-ng/build.sh",
+    "package_sources_url": "https://github.com/zrsx/termux-ng/tree/c9c61b141f/packages/libcap-ng",
+    "package_recipe_url": "https://github.com/zrsx/termux-ng/blob/c9c61b141f/packages/libcap-ng/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/zrsx/termux-ng/c9c61b141f/packages/libcap-ng/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
